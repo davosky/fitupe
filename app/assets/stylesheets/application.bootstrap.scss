@@ -1,6 +1,10 @@
 $golden: #BC9456;
 $primary: $golden;
 
+// No underline on links, in any state.
+$link-decoration: none;
+$link-hover-decoration: none;
+
 // Self-hosted Asap Condensed replaces Lumen's default Google-hosted Source Sans Pro.
 $web-font-path: false;
 $font-family-sans-serif: "Asap Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
