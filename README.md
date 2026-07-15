@@ -1,24 +1,30 @@
-# README
+# Fitupe
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Fitupe è un'applicazione web per raccogliere e analizzare le iscrizioni al
+sindacato, con l'obiettivo di costruire statistiche coerenti sul loro
+andamento nel tempo. Il nome è l'acronimo di Fisher, Tukey e Pearson, tra
+i più influenti statistici della storia (vedi [FITUPE.md](FITUPE.md) per
+l'origine del nome e del logo).
 
-Things you may want to cover:
+## Stack tecnico
 
-* Ruby version
+- Ruby on Rails 8, PostgreSQL
+- Hotwire (Turbo + Stimulus), Bootstrap + Bootswatch Lumen
+- Devise (autenticazione via username) e Pundit (autorizzazione)
+- Administrate come pannello di amministrazione
+- RSpec, FactoryBot e Capybara per i test
 
-* System dependencies
+## Avvio del progetto
 
-* Configuration
+```bash
+bin/setup   # setup iniziale (dipendenze, database)
+bin/dev     # avvia Rails, il watcher JS (esbuild) e quello CSS (Sass)
+```
 
-* Database creation
+L'applicazione richiede le variabili d'ambiente `DATABASE_HOST`,
+`DATABASE_USER`, `DATABASE_PASSWORD` e `SECRET_KEY_BASE` (vedi `.env`,
+gestite tramite `dotenv-rails`).
 
-* Database initialization
+## Licenza
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Distribuito sotto licenza MIT. Vedi [LICENCE.md](LICENCE.md).
