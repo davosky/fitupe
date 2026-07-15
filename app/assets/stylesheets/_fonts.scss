@@ -1,0 +1,135 @@
+// Asap Condensed - self-hosted, replaces Bootswatch Lumen's Google-hosted Source Sans Pro.
+//
+// Propshaft always requires the content digest baked into the filename for
+// anything served under /assets/ (even in development, undigested requests
+// 404) but this stylesheet is compiled by dart-sass outside the Rails/ERB
+// pipeline, so the digest can't be injected automatically. Regenerate it
+// with `bin/rails runner` if a font file under app/assets/fonts/ ever changes:
+//   Rails.application.assets.load_path.find("AsapCondensed-Regular.ttf").digested_path
+@font-face {
+  font-family: "Asap Condensed";
+  src: url("/assets/AsapCondensed-ExtraLight-02254f63.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap Condensed";
+  src: url("/assets/AsapCondensed-ExtraLightItalic-1b5e377d.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap Condensed";
+  src: url("/assets/AsapCondensed-Light-13d2f9b0.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap Condensed";
+  src: url("/assets/AsapCondensed-LightItalic-e52cd4be.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap Condensed";
+  src: url("/assets/AsapCondensed-Regular-adb5f35e.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap Condensed";
+  src: url("/assets/AsapCondensed-Italic-65bfbfa9.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap Condensed";
+  src: url("/assets/AsapCondensed-Medium-dd31d2f8.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap Condensed";
+  src: url("/assets/AsapCondensed-MediumItalic-b15c0f71.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap Condensed";
+  src: url("/assets/AsapCondensed-SemiBold-9400188c.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap Condensed";
+  src: url("/assets/AsapCondensed-SemiBoldItalic-cb6973bd.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap Condensed";
+  src: url("/assets/AsapCondensed-Bold-91025e25.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap Condensed";
+  src: url("/assets/AsapCondensed-BoldItalic-4939d556.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap Condensed";
+  src: url("/assets/AsapCondensed-ExtraBold-cefd5384.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap Condensed";
+  src: url("/assets/AsapCondensed-ExtraBoldItalic-b03b7561.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap Condensed";
+  src: url("/assets/AsapCondensed-Black-bcf35871.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Asap Condensed";
+  src: url("/assets/AsapCondensed-BlackItalic-751b032f.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}

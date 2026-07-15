@@ -39,6 +39,8 @@ module Fitupe
     config.i18n.default_locale = :it
     config.i18n.available_locales = [ :it, :en ]
 
+    config.assets.paths << Rails.root.join("app", "assets", "fonts")
+
     # Don't generate system test files.
     config.generators.system_tests = nil
 
