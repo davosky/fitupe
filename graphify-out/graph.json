@@ -1,1062 +1,745 @@
 {
   "directed": false,
   "multigraph": false,
-  "graph": {
-    "hyperedges": [
-      {
-        "id": "fitupe_name_origin",
-        "label": "Fisher + Tukey + Pearson form the FiTuPe name",
-        "nodes": [
-          "fitupe_ronald_fisher",
-          "fitupe_karl_pearson",
-          "fitupe_john_tukey",
-          "fitupe_fitupe_name"
-        ],
-        "relation": "form",
-        "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": "FITUPE.md"
-      },
-      {
-        "id": "fitupe_core_stack",
-        "label": "Fitupe auth/authz/admin core stack",
-        "nodes": [
-          "claude_devise",
-          "claude_pundit",
-          "claude_administrate",
-          "claude_fitupe_app"
-        ],
-        "relation": "participate_in",
-        "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": "CLAUDE.md"
-      },
-      {
-        "id": "dev_bootstrap_flow",
-        "label": "Development environment bootstrap sequence",
-        "nodes": [
-          "bin_setup",
-          "bin_rails",
-          "bin_dev"
-        ],
-        "relation": "form",
-        "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": "bin/setup"
-      },
-      {
-        "id": "administrate_user_management_pattern",
-        "label": "Administrate User Management Pattern",
-        "nodes": [
-          "admin_application_controller_application_controller",
-          "admin_users_controller_users_controller",
-          "dashboards_user_dashboard_user_dashboard",
-          "models_user_user"
-        ],
-        "relation": "form",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "app/dashboards/user_dashboard.rb"
-      },
-      {
-        "id": "stimulus_controller_registration_pattern",
-        "label": "Stimulus Controller Registration Flow",
-        "nodes": [
-          "javascript_application_application",
-          "controllers_application_application",
-          "controllers_index",
-          "controllers_hello_controller_hello_controller"
-        ],
-        "relation": "participate_in",
-        "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": "app/javascript/controllers/index.js"
-      },
-      {
-        "id": "pundit_authorization_pattern",
-        "label": "Pundit Authorization Failure Handling",
-        "nodes": [
-          "controllers_application_controller_application_controller",
-          "controllers_application_controller_user_not_authorized",
-          "policies_application_policy_application_policy",
-          "admin_application_controller_authenticate_admin"
-        ],
-        "relation": "form",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "app/controllers/application_controller.rb"
-      },
-      {
-        "id": "solid_stack_production_databases",
-        "label": "Solid Cache/Queue/Cable multi-database production architecture",
-        "nodes": [
-          "config_database_config",
-          "config_cache_config",
-          "config_queue_config",
-          "config_cable_config",
-          "environments_production_config"
-        ],
-        "relation": "participate_in",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "config/database.yml"
-      },
-      {
-        "id": "devise_username_auth_setup",
-        "label": "Devise username-based authentication configuration",
-        "nodes": [
-          "initializers_devise_config",
-          "config_routes_devise_for_users",
-          "locales_it_translations",
-          "locales_devise_en_translations"
-        ],
-        "relation": "participate_in",
-        "confidence": "INFERRED",
-        "confidence_score": 0.8,
-        "source_file": "config/initializers/devise.rb"
-      },
-      {
-        "id": "application_i18n_setup",
-        "label": "Application internationalization (i18n) configuration",
-        "nodes": [
-          "config_application_config",
-          "locales_it_translations",
-          "locales_en_translations",
-          "locales_devise_en_translations"
-        ],
-        "relation": "participate_in",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "config/application.rb"
-      },
-      {
-        "id": "rails_default_error_pages",
-        "label": "Rails default static public error pages",
-        "nodes": [
-          "public_400_error_page",
-          "public_404_error_page",
-          "public_406_unsupported_browser_error_page",
-          "public_422_error_page",
-          "public_500_error_page"
-        ],
-        "relation": "participate_in",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "public/400.html"
-      },
-      {
-        "id": "rspec_test_suite_setup",
-        "label": "RSpec test suite configuration and fixtures",
-        "nodes": [
-          "spec_rails_helper_config",
-          "spec_spec_helper_config",
-          "factories_users_user_factory",
-          "models_user_spec_user_spec",
-          "requests_pages_spec_pages_spec"
-        ],
-        "relation": "form",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "spec/rails_helper.rb"
-      },
-      {
-        "id": "user_data_definition_pipeline",
-        "label": "User schema, migration, seed and factory pipeline",
-        "nodes": [
-          "db_schema_users_table",
-          "migrate_20260715111350_devise_create_users_devisecreateusers",
-          "db_seeds_davo_user",
-          "factories_users_user_factory"
-        ],
-        "relation": "form",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "db/schema.rb"
-      }
-    ]
-  },
+  "graph": {},
   "nodes": [
     {
       "label": "package.json",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L1",
-      "id": "package_json",
-      "community": 5,
-      "norm_label": "package.json"
+      "community": 2,
+      "norm_label": "package.json",
+      "id": "package_json"
     },
     {
       "label": "name",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L2",
-      "id": "fitupe_package_name",
-      "community": 5,
-      "norm_label": "name"
+      "community": 2,
+      "norm_label": "name",
+      "id": "fitupe_package_name"
     },
     {
       "label": "private",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L3",
-      "id": "fitupe_package_private",
-      "community": 5,
-      "norm_label": "private"
+      "community": 2,
+      "norm_label": "private",
+      "id": "fitupe_package_private"
     },
     {
       "label": "devDependencies",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L4",
-      "id": "fitupe_package_devdependencies",
-      "community": 5,
-      "norm_label": "devdependencies"
+      "community": 2,
+      "norm_label": "devdependencies",
+      "id": "fitupe_package_devdependencies"
     },
     {
       "label": "esbuild",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L5",
-      "id": "fitupe_package_devdependencies_esbuild",
-      "community": 5,
-      "norm_label": "esbuild"
+      "community": 2,
+      "norm_label": "esbuild",
+      "id": "fitupe_package_devdependencies_esbuild"
     },
     {
       "label": "scripts",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L7",
-      "id": "fitupe_package_scripts",
-      "community": 5,
-      "norm_label": "scripts"
+      "community": 12,
+      "norm_label": "scripts",
+      "id": "fitupe_package_scripts"
     },
     {
       "label": "build",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L8",
-      "id": "fitupe_package_scripts_build",
-      "community": 5,
-      "norm_label": "build"
+      "community": 12,
+      "norm_label": "build",
+      "id": "fitupe_package_scripts_build"
     },
     {
       "label": "build:css:compile",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L9",
-      "id": "fitupe_package_scripts_build_css_compile",
-      "community": 5,
-      "norm_label": "build:css:compile"
+      "community": 12,
+      "norm_label": "build:css:compile",
+      "id": "fitupe_package_scripts_build_css_compile"
     },
     {
       "label": "build:css:prefix",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L10",
-      "id": "fitupe_package_scripts_build_css_prefix",
-      "community": 5,
-      "norm_label": "build:css:prefix"
+      "community": 12,
+      "norm_label": "build:css:prefix",
+      "id": "fitupe_package_scripts_build_css_prefix"
     },
     {
       "label": "build:css",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L11",
-      "id": "fitupe_package_scripts_build_css",
-      "community": 5,
-      "norm_label": "build:css"
+      "community": 12,
+      "norm_label": "build:css",
+      "id": "fitupe_package_scripts_build_css"
     },
     {
       "label": "watch:css",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L12",
-      "id": "fitupe_package_scripts_watch_css",
-      "community": 5,
-      "norm_label": "watch:css"
+      "community": 12,
+      "norm_label": "watch:css",
+      "id": "fitupe_package_scripts_watch_css"
     },
     {
       "label": "dependencies",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L14",
-      "id": "fitupe_package_dependencies",
-      "community": 4,
-      "norm_label": "dependencies"
+      "community": 2,
+      "norm_label": "dependencies",
+      "id": "fitupe_package_dependencies"
     },
     {
       "label": "@hotwired/stimulus",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L15",
-      "id": "fitupe_package_dependencies_hotwired_stimulus",
-      "community": 4,
-      "norm_label": "@hotwired/stimulus"
+      "community": 2,
+      "norm_label": "@hotwired/stimulus",
+      "id": "fitupe_package_dependencies_hotwired_stimulus"
     },
     {
       "label": "@hotwired/turbo-rails",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L16",
-      "id": "fitupe_package_dependencies_hotwired_turbo_rails",
-      "community": 4,
-      "norm_label": "@hotwired/turbo-rails"
+      "community": 2,
+      "norm_label": "@hotwired/turbo-rails",
+      "id": "fitupe_package_dependencies_hotwired_turbo_rails"
     },
     {
       "label": "@popperjs/core",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L17",
-      "id": "fitupe_package_dependencies_popperjs_core",
-      "community": 4,
-      "norm_label": "@popperjs/core"
+      "community": 2,
+      "norm_label": "@popperjs/core",
+      "id": "fitupe_package_dependencies_popperjs_core"
     },
     {
       "label": "autoprefixer",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L18",
-      "id": "fitupe_package_dependencies_autoprefixer",
-      "community": 4,
-      "norm_label": "autoprefixer"
+      "community": 2,
+      "norm_label": "autoprefixer",
+      "id": "fitupe_package_dependencies_autoprefixer"
     },
     {
       "label": "bootstrap",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L19",
-      "id": "fitupe_package_dependencies_bootstrap",
-      "community": 4,
-      "norm_label": "bootstrap"
-    },
-    {
-      "label": "bootstrap-icons",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L20",
-      "id": "fitupe_package_dependencies_bootstrap_icons",
-      "community": 4,
-      "norm_label": "bootstrap-icons"
+      "community": 2,
+      "norm_label": "bootstrap",
+      "id": "fitupe_package_dependencies_bootstrap"
     },
     {
       "label": "bootswatch",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L21",
-      "id": "fitupe_package_dependencies_bootswatch",
-      "community": 4,
-      "norm_label": "bootswatch"
+      "community": 2,
+      "norm_label": "bootswatch",
+      "id": "fitupe_package_dependencies_bootswatch"
     },
     {
       "label": "nodemon",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L22",
-      "id": "fitupe_package_dependencies_nodemon",
-      "community": 4,
-      "norm_label": "nodemon"
+      "community": 2,
+      "norm_label": "nodemon",
+      "id": "fitupe_package_dependencies_nodemon"
     },
     {
       "label": "postcss",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L23",
-      "id": "fitupe_package_dependencies_postcss",
-      "community": 4,
-      "norm_label": "postcss"
+      "community": 2,
+      "norm_label": "postcss",
+      "id": "fitupe_package_dependencies_postcss"
     },
     {
       "label": "postcss-cli",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L24",
-      "id": "fitupe_package_dependencies_postcss_cli",
-      "community": 4,
-      "norm_label": "postcss-cli"
+      "community": 2,
+      "norm_label": "postcss-cli",
+      "id": "fitupe_package_dependencies_postcss_cli"
     },
     {
       "label": "sass",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L25",
-      "id": "fitupe_package_dependencies_sass",
-      "community": 4,
-      "norm_label": "sass"
+      "community": 2,
+      "norm_label": "sass",
+      "id": "fitupe_package_dependencies_sass"
     },
     {
       "label": "browserslist",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L27",
-      "id": "fitupe_package_browserslist",
-      "community": 5,
-      "norm_label": "browserslist"
+      "community": 2,
+      "norm_label": "browserslist",
+      "id": "fitupe_package_browserslist"
     },
     {
       "label": "boot.rb",
       "file_type": "code",
       "source_file": "config/boot.rb",
       "source_location": "L1",
-      "id": "config_boot_rb",
-      "community": 25,
-      "norm_label": "boot.rb"
+      "community": 18,
+      "norm_label": "boot.rb",
+      "id": "config_boot_rb"
     },
     {
       "label": "routes.rb",
       "file_type": "code",
       "source_file": "config/routes.rb",
       "source_location": "L1",
-      "id": "config_routes_rb",
-      "community": 26,
-      "norm_label": "routes.rb"
+      "community": 19,
+      "norm_label": "routes.rb",
+      "id": "config_routes_rb"
     },
     {
       "label": "ci.rb",
       "file_type": "code",
       "source_file": "config/ci.rb",
       "source_location": "L1",
-      "id": "config_ci_rb",
-      "community": 27,
-      "norm_label": "ci.rb"
+      "community": 20,
+      "norm_label": "ci.rb",
+      "id": "config_ci_rb"
     },
     {
       "label": "environment.rb",
       "file_type": "code",
       "source_file": "config/environment.rb",
       "source_location": "L1",
-      "id": "config_environment_rb",
-      "community": 28,
-      "norm_label": "environment.rb"
+      "community": 21,
+      "norm_label": "environment.rb",
+      "id": "config_environment_rb"
     },
     {
       "label": "application.rb",
       "file_type": "code",
       "source_file": "config/application.rb",
       "source_location": "L1",
-      "id": "config_application_rb",
-      "community": 20,
-      "norm_label": "application.rb"
-    },
-    {
-      "label": "Application",
-      "file_type": "code",
-      "source_file": "config/application.rb",
-      "source_location": "L22",
-      "id": "config_application_application",
-      "community": 20,
-      "norm_label": "application"
+      "community": 3,
+      "norm_label": "application.rb",
+      "id": "config_application_rb"
     },
     {
       "label": "puma.rb",
       "file_type": "code",
       "source_file": "config/puma.rb",
       "source_location": "L1",
-      "id": "config_puma_rb",
-      "community": 29,
-      "norm_label": "puma.rb"
+      "community": 22,
+      "norm_label": "puma.rb",
+      "id": "config_puma_rb"
     },
     {
       "label": "production.rb",
       "file_type": "code",
       "source_file": "config/environments/production.rb",
       "source_location": "L1",
-      "id": "config_environments_production_rb",
-      "community": 30,
-      "norm_label": "production.rb"
+      "community": 23,
+      "norm_label": "production.rb",
+      "id": "config_environments_production_rb"
     },
     {
       "label": "test.rb",
       "file_type": "code",
       "source_file": "config/environments/test.rb",
       "source_location": "L1",
-      "id": "config_environments_test_rb",
-      "community": 31,
-      "norm_label": "test.rb"
+      "community": 24,
+      "norm_label": "test.rb",
+      "id": "config_environments_test_rb"
     },
     {
       "label": "development.rb",
       "file_type": "code",
       "source_file": "config/environments/development.rb",
       "source_location": "L1",
-      "id": "config_environments_development_rb",
-      "community": 32,
-      "norm_label": "development.rb"
+      "community": 25,
+      "norm_label": "development.rb",
+      "id": "config_environments_development_rb"
     },
     {
       "label": "devise.rb",
       "file_type": "code",
       "source_file": "config/initializers/devise.rb",
       "source_location": "L1",
-      "id": "config_initializers_devise_rb",
-      "community": 33,
-      "norm_label": "devise.rb"
+      "community": 26,
+      "norm_label": "devise.rb",
+      "id": "config_initializers_devise_rb"
     },
     {
       "label": "content_security_policy.rb",
       "file_type": "code",
       "source_file": "config/initializers/content_security_policy.rb",
       "source_location": "L1",
-      "id": "config_initializers_content_security_policy_rb",
-      "community": 34,
-      "norm_label": "content_security_policy.rb"
+      "community": 27,
+      "norm_label": "content_security_policy.rb",
+      "id": "config_initializers_content_security_policy_rb"
     },
     {
       "label": "filter_parameter_logging.rb",
       "file_type": "code",
       "source_file": "config/initializers/filter_parameter_logging.rb",
       "source_location": "L1",
-      "id": "config_initializers_filter_parameter_logging_rb",
-      "community": 35,
-      "norm_label": "filter_parameter_logging.rb"
+      "community": 28,
+      "norm_label": "filter_parameter_logging.rb",
+      "id": "config_initializers_filter_parameter_logging_rb"
     },
     {
       "label": "assets.rb",
       "file_type": "code",
       "source_file": "config/initializers/assets.rb",
       "source_location": "L1",
-      "id": "config_initializers_assets_rb",
-      "community": 36,
-      "norm_label": "assets.rb"
+      "community": 29,
+      "norm_label": "assets.rb",
+      "id": "config_initializers_assets_rb"
     },
     {
       "label": "inflections.rb",
       "file_type": "code",
       "source_file": "config/initializers/inflections.rb",
       "source_location": "L1",
-      "id": "config_initializers_inflections_rb",
-      "community": 37,
-      "norm_label": "inflections.rb"
+      "community": 30,
+      "norm_label": "inflections.rb",
+      "id": "config_initializers_inflections_rb"
     },
     {
       "label": "spec_helper.rb",
       "file_type": "code",
       "source_file": "spec/spec_helper.rb",
       "source_location": "L1",
-      "id": "spec_spec_helper_rb",
-      "community": 38,
-      "norm_label": "spec_helper.rb"
+      "community": 31,
+      "norm_label": "spec_helper.rb",
+      "id": "spec_spec_helper_rb"
     },
     {
       "label": "rails_helper.rb",
       "file_type": "code",
       "source_file": "spec/rails_helper.rb",
       "source_location": "L1",
-      "id": "spec_rails_helper_rb",
-      "community": 39,
-      "norm_label": "rails_helper.rb"
+      "community": 32,
+      "norm_label": "rails_helper.rb",
+      "id": "spec_rails_helper_rb"
     },
     {
       "label": "pages_spec.rb",
       "file_type": "code",
       "source_file": "spec/requests/pages_spec.rb",
       "source_location": "L1",
-      "id": "spec_requests_pages_spec_rb",
-      "community": 40,
-      "norm_label": "pages_spec.rb"
+      "community": 33,
+      "norm_label": "pages_spec.rb",
+      "id": "spec_requests_pages_spec_rb"
     },
     {
       "label": "user_spec.rb",
       "file_type": "code",
       "source_file": "spec/models/user_spec.rb",
       "source_location": "L1",
-      "id": "spec_models_user_spec_rb",
-      "community": 41,
-      "norm_label": "user_spec.rb"
+      "community": 34,
+      "norm_label": "user_spec.rb",
+      "id": "spec_models_user_spec_rb"
     },
     {
       "label": "users.rb",
       "file_type": "code",
       "source_file": "spec/factories/users.rb",
       "source_location": "L1",
-      "id": "spec_factories_users_rb",
-      "community": 42,
-      "norm_label": "users.rb"
+      "community": 35,
+      "norm_label": "users.rb",
+      "id": "spec_factories_users_rb"
     },
     {
       "label": "service-worker.js",
       "file_type": "code",
       "source_file": "app/views/pwa/service-worker.js",
       "source_location": "L1",
-      "id": "app_views_pwa_service_worker_js",
-      "community": 43,
-      "norm_label": "service-worker.js"
-    },
-    {
-      "label": "application_policy.rb",
-      "file_type": "code",
-      "source_file": "app/policies/application_policy.rb",
-      "source_location": "L1",
-      "id": "app_policies_application_policy_rb",
-      "community": 2,
-      "norm_label": "application_policy.rb"
-    },
-    {
-      "label": "ApplicationPolicy",
-      "file_type": "code",
-      "source_file": "app/policies/application_policy.rb",
-      "source_location": "L3",
-      "id": "policies_application_policy_applicationpolicy",
-      "community": 2,
-      "norm_label": "applicationpolicy"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/policies/application_policy.rb",
-      "source_location": "L6",
-      "id": "policies_application_policy_applicationpolicy_initialize",
-      "community": 2,
-      "norm_label": ".initialize()"
+      "community": 36,
+      "norm_label": "service-worker.js",
+      "id": "app_views_pwa_service_worker_js"
     },
     {
       "label": ".index?()",
       "file_type": "code",
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L11",
-      "id": "policies_application_policy_applicationpolicy_index",
-      "community": 2,
-      "norm_label": ".index?()"
+      "community": 1,
+      "norm_label": ".index?()",
+      "id": "policies_application_policy_applicationpolicy_index"
     },
     {
       "label": ".show?()",
       "file_type": "code",
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L15",
-      "id": "policies_application_policy_applicationpolicy_show",
-      "community": 2,
-      "norm_label": ".show?()"
+      "community": 1,
+      "norm_label": ".show?()",
+      "id": "policies_application_policy_applicationpolicy_show"
     },
     {
       "label": ".create?()",
       "file_type": "code",
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L19",
-      "id": "policies_application_policy_applicationpolicy_create",
-      "community": 2,
-      "norm_label": ".create?()"
+      "community": 1,
+      "norm_label": ".create?()",
+      "id": "policies_application_policy_applicationpolicy_create"
     },
     {
       "label": ".new?()",
       "file_type": "code",
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L23",
-      "id": "policies_application_policy_applicationpolicy_new",
-      "community": 2,
-      "norm_label": ".new?()"
+      "community": 1,
+      "norm_label": ".new?()",
+      "id": "policies_application_policy_applicationpolicy_new"
     },
     {
       "label": ".update?()",
       "file_type": "code",
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L27",
-      "id": "policies_application_policy_applicationpolicy_update",
-      "community": 2,
-      "norm_label": ".update?()"
+      "community": 1,
+      "norm_label": ".update?()",
+      "id": "policies_application_policy_applicationpolicy_update"
     },
     {
       "label": ".edit?()",
       "file_type": "code",
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L31",
-      "id": "policies_application_policy_applicationpolicy_edit",
-      "community": 2,
-      "norm_label": ".edit?()"
+      "community": 1,
+      "norm_label": ".edit?()",
+      "id": "policies_application_policy_applicationpolicy_edit"
     },
     {
       "label": ".destroy?()",
       "file_type": "code",
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L35",
-      "id": "policies_application_policy_applicationpolicy_destroy",
-      "community": 2,
-      "norm_label": ".destroy?()"
+      "community": 1,
+      "norm_label": ".destroy?()",
+      "id": "policies_application_policy_applicationpolicy_destroy"
     },
     {
       "label": "Scope",
       "file_type": "code",
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L39",
-      "id": "policies_application_policy_scope",
-      "community": 2,
-      "norm_label": "scope"
+      "community": 1,
+      "norm_label": "scope",
+      "id": "policies_application_policy_scope"
     },
     {
       "label": ".initialize()",
       "file_type": "code",
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L40",
-      "id": "policies_application_policy_scope_initialize",
-      "community": 2,
-      "norm_label": ".initialize()"
+      "community": 1,
+      "norm_label": ".initialize()",
+      "id": "policies_application_policy_scope_initialize"
     },
     {
       "label": ".resolve()",
       "file_type": "code",
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L45",
-      "id": "policies_application_policy_scope_resolve",
-      "community": 2,
-      "norm_label": ".resolve()"
+      "community": 1,
+      "norm_label": ".resolve()",
+      "id": "policies_application_policy_scope_resolve"
     },
     {
       "label": ".admin?()",
       "file_type": "code",
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L56",
-      "id": "policies_application_policy_applicationpolicy_admin",
-      "community": 2,
-      "norm_label": ".admin?()"
+      "community": 1,
+      "norm_label": ".admin?()",
+      "id": "policies_application_policy_applicationpolicy_admin"
     },
     {
       "label": "application_helper.rb",
       "file_type": "code",
       "source_file": "app/helpers/application_helper.rb",
       "source_location": "L1",
-      "id": "app_helpers_application_helper_rb",
-      "community": 44,
-      "norm_label": "application_helper.rb"
-    },
-    {
-      "label": "application.js",
-      "file_type": "code",
-      "source_file": "app/javascript/application.js",
-      "source_location": "L1",
-      "id": "app_javascript_application_js",
-      "community": 8,
-      "norm_label": "application.js"
+      "community": 37,
+      "norm_label": "application_helper.rb",
+      "id": "app_helpers_application_helper_rb"
     },
     {
       "label": "hello_controller.js",
       "file_type": "code",
       "source_file": "app/javascript/controllers/hello_controller.js",
       "source_location": "L1",
-      "id": "app_javascript_controllers_hello_controller_js",
-      "community": 8,
-      "norm_label": "hello_controller.js"
+      "community": 3,
+      "norm_label": "hello_controller.js",
+      "id": "app_javascript_controllers_hello_controller_js"
     },
     {
       "label": "connect()",
       "file_type": "code",
       "source_file": "app/javascript/controllers/hello_controller.js",
       "source_location": "L4",
-      "id": "controllers_hello_controller_connect",
-      "community": 8,
-      "norm_label": "connect()"
+      "community": 3,
+      "norm_label": "connect()",
+      "id": "controllers_hello_controller_connect"
     },
     {
       "label": "application.js",
       "file_type": "code",
       "source_file": "app/javascript/controllers/application.js",
       "source_location": "L1",
-      "id": "app_javascript_controllers_application_js",
-      "community": 8,
-      "norm_label": "application.js"
+      "community": 3,
+      "norm_label": "application.js",
+      "id": "app_javascript_controllers_application_js"
     },
     {
       "label": "application",
       "file_type": "code",
       "source_file": "app/javascript/controllers/application.js",
       "source_location": "L3",
-      "id": "controllers_application_application",
-      "community": 8,
-      "norm_label": "application"
+      "community": 3,
+      "norm_label": "application",
+      "id": "controllers_application_application"
     },
     {
       "label": "index.js",
       "file_type": "code",
       "source_file": "app/javascript/controllers/index.js",
       "source_location": "L1",
-      "id": "app_javascript_controllers_index_js",
-      "community": 8,
-      "norm_label": "index.js"
+      "community": 3,
+      "norm_label": "index.js",
+      "id": "app_javascript_controllers_index_js"
     },
     {
       "label": "application_record.rb",
       "file_type": "code",
       "source_file": "app/models/application_record.rb",
       "source_location": "L1",
-      "id": "app_models_application_record_rb",
-      "community": 19,
-      "norm_label": "application_record.rb"
-    },
-    {
-      "label": "ApplicationRecord",
-      "file_type": "code",
-      "source_file": "app/models/application_record.rb",
-      "source_location": "L1",
-      "id": "models_application_record_applicationrecord",
-      "community": 19,
-      "norm_label": "applicationrecord"
+      "community": 38,
+      "norm_label": "application_record.rb",
+      "id": "app_models_application_record_rb"
     },
     {
       "label": "user.rb",
       "file_type": "code",
       "source_file": "app/models/user.rb",
       "source_location": "L1",
-      "id": "app_models_user_rb",
-      "community": 1,
-      "norm_label": "user.rb"
+      "community": 0,
+      "norm_label": "user.rb",
+      "id": "app_models_user_rb"
     },
     {
       "label": "User",
       "file_type": "code",
       "source_file": "app/models/user.rb",
       "source_location": "L1",
-      "id": "models_user_user",
-      "community": 1,
-      "norm_label": "user"
+      "community": 0,
+      "norm_label": "user",
+      "id": "models_user_user"
     },
     {
       "label": ".full_name()",
       "file_type": "code",
       "source_file": "app/models/user.rb",
       "source_location": "L18",
-      "id": "models_user_user_full_name",
-      "community": 1,
-      "norm_label": ".full_name()"
+      "community": 0,
+      "norm_label": ".full_name()",
+      "id": "models_user_user_full_name"
     },
     {
       "label": ".password_required?()",
       "file_type": "code",
       "source_file": "app/models/user.rb",
       "source_location": "L24",
-      "id": "models_user_user_password_required",
-      "community": 1,
-      "norm_label": ".password_required?()"
+      "community": 0,
+      "norm_label": ".password_required?()",
+      "id": "models_user_user_password_required"
     },
     {
       "label": "pages_controller.rb",
       "file_type": "code",
       "source_file": "app/controllers/pages_controller.rb",
       "source_location": "L1",
-      "id": "app_controllers_pages_controller_rb",
-      "community": 11,
-      "norm_label": "pages_controller.rb"
-    },
-    {
-      "label": "PagesController",
-      "file_type": "code",
-      "source_file": "app/controllers/pages_controller.rb",
-      "source_location": "L1",
-      "id": "controllers_pages_controller_pagescontroller",
-      "community": 11,
-      "norm_label": "pagescontroller"
+      "community": 0,
+      "norm_label": "pages_controller.rb",
+      "id": "app_controllers_pages_controller_rb"
     },
     {
       "label": ".index()",
       "file_type": "code",
       "source_file": "app/controllers/pages_controller.rb",
       "source_location": "L4",
-      "id": "controllers_pages_controller_pagescontroller_index",
-      "community": 11,
-      "norm_label": ".index()"
+      "community": 0,
+      "norm_label": ".index()",
+      "id": "controllers_pages_controller_pagescontroller_index"
     },
     {
       "label": ".credits()",
       "file_type": "code",
       "source_file": "app/controllers/pages_controller.rb",
       "source_location": "L7",
-      "id": "controllers_pages_controller_pagescontroller_credits",
-      "community": 11,
-      "norm_label": ".credits()"
+      "community": 0,
+      "norm_label": ".credits()",
+      "id": "controllers_pages_controller_pagescontroller_credits"
     },
     {
       "label": "application_controller.rb",
       "file_type": "code",
       "source_file": "app/controllers/application_controller.rb",
       "source_location": "L1",
-      "id": "app_controllers_application_controller_rb",
-      "community": 15,
-      "norm_label": "application_controller.rb"
-    },
-    {
-      "label": "ApplicationController",
-      "file_type": "code",
-      "source_file": "app/controllers/application_controller.rb",
-      "source_location": "L1",
-      "id": "controllers_application_controller_applicationcontroller",
-      "community": 15,
-      "norm_label": "applicationcontroller"
-    },
-    {
-      "label": ".user_not_authorized()",
-      "file_type": "code",
-      "source_file": "app/controllers/application_controller.rb",
-      "source_location": "L11",
-      "id": "controllers_application_controller_applicationcontroller_user_not_authorized",
-      "community": 15,
-      "norm_label": ".user_not_authorized()"
+      "community": 1,
+      "norm_label": "application_controller.rb",
+      "id": "app_controllers_application_controller_rb"
     },
     {
       "label": "application_controller.rb",
       "file_type": "code",
       "source_file": "app/controllers/admin/application_controller.rb",
       "source_location": "L1",
-      "id": "app_controllers_admin_application_controller_rb",
-      "community": 2,
-      "norm_label": "application_controller.rb"
+      "community": 1,
+      "norm_label": "application_controller.rb",
+      "id": "app_controllers_admin_application_controller_rb"
     },
     {
       "label": "ApplicationController",
       "file_type": "code",
       "source_file": "app/controllers/admin/application_controller.rb",
       "source_location": "L8",
-      "id": "admin_application_controller_applicationcontroller",
-      "community": 2,
-      "norm_label": "applicationcontroller"
-    },
-    {
-      "label": ".authenticate_admin()",
-      "file_type": "code",
-      "source_file": "app/controllers/admin/application_controller.rb",
-      "source_location": "L12",
-      "id": "admin_application_controller_applicationcontroller_authenticate_admin",
-      "community": 2,
-      "norm_label": ".authenticate_admin()"
-    },
-    {
-      "label": "users_controller.rb",
-      "file_type": "code",
-      "source_file": "app/controllers/admin/users_controller.rb",
-      "source_location": "L1",
-      "id": "app_controllers_admin_users_controller_rb",
-      "community": 16,
-      "norm_label": "users_controller.rb"
+      "community": 1,
+      "norm_label": "applicationcontroller",
+      "id": "admin_application_controller_applicationcontroller"
     },
     {
       "label": "UsersController",
       "file_type": "code",
       "source_file": "app/controllers/admin/users_controller.rb",
       "source_location": "L2",
-      "id": "admin_users_controller_userscontroller",
-      "community": 16,
-      "norm_label": "userscontroller"
-    },
-    {
-      "label": "application_job.rb",
-      "file_type": "code",
-      "source_file": "app/jobs/application_job.rb",
-      "source_location": "L1",
-      "id": "app_jobs_application_job_rb",
-      "community": 18,
-      "norm_label": "application_job.rb"
-    },
-    {
-      "label": "ApplicationJob",
-      "file_type": "code",
-      "source_file": "app/jobs/application_job.rb",
-      "source_location": "L1",
-      "id": "jobs_application_job_applicationjob",
-      "community": 18,
-      "norm_label": "applicationjob"
+      "community": 39,
+      "norm_label": "userscontroller",
+      "id": "admin_users_controller_userscontroller"
     },
     {
       "label": "user_dashboard.rb",
       "file_type": "code",
       "source_file": "app/dashboards/user_dashboard.rb",
       "source_location": "L1",
-      "id": "app_dashboards_user_dashboard_rb",
-      "community": 17,
-      "norm_label": "user_dashboard.rb"
-    },
-    {
-      "label": "UserDashboard",
-      "file_type": "code",
-      "source_file": "app/dashboards/user_dashboard.rb",
-      "source_location": "L3",
-      "id": "dashboards_user_dashboard_userdashboard",
-      "community": 17,
-      "norm_label": "userdashboard"
+      "community": 0,
+      "norm_label": "user_dashboard.rb",
+      "id": "app_dashboards_user_dashboard_rb"
     },
     {
       "label": "application_mailer.rb",
       "file_type": "code",
       "source_file": "app/mailers/application_mailer.rb",
       "source_location": "L1",
-      "id": "app_mailers_application_mailer_rb",
-      "community": 24,
-      "norm_label": "application_mailer.rb"
-    },
-    {
-      "label": "ApplicationMailer",
-      "file_type": "code",
-      "source_file": "app/mailers/application_mailer.rb",
-      "source_location": "L1",
-      "id": "mailers_application_mailer_applicationmailer",
-      "community": 24,
-      "norm_label": "applicationmailer"
+      "community": 40,
+      "norm_label": "application_mailer.rb",
+      "id": "app_mailers_application_mailer_rb"
     },
     {
       "label": "cable_schema.rb",
       "file_type": "code",
       "source_file": "db/cable_schema.rb",
       "source_location": "L1",
-      "id": "db_cable_schema_rb",
-      "community": 45,
-      "norm_label": "cable_schema.rb"
+      "community": 41,
+      "norm_label": "cable_schema.rb",
+      "id": "db_cable_schema_rb"
     },
     {
       "label": "queue_schema.rb",
       "file_type": "code",
       "source_file": "db/queue_schema.rb",
       "source_location": "L1",
-      "id": "db_queue_schema_rb",
-      "community": 46,
-      "norm_label": "queue_schema.rb"
+      "community": 42,
+      "norm_label": "queue_schema.rb",
+      "id": "db_queue_schema_rb"
     },
     {
       "label": "seeds.rb",
       "file_type": "code",
       "source_file": "db/seeds.rb",
       "source_location": "L1",
-      "id": "db_seeds_rb",
-      "community": 47,
-      "norm_label": "seeds.rb"
+      "community": 43,
+      "norm_label": "seeds.rb",
+      "id": "db_seeds_rb"
     },
     {
       "label": "schema.rb",
       "file_type": "code",
       "source_file": "db/schema.rb",
       "source_location": "L1",
-      "id": "db_schema_rb",
-      "community": 48,
-      "norm_label": "schema.rb"
+      "community": 44,
+      "norm_label": "schema.rb",
+      "id": "db_schema_rb"
     },
     {
       "label": "cache_schema.rb",
       "file_type": "code",
       "source_file": "db/cache_schema.rb",
       "source_location": "L1",
-      "id": "db_cache_schema_rb",
-      "community": 49,
-      "norm_label": "cache_schema.rb"
+      "community": 45,
+      "norm_label": "cache_schema.rb",
+      "id": "db_cache_schema_rb"
     },
     {
       "label": "20260715111350_devise_create_users.rb",
       "file_type": "code",
       "source_file": "db/migrate/20260715111350_devise_create_users.rb",
       "source_location": "L1",
-      "id": "db_migrate_20260715111350_devise_create_users_rb",
-      "community": 1,
-      "norm_label": "20260715111350_devise_create_users.rb"
+      "community": 0,
+      "norm_label": "20260715111350_devise_create_users.rb",
+      "id": "db_migrate_20260715111350_devise_create_users_rb"
     },
     {
       "label": "DeviseCreateUsers",
       "file_type": "code",
       "source_file": "db/migrate/20260715111350_devise_create_users.rb",
       "source_location": "L3",
-      "id": "migrate_20260715111350_devise_create_users_devisecreateusers",
-      "community": 1,
-      "norm_label": "devisecreateusers"
+      "community": 0,
+      "norm_label": "devisecreateusers",
+      "id": "migrate_20260715111350_devise_create_users_devisecreateusers"
     },
     {
       "label": ".change()",
       "file_type": "code",
       "source_file": "db/migrate/20260715111350_devise_create_users.rb",
       "source_location": "L4",
-      "id": "migrate_20260715111350_devise_create_users_devisecreateusers_change",
-      "community": 1,
-      "norm_label": ".change()"
+      "community": 0,
+      "norm_label": ".change()",
+      "id": "migrate_20260715111350_devise_create_users_devisecreateusers_change"
     },
     {
       "label": "Rubocop Configuration File",
@@ -1067,9 +750,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rubocop_yml_config",
       "community": 14,
-      "norm_label": "rubocop configuration file"
+      "norm_label": "rubocop configuration file",
+      "id": "rubocop_yml_config"
     },
     {
       "label": "Rubocop Rails Omakase Style",
@@ -1080,9 +763,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rubocop_yml_omakase",
       "community": 14,
-      "norm_label": "rubocop rails omakase style"
+      "norm_label": "rubocop rails omakase style",
+      "id": "rubocop_yml_omakase"
     },
     {
       "label": "CLAUDE.md Project Guide",
@@ -1093,9 +776,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_claude_md",
-      "community": 0,
-      "norm_label": "claude.md project guide"
+      "community": 6,
+      "norm_label": "claude.md project guide",
+      "id": "claude_claude_md"
     },
     {
       "label": "Rails Way Convention Over Configuration",
@@ -1106,9 +789,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_rails_way",
-      "community": 0,
-      "norm_label": "rails way convention over configuration"
+      "community": 6,
+      "norm_label": "rails way convention over configuration",
+      "id": "claude_rails_way"
     },
     {
       "label": "Devise Authentication",
@@ -1119,9 +802,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_devise",
-      "community": 0,
-      "norm_label": "devise authentication"
+      "community": 11,
+      "norm_label": "devise authentication",
+      "id": "claude_devise"
     },
     {
       "label": "Pundit Authorization",
@@ -1132,9 +815,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_pundit",
-      "community": 0,
-      "norm_label": "pundit authorization"
+      "community": 11,
+      "norm_label": "pundit authorization",
+      "id": "claude_pundit"
     },
     {
       "label": "Administrate Admin Panel",
@@ -1145,9 +828,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_administrate",
-      "community": 0,
-      "norm_label": "administrate admin panel"
+      "community": 11,
+      "norm_label": "administrate admin panel",
+      "id": "claude_administrate"
     },
     {
       "label": "Bootstrap CSS Framework",
@@ -1158,9 +841,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_bootstrap",
-      "community": 0,
-      "norm_label": "bootstrap css framework"
+      "community": 7,
+      "norm_label": "bootstrap css framework",
+      "id": "claude_bootstrap"
     },
     {
       "label": "Bootswatch Styles (Lumen)",
@@ -1171,9 +854,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_bootswatch",
-      "community": 0,
-      "norm_label": "bootswatch styles (lumen)"
+      "community": 7,
+      "norm_label": "bootswatch styles (lumen)",
+      "id": "claude_bootswatch"
     },
     {
       "label": "Hotwire (Turbo + Stimulus)",
@@ -1184,9 +867,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_hotwire",
-      "community": 0,
-      "norm_label": "hotwire (turbo + stimulus)"
+      "community": 7,
+      "norm_label": "hotwire (turbo + stimulus)",
+      "id": "claude_hotwire"
     },
     {
       "label": "RSpec + FactoryBot + Capybara Testing Stack",
@@ -1197,9 +880,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_rspec_stack",
-      "community": 0,
-      "norm_label": "rspec + factorybot + capybara testing stack"
+      "community": 6,
+      "norm_label": "rspec + factorybot + capybara testing stack",
+      "id": "claude_rspec_stack"
     },
     {
       "label": "Pagy Pagination",
@@ -1210,9 +893,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_pagy",
-      "community": 0,
-      "norm_label": "pagy pagination"
+      "community": 6,
+      "norm_label": "pagy pagination",
+      "id": "claude_pagy"
     },
     {
       "label": "Graphify Knowledge Graph Workflow",
@@ -1223,9 +906,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_graphify",
-      "community": 0,
-      "norm_label": "graphify knowledge graph workflow"
+      "community": 6,
+      "norm_label": "graphify knowledge graph workflow",
+      "id": "claude_graphify"
     },
     {
       "label": "Fitupe Application",
@@ -1236,9 +919,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_fitupe_app",
-      "community": 0,
-      "norm_label": "fitupe application"
+      "community": 11,
+      "norm_label": "fitupe application",
+      "id": "claude_fitupe_app"
     },
     {
       "label": "User Model Specification (Devise fields)",
@@ -1249,9 +932,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_user_model_spec",
-      "community": 0,
-      "norm_label": "user model specification (devise fields)"
+      "community": 11,
+      "norm_label": "user model specification (devise fields)",
+      "id": "claude_user_model_spec"
     },
     {
       "label": "Anti-Patterns to Avoid",
@@ -1262,9 +945,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_anti_patterns",
-      "community": 0,
-      "norm_label": "anti-patterns to avoid"
+      "community": 6,
+      "norm_label": "anti-patterns to avoid",
+      "id": "claude_anti_patterns"
     },
     {
       "label": "N+1 Query Performance Rule",
@@ -1275,9 +958,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_n_plus_one",
-      "community": 0,
-      "norm_label": "n+1 query performance rule"
+      "community": 6,
+      "norm_label": "n+1 query performance rule",
+      "id": "claude_n_plus_one"
     },
     {
       "label": "FITUPE.md Naming & Logo Document",
@@ -1288,9 +971,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "fitupe_fitupe_md",
-      "community": 0,
-      "norm_label": "fitupe.md naming & logo document"
+      "community": 6,
+      "norm_label": "fitupe.md naming & logo document",
+      "id": "fitupe_fitupe_md"
     },
     {
       "label": "Ronald Aylmer Fisher",
@@ -1301,9 +984,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "fitupe_ronald_fisher",
-      "community": 3,
-      "norm_label": "ronald aylmer fisher"
+      "community": 4,
+      "norm_label": "ronald aylmer fisher",
+      "id": "fitupe_ronald_fisher"
     },
     {
       "label": "Karl Pearson",
@@ -1314,9 +997,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "fitupe_karl_pearson",
-      "community": 3,
-      "norm_label": "karl pearson"
+      "community": 4,
+      "norm_label": "karl pearson",
+      "id": "fitupe_karl_pearson"
     },
     {
       "label": "John Tukey",
@@ -1327,9 +1010,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "fitupe_john_tukey",
-      "community": 3,
-      "norm_label": "john tukey"
+      "community": 4,
+      "norm_label": "john tukey",
+      "id": "fitupe_john_tukey"
     },
     {
       "label": "Analysis of Variance (ANOVA)",
@@ -1340,9 +1023,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "fitupe_anova",
-      "community": 3,
-      "norm_label": "analysis of variance (anova)"
+      "community": 4,
+      "norm_label": "analysis of variance (anova)",
+      "id": "fitupe_anova"
     },
     {
       "label": "P-value Hypothesis Testing",
@@ -1353,9 +1036,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "fitupe_p_value",
-      "community": 3,
-      "norm_label": "p-value hypothesis testing"
+      "community": 4,
+      "norm_label": "p-value hypothesis testing",
+      "id": "fitupe_p_value"
     },
     {
       "label": "Chi-Square Test",
@@ -1366,9 +1049,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "fitupe_chi_square_test",
-      "community": 3,
-      "norm_label": "chi-square test"
+      "community": 4,
+      "norm_label": "chi-square test",
+      "id": "fitupe_chi_square_test"
     },
     {
       "label": "Pearson Correlation Coefficient",
@@ -1379,9 +1062,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "fitupe_correlation_coefficient",
-      "community": 3,
-      "norm_label": "pearson correlation coefficient"
+      "community": 4,
+      "norm_label": "pearson correlation coefficient",
+      "id": "fitupe_correlation_coefficient"
     },
     {
       "label": "Exploratory Data Analysis (EDA)",
@@ -1392,9 +1075,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "fitupe_eda",
-      "community": 3,
-      "norm_label": "exploratory data analysis (eda)"
+      "community": 4,
+      "norm_label": "exploratory data analysis (eda)",
+      "id": "fitupe_eda"
     },
     {
       "label": "Box Plot",
@@ -1405,9 +1088,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "fitupe_box_plot",
-      "community": 3,
-      "norm_label": "box plot"
+      "community": 4,
+      "norm_label": "box plot",
+      "id": "fitupe_box_plot"
     },
     {
       "label": "Sigma Symbol (Standard Deviation)",
@@ -1418,9 +1101,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "fitupe_sigma_symbol",
-      "community": 3,
-      "norm_label": "sigma symbol (standard deviation)"
+      "community": 4,
+      "norm_label": "sigma symbol (standard deviation)",
+      "id": "fitupe_sigma_symbol"
     },
     {
       "label": "Fitupe Application Name Origin",
@@ -1431,9 +1114,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "fitupe_fitupe_name",
-      "community": 3,
-      "norm_label": "fitupe application name origin"
+      "community": 4,
+      "norm_label": "fitupe application name origin",
+      "id": "fitupe_fitupe_name"
     },
     {
       "label": "Fitupe Logo Design",
@@ -1444,9 +1127,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "fitupe_fitupe_logo",
-      "community": 3,
-      "norm_label": "fitupe logo design"
+      "community": 4,
+      "norm_label": "fitupe logo design",
+      "id": "fitupe_fitupe_logo"
     },
     {
       "label": "README",
@@ -1457,9 +1140,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_readme_md",
-      "community": 50,
-      "norm_label": "readme"
+      "community": 46,
+      "norm_label": "readme",
+      "id": "readme_readme_md"
     },
     {
       "label": "bin/brakeman script",
@@ -1470,9 +1153,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bin_brakeman",
-      "community": 51,
-      "norm_label": "bin/brakeman script"
+      "community": 47,
+      "norm_label": "bin/brakeman script",
+      "id": "bin_brakeman"
     },
     {
       "label": "bin/bundler-audit script",
@@ -1483,9 +1166,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bin_bundler_audit",
-      "community": 52,
-      "norm_label": "bin/bundler-audit script"
+      "community": 48,
+      "norm_label": "bin/bundler-audit script",
+      "id": "bin_bundler_audit"
     },
     {
       "label": "bin/ci script",
@@ -1496,9 +1179,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bin_ci",
-      "community": 53,
-      "norm_label": "bin/ci script"
+      "community": 49,
+      "norm_label": "bin/ci script",
+      "id": "bin_ci"
     },
     {
       "label": "bin/dev script",
@@ -1509,9 +1192,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bin_dev",
-      "community": 12,
-      "norm_label": "bin/dev script"
+      "community": 13,
+      "norm_label": "bin/dev script",
+      "id": "bin_dev"
     },
     {
       "label": "bin/docker-entrypoint script",
@@ -1522,9 +1205,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bin_docker_entrypoint",
-      "community": 12,
-      "norm_label": "bin/docker-entrypoint script"
+      "community": 13,
+      "norm_label": "bin/docker-entrypoint script",
+      "id": "bin_docker_entrypoint"
     },
     {
       "label": "bin/jobs script",
@@ -1535,9 +1218,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bin_jobs",
-      "community": 0,
-      "norm_label": "bin/jobs script"
+      "community": 6,
+      "norm_label": "bin/jobs script",
+      "id": "bin_jobs"
     },
     {
       "label": "bin/kamal script",
@@ -1548,9 +1231,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bin_kamal",
-      "community": 54,
-      "norm_label": "bin/kamal script"
+      "community": 50,
+      "norm_label": "bin/kamal script",
+      "id": "bin_kamal"
     },
     {
       "label": "bin/rails script",
@@ -1561,9 +1244,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bin_rails",
-      "community": 12,
-      "norm_label": "bin/rails script"
+      "community": 13,
+      "norm_label": "bin/rails script",
+      "id": "bin_rails"
     },
     {
       "label": "bin/rake script",
@@ -1574,9 +1257,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bin_rake",
-      "community": 55,
-      "norm_label": "bin/rake script"
+      "community": 51,
+      "norm_label": "bin/rake script",
+      "id": "bin_rake"
     },
     {
       "label": "bin/rubocop script",
@@ -1587,9 +1270,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bin_rubocop",
       "community": 14,
-      "norm_label": "bin/rubocop script"
+      "norm_label": "bin/rubocop script",
+      "id": "bin_rubocop"
     },
     {
       "label": "bin/setup script",
@@ -1600,9 +1283,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bin_setup",
-      "community": 12,
-      "norm_label": "bin/setup script"
+      "community": 13,
+      "norm_label": "bin/setup script",
+      "id": "bin_setup"
     },
     {
       "label": "bin/thrust script",
@@ -1613,9 +1296,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bin_thrust",
-      "community": 56,
-      "norm_label": "bin/thrust script"
+      "community": 52,
+      "norm_label": "bin/thrust script",
+      "id": "bin_thrust"
     },
     {
       "label": "package.json (JS Build Config)",
@@ -1626,9 +1309,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "package_package_json",
-      "community": 0,
-      "norm_label": "package.json (js build config)"
+      "community": 7,
+      "norm_label": "package.json (js build config)",
+      "id": "package_package_json"
     },
     {
       "label": "esbuild Bundler",
@@ -1639,9 +1322,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "package_esbuild",
-      "community": 0,
-      "norm_label": "esbuild bundler"
+      "community": 7,
+      "norm_label": "esbuild bundler",
+      "id": "package_esbuild"
     },
     {
       "label": "Admin::ApplicationController",
@@ -1652,9 +1335,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "admin_application_controller_application_controller",
-      "community": 23,
-      "norm_label": "admin::applicationcontroller"
+      "community": 1,
+      "norm_label": "admin::applicationcontroller",
+      "id": "admin_application_controller_application_controller"
     },
     {
       "label": "authenticate_admin",
@@ -1665,9 +1348,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "admin_application_controller_authenticate_admin",
-      "community": 13,
-      "norm_label": "authenticate_admin"
+      "community": 1,
+      "norm_label": "authenticate_admin",
+      "id": "admin_application_controller_authenticate_admin"
     },
     {
       "label": "Admin::UsersController",
@@ -1678,22 +1361,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "admin_users_controller_users_controller",
-      "community": 1,
-      "norm_label": "admin::userscontroller"
-    },
-    {
-      "label": "ApplicationController",
-      "file_type": "code",
-      "source_file": "app/controllers/application_controller.rb",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "controllers_application_controller_application_controller",
-      "community": 23,
-      "norm_label": "applicationcontroller"
+      "community": 0,
+      "norm_label": "admin::userscontroller",
+      "id": "admin_users_controller_users_controller"
     },
     {
       "label": "user_not_authorized",
@@ -1704,35 +1374,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "controllers_application_controller_user_not_authorized",
-      "community": 13,
-      "norm_label": "user_not_authorized"
-    },
-    {
-      "label": "PagesController",
-      "file_type": "code",
-      "source_file": "app/controllers/pages_controller.rb",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "controllers_pages_controller_pages_controller",
       "community": 1,
-      "norm_label": "pagescontroller"
-    },
-    {
-      "label": "UserDashboard",
-      "file_type": "code",
-      "source_file": "app/dashboards/user_dashboard.rb",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "dashboards_user_dashboard_user_dashboard",
-      "community": 1,
-      "norm_label": "userdashboard"
+      "norm_label": "user_not_authorized",
+      "id": "controllers_application_controller_user_not_authorized"
     },
     {
       "label": "ApplicationHelper",
@@ -1743,9 +1387,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "helpers_application_helper_application_helper",
-      "community": 57,
-      "norm_label": "applicationhelper"
+      "community": 53,
+      "norm_label": "applicationhelper",
+      "id": "helpers_application_helper_application_helper"
     },
     {
       "label": "application.js entry point",
@@ -1756,9 +1400,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "javascript_application_application",
-      "community": 58,
-      "norm_label": "application.js entry point"
+      "community": 54,
+      "norm_label": "application.js entry point",
+      "id": "javascript_application_application"
     },
     {
       "label": "HelloController (Stimulus)",
@@ -1769,9 +1413,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "controllers_hello_controller_hello_controller",
-      "community": 8,
-      "norm_label": "hellocontroller (stimulus)"
+      "community": 3,
+      "norm_label": "hellocontroller (stimulus)",
+      "id": "controllers_hello_controller_hello_controller"
     },
     {
       "label": "Stimulus controllers manifest (index.js)",
@@ -1782,48 +1426,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "controllers_index",
-      "community": 8,
-      "norm_label": "stimulus controllers manifest (index.js)"
-    },
-    {
-      "label": "ApplicationJob",
-      "file_type": "code",
-      "source_file": "app/jobs/application_job.rb",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "jobs_application_job_application_job",
-      "community": 59,
-      "norm_label": "applicationjob"
-    },
-    {
-      "label": "ApplicationMailer",
-      "file_type": "code",
-      "source_file": "app/mailers/application_mailer.rb",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "mailers_application_mailer_application_mailer",
-      "community": 60,
-      "norm_label": "applicationmailer"
-    },
-    {
-      "label": "ApplicationRecord",
-      "file_type": "code",
-      "source_file": "app/models/application_record.rb",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "models_application_record_application_record",
-      "community": 61,
-      "norm_label": "applicationrecord"
+      "community": 3,
+      "norm_label": "stimulus controllers manifest (index.js)",
+      "id": "controllers_index"
     },
     {
       "label": "User::GENDERS",
@@ -1834,9 +1439,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "models_user_genders",
-      "community": 1,
-      "norm_label": "user::genders"
+      "community": 0,
+      "norm_label": "user::genders",
+      "id": "models_user_genders"
     },
     {
       "label": "User#full_name",
@@ -1847,9 +1452,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "models_user_full_name",
-      "community": 62,
-      "norm_label": "user#full_name"
+      "community": 55,
+      "norm_label": "user#full_name",
+      "id": "models_user_full_name"
     },
     {
       "label": "User#password_required?",
@@ -1860,22 +1465,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "models_user_password_required",
-      "community": 63,
-      "norm_label": "user#password_required?"
-    },
-    {
-      "label": "ApplicationPolicy",
-      "file_type": "code",
-      "source_file": "app/policies/application_policy.rb",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "policies_application_policy_application_policy",
-      "community": 13,
-      "norm_label": "applicationpolicy"
+      "community": 56,
+      "norm_label": "user#password_required?",
+      "id": "models_user_password_required"
     },
     {
       "label": "ApplicationPolicy#admin?",
@@ -1886,9 +1478,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "policies_application_policy_admin",
-      "community": 13,
-      "norm_label": "applicationpolicy#admin?"
+      "community": 1,
+      "norm_label": "applicationpolicy#admin?",
+      "id": "policies_application_policy_admin"
     },
     {
       "label": "ApplicationPolicy::Scope#resolve",
@@ -1899,9 +1491,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "policies_application_policy_resolve",
-      "community": 64,
-      "norm_label": "applicationpolicy::scope#resolve"
+      "community": 57,
+      "norm_label": "applicationpolicy::scope#resolve",
+      "id": "policies_application_policy_resolve"
     },
     {
       "label": "PWA Service Worker (commented template)",
@@ -1912,9 +1504,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pwa_service_worker_service_worker",
-      "community": 65,
-      "norm_label": "pwa service worker (commented template)"
+      "community": 58,
+      "norm_label": "pwa service worker (commented template)",
+      "id": "pwa_service_worker_service_worker"
     },
     {
       "label": "Fitupe::Application configuration",
@@ -1925,9 +1517,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "config_application_config",
-      "community": 7,
-      "norm_label": "fitupe::application configuration"
+      "community": 8,
+      "norm_label": "fitupe::application configuration",
+      "id": "config_application_config"
     },
     {
       "label": "Boot: Bundler & Bootsnap setup",
@@ -1938,9 +1530,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "config_boot_setup",
-      "community": 7,
-      "norm_label": "boot: bundler & bootsnap setup"
+      "community": 8,
+      "norm_label": "boot: bundler & bootsnap setup",
+      "id": "config_boot_setup"
     },
     {
       "label": "Bundler-audit ignore list",
@@ -1951,9 +1543,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "config_bundler_audit_config",
-      "community": 21,
-      "norm_label": "bundler-audit ignore list"
+      "community": 16,
+      "norm_label": "bundler-audit ignore list",
+      "id": "config_bundler_audit_config"
     },
     {
       "label": "Action Cable adapter configuration",
@@ -1964,9 +1556,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "config_cable_config",
-      "community": 6,
-      "norm_label": "action cable adapter configuration"
+      "community": 5,
+      "norm_label": "action cable adapter configuration",
+      "id": "config_cable_config"
     },
     {
       "label": "Rails cache store configuration",
@@ -1977,9 +1569,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "config_cache_config",
-      "community": 6,
-      "norm_label": "rails cache store configuration"
+      "community": 5,
+      "norm_label": "rails cache store configuration",
+      "id": "config_cache_config"
     },
     {
       "label": "CI pipeline steps",
@@ -1990,9 +1582,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "config_ci_pipeline",
-      "community": 21,
-      "norm_label": "ci pipeline steps"
+      "community": 16,
+      "norm_label": "ci pipeline steps",
+      "id": "config_ci_pipeline"
     },
     {
       "label": "PostgreSQL database connections configuration",
@@ -2003,9 +1595,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "config_database_config",
-      "community": 6,
-      "norm_label": "postgresql database connections configuration"
+      "community": 5,
+      "norm_label": "postgresql database connections configuration",
+      "id": "config_database_config"
     },
     {
       "label": "Kamal deploy configuration",
@@ -2016,9 +1608,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "config_deploy_config",
-      "community": 6,
-      "norm_label": "kamal deploy configuration"
+      "community": 5,
+      "norm_label": "kamal deploy configuration",
+      "id": "config_deploy_config"
     },
     {
       "label": "Rails application boot/initialize",
@@ -2029,9 +1621,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "config_environment_boot",
-      "community": 7,
-      "norm_label": "rails application boot/initialize"
+      "community": 8,
+      "norm_label": "rails application boot/initialize",
+      "id": "config_environment_boot"
     },
     {
       "label": "Development environment configuration",
@@ -2042,9 +1634,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "environments_development_config",
-      "community": 6,
-      "norm_label": "development environment configuration"
+      "community": 5,
+      "norm_label": "development environment configuration",
+      "id": "environments_development_config"
     },
     {
       "label": "Production environment configuration",
@@ -2055,9 +1647,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "environments_production_config",
-      "community": 6,
-      "norm_label": "production environment configuration"
+      "community": 5,
+      "norm_label": "production environment configuration",
+      "id": "environments_production_config"
     },
     {
       "label": "Test environment configuration",
@@ -2068,9 +1660,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "environments_test_config",
-      "community": 6,
-      "norm_label": "test environment configuration"
+      "community": 5,
+      "norm_label": "test environment configuration",
+      "id": "environments_test_config"
     },
     {
       "label": "Assets initializer (bootstrap-icons path)",
@@ -2081,9 +1673,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "initializers_assets_config",
-      "community": 66,
-      "norm_label": "assets initializer (bootstrap-icons path)"
+      "community": 59,
+      "norm_label": "assets initializer (bootstrap-icons path)",
+      "id": "initializers_assets_config"
     },
     {
       "label": "Content Security Policy initializer (disabled)",
@@ -2094,9 +1686,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "initializers_content_security_policy_config",
-      "community": 67,
-      "norm_label": "content security policy initializer (disabled)"
+      "community": 60,
+      "norm_label": "content security policy initializer (disabled)",
+      "id": "initializers_content_security_policy_config"
     },
     {
       "label": "Devise.setup configuration (username auth)",
@@ -2107,9 +1699,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "initializers_devise_config",
-      "community": 7,
-      "norm_label": "devise.setup configuration (username auth)"
+      "community": 8,
+      "norm_label": "devise.setup configuration (username auth)",
+      "id": "initializers_devise_config"
     },
     {
       "label": "Filtered log parameters config",
@@ -2120,9 +1712,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "initializers_filter_parameter_logging_config",
-      "community": 68,
-      "norm_label": "filtered log parameters config"
+      "community": 61,
+      "norm_label": "filtered log parameters config",
+      "id": "initializers_filter_parameter_logging_config"
     },
     {
       "label": "Inflection rules (empty/default)",
@@ -2133,9 +1725,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "initializers_inflections_config",
-      "community": 69,
-      "norm_label": "inflection rules (empty/default)"
+      "community": 62,
+      "norm_label": "inflection rules (empty/default)",
+      "id": "initializers_inflections_config"
     },
     {
       "label": "Devise English translations",
@@ -2146,9 +1738,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "locales_devise_en_translations",
-      "community": 7,
-      "norm_label": "devise english translations"
+      "community": 8,
+      "norm_label": "devise english translations",
+      "id": "locales_devise_en_translations"
     },
     {
       "label": "English locale (default)",
@@ -2159,9 +1751,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "locales_en_translations",
-      "community": 7,
-      "norm_label": "english locale (default)"
+      "community": 8,
+      "norm_label": "english locale (default)",
+      "id": "locales_en_translations"
     },
     {
       "label": "Italian locale - User model attributes",
@@ -2172,9 +1764,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "locales_it_translations",
-      "community": 7,
-      "norm_label": "italian locale - user model attributes"
+      "community": 8,
+      "norm_label": "italian locale - user model attributes",
+      "id": "locales_it_translations"
     },
     {
       "label": "Puma server configuration",
@@ -2185,9 +1777,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "config_puma_config",
-      "community": 6,
-      "norm_label": "puma server configuration"
+      "community": 5,
+      "norm_label": "puma server configuration",
+      "id": "config_puma_config"
     },
     {
       "label": "Solid Queue worker/dispatcher configuration",
@@ -2198,9 +1790,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "config_queue_config",
-      "community": 6,
-      "norm_label": "solid queue worker/dispatcher configuration"
+      "community": 5,
+      "norm_label": "solid queue worker/dispatcher configuration",
+      "id": "config_queue_config"
     },
     {
       "label": "Recurring scheduled jobs (Solid Queue)",
@@ -2211,9 +1803,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "config_recurring_config",
-      "community": 6,
-      "norm_label": "recurring scheduled jobs (solid queue)"
+      "community": 5,
+      "norm_label": "recurring scheduled jobs (solid queue)",
+      "id": "config_recurring_config"
     },
     {
       "label": "Root route (pages#index)",
@@ -2224,9 +1816,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "config_routes_root",
-      "community": 22,
-      "norm_label": "root route (pages#index)"
+      "community": 17,
+      "norm_label": "root route (pages#index)",
+      "id": "config_routes_root"
     },
     {
       "label": "Admin namespace routes (users)",
@@ -2237,9 +1829,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "config_routes_admin_namespace",
-      "community": 7,
-      "norm_label": "admin namespace routes (users)"
+      "community": 8,
+      "norm_label": "admin namespace routes (users)",
+      "id": "config_routes_admin_namespace"
     },
     {
       "label": "devise_for :users route",
@@ -2250,9 +1842,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "config_routes_devise_for_users",
-      "community": 7,
-      "norm_label": "devise_for :users route"
+      "community": 8,
+      "norm_label": "devise_for :users route",
+      "id": "config_routes_devise_for_users"
     },
     {
       "label": "Credits route (pages#credits)",
@@ -2263,9 +1855,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "config_routes_credits",
-      "community": 22,
-      "norm_label": "credits route (pages#credits)"
+      "community": 17,
+      "norm_label": "credits route (pages#credits)",
+      "id": "config_routes_credits"
     },
     {
       "label": "Health check route",
@@ -2276,9 +1868,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "config_routes_health_check",
-      "community": 70,
-      "norm_label": "health check route"
+      "community": 63,
+      "norm_label": "health check route",
+      "id": "config_routes_health_check"
     },
     {
       "label": "Active Storage services configuration",
@@ -2289,9 +1881,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "config_storage_config",
-      "community": 6,
-      "norm_label": "active storage services configuration"
+      "community": 5,
+      "norm_label": "active storage services configuration",
+      "id": "config_storage_config"
     },
     {
       "label": "users table (schema.rb)",
@@ -2302,9 +1894,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "db_schema_users_table",
-      "community": 1,
-      "norm_label": "users table (schema.rb)"
+      "community": 0,
+      "norm_label": "users table (schema.rb)",
+      "id": "db_schema_users_table"
     },
     {
       "label": "solid_cable_messages table",
@@ -2315,9 +1907,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "db_cable_schema_solid_cable_messages_table",
-      "community": 71,
-      "norm_label": "solid_cable_messages table"
+      "community": 64,
+      "norm_label": "solid_cable_messages table",
+      "id": "db_cable_schema_solid_cable_messages_table"
     },
     {
       "label": "solid_cache_entries table",
@@ -2328,9 +1920,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "db_cache_schema_solid_cache_entries_table",
-      "community": 72,
-      "norm_label": "solid_cache_entries table"
+      "community": 65,
+      "norm_label": "solid_cache_entries table",
+      "id": "db_cache_schema_solid_cache_entries_table"
     },
     {
       "label": "solid_queue_jobs table",
@@ -2341,9 +1933,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "db_queue_schema_solid_queue_jobs_table",
-      "community": 10,
-      "norm_label": "solid_queue_jobs table"
+      "community": 9,
+      "norm_label": "solid_queue_jobs table",
+      "id": "db_queue_schema_solid_queue_jobs_table"
     },
     {
       "label": "solid_queue_blocked_executions table",
@@ -2354,9 +1946,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "db_queue_schema_solid_queue_blocked_executions_table",
-      "community": 10,
-      "norm_label": "solid_queue_blocked_executions table"
+      "community": 9,
+      "norm_label": "solid_queue_blocked_executions table",
+      "id": "db_queue_schema_solid_queue_blocked_executions_table"
     },
     {
       "label": "solid_queue_claimed_executions table",
@@ -2367,9 +1959,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "db_queue_schema_solid_queue_claimed_executions_table",
-      "community": 10,
-      "norm_label": "solid_queue_claimed_executions table"
+      "community": 9,
+      "norm_label": "solid_queue_claimed_executions table",
+      "id": "db_queue_schema_solid_queue_claimed_executions_table"
     },
     {
       "label": "solid_queue_failed_executions table",
@@ -2380,9 +1972,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "db_queue_schema_solid_queue_failed_executions_table",
-      "community": 10,
-      "norm_label": "solid_queue_failed_executions table"
+      "community": 9,
+      "norm_label": "solid_queue_failed_executions table",
+      "id": "db_queue_schema_solid_queue_failed_executions_table"
     },
     {
       "label": "solid_queue_ready_executions table",
@@ -2393,22 +1985,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "db_queue_schema_solid_queue_ready_executions_table",
-      "community": 10,
-      "norm_label": "solid_queue_ready_executions table"
-    },
-    {
-      "label": "solid_queue_recurring_executions table",
-      "file_type": "code",
-      "source_file": "db/queue_schema.rb",
-      "source_location": "77-84",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "db_queue_schema_solid_queue_recurring_executions_table",
-      "community": 10,
-      "norm_label": "solid_queue_recurring_executions table"
+      "community": 9,
+      "norm_label": "solid_queue_ready_executions table",
+      "id": "db_queue_schema_solid_queue_ready_executions_table"
     },
     {
       "label": "solid_queue_scheduled_executions table",
@@ -2419,9 +1998,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "db_queue_schema_solid_queue_scheduled_executions_table",
-      "community": 10,
-      "norm_label": "solid_queue_scheduled_executions table"
+      "community": 9,
+      "norm_label": "solid_queue_scheduled_executions table",
+      "id": "db_queue_schema_solid_queue_scheduled_executions_table"
     },
     {
       "label": "solid_queue_processes table",
@@ -2432,9 +2011,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "db_queue_schema_solid_queue_processes_table",
-      "community": 73,
-      "norm_label": "solid_queue_processes table"
+      "community": 66,
+      "norm_label": "solid_queue_processes table",
+      "id": "db_queue_schema_solid_queue_processes_table"
     },
     {
       "label": "solid_queue_pauses table",
@@ -2445,9 +2024,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "db_queue_schema_solid_queue_pauses_table",
-      "community": 74,
-      "norm_label": "solid_queue_pauses table"
+      "community": 67,
+      "norm_label": "solid_queue_pauses table",
+      "id": "db_queue_schema_solid_queue_pauses_table"
     },
     {
       "label": "solid_queue_recurring_tasks table",
@@ -2458,9 +2037,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "db_queue_schema_solid_queue_recurring_tasks_table",
-      "community": 75,
-      "norm_label": "solid_queue_recurring_tasks table"
+      "community": 9,
+      "norm_label": "solid_queue_recurring_tasks table",
+      "id": "db_queue_schema_solid_queue_recurring_tasks_table"
     },
     {
       "label": "solid_queue_semaphores table",
@@ -2471,9 +2050,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "db_queue_schema_solid_queue_semaphores_table",
-      "community": 76,
-      "norm_label": "solid_queue_semaphores table"
+      "community": 68,
+      "norm_label": "solid_queue_semaphores table",
+      "id": "db_queue_schema_solid_queue_semaphores_table"
     },
     {
       "label": "davo admin User seed",
@@ -2484,9 +2063,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "db_seeds_davo_user",
-      "community": 1,
-      "norm_label": "davo admin user seed"
+      "community": 0,
+      "norm_label": "davo admin user seed",
+      "id": "db_seeds_davo_user"
     },
     {
       "label": "user FactoryBot factory",
@@ -2497,9 +2076,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "factories_users_user_factory",
-      "community": 1,
-      "norm_label": "user factorybot factory"
+      "community": 0,
+      "norm_label": "user factorybot factory",
+      "id": "factories_users_user_factory"
     },
     {
       "label": "User model spec",
@@ -2510,9 +2089,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "models_user_spec_user_spec",
-      "community": 1,
-      "norm_label": "user model spec"
+      "community": 0,
+      "norm_label": "user model spec",
+      "id": "models_user_spec_user_spec"
     },
     {
       "label": "rails_helper RSpec configuration",
@@ -2523,9 +2102,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_rails_helper_config",
-      "community": 1,
-      "norm_label": "rails_helper rspec configuration"
+      "community": 0,
+      "norm_label": "rails_helper rspec configuration",
+      "id": "spec_rails_helper_config"
     },
     {
       "label": "Pages request spec",
@@ -2536,9 +2115,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "requests_pages_spec_pages_spec",
-      "community": 1,
-      "norm_label": "pages request spec"
+      "community": 0,
+      "norm_label": "pages request spec",
+      "id": "requests_pages_spec_pages_spec"
     },
     {
       "label": "spec_helper RSpec configuration",
@@ -2549,9 +2128,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_spec_helper_config",
-      "community": 1,
-      "norm_label": "spec_helper rspec configuration"
+      "community": 0,
+      "norm_label": "spec_helper rspec configuration",
+      "id": "spec_spec_helper_config"
     },
     {
       "label": "400 Bad Request error page",
@@ -2562,9 +2141,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "public_400_error_page",
-      "community": 77,
-      "norm_label": "400 bad request error page"
+      "community": 69,
+      "norm_label": "400 bad request error page",
+      "id": "public_400_error_page"
     },
     {
       "label": "404 Not Found error page",
@@ -2575,9 +2154,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "public_404_error_page",
-      "community": 78,
-      "norm_label": "404 not found error page"
+      "community": 70,
+      "norm_label": "404 not found error page",
+      "id": "public_404_error_page"
     },
     {
       "label": "406 Unsupported Browser error page",
@@ -2588,9 +2167,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "public_406_unsupported_browser_error_page",
-      "community": 79,
-      "norm_label": "406 unsupported browser error page"
+      "community": 71,
+      "norm_label": "406 unsupported browser error page",
+      "id": "public_406_unsupported_browser_error_page"
     },
     {
       "label": "422 Unprocessable Entity error page",
@@ -2601,9 +2180,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "public_422_error_page",
-      "community": 80,
-      "norm_label": "422 unprocessable entity error page"
+      "community": 72,
+      "norm_label": "422 unprocessable entity error page",
+      "id": "public_422_error_page"
     },
     {
       "label": "500 Internal Server Error page",
@@ -2614,9 +2193,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "public_500_error_page",
-      "community": 81,
-      "norm_label": "500 internal server error page"
+      "community": 73,
+      "norm_label": "500 internal server error page",
+      "id": "public_500_error_page"
     },
     {
       "label": "robots.txt",
@@ -2627,9 +2206,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "public_robots_robots_txt",
-      "community": 82,
-      "norm_label": "robots.txt"
+      "community": 74,
+      "norm_label": "robots.txt",
+      "id": "public_robots_robots_txt"
     },
     {
       "label": "Fitupe Main Logo (SVG)",
@@ -2640,9 +2219,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "main_logo_svg_image",
-      "community": 9,
-      "norm_label": "fitupe main logo (svg)"
+      "community": 10,
+      "norm_label": "fitupe main logo (svg)",
+      "id": "main_logo_svg_image"
     },
     {
       "label": "Sigma (Standard Deviation) Symbolism",
@@ -2653,9 +2232,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "main_logo_svg_sigma_concept",
-      "community": 9,
-      "norm_label": "sigma (standard deviation) symbolism"
+      "community": 10,
+      "norm_label": "sigma (standard deviation) symbolism",
+      "id": "main_logo_svg_sigma_concept"
     },
     {
       "label": "Fitupe Main Logo (PNG)",
@@ -2666,9 +2245,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "main_logo_png_image",
-      "community": 9,
-      "norm_label": "fitupe main logo (png)"
+      "community": 10,
+      "norm_label": "fitupe main logo (png)",
+      "id": "main_logo_png_image"
     },
     {
       "label": "Fitupe Favicon (public/icon.svg)",
@@ -2679,22 +2258,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "public_icon_svg_image",
-      "community": 9,
-      "norm_label": "fitupe favicon (public/icon.svg)"
-    },
-    {
-      "label": "Fitupe Favicon (public/icon.png)",
-      "file_type": "image",
-      "source_file": "public/icon.png",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "public_icon_png_image",
-      "community": 9,
-      "norm_label": "fitupe favicon (public/icon.png)"
+      "community": 10,
+      "norm_label": "fitupe favicon (public/icon.svg)",
+      "id": "public_icon_svg_image"
     },
     {
       "label": "Main Logo SVG (Asset Pipeline Copy)",
@@ -2705,9 +2271,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "images_main_logo_svg_image",
-      "community": 9,
-      "norm_label": "main logo svg (asset pipeline copy)"
+      "community": 10,
+      "norm_label": "main logo svg (asset pipeline copy)",
+      "id": "images_main_logo_svg_image"
     },
     {
       "label": "Main Logo PNG (Asset Pipeline)",
@@ -2718,9 +2284,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "images_main_logo_png_image",
-      "community": 9,
-      "norm_label": "main logo png (asset pipeline)"
+      "community": 10,
+      "norm_label": "main logo png (asset pipeline)",
+      "id": "images_main_logo_png_image"
     },
     {
       "label": "Devise Sessions New View",
@@ -2731,9 +2297,166 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "sessions_new_login_view",
-      "community": 9,
-      "norm_label": "devise sessions new view"
+      "community": 10,
+      "norm_label": "devise sessions new view",
+      "id": "sessions_new_login_view"
+    },
+    {
+      "label": "flash_controller.js",
+      "file_type": "code",
+      "source_file": "app/javascript/controllers/flash_controller.js",
+      "source_location": "L1",
+      "id": "app_javascript_controllers_flash_controller_js",
+      "community": 3,
+      "norm_label": "flash_controller.js"
+    },
+    {
+      "label": "connect()",
+      "file_type": "code",
+      "source_file": "app/javascript/controllers/flash_controller.js",
+      "source_location": "L8",
+      "id": "controllers_flash_controller_connect",
+      "community": 3,
+      "norm_label": "connect()"
+    },
+    {
+      "label": "disconnect()",
+      "file_type": "code",
+      "source_file": "app/javascript/controllers/flash_controller.js",
+      "source_location": "L14",
+      "id": "controllers_flash_controller_disconnect",
+      "community": 3,
+      "norm_label": "disconnect()"
+    },
+    {
+      "label": "FlashController",
+      "file_type": "code",
+      "source_file": "app/javascript/controllers/flash_controller.js",
+      "source_location": "5-17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "controllers_flash_controller_class",
+      "community": 7,
+      "norm_label": "flashcontroller"
+    },
+    {
+      "label": "Flash Controller Registration",
+      "file_type": "code",
+      "source_file": "app/javascript/controllers/index.js",
+      "source_location": "7-8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "controllers_index_flash_registration",
+      "community": 7,
+      "norm_label": "flash controller registration"
+    },
+    {
+      "label": "Bootstrap Alert Component API",
+      "file_type": "concept",
+      "source_file": "app/javascript/controllers/flash_controller.js",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "concept_bootstrap_alert",
+      "community": 3,
+      "norm_label": "bootstrap alert component api"
+    },
+    {
+      "label": "Stimulus Controllers Convention",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_stimulus",
+      "community": 7,
+      "norm_label": "stimulus controllers convention"
+    },
+    {
+      "label": "Turbo/Hotwire Compatibility",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_turbo",
+      "community": 11,
+      "norm_label": "turbo/hotwire compatibility"
+    },
+    {
+      "label": "RSpec Testing Approach",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_rspec",
+      "community": 15,
+      "norm_label": "rspec testing approach"
+    },
+    {
+      "label": "PostgreSQL Database Config",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_postgresql",
+      "community": 6,
+      "norm_label": "postgresql database config"
+    },
+    {
+      "label": "User Model Fields",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_user_model",
+      "community": 11,
+      "norm_label": "user model fields"
+    },
+    {
+      "label": "ESBuild JS Bundler",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_esbuild",
+      "community": 7,
+      "norm_label": "esbuild js bundler"
+    },
+    {
+      "label": "Naming Conventions",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_naming_conventions",
+      "community": 15,
+      "norm_label": "naming conventions"
     }
   ],
   "links": [
@@ -2743,9 +2466,9 @@
       "source_file": "package.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "fitupe_package_name",
-      "confidence_score": 1.0
+      "target": "fitupe_package_name"
     },
     {
       "relation": "contains",
@@ -2753,9 +2476,9 @@
       "source_file": "package.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "fitupe_package_private",
-      "confidence_score": 1.0
+      "target": "fitupe_package_private"
     },
     {
       "relation": "contains",
@@ -2763,9 +2486,9 @@
       "source_file": "package.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "fitupe_package_devdependencies",
-      "confidence_score": 1.0
+      "target": "fitupe_package_devdependencies"
     },
     {
       "relation": "contains",
@@ -2773,9 +2496,9 @@
       "source_file": "package.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "fitupe_package_scripts",
-      "confidence_score": 1.0
+      "target": "fitupe_package_scripts"
     },
     {
       "relation": "contains",
@@ -2783,9 +2506,9 @@
       "source_file": "package.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "fitupe_package_dependencies",
-      "confidence_score": 1.0
+      "target": "fitupe_package_dependencies"
     },
     {
       "relation": "contains",
@@ -2793,9 +2516,9 @@
       "source_file": "package.json",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "fitupe_package_browserslist",
-      "confidence_score": 1.0
+      "target": "fitupe_package_browserslist"
     },
     {
       "relation": "contains",
@@ -2803,9 +2526,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "fitupe_package_devdependencies",
-      "target": "fitupe_package_devdependencies_esbuild",
-      "confidence_score": 1.0
+      "target": "fitupe_package_devdependencies_esbuild"
     },
     {
       "relation": "contains",
@@ -2813,9 +2536,9 @@
       "source_file": "package.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "fitupe_package_scripts",
-      "target": "fitupe_package_scripts_build",
-      "confidence_score": 1.0
+      "target": "fitupe_package_scripts_build"
     },
     {
       "relation": "contains",
@@ -2823,9 +2546,9 @@
       "source_file": "package.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "fitupe_package_scripts",
-      "target": "fitupe_package_scripts_build_css_compile",
-      "confidence_score": 1.0
+      "target": "fitupe_package_scripts_build_css_compile"
     },
     {
       "relation": "contains",
@@ -2833,9 +2556,9 @@
       "source_file": "package.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "fitupe_package_scripts",
-      "target": "fitupe_package_scripts_build_css_prefix",
-      "confidence_score": 1.0
+      "target": "fitupe_package_scripts_build_css_prefix"
     },
     {
       "relation": "contains",
@@ -2843,9 +2566,9 @@
       "source_file": "package.json",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "fitupe_package_scripts",
-      "target": "fitupe_package_scripts_build_css",
-      "confidence_score": 1.0
+      "target": "fitupe_package_scripts_build_css"
     },
     {
       "relation": "contains",
@@ -2853,9 +2576,9 @@
       "source_file": "package.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "fitupe_package_scripts",
-      "target": "fitupe_package_scripts_watch_css",
-      "confidence_score": 1.0
+      "target": "fitupe_package_scripts_watch_css"
     },
     {
       "relation": "contains",
@@ -2863,9 +2586,9 @@
       "source_file": "package.json",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "fitupe_package_dependencies",
-      "target": "fitupe_package_dependencies_hotwired_stimulus",
-      "confidence_score": 1.0
+      "target": "fitupe_package_dependencies_hotwired_stimulus"
     },
     {
       "relation": "contains",
@@ -2873,9 +2596,9 @@
       "source_file": "package.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "fitupe_package_dependencies",
-      "target": "fitupe_package_dependencies_hotwired_turbo_rails",
-      "confidence_score": 1.0
+      "target": "fitupe_package_dependencies_hotwired_turbo_rails"
     },
     {
       "relation": "contains",
@@ -2883,9 +2606,9 @@
       "source_file": "package.json",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "fitupe_package_dependencies",
-      "target": "fitupe_package_dependencies_popperjs_core",
-      "confidence_score": 1.0
+      "target": "fitupe_package_dependencies_popperjs_core"
     },
     {
       "relation": "contains",
@@ -2893,19 +2616,9 @@
       "source_file": "package.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "fitupe_package_dependencies",
-      "target": "fitupe_package_dependencies_autoprefixer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "fitupe_package_dependencies",
-      "target": "fitupe_package_dependencies_bootstrap",
-      "confidence_score": 1.0
+      "target": "fitupe_package_dependencies_autoprefixer"
     },
     {
       "relation": "contains",
@@ -2913,9 +2626,9 @@
       "source_file": "package.json",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "fitupe_package_dependencies",
-      "target": "fitupe_package_dependencies_bootstrap_icons",
-      "confidence_score": 1.0
+      "target": "fitupe_package_dependencies_bootstrap"
     },
     {
       "relation": "contains",
@@ -2923,9 +2636,9 @@
       "source_file": "package.json",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "fitupe_package_dependencies",
-      "target": "fitupe_package_dependencies_bootswatch",
-      "confidence_score": 1.0
+      "target": "fitupe_package_dependencies_bootswatch"
     },
     {
       "relation": "contains",
@@ -2933,9 +2646,9 @@
       "source_file": "package.json",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "fitupe_package_dependencies",
-      "target": "fitupe_package_dependencies_nodemon",
-      "confidence_score": 1.0
+      "target": "fitupe_package_dependencies_nodemon"
     },
     {
       "relation": "contains",
@@ -2943,9 +2656,9 @@
       "source_file": "package.json",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "fitupe_package_dependencies",
-      "target": "fitupe_package_dependencies_postcss",
-      "confidence_score": 1.0
+      "target": "fitupe_package_dependencies_postcss"
     },
     {
       "relation": "contains",
@@ -2953,9 +2666,9 @@
       "source_file": "package.json",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "fitupe_package_dependencies",
-      "target": "fitupe_package_dependencies_postcss_cli",
-      "confidence_score": 1.0
+      "target": "fitupe_package_dependencies_postcss_cli"
     },
     {
       "relation": "contains",
@@ -2963,49 +2676,20 @@
       "source_file": "package.json",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "fitupe_package_dependencies",
-      "target": "fitupe_package_dependencies_sass",
-      "confidence_score": 1.0
+      "target": "fitupe_package_dependencies_sass"
     },
     {
-      "relation": "contains",
+      "relation": "imports_from",
+      "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "config/application.rb",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "config_application_rb",
-      "target": "config_application_application",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/application_policy.rb",
+      "source_file": "app/javascript/application.js",
       "source_location": "L3",
       "weight": 1.0,
-      "source": "app_policies_application_policy_rb",
-      "target": "policies_application_policy_applicationpolicy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/application_policy.rb",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "app_policies_application_policy_rb",
-      "target": "policies_application_policy_scope",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/application_policy.rb",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "policies_application_policy_applicationpolicy",
-      "target": "policies_application_policy_applicationpolicy_initialize",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "config_application_rb",
+      "target": "app_javascript_controllers_index_js"
     },
     {
       "relation": "method",
@@ -3013,79 +2697,9 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L11",
       "weight": 1.0,
-      "source": "policies_application_policy_applicationpolicy",
-      "target": "policies_application_policy_applicationpolicy_index",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/application_policy.rb",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "policies_application_policy_applicationpolicy",
-      "target": "policies_application_policy_applicationpolicy_show",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/application_policy.rb",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "policies_application_policy_applicationpolicy",
-      "target": "policies_application_policy_applicationpolicy_create",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/application_policy.rb",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "policies_application_policy_applicationpolicy",
-      "target": "policies_application_policy_applicationpolicy_new",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/application_policy.rb",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "policies_application_policy_applicationpolicy",
-      "target": "policies_application_policy_applicationpolicy_update",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/application_policy.rb",
-      "source_location": "L31",
-      "weight": 1.0,
-      "source": "policies_application_policy_applicationpolicy",
-      "target": "policies_application_policy_applicationpolicy_edit",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/application_policy.rb",
-      "source_location": "L35",
-      "weight": 1.0,
-      "source": "policies_application_policy_applicationpolicy",
-      "target": "policies_application_policy_applicationpolicy_destroy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/application_policy.rb",
-      "source_location": "L56",
-      "weight": 1.0,
-      "source": "policies_application_policy_applicationpolicy",
-      "target": "policies_application_policy_applicationpolicy_admin",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "policies_application_policy_admin",
+      "target": "policies_application_policy_applicationpolicy_index"
     },
     {
       "relation": "calls",
@@ -3094,9 +2708,19 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "policies_application_policy_applicationpolicy_index",
-      "target": "policies_application_policy_applicationpolicy_admin",
-      "confidence_score": 1.0
+      "target": "policies_application_policy_applicationpolicy_admin"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/application_policy.rb",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_application_policy_admin",
+      "target": "policies_application_policy_applicationpolicy_show"
     },
     {
       "relation": "calls",
@@ -3105,9 +2729,19 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "policies_application_policy_applicationpolicy_show",
-      "target": "policies_application_policy_applicationpolicy_admin",
-      "confidence_score": 1.0
+      "target": "policies_application_policy_applicationpolicy_admin"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/application_policy.rb",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_application_policy_admin",
+      "target": "policies_application_policy_applicationpolicy_create"
     },
     {
       "relation": "calls",
@@ -3116,9 +2750,9 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "policies_application_policy_applicationpolicy_create",
-      "target": "policies_application_policy_applicationpolicy_admin",
-      "confidence_score": 1.0
+      "target": "policies_application_policy_applicationpolicy_admin"
     },
     {
       "relation": "calls",
@@ -3127,9 +2761,29 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "policies_application_policy_applicationpolicy_new",
-      "target": "policies_application_policy_applicationpolicy_create",
-      "confidence_score": 1.0
+      "target": "policies_application_policy_applicationpolicy_create"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/application_policy.rb",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_application_policy_admin",
+      "target": "policies_application_policy_applicationpolicy_new"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/application_policy.rb",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_application_policy_admin",
+      "target": "policies_application_policy_applicationpolicy_update"
     },
     {
       "relation": "calls",
@@ -3138,9 +2792,9 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "policies_application_policy_applicationpolicy_update",
-      "target": "policies_application_policy_applicationpolicy_admin",
-      "confidence_score": 1.0
+      "target": "policies_application_policy_applicationpolicy_admin"
     },
     {
       "relation": "calls",
@@ -3149,9 +2803,29 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "policies_application_policy_applicationpolicy_edit",
-      "target": "policies_application_policy_applicationpolicy_update",
-      "confidence_score": 1.0
+      "target": "policies_application_policy_applicationpolicy_update"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/application_policy.rb",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_application_policy_admin",
+      "target": "policies_application_policy_applicationpolicy_edit"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/application_policy.rb",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_application_policy_admin",
+      "target": "policies_application_policy_applicationpolicy_destroy"
     },
     {
       "relation": "calls",
@@ -3160,9 +2834,19 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "policies_application_policy_applicationpolicy_destroy",
-      "target": "policies_application_policy_applicationpolicy_admin",
-      "confidence_score": 1.0
+      "target": "policies_application_policy_applicationpolicy_admin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/application_policy.rb",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_application_policy_admin",
+      "target": "policies_application_policy_scope"
     },
     {
       "relation": "method",
@@ -3170,9 +2854,9 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "policies_application_policy_scope",
-      "target": "policies_application_policy_scope_initialize",
-      "confidence_score": 1.0
+      "target": "policies_application_policy_scope_initialize"
     },
     {
       "relation": "method",
@@ -3180,9 +2864,29 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "policies_application_policy_scope",
-      "target": "policies_application_policy_scope_resolve",
-      "confidence_score": 1.0
+      "target": "policies_application_policy_scope_resolve"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/application_policy.rb",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_application_policy_admin",
+      "target": "policies_application_policy_scope_initialize"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/application_policy.rb",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_application_policy_admin",
+      "target": "policies_application_policy_applicationpolicy_admin"
     },
     {
       "relation": "calls",
@@ -3192,19 +2896,8 @@
       "source_file": "app/controllers/admin/application_controller.rb",
       "source_location": "L13",
       "weight": 1.0,
-      "source": "admin_application_controller_applicationcontroller_authenticate_admin",
+      "source": "admin_application_controller_authenticate_admin",
       "target": "policies_application_policy_applicationpolicy_admin"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/application.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "app_javascript_application_js",
-      "target": "app_javascript_controllers_index_js",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3212,9 +2905,9 @@
       "source_file": "app/javascript/controllers/hello_controller.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_javascript_controllers_hello_controller_js",
-      "target": "controllers_hello_controller_connect",
-      "confidence_score": 1.0
+      "target": "controllers_hello_controller_connect"
     },
     {
       "relation": "imports_from",
@@ -3223,9 +2916,9 @@
       "source_file": "app/javascript/controllers/index.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_javascript_controllers_index_js",
-      "target": "app_javascript_controllers_hello_controller_js",
-      "confidence_score": 1.0
+      "target": "app_javascript_controllers_hello_controller_js"
     },
     {
       "relation": "contains",
@@ -3233,9 +2926,9 @@
       "source_file": "app/javascript/controllers/application.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_javascript_controllers_application_js",
-      "target": "controllers_application_application",
-      "confidence_score": 1.0
+      "target": "controllers_application_application"
     },
     {
       "relation": "imports_from",
@@ -3244,9 +2937,9 @@
       "source_file": "app/javascript/controllers/index.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_javascript_controllers_index_js",
-      "target": "app_javascript_controllers_application_js",
-      "confidence_score": 1.0
+      "target": "app_javascript_controllers_application_js"
     },
     {
       "relation": "imports",
@@ -3255,9 +2948,9 @@
       "source_file": "app/javascript/controllers/index.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_javascript_controllers_index_js",
-      "target": "controllers_application_application",
-      "confidence_score": 1.0
+      "target": "controllers_application_application"
     },
     {
       "relation": "calls",
@@ -3270,13 +2963,14 @@
       "target": "controllers_application_application"
     },
     {
-      "relation": "contains",
+      "relation": "imports_from",
+      "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/models/application_record.rb",
-      "source_location": "L1",
+      "source_file": "app/javascript/controllers/index.js",
+      "source_location": "L7",
       "weight": 1.0,
-      "source": "app_models_application_record_rb",
-      "target": "models_application_record_applicationrecord",
+      "source": "app_javascript_controllers_index_js",
+      "target": "app_javascript_controllers_flash_controller_js",
       "confidence_score": 1.0
     },
     {
@@ -3285,9 +2979,9 @@
       "source_file": "app/models/user.rb",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_models_user_rb",
-      "target": "models_user_user",
-      "confidence_score": 1.0
+      "target": "models_user_user"
     },
     {
       "relation": "method",
@@ -3295,9 +2989,9 @@
       "source_file": "app/models/user.rb",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "models_user_user",
-      "target": "models_user_user_full_name",
-      "confidence_score": 1.0
+      "target": "models_user_user_full_name"
     },
     {
       "relation": "method",
@@ -3305,9 +2999,9 @@
       "source_file": "app/models/user.rb",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "models_user_user",
-      "target": "models_user_user_password_required",
-      "confidence_score": 1.0
+      "target": "models_user_user_password_required"
     },
     {
       "relation": "references",
@@ -3336,7 +3030,7 @@
       "source_file": "app/dashboards/user_dashboard.rb",
       "source_location": null,
       "weight": 1.0,
-      "source": "dashboards_user_dashboard_user_dashboard",
+      "source": "app_dashboards_user_dashboard_rb",
       "target": "models_user_user"
     },
     {
@@ -3346,7 +3040,7 @@
       "source_file": "app/controllers/pages_controller.rb",
       "source_location": null,
       "weight": 1.0,
-      "source": "controllers_pages_controller_pages_controller",
+      "source": "app_controllers_pages_controller_rb",
       "target": "models_user_user"
     },
     {
@@ -3380,24 +3074,14 @@
       "target": "models_user_user"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/pages_controller.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_controllers_pages_controller_rb",
-      "target": "controllers_pages_controller_pagescontroller",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app/controllers/pages_controller.rb",
       "source_location": "L4",
       "weight": 1.0,
-      "source": "controllers_pages_controller_pagescontroller",
-      "target": "controllers_pages_controller_pagescontroller_index",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "app_controllers_pages_controller_rb",
+      "target": "controllers_pages_controller_pagescontroller_index"
     },
     {
       "relation": "method",
@@ -3405,19 +3089,9 @@
       "source_file": "app/controllers/pages_controller.rb",
       "source_location": "L7",
       "weight": 1.0,
-      "source": "controllers_pages_controller_pagescontroller",
-      "target": "controllers_pages_controller_pagescontroller_credits",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/application_controller.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_controllers_application_controller_rb",
-      "target": "controllers_application_controller_applicationcontroller",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "app_controllers_pages_controller_rb",
+      "target": "controllers_pages_controller_pagescontroller_credits"
     },
     {
       "relation": "method",
@@ -3425,9 +3099,19 @@
       "source_file": "app/controllers/application_controller.rb",
       "source_location": "L11",
       "weight": 1.0,
-      "source": "controllers_application_controller_applicationcontroller",
-      "target": "controllers_application_controller_applicationcontroller_user_not_authorized",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "app_controllers_application_controller_rb",
+      "target": "controllers_application_controller_user_not_authorized"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "app/controllers/admin/application_controller.rb",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "admin_application_controller_application_controller",
+      "target": "app_controllers_application_controller_rb"
     },
     {
       "relation": "contains",
@@ -3435,9 +3119,9 @@
       "source_file": "app/controllers/admin/application_controller.rb",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_controllers_admin_application_controller_rb",
-      "target": "admin_application_controller_applicationcontroller",
-      "confidence_score": 1.0
+      "target": "admin_application_controller_applicationcontroller"
     },
     {
       "relation": "method",
@@ -3445,49 +3129,29 @@
       "source_file": "app/controllers/admin/application_controller.rb",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "admin_application_controller_applicationcontroller",
-      "target": "admin_application_controller_applicationcontroller_authenticate_admin",
-      "confidence_score": 1.0
+      "target": "admin_application_controller_authenticate_admin"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
       "source_file": "app/controllers/admin/users_controller.rb",
-      "source_location": "L2",
+      "source_location": null,
       "weight": 1.0,
-      "source": "app_controllers_admin_users_controller_rb",
-      "target": "admin_users_controller_userscontroller",
-      "confidence_score": 1.0
+      "source": "admin_users_controller_users_controller",
+      "target": "app_dashboards_user_dashboard_rb"
     },
     {
-      "relation": "contains",
+      "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "app/jobs/application_job.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_jobs_application_job_rb",
-      "target": "jobs_application_job_applicationjob",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "app/dashboards/user_dashboard.rb",
-      "source_location": "L3",
+      "source_location": null,
       "weight": 1.0,
       "source": "app_dashboards_user_dashboard_rb",
-      "target": "dashboards_user_dashboard_userdashboard",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/mailers/application_mailer.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_mailers_application_mailer_rb",
-      "target": "mailers_application_mailer_applicationmailer",
-      "confidence_score": 1.0
+      "target": "models_user_genders"
     },
     {
       "relation": "contains",
@@ -3495,9 +3159,9 @@
       "source_file": "db/migrate/20260715111350_devise_create_users.rb",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_migrate_20260715111350_devise_create_users_rb",
-      "target": "migrate_20260715111350_devise_create_users_devisecreateusers",
-      "confidence_score": 1.0
+      "target": "migrate_20260715111350_devise_create_users_devisecreateusers"
     },
     {
       "relation": "method",
@@ -3505,9 +3169,9 @@
       "source_file": "db/migrate/20260715111350_devise_create_users.rb",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "migrate_20260715111350_devise_create_users_devisecreateusers",
-      "target": "migrate_20260715111350_devise_create_users_devisecreateusers_change",
-      "confidence_score": 1.0
+      "target": "migrate_20260715111350_devise_create_users_devisecreateusers_change"
     },
     {
       "relation": "shares_data_with",
@@ -3660,6 +3324,26 @@
       "target": "claude_devise"
     },
     {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_devise",
+      "target": "claude_turbo"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_devise",
+      "target": "claude_user_model"
+    },
+    {
       "relation": "implements",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -3670,6 +3354,16 @@
       "target": "claude_pundit"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_pundit",
+      "target": "claude_user_model"
+    },
+    {
       "relation": "implements",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -3678,6 +3372,16 @@
       "weight": 1.0,
       "source": "claude_fitupe_app",
       "target": "claude_administrate"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_administrate",
+      "target": "claude_user_model"
     },
     {
       "relation": "implements",
@@ -3710,6 +3414,36 @@
       "target": "claude_bootstrap"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/javascript/controllers/flash_controller.js",
+      "source_location": "2",
+      "weight": 1.0,
+      "source": "controllers_flash_controller_class",
+      "target": "claude_bootstrap"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "app/javascript/controllers/flash_controller.js",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "concept_bootstrap_alert",
+      "target": "claude_bootstrap"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_bootstrap",
+      "target": "claude_stimulus"
+    },
+    {
       "relation": "shares_data_with",
       "confidence": "INFERRED",
       "confidence_score": 0.95,
@@ -3738,6 +3472,16 @@
       "weight": 1.0,
       "source": "claude_fitupe_app",
       "target": "claude_user_model_spec"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.2,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_postgresql",
+      "target": "claude_anti_patterns"
     },
     {
       "relation": "rationale_for",
@@ -3892,16 +3636,6 @@
     {
       "relation": "semantically_similar_to",
       "confidence": "INFERRED",
-      "confidence_score": 0.75,
-      "source_file": "app/controllers/admin/application_controller.rb",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "admin_application_controller_application_controller",
-      "target": "controllers_application_controller_application_controller"
-    },
-    {
-      "relation": "semantically_similar_to",
-      "confidence": "INFERRED",
       "confidence_score": 0.85,
       "source_file": "app/controllers/admin/application_controller.rb",
       "source_location": null,
@@ -3920,16 +3654,6 @@
       "target": "admin_application_controller_authenticate_admin"
     },
     {
-      "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "app/controllers/admin/users_controller.rb",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "admin_users_controller_users_controller",
-      "target": "dashboards_user_dashboard_user_dashboard"
-    },
-    {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.85,
@@ -3937,17 +3661,7 @@
       "source_location": null,
       "weight": 1.0,
       "source": "controllers_application_controller_user_not_authorized",
-      "target": "policies_application_policy_application_policy"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/dashboards/user_dashboard.rb",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "dashboards_user_dashboard_user_dashboard",
-      "target": "models_user_genders"
+      "target": "policies_application_policy_admin"
     },
     {
       "relation": "references",
@@ -4246,7 +3960,7 @@
       "source_file": "db/queue_schema.rb",
       "source_location": "127",
       "weight": 1.0,
-      "source": "db_queue_schema_solid_queue_recurring_executions_table",
+      "source": "db_queue_schema_solid_queue_recurring_tasks_table",
       "target": "db_queue_schema_solid_queue_jobs_table"
     },
     {
@@ -4376,7 +4090,7 @@
       "source_file": "public/icon.png",
       "source_location": null,
       "weight": 1.0,
-      "source": "public_icon_png_image",
+      "source": "public_icon_svg_image",
       "target": "main_logo_png_image"
     },
     {
@@ -4398,178 +4112,88 @@
       "weight": 1.0,
       "source": "sessions_new_login_view",
       "target": "images_main_logo_png_image"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/javascript/controllers/flash_controller.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "app_javascript_controllers_flash_controller_js",
+      "target": "controllers_flash_controller_connect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/javascript/controllers/flash_controller.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "app_javascript_controllers_flash_controller_js",
+      "target": "controllers_flash_controller_disconnect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/javascript/controllers/flash_controller.js",
+      "source_location": "10",
+      "weight": 1.0,
+      "source": "controllers_flash_controller_connect",
+      "target": "concept_bootstrap_alert"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "app/javascript/controllers/flash_controller.js",
+      "source_location": "8-16",
+      "weight": 1.0,
+      "source": "controllers_flash_controller_connect",
+      "target": "controllers_flash_controller_disconnect"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/javascript/controllers/index.js",
+      "source_location": "7-8",
+      "weight": 1.0,
+      "source": "controllers_index_flash_registration",
+      "target": "controllers_flash_controller_class"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/javascript/controllers/flash_controller.js",
+      "source_location": "5",
+      "weight": 1.0,
+      "source": "controllers_flash_controller_class",
+      "target": "claude_stimulus"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_stimulus",
+      "target": "claude_esbuild"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.55,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_rspec",
+      "target": "claude_naming_conventions"
     }
   ],
-  "hyperedges": [
-    {
-      "id": "fitupe_name_origin",
-      "label": "Fisher + Tukey + Pearson form the FiTuPe name",
-      "nodes": [
-        "fitupe_ronald_fisher",
-        "fitupe_karl_pearson",
-        "fitupe_john_tukey",
-        "fitupe_fitupe_name"
-      ],
-      "relation": "form",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FITUPE.md"
-    },
-    {
-      "id": "fitupe_core_stack",
-      "label": "Fitupe auth/authz/admin core stack",
-      "nodes": [
-        "claude_devise",
-        "claude_pundit",
-        "claude_administrate",
-        "claude_fitupe_app"
-      ],
-      "relation": "participate_in",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md"
-    },
-    {
-      "id": "dev_bootstrap_flow",
-      "label": "Development environment bootstrap sequence",
-      "nodes": [
-        "bin_setup",
-        "bin_rails",
-        "bin_dev"
-      ],
-      "relation": "form",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "bin/setup"
-    },
-    {
-      "id": "administrate_user_management_pattern",
-      "label": "Administrate User Management Pattern",
-      "nodes": [
-        "admin_application_controller_application_controller",
-        "admin_users_controller_users_controller",
-        "dashboards_user_dashboard_user_dashboard",
-        "models_user_user"
-      ],
-      "relation": "form",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "app/dashboards/user_dashboard.rb"
-    },
-    {
-      "id": "stimulus_controller_registration_pattern",
-      "label": "Stimulus Controller Registration Flow",
-      "nodes": [
-        "javascript_application_application",
-        "controllers_application_application",
-        "controllers_index",
-        "controllers_hello_controller_hello_controller"
-      ],
-      "relation": "participate_in",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/javascript/controllers/index.js"
-    },
-    {
-      "id": "pundit_authorization_pattern",
-      "label": "Pundit Authorization Failure Handling",
-      "nodes": [
-        "controllers_application_controller_application_controller",
-        "controllers_application_controller_user_not_authorized",
-        "policies_application_policy_application_policy",
-        "admin_application_controller_authenticate_admin"
-      ],
-      "relation": "form",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "app/controllers/application_controller.rb"
-    },
-    {
-      "id": "solid_stack_production_databases",
-      "label": "Solid Cache/Queue/Cable multi-database production architecture",
-      "nodes": [
-        "config_database_config",
-        "config_cache_config",
-        "config_queue_config",
-        "config_cable_config",
-        "environments_production_config"
-      ],
-      "relation": "participate_in",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "config/database.yml"
-    },
-    {
-      "id": "devise_username_auth_setup",
-      "label": "Devise username-based authentication configuration",
-      "nodes": [
-        "initializers_devise_config",
-        "config_routes_devise_for_users",
-        "locales_it_translations",
-        "locales_devise_en_translations"
-      ],
-      "relation": "participate_in",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "config/initializers/devise.rb"
-    },
-    {
-      "id": "application_i18n_setup",
-      "label": "Application internationalization (i18n) configuration",
-      "nodes": [
-        "config_application_config",
-        "locales_it_translations",
-        "locales_en_translations",
-        "locales_devise_en_translations"
-      ],
-      "relation": "participate_in",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "config/application.rb"
-    },
-    {
-      "id": "rails_default_error_pages",
-      "label": "Rails default static public error pages",
-      "nodes": [
-        "public_400_error_page",
-        "public_404_error_page",
-        "public_406_unsupported_browser_error_page",
-        "public_422_error_page",
-        "public_500_error_page"
-      ],
-      "relation": "participate_in",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "public/400.html"
-    },
-    {
-      "id": "rspec_test_suite_setup",
-      "label": "RSpec test suite configuration and fixtures",
-      "nodes": [
-        "spec_rails_helper_config",
-        "spec_spec_helper_config",
-        "factories_users_user_factory",
-        "models_user_spec_user_spec",
-        "requests_pages_spec_pages_spec"
-      ],
-      "relation": "form",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "spec/rails_helper.rb"
-    },
-    {
-      "id": "user_data_definition_pipeline",
-      "label": "User schema, migration, seed and factory pipeline",
-      "nodes": [
-        "db_schema_users_table",
-        "migrate_20260715111350_devise_create_users_devisecreateusers",
-        "db_seeds_davo_user",
-        "factories_users_user_factory"
-      ],
-      "relation": "form",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "db/schema.rb"
-    }
-  ]
+  "hyperedges": [],
+  "built_at_commit": "32fad155be386f9ff3a1519eead3d5f797a30616"
 }
