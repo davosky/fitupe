@@ -1,0 +1,20 @@
+it:
+  activerecord:
+    models:
+      user:
+        one: Utente
+        many: Utenti
+        other: Utenti
+    attributes:
+      user:
+        username: Nome utente
+        password: Password
+        first_name: Nome
+        last_name: Cognome
+        gender: Genere
+        region: Regione
+        province: Provincia
+        category: Categoria
+        admin: Amministratore
+        manager: Manager
+        regular: Iscritto
