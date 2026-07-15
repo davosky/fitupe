@@ -8,7 +8,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L1",
-      "community": 2,
+      "community": 4,
       "norm_label": "package.json",
       "id": "package_json"
     },
@@ -17,7 +17,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L2",
-      "community": 2,
+      "community": 4,
       "norm_label": "name",
       "id": "fitupe_package_name"
     },
@@ -26,7 +26,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L3",
-      "community": 2,
+      "community": 4,
       "norm_label": "private",
       "id": "fitupe_package_private"
     },
@@ -35,7 +35,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L4",
-      "community": 2,
+      "community": 4,
       "norm_label": "devdependencies",
       "id": "fitupe_package_devdependencies"
     },
@@ -44,7 +44,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L5",
-      "community": 2,
+      "community": 4,
       "norm_label": "esbuild",
       "id": "fitupe_package_devdependencies_esbuild"
     },
@@ -53,7 +53,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L7",
-      "community": 12,
+      "community": 4,
       "norm_label": "scripts",
       "id": "fitupe_package_scripts"
     },
@@ -62,7 +62,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L8",
-      "community": 12,
+      "community": 4,
       "norm_label": "build",
       "id": "fitupe_package_scripts_build"
     },
@@ -71,7 +71,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L9",
-      "community": 12,
+      "community": 4,
       "norm_label": "build:css:compile",
       "id": "fitupe_package_scripts_build_css_compile"
     },
@@ -80,7 +80,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L10",
-      "community": 12,
+      "community": 4,
       "norm_label": "build:css:prefix",
       "id": "fitupe_package_scripts_build_css_prefix"
     },
@@ -89,7 +89,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L11",
-      "community": 12,
+      "community": 4,
       "norm_label": "build:css",
       "id": "fitupe_package_scripts_build_css"
     },
@@ -98,7 +98,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L12",
-      "community": 12,
+      "community": 4,
       "norm_label": "watch:css",
       "id": "fitupe_package_scripts_watch_css"
     },
@@ -107,7 +107,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L14",
-      "community": 2,
+      "community": 7,
       "norm_label": "dependencies",
       "id": "fitupe_package_dependencies"
     },
@@ -116,7 +116,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L15",
-      "community": 2,
+      "community": 7,
       "norm_label": "@hotwired/stimulus",
       "id": "fitupe_package_dependencies_hotwired_stimulus"
     },
@@ -125,7 +125,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L16",
-      "community": 2,
+      "community": 7,
       "norm_label": "@hotwired/turbo-rails",
       "id": "fitupe_package_dependencies_hotwired_turbo_rails"
     },
@@ -134,7 +134,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L17",
-      "community": 2,
+      "community": 7,
       "norm_label": "@popperjs/core",
       "id": "fitupe_package_dependencies_popperjs_core"
     },
@@ -143,7 +143,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L18",
-      "community": 2,
+      "community": 7,
       "norm_label": "autoprefixer",
       "id": "fitupe_package_dependencies_autoprefixer"
     },
@@ -152,7 +152,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L19",
-      "community": 2,
+      "community": 7,
       "norm_label": "bootstrap",
       "id": "fitupe_package_dependencies_bootstrap"
     },
@@ -161,7 +161,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L21",
-      "community": 2,
+      "community": 7,
       "norm_label": "bootswatch",
       "id": "fitupe_package_dependencies_bootswatch"
     },
@@ -170,7 +170,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L22",
-      "community": 2,
+      "community": 7,
       "norm_label": "nodemon",
       "id": "fitupe_package_dependencies_nodemon"
     },
@@ -179,7 +179,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L23",
-      "community": 2,
+      "community": 7,
       "norm_label": "postcss",
       "id": "fitupe_package_dependencies_postcss"
     },
@@ -188,7 +188,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L24",
-      "community": 2,
+      "community": 7,
       "norm_label": "postcss-cli",
       "id": "fitupe_package_dependencies_postcss_cli"
     },
@@ -197,7 +197,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L25",
-      "community": 2,
+      "community": 7,
       "norm_label": "sass",
       "id": "fitupe_package_dependencies_sass"
     },
@@ -206,7 +206,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L27",
-      "community": 2,
+      "community": 4,
       "norm_label": "browserslist",
       "id": "fitupe_package_browserslist"
     },
@@ -251,7 +251,7 @@
       "file_type": "code",
       "source_file": "config/application.rb",
       "source_location": "L1",
-      "community": 3,
+      "community": 6,
       "norm_label": "application.rb",
       "id": "config_application_rb"
     },
@@ -503,7 +503,7 @@
       "file_type": "code",
       "source_file": "app/javascript/controllers/hello_controller.js",
       "source_location": "L1",
-      "community": 3,
+      "community": 6,
       "norm_label": "hello_controller.js",
       "id": "app_javascript_controllers_hello_controller_js"
     },
@@ -512,34 +512,16 @@
       "file_type": "code",
       "source_file": "app/javascript/controllers/hello_controller.js",
       "source_location": "L4",
-      "community": 3,
+      "community": 6,
       "norm_label": "connect()",
       "id": "controllers_hello_controller_connect"
-    },
-    {
-      "label": "application.js",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/application.js",
-      "source_location": "L1",
-      "community": 3,
-      "norm_label": "application.js",
-      "id": "app_javascript_controllers_application_js"
-    },
-    {
-      "label": "application",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/application.js",
-      "source_location": "L3",
-      "community": 3,
-      "norm_label": "application",
-      "id": "controllers_application_application"
     },
     {
       "label": "index.js",
       "file_type": "code",
       "source_file": "app/javascript/controllers/index.js",
       "source_location": "L1",
-      "community": 3,
+      "community": 6,
       "norm_label": "index.js",
       "id": "app_javascript_controllers_index_js"
     },
@@ -632,15 +614,6 @@
       "community": 1,
       "norm_label": "application_controller.rb",
       "id": "app_controllers_admin_application_controller_rb"
-    },
-    {
-      "label": "ApplicationController",
-      "file_type": "code",
-      "source_file": "app/controllers/admin/application_controller.rb",
-      "source_location": "L8",
-      "community": 1,
-      "norm_label": "applicationcontroller",
-      "id": "admin_application_controller_applicationcontroller"
     },
     {
       "label": "UsersController",
@@ -776,7 +749,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 8,
       "norm_label": "claude.md project guide",
       "id": "claude_claude_md"
     },
@@ -789,7 +762,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 8,
       "norm_label": "rails way convention over configuration",
       "id": "claude_rails_way"
     },
@@ -802,7 +775,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 2,
       "norm_label": "devise authentication",
       "id": "claude_devise"
     },
@@ -815,7 +788,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 2,
       "norm_label": "pundit authorization",
       "id": "claude_pundit"
     },
@@ -828,7 +801,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 2,
       "norm_label": "administrate admin panel",
       "id": "claude_administrate"
     },
@@ -841,7 +814,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 9,
       "norm_label": "bootstrap css framework",
       "id": "claude_bootstrap"
     },
@@ -854,7 +827,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 9,
       "norm_label": "bootswatch styles (lumen)",
       "id": "claude_bootswatch"
     },
@@ -867,7 +840,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 9,
       "norm_label": "hotwire (turbo + stimulus)",
       "id": "claude_hotwire"
     },
@@ -880,7 +853,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "rspec + factorybot + capybara testing stack",
       "id": "claude_rspec_stack"
     },
@@ -893,7 +866,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 8,
       "norm_label": "pagy pagination",
       "id": "claude_pagy"
     },
@@ -906,7 +879,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 8,
       "norm_label": "graphify knowledge graph workflow",
       "id": "claude_graphify"
     },
@@ -919,7 +892,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 2,
       "norm_label": "fitupe application",
       "id": "claude_fitupe_app"
     },
@@ -932,7 +905,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 2,
       "norm_label": "user model specification (devise fields)",
       "id": "claude_user_model_spec"
     },
@@ -945,7 +918,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 8,
       "norm_label": "anti-patterns to avoid",
       "id": "claude_anti_patterns"
     },
@@ -958,7 +931,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 8,
       "norm_label": "n+1 query performance rule",
       "id": "claude_n_plus_one"
     },
@@ -971,7 +944,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 8,
       "norm_label": "fitupe.md naming & logo document",
       "id": "fitupe_fitupe_md"
     },
@@ -984,7 +957,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "norm_label": "ronald aylmer fisher",
       "id": "fitupe_ronald_fisher"
     },
@@ -997,7 +970,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "norm_label": "karl pearson",
       "id": "fitupe_karl_pearson"
     },
@@ -1010,7 +983,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "norm_label": "john tukey",
       "id": "fitupe_john_tukey"
     },
@@ -1023,7 +996,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "norm_label": "analysis of variance (anova)",
       "id": "fitupe_anova"
     },
@@ -1036,7 +1009,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "norm_label": "p-value hypothesis testing",
       "id": "fitupe_p_value"
     },
@@ -1049,7 +1022,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "norm_label": "chi-square test",
       "id": "fitupe_chi_square_test"
     },
@@ -1062,7 +1035,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "norm_label": "pearson correlation coefficient",
       "id": "fitupe_correlation_coefficient"
     },
@@ -1075,7 +1048,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "norm_label": "exploratory data analysis (eda)",
       "id": "fitupe_eda"
     },
@@ -1088,7 +1061,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "norm_label": "box plot",
       "id": "fitupe_box_plot"
     },
@@ -1101,7 +1074,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "norm_label": "sigma symbol (standard deviation)",
       "id": "fitupe_sigma_symbol"
     },
@@ -1114,7 +1087,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "norm_label": "fitupe application name origin",
       "id": "fitupe_fitupe_name"
     },
@@ -1127,7 +1100,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "norm_label": "fitupe logo design",
       "id": "fitupe_fitupe_logo"
     },
@@ -1218,7 +1191,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 8,
       "norm_label": "bin/jobs script",
       "id": "bin_jobs"
     },
@@ -1309,7 +1282,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 9,
       "norm_label": "package.json (js build config)",
       "id": "package_package_json"
     },
@@ -1322,7 +1295,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 9,
       "norm_label": "esbuild bundler",
       "id": "package_esbuild"
     },
@@ -1413,7 +1386,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 6,
       "norm_label": "hellocontroller (stimulus)",
       "id": "controllers_hello_controller_hello_controller"
     },
@@ -1426,7 +1399,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 6,
       "norm_label": "stimulus controllers manifest (index.js)",
       "id": "controllers_index"
     },
@@ -1517,7 +1490,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 11,
       "norm_label": "fitupe::application configuration",
       "id": "config_application_config"
     },
@@ -1530,7 +1503,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 11,
       "norm_label": "boot: bundler & bootsnap setup",
       "id": "config_boot_setup"
     },
@@ -1621,7 +1594,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 11,
       "norm_label": "rails application boot/initialize",
       "id": "config_environment_boot"
     },
@@ -1699,7 +1672,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 11,
       "norm_label": "devise.setup configuration (username auth)",
       "id": "initializers_devise_config"
     },
@@ -1738,7 +1711,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 11,
       "norm_label": "devise english translations",
       "id": "locales_devise_en_translations"
     },
@@ -1751,7 +1724,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 11,
       "norm_label": "english locale (default)",
       "id": "locales_en_translations"
     },
@@ -1764,7 +1737,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 11,
       "norm_label": "italian locale - user model attributes",
       "id": "locales_it_translations"
     },
@@ -1829,7 +1802,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 11,
       "norm_label": "admin namespace routes (users)",
       "id": "config_routes_admin_namespace"
     },
@@ -1842,7 +1815,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 11,
       "norm_label": "devise_for :users route",
       "id": "config_routes_devise_for_users"
     },
@@ -1933,7 +1906,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 12,
       "norm_label": "solid_queue_jobs table",
       "id": "db_queue_schema_solid_queue_jobs_table"
     },
@@ -1946,7 +1919,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 12,
       "norm_label": "solid_queue_blocked_executions table",
       "id": "db_queue_schema_solid_queue_blocked_executions_table"
     },
@@ -1959,7 +1932,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 12,
       "norm_label": "solid_queue_claimed_executions table",
       "id": "db_queue_schema_solid_queue_claimed_executions_table"
     },
@@ -1972,7 +1945,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 12,
       "norm_label": "solid_queue_failed_executions table",
       "id": "db_queue_schema_solid_queue_failed_executions_table"
     },
@@ -1985,7 +1958,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 12,
       "norm_label": "solid_queue_ready_executions table",
       "id": "db_queue_schema_solid_queue_ready_executions_table"
     },
@@ -1998,7 +1971,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 12,
       "norm_label": "solid_queue_scheduled_executions table",
       "id": "db_queue_schema_solid_queue_scheduled_executions_table"
     },
@@ -2037,7 +2010,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 12,
       "norm_label": "solid_queue_recurring_tasks table",
       "id": "db_queue_schema_solid_queue_recurring_tasks_table"
     },
@@ -2306,27 +2279,27 @@
       "file_type": "code",
       "source_file": "app/javascript/controllers/flash_controller.js",
       "source_location": "L1",
-      "id": "app_javascript_controllers_flash_controller_js",
-      "community": 3,
-      "norm_label": "flash_controller.js"
+      "community": 6,
+      "norm_label": "flash_controller.js",
+      "id": "app_javascript_controllers_flash_controller_js"
     },
     {
       "label": "connect()",
       "file_type": "code",
       "source_file": "app/javascript/controllers/flash_controller.js",
       "source_location": "L8",
-      "id": "controllers_flash_controller_connect",
-      "community": 3,
-      "norm_label": "connect()"
+      "community": 6,
+      "norm_label": "connect()",
+      "id": "controllers_flash_controller_connect"
     },
     {
       "label": "disconnect()",
       "file_type": "code",
       "source_file": "app/javascript/controllers/flash_controller.js",
       "source_location": "L14",
-      "id": "controllers_flash_controller_disconnect",
-      "community": 3,
-      "norm_label": "disconnect()"
+      "community": 6,
+      "norm_label": "disconnect()",
+      "id": "controllers_flash_controller_disconnect"
     },
     {
       "label": "FlashController",
@@ -2337,9 +2310,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "controllers_flash_controller_class",
-      "community": 7,
-      "norm_label": "flashcontroller"
+      "community": 9,
+      "norm_label": "flashcontroller",
+      "id": "controllers_flash_controller_class"
     },
     {
       "label": "Flash Controller Registration",
@@ -2350,9 +2323,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "controllers_index_flash_registration",
-      "community": 7,
-      "norm_label": "flash controller registration"
+      "community": 9,
+      "norm_label": "flash controller registration",
+      "id": "controllers_index_flash_registration"
     },
     {
       "label": "Bootstrap Alert Component API",
@@ -2363,9 +2336,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_bootstrap_alert",
-      "community": 3,
-      "norm_label": "bootstrap alert component api"
+      "community": 6,
+      "norm_label": "bootstrap alert component api",
+      "id": "concept_bootstrap_alert"
     },
     {
       "label": "Stimulus Controllers Convention",
@@ -2376,9 +2349,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_stimulus",
-      "community": 7,
-      "norm_label": "stimulus controllers convention"
+      "community": 9,
+      "norm_label": "stimulus controllers convention",
+      "id": "claude_stimulus"
     },
     {
       "label": "Turbo/Hotwire Compatibility",
@@ -2389,9 +2362,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_turbo",
-      "community": 11,
-      "norm_label": "turbo/hotwire compatibility"
+      "community": 2,
+      "norm_label": "turbo/hotwire compatibility",
+      "id": "claude_turbo"
     },
     {
       "label": "RSpec Testing Approach",
@@ -2402,9 +2375,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_rspec",
       "community": 15,
-      "norm_label": "rspec testing approach"
+      "norm_label": "rspec testing approach",
+      "id": "claude_rspec"
     },
     {
       "label": "PostgreSQL Database Config",
@@ -2415,9 +2388,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_postgresql",
-      "community": 6,
-      "norm_label": "postgresql database config"
+      "community": 8,
+      "norm_label": "postgresql database config",
+      "id": "claude_postgresql"
     },
     {
       "label": "User Model Fields",
@@ -2428,9 +2401,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_user_model",
-      "community": 11,
-      "norm_label": "user model fields"
+      "community": 2,
+      "norm_label": "user model fields",
+      "id": "claude_user_model"
     },
     {
       "label": "ESBuild JS Bundler",
@@ -2441,9 +2414,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_esbuild",
-      "community": 7,
-      "norm_label": "esbuild js bundler"
+      "community": 9,
+      "norm_label": "esbuild js bundler",
+      "id": "claude_esbuild"
     },
     {
       "label": "Naming Conventions",
@@ -2454,9 +2427,161 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_naming_conventions",
       "community": 15,
-      "norm_label": "naming conventions"
+      "norm_label": "naming conventions",
+      "id": "claude_naming_conventions"
+    },
+    {
+      "label": "Application",
+      "file_type": "code",
+      "source_file": "config/application.rb",
+      "source_location": "L22",
+      "id": "config_application_application",
+      "community": 6,
+      "norm_label": "application"
+    },
+    {
+      "label": "Fitupe README",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1-8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_fitupe",
+      "community": 2,
+      "norm_label": "fitupe readme"
+    },
+    {
+      "label": "README Tech Stack Section",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L9-15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_tech_stack",
+      "community": 2,
+      "norm_label": "readme tech stack section"
+    },
+    {
+      "label": "README Setup Commands (bin/setup, bin/dev)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L17-26",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_setup_commands",
+      "community": 2,
+      "norm_label": "readme setup commands (bin/setup, bin/dev)"
+    },
+    {
+      "label": "README License Section",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L28-30",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_license_section",
+      "community": 2,
+      "norm_label": "readme license section"
+    },
+    {
+      "label": "MIT License Text",
+      "file_type": "document",
+      "source_file": "LICENCE.md",
+      "source_location": "L1-22",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "licence_mit",
+      "community": 2,
+      "norm_label": "mit license text"
+    },
+    {
+      "label": "Italian Devise Translations",
+      "file_type": "concept",
+      "source_file": "config/locales/devise.it.yml",
+      "source_location": "L1-48",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "locales_devise_it_root",
+      "community": 2,
+      "norm_label": "italian devise translations"
+    },
+    {
+      "label": "Italian ActiveRecord Labels for User Model",
+      "file_type": "concept",
+      "source_file": "config/locales/it.yml",
+      "source_location": "L2-20",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "locales_it_activerecord_user",
+      "community": 2,
+      "norm_label": "italian activerecord labels for user model"
+    },
+    {
+      "label": "Italian Validation Error Messages",
+      "file_type": "concept",
+      "source_file": "config/locales/it.yml",
+      "source_location": "L126-163",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "locales_it_errors_messages",
+      "community": 2,
+      "norm_label": "italian validation error messages"
+    },
+    {
+      "label": "Italian Administrate Admin Panel Labels",
+      "file_type": "concept",
+      "source_file": "config/locales/it.yml",
+      "source_location": "L233-361",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "locales_it_administrate_admin",
+      "community": 2,
+      "norm_label": "italian administrate admin panel labels"
+    },
+    {
+      "label": "Navbar Logo (Horizontal Wordmark)",
+      "file_type": "image",
+      "source_file": "app/assets/images/navbar-logo.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "images_navbar_logo_svg_image",
+      "community": 10,
+      "norm_label": "navbar logo (horizontal wordmark)"
+    },
+    {
+      "label": "Navbar Brand Link",
+      "file_type": "code",
+      "source_file": "app/views/layouts/application.html.erb",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "layouts_application_navbar_brand",
+      "community": 10,
+      "norm_label": "navbar brand link"
     }
   ],
   "links": [
@@ -2681,15 +2806,35 @@
       "target": "fitupe_package_dependencies_sass"
     },
     {
-      "relation": "imports_from",
+      "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "app/javascript/application.js",
-      "source_location": "L3",
+      "source_file": "app/javascript/controllers/index.js",
+      "source_location": "L5",
       "weight": 1.0,
       "confidence_score": 1.0,
+      "source": "app_javascript_controllers_index_js",
+      "target": "config_application_rb"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/javascript/controllers/index.js",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "controllers_index",
+      "target": "config_application_rb"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "config/application.rb",
+      "source_location": "L22",
+      "weight": 1.0,
       "source": "config_application_rb",
-      "target": "app_javascript_controllers_index_js"
+      "target": "config_application_application",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -2921,57 +3066,15 @@
       "target": "app_javascript_controllers_hello_controller_js"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/application.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_javascript_controllers_application_js",
-      "target": "controllers_application_application"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/index.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_javascript_controllers_index_js",
-      "target": "app_javascript_controllers_application_js"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/index.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_javascript_controllers_index_js",
-      "target": "controllers_application_application"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/javascript/controllers/index.js",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "controllers_index",
-      "target": "controllers_application_application"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "app/javascript/controllers/index.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_javascript_controllers_index_js",
-      "target": "app_javascript_controllers_flash_controller_js",
-      "confidence_score": 1.0
+      "target": "app_javascript_controllers_flash_controller_js"
     },
     {
       "relation": "contains",
@@ -3121,7 +3224,7 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_controllers_admin_application_controller_rb",
-      "target": "admin_application_controller_applicationcontroller"
+      "target": "app_controllers_application_controller_rb"
     },
     {
       "relation": "method",
@@ -3130,7 +3233,7 @@
       "source_location": "L12",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "admin_application_controller_applicationcontroller",
+      "source": "app_controllers_application_controller_rb",
       "target": "admin_application_controller_authenticate_admin"
     },
     {
@@ -3344,6 +3447,36 @@
       "target": "claude_user_model"
     },
     {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "readme_tech_stack",
+      "target": "claude_devise"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "config/locales/devise.it.yml",
+      "source_location": "L1-48",
+      "weight": 1.0,
+      "source": "locales_devise_it_root",
+      "target": "claude_devise"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "config/locales/it.yml",
+      "source_location": "L9-11",
+      "weight": 1.0,
+      "source": "locales_it_activerecord_user",
+      "target": "claude_devise"
+    },
+    {
       "relation": "implements",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -3362,6 +3495,16 @@
       "weight": 1.0,
       "source": "claude_pundit",
       "target": "claude_user_model"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "readme_tech_stack",
+      "target": "claude_pundit"
     },
     {
       "relation": "implements",
@@ -3444,6 +3587,16 @@
       "target": "claude_stimulus"
     },
     {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "readme_tech_stack",
+      "target": "claude_bootstrap"
+    },
+    {
       "relation": "shares_data_with",
       "confidence": "INFERRED",
       "confidence_score": 0.95,
@@ -3462,6 +3615,16 @@
       "weight": 1.0,
       "source": "package_package_json",
       "target": "claude_hotwire"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "readme_tech_stack",
+      "target": "claude_rspec_stack"
     },
     {
       "relation": "implements",
@@ -4047,7 +4210,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "main-logo.svg",
+      "source_file": "app/assets/images/main-logo.svg",
       "source_location": null,
       "weight": 1.0,
       "source": "main_logo_svg_image",
@@ -4086,6 +4249,16 @@
     {
       "relation": "references",
       "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "app/assets/images/navbar-logo.svg",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "images_navbar_logo_svg_image",
+      "target": "main_logo_svg_image"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
       "confidence_score": 0.95,
       "source_file": "public/icon.png",
       "source_location": null,
@@ -4119,9 +4292,9 @@
       "source_file": "app/javascript/controllers/flash_controller.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_javascript_controllers_flash_controller_js",
-      "target": "controllers_flash_controller_connect",
-      "confidence_score": 1.0
+      "target": "controllers_flash_controller_connect"
     },
     {
       "relation": "contains",
@@ -4129,9 +4302,9 @@
       "source_file": "app/javascript/controllers/flash_controller.js",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_javascript_controllers_flash_controller_js",
-      "target": "controllers_flash_controller_disconnect",
-      "confidence_score": 1.0
+      "target": "controllers_flash_controller_disconnect"
     },
     {
       "relation": "references",
@@ -4192,8 +4365,88 @@
       "weight": 1.0,
       "source": "claude_rspec",
       "target": "claude_naming_conventions"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L9-15",
+      "weight": 1.0,
+      "source": "readme_fitupe",
+      "target": "readme_tech_stack"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L17-26",
+      "weight": 1.0,
+      "source": "readme_fitupe",
+      "target": "readme_setup_commands"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L28-30",
+      "weight": 1.0,
+      "source": "readme_fitupe",
+      "target": "readme_license_section"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.55,
+      "source_file": "config/locales/it.yml",
+      "source_location": "L233-361",
+      "weight": 1.0,
+      "source": "locales_it_administrate_admin",
+      "target": "readme_tech_stack"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "readme_license_section",
+      "target": "licence_mit"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "config/locales/devise.it.yml",
+      "source_location": "L1-11",
+      "weight": 1.0,
+      "source": "locales_devise_it_root",
+      "target": "locales_it_errors_messages"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "config/locales/it.yml",
+      "source_location": "L126-163",
+      "weight": 1.0,
+      "source": "locales_it_errors_messages",
+      "target": "locales_it_activerecord_user"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/views/layouts/application.html.erb",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "layouts_application_navbar_brand",
+      "target": "images_navbar_logo_svg_image"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "32fad155be386f9ff3a1519eead3d5f797a30616"
+  "built_at_commit": "c2c56c397e7017b741108a3d56986b6b3a09697c"
 }

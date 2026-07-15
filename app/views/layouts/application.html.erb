@@ -19,25 +19,39 @@
   <body>
     <div class="container">
       <% if user_signed_in? %>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
-          <%= link_to "Fitupe", root_path, class: "navbar-brand" %>
+        <nav class="navbar navbar-expand-lg bg-light mb-3 ps-3 pe-3" data-bs-theme="light">
+          <%= link_to root_path, class: "navbar-brand" do %>
+            <%= image_tag "navbar-logo.svg", alt: "navba-logo", class: "img-fluid" %>
+          <% end %>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
             <ul class="navbar-nav">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                  <%= current_user.username %>
+                <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown">
+                  <i class="bi bi-list"></i>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end">
                   <% if current_user.admin? %>
-                    <li><%= link_to "Administrate", admin_root_path, class: "dropdown-item" %></li>
+                    <li>
+                      <%= link_to admin_root_path, class: "dropdown-item" do %>
+                        <i class="bi bi-key me-3"></i>Amministrazione
+                      <% end %>
+                    </li>
                     <li><hr class="dropdown-divider"></li>
                   <% end %>
-                  <li><%= link_to "Credits", credits_path, class: "dropdown-item" %></li>
+                  <li>
+                    <%= link_to credits_path, class: "dropdown-item" do %>
+                      <i class="bi bi-person-circle me-3"></i>Crediti
+                    <% end %>
+                  </li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><%= button_to "Esci", destroy_user_session_path, method: :delete, class: "dropdown-item" %></li>
+                  <li>
+                    <%= link_to destroy_user_session_path, method: :delete, class: "dropdown-item" do %>
+                      <i class="bi bi-box-arrow-left me-3"></i>Esci
+                    <% end %>
+                  </li>
                 </ul>
               </li>
             </ul>
