@@ -1,0 +1,123 @@
+/* Sovrascrive i colori di Administrate (di base $action-color/$blue: #1976d2)
+   con l'oro #BC9456 usato nel resto dell'applicazione (vedi
+   app/assets/stylesheets/application.bootstrap.scss). Selettori copiati
+   identici a quelli compilati in administrate/application.css per pareggiare
+   la specificità e vincere per ordine di caricamento. */
+
+.navigation__brand {
+  display: block;
+  margin-bottom: 1.5em;
+}
+
+.navigation__logo {
+  height: auto;
+  max-width: 100%;
+}
+
+a,
+.link:is(button,
+[type=button],
+[type=reset],
+[type=submit]) {
+  color: #BC9456;
+}
+a:hover,
+.link:is(button,
+[type=button],
+[type=reset],
+[type=submit]):hover {
+  color: #8D6F41;
+}
+a:focus,
+.link:is(button,
+[type=button],
+[type=reset],
+[type=submit]):focus {
+  outline: 3px solid rgba(188, 148, 86, 0.6);
+  outline-offset: 1px;
+}
+
+[type=color]:focus,
+[type=date]:focus,
+[type=datetime-local]:focus,
+[type=email]:focus,
+[type=month]:focus,
+[type=number]:focus,
+[type=password]:focus,
+[type=search]:focus,
+[type=tel]:focus,
+[type=text]:focus,
+[type=time]:focus,
+[type=url]:focus,
+[type=week]:focus,
+input:not([type]):focus,
+textarea:focus {
+  border-color: #BC9456;
+}
+
+[type=checkbox]:focus,
+[type=radio]:focus,
+[type=file]:focus,
+select:focus {
+  outline: 3px solid rgba(188, 148, 86, 0.6);
+  outline-offset: 1px;
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit],
+.button {
+  background-color: #BC9456;
+}
+button:not(.link):hover,
+[type=button]:not(.link):hover,
+[type=reset]:not(.link):hover,
+[type=submit]:not(.link):hover,
+.button:not(.link):hover {
+  background-color: #967645;
+}
+button:not(.link):focus,
+[type=button]:not(.link):focus,
+[type=reset]:not(.link):focus,
+[type=submit]:not(.link):focus,
+.button:not(.link):focus {
+  outline: 3px solid rgba(188, 148, 86, 0.6);
+  outline-offset: 1px;
+}
+button:not(.link):disabled:hover,
+[type=button]:not(.link):disabled:hover,
+[type=reset]:not(.link):disabled:hover,
+[type=submit]:not(.link):disabled:hover,
+.button:not(.link):disabled:hover {
+  background-color: #BC9456;
+}
+
+.button--alt {
+  background-color: transparent;
+  border-color: #BC9456;
+  color: #BC9456;
+}
+
+tbody tr:focus {
+  outline: 3px solid rgba(188, 148, 86, 0.6);
+  outline-offset: -3px;
+}
+
+.cell-label:hover a {
+  color: #BC9456;
+}
+.cell-label:hover svg {
+  fill: #BC9456;
+}
+
+.search__clear-icon:hover {
+  color: #BC9456;
+}
+.search__tooltip svg:hover {
+  color: #BC9456;
+}
+.search__tooltip-popover {
+  background-color: #BC9456;
+  border-color: #BC9456;
+}
