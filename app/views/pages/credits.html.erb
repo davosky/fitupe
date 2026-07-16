@@ -5,10 +5,12 @@
     <div class="card-body">
       <h2 class="h4 card-title"><i>il nome</i></h2>
       <p class="card-text">
-        <strong class="h3">Fitupe</strong> è l'acronimo di <strong class="h3">Fi</strong>sher, 
-        <strong class="h3">Tu</strong>key e
-        <strong class="h3">Pe</strong>arson 
-        ( che suona magicamente come il nome di un faraone egizio ), tre tra i più influenti statistici della storia, i cui contributi (analisi della varianza, analisi esplorativa dei dati, correlazione e test d'ipotesi) sono
+        <strong class="h3 text-danger">Fitupe</strong> è l'acronimo di <strong class="h3 text-danger">Fi</strong>sher, 
+        <strong class="h3 text-danger">Tu</strong>key e
+        <strong class="h3 text-danger">Pe</strong>arson 
+        ( che suona magicamente come il nome di un faraone egizio ),
+        <br/>
+        tre tra i più influenti statistici della storia, i cui contributi (analisi della varianza, analisi esplorativa dei dati, correlazione e test d'ipotesi) sono
         alla base della statistica moderna.
       </p>
     </div>
@@ -18,21 +20,29 @@
       <h2 class="h4 card-title"><i>il logo</i></h2>
       <p class="card-text">
         Il logo raffigura il viso stilizzato di un faraone egizio immaginario con un copricapo a
-        forma cilindrica, che richiama il sole come fonte di energia e saggezza. Al suo interno è
-        racchiusa la lettera greca <strong class="h3">σ</strong> (sigma minuscolo), simbolo della deviazione
-        standard: la misura della variabilità su cui si fonda l'analisi statistica.
+        forma cilindrica, che richiama il sole come fonte di energia e saggezza.
+        <br/>
+        Al suo interno è racchiusa la lettera greca <strong class="h2 text-danger">σ</strong> (sigma minuscolo), simbolo della deviazione standard: la misura della variabilità su cui si fonda l'analisi statistica.
       </p>
     </div>
   </div>
   <div class="card mb-3">
     <div class="card-body">
-      <h2 class="h4 card-title"><i>il creatore</i></h2>
+      <h2 class="h4 card-title"><i>il programmatore</i></h2>
       <p class="card-text">
-        <%= link_to("https://github.com/davosky/fitupe", taget: "blank")  do %>
+        <%= link_to("https://github.com/davosky/fitupe", target: "blank")  do %>
           <h3>
-            Davo Davosky&emsp;The Davosky Connection
+            <%= image_tag "davosky-logo.svg", alt: "Davosky", class: "img-fluid me-3", size: "196x69" %>
+            Davo Davosky - The Davosky Connection
           </h3>
         <% end %>
+        <h5>
+          <%= image_tag "claude-code-logo.svg", alt: "Claude", class: "img-fluid me-1", size: "24x24" %>
+          Applicazione  scritta in Vibe Coding con la collaborazione di Claude Code.
+          <br class="mb-2"/>
+          <%= image_tag "davo-logo.svg", alt: "Davo", class: "img-fluid me-1", size: "72x24" %>
+          Revisioni del codice eseguite da Davo Davosky.
+        </h5>
       </p>
     </div>
   </div>

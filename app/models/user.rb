@@ -2,8 +2,8 @@ class User < ApplicationRecord
   GENDERS = %w[M F].freeze
 
   # Include default devise modules. Others available are:
-  # :registerable, :recoverable, :confirmable, :lockable, :timeoutable and :omniauthable
-  devise :database_authenticatable, :rememberable, :trackable
+  # :registerable, :recoverable, :confirmable, :timeoutable and :omniauthable
+  devise :database_authenticatable, :rememberable, :trackable, :lockable
 
   validates :username, presence: true, uniqueness: { case_sensitive: false },
     length: { minimum: 3, maximum: 30 }, format: { with: /\A[a-zA-Z0-9_.]+\z/ }

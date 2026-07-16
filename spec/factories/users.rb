@@ -1,8 +1,8 @@
 FactoryBot.define do
   factory :user do
     sequence(:username) { |n| "user#{n}" }
-    password { "password123" }
-    password_confirmation { "password123" }
+    password { "password12345" }
+    password_confirmation { "password12345" }
     first_name { "Mario" }
     last_name { "Rossi" }
     gender { "M" }

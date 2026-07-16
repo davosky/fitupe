@@ -1,18 +1,13 @@
-# Graph Report - fitupe  (2026-07-16)
+# Graph Report - .  (2026-07-15)
 
 ## Corpus Check
-- 60 files · ~34,294 words
+- 8 files · ~22,141 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 297 nodes · 264 edges · 80 communities (44 shown, 36 thin omitted)
-- Extraction: 78% EXTRACTED · 22% INFERRED · 1% AMBIGUOUS · INFERRED: 57 edges (avg confidence: 0.86)
-- Token cost: 0 input · 0 output
-
-## Graph Freshness
-- Built from commit: `6eff5534`
-- Run `git rev-parse HEAD` and compare to check if the graph is stale.
-- Run `graphify update .` after code changes (no API cost).
+- 224 nodes · 185 edges · 75 communities (43 shown, 32 thin omitted)
+- Extraction: 69% EXTRACTED · 30% INFERRED · 1% AMBIGUOUS · INFERRED: 56 edges (avg confidence: 0.86)
+- Token cost: 0 input · 113,051 output
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Modello User e Autenticazione|Modello User e Autenticazione]]
@@ -33,9 +28,7 @@
 - [[_COMMUNITY_Convenzioni RSpecNaming (CLAUDE.md)|Convenzioni RSpec/Naming (CLAUDE.md)]]
 - [[_COMMUNITY_CI e Bundler Audit|CI e Bundler Audit]]
 - [[_COMMUNITY_Routes CreditsRoot|Routes Credits/Root]]
-- [[_COMMUNITY_ApplicationRecord|ApplicationRecord]]
 - [[_COMMUNITY_AdminUsersController|Admin::UsersController]]
-- [[_COMMUNITY_ApplicationMailer|ApplicationMailer]]
 - [[_COMMUNITY_README|README]]
 - [[_COMMUNITY_Bin Brakeman|Bin Brakeman]]
 - [[_COMMUNITY_Bin Bundler Audit|Bin Bundler Audit]]
@@ -64,23 +57,18 @@
 - [[_COMMUNITY_Pagina Errore 406|Pagina Errore 406]]
 - [[_COMMUNITY_Pagina Errore 422|Pagina Errore 422]]
 - [[_COMMUNITY_Pagina Errore 500|Pagina Errore 500]]
-- [[_COMMUNITY_Community 75|Community 75]]
-- [[_COMMUNITY_Community 76|Community 76]]
-- [[_COMMUNITY_Community 77|Community 77]]
-- [[_COMMUNITY_Community 78|Community 78]]
-- [[_COMMUNITY_Community 79|Community 79]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `CLAUDE.md — Guida per Claude Code` - 15 edges
-2. `ApplicationPolicy#admin?` - 12 edges
-3. `ApplicationPolicy` - 10 edges
-4. `User` - 10 edges
-5. `CLAUDE.md Project Guide` - 10 edges
-6. `Bootstrap CSS Framework` - 7 edges
-7. `scripts` - 6 edges
-8. `Devise Authentication` - 6 edges
-9. `Fitupe Application` - 6 edges
-10. `solid_queue_jobs table` - 6 edges
+1. `ApplicationPolicy#admin?` - 12 edges
+2. `User` - 10 edges
+3. `CLAUDE.md Project Guide` - 10 edges
+4. `Bootstrap CSS Framework` - 7 edges
+5. `scripts` - 6 edges
+6. `Devise Authentication` - 6 edges
+7. `Fitupe Application` - 6 edges
+8. `solid_queue_jobs table` - 6 edges
+9. `user FactoryBot factory` - 6 edges
+10. `README Tech Stack Section` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Bootstrap Alert Component API` --conceptually_related_to--> `Bootstrap CSS Framework`  [INFERRED]
@@ -89,52 +77,52 @@
   config/locales/devise.it.yml → CLAUDE.md
 - `Italian ActiveRecord Labels for User Model` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   config/locales/it.yml → CLAUDE.md
+- `README Tech Stack Section` --semantically_similar_to--> `Bootstrap CSS Framework`  [INFERRED] [semantically similar]
+  README.md → CLAUDE.md
 - `README Tech Stack Section` --semantically_similar_to--> `RSpec + FactoryBot + Capybara Testing Stack`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
-- `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
-  README.md → CLAUDE.md
 
-## Communities (80 total, 36 thin omitted)
+## Communities (75 total, 32 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
-Cohesion: 0.13
-Nodes (13): Admin::UsersController, PagesController, UserDashboard, users table (schema.rb), davo admin User seed, user FactoryBot factory, DeviseCreateUsers, User::GENDERS (+5 more)
+Cohesion: 0.14
+Nodes (11): Admin::UsersController, users table (schema.rb), davo admin User seed, user FactoryBot factory, DeviseCreateUsers, User::GENDERS, User model spec, User (+3 more)
 
 ### Community 1 - "Pundit e Controlli Autorizzazione Admin"
-Cohesion: 0.16
-Nodes (8): Admin::ApplicationController, ApplicationController, authenticate_admin, ApplicationController, user_not_authorized, ApplicationPolicy#admin?, ApplicationPolicy, Scope
+Cohesion: 0.20
+Nodes (5): Admin::ApplicationController, authenticate_admin, user_not_authorized, ApplicationPolicy#admin?, Scope
 
 ### Community 2 - "Documentazione (README, LICENCE, locale IT)"
-Cohesion: 0.08
-Nodes (31): bin/jobs script, Administrate Admin Panel, Anti-Patterns to Avoid, Bootstrap CSS Framework, Bootswatch Styles (Lumen), CLAUDE.md Project Guide, Devise Authentication, ESBuild JS Bundler (+23 more)
+Cohesion: 0.15
+Nodes (17): Administrate Admin Panel, Devise Authentication, Fitupe Application, Pundit Authorization, RSpec + FactoryBot + Capybara Testing Stack, Turbo/Hotwire Compatibility, User Model Fields, User Model Specification (Devise fields) (+9 more)
 
 ### Community 3 - "Statistici e Origine del Nome Fitupe"
 Cohesion: 0.17
 Nodes (12): Analysis of Variance (ANOVA), Box Plot, Chi-Square Test, Pearson Correlation Coefficient, Exploratory Data Analysis (EDA), Fitupe Logo Design, Fitupe Application Name Origin, John Tukey (+4 more)
 
 ### Community 4 - "Script Build NPM"
-Cohesion: 0.08
-Nodes (23): browserslist, dependencies, autoprefixer, bootstrap, bootstrap-icons, bootswatch, @hotwired/stimulus, @hotwired/turbo-rails (+15 more)
+Cohesion: 0.17
+Nodes (11): browserslist, devDependencies, esbuild, name, private, scripts, build, build:css (+3 more)
 
 ### Community 5 - "Config Ambienti e Solid Stack"
 Cohesion: 0.22
 Nodes (11): Action Cable adapter configuration, Rails cache store configuration, PostgreSQL database connections configuration, Kamal deploy configuration, Puma server configuration, Solid Queue worker/dispatcher configuration, Recurring scheduled jobs (Solid Queue), Active Storage services configuration (+3 more)
 
 ### Community 6 - "Stimulus Controllers e Flash"
-Cohesion: 0.16
-Nodes (7): Bootstrap Alert Component API, Application, application, connect(), disconnect(), HelloController (Stimulus), Stimulus controllers manifest (index.js)
+Cohesion: 0.20
+Nodes (6): Bootstrap Alert Component API, Application, connect(), disconnect(), HelloController (Stimulus), Stimulus controllers manifest (index.js)
 
 ### Community 7 - "Dipendenze Frontend (package.json)"
-Cohesion: 0.07
-Nodes (28): ❌ Anti-Pattern da Evitare, CLAUDE.md — Guida per Claude Code, code:block1 (Ruby:        >= 4.0.1), code:bash (# Setup), code:block2 (app/), code:block3 (spec/), code:ruby (# Esempio factory minima), code:ruby (# ✅ Migrazione con indice) (+20 more)
+Cohesion: 0.18
+Nodes (11): dependencies, autoprefixer, bootstrap, bootswatch, @hotwired/stimulus, @hotwired/turbo-rails, nodemon, @popperjs/core (+3 more)
 
 ### Community 8 - "Stack Tecnico (CLAUDE.md)"
-Cohesion: 0.33
-Nodes (6): code:block7 ("Aggiungi la possibilità per gli utenti di commentare i Post), Come fare una richiesta efficace, Cose che Claude Code può fare autonomamente, Cose su cui chiedere conferma prima, Esempio di prompt efficace, 🚀 Workflow con Claude Code
+Cohesion: 0.22
+Nodes (9): bin/jobs script, Anti-Patterns to Avoid, CLAUDE.md Project Guide, Graphify Knowledge Graph Workflow, N+1 Query Performance Rule, Pagy Pagination, PostgreSQL Database Config, Rails Way Convention Over Configuration (+1 more)
 
 ### Community 9 - "Bootstrap/Hotwire e Flash Controller"
-Cohesion: 0.33
-Nodes (5): 1. Ronald Aylmer Fisher, 2. Karl Pearson, 5. John Tukey, Costruzione del logo della applicazione, Costruzione del nome della applicazione
+Cohesion: 0.28
+Nodes (9): Bootstrap CSS Framework, Bootswatch Styles (Lumen), ESBuild JS Bundler, Hotwire (Turbo + Stimulus), Stimulus Controllers Convention, FlashController, Flash Controller Registration, esbuild Bundler (+1 more)
 
 ### Community 10 - "Logo e Favicon"
 Cohesion: 0.25
@@ -156,18 +144,6 @@ Nodes (4): bin/dev script, bin/docker-entrypoint script, bin/rails script, bin/s
 Cohesion: 0.67
 Nodes (3): bin/rubocop script, Rubocop Configuration File, Rubocop Rails Omakase Style
 
-### Community 75 - "Community 75"
-Cohesion: 0.33
-Nodes (5): Avvio del progetto, code:bash (bin/setup   # setup iniziale (dipendenze, database)), Fitupe, Licenza, Stack tecnico
-
-### Community 76 - "Community 76"
-Cohesion: 0.40
-Nodes (4): Copyright (c) 2026, Davo Davosky - The Davosky Connection, English, Italiano
-
-### Community 77 - "Community 77"
-Cohesion: 0.50
-Nodes (4): MIT License Text, Fitupe README, README License Section, README Setup Commands (bin/setup, bin/dev)
-
 ## Ambiguous Edges - Review These
 - `Anti-Patterns to Avoid` → `PostgreSQL Database Config`  [AMBIGUOUS]
   CLAUDE.md · relation: conceptually_related_to
@@ -175,9 +151,9 @@ Nodes (4): MIT License Text, Fitupe README, README License Section, README Setup
   config/routes.rb · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **128 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+123 more)
+- **92 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+87 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **36 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **32 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -186,12 +162,12 @@ _Questions this graph is uniquely positioned to answer:_
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
 - **What is the exact relationship between `Devise.setup configuration (username auth)` and `Admin namespace routes (users)`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
-- **Why does `Bootstrap CSS Framework` connect `Documentazione (README, LICENCE, locale IT)` to `Stimulus Controllers e Flash`?**
-  _High betweenness centrality (0.015) - this node is a cross-community bridge._
+- **Why does `Bootstrap CSS Framework` connect `Bootstrap/Hotwire e Flash Controller` to `Documentazione (README, LICENCE, locale IT)`, `Stimulus Controllers e Flash`?**
+  _High betweenness centrality (0.022) - this node is a cross-community bridge._
 - **Why does `User` connect `Modello User e Autenticazione` to `Pundit e Controlli Autorizzazione Admin`?**
+  _High betweenness centrality (0.018) - this node is a cross-community bridge._
+- **Why does `Fitupe Application` connect `Documentazione (README, LICENCE, locale IT)` to `Stack Tecnico (CLAUDE.md)`, `Bootstrap/Hotwire e Flash Controller`?**
   _High betweenness centrality (0.015) - this node is a cross-community bridge._
-- **Why does `authenticate_admin` connect `Pundit e Controlli Autorizzazione Admin` to `Modello User e Autenticazione`?**
-  _High betweenness centrality (0.013) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `ApplicationPolicy#admin?` (e.g. with `authenticate_admin` and `user_not_authorized`) actually correct?**
   _`ApplicationPolicy#admin?` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 2 inferred relationships involving `User` (e.g. with `Admin::UsersController` and `pages_controller.rb`) actually correct?**
