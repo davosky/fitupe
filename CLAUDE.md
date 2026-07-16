@@ -125,6 +125,9 @@ add_foreign_key :posts, :users
 - Params sempre con `strong_parameters` — niente `permit!`
 - Query con scope dell'utente corrente (mai esporre dati di altri)
 - Secrets in `Rails.application.credentials` o variabili d'ambiente
+- **Due utenti separati, mai le stesse credenziali**:
+  - un utente per il **database di sviluppo**, con credenziali reali che non devono mai essere pubblicate (niente `db/seeds.rb`, niente commit, niente CLAUDE.md) — va creato/impostato a mano in locale (es. `rails console` o `rails runner`)
+  - un utente per il **database di test e per `db/seeds.rb`**, con credenziali palesemente fittizie (es. `utente` / `pAssword1234567`) sicure da avere nel repo pubblico
 
 ```ruby
 # ✅ Sempre scoped all'utente
