@@ -9,6 +9,11 @@
   margin-bottom: 1.5em;
 }
 
+[type=checkbox],
+[type=radio] {
+  accent-color: #BC9456;
+}
+
 .navigation__logo {
   height: auto;
   max-width: 100%;
