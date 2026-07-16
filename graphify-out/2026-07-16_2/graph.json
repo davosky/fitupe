@@ -1204,7 +1204,7 @@
       "label": "code:ruby (# \u2705 Sempre scoped all'utente)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L132",
+      "source_location": "L129",
       "id": "fitupe_claude_codeblock_6",
       "community": 7,
       "norm_label": "code:ruby (# \u2705 sempre scoped all'utente)"
@@ -1213,7 +1213,7 @@
       "label": "\u26a1 Performance",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L142",
+      "source_location": "L139",
       "id": "fitupe_claude_performance",
       "community": 7,
       "norm_label": "\u26a1 performance"
@@ -1222,7 +1222,7 @@
       "label": "\ud83d\ude80 Workflow con Claude Code",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L152",
+      "source_location": "L149",
       "id": "fitupe_claude_workflow_con_claude_code",
       "community": 8,
       "norm_label": "\ud83d\ude80 workflow con claude code"
@@ -1231,7 +1231,7 @@
       "label": "Come fare una richiesta efficace",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L154",
+      "source_location": "L151",
       "id": "fitupe_claude_come_fare_una_richiesta_efficace",
       "community": 8,
       "norm_label": "come fare una richiesta efficace"
@@ -1240,7 +1240,7 @@
       "label": "Esempio di prompt efficace",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L161",
+      "source_location": "L158",
       "id": "fitupe_claude_esempio_di_prompt_efficace",
       "community": 8,
       "norm_label": "esempio di prompt efficace"
@@ -1249,7 +1249,7 @@
       "label": "code:block7 (\"Aggiungi la possibilit\u00e0 per gli utenti di commentare i Post)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L163",
+      "source_location": "L160",
       "id": "fitupe_claude_codeblock_7",
       "community": 8,
       "norm_label": "code:block7 (\"aggiungi la possibilita per gli utenti di commentare i post)"
@@ -1258,7 +1258,7 @@
       "label": "Cose che Claude Code pu\u00f2 fare autonomamente",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L171",
+      "source_location": "L168",
       "id": "fitupe_claude_cose_che_claude_code_pu\u00f2_fare_autonomamente",
       "community": 8,
       "norm_label": "cose che claude code puo fare autonomamente"
@@ -1267,7 +1267,7 @@
       "label": "Cose su cui chiedere conferma prima",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L179",
+      "source_location": "L176",
       "id": "fitupe_claude_cose_su_cui_chiedere_conferma_prima",
       "community": 8,
       "norm_label": "cose su cui chiedere conferma prima"
@@ -1276,7 +1276,7 @@
       "label": "\ud83d\udce6 Gem Principali (personalizza)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L188",
+      "source_location": "L185",
       "id": "fitupe_claude_gem_principali_personalizza",
       "community": 7,
       "norm_label": "\ud83d\udce6 gem principali (personalizza)"
@@ -1285,7 +1285,7 @@
       "label": "code:ruby (# Gemfile \u2014 gem comuni in questo progetto)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L190",
+      "source_location": "L187",
       "id": "fitupe_claude_codeblock_8",
       "community": 7,
       "norm_label": "code:ruby (# gemfile \u2014 gem comuni in questo progetto)"
@@ -1294,7 +1294,7 @@
       "label": "\ud83c\udf0d Variabili d'Ambiente Richieste",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L227",
+      "source_location": "L224",
       "id": "fitupe_claude_variabili_d_ambiente_richieste",
       "community": 7,
       "norm_label": "\ud83c\udf0d variabili d'ambiente richieste"
@@ -1303,7 +1303,7 @@
       "label": "code:bash (DATABASE_HOST=         # PostgreSQL host es. localhost)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L229",
+      "source_location": "L226",
       "id": "fitupe_claude_codeblock_9",
       "community": 7,
       "norm_label": "code:bash (database_host=         # postgresql host es. localhost)"
@@ -1312,7 +1312,7 @@
       "label": "\ud83d\udccb Comandi Utili",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L238",
+      "source_location": "L235",
       "id": "fitupe_claude_comandi_utili",
       "community": 7,
       "norm_label": "\ud83d\udccb comandi utili"
@@ -1321,7 +1321,7 @@
       "label": "code:bash (# Setup)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L240",
+      "source_location": "L237",
       "id": "fitupe_claude_codeblock_10",
       "community": 7,
       "norm_label": "code:bash (# setup)"
@@ -1330,7 +1330,7 @@
       "label": "\u274c Anti-Pattern da Evitare",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L262",
+      "source_location": "L259",
       "id": "fitupe_claude_anti_pattern_da_evitare",
       "community": 7,
       "norm_label": "\u274c anti-pattern da evitare"
@@ -1339,7 +1339,7 @@
       "label": "\ud83d\udcc8 Graphify",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L274",
+      "source_location": "L271",
       "id": "fitupe_claude_graphify",
       "community": 7,
       "norm_label": "\ud83d\udcc8 graphify"
@@ -1348,7 +1348,7 @@
       "label": "\ud83d\udda5\ufe0f Costruzione dell'applicazione",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L285",
+      "source_location": "L282",
       "id": "fitupe_claude_costruzione_dell_applicazione",
       "community": 7,
       "norm_label": "\ud83d\udda5\ufe0f costruzione dell'applicazione"
@@ -3418,9 +3418,9 @@
       "source_file": "package.json",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_package_dependencies",
-      "target": "fitupe_package_dependencies_bootstrap_icons"
+      "target": "fitupe_package_dependencies_bootstrap_icons",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3509,9 +3509,9 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_policies_application_policy_rb",
-      "target": "policies_application_policy_applicationpolicy"
+      "target": "policies_application_policy_applicationpolicy",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3519,9 +3519,9 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L39",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_policies_application_policy_rb",
-      "target": "policies_application_policy_scope"
+      "target": "policies_application_policy_scope",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -3529,9 +3529,9 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_application_policy_applicationpolicy",
-      "target": "policies_application_policy_applicationpolicy_initialize"
+      "target": "policies_application_policy_applicationpolicy_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -3539,9 +3539,9 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_application_policy_applicationpolicy",
-      "target": "policies_application_policy_applicationpolicy_index"
+      "target": "policies_application_policy_applicationpolicy_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -3549,9 +3549,9 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_application_policy_applicationpolicy",
-      "target": "policies_application_policy_applicationpolicy_show"
+      "target": "policies_application_policy_applicationpolicy_show",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -3559,9 +3559,9 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_application_policy_applicationpolicy",
-      "target": "policies_application_policy_applicationpolicy_create"
+      "target": "policies_application_policy_applicationpolicy_create",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -3569,9 +3569,9 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L23",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_application_policy_applicationpolicy",
-      "target": "policies_application_policy_applicationpolicy_new"
+      "target": "policies_application_policy_applicationpolicy_new",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -3579,9 +3579,9 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L27",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_application_policy_applicationpolicy",
-      "target": "policies_application_policy_applicationpolicy_update"
+      "target": "policies_application_policy_applicationpolicy_update",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -3589,9 +3589,9 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_application_policy_applicationpolicy",
-      "target": "policies_application_policy_applicationpolicy_edit"
+      "target": "policies_application_policy_applicationpolicy_edit",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -3599,9 +3599,9 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L35",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_application_policy_applicationpolicy",
-      "target": "policies_application_policy_applicationpolicy_destroy"
+      "target": "policies_application_policy_applicationpolicy_destroy",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -3609,9 +3609,9 @@
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_application_policy_applicationpolicy",
-      "target": "policies_application_policy_applicationpolicy_admin"
+      "target": "policies_application_policy_applicationpolicy_admin",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -3839,9 +3839,9 @@
       "source_file": "app/javascript/application.js",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_application_js",
-      "target": "app_javascript_controllers_index_js"
+      "target": "app_javascript_controllers_index_js",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3921,9 +3921,9 @@
       "source_file": "app/javascript/controllers/application.js",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_application_js",
-      "target": "controllers_application_application"
+      "target": "controllers_application_application",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3932,9 +3932,9 @@
       "source_file": "app/javascript/controllers/index.js",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_index_js",
-      "target": "app_javascript_controllers_application_js"
+      "target": "app_javascript_controllers_application_js",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3943,9 +3943,9 @@
       "source_file": "app/javascript/controllers/index.js",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_index_js",
-      "target": "controllers_application_application"
+      "target": "controllers_application_application",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3953,9 +3953,9 @@
       "source_file": "app/models/application_record.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_models_application_record_rb",
-      "target": "models_application_record_applicationrecord"
+      "target": "models_application_record_applicationrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4063,9 +4063,9 @@
       "source_file": "app/controllers/pages_controller.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_controllers_pages_controller_rb",
-      "target": "controllers_pages_controller_pagescontroller"
+      "target": "controllers_pages_controller_pagescontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -4093,9 +4093,9 @@
       "source_file": "app/controllers/pages_controller.rb",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_pages_controller_pagescontroller",
-      "target": "controllers_pages_controller_pagescontroller_index"
+      "target": "controllers_pages_controller_pagescontroller_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -4103,9 +4103,9 @@
       "source_file": "app/controllers/pages_controller.rb",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_pages_controller_pagescontroller",
-      "target": "controllers_pages_controller_pagescontroller_credits"
+      "target": "controllers_pages_controller_pagescontroller_credits",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4113,9 +4113,9 @@
       "source_file": "app/controllers/application_controller.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_controllers_application_controller_rb",
-      "target": "controllers_application_controller_applicationcontroller"
+      "target": "controllers_application_controller_applicationcontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -4163,9 +4163,9 @@
       "source_file": "app/controllers/application_controller.rb",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_application_controller_applicationcontroller",
-      "target": "controllers_application_controller_applicationcontroller_user_not_authorized"
+      "target": "controllers_application_controller_applicationcontroller_user_not_authorized",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4173,9 +4173,9 @@
       "source_file": "app/controllers/admin/application_controller.rb",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_controllers_admin_application_controller_rb",
-      "target": "admin_application_controller_applicationcontroller"
+      "target": "admin_application_controller_applicationcontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -4183,9 +4183,9 @@
       "source_file": "app/controllers/admin/application_controller.rb",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "admin_application_controller_applicationcontroller",
-      "target": "admin_application_controller_applicationcontroller_authenticate_admin"
+      "target": "admin_application_controller_applicationcontroller_authenticate_admin",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4193,9 +4193,9 @@
       "source_file": "app/controllers/admin/users_controller.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_controllers_admin_users_controller_rb",
-      "target": "admin_users_controller_userscontroller"
+      "target": "admin_users_controller_userscontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4203,9 +4203,9 @@
       "source_file": "app/jobs/application_job.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_jobs_application_job_rb",
-      "target": "jobs_application_job_applicationjob"
+      "target": "jobs_application_job_applicationjob",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4213,9 +4213,9 @@
       "source_file": "app/dashboards/user_dashboard.rb",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_dashboards_user_dashboard_rb",
-      "target": "dashboards_user_dashboard_userdashboard"
+      "target": "dashboards_user_dashboard_userdashboard",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -4243,9 +4243,9 @@
       "source_file": "app/mailers/application_mailer.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_mailers_application_mailer_rb",
-      "target": "mailers_application_mailer_applicationmailer"
+      "target": "mailers_application_mailer_applicationmailer",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4293,9 +4293,9 @@
       "source_file": "db/migrate/20260716062544_add_lockable_to_users.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "db_migrate_20260716062544_add_lockable_to_users_rb",
-      "target": "migrate_20260716062544_add_lockable_to_users_addlockabletousers"
+      "target": "migrate_20260716062544_add_lockable_to_users_addlockabletousers",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -4303,9 +4303,9 @@
       "source_file": "db/migrate/20260716062544_add_lockable_to_users.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "migrate_20260716062544_add_lockable_to_users_addlockabletousers",
-      "target": "migrate_20260716062544_add_lockable_to_users_addlockabletousers_change"
+      "target": "migrate_20260716062544_add_lockable_to_users_addlockabletousers_change",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4313,9 +4313,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "fitupe_readme_fitupe"
+      "target": "fitupe_readme_fitupe",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4323,9 +4323,9 @@
       "source_file": "README.md",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_readme_fitupe",
-      "target": "fitupe_readme_stack_tecnico"
+      "target": "fitupe_readme_stack_tecnico",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4333,9 +4333,9 @@
       "source_file": "README.md",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_readme_fitupe",
-      "target": "fitupe_readme_avvio_del_progetto"
+      "target": "fitupe_readme_avvio_del_progetto",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4343,9 +4343,9 @@
       "source_file": "README.md",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_readme_fitupe",
-      "target": "fitupe_readme_licenza"
+      "target": "fitupe_readme_licenza",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4353,9 +4353,9 @@
       "source_file": "README.md",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_readme_avvio_del_progetto",
-      "target": "fitupe_readme_codeblock_1"
+      "target": "fitupe_readme_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4363,9 +4363,9 @@
       "source_file": "LICENCE.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "licence_md",
-      "target": "fitupe_licence_copyright_c_2026"
+      "target": "fitupe_licence_copyright_c_2026",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4373,9 +4373,9 @@
       "source_file": "LICENCE.md",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "licence_md",
-      "target": "fitupe_licence_davo_davosky_the_davosky_connection"
+      "target": "fitupe_licence_davo_davosky_the_davosky_connection",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4383,9 +4383,9 @@
       "source_file": "LICENCE.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_licence_davo_davosky_the_davosky_connection",
-      "target": "fitupe_licence_italiano"
+      "target": "fitupe_licence_italiano",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4393,9 +4393,9 @@
       "source_file": "LICENCE.md",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_licence_davo_davosky_the_davosky_connection",
-      "target": "fitupe_licence_english"
+      "target": "fitupe_licence_english",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4403,9 +4403,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_md",
-      "target": "fitupe_claude_claude_md_guida_per_claude_code"
+      "target": "fitupe_claude_claude_md_guida_per_claude_code",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4413,9 +4413,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_claude_md_guida_per_claude_code",
-      "target": "fitupe_claude_stack_tecnico"
+      "target": "fitupe_claude_stack_tecnico",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4423,9 +4423,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_claude_md_guida_per_claude_code",
-      "target": "fitupe_claude_struttura_del_progetto"
+      "target": "fitupe_claude_struttura_del_progetto",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4433,9 +4433,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_claude_md_guida_per_claude_code",
-      "target": "fitupe_claude_convenzioni_di_codice"
+      "target": "fitupe_claude_convenzioni_di_codice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4443,9 +4443,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L66",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_claude_md_guida_per_claude_code",
-      "target": "fitupe_claude_testing"
+      "target": "fitupe_claude_testing",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4453,9 +4453,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L104",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_claude_md_guida_per_claude_code",
-      "target": "fitupe_claude_database"
+      "target": "fitupe_claude_database",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4463,9 +4463,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L121",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_claude_md_guida_per_claude_code",
-      "target": "fitupe_claude_sicurezza"
+      "target": "fitupe_claude_sicurezza",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4473,9 +4473,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L139",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_claude_md_guida_per_claude_code",
-      "target": "fitupe_claude_performance"
+      "target": "fitupe_claude_performance",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4483,9 +4483,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L149",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_claude_md_guida_per_claude_code",
-      "target": "fitupe_claude_workflow_con_claude_code"
+      "target": "fitupe_claude_workflow_con_claude_code",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4493,9 +4493,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L185",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_claude_md_guida_per_claude_code",
-      "target": "fitupe_claude_gem_principali_personalizza"
+      "target": "fitupe_claude_gem_principali_personalizza",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4503,9 +4503,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L224",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_claude_md_guida_per_claude_code",
-      "target": "fitupe_claude_variabili_d_ambiente_richieste"
+      "target": "fitupe_claude_variabili_d_ambiente_richieste",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4513,9 +4513,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L235",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_claude_md_guida_per_claude_code",
-      "target": "fitupe_claude_comandi_utili"
+      "target": "fitupe_claude_comandi_utili",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4523,9 +4523,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L259",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_claude_md_guida_per_claude_code",
-      "target": "fitupe_claude_anti_pattern_da_evitare"
+      "target": "fitupe_claude_anti_pattern_da_evitare",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4533,9 +4533,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L271",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_claude_md_guida_per_claude_code",
-      "target": "fitupe_claude_graphify"
+      "target": "fitupe_claude_graphify",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4543,9 +4543,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L282",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_claude_md_guida_per_claude_code",
-      "target": "fitupe_claude_costruzione_dell_applicazione"
+      "target": "fitupe_claude_costruzione_dell_applicazione",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4553,9 +4553,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_stack_tecnico",
-      "target": "fitupe_claude_codeblock_1"
+      "target": "fitupe_claude_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4563,9 +4563,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_struttura_del_progetto",
-      "target": "fitupe_claude_codeblock_2"
+      "target": "fitupe_claude_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4573,9 +4573,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_convenzioni_di_codice",
-      "target": "fitupe_claude_generale"
+      "target": "fitupe_claude_generale",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4583,9 +4583,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L45",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_convenzioni_di_codice",
-      "target": "fitupe_claude_modelli"
+      "target": "fitupe_claude_modelli",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4593,9 +4593,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L51",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_convenzioni_di_codice",
-      "target": "fitupe_claude_controller"
+      "target": "fitupe_claude_controller",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4603,9 +4603,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L57",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_convenzioni_di_codice",
-      "target": "fitupe_claude_naming"
+      "target": "fitupe_claude_naming",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4613,9 +4613,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L70",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_testing",
-      "target": "fitupe_claude_codeblock_3"
+      "target": "fitupe_claude_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4623,9 +4623,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L80",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_testing",
-      "target": "fitupe_claude_regole_per_i_test"
+      "target": "fitupe_claude_regole_per_i_test",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4633,9 +4633,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L88",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_regole_per_i_test",
-      "target": "fitupe_claude_codeblock_4"
+      "target": "fitupe_claude_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4643,9 +4643,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L112",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_database",
-      "target": "fitupe_claude_codeblock_5"
+      "target": "fitupe_claude_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4653,9 +4653,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L129",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_sicurezza",
-      "target": "fitupe_claude_codeblock_6"
+      "target": "fitupe_claude_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4663,9 +4663,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L151",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_workflow_con_claude_code",
-      "target": "fitupe_claude_come_fare_una_richiesta_efficace"
+      "target": "fitupe_claude_come_fare_una_richiesta_efficace",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4673,9 +4673,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L158",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_workflow_con_claude_code",
-      "target": "fitupe_claude_esempio_di_prompt_efficace"
+      "target": "fitupe_claude_esempio_di_prompt_efficace",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4683,9 +4683,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L168",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_workflow_con_claude_code",
-      "target": "fitupe_claude_cose_che_claude_code_pu\u00f2_fare_autonomamente"
+      "target": "fitupe_claude_cose_che_claude_code_pu\u00f2_fare_autonomamente",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4693,9 +4693,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L176",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_workflow_con_claude_code",
-      "target": "fitupe_claude_cose_su_cui_chiedere_conferma_prima"
+      "target": "fitupe_claude_cose_su_cui_chiedere_conferma_prima",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4703,9 +4703,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L160",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_esempio_di_prompt_efficace",
-      "target": "fitupe_claude_codeblock_7"
+      "target": "fitupe_claude_codeblock_7",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4713,9 +4713,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L187",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_gem_principali_personalizza",
-      "target": "fitupe_claude_codeblock_8"
+      "target": "fitupe_claude_codeblock_8",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4723,9 +4723,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L226",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_variabili_d_ambiente_richieste",
-      "target": "fitupe_claude_codeblock_9"
+      "target": "fitupe_claude_codeblock_9",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4733,9 +4733,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L237",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_claude_comandi_utili",
-      "target": "fitupe_claude_codeblock_10"
+      "target": "fitupe_claude_codeblock_10",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4743,9 +4743,9 @@
       "source_file": "FITUPE.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_md",
-      "target": "fitupe_fitupe_costruzione_del_nome_della_applicazione"
+      "target": "fitupe_fitupe_costruzione_del_nome_della_applicazione",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4753,9 +4753,9 @@
       "source_file": "FITUPE.md",
       "source_location": "L62",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_md",
-      "target": "fitupe_fitupe_costruzione_del_logo_della_applicazione"
+      "target": "fitupe_fitupe_costruzione_del_logo_della_applicazione",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4763,9 +4763,9 @@
       "source_file": "FITUPE.md",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_fitupe_costruzione_del_nome_della_applicazione",
-      "target": "fitupe_fitupe_1_ronald_aylmer_fisher"
+      "target": "fitupe_fitupe_1_ronald_aylmer_fisher",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4773,9 +4773,9 @@
       "source_file": "FITUPE.md",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_fitupe_costruzione_del_nome_della_applicazione",
-      "target": "fitupe_fitupe_2_karl_pearson"
+      "target": "fitupe_fitupe_2_karl_pearson",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4783,9 +4783,9 @@
       "source_file": "FITUPE.md",
       "source_location": "L48",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_fitupe_costruzione_del_nome_della_applicazione",
-      "target": "fitupe_fitupe_5_john_tukey"
+      "target": "fitupe_fitupe_5_john_tukey",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -5899,5 +5899,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "9df29b20cd668cfbfcfedb437abdacbe59ffa773"
+  "built_at_commit": "6eff5534251927ddfbd52fc9c74a5681fc039605"
 }
