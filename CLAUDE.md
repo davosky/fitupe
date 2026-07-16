@@ -342,8 +342,8 @@ Una pagina unica con al centro il logo dell'applicazione e una card dove sono pr
      - regular:boolean
    - creare un primo utente amministratore con i seguenti dati
      - username:utente
-     - password:password
-     - password_confirmation:password
+     - password:pAssword1234567
+     - password_confirmation:pAssword1234567
      - first_name:Davo
      - last_name:Davosky
      - gender:M
