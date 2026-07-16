@@ -1,16 +1,16 @@
 # Graph Report - fitupe  (2026-07-16)
 
 ## Corpus Check
-- 90 files · ~38,423 words
+- 60 files · ~34,363 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 399 nodes · 359 edges · 105 communities (55 shown, 50 thin omitted)
-- Extraction: 82% EXTRACTED · 18% INFERRED · 1% AMBIGUOUS · INFERRED: 63 edges (avg confidence: 0.85)
+- 297 nodes · 264 edges · 80 communities (44 shown, 36 thin omitted)
+- Extraction: 78% EXTRACTED · 22% INFERRED · 1% AMBIGUOUS · INFERRED: 57 edges (avg confidence: 0.86)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b62aef71`
+- Built from commit: `9df29b20`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -69,30 +69,18 @@
 - [[_COMMUNITY_Community 77|Community 77]]
 - [[_COMMUNITY_Community 78|Community 78]]
 - [[_COMMUNITY_Community 79|Community 79]]
-- [[_COMMUNITY_Community 80|Community 80]]
-- [[_COMMUNITY_Community 81|Community 81]]
-- [[_COMMUNITY_Community 82|Community 82]]
-- [[_COMMUNITY_Community 83|Community 83]]
-- [[_COMMUNITY_Community 84|Community 84]]
-- [[_COMMUNITY_Community 85|Community 85]]
-- [[_COMMUNITY_Community 86|Community 86]]
-- [[_COMMUNITY_Community 87|Community 87]]
-- [[_COMMUNITY_Community 88|Community 88]]
-- [[_COMMUNITY_Community 89|Community 89]]
-- [[_COMMUNITY_Community 90|Community 90]]
-- [[_COMMUNITY_Community 91|Community 91]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `CLAUDE.md — Guida per Claude Code` - 15 edges
-2. `ImportsController` - 12 edges
-3. `ApplicationPolicy#admin?` - 12 edges
-4. `ZoningsController` - 11 edges
-5. `ApplicationPolicy` - 10 edges
-6. `CsvImporterService` - 10 edges
-7. `User` - 10 edges
-8. `CLAUDE.md Project Guide` - 10 edges
-9. `ZoningPolicy` - 7 edges
-10. `Bootstrap CSS Framework` - 7 edges
+2. `ApplicationPolicy#admin?` - 12 edges
+3. `ApplicationPolicy` - 10 edges
+4. `User` - 10 edges
+5. `CLAUDE.md Project Guide` - 10 edges
+6. `Bootstrap CSS Framework` - 7 edges
+7. `scripts` - 6 edges
+8. `Devise Authentication` - 6 edges
+9. `Fitupe Application` - 6 edges
+10. `solid_queue_jobs table` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Bootstrap Alert Component API` --conceptually_related_to--> `Bootstrap CSS Framework`  [INFERRED]
@@ -106,19 +94,19 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (105 total, 50 thin omitted)
+## Communities (80 total, 36 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
 Nodes (13): Admin::UsersController, PagesController, UserDashboard, users table (schema.rb), davo admin User seed, user FactoryBot factory, DeviseCreateUsers, User::GENDERS (+5 more)
 
 ### Community 1 - "Pundit e Controlli Autorizzazione Admin"
-Cohesion: 0.13
-Nodes (9): Admin::ApplicationController, ApplicationController, authenticate_admin, ApplicationController, user_not_authorized, ApplicationPolicy#admin?, ApplicationPolicy, Scope (+1 more)
+Cohesion: 0.16
+Nodes (8): Admin::ApplicationController, ApplicationController, authenticate_admin, ApplicationController, user_not_authorized, ApplicationPolicy#admin?, ApplicationPolicy, Scope
 
 ### Community 2 - "Documentazione (README, LICENCE, locale IT)"
-Cohesion: 0.07
-Nodes (35): bin/jobs script, Administrate Admin Panel, Anti-Patterns to Avoid, Bootstrap CSS Framework, Bootswatch Styles (Lumen), CLAUDE.md Project Guide, Devise Authentication, ESBuild JS Bundler (+27 more)
+Cohesion: 0.08
+Nodes (31): bin/jobs script, Administrate Admin Panel, Anti-Patterns to Avoid, Bootstrap CSS Framework, Bootswatch Styles (Lumen), CLAUDE.md Project Guide, Devise Authentication, ESBuild JS Bundler (+23 more)
 
 ### Community 3 - "Statistici e Origine del Nome Fitupe"
 Cohesion: 0.17
@@ -137,8 +125,12 @@ Cohesion: 0.16
 Nodes (7): Bootstrap Alert Component API, Application, application, connect(), disconnect(), HelloController (Stimulus), Stimulus controllers manifest (index.js)
 
 ### Community 7 - "Dipendenze Frontend (package.json)"
-Cohesion: 0.06
-Nodes (34): ❌ Anti-Pattern da Evitare, CLAUDE.md — Guida per Claude Code, code:block1 (Ruby:        >= 4.0.1), code:bash (# Setup), code:block2 (app/), code:block3 (spec/), code:ruby (# Esempio factory minima), code:ruby (# ✅ Migrazione con indice) (+26 more)
+Cohesion: 0.07
+Nodes (28): ❌ Anti-Pattern da Evitare, CLAUDE.md — Guida per Claude Code, code:block1 (Ruby:        >= 4.0.1), code:bash (# Setup), code:block2 (app/), code:block3 (spec/), code:ruby (# Esempio factory minima), code:ruby (# ✅ Migrazione con indice) (+20 more)
+
+### Community 8 - "Stack Tecnico (CLAUDE.md)"
+Cohesion: 0.33
+Nodes (6): code:block7 ("Aggiungi la possibilità per gli utenti di commentare i Post), Come fare una richiesta efficace, Cose che Claude Code può fare autonomamente, Cose su cui chiedere conferma prima, Esempio di prompt efficace, 🚀 Workflow con Claude Code
 
 ### Community 9 - "Bootstrap/Hotwire e Flash Controller"
 Cohesion: 0.33
@@ -172,6 +164,10 @@ Nodes (5): Avvio del progetto, code:bash (bin/setup   # setup iniziale (dipenden
 Cohesion: 0.40
 Nodes (4): Copyright (c) 2026, Davo Davosky - The Davosky Connection, English, Italiano
 
+### Community 77 - "Community 77"
+Cohesion: 0.50
+Nodes (4): MIT License Text, Fitupe README, README License Section, README Setup Commands (bin/setup, bin/dev)
+
 ## Ambiguous Edges - Review These
 - `Anti-Patterns to Avoid` → `PostgreSQL Database Config`  [AMBIGUOUS]
   CLAUDE.md · relation: conceptually_related_to
@@ -179,9 +175,9 @@ Nodes (4): Copyright (c) 2026, Davo Davosky - The Davosky Connection, English, I
   config/routes.rb · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **133 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+128 more)
+- **128 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+123 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **50 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **36 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -190,13 +186,13 @@ _Questions this graph is uniquely positioned to answer:_
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
 - **What is the exact relationship between `Devise.setup configuration (username auth)` and `Admin namespace routes (users)`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
-- **Why does `User` connect `Modello User e Autenticazione` to `Pundit e Controlli Autorizzazione Admin`?**
-  _High betweenness centrality (0.012) - this node is a cross-community bridge._
-- **Why does `authenticate_admin` connect `Pundit e Controlli Autorizzazione Admin` to `Modello User e Autenticazione`?**
-  _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **Why does `Bootstrap CSS Framework` connect `Documentazione (README, LICENCE, locale IT)` to `Stimulus Controllers e Flash`?**
-  _High betweenness centrality (0.008) - this node is a cross-community bridge._
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
+- **Why does `User` connect `Modello User e Autenticazione` to `Pundit e Controlli Autorizzazione Admin`?**
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
+- **Why does `authenticate_admin` connect `Pundit e Controlli Autorizzazione Admin` to `Modello User e Autenticazione`?**
+  _High betweenness centrality (0.013) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `ApplicationPolicy#admin?` (e.g. with `authenticate_admin` and `user_not_authorized`) actually correct?**
   _`ApplicationPolicy#admin?` has 2 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `name`, `private`, `esbuild` to the rest of the system?**
-  _136 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Are the 2 inferred relationships involving `User` (e.g. with `Admin::UsersController` and `pages_controller.rb`) actually correct?**
+  _`User` has 2 INFERRED edges - model-reasoned connections that need verification._

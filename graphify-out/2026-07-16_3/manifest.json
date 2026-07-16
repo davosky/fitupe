@@ -10,9 +10,9 @@
     "semantic_hash": "590009f4b8daf822d34925fc6490b45c"
   },
   "/home/davo/Programmazione/fitupe/config/routes.rb": {
-    "mtime": 1784201677.2690134,
-    "ast_hash": "5ae8b85d3b623d98b0eaea4cdcf78eec",
-    "semantic_hash": ""
+    "mtime": 1784114488.3165507,
+    "ast_hash": "40c153c21d3c3cc514af2b024f7a7382",
+    "semantic_hash": "40c153c21d3c3cc514af2b024f7a7382"
   },
   "/home/davo/Programmazione/fitupe/config/ci.rb": {
     "mtime": 1784113603.9352865,
@@ -40,9 +40,9 @@
     "semantic_hash": "a653f2048691c36a53a763254f60d81f"
   },
   "/home/davo/Programmazione/fitupe/config/environments/test.rb": {
-    "mtime": 1784202033.2827191,
-    "ast_hash": "83e8b5bf5f92292dd04c76da1c4770ba",
-    "semantic_hash": ""
+    "mtime": 1784113603.937233,
+    "ast_hash": "868bcb35d5f6fd4ebf4f4fb948f9fb5c",
+    "semantic_hash": "868bcb35d5f6fd4ebf4f4fb948f9fb5c"
   },
   "/home/davo/Programmazione/fitupe/config/environments/development.rb": {
     "mtime": 1784113603.9360774,
@@ -80,9 +80,9 @@
     "semantic_hash": "8120a3544dd92cf5aae7ed0b3568100c"
   },
   "/home/davo/Programmazione/fitupe/spec/rails_helper.rb": {
-    "mtime": 1784202042.8238,
-    "ast_hash": "78c75d253b6c9fbde9a5c4e8b8e4378b",
-    "semantic_hash": ""
+    "mtime": 1784113928.4761536,
+    "ast_hash": "20f31945f9b4e0bab5605763f665692d",
+    "semantic_hash": "20f31945f9b4e0bab5605763f665692d"
   },
   "/home/davo/Programmazione/fitupe/spec/requests/pages_spec.rb": {
     "mtime": 1784114592.5985916,
@@ -255,8 +255,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/db/schema.rb": {
-    "mtime": 1784198612.050054,
-    "ast_hash": "51217af1b6cd72cc66006d2bd6bcf512",
+    "mtime": 1784183169.111095,
+    "ast_hash": "d98c47b8877a83a48ac3cf4bb6e3b179",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/db/cache_schema.rb": {
@@ -437,156 +437,6 @@
   "/home/davo/Programmazione/fitupe/app/assets/images/davosky-logo.svg": {
     "mtime": 1784181073.3150392,
     "ast_hash": "e81ea615eee857cd2235f58933269c9c",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/requests/imports_spec.rb": {
-    "mtime": 1784202054.240133,
-    "ast_hash": "ee2afd6d86ddfc3051c1fedc2536a74b",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/requests/zonings_spec.rb": {
-    "mtime": 1784199860.849435,
-    "ast_hash": "160ccc9067dc5361aa75881ea2c1505d",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/policies/import_policy_spec.rb": {
-    "mtime": 1784199776.150466,
-    "ast_hash": "6325404650b90706db3e9752160e9b86",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/policies/zoning_policy_spec.rb": {
-    "mtime": 1784199771.3152404,
-    "ast_hash": "f5045d19779038ddb9a9f1000893920c",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/imports/header_normalizer_spec.rb": {
-    "mtime": 1784199780.4160268,
-    "ast_hash": "d3c9ecae2a7f3b07371f44033c844d15",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/imports/schema_sync_service_spec.rb": {
-    "mtime": 1784199811.9191666,
-    "ast_hash": "7cc72208864582f25f88594d9372a84e",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/imports/csv_importer_service_spec.rb": {
-    "mtime": 1784199917.0572162,
-    "ast_hash": "d6804becdf0292ebf57db672c1596316",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/models/zoning_spec.rb": {
-    "mtime": 1784199749.8824167,
-    "ast_hash": "78a7a3aef805435a2657da8eb8220a20",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/models/import_form_spec.rb": {
-    "mtime": 1784200506.7175307,
-    "ast_hash": "64f916bdb7cc0781a20e3036f104e72b",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/models/import_spec.rb": {
-    "mtime": 1784199759.3246877,
-    "ast_hash": "2c3e95499e7ae31ca7046dbaaec1006c",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/jobs/import_csv_job_spec.rb": {
-    "mtime": 1784202015.1459928,
-    "ast_hash": "4d8f8f25c16387cdec4b4d8f92ea4117",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/factories/imports.rb": {
-    "mtime": 1784199753.8249993,
-    "ast_hash": "47900de34955ba94d1ace9f207a3014a",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/factories/zonings.rb": {
-    "mtime": 1784199738.0680778,
-    "ast_hash": "bdce0ac031dccb2d3080dc72b837abaa",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/policies/import_policy.rb": {
-    "mtime": 1784198642.349901,
-    "ast_hash": "935e803070ac0be15a989da194804711",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/policies/zoning_policy.rb": {
-    "mtime": 1784198641.6628816,
-    "ast_hash": "1a59a673b02b4721ad3c1a3b95b914e0",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/imports/header_normalizer.rb": {
-    "mtime": 1784198673.4887729,
-    "ast_hash": "0c297c2d3655d2cb123d6586b59a13a8",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/imports/csv_importer_service.rb": {
-    "mtime": 1784199917.059216,
-    "ast_hash": "567b0d50efb3297f0ce538d5c40f847e",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/imports/schema_sync_service.rb": {
-    "mtime": 1784198685.943122,
-    "ast_hash": "1b103cde6181e87176d4db99f8951d82",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/models/import_form.rb": {
-    "mtime": 1784200446.827715,
-    "ast_hash": "5413e9cb9258627de3cedbcb6ea68fb0",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/models/zoning.rb": {
-    "mtime": 1784198618.6772392,
-    "ast_hash": "069b5b451e6a02f691b31c3474ce8af3",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/models/import.rb": {
-    "mtime": 1784198627.548487,
-    "ast_hash": "6def9a58259add87c8cf146fc0531065",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/controllers/imports_controller.rb": {
-    "mtime": 1784201996.747456,
-    "ast_hash": "d820da2ccf3c584c47290ae43bfdcc1f",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/controllers/zonings_controller.rb": {
-    "mtime": 1784199887.9910562,
-    "ast_hash": "6f7f36a09460e5f770ae2b77f22088a1",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/controllers/admin/imports_controller.rb": {
-    "mtime": 1784199283.407059,
-    "ast_hash": "bd913e8699868c15c83d6079886b069a",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/controllers/admin/zonings_controller.rb": {
-    "mtime": 1784199274.1177938,
-    "ast_hash": "30c51bcf971e8400b60e9aefe2fcba2c",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/jobs/import_csv_job.rb": {
-    "mtime": 1784201989.1102333,
-    "ast_hash": "0d30e6559630fefa35ddd579dd89bd3c",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/dashboards/import_dashboard.rb": {
-    "mtime": 1784199373.264094,
-    "ast_hash": "1917e931ecf035cc331f3b46498f6474",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/dashboards/zoning_dashboard.rb": {
-    "mtime": 1784199917.0432158,
-    "ast_hash": "6196f0624f0cd4342fcfa02665ab2241",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/db/migrate/20260716104233_create_zonings.rb": {
-    "mtime": 1784198558.701313,
-    "ast_hash": "7a084d32cddfa0a627a6eb1c32ee1c1e",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/db/migrate/20260716104253_create_imports.rb": {
-    "mtime": 1784198600.945744,
-    "ast_hash": "998dd91b4a6c23b950e4c760dc51d1ec",
     "semantic_hash": ""
   }
 }

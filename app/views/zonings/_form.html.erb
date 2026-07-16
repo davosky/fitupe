@@ -1,0 +1,27 @@
+<div class="card shadow-sm">
+  <div class="card-body p-4">
+    <%= form_with model: zoning, local: true do |f| %>
+      <% if zoning.errors.any? %>
+        <div class="alert alert-danger">
+          <ul class="mb-0">
+            <% zoning.errors.full_messages.each do |message| %>
+              <li><%= message %></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+      <div class="mb-3">
+        <%= f.label :codice_azzonamento, "Codice", class: "form-label" %>
+        <%= f.text_field :codice_azzonamento, class: "form-control" %>
+      </div>
+      <div class="mb-3">
+        <%= f.label :descrizione_azzonamento, "Descrizione", class: "form-label" %>
+        <%= f.text_field :descrizione_azzonamento, class: "form-control" %>
+      </div>
+      <div class="d-flex justify-content-between">
+        <%= link_to "Annulla", zonings_path, class: "btn btn-outline-secondary" %>
+        <%= f.submit "Salva", class: "btn btn-primary" %>
+      </div>
+    <% end %>
+  </div>
+</div>

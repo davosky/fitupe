@@ -1,0 +1,18 @@
+<div id="import_progress">
+  <% if local_assigns[:error] %>
+    <div class="alert alert-danger">
+      Si è verificato un errore durante l'importazione: <%= error %>
+    </div>
+  <% elsif local_assigns[:count] %>
+    <div class="alert alert-success">
+      Importazione completata con successo: <%= count %> record importati.
+    </div>
+  <% else %>
+    <div class="progress" style="height: 1.5rem;">
+      <div class="progress-bar" role="progressbar" style="width: <%= percent %>%;"
+        aria-valuenow="<%= percent %>" aria-valuemin="0" aria-valuemax="100">
+        <%= percent %>%
+      </div>
+    </div>
+  <% end %>
+</div>

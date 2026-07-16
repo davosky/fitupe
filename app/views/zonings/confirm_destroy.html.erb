@@ -1,0 +1,14 @@
+<% content_for :title, "Elimina azzonamento" %>
+<h1 class="h4 mb-4">Elimina azzonamento</h1>
+<div class="card shadow-sm">
+  <div class="card-body p-4">
+    <p>
+      Sei sicuro di voler eliminare l'azzonamento
+      <strong><%= @zoning.codice_azzonamento %> — <%= @zoning.descrizione_azzonamento %></strong>?
+    </p>
+    <div class="d-flex justify-content-between">
+      <%= link_to "Annulla", zonings_path, class: "btn btn-outline-secondary" %>
+      <%= button_to "Elimina definitivamente", zoning_path(@zoning), method: :delete, class: "btn btn-danger" %>
+    </div>
+  </div>
+</div>

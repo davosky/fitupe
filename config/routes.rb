@@ -1,11 +1,22 @@
 Rails.application.routes.draw do
   namespace :admin do
     resources :users
+    resources :zonings
+    resources :imports
 
     root to: "users#index"
   end
 
   devise_for :users
+
+  resources :zonings do
+    member do
+      get :confirm_destroy
+    end
+  end
+  resources :imports, only: %i[new create show]
+
+  mount ActionCable.server => "/cable"
 
   get "credits", to: "pages#credits"
 

@@ -373,33 +373,6 @@
       "norm_label": "rails_helper.rb"
     },
     {
-      "label": "imports_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/requests/imports_spec.rb",
-      "source_location": "L1",
-      "id": "spec_requests_imports_spec_rb",
-      "community": 93,
-      "norm_label": "imports_spec.rb"
-    },
-    {
-      "label": "stored_path_from()",
-      "file_type": "code",
-      "source_file": "spec/requests/imports_spec.rb",
-      "source_location": "L13",
-      "id": "requests_imports_spec_stored_path_from",
-      "community": 93,
-      "norm_label": "stored_path_from()"
-    },
-    {
-      "label": "zonings_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/requests/zonings_spec.rb",
-      "source_location": "L1",
-      "id": "spec_requests_zonings_spec_rb",
-      "community": 102,
-      "norm_label": "zonings_spec.rb"
-    },
-    {
       "label": "pages_spec.rb",
       "file_type": "code",
       "source_file": "spec/requests/pages_spec.rb",
@@ -407,60 +380,6 @@
       "id": "spec_requests_pages_spec_rb",
       "community": 33,
       "norm_label": "pages_spec.rb"
-    },
-    {
-      "label": "import_policy_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/policies/import_policy_spec.rb",
-      "source_location": "L1",
-      "id": "spec_policies_import_policy_spec_rb",
-      "community": 100,
-      "norm_label": "import_policy_spec.rb"
-    },
-    {
-      "label": "zoning_policy_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/policies/zoning_policy_spec.rb",
-      "source_location": "L1",
-      "id": "spec_policies_zoning_policy_spec_rb",
-      "community": 101,
-      "norm_label": "zoning_policy_spec.rb"
-    },
-    {
-      "label": "header_normalizer_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/services/imports/header_normalizer_spec.rb",
-      "source_location": "L1",
-      "id": "spec_services_imports_header_normalizer_spec_rb",
-      "community": 103,
-      "norm_label": "header_normalizer_spec.rb"
-    },
-    {
-      "label": "schema_sync_service_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/services/imports/schema_sync_service_spec.rb",
-      "source_location": "L1",
-      "id": "spec_services_imports_schema_sync_service_spec_rb",
-      "community": 104,
-      "norm_label": "schema_sync_service_spec.rb"
-    },
-    {
-      "label": "csv_importer_service_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/services/imports/csv_importer_service_spec.rb",
-      "source_location": "L1",
-      "id": "spec_services_imports_csv_importer_service_spec_rb",
-      "community": 92,
-      "norm_label": "csv_importer_service_spec.rb"
-    },
-    {
-      "label": "import()",
-      "file_type": "code",
-      "source_file": "spec/services/imports/csv_importer_service_spec.rb",
-      "source_location": "L10",
-      "id": "imports_csv_importer_service_spec_import",
-      "community": 92,
-      "norm_label": "import()"
     },
     {
       "label": "user_spec.rb",
@@ -472,51 +391,6 @@
       "norm_label": "user_spec.rb"
     },
     {
-      "label": "zoning_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/models/zoning_spec.rb",
-      "source_location": "L1",
-      "id": "spec_models_zoning_spec_rb",
-      "community": 99,
-      "norm_label": "zoning_spec.rb"
-    },
-    {
-      "label": "import_form_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/models/import_form_spec.rb",
-      "source_location": "L1",
-      "id": "spec_models_import_form_spec_rb",
-      "community": 97,
-      "norm_label": "import_form_spec.rb"
-    },
-    {
-      "label": "import_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/models/import_spec.rb",
-      "source_location": "L1",
-      "id": "spec_models_import_spec_rb",
-      "community": 98,
-      "norm_label": "import_spec.rb"
-    },
-    {
-      "label": "import_csv_job_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/jobs/import_csv_job_spec.rb",
-      "source_location": "L1",
-      "id": "spec_jobs_import_csv_job_spec_rb",
-      "community": 96,
-      "norm_label": "import_csv_job_spec.rb"
-    },
-    {
-      "label": "imports.rb",
-      "file_type": "code",
-      "source_file": "spec/factories/imports.rb",
-      "source_location": "L1",
-      "id": "spec_factories_imports_rb",
-      "community": 94,
-      "norm_label": "imports.rb"
-    },
-    {
       "label": "users.rb",
       "file_type": "code",
       "source_file": "spec/factories/users.rb",
@@ -526,15 +400,6 @@
       "norm_label": "users.rb"
     },
     {
-      "label": "zonings.rb",
-      "file_type": "code",
-      "source_file": "spec/factories/zonings.rb",
-      "source_location": "L1",
-      "id": "spec_factories_zonings_rb",
-      "community": 95,
-      "norm_label": "zonings.rb"
-    },
-    {
       "label": "service-worker.js",
       "file_type": "code",
       "source_file": "app/views/pwa/service-worker.js",
@@ -542,33 +407,6 @@
       "id": "app_views_pwa_service_worker_js",
       "community": 36,
       "norm_label": "service-worker.js"
-    },
-    {
-      "label": "import_policy.rb",
-      "file_type": "code",
-      "source_file": "app/policies/import_policy.rb",
-      "source_location": "L1",
-      "id": "app_policies_import_policy_rb",
-      "community": 1,
-      "norm_label": "import_policy.rb"
-    },
-    {
-      "label": "ImportPolicy",
-      "file_type": "code",
-      "source_file": "app/policies/import_policy.rb",
-      "source_location": "L1",
-      "id": "policies_import_policy_importpolicy",
-      "community": 1,
-      "norm_label": "importpolicy"
-    },
-    {
-      "label": ".manage?()",
-      "file_type": "code",
-      "source_file": "app/policies/import_policy.rb",
-      "source_location": "L2",
-      "id": "policies_import_policy_importpolicy_manage",
-      "community": 1,
-      "norm_label": ".manage?()"
     },
     {
       "label": "application_policy.rb",
@@ -697,276 +535,6 @@
       "norm_label": ".admin?()"
     },
     {
-      "label": "zoning_policy.rb",
-      "file_type": "code",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L1",
-      "id": "app_policies_zoning_policy_rb",
-      "community": 81,
-      "norm_label": "zoning_policy.rb"
-    },
-    {
-      "label": "ZoningPolicy",
-      "file_type": "code",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L1",
-      "id": "policies_zoning_policy_zoningpolicy",
-      "community": 81,
-      "norm_label": "zoningpolicy"
-    },
-    {
-      "label": ".index?()",
-      "file_type": "code",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L2",
-      "id": "policies_zoning_policy_zoningpolicy_index",
-      "community": 81,
-      "norm_label": ".index?()"
-    },
-    {
-      "label": ".show?()",
-      "file_type": "code",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L3",
-      "id": "policies_zoning_policy_zoningpolicy_show",
-      "community": 81,
-      "norm_label": ".show?()"
-    },
-    {
-      "label": ".create?()",
-      "file_type": "code",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L4",
-      "id": "policies_zoning_policy_zoningpolicy_create",
-      "community": 81,
-      "norm_label": ".create?()"
-    },
-    {
-      "label": ".update?()",
-      "file_type": "code",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L5",
-      "id": "policies_zoning_policy_zoningpolicy_update",
-      "community": 81,
-      "norm_label": ".update?()"
-    },
-    {
-      "label": ".destroy?()",
-      "file_type": "code",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L6",
-      "id": "policies_zoning_policy_zoningpolicy_destroy",
-      "community": 81,
-      "norm_label": ".destroy?()"
-    },
-    {
-      "label": "Scope",
-      "file_type": "code",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L8",
-      "id": "policies_zoning_policy_scope",
-      "community": 81,
-      "norm_label": "scope"
-    },
-    {
-      "label": ".resolve()",
-      "file_type": "code",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L9",
-      "id": "policies_zoning_policy_scope_resolve",
-      "community": 81,
-      "norm_label": ".resolve()"
-    },
-    {
-      "label": ".admin_or_manager?()",
-      "file_type": "code",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L16",
-      "id": "policies_zoning_policy_zoningpolicy_admin_or_manager",
-      "community": 81,
-      "norm_label": ".admin_or_manager?()"
-    },
-    {
-      "label": "header_normalizer.rb",
-      "file_type": "code",
-      "source_file": "app/services/imports/header_normalizer.rb",
-      "source_location": "L1",
-      "id": "app_services_imports_header_normalizer_rb",
-      "community": 84,
-      "norm_label": "header_normalizer.rb"
-    },
-    {
-      "label": "HeaderNormalizer",
-      "file_type": "code",
-      "source_file": "app/services/imports/header_normalizer.rb",
-      "source_location": "L2",
-      "id": "imports_header_normalizer_headernormalizer",
-      "community": 84,
-      "norm_label": "headernormalizer"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/imports/header_normalizer.rb",
-      "source_location": "L3",
-      "id": "imports_header_normalizer_headernormalizer_call",
-      "community": 84,
-      "norm_label": ".call()"
-    },
-    {
-      "label": "csv_importer_service.rb",
-      "file_type": "code",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L1",
-      "id": "app_services_imports_csv_importer_service_rb",
-      "community": 80,
-      "norm_label": "csv_importer_service.rb"
-    },
-    {
-      "label": "CsvImporterService",
-      "file_type": "code",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L6",
-      "id": "imports_csv_importer_service_csvimporterservice",
-      "community": 80,
-      "norm_label": "csvimporterservice"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L10",
-      "id": "imports_csv_importer_service_csvimporterservice_call",
-      "community": 80,
-      "norm_label": ".call()"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L14",
-      "id": "imports_csv_importer_service_csvimporterservice_initialize",
-      "community": 80,
-      "norm_label": ".initialize()"
-    },
-    {
-      "label": ".build_field_specs()",
-      "file_type": "code",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L40",
-      "id": "imports_csv_importer_service_csvimporterservice_build_field_specs",
-      "community": 80,
-      "norm_label": ".build_field_specs()"
-    },
-    {
-      "label": ".delete_existing_scope()",
-      "file_type": "code",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L51",
-      "id": "imports_csv_importer_service_csvimporterservice_delete_existing_scope",
-      "community": 80,
-      "norm_label": ".delete_existing_scope()"
-    },
-    {
-      "label": ".copy_rows()",
-      "file_type": "code",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L56",
-      "id": "imports_csv_importer_service_csvimporterservice_copy_rows",
-      "community": 80,
-      "norm_label": ".copy_rows()"
-    },
-    {
-      "label": ".copy_line()",
-      "file_type": "code",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L73",
-      "id": "imports_csv_importer_service_csvimporterservice_copy_line",
-      "community": 80,
-      "norm_label": ".copy_line()"
-    },
-    {
-      "label": ".parse_date()",
-      "file_type": "code",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L88",
-      "id": "imports_csv_importer_service_csvimporterservice_parse_date",
-      "community": 80,
-      "norm_label": ".parse_date()"
-    },
-    {
-      "label": ".percent()",
-      "file_type": "code",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L96",
-      "id": "imports_csv_importer_service_csvimporterservice_percent",
-      "community": 80,
-      "norm_label": ".percent()"
-    },
-    {
-      "label": ".count_data_rows()",
-      "file_type": "code",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L100",
-      "id": "imports_csv_importer_service_csvimporterservice_count_data_rows",
-      "community": 80,
-      "norm_label": ".count_data_rows()"
-    },
-    {
-      "label": "schema_sync_service.rb",
-      "file_type": "code",
-      "source_file": "app/services/imports/schema_sync_service.rb",
-      "source_location": "L1",
-      "id": "app_services_imports_schema_sync_service_rb",
-      "community": 78,
-      "norm_label": "schema_sync_service.rb"
-    },
-    {
-      "label": "SchemaSyncService",
-      "file_type": "code",
-      "source_file": "app/services/imports/schema_sync_service.rb",
-      "source_location": "L2",
-      "id": "imports_schema_sync_service_schemasyncservice",
-      "community": 78,
-      "norm_label": "schemasyncservice"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/imports/schema_sync_service.rb",
-      "source_location": "L3",
-      "id": "imports_schema_sync_service_schemasyncservice_call",
-      "community": 78,
-      "norm_label": ".call()"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/imports/schema_sync_service.rb",
-      "source_location": "L7",
-      "id": "imports_schema_sync_service_schemasyncservice_initialize",
-      "community": 78,
-      "norm_label": ".initialize()"
-    },
-    {
-      "label": ".missing_columns()",
-      "file_type": "code",
-      "source_file": "app/services/imports/schema_sync_service.rb",
-      "source_location": "L18",
-      "id": "imports_schema_sync_service_schemasyncservice_missing_columns",
-      "community": 78,
-      "norm_label": ".missing_columns()"
-    },
-    {
-      "label": ".add_column()",
-      "file_type": "code",
-      "source_file": "app/services/imports/schema_sync_service.rb",
-      "source_location": "L22",
-      "id": "imports_schema_sync_service_schemasyncservice_add_column",
-      "community": 78,
-      "norm_label": ".add_column()"
-    },
-    {
       "label": "application_helper.rb",
       "file_type": "code",
       "source_file": "app/helpers/application_helper.rb",
@@ -1075,60 +643,6 @@
       "norm_label": "applicationrecord"
     },
     {
-      "label": "import_form.rb",
-      "file_type": "code",
-      "source_file": "app/models/import_form.rb",
-      "source_location": "L1",
-      "id": "app_models_import_form_rb",
-      "community": 8,
-      "norm_label": "import_form.rb"
-    },
-    {
-      "label": "ImportForm",
-      "file_type": "code",
-      "source_file": "app/models/import_form.rb",
-      "source_location": "L1",
-      "id": "models_import_form_importform",
-      "community": 8,
-      "norm_label": "importform"
-    },
-    {
-      "label": ".zoning()",
-      "file_type": "code",
-      "source_file": "app/models/import_form.rb",
-      "source_location": "L28",
-      "id": "models_import_form_importform_zoning",
-      "community": 8,
-      "norm_label": ".zoning()"
-    },
-    {
-      "label": ".resolved_path()",
-      "file_type": "code",
-      "source_file": "app/models/import_form.rb",
-      "source_location": "L34",
-      "id": "models_import_form_importform_resolved_path",
-      "community": 8,
-      "norm_label": ".resolved_path()"
-    },
-    {
-      "label": ".file_must_be_present_and_csv()",
-      "file_type": "code",
-      "source_file": "app/models/import_form.rb",
-      "source_location": "L40",
-      "id": "models_import_form_importform_file_must_be_present_and_csv",
-      "community": 8,
-      "norm_label": ".file_must_be_present_and_csv()"
-    },
-    {
-      "label": ".persist_upload!()",
-      "file_type": "code",
-      "source_file": "app/models/import_form.rb",
-      "source_location": "L50",
-      "id": "models_import_form_importform_persist_upload",
-      "community": 8,
-      "norm_label": ".persist_upload!()"
-    },
-    {
       "label": "user.rb",
       "file_type": "code",
       "source_file": "app/models/user.rb",
@@ -1163,42 +677,6 @@
       "id": "models_user_user_password_required",
       "community": 0,
       "norm_label": ".password_required?()"
-    },
-    {
-      "label": "zoning.rb",
-      "file_type": "code",
-      "source_file": "app/models/zoning.rb",
-      "source_location": "L1",
-      "id": "app_models_zoning_rb",
-      "community": 91,
-      "norm_label": "zoning.rb"
-    },
-    {
-      "label": "Zoning",
-      "file_type": "code",
-      "source_file": "app/models/zoning.rb",
-      "source_location": "L1",
-      "id": "models_zoning_zoning",
-      "community": 91,
-      "norm_label": "zoning"
-    },
-    {
-      "label": "import.rb",
-      "file_type": "code",
-      "source_file": "app/models/import.rb",
-      "source_location": "L1",
-      "id": "app_models_import_rb",
-      "community": 90,
-      "norm_label": "import.rb"
-    },
-    {
-      "label": "Import",
-      "file_type": "code",
-      "source_file": "app/models/import.rb",
-      "source_location": "L1",
-      "id": "models_import_import",
-      "community": 90,
-      "norm_label": "import"
     },
     {
       "label": "pages_controller.rb",
@@ -1264,231 +742,6 @@
       "norm_label": ".user_not_authorized()"
     },
     {
-      "label": "imports_controller.rb",
-      "file_type": "code",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L1",
-      "id": "app_controllers_imports_controller_rb",
-      "community": 8,
-      "norm_label": "imports_controller.rb"
-    },
-    {
-      "label": "ImportsController",
-      "file_type": "code",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L1",
-      "id": "controllers_imports_controller_importscontroller",
-      "community": 8,
-      "norm_label": "importscontroller"
-    },
-    {
-      "label": ".new()",
-      "file_type": "code",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L6",
-      "id": "controllers_imports_controller_importscontroller_new",
-      "community": 8,
-      "norm_label": ".new()"
-    },
-    {
-      "label": ".create()",
-      "file_type": "code",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L10",
-      "id": "controllers_imports_controller_importscontroller_create",
-      "community": 8,
-      "norm_label": ".create()"
-    },
-    {
-      "label": ".show()",
-      "file_type": "code",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L19",
-      "id": "controllers_imports_controller_importscontroller_show",
-      "community": 8,
-      "norm_label": ".show()"
-    },
-    {
-      "label": ".set_zonings()",
-      "file_type": "code",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L26",
-      "id": "controllers_imports_controller_importscontroller_set_zonings",
-      "community": 8,
-      "norm_label": ".set_zonings()"
-    },
-    {
-      "label": ".authorize_import()",
-      "file_type": "code",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L30",
-      "id": "controllers_imports_controller_importscontroller_authorize_import",
-      "community": 8,
-      "norm_label": ".authorize_import()"
-    },
-    {
-      "label": ".import_params()",
-      "file_type": "code",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L34",
-      "id": "controllers_imports_controller_importscontroller_import_params",
-      "community": 8,
-      "norm_label": ".import_params()"
-    },
-    {
-      "label": ".conflict?()",
-      "file_type": "code",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L38",
-      "id": "controllers_imports_controller_importscontroller_conflict",
-      "community": 8,
-      "norm_label": ".conflict?()"
-    },
-    {
-      "label": ".render_form_errors()",
-      "file_type": "code",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L43",
-      "id": "controllers_imports_controller_importscontroller_render_form_errors",
-      "community": 8,
-      "norm_label": ".render_form_errors()"
-    },
-    {
-      "label": ".render_conflict()",
-      "file_type": "code",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L47",
-      "id": "controllers_imports_controller_importscontroller_render_conflict",
-      "community": 8,
-      "norm_label": ".render_conflict()"
-    },
-    {
-      "label": ".cancel_import()",
-      "file_type": "code",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L53",
-      "id": "controllers_imports_controller_importscontroller_cancel_import",
-      "community": 8,
-      "norm_label": ".cancel_import()"
-    },
-    {
-      "label": ".enqueue_import()",
-      "file_type": "code",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L59",
-      "id": "controllers_imports_controller_importscontroller_enqueue_import",
-      "community": 8,
-      "norm_label": ".enqueue_import()"
-    },
-    {
-      "label": "zonings_controller.rb",
-      "file_type": "code",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L1",
-      "id": "app_controllers_zonings_controller_rb",
-      "community": 77,
-      "norm_label": "zonings_controller.rb"
-    },
-    {
-      "label": "ZoningsController",
-      "file_type": "code",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L1",
-      "id": "controllers_zonings_controller_zoningscontroller",
-      "community": 77,
-      "norm_label": "zoningscontroller"
-    },
-    {
-      "label": ".index()",
-      "file_type": "code",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L5",
-      "id": "controllers_zonings_controller_zoningscontroller_index",
-      "community": 77,
-      "norm_label": ".index()"
-    },
-    {
-      "label": ".show()",
-      "file_type": "code",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L10",
-      "id": "controllers_zonings_controller_zoningscontroller_show",
-      "community": 77,
-      "norm_label": ".show()"
-    },
-    {
-      "label": ".new()",
-      "file_type": "code",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L13",
-      "id": "controllers_zonings_controller_zoningscontroller_new",
-      "community": 77,
-      "norm_label": ".new()"
-    },
-    {
-      "label": ".create()",
-      "file_type": "code",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L18",
-      "id": "controllers_zonings_controller_zoningscontroller_create",
-      "community": 77,
-      "norm_label": ".create()"
-    },
-    {
-      "label": ".edit()",
-      "file_type": "code",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L29",
-      "id": "controllers_zonings_controller_zoningscontroller_edit",
-      "community": 77,
-      "norm_label": ".edit()"
-    },
-    {
-      "label": ".update()",
-      "file_type": "code",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L32",
-      "id": "controllers_zonings_controller_zoningscontroller_update",
-      "community": 77,
-      "norm_label": ".update()"
-    },
-    {
-      "label": ".destroy()",
-      "file_type": "code",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L40",
-      "id": "controllers_zonings_controller_zoningscontroller_destroy",
-      "community": 77,
-      "norm_label": ".destroy()"
-    },
-    {
-      "label": ".confirm_destroy()",
-      "file_type": "code",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L45",
-      "id": "controllers_zonings_controller_zoningscontroller_confirm_destroy",
-      "community": 77,
-      "norm_label": ".confirm_destroy()"
-    },
-    {
-      "label": ".set_zoning()",
-      "file_type": "code",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L50",
-      "id": "controllers_zonings_controller_zoningscontroller_set_zoning",
-      "community": 77,
-      "norm_label": ".set_zoning()"
-    },
-    {
-      "label": ".zoning_params()",
-      "file_type": "code",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L55",
-      "id": "controllers_zonings_controller_zoningscontroller_zoning_params",
-      "community": 77,
-      "norm_label": ".zoning_params()"
-    },
-    {
       "label": "application_controller.rb",
       "file_type": "code",
       "source_file": "app/controllers/admin/application_controller.rb",
@@ -1534,42 +787,6 @@
       "norm_label": "userscontroller"
     },
     {
-      "label": "imports_controller.rb",
-      "file_type": "code",
-      "source_file": "app/controllers/admin/imports_controller.rb",
-      "source_location": "L1",
-      "id": "app_controllers_admin_imports_controller_rb",
-      "community": 87,
-      "norm_label": "imports_controller.rb"
-    },
-    {
-      "label": "ImportsController",
-      "file_type": "code",
-      "source_file": "app/controllers/admin/imports_controller.rb",
-      "source_location": "L2",
-      "id": "admin_imports_controller_importscontroller",
-      "community": 87,
-      "norm_label": "importscontroller"
-    },
-    {
-      "label": "zonings_controller.rb",
-      "file_type": "code",
-      "source_file": "app/controllers/admin/zonings_controller.rb",
-      "source_location": "L1",
-      "id": "app_controllers_admin_zonings_controller_rb",
-      "community": 88,
-      "norm_label": "zonings_controller.rb"
-    },
-    {
-      "label": "ZoningsController",
-      "file_type": "code",
-      "source_file": "app/controllers/admin/zonings_controller.rb",
-      "source_location": "L2",
-      "id": "admin_zonings_controller_zoningscontroller",
-      "community": 88,
-      "norm_label": "zoningscontroller"
-    },
-    {
       "label": "application_job.rb",
       "file_type": "code",
       "source_file": "app/jobs/application_job.rb",
@@ -1586,87 +803,6 @@
       "id": "jobs_application_job_applicationjob",
       "community": 79,
       "norm_label": "applicationjob"
-    },
-    {
-      "label": "import_csv_job.rb",
-      "file_type": "code",
-      "source_file": "app/jobs/import_csv_job.rb",
-      "source_location": "L1",
-      "id": "app_jobs_import_csv_job_rb",
-      "community": 82,
-      "norm_label": "import_csv_job.rb"
-    },
-    {
-      "label": "ImportCsvJob",
-      "file_type": "code",
-      "source_file": "app/jobs/import_csv_job.rb",
-      "source_location": "L1",
-      "id": "jobs_import_csv_job_importcsvjob",
-      "community": 82,
-      "norm_label": "importcsvjob"
-    },
-    {
-      "label": ".perform()",
-      "file_type": "code",
-      "source_file": "app/jobs/import_csv_job.rb",
-      "source_location": "L4",
-      "id": "jobs_import_csv_job_importcsvjob_perform",
-      "community": 82,
-      "norm_label": ".perform()"
-    },
-    {
-      "label": ".broadcast()",
-      "file_type": "code",
-      "source_file": "app/jobs/import_csv_job.rb",
-      "source_location": "L22",
-      "id": "jobs_import_csv_job_importcsvjob_broadcast",
-      "community": 82,
-      "norm_label": ".broadcast()"
-    },
-    {
-      "label": "import_dashboard.rb",
-      "file_type": "code",
-      "source_file": "app/dashboards/import_dashboard.rb",
-      "source_location": "L1",
-      "id": "app_dashboards_import_dashboard_rb",
-      "community": 83,
-      "norm_label": "import_dashboard.rb"
-    },
-    {
-      "label": "ImportDashboard",
-      "file_type": "code",
-      "source_file": "app/dashboards/import_dashboard.rb",
-      "source_location": "L3",
-      "id": "dashboards_import_dashboard_importdashboard",
-      "community": 83,
-      "norm_label": "importdashboard"
-    },
-    {
-      "label": ".field_type_for()",
-      "file_type": "code",
-      "source_file": "app/dashboards/import_dashboard.rb",
-      "source_location": "L4",
-      "id": "dashboards_import_dashboard_importdashboard_field_type_for",
-      "community": 83,
-      "norm_label": ".field_type_for()"
-    },
-    {
-      "label": "zoning_dashboard.rb",
-      "file_type": "code",
-      "source_file": "app/dashboards/zoning_dashboard.rb",
-      "source_location": "L1",
-      "id": "app_dashboards_zoning_dashboard_rb",
-      "community": 89,
-      "norm_label": "zoning_dashboard.rb"
-    },
-    {
-      "label": "ZoningDashboard",
-      "file_type": "code",
-      "source_file": "app/dashboards/zoning_dashboard.rb",
-      "source_location": "L3",
-      "id": "dashboards_zoning_dashboard_zoningdashboard",
-      "community": 89,
-      "norm_label": "zoningdashboard"
     },
     {
       "label": "user_dashboard.rb",
@@ -1777,33 +913,6 @@
       "norm_label": ".change()"
     },
     {
-      "label": "20260716104233_create_zonings.rb",
-      "file_type": "code",
-      "source_file": "db/migrate/20260716104233_create_zonings.rb",
-      "source_location": "L1",
-      "id": "db_migrate_20260716104233_create_zonings_rb",
-      "community": 85,
-      "norm_label": "20260716104233_create_zonings.rb"
-    },
-    {
-      "label": "CreateZonings",
-      "file_type": "code",
-      "source_file": "db/migrate/20260716104233_create_zonings.rb",
-      "source_location": "L1",
-      "id": "migrate_20260716104233_create_zonings_createzonings",
-      "community": 85,
-      "norm_label": "createzonings"
-    },
-    {
-      "label": ".change()",
-      "file_type": "code",
-      "source_file": "db/migrate/20260716104233_create_zonings.rb",
-      "source_location": "L2",
-      "id": "migrate_20260716104233_create_zonings_createzonings_change",
-      "community": 85,
-      "norm_label": ".change()"
-    },
-    {
       "label": "20260716062544_add_lockable_to_users.rb",
       "file_type": "code",
       "source_file": "db/migrate/20260716062544_add_lockable_to_users.rb",
@@ -1828,33 +937,6 @@
       "source_location": "L2",
       "id": "migrate_20260716062544_add_lockable_to_users_addlockabletousers_change",
       "community": 78,
-      "norm_label": ".change()"
-    },
-    {
-      "label": "20260716104253_create_imports.rb",
-      "file_type": "code",
-      "source_file": "db/migrate/20260716104253_create_imports.rb",
-      "source_location": "L1",
-      "id": "db_migrate_20260716104253_create_imports_rb",
-      "community": 86,
-      "norm_label": "20260716104253_create_imports.rb"
-    },
-    {
-      "label": "CreateImports",
-      "file_type": "code",
-      "source_file": "db/migrate/20260716104253_create_imports.rb",
-      "source_location": "L1",
-      "id": "migrate_20260716104253_create_imports_createimports",
-      "community": 86,
-      "norm_label": "createimports"
-    },
-    {
-      "label": ".change()",
-      "file_type": "code",
-      "source_file": "db/migrate/20260716104253_create_imports.rb",
-      "source_location": "L2",
-      "id": "migrate_20260716104253_create_imports_createimports_change",
-      "community": 86,
       "norm_label": ".change()"
     },
     {
@@ -2142,7 +1224,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L152",
       "id": "fitupe_claude_workflow_con_claude_code",
-      "community": 7,
+      "community": 8,
       "norm_label": "\ud83d\ude80 workflow con claude code"
     },
     {
@@ -2151,7 +1233,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L154",
       "id": "fitupe_claude_come_fare_una_richiesta_efficace",
-      "community": 7,
+      "community": 8,
       "norm_label": "come fare una richiesta efficace"
     },
     {
@@ -2160,7 +1242,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L161",
       "id": "fitupe_claude_esempio_di_prompt_efficace",
-      "community": 7,
+      "community": 8,
       "norm_label": "esempio di prompt efficace"
     },
     {
@@ -2169,7 +1251,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L163",
       "id": "fitupe_claude_codeblock_7",
-      "community": 7,
+      "community": 8,
       "norm_label": "code:block7 (\"aggiungi la possibilita per gli utenti di commentare i post)"
     },
     {
@@ -2178,7 +1260,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L171",
       "id": "fitupe_claude_cose_che_claude_code_pu\u00f2_fare_autonomamente",
-      "community": 7,
+      "community": 8,
       "norm_label": "cose che claude code puo fare autonomamente"
     },
     {
@@ -2187,7 +1269,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L179",
       "id": "fitupe_claude_cose_su_cui_chiedere_conferma_prima",
-      "community": 7,
+      "community": 8,
       "norm_label": "cose su cui chiedere conferma prima"
     },
     {
@@ -4024,7 +3106,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 77,
       "norm_label": "fitupe readme",
       "id": "readme_fitupe"
     },
@@ -4050,7 +3132,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 77,
       "norm_label": "readme setup commands (bin/setup, bin/dev)",
       "id": "readme_setup_commands"
     },
@@ -4063,7 +3145,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 77,
       "norm_label": "readme license section",
       "id": "readme_license_section"
     },
@@ -4076,7 +3158,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 77,
       "norm_label": "mit license text",
       "id": "licence_mit"
     },
@@ -4424,57 +3506,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "spec/requests/imports_spec.rb",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "spec_requests_imports_spec_rb",
-      "target": "requests_imports_spec_stored_path_from",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "spec/services/imports/csv_importer_service_spec.rb",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "spec_services_imports_csv_importer_service_spec_rb",
-      "target": "imports_csv_importer_service_spec_import",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/import_policy.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_policies_import_policy_rb",
-      "target": "policies_import_policy_importpolicy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/import_policy.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "policies_import_policy_importpolicy",
-      "target": "policies_import_policy_importpolicy_manage",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/policies/import_policy.rb",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "policies_import_policy_importpolicy_manage",
-      "target": "policies_application_policy_applicationpolicy_admin"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/policies/application_policy.rb",
       "source_location": "L3",
       "weight": 1.0,
@@ -4774,28 +3805,6 @@
       "context": "call",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "policies_zoning_policy_scope_resolve",
-      "target": "policies_application_policy_applicationpolicy_admin"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "policies_zoning_policy_zoningpolicy_admin_or_manager",
-      "target": "policies_application_policy_applicationpolicy_admin"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
       "source_file": "app/controllers/admin/application_controller.rb",
       "source_location": "L13",
       "weight": 1.0,
@@ -4822,409 +3831,6 @@
       "weight": 1.0,
       "source": "admin_application_controller_authenticate_admin",
       "target": "policies_application_policy_applicationpolicy_admin"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_policies_zoning_policy_rb",
-      "target": "policies_zoning_policy_zoningpolicy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "app_policies_zoning_policy_rb",
-      "target": "policies_zoning_policy_scope",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "policies_zoning_policy_zoningpolicy",
-      "target": "policies_zoning_policy_zoningpolicy_index",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "policies_zoning_policy_zoningpolicy",
-      "target": "policies_zoning_policy_zoningpolicy_show",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "policies_zoning_policy_zoningpolicy",
-      "target": "policies_zoning_policy_zoningpolicy_create",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "policies_zoning_policy_zoningpolicy",
-      "target": "policies_zoning_policy_zoningpolicy_update",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "policies_zoning_policy_zoningpolicy",
-      "target": "policies_zoning_policy_zoningpolicy_destroy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "policies_zoning_policy_zoningpolicy",
-      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "policies_zoning_policy_zoningpolicy_index",
-      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "policies_zoning_policy_zoningpolicy_show",
-      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "policies_zoning_policy_zoningpolicy_create",
-      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "policies_zoning_policy_zoningpolicy_update",
-      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "policies_zoning_policy_zoningpolicy_destroy",
-      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "policies_zoning_policy_scope",
-      "target": "policies_zoning_policy_scope_resolve",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/header_normalizer.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "app_services_imports_header_normalizer_rb",
-      "target": "imports_header_normalizer_headernormalizer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/header_normalizer.rb",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "imports_header_normalizer_headernormalizer",
-      "target": "imports_header_normalizer_headernormalizer_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "app_services_imports_csv_importer_service_rb",
-      "target": "imports_csv_importer_service_csvimporterservice",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "imports_csv_importer_service_csvimporterservice",
-      "target": "imports_csv_importer_service_csvimporterservice_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "imports_csv_importer_service_csvimporterservice",
-      "target": "imports_csv_importer_service_csvimporterservice_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L40",
-      "weight": 1.0,
-      "source": "imports_csv_importer_service_csvimporterservice",
-      "target": "imports_csv_importer_service_csvimporterservice_build_field_specs",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L51",
-      "weight": 1.0,
-      "source": "imports_csv_importer_service_csvimporterservice",
-      "target": "imports_csv_importer_service_csvimporterservice_delete_existing_scope",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L56",
-      "weight": 1.0,
-      "source": "imports_csv_importer_service_csvimporterservice",
-      "target": "imports_csv_importer_service_csvimporterservice_copy_rows",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L73",
-      "weight": 1.0,
-      "source": "imports_csv_importer_service_csvimporterservice",
-      "target": "imports_csv_importer_service_csvimporterservice_copy_line",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L88",
-      "weight": 1.0,
-      "source": "imports_csv_importer_service_csvimporterservice",
-      "target": "imports_csv_importer_service_csvimporterservice_parse_date",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L96",
-      "weight": 1.0,
-      "source": "imports_csv_importer_service_csvimporterservice",
-      "target": "imports_csv_importer_service_csvimporterservice_percent",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L100",
-      "weight": 1.0,
-      "source": "imports_csv_importer_service_csvimporterservice",
-      "target": "imports_csv_importer_service_csvimporterservice_count_data_rows",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L44",
-      "weight": 1.0,
-      "source": "imports_csv_importer_service_csvimporterservice_build_field_specs",
-      "target": "imports_csv_importer_service_csvimporterservice_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L65",
-      "weight": 1.0,
-      "source": "imports_csv_importer_service_csvimporterservice_copy_rows",
-      "target": "imports_csv_importer_service_csvimporterservice_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L63",
-      "weight": 1.0,
-      "source": "imports_csv_importer_service_csvimporterservice_copy_rows",
-      "target": "imports_csv_importer_service_csvimporterservice_copy_line",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L65",
-      "weight": 1.0,
-      "source": "imports_csv_importer_service_csvimporterservice_copy_rows",
-      "target": "imports_csv_importer_service_csvimporterservice_percent",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/csv_importer_service.rb",
-      "source_location": "L82",
-      "weight": 1.0,
-      "source": "imports_csv_importer_service_csvimporterservice_copy_line",
-      "target": "imports_csv_importer_service_csvimporterservice_parse_date",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/schema_sync_service.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "app_services_imports_schema_sync_service_rb",
-      "target": "imports_schema_sync_service_schemasyncservice",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/schema_sync_service.rb",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "imports_schema_sync_service_schemasyncservice",
-      "target": "imports_schema_sync_service_schemasyncservice_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/schema_sync_service.rb",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "imports_schema_sync_service_schemasyncservice",
-      "target": "imports_schema_sync_service_schemasyncservice_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/schema_sync_service.rb",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "imports_schema_sync_service_schemasyncservice",
-      "target": "imports_schema_sync_service_schemasyncservice_missing_columns",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/schema_sync_service.rb",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "imports_schema_sync_service_schemasyncservice",
-      "target": "imports_schema_sync_service_schemasyncservice_add_column",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/schema_sync_service.rb",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "imports_schema_sync_service_schemasyncservice_initialize",
-      "target": "imports_schema_sync_service_schemasyncservice_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/imports/schema_sync_service.rb",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "imports_schema_sync_service_schemasyncservice_call",
-      "target": "imports_schema_sync_service_schemasyncservice_add_column",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "db/migrate/20260716062544_add_lockable_to_users.rb",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "migrate_20260716062544_add_lockable_to_users_addlockabletousers_change",
-      "target": "imports_schema_sync_service_schemasyncservice_add_column"
     },
     {
       "relation": "imports_from",
@@ -5354,89 +3960,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/models/import_form.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_models_import_form_rb",
-      "target": "models_import_form_importform",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/models/import_form.rb",
-      "source_location": "L28",
-      "weight": 1.0,
-      "source": "models_import_form_importform",
-      "target": "models_import_form_importform_zoning",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/models/import_form.rb",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "models_import_form_importform",
-      "target": "models_import_form_importform_resolved_path",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/models/import_form.rb",
-      "source_location": "L40",
-      "weight": 1.0,
-      "source": "models_import_form_importform",
-      "target": "models_import_form_importform_file_must_be_present_and_csv",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/models/import_form.rb",
-      "source_location": "L50",
-      "weight": 1.0,
-      "source": "models_import_form_importform",
-      "target": "models_import_form_importform_persist_upload",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/models/import_form.rb",
-      "source_location": "L35",
-      "weight": 1.0,
-      "source": "models_import_form_importform_resolved_path",
-      "target": "models_import_form_importform_persist_upload",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L49",
-      "weight": 1.0,
-      "source": "controllers_imports_controller_importscontroller_render_conflict",
-      "target": "models_import_form_importform_resolved_path"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L62",
-      "weight": 1.0,
-      "source": "controllers_imports_controller_importscontroller_enqueue_import",
-      "target": "models_import_form_importform_resolved_path"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/models/user.rb",
       "source_location": "L1",
       "weight": 1.0,
@@ -5533,26 +4056,6 @@
       "weight": 1.0,
       "source": "models_user_spec_user_spec",
       "target": "models_user_user"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/models/zoning.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_models_zoning_rb",
-      "target": "models_zoning_zoning",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/models/import.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_models_import_rb",
-      "target": "models_import_import",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5667,269 +4170,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_controllers_imports_controller_rb",
-      "target": "controllers_imports_controller_importscontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_new",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_create",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_show",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_set_zonings",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L30",
-      "weight": 1.0,
-      "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_authorize_import",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_import_params",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L38",
-      "weight": 1.0,
-      "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_conflict",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L43",
-      "weight": 1.0,
-      "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_render_form_errors",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L47",
-      "weight": 1.0,
-      "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_render_conflict",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L53",
-      "weight": 1.0,
-      "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_cancel_import",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L59",
-      "weight": 1.0,
-      "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_enqueue_import",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "controllers_imports_controller_importscontroller_create",
-      "target": "controllers_imports_controller_importscontroller_new",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "controllers_imports_controller_importscontroller_create",
-      "target": "controllers_imports_controller_importscontroller_conflict",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_controllers_zonings_controller_rb",
-      "target": "controllers_zonings_controller_zoningscontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_index",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_show",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_new",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_create",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L29",
-      "weight": 1.0,
-      "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_edit",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L32",
-      "weight": 1.0,
-      "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_update",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L40",
-      "weight": 1.0,
-      "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_destroy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L45",
-      "weight": 1.0,
-      "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_confirm_destroy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L50",
-      "weight": 1.0,
-      "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_set_zoning",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L55",
-      "weight": 1.0,
-      "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_zoning_params",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/zonings_controller.rb",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "controllers_zonings_controller_zoningscontroller_create",
-      "target": "controllers_zonings_controller_zoningscontroller_new",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/controllers/admin/application_controller.rb",
       "source_location": "L8",
       "weight": 1.0,
@@ -5960,103 +4200,12 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/controllers/admin/imports_controller.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "app_controllers_admin_imports_controller_rb",
-      "target": "admin_imports_controller_importscontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/admin/zonings_controller.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "app_controllers_admin_zonings_controller_rb",
-      "target": "admin_zonings_controller_zoningscontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/jobs/application_job.rb",
       "source_location": "L1",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_jobs_application_job_rb",
       "target": "jobs_application_job_applicationjob"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/jobs/import_csv_job.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_jobs_import_csv_job_rb",
-      "target": "jobs_import_csv_job_importcsvjob",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/jobs/import_csv_job.rb",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "jobs_import_csv_job_importcsvjob",
-      "target": "jobs_import_csv_job_importcsvjob_perform",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/jobs/import_csv_job.rb",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "jobs_import_csv_job_importcsvjob",
-      "target": "jobs_import_csv_job_importcsvjob_broadcast",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/jobs/import_csv_job.rb",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "jobs_import_csv_job_importcsvjob_perform",
-      "target": "jobs_import_csv_job_importcsvjob_broadcast",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/dashboards/import_dashboard.rb",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "app_dashboards_import_dashboard_rb",
-      "target": "dashboards_import_dashboard_importdashboard",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/dashboards/import_dashboard.rb",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "dashboards_import_dashboard_importdashboard",
-      "target": "dashboards_import_dashboard_importdashboard_field_type_for",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/dashboards/zoning_dashboard.rb",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "app_dashboards_zoning_dashboard_rb",
-      "target": "dashboards_zoning_dashboard_zoningdashboard",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6141,26 +4290,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "db/migrate/20260716104233_create_zonings.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "db_migrate_20260716104233_create_zonings_rb",
-      "target": "migrate_20260716104233_create_zonings_createzonings",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "db/migrate/20260716104233_create_zonings.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "migrate_20260716104233_create_zonings_createzonings",
-      "target": "migrate_20260716104233_create_zonings_createzonings_change",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "db/migrate/20260716062544_add_lockable_to_users.rb",
       "source_location": "L1",
       "weight": 1.0,
@@ -6177,26 +4306,6 @@
       "confidence_score": 1.0,
       "source": "migrate_20260716062544_add_lockable_to_users_addlockabletousers",
       "target": "migrate_20260716062544_add_lockable_to_users_addlockabletousers_change"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "db/migrate/20260716104253_create_imports.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "db_migrate_20260716104253_create_imports_rb",
-      "target": "migrate_20260716104253_create_imports_createimports",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "db/migrate/20260716104253_create_imports.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "migrate_20260716104253_create_imports_createimports",
-      "target": "migrate_20260716104253_create_imports_createimports_change",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7790,5 +5899,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "b62aef7103c5918b6dde8d92f978f41fb1c7d8a8"
+  "built_at_commit": "9df29b20cd668cfbfcfedb437abdacbe59ffa773"
 }

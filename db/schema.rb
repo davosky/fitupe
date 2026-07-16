@@ -10,9 +10,87 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_07_16_062544) do
+ActiveRecord::Schema[8.1].define(version: 2026_07_16_104253) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
+
+  create_table "imports", force: :cascade do |t|
+    t.string "altro_sesso"
+    t.string "anno_di_riferimento"
+    t.string "anno_stampa"
+    t.bigint "azzonamento_di_riferimento_id", null: false
+    t.string "cap"
+    t.string "categoria_pensione"
+    t.string "categoria_sindacale"
+    t.string "cellulare"
+    t.string "cellulare_servizi"
+    t.string "codice_azzonamento_completo"
+    t.string "codice_azzonamento_comprensoriale"
+    t.string "codice_azzonamento_regione"
+    t.string "codice_categoria_pensione"
+    t.string "codice_fiscale"
+    t.string "codice_fiscale_errato"
+    t.string "codice_pratica_inca"
+    t.string "cognome"
+    t.string "cognome_acquisito"
+    t.string "comune"
+    t.string "concomitante_spi_anno"
+    t.string "consenso_1_com_dati_sensibili"
+    t.string "consenso_2_promozione"
+    t.string "consenso_3_mandato"
+    t.string "consenso_4_profilazione"
+    t.datetime "created_at", null: false
+    t.date "data_contabilizzazione_tessera"
+    t.date "data_decesso"
+    t.date "data_fine_iscrizione"
+    t.date "data_fine_lavoro"
+    t.date "data_fine_trattenuta"
+    t.date "data_inizio_iscrizione"
+    t.date "data_inizio_lavoro"
+    t.date "data_inizio_trattenuta"
+    t.date "data_nascita"
+    t.string "descrizione_azzonamento_completo"
+    t.string "descrizione_azzonamento_comprensoriale"
+    t.string "descrizione_azzonamento_regione"
+    t.string "documento_privacy"
+    t.string "email"
+    t.string "email_servizi"
+    t.string "ente"
+    t.string "evento_attivazione_iscrizione"
+    t.string "frazione"
+    t.string "indirizzo"
+    t.string "iscritto_digita"
+    t.string "localita_postale"
+    t.string "mese_di_riferimento"
+    t.string "motivo_cessazione_iscrizione"
+    t.string "motivo_cessazione_lavoro"
+    t.string "nato_a"
+    t.string "nazionalita"
+    t.string "nazione"
+    t.string "nome"
+    t.string "numero_pensione"
+    t.string "provincia"
+    t.string "provvisoria"
+    t.string "rata"
+    t.string "sap"
+    t.string "sede_primaria"
+    t.string "sesso"
+    t.string "stampa_tessera"
+    t.string "stato_civile"
+    t.string "status_confermato_da_nastro"
+    t.string "struttura_attivazione_iscrizione"
+    t.string "telefono"
+    t.string "tipologia_delega"
+    t.string "tipologia_iscrizione"
+    t.string "tipologia_rapporto_lavoro"
+    t.string "tipologia_status"
+    t.string "tipologia_versamento"
+    t.string "titolo_di_studio"
+    t.datetime "updated_at", null: false
+    t.index ["azzonamento_di_riferimento_id", "anno_di_riferimento", "mese_di_riferimento"], name: "index_imports_on_azzonamento_and_periodo"
+    t.index ["azzonamento_di_riferimento_id"], name: "index_imports_on_azzonamento_di_riferimento_id"
+    t.index ["codice_fiscale"], name: "index_imports_on_codice_fiscale"
+  end
 
   create_table "users", force: :cascade do |t|
     t.boolean "admin", default: false, null: false
@@ -40,4 +118,14 @@ ActiveRecord::Schema[8.1].define(version: 2026_07_16_062544) do
     t.index ["unlock_token"], name: "index_users_on_unlock_token", unique: true
     t.index ["username"], name: "index_users_on_username", unique: true
   end
+
+  create_table "zonings", force: :cascade do |t|
+    t.string "codice_azzonamento", null: false
+    t.datetime "created_at", null: false
+    t.string "descrizione_azzonamento", null: false
+    t.datetime "updated_at", null: false
+    t.index ["codice_azzonamento"], name: "index_zonings_on_codice_azzonamento", unique: true
+  end
+
+  add_foreign_key "imports", "zonings", column: "azzonamento_di_riferimento_id"
 end

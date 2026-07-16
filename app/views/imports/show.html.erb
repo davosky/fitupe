@@ -1,0 +1,4 @@
+<% content_for :title, "Importazione in corso" %>
+<h1 class="h4 mb-4">Importazione in corso</h1>
+<%= turbo_stream_from "import_progress_#{@token}" %>
+<%= render "progress", **@progress %>

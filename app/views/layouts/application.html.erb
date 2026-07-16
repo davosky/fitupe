@@ -41,6 +41,19 @@
                     </li>
                     <li><hr class="dropdown-divider"></li>
                   <% end %>
+                  <% if current_user.admin? || current_user.manager? %>
+                    <li>
+                      <%= link_to zonings_path, class: "dropdown-item" do %>
+                        <i class="bi bi-geo-alt me-3"></i>Azzonamenti
+                      <% end %>
+                    </li>
+                    <li>
+                      <%= link_to new_import_path, class: "dropdown-item" do %>
+                        <i class="bi bi-file-earmark-arrow-up me-3"></i>Importazioni
+                      <% end %>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+                  <% end %>
                   <li>
                     <%= link_to credits_path, class: "dropdown-item" do %>
                       <i class="bi bi-person-circle me-3"></i>Crediti
