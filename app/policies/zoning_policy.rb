@@ -3,6 +3,7 @@ class ZoningPolicy < ApplicationPolicy
   def show? = admin_or_manager?
   def create? = admin_or_manager?
   def update? = admin_or_manager?
+  def confirm_destroy? = admin_or_manager?
   def destroy? = admin_or_manager?
 
   class Scope < ApplicationPolicy::Scope

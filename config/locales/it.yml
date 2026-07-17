@@ -5,6 +5,14 @@ it:
         one: Utente
         many: Utenti
         other: Utenti
+      zoning:
+        one: Azzonamento
+        many: Azzonamenti
+        other: Azzonamenti
+      import:
+        one: Importazione
+        many: Importazioni
+        other: Importazioni
     attributes:
       user:
         username: Nome utente
@@ -18,6 +26,17 @@ it:
         admin: Amministratore
         manager: Manager
         regular: Regolare
+        created_at: Creato il
+        updated_at: Aggiornato il
+      zoning:
+        codice_azzonamento: Codice Azzonamento
+        descrizione_azzonamento: Descrizione Azzonamento
+        imports: Importazioni
+        created_at: Creato il
+        updated_at: Aggiornato il
+      import:
+        created_at: Creato il
+        updated_at: Aggiornato il
       errors:
       messages:
         record_invalid: "Validazione fallita: %{errors}"

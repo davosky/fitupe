@@ -1,27 +1,45 @@
-<div class="card shadow-sm">
-  <div class="card-body p-4">
-    <%= form_with model: zoning, local: true do |f| %>
-      <% if zoning.errors.any? %>
-        <div class="alert alert-danger">
-          <ul class="mb-0">
-            <% zoning.errors.full_messages.each do |message| %>
-              <li><%= message %></li>
+<div class="row">
+  <div class="col-6 offset-3">
+    <div class="card shadow-sm">
+      <div class="card-body p-4">
+        <%= form_with model: zoning, local: true do |f| %>
+          <% if zoning.errors.any? %>
+            <div class="alert alert-danger">
+              <ul class="mb-0">
+                <% zoning.errors.full_messages.each do |message| %>
+                  <li><%= message %></li>
+                <% end %>
+              </ul>
+            </div>
+          <% end %>
+          <div class="input-group mb-3 shadow-sm">
+            <span class="<%= form_input_group_class_zoning %>">
+              <i class="bi bi-upc"></i>
+              <i class="bi bi-geo-alt me-1"></i>
+              <%= f.label :codice_azzonamento %>
+            </span>
+            <%= f.text_field :codice_azzonamento, class: 'form-control' %>
+          </div>
+          <div class="input-group mb-4 shadow-sm">
+            <span class="<%= form_input_group_class_zoning %>">
+              <i class="bi bi-blockquote-right"></i>
+              <i class="bi bi-geo-alt me-1"></i>
+              <%= f.label :descrizione_azzonamento %>
+            </span>
+            <%= f.text_field :descrizione_azzonamento, class: 'form-control' %>
+          </div>
+          <hr class="text-dark"/>
+          <div class="d-flex justify-content-end mt-4">
+            <%= link_to zonings_path, class: "btn btn-dark shadow me-3" do %>
+              <i class="bi bi-arrow-counterclockwise me-2"></i>
+              Annulla
             <% end %>
-          </ul>
-        </div>
-      <% end %>
-      <div class="mb-3">
-        <%= f.label :codice_azzonamento, "Codice", class: "form-label" %>
-        <%= f.text_field :codice_azzonamento, class: "form-control" %>
+            <%= f.button class: form_button_class_zoning do %>
+              <i class="bi bi-geo-alt me-1"></i>&emsp;<%= form_submit_label_zoning %>
+            <% end %>
+          </div>
+        <% end %>
       </div>
-      <div class="mb-3">
-        <%= f.label :descrizione_azzonamento, "Descrizione", class: "form-label" %>
-        <%= f.text_field :descrizione_azzonamento, class: "form-control" %>
-      </div>
-      <div class="d-flex justify-content-between">
-        <%= link_to "Annulla", zonings_path, class: "btn btn-outline-secondary" %>
-        <%= f.submit "Salva", class: "btn btn-primary" %>
-      </div>
-    <% end %>
+    </div>
   </div>
 </div>

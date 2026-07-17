@@ -1,33 +1,64 @@
 <% content_for :title, "Azzonamenti" %>
-<div class="d-flex justify-content-between align-items-center mb-4">
-  <h1 class="h4 mb-0">Azzonamenti</h1>
-  <%= link_to "Nuovo azzonamento", new_zoning_path, class: "btn btn-primary" %>
+<div class="d-flex justify-content-between align-items-center mt-5 mb-3">
+  <h3 class="text-primary">
+    <i class="fw-bold">
+      <%= image_tag("zoning/zoning-logo.svg", class: "img-fluid me-3", size: "58x58", alt: "Azzonamenti") %>
+      Azzonamenti
+    </i>
+  </h3>
+  <%= link_to new_zoning_path, class: "btn btn-primary shadow" do %>
+    <i class="bi bi-plus-lg"></i>
+    <i class="bi bi-geo-alt me-2"></i>
+    Nuovo Azzonamento
+  <% end %>
 </div>
-
-<% if @zonings.any? %>
-  <div class="table-responsive">
-    <table class="table table-hover align-middle">
-      <thead>
-        <tr>
-          <th>Codice</th>
-          <th>Descrizione</th>
-          <th class="text-end">Azioni</th>
-        </tr>
-      </thead>
-      <tbody>
-        <% @zonings.each do |zoning| %>
-          <tr>
-            <td><%= zoning.codice_azzonamento %></td>
-            <td><%= zoning.descrizione_azzonamento %></td>
-            <td class="text-end">
-              <%= link_to "Modifica", edit_zoning_path(zoning), class: "btn btn-sm btn-outline-secondary" %>
-              <%= link_to "Elimina", confirm_destroy_zoning_path(zoning), class: "btn btn-sm btn-outline-danger" %>
-            </td>
-          </tr>
-        <% end %>
-      </tbody>
-    </table>
+<hr class="text-primary m-3"/>
+<div class="card p-3 mt-5 border border-primary shadow-sm">
+  <div class="card-body">
+    <% if @zonings.any? %>
+      <div class="table-responsive">
+        <table class="table table-hover align-middle">
+          <thead>
+            <tr>
+              <th class="text-primary">
+                <i class="bi bi-upc"></i>
+                <i class="bi bi-geo-alt me-1"></i>
+                Codice Azzonamento
+              </th>
+              <th class="text-primary">
+                <i class="bi bi-blockquote-right"></i>
+                <i class="bi bi-geo-alt me-1"></i>
+                Descrizione Azzonamento
+              </th>
+              <th class="text-end"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <% @zonings.each do |zoning| %>
+              <tr>
+                <td>
+                  <span class="badge bg-primary">
+                    <h4>
+                      <%= zoning.codice_azzonamento %>
+                    </h4>
+                  </span>
+                </td>
+                <td class="text-left fs-4"><%= zoning.descrizione_azzonamento %></td>
+                <td class="text-end">
+                  <%= link_to edit_zoning_path(zoning), class: "text-warning me-5", data: { bs_toggle: "tooltip", bs_placement: "bottom", bs_title: "Modifica il Record Corrente" } do %>
+                    <i class="bi bi-pen-fill"></i>
+                  <% end %>
+                  <%= link_to confirm_destroy_zoning_path(zoning), class: "text-danger", data: { bs_toggle: "tooltip", bs_placement: "bottom", bs_title: "Elimina il Record Corrente" } do %>
+                    <i class="bi bi-trash-fill"></i>
+                  <% end %>
+                </td>
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+    <% else %>
+      <p class="text-muted">Nessun azzonamento inserito.</p>
+    <% end %>
   </div>
-<% else %>
-  <p class="text-muted">Nessun azzonamento inserito.</p>
-<% end %>
+</div>

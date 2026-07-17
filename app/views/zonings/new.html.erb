@@ -1,3 +1,11 @@
 <% content_for :title, "Nuovo azzonamento" %>
-<h1 class="h4 mb-4">Nuovo azzonamento</h1>
+<div class="mt-5 mb-3">
+  <h3 class="text-success">
+    <i class="fw-bold">
+      <%= image_tag("zoning/zoning-logo-new.svg", class: "img-fluid me-3", size: "58x58", alt: "Azzonamenti") %>
+      Nuovo Azzonamento
+    </i>
+  </h3>
+</div>
+<hr class="text-success m-3"/>
 <%= render "form", zoning: @zoning %>

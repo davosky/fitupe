@@ -1,0 +1,64 @@
+<nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
+  <div class="container-fluid">
+    <%= link_to root_path, class: "navbar-brand" do %>
+      <%= image_tag "navbar-logo.svg", alt: "navba-logo", class: "img-fluid" %>
+    <% end %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor03">
+      <ul class="navbar-nav me-auto ms-5">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="bi bi-geo-alt text-primary me-2"></i>Azzonamenti
+          </a>
+          <div class="dropdown-menu dropdown-menu-centered">
+            <% if current_user.admin? || current_user.manager? %>
+              <%= link_to zonings_path, class: "dropdown-item" do %>
+                <i class="bi bi-list-ul text-primary"></i>
+                <i class="bi bi-geo-alt text-primary me-2"></i>
+                Elenco Azzonamenti
+              <% end %>
+              <%= link_to new_zoning_path, class: "dropdown-item" do %>
+                <i class="bi bi-plus-lg text-primary"></i>
+                <i class="bi bi-geo-alt text-primary me-2"></i>
+                Aggiungi Azzonamento
+              <% end %>
+            <% end %>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="bi bi-upload text-primary me-2"></i>Importazioni
+          </a>
+          <div class="dropdown-menu dropdown-menu-centered">
+            <% if current_user.admin? || current_user.manager? %>
+              <%= link_to new_import_path, class: "dropdown-item" do %>
+                <i class="bi bi-plus-lg text-primary"></i>
+                <i class="bi bi-upload text-primary me-2"></i>
+                Effetua una Nuova Importazione
+              <% end %>
+            <% end %>
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="bi bi-list"></i></a>
+          <div class="dropdown-menu dropdown-menu-centered">
+            <% if current_user.admin? %>
+              <%= link_to admin_root_path, class: "dropdown-item", data: { turbo: false } do %>
+                <i class="bi bi-key text-primary me-2"></i>Amministrazione
+              <% end %>
+            <% end %>
+            <%= link_to credits_path, class: "dropdown-item" do %>
+              <i class="bi bi-person-circle text-primary me-2"></i>Crediti
+            <% end %>
+            <%= link_to destroy_user_session_path, class: "dropdown-item" do %>
+              <i class="bi bi-box-arrow-left text-danger me-2"></i>Esci
+            <% end %>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
