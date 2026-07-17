@@ -175,9 +175,9 @@
     "semantic_hash": "7b9ebb8b67ebd491bc8e091b4d757357"
   },
   "/home/davo/Programmazione/fitupe/app/javascript/application.js": {
-    "mtime": 1784285233.4422069,
-    "ast_hash": "e6d61f6a78a9a8a0be197ca6aabf0b15",
-    "semantic_hash": ""
+    "mtime": 1784113622.3040884,
+    "ast_hash": "aaa7cc6404512b52b1cc93498cdcaa3b",
+    "semantic_hash": "aaa7cc6404512b52b1cc93498cdcaa3b"
   },
   "/home/davo/Programmazione/fitupe/app/javascript/controllers/hello_controller.js": {
     "mtime": 1784113618.5818846,
@@ -340,9 +340,9 @@
     "semantic_hash": "8131df2d0832d1888ac483528e35e9e2"
   },
   "/home/davo/Programmazione/fitupe/config/locales/it.yml": {
-    "mtime": 1784283548.738573,
-    "ast_hash": "e16ddd2ed4fd45d4050865deb458137c",
-    "semantic_hash": ""
+    "mtime": 1784130817.8337486,
+    "ast_hash": "169c7f2e2ec7be10d18edc1395f56dba",
+    "semantic_hash": "169c7f2e2ec7be10d18edc1395f56dba"
   },
   "/home/davo/Programmazione/fitupe/public/400.html": {
     "mtime": 1784113604.0819113,
@@ -390,9 +390,9 @@
     "semantic_hash": "07d636898b9b025c02364c2d519e4ef8"
   },
   "/home/davo/Programmazione/fitupe/app/javascript/controllers/flash_controller.js": {
-    "mtime": 1784305357.269342,
-    "ast_hash": "0f609f5184635d010979122753f9dbe1",
-    "semantic_hash": ""
+    "mtime": 1784122495.456948,
+    "ast_hash": "f5491816e56f1505d5a82e1143a8244e",
+    "semantic_hash": "f5491816e56f1505d5a82e1143a8244e"
   },
   "/home/davo/Programmazione/fitupe/LICENCE.md": {
     "mtime": 1784181188.2680452,
@@ -412,6 +412,16 @@
   "/home/davo/Programmazione/fitupe/db/migrate/20260716062544_add_lockable_to_users.rb": {
     "mtime": 1784183154.7101817,
     "ast_hash": "528106e4207497cf81ad793ef46c41d2",
+    "semantic_hash": ""
+  },
+  "/home/davo/Programmazione/fitupe/assets/20260716_075201_davosky-logo.svg": {
+    "mtime": 1784181121.3687084,
+    "ast_hash": "e81ea615eee857cd2235f58933269c9c",
+    "semantic_hash": ""
+  },
+  "/home/davo/Programmazione/fitupe/assets/20260716_074951_davosky-logo.svg": {
+    "mtime": 1784180991.4349825,
+    "ast_hash": "ea3c80417923929ca9e239e909dd1412",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/assets/images/davo-logo.svg": {
@@ -500,8 +510,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/policies/zoning_policy.rb": {
-    "mtime": 1784283716.2302809,
-    "ast_hash": "706eefa6c093a98406b7745870214018",
+    "mtime": 1784198641.6628816,
+    "ast_hash": "1a59a673b02b4721ad3c1a3b95b914e0",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/imports/header_normalizer.rb": {
@@ -577,36 +587,6 @@
   "/home/davo/Programmazione/fitupe/db/migrate/20260716104253_create_imports.rb": {
     "mtime": 1784198600.945744,
     "ast_hash": "998dd91b4a6c23b950e4c760dc51d1ec",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/helpers/zoning_helper.rb": {
-    "mtime": 1784303446.820094,
-    "ast_hash": "0e8c2882f3a184f09f2ac89e100a4257",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/zoning/zoning-logo-new.svg": {
-    "mtime": 1784304953.5527146,
-    "ast_hash": "afd5d4ce08ddc61b781a3550be4c1348",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/zoning/zoning-logo-show.svg": {
-    "mtime": 1784304993.9186506,
-    "ast_hash": "bb995869e5a60984108a4ba3f053821b",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/zoning/zoning-logo-edit.svg": {
-    "mtime": 1784304920.1080897,
-    "ast_hash": "513a37ddf203c304729b490bf7e52de3",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/zoning/zoning-logo-destroy.svg": {
-    "mtime": 1784304855.3791313,
-    "ast_hash": "5cae405b3084efe53c5ce1d0e0c49116",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/zoning/zoning-logo.svg": {
-    "mtime": 1784304802.0444496,
-    "ast_hash": "2c0165de0575a5b924fba46f8c7f9dc4",
     "semantic_hash": ""
   }
 }

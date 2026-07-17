@@ -751,19 +751,10 @@
       "norm_label": ".update?()"
     },
     {
-      "label": ".confirm_destroy?()",
-      "file_type": "code",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L6",
-      "id": "policies_zoning_policy_zoningpolicy_confirm_destroy",
-      "community": 81,
-      "norm_label": ".confirm_destroy?()"
-    },
-    {
       "label": ".destroy?()",
       "file_type": "code",
       "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L7",
+      "source_location": "L6",
       "id": "policies_zoning_policy_zoningpolicy_destroy",
       "community": 81,
       "norm_label": ".destroy?()"
@@ -772,7 +763,7 @@
       "label": "Scope",
       "file_type": "code",
       "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L9",
+      "source_location": "L8",
       "id": "policies_zoning_policy_scope",
       "community": 81,
       "norm_label": "scope"
@@ -781,7 +772,7 @@
       "label": ".resolve()",
       "file_type": "code",
       "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L10",
+      "source_location": "L9",
       "id": "policies_zoning_policy_scope_resolve",
       "community": 81,
       "norm_label": ".resolve()"
@@ -790,7 +781,7 @@
       "label": ".admin_or_manager?()",
       "file_type": "code",
       "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L17",
+      "source_location": "L16",
       "id": "policies_zoning_policy_zoningpolicy_admin_or_manager",
       "community": 81,
       "norm_label": ".admin_or_manager?()"
@@ -983,51 +974,6 @@
       "id": "app_helpers_application_helper_rb",
       "community": 37,
       "norm_label": "application_helper.rb"
-    },
-    {
-      "label": "zoning_helper.rb",
-      "file_type": "code",
-      "source_file": "app/helpers/zoning_helper.rb",
-      "source_location": "L1",
-      "id": "app_helpers_zoning_helper_rb",
-      "community": 105,
-      "norm_label": "zoning_helper.rb"
-    },
-    {
-      "label": "form_label_class_zoning()",
-      "file_type": "code",
-      "source_file": "app/helpers/zoning_helper.rb",
-      "source_location": "L2",
-      "id": "helpers_zoning_helper_form_label_class_zoning",
-      "community": 105,
-      "norm_label": "form_label_class_zoning()"
-    },
-    {
-      "label": "form_input_group_class_zoning()",
-      "file_type": "code",
-      "source_file": "app/helpers/zoning_helper.rb",
-      "source_location": "L10",
-      "id": "helpers_zoning_helper_form_input_group_class_zoning",
-      "community": 105,
-      "norm_label": "form_input_group_class_zoning()"
-    },
-    {
-      "label": "form_button_class_zoning()",
-      "file_type": "code",
-      "source_file": "app/helpers/zoning_helper.rb",
-      "source_location": "L18",
-      "id": "helpers_zoning_helper_form_button_class_zoning",
-      "community": 105,
-      "norm_label": "form_button_class_zoning()"
-    },
-    {
-      "label": "form_submit_label_zoning()",
-      "file_type": "code",
-      "source_file": "app/helpers/zoning_helper.rb",
-      "source_location": "L26",
-      "id": "helpers_zoning_helper_form_submit_label_zoning",
-      "community": 105,
-      "norm_label": "form_submit_label_zoning()"
     },
     {
       "label": "application.js",
@@ -4481,9 +4427,9 @@
       "source_file": "spec/requests/imports_spec.rb",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "spec_requests_imports_spec_rb",
-      "target": "requests_imports_spec_stored_path_from"
+      "target": "requests_imports_spec_stored_path_from",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4491,9 +4437,9 @@
       "source_file": "spec/services/imports/csv_importer_service_spec.rb",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "spec_services_imports_csv_importer_service_spec_rb",
-      "target": "imports_csv_importer_service_spec_import"
+      "target": "imports_csv_importer_service_spec_import",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4501,9 +4447,9 @@
       "source_file": "app/policies/import_policy.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_policies_import_policy_rb",
-      "target": "policies_import_policy_importpolicy"
+      "target": "policies_import_policy_importpolicy",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -4511,9 +4457,9 @@
       "source_file": "app/policies/import_policy.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_import_policy_importpolicy",
-      "target": "policies_import_policy_importpolicy_manage"
+      "target": "policies_import_policy_importpolicy_manage",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -4883,9 +4829,9 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_policies_zoning_policy_rb",
-      "target": "policies_zoning_policy_zoningpolicy"
+      "target": "policies_zoning_policy_zoningpolicy",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4893,9 +4839,9 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_policies_zoning_policy_rb",
-      "target": "policies_zoning_policy_scope"
+      "target": "policies_zoning_policy_scope",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -4903,9 +4849,9 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_zoning_policy_zoningpolicy",
-      "target": "policies_zoning_policy_zoningpolicy_index"
+      "target": "policies_zoning_policy_zoningpolicy_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -4913,9 +4859,9 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_zoning_policy_zoningpolicy",
-      "target": "policies_zoning_policy_zoningpolicy_show"
+      "target": "policies_zoning_policy_zoningpolicy_show",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -4923,9 +4869,9 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_zoning_policy_zoningpolicy",
-      "target": "policies_zoning_policy_zoningpolicy_create"
+      "target": "policies_zoning_policy_zoningpolicy_create",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -4933,18 +4879,8 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_zoning_policy_zoningpolicy",
-      "target": "policies_zoning_policy_zoningpolicy_update"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "policies_zoning_policy_zoningpolicy",
-      "target": "policies_zoning_policy_zoningpolicy_confirm_destroy",
+      "target": "policies_zoning_policy_zoningpolicy_update",
       "confidence_score": 1.0
     },
     {
@@ -4953,9 +4889,9 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_zoning_policy_zoningpolicy",
-      "target": "policies_zoning_policy_zoningpolicy_destroy"
+      "target": "policies_zoning_policy_zoningpolicy_destroy",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -4963,9 +4899,9 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_zoning_policy_zoningpolicy",
-      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager"
+      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -4974,9 +4910,9 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_zoning_policy_zoningpolicy_index",
-      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager"
+      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -4985,9 +4921,9 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_zoning_policy_zoningpolicy_show",
-      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager"
+      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -4996,9 +4932,9 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_zoning_policy_zoningpolicy_create",
-      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager"
+      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5007,18 +4943,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_zoning_policy_zoningpolicy_update",
-      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/zoning_policy.rb",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "policies_zoning_policy_zoningpolicy_confirm_destroy",
       "target": "policies_zoning_policy_zoningpolicy_admin_or_manager",
       "confidence_score": 1.0
     },
@@ -5029,9 +4954,9 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_zoning_policy_zoningpolicy_destroy",
-      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager"
+      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5039,9 +4964,9 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_zoning_policy_scope",
-      "target": "policies_zoning_policy_scope_resolve"
+      "target": "policies_zoning_policy_scope_resolve",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5049,9 +4974,9 @@
       "source_file": "app/services/imports/header_normalizer.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_imports_header_normalizer_rb",
-      "target": "imports_header_normalizer_headernormalizer"
+      "target": "imports_header_normalizer_headernormalizer",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5059,9 +4984,9 @@
       "source_file": "app/services/imports/header_normalizer.rb",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_header_normalizer_headernormalizer",
-      "target": "imports_header_normalizer_headernormalizer_call"
+      "target": "imports_header_normalizer_headernormalizer_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5069,9 +4994,9 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_imports_csv_importer_service_rb",
-      "target": "imports_csv_importer_service_csvimporterservice"
+      "target": "imports_csv_importer_service_csvimporterservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5079,9 +5004,9 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L23",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_csvimporterservice",
-      "target": "imports_csv_importer_service_csvimporterservice_call"
+      "target": "imports_csv_importer_service_csvimporterservice_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5089,9 +5014,9 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_csvimporterservice",
-      "target": "imports_csv_importer_service_csvimporterservice_initialize"
+      "target": "imports_csv_importer_service_csvimporterservice_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5099,9 +5024,9 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_csvimporterservice",
-      "target": "imports_csv_importer_service_csvimporterservice_build_field_specs"
+      "target": "imports_csv_importer_service_csvimporterservice_build_field_specs",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5109,9 +5034,9 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L51",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_csvimporterservice",
-      "target": "imports_csv_importer_service_csvimporterservice_delete_existing_scope"
+      "target": "imports_csv_importer_service_csvimporterservice_delete_existing_scope",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5119,9 +5044,9 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_csvimporterservice",
-      "target": "imports_csv_importer_service_csvimporterservice_copy_rows"
+      "target": "imports_csv_importer_service_csvimporterservice_copy_rows",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5129,9 +5054,9 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L73",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_csvimporterservice",
-      "target": "imports_csv_importer_service_csvimporterservice_copy_line"
+      "target": "imports_csv_importer_service_csvimporterservice_copy_line",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5139,9 +5064,9 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L88",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_csvimporterservice",
-      "target": "imports_csv_importer_service_csvimporterservice_parse_date"
+      "target": "imports_csv_importer_service_csvimporterservice_parse_date",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5149,9 +5074,9 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L96",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_csvimporterservice",
-      "target": "imports_csv_importer_service_csvimporterservice_percent"
+      "target": "imports_csv_importer_service_csvimporterservice_percent",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5159,9 +5084,9 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L100",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_csvimporterservice",
-      "target": "imports_csv_importer_service_csvimporterservice_count_data_rows"
+      "target": "imports_csv_importer_service_csvimporterservice_count_data_rows",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5170,9 +5095,9 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L44",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_csvimporterservice_build_field_specs",
-      "target": "imports_csv_importer_service_csvimporterservice_call"
+      "target": "imports_csv_importer_service_csvimporterservice_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5181,9 +5106,9 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L65",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_csvimporterservice_copy_rows",
-      "target": "imports_csv_importer_service_csvimporterservice_call"
+      "target": "imports_csv_importer_service_csvimporterservice_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5192,9 +5117,9 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L63",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_csvimporterservice_copy_rows",
-      "target": "imports_csv_importer_service_csvimporterservice_copy_line"
+      "target": "imports_csv_importer_service_csvimporterservice_copy_line",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5203,9 +5128,9 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L65",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_csvimporterservice_copy_rows",
-      "target": "imports_csv_importer_service_csvimporterservice_percent"
+      "target": "imports_csv_importer_service_csvimporterservice_percent",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5214,9 +5139,9 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L82",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_csvimporterservice_copy_line",
-      "target": "imports_csv_importer_service_csvimporterservice_parse_date"
+      "target": "imports_csv_importer_service_csvimporterservice_parse_date",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5224,9 +5149,9 @@
       "source_file": "app/services/imports/schema_sync_service.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_imports_schema_sync_service_rb",
-      "target": "imports_schema_sync_service_schemasyncservice"
+      "target": "imports_schema_sync_service_schemasyncservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5234,9 +5159,9 @@
       "source_file": "app/services/imports/schema_sync_service.rb",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_schema_sync_service_schemasyncservice",
-      "target": "imports_schema_sync_service_schemasyncservice_call"
+      "target": "imports_schema_sync_service_schemasyncservice_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5244,9 +5169,9 @@
       "source_file": "app/services/imports/schema_sync_service.rb",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_schema_sync_service_schemasyncservice",
-      "target": "imports_schema_sync_service_schemasyncservice_initialize"
+      "target": "imports_schema_sync_service_schemasyncservice_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5254,9 +5179,9 @@
       "source_file": "app/services/imports/schema_sync_service.rb",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_schema_sync_service_schemasyncservice",
-      "target": "imports_schema_sync_service_schemasyncservice_missing_columns"
+      "target": "imports_schema_sync_service_schemasyncservice_missing_columns",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5264,9 +5189,9 @@
       "source_file": "app/services/imports/schema_sync_service.rb",
       "source_location": "L22",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_schema_sync_service_schemasyncservice",
-      "target": "imports_schema_sync_service_schemasyncservice_add_column"
+      "target": "imports_schema_sync_service_schemasyncservice_add_column",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5275,9 +5200,9 @@
       "source_file": "app/services/imports/schema_sync_service.rb",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_schema_sync_service_schemasyncservice_initialize",
-      "target": "imports_schema_sync_service_schemasyncservice_call"
+      "target": "imports_schema_sync_service_schemasyncservice_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5286,9 +5211,9 @@
       "source_file": "app/services/imports/schema_sync_service.rb",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_schema_sync_service_schemasyncservice_call",
-      "target": "imports_schema_sync_service_schemasyncservice_add_column"
+      "target": "imports_schema_sync_service_schemasyncservice_add_column",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5300,46 +5225,6 @@
       "weight": 1.0,
       "source": "migrate_20260716062544_add_lockable_to_users_addlockabletousers_change",
       "target": "imports_schema_sync_service_schemasyncservice_add_column"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/helpers/zoning_helper.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "app_helpers_zoning_helper_rb",
-      "target": "helpers_zoning_helper_form_label_class_zoning",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/helpers/zoning_helper.rb",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "app_helpers_zoning_helper_rb",
-      "target": "helpers_zoning_helper_form_input_group_class_zoning",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/helpers/zoning_helper.rb",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "app_helpers_zoning_helper_rb",
-      "target": "helpers_zoning_helper_form_button_class_zoning",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/helpers/zoning_helper.rb",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "app_helpers_zoning_helper_rb",
-      "target": "helpers_zoning_helper_form_submit_label_zoning",
-      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5472,9 +5357,9 @@
       "source_file": "app/models/import_form.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_models_import_form_rb",
-      "target": "models_import_form_importform"
+      "target": "models_import_form_importform",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5482,9 +5367,9 @@
       "source_file": "app/models/import_form.rb",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "models_import_form_importform",
-      "target": "models_import_form_importform_zoning"
+      "target": "models_import_form_importform_zoning",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5492,9 +5377,9 @@
       "source_file": "app/models/import_form.rb",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "models_import_form_importform",
-      "target": "models_import_form_importform_resolved_path"
+      "target": "models_import_form_importform_resolved_path",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5502,9 +5387,9 @@
       "source_file": "app/models/import_form.rb",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "models_import_form_importform",
-      "target": "models_import_form_importform_file_must_be_present_and_csv"
+      "target": "models_import_form_importform_file_must_be_present_and_csv",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5512,9 +5397,9 @@
       "source_file": "app/models/import_form.rb",
       "source_location": "L50",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "models_import_form_importform",
-      "target": "models_import_form_importform_persist_upload"
+      "target": "models_import_form_importform_persist_upload",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5523,9 +5408,9 @@
       "source_file": "app/models/import_form.rb",
       "source_location": "L35",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "models_import_form_importform_resolved_path",
-      "target": "models_import_form_importform_persist_upload"
+      "target": "models_import_form_importform_persist_upload",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5655,9 +5540,9 @@
       "source_file": "app/models/zoning.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_models_zoning_rb",
-      "target": "models_zoning_zoning"
+      "target": "models_zoning_zoning",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5665,9 +5550,9 @@
       "source_file": "app/models/import.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_models_import_rb",
-      "target": "models_import_import"
+      "target": "models_import_import",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5785,9 +5670,9 @@
       "source_file": "app/controllers/imports_controller.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_controllers_imports_controller_rb",
-      "target": "controllers_imports_controller_importscontroller"
+      "target": "controllers_imports_controller_importscontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5795,9 +5680,9 @@
       "source_file": "app/controllers/imports_controller.rb",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_new"
+      "target": "controllers_imports_controller_importscontroller_new",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5805,9 +5690,9 @@
       "source_file": "app/controllers/imports_controller.rb",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_create"
+      "target": "controllers_imports_controller_importscontroller_create",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5815,9 +5700,9 @@
       "source_file": "app/controllers/imports_controller.rb",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_show"
+      "target": "controllers_imports_controller_importscontroller_show",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5825,9 +5710,9 @@
       "source_file": "app/controllers/imports_controller.rb",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_set_zonings"
+      "target": "controllers_imports_controller_importscontroller_set_zonings",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5835,9 +5720,9 @@
       "source_file": "app/controllers/imports_controller.rb",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_authorize_import"
+      "target": "controllers_imports_controller_importscontroller_authorize_import",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5845,9 +5730,9 @@
       "source_file": "app/controllers/imports_controller.rb",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_import_params"
+      "target": "controllers_imports_controller_importscontroller_import_params",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5855,9 +5740,9 @@
       "source_file": "app/controllers/imports_controller.rb",
       "source_location": "L38",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_conflict"
+      "target": "controllers_imports_controller_importscontroller_conflict",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5865,9 +5750,9 @@
       "source_file": "app/controllers/imports_controller.rb",
       "source_location": "L43",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_render_form_errors"
+      "target": "controllers_imports_controller_importscontroller_render_form_errors",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5875,9 +5760,9 @@
       "source_file": "app/controllers/imports_controller.rb",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_render_conflict"
+      "target": "controllers_imports_controller_importscontroller_render_conflict",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5885,9 +5770,9 @@
       "source_file": "app/controllers/imports_controller.rb",
       "source_location": "L53",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_cancel_import"
+      "target": "controllers_imports_controller_importscontroller_cancel_import",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5895,9 +5780,9 @@
       "source_file": "app/controllers/imports_controller.rb",
       "source_location": "L59",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_enqueue_import"
+      "target": "controllers_imports_controller_importscontroller_enqueue_import",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5906,9 +5791,9 @@
       "source_file": "app/controllers/imports_controller.rb",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_imports_controller_importscontroller_create",
-      "target": "controllers_imports_controller_importscontroller_new"
+      "target": "controllers_imports_controller_importscontroller_new",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5917,9 +5802,9 @@
       "source_file": "app/controllers/imports_controller.rb",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_imports_controller_importscontroller_create",
-      "target": "controllers_imports_controller_importscontroller_conflict"
+      "target": "controllers_imports_controller_importscontroller_conflict",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5927,9 +5812,9 @@
       "source_file": "app/controllers/zonings_controller.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_controllers_zonings_controller_rb",
-      "target": "controllers_zonings_controller_zoningscontroller"
+      "target": "controllers_zonings_controller_zoningscontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5937,9 +5822,9 @@
       "source_file": "app/controllers/zonings_controller.rb",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_index"
+      "target": "controllers_zonings_controller_zoningscontroller_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5947,9 +5832,9 @@
       "source_file": "app/controllers/zonings_controller.rb",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_show"
+      "target": "controllers_zonings_controller_zoningscontroller_show",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5957,9 +5842,9 @@
       "source_file": "app/controllers/zonings_controller.rb",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_new"
+      "target": "controllers_zonings_controller_zoningscontroller_new",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5967,9 +5852,9 @@
       "source_file": "app/controllers/zonings_controller.rb",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_create"
+      "target": "controllers_zonings_controller_zoningscontroller_create",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5977,9 +5862,9 @@
       "source_file": "app/controllers/zonings_controller.rb",
       "source_location": "L29",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_edit"
+      "target": "controllers_zonings_controller_zoningscontroller_edit",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5987,9 +5872,9 @@
       "source_file": "app/controllers/zonings_controller.rb",
       "source_location": "L32",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_update"
+      "target": "controllers_zonings_controller_zoningscontroller_update",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5997,9 +5882,9 @@
       "source_file": "app/controllers/zonings_controller.rb",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_destroy"
+      "target": "controllers_zonings_controller_zoningscontroller_destroy",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6007,9 +5892,9 @@
       "source_file": "app/controllers/zonings_controller.rb",
       "source_location": "L45",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_confirm_destroy"
+      "target": "controllers_zonings_controller_zoningscontroller_confirm_destroy",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6017,9 +5902,9 @@
       "source_file": "app/controllers/zonings_controller.rb",
       "source_location": "L50",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_set_zoning"
+      "target": "controllers_zonings_controller_zoningscontroller_set_zoning",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6027,9 +5912,9 @@
       "source_file": "app/controllers/zonings_controller.rb",
       "source_location": "L55",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_zonings_controller_zoningscontroller",
-      "target": "controllers_zonings_controller_zoningscontroller_zoning_params"
+      "target": "controllers_zonings_controller_zoningscontroller_zoning_params",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6038,9 +5923,9 @@
       "source_file": "app/controllers/zonings_controller.rb",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_zonings_controller_zoningscontroller_create",
-      "target": "controllers_zonings_controller_zoningscontroller_new"
+      "target": "controllers_zonings_controller_zoningscontroller_new",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6078,9 +5963,9 @@
       "source_file": "app/controllers/admin/imports_controller.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_controllers_admin_imports_controller_rb",
-      "target": "admin_imports_controller_importscontroller"
+      "target": "admin_imports_controller_importscontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6088,9 +5973,9 @@
       "source_file": "app/controllers/admin/zonings_controller.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_controllers_admin_zonings_controller_rb",
-      "target": "admin_zonings_controller_zoningscontroller"
+      "target": "admin_zonings_controller_zoningscontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6108,9 +5993,9 @@
       "source_file": "app/jobs/import_csv_job.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_jobs_import_csv_job_rb",
-      "target": "jobs_import_csv_job_importcsvjob"
+      "target": "jobs_import_csv_job_importcsvjob",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6118,9 +6003,9 @@
       "source_file": "app/jobs/import_csv_job.rb",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "jobs_import_csv_job_importcsvjob",
-      "target": "jobs_import_csv_job_importcsvjob_perform"
+      "target": "jobs_import_csv_job_importcsvjob_perform",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6128,9 +6013,9 @@
       "source_file": "app/jobs/import_csv_job.rb",
       "source_location": "L22",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "jobs_import_csv_job_importcsvjob",
-      "target": "jobs_import_csv_job_importcsvjob_broadcast"
+      "target": "jobs_import_csv_job_importcsvjob_broadcast",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6139,9 +6024,9 @@
       "source_file": "app/jobs/import_csv_job.rb",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "jobs_import_csv_job_importcsvjob_perform",
-      "target": "jobs_import_csv_job_importcsvjob_broadcast"
+      "target": "jobs_import_csv_job_importcsvjob_broadcast",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6149,9 +6034,9 @@
       "source_file": "app/dashboards/import_dashboard.rb",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_dashboards_import_dashboard_rb",
-      "target": "dashboards_import_dashboard_importdashboard"
+      "target": "dashboards_import_dashboard_importdashboard",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6159,9 +6044,9 @@
       "source_file": "app/dashboards/import_dashboard.rb",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "dashboards_import_dashboard_importdashboard",
-      "target": "dashboards_import_dashboard_importdashboard_field_type_for"
+      "target": "dashboards_import_dashboard_importdashboard_field_type_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6169,9 +6054,9 @@
       "source_file": "app/dashboards/zoning_dashboard.rb",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_dashboards_zoning_dashboard_rb",
-      "target": "dashboards_zoning_dashboard_zoningdashboard"
+      "target": "dashboards_zoning_dashboard_zoningdashboard",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6259,9 +6144,9 @@
       "source_file": "db/migrate/20260716104233_create_zonings.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "db_migrate_20260716104233_create_zonings_rb",
-      "target": "migrate_20260716104233_create_zonings_createzonings"
+      "target": "migrate_20260716104233_create_zonings_createzonings",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6269,9 +6154,9 @@
       "source_file": "db/migrate/20260716104233_create_zonings.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "migrate_20260716104233_create_zonings_createzonings",
-      "target": "migrate_20260716104233_create_zonings_createzonings_change"
+      "target": "migrate_20260716104233_create_zonings_createzonings_change",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6299,9 +6184,9 @@
       "source_file": "db/migrate/20260716104253_create_imports.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "db_migrate_20260716104253_create_imports_rb",
-      "target": "migrate_20260716104253_create_imports_createimports"
+      "target": "migrate_20260716104253_create_imports_createimports",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6309,9 +6194,9 @@
       "source_file": "db/migrate/20260716104253_create_imports.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "migrate_20260716104253_create_imports_createimports",
-      "target": "migrate_20260716104253_create_imports_createimports_change"
+      "target": "migrate_20260716104253_create_imports_createimports_change",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7905,5 +7790,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "19a8aa21101405775a5d11a987904d51aa083d86"
+  "built_at_commit": "b62aef7103c5918b6dde8d92f978f41fb1c7d8a8"
 }

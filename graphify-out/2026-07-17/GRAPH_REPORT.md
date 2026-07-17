@@ -1,16 +1,16 @@
-# Graph Report - fitupe  (2026-07-17)
+# Graph Report - fitupe  (2026-07-16)
 
 ## Corpus Check
-- 91 files · ~32,564 words
+- 90 files · ~38,423 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 405 nodes · 365 edges · 106 communities (56 shown, 50 thin omitted)
-- Extraction: 82% EXTRACTED · 17% INFERRED · 1% AMBIGUOUS · INFERRED: 63 edges (avg confidence: 0.85)
+- 399 nodes · 359 edges · 105 communities (55 shown, 50 thin omitted)
+- Extraction: 82% EXTRACTED · 18% INFERRED · 1% AMBIGUOUS · INFERRED: 63 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `19a8aa21`
+- Built from commit: `b62aef71`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -91,7 +91,7 @@
 6. `CsvImporterService` - 10 edges
 7. `User` - 10 edges
 8. `CLAUDE.md Project Guide` - 10 edges
-9. `ZoningPolicy` - 8 edges
+9. `ZoningPolicy` - 7 edges
 10. `Bootstrap CSS Framework` - 7 edges
 
 ## Surprising Connections (you probably didn't know these)
@@ -106,7 +106,7 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (106 total, 50 thin omitted)
+## Communities (105 total, 50 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
