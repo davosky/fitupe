@@ -1,11 +1,14 @@
 /* Sovrascrive i colori di Administrate (di base $action-color/$blue: #1976d2)
-   con l'oro #BC9456, colore dedicato alla sezione Administrate. Selettori
-   copiati identici a quelli compilati in administrate/application.css per
-   pareggiare la specificità e vincere per ordine di caricamento, e
-   prefissati con .app-container (wrapper esclusivo del layout Administrate,
-   vedi app/views/layouts/admin/application.html.erb) perché
-   stylesheet_link_tag :app carica questo foglio anche nelle pagine
-   pubbliche, dove non deve avere alcun effetto. */
+   con il blu primary #158cba di Bootswatch Lumen, lo stesso usato
+   nell'applicazione principale (vedi app/assets/stylesheets/application.bootstrap.scss),
+   così Administrate resta coerente con lo stile del resto dell'app invece di
+   avere un proprio colore distintivo. Selettori copiati identici a quelli
+   compilati in administrate/application.css per pareggiare la specificità e
+   vincere per ordine di caricamento, e prefissati con .app-container
+   (wrapper esclusivo del layout Administrate, vedi
+   app/views/layouts/admin/application.html.erb) perché stylesheet_link_tag
+   :app carica questo foglio anche nelle pagine pubbliche, dove non deve
+   avere alcun effetto. */
 
 .app-container .navigation__brand {
   display: block;
@@ -14,7 +17,7 @@
 
 .app-container [type=checkbox],
 .app-container [type=radio] {
-  accent-color: #BC9456;
+  accent-color: #158cba;
 }
 
 .app-container .navigation__logo {
@@ -27,21 +30,21 @@
 [type=button],
 [type=reset],
 [type=submit]) {
-  color: #BC9456;
+  color: #158cba;
 }
 .app-container a:hover,
 .app-container .link:is(button,
 [type=button],
 [type=reset],
 [type=submit]):hover {
-  color: #8D6F41;
+  color: #117095;
 }
 .app-container a:focus,
 .app-container .link:is(button,
 [type=button],
 [type=reset],
 [type=submit]):focus {
-  outline: 3px solid rgba(188, 148, 86, 0.6);
+  outline: 3px solid rgba(21, 140, 186, 0.6);
   outline-offset: 1px;
 }
 
@@ -60,14 +63,14 @@
 .app-container [type=week]:focus,
 .app-container input:not([type]):focus,
 .app-container textarea:focus {
-  border-color: #BC9456;
+  border-color: #158cba;
 }
 
 .app-container [type=checkbox]:focus,
 .app-container [type=radio]:focus,
 .app-container [type=file]:focus,
 .app-container select:focus {
-  outline: 3px solid rgba(188, 148, 86, 0.6);
+  outline: 3px solid rgba(21, 140, 186, 0.6);
   outline-offset: 1px;
 }
 
@@ -76,21 +79,21 @@
 .app-container [type=reset],
 .app-container [type=submit],
 .app-container .button {
-  background-color: #BC9456;
+  background-color: #158cba;
 }
 .app-container button:not(.link):hover,
 .app-container [type=button]:not(.link):hover,
 .app-container [type=reset]:not(.link):hover,
 .app-container [type=submit]:not(.link):hover,
 .app-container .button:not(.link):hover {
-  background-color: #967645;
+  background-color: #12779e;
 }
 .app-container button:not(.link):focus,
 .app-container [type=button]:not(.link):focus,
 .app-container [type=reset]:not(.link):focus,
 .app-container [type=submit]:not(.link):focus,
 .app-container .button:not(.link):focus {
-  outline: 3px solid rgba(188, 148, 86, 0.6);
+  outline: 3px solid rgba(21, 140, 186, 0.6);
   outline-offset: 1px;
 }
 .app-container button:not(.link):disabled:hover,
@@ -98,34 +101,34 @@
 .app-container [type=reset]:not(.link):disabled:hover,
 .app-container [type=submit]:not(.link):disabled:hover,
 .app-container .button:not(.link):disabled:hover {
-  background-color: #BC9456;
+  background-color: #158cba;
 }
 
 .app-container .button--alt {
   background-color: transparent;
-  border-color: #BC9456;
-  color: #BC9456;
+  border-color: #158cba;
+  color: #158cba;
 }
 
 .app-container tbody tr:focus {
-  outline: 3px solid rgba(188, 148, 86, 0.6);
+  outline: 3px solid rgba(21, 140, 186, 0.6);
   outline-offset: -3px;
 }
 
 .app-container .cell-label:hover a {
-  color: #BC9456;
+  color: #158cba;
 }
 .app-container .cell-label:hover svg {
-  fill: #BC9456;
+  fill: #158cba;
 }
 
 .app-container .search__clear-icon:hover {
-  color: #BC9456;
+  color: #158cba;
 }
 .app-container .search__tooltip svg:hover {
-  color: #BC9456;
+  color: #158cba;
 }
 .app-container .search__tooltip-popover {
-  background-color: #BC9456;
-  border-color: #BC9456;
+  background-color: #158cba;
+  border-color: #158cba;
 }
