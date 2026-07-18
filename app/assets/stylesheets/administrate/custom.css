@@ -1,40 +1,43 @@
 /* Sovrascrive i colori di Administrate (di base $action-color/$blue: #1976d2)
-   con l'oro #BC9456 usato nel resto dell'applicazione (vedi
-   app/assets/stylesheets/application.bootstrap.scss). Selettori copiati
-   identici a quelli compilati in administrate/application.css per pareggiare
-   la specificità e vincere per ordine di caricamento. */
+   con l'oro #BC9456, colore dedicato alla sezione Administrate. Selettori
+   copiati identici a quelli compilati in administrate/application.css per
+   pareggiare la specificità e vincere per ordine di caricamento, e
+   prefissati con .app-container (wrapper esclusivo del layout Administrate,
+   vedi app/views/layouts/admin/application.html.erb) perché
+   stylesheet_link_tag :app carica questo foglio anche nelle pagine
+   pubbliche, dove non deve avere alcun effetto. */
 
-.navigation__brand {
+.app-container .navigation__brand {
   display: block;
   margin-bottom: 1.5em;
 }
 
-[type=checkbox],
-[type=radio] {
+.app-container [type=checkbox],
+.app-container [type=radio] {
   accent-color: #BC9456;
 }
 
-.navigation__logo {
+.app-container .navigation__logo {
   height: auto;
   max-width: 100%;
 }
 
-a,
-.link:is(button,
+.app-container a,
+.app-container .link:is(button,
 [type=button],
 [type=reset],
 [type=submit]) {
   color: #BC9456;
 }
-a:hover,
-.link:is(button,
+.app-container a:hover,
+.app-container .link:is(button,
 [type=button],
 [type=reset],
 [type=submit]):hover {
   color: #8D6F41;
 }
-a:focus,
-.link:is(button,
+.app-container a:focus,
+.app-container .link:is(button,
 [type=button],
 [type=reset],
 [type=submit]):focus {
@@ -42,87 +45,87 @@ a:focus,
   outline-offset: 1px;
 }
 
-[type=color]:focus,
-[type=date]:focus,
-[type=datetime-local]:focus,
-[type=email]:focus,
-[type=month]:focus,
-[type=number]:focus,
-[type=password]:focus,
-[type=search]:focus,
-[type=tel]:focus,
-[type=text]:focus,
-[type=time]:focus,
-[type=url]:focus,
-[type=week]:focus,
-input:not([type]):focus,
-textarea:focus {
+.app-container [type=color]:focus,
+.app-container [type=date]:focus,
+.app-container [type=datetime-local]:focus,
+.app-container [type=email]:focus,
+.app-container [type=month]:focus,
+.app-container [type=number]:focus,
+.app-container [type=password]:focus,
+.app-container [type=search]:focus,
+.app-container [type=tel]:focus,
+.app-container [type=text]:focus,
+.app-container [type=time]:focus,
+.app-container [type=url]:focus,
+.app-container [type=week]:focus,
+.app-container input:not([type]):focus,
+.app-container textarea:focus {
   border-color: #BC9456;
 }
 
-[type=checkbox]:focus,
-[type=radio]:focus,
-[type=file]:focus,
-select:focus {
+.app-container [type=checkbox]:focus,
+.app-container [type=radio]:focus,
+.app-container [type=file]:focus,
+.app-container select:focus {
   outline: 3px solid rgba(188, 148, 86, 0.6);
   outline-offset: 1px;
 }
 
-button,
-[type=button],
-[type=reset],
-[type=submit],
-.button {
+.app-container button,
+.app-container [type=button],
+.app-container [type=reset],
+.app-container [type=submit],
+.app-container .button {
   background-color: #BC9456;
 }
-button:not(.link):hover,
-[type=button]:not(.link):hover,
-[type=reset]:not(.link):hover,
-[type=submit]:not(.link):hover,
-.button:not(.link):hover {
+.app-container button:not(.link):hover,
+.app-container [type=button]:not(.link):hover,
+.app-container [type=reset]:not(.link):hover,
+.app-container [type=submit]:not(.link):hover,
+.app-container .button:not(.link):hover {
   background-color: #967645;
 }
-button:not(.link):focus,
-[type=button]:not(.link):focus,
-[type=reset]:not(.link):focus,
-[type=submit]:not(.link):focus,
-.button:not(.link):focus {
+.app-container button:not(.link):focus,
+.app-container [type=button]:not(.link):focus,
+.app-container [type=reset]:not(.link):focus,
+.app-container [type=submit]:not(.link):focus,
+.app-container .button:not(.link):focus {
   outline: 3px solid rgba(188, 148, 86, 0.6);
   outline-offset: 1px;
 }
-button:not(.link):disabled:hover,
-[type=button]:not(.link):disabled:hover,
-[type=reset]:not(.link):disabled:hover,
-[type=submit]:not(.link):disabled:hover,
-.button:not(.link):disabled:hover {
+.app-container button:not(.link):disabled:hover,
+.app-container [type=button]:not(.link):disabled:hover,
+.app-container [type=reset]:not(.link):disabled:hover,
+.app-container [type=submit]:not(.link):disabled:hover,
+.app-container .button:not(.link):disabled:hover {
   background-color: #BC9456;
 }
 
-.button--alt {
+.app-container .button--alt {
   background-color: transparent;
   border-color: #BC9456;
   color: #BC9456;
 }
 
-tbody tr:focus {
+.app-container tbody tr:focus {
   outline: 3px solid rgba(188, 148, 86, 0.6);
   outline-offset: -3px;
 }
 
-.cell-label:hover a {
+.app-container .cell-label:hover a {
   color: #BC9456;
 }
-.cell-label:hover svg {
+.app-container .cell-label:hover svg {
   fill: #BC9456;
 }
 
-.search__clear-icon:hover {
+.app-container .search__clear-icon:hover {
   color: #BC9456;
 }
-.search__tooltip svg:hover {
+.app-container .search__tooltip svg:hover {
   color: #BC9456;
 }
-.search__tooltip-popover {
+.app-container .search__tooltip-popover {
   background-color: #BC9456;
   border-color: #BC9456;
 }
