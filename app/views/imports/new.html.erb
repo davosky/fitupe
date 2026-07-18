@@ -1,5 +1,13 @@
 <% content_for :title, "Importazioni" %>
-<h1 class="h4 mb-4">Importazioni</h1>
+<div class="d-flex justify-content-between align-items-center mt-5 mb-3">
+  <h3 class="text-success">
+    <i class="fw-bold">
+      <%= image_tag("import/import-logo-new.svg", class: "img-fluid me-3", size: "58x58", alt: "Importazioni") %>
+      Nuova Importazione
+    </i>
+  </h3>
+</div>
+<hr class="text-success mb-5"/>
 <div class="card shadow-sm">
   <div class="card-body p-4">
     <%= form_with model: @import_form, scope: :import_form, url: imports_path, local: true, multipart: true do |f| %>

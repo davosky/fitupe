@@ -1,16 +1,16 @@
-# Graph Report - fitupe  (2026-07-18)
+# Graph Report - fitupe  (2026-07-17)
 
 ## Corpus Check
-- 91 files · ~34,026 words
+- 91 files · ~32,564 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 406 nodes · 366 edges · 106 communities (56 shown, 50 thin omitted)
+- 405 nodes · 365 edges · 106 communities (56 shown, 50 thin omitted)
 - Extraction: 82% EXTRACTED · 17% INFERRED · 1% AMBIGUOUS · INFERRED: 63 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `0461d577`
+- Built from commit: `19a8aa21`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -84,7 +84,7 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `CLAUDE.md — Guida per Claude Code` - 15 edges
-2. `ImportsController` - 13 edges
+2. `ImportsController` - 12 edges
 3. `ApplicationPolicy#admin?` - 12 edges
 4. `ZoningsController` - 11 edges
 5. `ApplicationPolicy` - 10 edges

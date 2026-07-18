@@ -1336,19 +1336,10 @@
       "norm_label": "importscontroller"
     },
     {
-      "label": ".index()",
-      "file_type": "code",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L6",
-      "id": "controllers_imports_controller_importscontroller_index",
-      "community": 8,
-      "norm_label": ".index()"
-    },
-    {
       "label": ".new()",
       "file_type": "code",
       "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L13",
+      "source_location": "L6",
       "id": "controllers_imports_controller_importscontroller_new",
       "community": 8,
       "norm_label": ".new()"
@@ -1357,7 +1348,7 @@
       "label": ".create()",
       "file_type": "code",
       "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L17",
+      "source_location": "L10",
       "id": "controllers_imports_controller_importscontroller_create",
       "community": 8,
       "norm_label": ".create()"
@@ -1366,7 +1357,7 @@
       "label": ".show()",
       "file_type": "code",
       "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L26",
+      "source_location": "L19",
       "id": "controllers_imports_controller_importscontroller_show",
       "community": 8,
       "norm_label": ".show()"
@@ -1375,7 +1366,7 @@
       "label": ".set_zonings()",
       "file_type": "code",
       "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L33",
+      "source_location": "L26",
       "id": "controllers_imports_controller_importscontroller_set_zonings",
       "community": 8,
       "norm_label": ".set_zonings()"
@@ -1384,7 +1375,7 @@
       "label": ".authorize_import()",
       "file_type": "code",
       "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L37",
+      "source_location": "L30",
       "id": "controllers_imports_controller_importscontroller_authorize_import",
       "community": 8,
       "norm_label": ".authorize_import()"
@@ -1393,7 +1384,7 @@
       "label": ".import_params()",
       "file_type": "code",
       "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L41",
+      "source_location": "L34",
       "id": "controllers_imports_controller_importscontroller_import_params",
       "community": 8,
       "norm_label": ".import_params()"
@@ -1402,7 +1393,7 @@
       "label": ".conflict?()",
       "file_type": "code",
       "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L45",
+      "source_location": "L38",
       "id": "controllers_imports_controller_importscontroller_conflict",
       "community": 8,
       "norm_label": ".conflict?()"
@@ -1411,7 +1402,7 @@
       "label": ".render_form_errors()",
       "file_type": "code",
       "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L50",
+      "source_location": "L43",
       "id": "controllers_imports_controller_importscontroller_render_form_errors",
       "community": 8,
       "norm_label": ".render_form_errors()"
@@ -1420,7 +1411,7 @@
       "label": ".render_conflict()",
       "file_type": "code",
       "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L54",
+      "source_location": "L47",
       "id": "controllers_imports_controller_importscontroller_render_conflict",
       "community": 8,
       "norm_label": ".render_conflict()"
@@ -1429,7 +1420,7 @@
       "label": ".cancel_import()",
       "file_type": "code",
       "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L60",
+      "source_location": "L53",
       "id": "controllers_imports_controller_importscontroller_cancel_import",
       "community": 8,
       "norm_label": ".cancel_import()"
@@ -1438,7 +1429,7 @@
       "label": ".enqueue_import()",
       "file_type": "code",
       "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L66",
+      "source_location": "L59",
       "id": "controllers_imports_controller_importscontroller_enqueue_import",
       "community": 8,
       "norm_label": ".enqueue_import()"
@@ -4952,9 +4943,9 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_zoning_policy_zoningpolicy",
-      "target": "policies_zoning_policy_zoningpolicy_confirm_destroy"
+      "target": "policies_zoning_policy_zoningpolicy_confirm_destroy",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5027,9 +5018,9 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_zoning_policy_zoningpolicy_confirm_destroy",
-      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager"
+      "target": "policies_zoning_policy_zoningpolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5316,9 +5307,9 @@
       "source_file": "app/helpers/zoning_helper.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_helpers_zoning_helper_rb",
-      "target": "helpers_zoning_helper_form_label_class_zoning"
+      "target": "helpers_zoning_helper_form_label_class_zoning",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5326,9 +5317,9 @@
       "source_file": "app/helpers/zoning_helper.rb",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_helpers_zoning_helper_rb",
-      "target": "helpers_zoning_helper_form_input_group_class_zoning"
+      "target": "helpers_zoning_helper_form_input_group_class_zoning",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5336,9 +5327,9 @@
       "source_file": "app/helpers/zoning_helper.rb",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_helpers_zoning_helper_rb",
-      "target": "helpers_zoning_helper_form_button_class_zoning"
+      "target": "helpers_zoning_helper_form_button_class_zoning",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5346,9 +5337,9 @@
       "source_file": "app/helpers/zoning_helper.rb",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_helpers_zoning_helper_rb",
-      "target": "helpers_zoning_helper_form_submit_label_zoning"
+      "target": "helpers_zoning_helper_form_submit_label_zoning",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5797,16 +5788,6 @@
       "confidence_score": 1.0,
       "source": "app_controllers_imports_controller_rb",
       "target": "controllers_imports_controller_importscontroller"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/imports_controller.rb",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_index",
-      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7924,5 +7905,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "0461d577f6b02de4bf4e9f5e7383827be620a7a1"
+  "built_at_commit": "19a8aa21101405775a5d11a987904d51aa083d86"
 }

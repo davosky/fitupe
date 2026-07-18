@@ -1,0 +1,54 @@
+<% content_for :title, "Importazioni" %>
+<div class="d-flex justify-content-between align-items-center mt-5 mb-3">
+  <h3 class="text-primary">
+    <i class="fw-bold">
+      <%= image_tag("import/import-logo.svg", class: "img-fluid me-3", size: "58x58", alt: "Importazioni") %>
+      Importazioni
+    </i>
+  </h3>
+  <%= link_to new_import_path, class: "btn btn-primary shadow" do %>
+    <i class="bi bi-plus-lg"></i>
+    <i class="bi bi-upload me-2"></i>
+    Nuova Importazione
+  <% end %>
+</div>
+<hr class="text-primary m-3"/>
+<div class="card p-3 mt-5 border border-primary shadow-sm">
+  <div class="card-body">
+    <% if @batches.any? %>
+      <div class="table-responsive">
+        <table class="table table-hover align-middle">
+          <thead>
+            <tr>
+              <th class="text-primary">
+                <i class="bi bi-geo-alt me-1"></i>
+                Azzonamento
+              </th>
+              <th class="text-primary">
+                <i class="bi bi-calendar3 me-1"></i>
+                Periodo
+              </th>
+              <th class="text-primary text-end">
+                <i class="bi bi-card-list me-1"></i>
+                Record Importati
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <% @batches.each do |batch| %>
+              <tr>
+                <td class="fs-5"><%= batch[:zoning].descrizione_azzonamento %></td>
+                <td><%= batch[:mese] %> <%= batch[:anno] %></td>
+                <td class="text-end">
+                  <span class="badge bg-primary"><%= number_with_delimiter(batch[:count], locale: :it) %></span>
+                </td>
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+    <% else %>
+      <p class="text-muted">Nessuna importazione effettuata.</p>
+    <% end %>
+  </div>
+</div>

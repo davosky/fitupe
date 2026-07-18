@@ -3,6 +3,13 @@ class ImportsController < ApplicationController
   before_action :authorize_import
   before_action :set_zonings, only: %i[new create]
 
+  def index
+    counts = Import.group(:azzonamento_di_riferimento_id, :anno_di_riferimento, :mese_di_riferimento).count
+    zonings = Zoning.where(id: counts.keys.map(&:first)).index_by(&:id)
+    @batches = counts.map { |(zoning_id, anno, mese), count| { zoning: zonings[zoning_id], anno:, mese:, count: } }
+      .sort_by { |b| [ b[:zoning].descrizione_azzonamento, -b[:anno].to_i, -ImportForm::MESI.index(b[:mese]) ] }
+  end
+
   def new
     @import_form = ImportForm.new
   end

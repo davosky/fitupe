@@ -1,4 +1,13 @@
 <% content_for :title, "Importazione in corso" %>
-<h1 class="h4 mb-4">Importazione in corso</h1>
+<div class="d-flex justify-content-between align-items-center mt-5 mb-3">
+  <h3 class="text-primary">
+    <i class="fw-bold">
+      <%= image_tag("import/import-logo-show.svg", class: "img-fluid me-3", size: "58x58", alt: "Importazioni") %>
+      Importazione in corso
+    </i>
+  </h3>
+  <%= link_to "Torna all'elenco", imports_path, class: "btn btn-outline-secondary" %>
+</div>
+<hr class="text-primary mb-5"/>
 <%= turbo_stream_from "import_progress_#{@token}" %>
 <%= render "progress", **@progress %>

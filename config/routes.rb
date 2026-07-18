@@ -14,7 +14,7 @@ Rails.application.routes.draw do
       get :confirm_destroy
     end
   end
-  resources :imports, only: %i[new create show]
+  resources :imports, only: %i[index new create show]
 
   mount ActionCable.server => "/cable"
 
