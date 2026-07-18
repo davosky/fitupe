@@ -340,8 +340,8 @@
     "semantic_hash": "8131df2d0832d1888ac483528e35e9e2"
   },
   "/home/davo/Programmazione/fitupe/config/locales/it.yml": {
-    "mtime": 1784283548.738573,
-    "ast_hash": "e16ddd2ed4fd45d4050865deb458137c",
+    "mtime": 1784370128.7542183,
+    "ast_hash": "2859ada5d8deddc341b2287cf1726cd5",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/public/400.html": {
@@ -385,9 +385,9 @@
     "semantic_hash": "d0b333f5ff73c3822534c44fff06b3b7"
   },
   "/home/davo/Programmazione/fitupe/app/assets/images/main-logo.svg": {
-    "mtime": 1784129987.6872785,
-    "ast_hash": "07d636898b9b025c02364c2d519e4ef8",
-    "semantic_hash": "07d636898b9b025c02364c2d519e4ef8"
+    "mtime": 1784369191.058434,
+    "ast_hash": "e73fcdf59897f68f2bce813c697c6353",
+    "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/javascript/controllers/flash_controller.js": {
     "mtime": 1784305357.269342,
@@ -405,9 +405,9 @@
     "semantic_hash": "e79eeae5202b6de515a347c0ed7cab39"
   },
   "/home/davo/Programmazione/fitupe/app/assets/images/navbar-logo.svg": {
-    "mtime": 1784125004.6459348,
-    "ast_hash": "60158687aa841973c2895dc061851ab7",
-    "semantic_hash": "60158687aa841973c2895dc061851ab7"
+    "mtime": 1784369335.6597967,
+    "ast_hash": "c99403883391d0f4bb82daf9c78bc3d0",
+    "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/db/migrate/20260716062544_add_lockable_to_users.rb": {
     "mtime": 1784183154.7101817,

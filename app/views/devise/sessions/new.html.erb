@@ -1,9 +1,9 @@
-<div class="d-flex align-items-center justify-content-center min-vh-100 py-5">
-  <div style="width: 100%; max-width: 36rem;">
+<div class="d-flex align-items-center justify-content-center min-vh-100">
+  <div style="width: 100%; max-width: 28rem;">
     <div class="text-center mb-4">
-      <%= image_tag "main-logo.svg", alt: "Fitupe", class: "img-fluid", size: "512x293" %>
+      <%= image_tag "main-logo.svg", alt: "Fitupe", class: "img-fluid", size: "293x512" %>
     </div>
-    <div class="card shadow-sm">
+    <div class="card border-primary shadow-sm">
       <div class="card-body p-4">
         <h1 class="h4 card-title text-center mb-4">Accedi</h1>
         <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
@@ -22,7 +22,7 @@
             </div>
           <% end %>
           <div class="d-grid">
-            <%= f.submit "Accedi", class: "btn btn-primary" %>
+            <%= f.submit "Accedi", class: "btn btn-primary shadow" %>
           </div>
         <% end %>
       </div>

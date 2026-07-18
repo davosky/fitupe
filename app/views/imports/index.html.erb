@@ -40,7 +40,7 @@
                 <td class="fs-5"><%= batch[:zoning].descrizione_azzonamento %></td>
                 <td><%= batch[:mese] %> <%= batch[:anno] %></td>
                 <td class="text-end">
-                  <span class="badge bg-primary"><%= number_with_delimiter(batch[:count], locale: :it) %></span>
+                  <span class="badge bg-primary fs-5 p-2"><%= number_with_delimiter(batch[:count], locale: :it) %></span>
                 </td>
               </tr>
             <% end %>
