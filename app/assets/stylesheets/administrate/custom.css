@@ -30,6 +30,14 @@
 [type=button],
 [type=reset],
 [type=submit]) {
+  background-color: transparent;
+}
+
+.app-container a:not(.button),
+.app-container .link:is(button,
+[type=button],
+[type=reset],
+[type=submit]) {
   color: #158cba;
 }
 .app-container a:hover,
@@ -46,6 +54,21 @@
 [type=submit]):focus {
   outline: 3px solid rgba(21, 140, 186, 0.6);
   outline-offset: 1px;
+}
+
+.app-container a.link--danger,
+.app-container .link:is(button,
+[type=button],
+[type=reset],
+[type=submit]).link--danger {
+  color: #ff4136;
+}
+.app-container a.link--danger:hover,
+.app-container .link:is(button,
+[type=button],
+[type=reset],
+[type=submit]).link--danger:hover {
+  color: #d9372e;
 }
 
 .app-container [type=color]:focus,
