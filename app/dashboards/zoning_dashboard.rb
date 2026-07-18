@@ -45,7 +45,6 @@ class ZoningDashboard < Administrate::BaseDashboard
   FORM_ATTRIBUTES = %i[
     codice_azzonamento
     descrizione_azzonamento
-    imports
   ].freeze
 
   # COLLECTION_FILTERS
