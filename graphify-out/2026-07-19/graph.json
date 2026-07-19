@@ -985,33 +985,6 @@
       "norm_label": "application_helper.rb"
     },
     {
-      "label": "form_label_class()",
-      "file_type": "code",
-      "source_file": "app/helpers/application_helper.rb",
-      "source_location": "L2",
-      "id": "helpers_application_helper_form_label_class",
-      "community": 37,
-      "norm_label": "form_label_class()"
-    },
-    {
-      "label": "form_input_group_class()",
-      "file_type": "code",
-      "source_file": "app/helpers/application_helper.rb",
-      "source_location": "L10",
-      "id": "helpers_application_helper_form_input_group_class",
-      "community": 37,
-      "norm_label": "form_input_group_class()"
-    },
-    {
-      "label": "form_button_class()",
-      "file_type": "code",
-      "source_file": "app/helpers/application_helper.rb",
-      "source_location": "L18",
-      "id": "helpers_application_helper_form_button_class",
-      "community": 37,
-      "norm_label": "form_button_class()"
-    },
-    {
       "label": "zoning_helper.rb",
       "file_type": "code",
       "source_file": "app/helpers/zoning_helper.rb",
@@ -1021,10 +994,37 @@
       "norm_label": "zoning_helper.rb"
     },
     {
-      "label": "form_submit_label_zoning()",
+      "label": "form_label_class_zoning()",
       "file_type": "code",
       "source_file": "app/helpers/zoning_helper.rb",
       "source_location": "L2",
+      "id": "helpers_zoning_helper_form_label_class_zoning",
+      "community": 105,
+      "norm_label": "form_label_class_zoning()"
+    },
+    {
+      "label": "form_input_group_class_zoning()",
+      "file_type": "code",
+      "source_file": "app/helpers/zoning_helper.rb",
+      "source_location": "L10",
+      "id": "helpers_zoning_helper_form_input_group_class_zoning",
+      "community": 105,
+      "norm_label": "form_input_group_class_zoning()"
+    },
+    {
+      "label": "form_button_class_zoning()",
+      "file_type": "code",
+      "source_file": "app/helpers/zoning_helper.rb",
+      "source_location": "L18",
+      "id": "helpers_zoning_helper_form_button_class_zoning",
+      "community": 105,
+      "norm_label": "form_button_class_zoning()"
+    },
+    {
+      "label": "form_submit_label_zoning()",
+      "file_type": "code",
+      "source_file": "app/helpers/zoning_helper.rb",
+      "source_location": "L26",
       "id": "helpers_zoning_helper_form_submit_label_zoning",
       "community": 105,
       "norm_label": "form_submit_label_zoning()"
@@ -1312,7 +1312,7 @@
       "label": ".user_not_authorized()",
       "file_type": "code",
       "source_file": "app/controllers/application_controller.rb",
-      "source_location": "L10",
+      "source_location": "L11",
       "id": "controllers_application_controller_applicationcontroller_user_not_authorized",
       "community": 1,
       "norm_label": ".user_not_authorized()"
@@ -2387,33 +2387,6 @@
       "id": "fitupe_fitupe_costruzione_del_logo_della_applicazione",
       "community": 9,
       "norm_label": "costruzione del logo della applicazione"
-    },
-    {
-      "label": "form_label_class_zoning()",
-      "file_type": "code",
-      "source_file": "app/helpers/zoning_helper.rb",
-      "source_location": "L2",
-      "community": 105,
-      "norm_label": "form_label_class_zoning()",
-      "id": "helpers_zoning_helper_form_label_class_zoning"
-    },
-    {
-      "label": "form_input_group_class_zoning()",
-      "file_type": "code",
-      "source_file": "app/helpers/zoning_helper.rb",
-      "source_location": "L10",
-      "community": 105,
-      "norm_label": "form_input_group_class_zoning()",
-      "id": "helpers_zoning_helper_form_input_group_class_zoning"
-    },
-    {
-      "label": "form_button_class_zoning()",
-      "file_type": "code",
-      "source_file": "app/helpers/zoning_helper.rb",
-      "source_location": "L18",
-      "community": 105,
-      "norm_label": "form_button_class_zoning()",
-      "id": "helpers_zoning_helper_form_button_class_zoning"
     },
     {
       "label": "Rubocop Configuration File",
@@ -5340,46 +5313,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/helpers/application_helper.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "app_helpers_application_helper_rb",
-      "target": "helpers_application_helper_form_label_class",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/helpers/application_helper.rb",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "app_helpers_application_helper_rb",
-      "target": "helpers_application_helper_form_input_group_class",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/helpers/application_helper.rb",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "app_helpers_application_helper_rb",
-      "target": "helpers_application_helper_form_button_class",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/helpers/zoning_helper.rb",
-      "source_location": "L26",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_helpers_zoning_helper_rb",
-      "target": "helpers_zoning_helper_form_submit_label_zoning"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/helpers/zoning_helper.rb",
       "source_location": "L2",
       "weight": 1.0,
@@ -5406,6 +5339,16 @@
       "confidence_score": 1.0,
       "source": "app_helpers_zoning_helper_rb",
       "target": "helpers_zoning_helper_form_button_class_zoning"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/helpers/zoning_helper.rb",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_helpers_zoning_helper_rb",
+      "target": "helpers_zoning_helper_form_submit_label_zoning"
     },
     {
       "relation": "imports_from",
@@ -5861,9 +5804,9 @@
       "source_file": "app/controllers/imports_controller.rb",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_imports_controller_importscontroller",
-      "target": "controllers_imports_controller_importscontroller_index"
+      "target": "controllers_imports_controller_importscontroller_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7981,5 +7924,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "625d06ce31a5a9ee8afd9526379d71f4e5947362"
+  "built_at_commit": "0461d577f6b02de4bf4e9f5e7383827be620a7a1"
 }

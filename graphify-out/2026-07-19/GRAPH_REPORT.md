@@ -1,16 +1,16 @@
-# Graph Report - fitupe  (2026-07-19)
+# Graph Report - fitupe  (2026-07-18)
 
 ## Corpus Check
-- 91 files · ~32,033 words
+- 91 files · ~34,026 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 409 nodes · 369 edges · 106 communities (56 shown, 50 thin omitted)
+- 406 nodes · 366 edges · 106 communities (56 shown, 50 thin omitted)
 - Extraction: 82% EXTRACTED · 17% INFERRED · 1% AMBIGUOUS · INFERRED: 63 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `625d06ce`
+- Built from commit: `0461d577`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -191,7 +191,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **What is the exact relationship between `Devise.setup configuration (username auth)` and `Admin namespace routes (users)`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
 - **Why does `User` connect `Modello User e Autenticazione` to `Pundit e Controlli Autorizzazione Admin`?**
-  _High betweenness centrality (0.011) - this node is a cross-community bridge._
+  _High betweenness centrality (0.012) - this node is a cross-community bridge._
 - **Why does `authenticate_admin` connect `Pundit e Controlli Autorizzazione Admin` to `Modello User e Autenticazione`?**
   _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **Why does `Bootstrap CSS Framework` connect `Documentazione (README, LICENCE, locale IT)` to `Stimulus Controllers e Flash`?**
