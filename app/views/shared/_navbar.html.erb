@@ -46,6 +46,25 @@
             <% end %>
           </div>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="bi bi-arrow-left-right text-primary me-2"></i>Integrazioni
+          </a>
+          <div class="dropdown-menu dropdown-menu-centered">
+            <% if current_user.admin? || current_user.manager? %>
+              <%= link_to integration_filleas_path, class: "dropdown-item" do %>
+                <i class="bi bi-list-ul text-primary"></i>
+                <i class="bi bi-arrow-left-right text-primary me-2"></i>
+                Elenco Integrazioni FILLEA
+              <% end %>
+              <%= link_to new_integration_fillea_path, class: "dropdown-item" do %>
+                <i class="bi bi-plus-lg text-primary"></i>
+                <i class="bi bi-arrow-left-right text-primary me-2"></i>
+                Aggiungi Integrazione FILLEA
+              <% end %>
+            <% end %>
+          </div>
+        </li>
       </ul>
       <ul class="navbar-nav ms-auto">
         <li class="nav-item dropdown">

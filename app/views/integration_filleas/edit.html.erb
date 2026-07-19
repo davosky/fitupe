@@ -1,0 +1,11 @@
+<% content_for :title, "Modifica integrazione FILLEA" %>
+<div class="mt-5 mb-3">
+  <h3 class="text-warning">
+    <i class="fw-bold">
+      <%= image_tag("integration_fillea/integration_fillea-logo-edit.svg", class: "img-fluid me-3", size: "58x58", alt: "Integrazioni FILLEA") %>
+      Modifica Integrazione FILLEA
+    </i>
+  </h3>
+</div>
+<hr class="text-warning m-3"/>
+<%= render "form", integration_fillea: @integration_fillea %>

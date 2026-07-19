@@ -391,15 +391,6 @@
       "norm_label": "stored_path_from()"
     },
     {
-      "label": "integration_filleas_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/requests/integration_filleas_spec.rb",
-      "source_location": "L1",
-      "id": "spec_requests_integration_filleas_spec_rb",
-      "community": 116,
-      "norm_label": "integration_filleas_spec.rb"
-    },
-    {
       "label": "zonings_spec.rb",
       "file_type": "code",
       "source_file": "spec/requests/zonings_spec.rb",
@@ -416,15 +407,6 @@
       "id": "spec_requests_pages_spec_rb",
       "community": 33,
       "norm_label": "pages_spec.rb"
-    },
-    {
-      "label": "integration_fillea_policy_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/policies/integration_fillea_policy_spec.rb",
-      "source_location": "L1",
-      "id": "spec_policies_integration_fillea_policy_spec_rb",
-      "community": 115,
-      "norm_label": "integration_fillea_policy_spec.rb"
     },
     {
       "label": "import_policy_spec.rb",
@@ -481,15 +463,6 @@
       "norm_label": "import()"
     },
     {
-      "label": "integration_fillea_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/models/integration_fillea_spec.rb",
-      "source_location": "L1",
-      "id": "spec_models_integration_fillea_spec_rb",
-      "community": 114,
-      "norm_label": "integration_fillea_spec.rb"
-    },
-    {
       "label": "user_spec.rb",
       "file_type": "code",
       "source_file": "spec/models/user_spec.rb",
@@ -533,15 +506,6 @@
       "id": "spec_jobs_import_csv_job_spec_rb",
       "community": 96,
       "norm_label": "import_csv_job_spec.rb"
-    },
-    {
-      "label": "integration_filleas.rb",
-      "file_type": "code",
-      "source_file": "spec/factories/integration_filleas.rb",
-      "source_location": "L1",
-      "id": "spec_factories_integration_filleas_rb",
-      "community": 113,
-      "norm_label": "integration_filleas.rb"
     },
     {
       "label": "imports.rb",
@@ -832,105 +796,6 @@
       "norm_label": ".admin_or_manager?()"
     },
     {
-      "label": "integration_fillea_policy.rb",
-      "file_type": "code",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L1",
-      "id": "app_policies_integration_fillea_policy_rb",
-      "community": 107,
-      "norm_label": "integration_fillea_policy.rb"
-    },
-    {
-      "label": "IntegrationFilleaPolicy",
-      "file_type": "code",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L1",
-      "id": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "community": 107,
-      "norm_label": "integrationfilleapolicy"
-    },
-    {
-      "label": ".index?()",
-      "file_type": "code",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L2",
-      "id": "policies_integration_fillea_policy_integrationfilleapolicy_index",
-      "community": 107,
-      "norm_label": ".index?()"
-    },
-    {
-      "label": ".show?()",
-      "file_type": "code",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L3",
-      "id": "policies_integration_fillea_policy_integrationfilleapolicy_show",
-      "community": 107,
-      "norm_label": ".show?()"
-    },
-    {
-      "label": ".create?()",
-      "file_type": "code",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L4",
-      "id": "policies_integration_fillea_policy_integrationfilleapolicy_create",
-      "community": 107,
-      "norm_label": ".create?()"
-    },
-    {
-      "label": ".update?()",
-      "file_type": "code",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L5",
-      "id": "policies_integration_fillea_policy_integrationfilleapolicy_update",
-      "community": 107,
-      "norm_label": ".update?()"
-    },
-    {
-      "label": ".confirm_destroy?()",
-      "file_type": "code",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L6",
-      "id": "policies_integration_fillea_policy_integrationfilleapolicy_confirm_destroy",
-      "community": 107,
-      "norm_label": ".confirm_destroy?()"
-    },
-    {
-      "label": ".destroy?()",
-      "file_type": "code",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L7",
-      "id": "policies_integration_fillea_policy_integrationfilleapolicy_destroy",
-      "community": 107,
-      "norm_label": ".destroy?()"
-    },
-    {
-      "label": "Scope",
-      "file_type": "code",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L9",
-      "id": "policies_integration_fillea_policy_scope",
-      "community": 107,
-      "norm_label": "scope"
-    },
-    {
-      "label": ".resolve()",
-      "file_type": "code",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L10",
-      "id": "policies_integration_fillea_policy_scope_resolve",
-      "community": 107,
-      "norm_label": ".resolve()"
-    },
-    {
-      "label": ".admin_or_manager?()",
-      "file_type": "code",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L17",
-      "id": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
-      "community": 107,
-      "norm_label": ".admin_or_manager?()"
-    },
-    {
       "label": "header_normalizer.rb",
       "file_type": "code",
       "source_file": "app/services/imports/header_normalizer.rb",
@@ -1165,24 +1030,6 @@
       "norm_label": "form_submit_label_zoning()"
     },
     {
-      "label": "integration_fillea_helper.rb",
-      "file_type": "code",
-      "source_file": "app/helpers/integration_fillea_helper.rb",
-      "source_location": "L1",
-      "id": "app_helpers_integration_fillea_helper_rb",
-      "community": 111,
-      "norm_label": "integration_fillea_helper.rb"
-    },
-    {
-      "label": "form_submit_label_integration_fillea()",
-      "file_type": "code",
-      "source_file": "app/helpers/integration_fillea_helper.rb",
-      "source_location": "L2",
-      "id": "helpers_integration_fillea_helper_form_submit_label_integration_fillea",
-      "community": 111,
-      "norm_label": "form_submit_label_integration_fillea()"
-    },
-    {
       "label": "application.js",
       "file_type": "code",
       "source_file": "app/javascript/application.js",
@@ -1408,24 +1255,6 @@
       "norm_label": "import"
     },
     {
-      "label": "integration_fillea.rb",
-      "file_type": "code",
-      "source_file": "app/models/integration_fillea.rb",
-      "source_location": "L1",
-      "id": "app_models_integration_fillea_rb",
-      "community": 112,
-      "norm_label": "integration_fillea.rb"
-    },
-    {
-      "label": "IntegrationFillea",
-      "file_type": "code",
-      "source_file": "app/models/integration_fillea.rb",
-      "source_location": "L1",
-      "id": "models_integration_fillea_integrationfillea",
-      "community": 112,
-      "norm_label": "integrationfillea"
-    },
-    {
       "label": "pages_controller.rb",
       "file_type": "code",
       "source_file": "app/controllers/pages_controller.rb",
@@ -1615,123 +1444,6 @@
       "norm_label": ".enqueue_import()"
     },
     {
-      "label": "integration_filleas_controller.rb",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L1",
-      "id": "app_controllers_integration_filleas_controller_rb",
-      "community": 106,
-      "norm_label": "integration_filleas_controller.rb"
-    },
-    {
-      "label": "IntegrationFilleasController",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L1",
-      "id": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "community": 106,
-      "norm_label": "integrationfilleascontroller"
-    },
-    {
-      "label": ".index()",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L6",
-      "id": "controllers_integration_filleas_controller_integrationfilleascontroller_index",
-      "community": 106,
-      "norm_label": ".index()"
-    },
-    {
-      "label": ".show()",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L11",
-      "id": "controllers_integration_filleas_controller_integrationfilleascontroller_show",
-      "community": 106,
-      "norm_label": ".show()"
-    },
-    {
-      "label": ".new()",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L14",
-      "id": "controllers_integration_filleas_controller_integrationfilleascontroller_new",
-      "community": 106,
-      "norm_label": ".new()"
-    },
-    {
-      "label": ".create()",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L19",
-      "id": "controllers_integration_filleas_controller_integrationfilleascontroller_create",
-      "community": 106,
-      "norm_label": ".create()"
-    },
-    {
-      "label": ".edit()",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L30",
-      "id": "controllers_integration_filleas_controller_integrationfilleascontroller_edit",
-      "community": 106,
-      "norm_label": ".edit()"
-    },
-    {
-      "label": ".update()",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L33",
-      "id": "controllers_integration_filleas_controller_integrationfilleascontroller_update",
-      "community": 106,
-      "norm_label": ".update()"
-    },
-    {
-      "label": ".destroy()",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L41",
-      "id": "controllers_integration_filleas_controller_integrationfilleascontroller_destroy",
-      "community": 106,
-      "norm_label": ".destroy()"
-    },
-    {
-      "label": ".confirm_destroy()",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L46",
-      "id": "controllers_integration_filleas_controller_integrationfilleascontroller_confirm_destroy",
-      "community": 106,
-      "norm_label": ".confirm_destroy()"
-    },
-    {
-      "label": ".set_integration_fillea()",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L51",
-      "id": "controllers_integration_filleas_controller_integrationfilleascontroller_set_integration_fillea",
-      "community": 106,
-      "norm_label": ".set_integration_fillea()"
-    },
-    {
-      "label": ".set_zonings()",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L56",
-      "id": "controllers_integration_filleas_controller_integrationfilleascontroller_set_zonings",
-      "community": 106,
-      "norm_label": ".set_zonings()"
-    },
-    {
-      "label": ".integration_fillea_params()",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L60",
-      "id": "controllers_integration_filleas_controller_integrationfilleascontroller_integration_fillea_params",
-      "community": 106,
-      "norm_label": ".integration_fillea_params()"
-    },
-    {
       "label": "zonings_controller.rb",
       "file_type": "code",
       "source_file": "app/controllers/zonings_controller.rb",
@@ -1903,24 +1615,6 @@
       "norm_label": "importscontroller"
     },
     {
-      "label": "integration_filleas_controller.rb",
-      "file_type": "code",
-      "source_file": "app/controllers/admin/integration_filleas_controller.rb",
-      "source_location": "L1",
-      "id": "app_controllers_admin_integration_filleas_controller_rb",
-      "community": 109,
-      "norm_label": "integration_filleas_controller.rb"
-    },
-    {
-      "label": "IntegrationFilleasController",
-      "file_type": "code",
-      "source_file": "app/controllers/admin/integration_filleas_controller.rb",
-      "source_location": "L2",
-      "id": "admin_integration_filleas_controller_integrationfilleascontroller",
-      "community": 109,
-      "norm_label": "integrationfilleascontroller"
-    },
-    {
       "label": "zonings_controller.rb",
       "file_type": "code",
       "source_file": "app/controllers/admin/zonings_controller.rb",
@@ -2020,24 +1714,6 @@
       "norm_label": ".field_type_for()"
     },
     {
-      "label": "integration_fillea_dashboard.rb",
-      "file_type": "code",
-      "source_file": "app/dashboards/integration_fillea_dashboard.rb",
-      "source_location": "L1",
-      "id": "app_dashboards_integration_fillea_dashboard_rb",
-      "community": 110,
-      "norm_label": "integration_fillea_dashboard.rb"
-    },
-    {
-      "label": "IntegrationFilleaDashboard",
-      "file_type": "code",
-      "source_file": "app/dashboards/integration_fillea_dashboard.rb",
-      "source_location": "L3",
-      "id": "dashboards_integration_fillea_dashboard_integrationfilleadashboard",
-      "community": 110,
-      "norm_label": "integrationfilleadashboard"
-    },
-    {
       "label": "zoning_dashboard.rb",
       "file_type": "code",
       "source_file": "app/dashboards/zoning_dashboard.rb",
@@ -2135,33 +1811,6 @@
       "id": "db_cache_schema_rb",
       "community": 45,
       "norm_label": "cache_schema.rb"
-    },
-    {
-      "label": "20260719095148_create_integration_filleas.rb",
-      "file_type": "code",
-      "source_file": "db/migrate/20260719095148_create_integration_filleas.rb",
-      "source_location": "L1",
-      "id": "db_migrate_20260719095148_create_integration_filleas_rb",
-      "community": 108,
-      "norm_label": "20260719095148_create_integration_filleas.rb"
-    },
-    {
-      "label": "CreateIntegrationFilleas",
-      "file_type": "code",
-      "source_file": "db/migrate/20260719095148_create_integration_filleas.rb",
-      "source_location": "L1",
-      "id": "migrate_20260719095148_create_integration_filleas_createintegrationfilleas",
-      "community": 108,
-      "norm_label": "createintegrationfilleas"
-    },
-    {
-      "label": ".change()",
-      "file_type": "code",
-      "source_file": "db/migrate/20260719095148_create_integration_filleas.rb",
-      "source_location": "L2",
-      "id": "migrate_20260719095148_create_integration_filleas_createintegrationfilleas_change",
-      "community": 108,
-      "norm_label": ".change()"
     },
     {
       "label": "20260715111350_devise_create_users.rb",
@@ -5237,28 +4886,6 @@
       "context": "call",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "policies_integration_fillea_policy_scope_resolve",
-      "target": "policies_application_policy_applicationpolicy_admin"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
-      "target": "policies_application_policy_applicationpolicy_admin"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
       "source_file": "app/controllers/admin/application_controller.rb",
       "source_location": "L13",
       "weight": 1.0,
@@ -5451,172 +5078,6 @@
       "confidence_score": 1.0,
       "source": "policies_zoning_policy_scope",
       "target": "policies_zoning_policy_scope_resolve"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_policies_integration_fillea_policy_rb",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "app_policies_integration_fillea_policy_rb",
-      "target": "policies_integration_fillea_policy_scope",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_index",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_show",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_create",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_update",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_confirm_destroy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_destroy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "policies_integration_fillea_policy_integrationfilleapolicy_index",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "policies_integration_fillea_policy_integrationfilleapolicy_show",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "policies_integration_fillea_policy_integrationfilleapolicy_create",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "policies_integration_fillea_policy_integrationfilleapolicy_update",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "policies_integration_fillea_policy_integrationfilleapolicy_confirm_destroy",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "policies_integration_fillea_policy_integrationfilleapolicy_destroy",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/integration_fillea_policy.rb",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "policies_integration_fillea_policy_scope",
-      "target": "policies_integration_fillea_policy_scope_resolve",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5882,9 +5343,9 @@
       "source_file": "app/helpers/application_helper.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_helpers_application_helper_rb",
-      "target": "helpers_application_helper_form_label_class"
+      "target": "helpers_application_helper_form_label_class",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5892,9 +5353,9 @@
       "source_file": "app/helpers/application_helper.rb",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_helpers_application_helper_rb",
-      "target": "helpers_application_helper_form_input_group_class"
+      "target": "helpers_application_helper_form_input_group_class",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5902,9 +5363,9 @@
       "source_file": "app/helpers/application_helper.rb",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_helpers_application_helper_rb",
-      "target": "helpers_application_helper_form_button_class"
+      "target": "helpers_application_helper_form_button_class",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5945,16 +5406,6 @@
       "confidence_score": 1.0,
       "source": "app_helpers_zoning_helper_rb",
       "target": "helpers_zoning_helper_form_button_class_zoning"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/helpers/integration_fillea_helper.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "app_helpers_integration_fillea_helper_rb",
-      "target": "helpers_integration_fillea_helper_form_submit_label_integration_fillea",
-      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -6287,16 +5738,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/models/integration_fillea.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_models_integration_fillea_rb",
-      "target": "models_integration_fillea_integrationfillea",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/controllers/pages_controller.rb",
       "source_location": "L1",
       "weight": 1.0,
@@ -6559,137 +6000,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_controllers_integration_filleas_controller_rb",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_index",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_show",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_new",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_create",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L30",
-      "weight": 1.0,
-      "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_edit",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L33",
-      "weight": 1.0,
-      "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_update",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L41",
-      "weight": 1.0,
-      "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_destroy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_confirm_destroy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L51",
-      "weight": 1.0,
-      "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_set_integration_fillea",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L56",
-      "weight": 1.0,
-      "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_set_zonings",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L60",
-      "weight": 1.0,
-      "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_integration_fillea_params",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_filleas_controller.rb",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "controllers_integration_filleas_controller_integrationfilleascontroller_create",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_new",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/controllers/zonings_controller.rb",
       "source_location": "L1",
       "weight": 1.0,
@@ -6851,16 +6161,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/controllers/admin/integration_filleas_controller.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "app_controllers_admin_integration_filleas_controller_rb",
-      "target": "admin_integration_filleas_controller_integrationfilleascontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/controllers/admin/zonings_controller.rb",
       "source_location": "L2",
       "weight": 1.0,
@@ -6942,16 +6242,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/dashboards/integration_fillea_dashboard.rb",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "app_dashboards_integration_fillea_dashboard_rb",
-      "target": "dashboards_integration_fillea_dashboard_integrationfilleadashboard",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/dashboards/zoning_dashboard.rb",
       "source_location": "L3",
       "weight": 1.0,
@@ -6998,26 +6288,6 @@
       "confidence_score": 1.0,
       "source": "app_mailers_application_mailer_rb",
       "target": "mailers_application_mailer_applicationmailer"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "db/migrate/20260719095148_create_integration_filleas.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "db_migrate_20260719095148_create_integration_filleas_rb",
-      "target": "migrate_20260719095148_create_integration_filleas_createintegrationfilleas",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "db/migrate/20260719095148_create_integration_filleas.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "migrate_20260719095148_create_integration_filleas_createintegrationfilleas",
-      "target": "migrate_20260719095148_create_integration_filleas_createintegrationfilleas_change",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8711,5 +7981,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "88bde63b7482f49e37659db1c9dfdc01893c2153"
+  "built_at_commit": "625d06ce31a5a9ee8afd9526379d71f4e5947362"
 }

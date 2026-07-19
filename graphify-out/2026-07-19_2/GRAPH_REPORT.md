@@ -1,16 +1,16 @@
 # Graph Report - fitupe  (2026-07-19)
 
 ## Corpus Check
-- 102 files · ~34,008 words
+- 91 files · ~32,033 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 448 nodes · 406 edges · 117 communities (61 shown, 56 thin omitted)
-- Extraction: 83% EXTRACTED · 16% INFERRED · 0% AMBIGUOUS · INFERRED: 65 edges (avg confidence: 0.85)
+- 409 nodes · 369 edges · 106 communities (56 shown, 50 thin omitted)
+- Extraction: 82% EXTRACTED · 17% INFERRED · 1% AMBIGUOUS · INFERRED: 63 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `88bde63b`
+- Built from commit: `625d06ce`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -81,24 +81,18 @@
 - [[_COMMUNITY_Community 89|Community 89]]
 - [[_COMMUNITY_Community 90|Community 90]]
 - [[_COMMUNITY_Community 91|Community 91]]
-- [[_COMMUNITY_Community 106|Community 106]]
-- [[_COMMUNITY_Community 107|Community 107]]
-- [[_COMMUNITY_Community 108|Community 108]]
-- [[_COMMUNITY_Community 109|Community 109]]
-- [[_COMMUNITY_Community 110|Community 110]]
-- [[_COMMUNITY_Community 112|Community 112]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `CLAUDE.md — Guida per Claude Code` - 15 edges
 2. `ImportsController` - 13 edges
-3. `IntegrationFilleasController` - 12 edges
-4. `ApplicationPolicy#admin?` - 12 edges
-5. `ZoningsController` - 11 edges
-6. `ApplicationPolicy` - 10 edges
-7. `CsvImporterService` - 10 edges
-8. `User` - 10 edges
-9. `CLAUDE.md Project Guide` - 10 edges
-10. `ZoningPolicy` - 8 edges
+3. `ApplicationPolicy#admin?` - 12 edges
+4. `ZoningsController` - 11 edges
+5. `ApplicationPolicy` - 10 edges
+6. `CsvImporterService` - 10 edges
+7. `User` - 10 edges
+8. `CLAUDE.md Project Guide` - 10 edges
+9. `ZoningPolicy` - 8 edges
+10. `Bootstrap CSS Framework` - 7 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Bootstrap Alert Component API` --conceptually_related_to--> `Bootstrap CSS Framework`  [INFERRED]
@@ -112,7 +106,7 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (117 total, 56 thin omitted)
+## Communities (106 total, 50 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
@@ -185,9 +179,9 @@ Nodes (4): Copyright (c) 2026, Davo Davosky - The Davosky Connection, English, I
   config/routes.rb · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **136 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+131 more)
+- **133 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+128 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **56 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **50 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -196,13 +190,13 @@ _Questions this graph is uniquely positioned to answer:_
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
 - **What is the exact relationship between `Devise.setup configuration (username auth)` and `Admin namespace routes (users)`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
-- **Why does `authenticate_admin` connect `Pundit e Controlli Autorizzazione Admin` to `Modello User e Autenticazione`?**
-  _High betweenness centrality (0.012) - this node is a cross-community bridge._
 - **Why does `User` connect `Modello User e Autenticazione` to `Pundit e Controlli Autorizzazione Admin`?**
-  _High betweenness centrality (0.012) - this node is a cross-community bridge._
+  _High betweenness centrality (0.011) - this node is a cross-community bridge._
+- **Why does `authenticate_admin` connect `Pundit e Controlli Autorizzazione Admin` to `Modello User e Autenticazione`?**
+  _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **Why does `Bootstrap CSS Framework` connect `Documentazione (README, LICENCE, locale IT)` to `Stimulus Controllers e Flash`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
+  _High betweenness centrality (0.008) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `ApplicationPolicy#admin?` (e.g. with `authenticate_admin` and `user_not_authorized`) actually correct?**
   _`ApplicationPolicy#admin?` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `name`, `private`, `esbuild` to the rest of the system?**
-  _139 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _136 weakly-connected nodes found - possible documentation gaps or missing edges._

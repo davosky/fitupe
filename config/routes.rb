@@ -3,6 +3,7 @@ Rails.application.routes.draw do
     resources :users
     resources :zonings
     resources :imports
+    resources :integration_filleas
 
     root to: "users#index"
   end
@@ -15,6 +16,11 @@ Rails.application.routes.draw do
     end
   end
   resources :imports, only: %i[index new create show]
+  resources :integration_filleas do
+    member do
+      get :confirm_destroy
+    end
+  end
 
   mount ActionCable.server => "/cable"
 

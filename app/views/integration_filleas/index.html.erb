@@ -1,0 +1,63 @@
+<% content_for :title, "Integrazioni FILLEA" %>
+<div class="d-flex justify-content-between align-items-center mt-5 mb-3">
+  <h3 class="text-primary">
+    <i class="fw-bold">
+      <%= image_tag("integration_fillea/integration_fillea-logo.svg", class: "img-fluid me-3", size: "58x58", alt: "Integrazioni FILLEA") %>
+      Integrazioni FILLEA
+    </i>
+  </h3>
+  <%= link_to new_integration_fillea_path, class: "btn btn-primary shadow" do %>
+    <i class="bi bi-plus-lg"></i>
+    <i class="bi bi-arrow-left-right me-2"></i>
+    Nuova Integrazione
+  <% end %>
+</div>
+<hr class="text-primary m-3"/>
+<div class="card p-3 mt-5 border border-primary shadow">
+  <div class="card-body">
+    <% if @integration_filleas.any? %>
+      <div class="table-responsive">
+        <table class="table table-hover align-middle">
+          <thead>
+            <tr>
+              <th class="text-primary fs-5">
+                <i class="bi bi-geo-alt me-1"></i>
+                Azzonamento
+              </th>
+              <th class="text-primary fs-5">
+                <i class="bi bi-calendar3 me-1"></i>
+                Anno
+              </th>
+              <th class="text-primary text-end fs-5">
+                <i class="bi bi-people-fill me-1"></i>
+                Iscritti Cassa Edile
+              </th>
+              <th class="text-end"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <% @integration_filleas.each do |integration_fillea| %>
+              <tr>
+                <td class="fs-5"><%= integration_fillea.zoning.descrizione_azzonamento %></td>
+                <td class="fs-5"><%= integration_fillea.year %></td>
+                <td class="text-end fs-5">
+                  <span class="badge bg-primary fs-5 p-2"><%= number_with_delimiter(integration_fillea.subscribers_ce, locale: :it) %></span>
+                </td>
+                <td class="text-end fs-5">
+                  <%= link_to edit_integration_fillea_path(integration_fillea), class: "text-warning me-5", data: { bs_toggle: "tooltip", bs_placement: "bottom", bs_title: "Modifica il Record Corrente" } do %>
+                    <i class="bi bi-pen-fill"></i>
+                  <% end %>
+                  <%= link_to confirm_destroy_integration_fillea_path(integration_fillea), class: "text-danger", data: { bs_toggle: "tooltip", bs_placement: "bottom", bs_title: "Elimina il Record Corrente" } do %>
+                    <i class="bi bi-trash-fill"></i>
+                  <% end %>
+                </td>
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+    <% else %>
+      <p class="text-muted">Nessuna integrazione FILLEA inserita.</p>
+    <% end %>
+  </div>
+</div>

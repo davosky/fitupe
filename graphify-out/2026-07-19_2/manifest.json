@@ -10,8 +10,8 @@
     "semantic_hash": "590009f4b8daf822d34925fc6490b45c"
   },
   "/home/davo/Programmazione/fitupe/config/routes.rb": {
-    "mtime": 1784454779.8251147,
-    "ast_hash": "df4e2a9d77c38db3e24e40e04cbbb5d9",
+    "mtime": 1784364135.4144766,
+    "ast_hash": "3e789e53b793994a48057ab3114cddef",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/config/ci.rb": {
@@ -255,8 +255,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/db/schema.rb": {
-    "mtime": 1784456380.340325,
-    "ast_hash": "b978a462e0f6ec149a4e590d7b8d1fcd",
+    "mtime": 1784198612.050054,
+    "ast_hash": "51217af1b6cd72cc66006d2bd6bcf512",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/db/cache_schema.rb": {
@@ -340,8 +340,8 @@
     "semantic_hash": "8131df2d0832d1888ac483528e35e9e2"
   },
   "/home/davo/Programmazione/fitupe/config/locales/it.yml": {
-    "mtime": 1784456339.6552036,
-    "ast_hash": "7104ecd6268fa2a08be4f5e735166a01",
+    "mtime": 1784370128.7542183,
+    "ast_hash": "2859ada5d8deddc341b2287cf1726cd5",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/public/400.html": {
@@ -525,8 +525,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/models/zoning.rb": {
-    "mtime": 1784454733.8752275,
-    "ast_hash": "4c178a8df56d6598fcc16156dca0fc45",
+    "mtime": 1784198618.6772392,
+    "ast_hash": "069b5b451e6a02f691b31c3474ce8af3",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/models/import.rb": {
@@ -632,86 +632,6 @@
   "/home/davo/Programmazione/fitupe/app/assets/images/import/import-logo-new.svg": {
     "mtime": 1784362462.8092895,
     "ast_hash": "dec73f4a7627339d6114eccd2a35eccb",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/requests/integration_filleas_spec.rb": {
-    "mtime": 1784456369.8760364,
-    "ast_hash": "2551e98a5a693395a4a360b360e35246",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/policies/integration_fillea_policy_spec.rb": {
-    "mtime": 1784454973.1674504,
-    "ast_hash": "cc9f837411c4a8d6ac258e67a66d751a",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/models/integration_fillea_spec.rb": {
-    "mtime": 1784456360.763415,
-    "ast_hash": "e2969622320491f228261cb47862e34b",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/factories/integration_filleas.rb": {
-    "mtime": 1784456345.0693526,
-    "ast_hash": "90bbacd8b81e505d2416f8bda0eb71d0",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/policies/integration_fillea_policy.rb": {
-    "mtime": 1784454769.3933437,
-    "ast_hash": "15315e725e040468dc85cc0ee47d2ffd",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/helpers/integration_fillea_helper.rb": {
-    "mtime": 1784454842.1116312,
-    "ast_hash": "d1a546b260dd0dc2594c5b5b8db01bc2",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/models/integration_fillea.rb": {
-    "mtime": 1784456256.8139353,
-    "ast_hash": "161910fb7a0046de6b2e30fdd757c408",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/controllers/integration_filleas_controller.rb": {
-    "mtime": 1784456273.0053768,
-    "ast_hash": "ff878b7252f51c0dc53e755e1563ff5d",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/controllers/admin/integration_filleas_controller.rb": {
-    "mtime": 1784454804.146709,
-    "ast_hash": "d8e229adf14ccd97ae54b2cd35edae7e",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/dashboards/integration_fillea_dashboard.rb": {
-    "mtime": 1784456295.688997,
-    "ast_hash": "ea378458a9d74f5d5915f6b6180a9613",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/db/migrate/20260719095148_create_integration_filleas.rb": {
-    "mtime": 1784456247.4676807,
-    "ast_hash": "366c91905201d5e7b7eb874a05449c34",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/integration_fillea/integration_fillea-logo-destroy.svg": {
-    "mtime": 1784454833.8593714,
-    "ast_hash": "70a7a3baed8e21bc34092a00b0709d71",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/integration_fillea/integration_fillea-logo.svg": {
-    "mtime": 1784454833.8593714,
-    "ast_hash": "c507ed39cae96704ba1f8519083207f0",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/integration_fillea/integration_fillea-logo-show.svg": {
-    "mtime": 1784454833.8593714,
-    "ast_hash": "ebd82c056f0297cd35519bec119841f9",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/integration_fillea/integration_fillea-logo-new.svg": {
-    "mtime": 1784454833.8593714,
-    "ast_hash": "741e28c3016598e902904bbb596f258c",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/integration_fillea/integration_fillea-logo-edit.svg": {
-    "mtime": 1784454833.8593714,
-    "ast_hash": "1d012acb7423485c798342026d21afaf",
     "semantic_hash": ""
   }
 }

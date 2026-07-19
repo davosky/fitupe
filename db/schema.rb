@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_07_16_104253) do
+ActiveRecord::Schema[8.1].define(version: 2026_07_19_095148) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -92,6 +92,16 @@ ActiveRecord::Schema[8.1].define(version: 2026_07_16_104253) do
     t.index ["codice_fiscale"], name: "index_imports_on_codice_fiscale"
   end
 
+  create_table "integration_filleas", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.bigint "subscribers_ce", default: 0, null: false
+    t.datetime "updated_at", null: false
+    t.string "year", null: false
+    t.bigint "zoning_id", null: false
+    t.index ["zoning_id", "year"], name: "index_integration_filleas_on_zoning_year", unique: true
+    t.index ["zoning_id"], name: "index_integration_filleas_on_zoning_id"
+  end
+
   create_table "users", force: :cascade do |t|
     t.boolean "admin", default: false, null: false
     t.string "category"
@@ -128,4 +138,5 @@ ActiveRecord::Schema[8.1].define(version: 2026_07_16_104253) do
   end
 
   add_foreign_key "imports", "zonings", column: "azzonamento_di_riferimento_id"
+  add_foreign_key "integration_filleas", "zonings"
 end

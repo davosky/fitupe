@@ -13,6 +13,10 @@ it:
         one: Importazione
         many: Importazioni
         other: Importazioni
+      integration_fillea:
+        one: Integrazione FILLEA
+        many: Integrazioni FILLEA
+        other: Integrazioni FILLEA
     attributes:
       user:
         username: Nome utente
@@ -37,6 +41,13 @@ it:
       import:
         zoning: Azzonamento
         zoning_id: Azzonamento
+        created_at: Creato il
+        updated_at: Aggiornato il
+      integration_fillea:
+        zoning: Azzonamento
+        zoning_id: Azzonamento
+        year: Anno
+        subscribers_ce: Iscritti Cassa Edile
         created_at: Creato il
         updated_at: Aggiornato il
       errors:
