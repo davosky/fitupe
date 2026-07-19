@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-6 offset-3">
-    <div class="card shadow-sm">
+    <div class="card shadow">
       <div class="card-body p-4">
         <%= form_with model: zoning, local: true do |f| %>
           <% if zoning.errors.any? %>
@@ -13,7 +13,7 @@
             </div>
           <% end %>
           <div class="input-group mb-3 shadow-sm">
-            <span class="<%= form_input_group_class_zoning %>">
+            <span class="<%= form_input_group_class %>">
               <i class="bi bi-upc"></i>
               <i class="bi bi-geo-alt me-1"></i>
               <%= f.label :codice_azzonamento %>
@@ -21,7 +21,7 @@
             <%= f.text_field :codice_azzonamento, class: 'form-control' %>
           </div>
           <div class="input-group mb-4 shadow-sm">
-            <span class="<%= form_input_group_class_zoning %>">
+            <span class="<%= form_input_group_class %>">
               <i class="bi bi-blockquote-right"></i>
               <i class="bi bi-geo-alt me-1"></i>
               <%= f.label :descrizione_azzonamento %>
@@ -34,7 +34,7 @@
               <i class="bi bi-arrow-counterclockwise me-2"></i>
               Annulla
             <% end %>
-            <%= f.button class: form_button_class_zoning do %>
+            <%= f.button class: form_button_class do %>
               <i class="bi bi-geo-alt me-1"></i>&emsp;<%= form_submit_label_zoning %>
             <% end %>
           </div>

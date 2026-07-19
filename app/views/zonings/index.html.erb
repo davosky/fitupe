@@ -13,19 +13,19 @@
   <% end %>
 </div>
 <hr class="text-primary m-3"/>
-<div class="card p-3 mt-5 border border-primary shadow-sm">
+<div class="card p-3 mt-5 border border-primary shadow">
   <div class="card-body">
     <% if @zonings.any? %>
       <div class="table-responsive">
         <table class="table table-hover align-middle">
           <thead>
             <tr>
-              <th class="text-primary">
+              <th class="text-primary fs-5">
                 <i class="bi bi-upc"></i>
                 <i class="bi bi-geo-alt me-1"></i>
                 Codice Azzonamento
               </th>
-              <th class="text-primary">
+              <th class="text-primary fs-5">
                 <i class="bi bi-blockquote-right"></i>
                 <i class="bi bi-geo-alt me-1"></i>
                 Descrizione Azzonamento
@@ -37,14 +37,12 @@
             <% @zonings.each do |zoning| %>
               <tr>
                 <td>
-                  <span class="badge bg-primary">
-                    <h4>
-                      <%= zoning.codice_azzonamento %>
-                    </h4>
+                  <span class="badge bg-primary fs-5">
+                    <%= zoning.codice_azzonamento %>
                   </span>
                 </td>
-                <td class="text-left fs-4"><%= zoning.descrizione_azzonamento %></td>
-                <td class="text-end">
+                <td class="text-left fs-5"><%= zoning.descrizione_azzonamento %></td>
+                <td class="text-end fs-5">
                   <%= link_to edit_zoning_path(zoning), class: "text-warning me-5", data: { bs_toggle: "tooltip", bs_placement: "bottom", bs_title: "Modifica il Record Corrente" } do %>
                     <i class="bi bi-pen-fill"></i>
                   <% end %>

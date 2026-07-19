@@ -1,15 +1,28 @@
 <% content_for :title, @zoning.descrizione_azzonamento %>
-<div class="d-flex justify-content-between align-items-center mb-4">
-  <h1 class="h4 mb-0"><%= @zoning.descrizione_azzonamento %></h1>
-  <%= link_to "Torna all'elenco", zonings_path, class: "btn btn-outline-secondary" %>
+<div class="d-flex justify-content-between align-items-center mt-5 mb-3">
+  <h3 class="text-primary">
+    <i class="fw-bold">
+      <%= image_tag("zoning/zoning-logo-show.svg", class: "img-fluid me-3", size: "58x58", alt: "Azzonamenti") %>
+      <%= @zoning.descrizione_azzonamento %>
+    </i>
+  </h3>
+  <%= link_to zonings_path, class: "btn btn-outline-secondary shadow" do %>
+    <i class="bi bi-arrow-counterclockwise me-2"></i>
+    Torna all'elenco
+  <% end %>
 </div>
-<div class="card shadow-sm">
-  <div class="card-body p-4">
-    <dl class="row mb-0">
-      <dt class="col-sm-3">Codice</dt>
-      <dd class="col-sm-9"><%= @zoning.codice_azzonamento %></dd>
-      <dt class="col-sm-3">Descrizione</dt>
-      <dd class="col-sm-9"><%= @zoning.descrizione_azzonamento %></dd>
-    </dl>
+<hr class="text-primary m-3"/>
+<div class="row">
+  <div class="col-6 offset-3">
+    <div class="card shadow">
+      <div class="card-body p-4">
+        <dl class="row mb-0">
+          <dt class="col-sm-3">Codice</dt>
+          <dd class="col-sm-9"><%= @zoning.codice_azzonamento %></dd>
+          <dt class="col-sm-3">Descrizione</dt>
+          <dd class="col-sm-9"><%= @zoning.descrizione_azzonamento %></dd>
+        </dl>
+      </div>
+    </div>
   </div>
 </div>
