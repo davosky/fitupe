@@ -72,6 +72,11 @@ it:
     attributes:
       import_form:
         zoning_id: Azzonamento
+      integration_flc_upload_form:
+        file: File CSV
+        zoning_id: Azzonamento
+        year: Anno
+        month: Mese
   date:
     abbr_day_names:
       - dom

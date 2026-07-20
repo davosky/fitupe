@@ -27,6 +27,7 @@ Rails.application.routes.draw do
       get :confirm_destroy
     end
   end
+  resources :integration_flc_uploads, only: %i[new create]
 
   mount ActionCable.server => "/cable"
 

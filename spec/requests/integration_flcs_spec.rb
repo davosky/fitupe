@@ -27,7 +27,7 @@ RSpec.describe "IntegrationFlcs", type: :request do
 
       expect {
         post integration_flcs_path,
-          params: { integration_flc: { zoning_id: zoning.id, year: "2026", month: "01", subscribers_af: 10 } }
+          params: { integration_flc: { zoning_id: zoning.id, year: "2026", month: "Gennaio", subscribers_af: 10 } }
       }.to change(IntegrationFlc, :count).by(1)
 
       expect(response).to redirect_to(integration_flcs_path)

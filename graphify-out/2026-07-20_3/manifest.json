@@ -10,8 +10,8 @@
     "semantic_hash": "590009f4b8daf822d34925fc6490b45c"
   },
   "/home/davo/Programmazione/fitupe/config/routes.rb": {
-    "mtime": 1784538209.3328302,
-    "ast_hash": "af4116817635cc7dded89d8258876b49",
+    "mtime": 1784537389.0893095,
+    "ast_hash": "ba0c5f2c73a109b7926d27d82b947ab1",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/config/ci.rb": {
@@ -340,8 +340,8 @@
     "semantic_hash": "8131df2d0832d1888ac483528e35e9e2"
   },
   "/home/davo/Programmazione/fitupe/config/locales/it.yml": {
-    "mtime": 1784538244.1248016,
-    "ast_hash": "4e9f092bab78fcfdfd41bc7252a61b33",
+    "mtime": 1784537481.141778,
+    "ast_hash": "4418ee999f3c746125f8eba7f7488327",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/public/400.html": {
@@ -720,8 +720,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/requests/integration_flcs_spec.rb": {
-    "mtime": 1784538118.0512853,
-    "ast_hash": "567c36caff07b1eeeb4d1dcc8ba777b1",
+    "mtime": 1784537519.5078135,
+    "ast_hash": "430a6dc678fe8d1b8c646e3608b83b65",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/policies/integration_flc_policy_spec.rb": {
@@ -730,13 +730,13 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/models/integration_flc_spec.rb": {
-    "mtime": 1784538110.2630684,
-    "ast_hash": "340e786e1faba380b7bb16f76ef02304",
+    "mtime": 1784537498.127236,
+    "ast_hash": "dd88ea302de3ae8b1fc8b565a86a8a07",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/factories/integration_flcs.rb": {
-    "mtime": 1784538088.733469,
-    "ast_hash": "9bdd591f2341e7b8a6dadc478111a358",
+    "mtime": 1784537490.3227482,
+    "ast_hash": "7f13bbee6f237d048e4ccb85cd5ba44c",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/policies/integration_flc_policy.rb": {
@@ -750,8 +750,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/models/integration_flc.rb": {
-    "mtime": 1784538068.7589133,
-    "ast_hash": "dfe501bb449aeb55a53abe1f2a99deba",
+    "mtime": 1784537320.64549,
+    "ast_hash": "f069c2406c1aa2c92383ce98f4e0548b",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/controllers/integration_flcs_controller.rb": {
@@ -797,46 +797,6 @@
   "/home/davo/Programmazione/fitupe/app/assets/images/integration_flc/integration_flc-logo-new.svg": {
     "mtime": 1784537450.6895294,
     "ast_hash": "741e28c3016598e902904bbb596f258c",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/requests/integration_flc_uploads_spec.rb": {
-    "mtime": 1784538376.4464102,
-    "ast_hash": "0300a324d6509ea5931cb93e9c987ca9",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/integration_flcs/comparison_service_spec.rb": {
-    "mtime": 1784538361.8014302,
-    "ast_hash": "aa57127a19ad746c7b701273148c8554",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/integration_flcs/anagrafe_csv_parser_spec.rb": {
-    "mtime": 1784538341.8898017,
-    "ast_hash": "88f18cf3622ece9b3c84fe72b33ec9ce",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/models/integration_flc_upload_form_spec.rb": {
-    "mtime": 1784538312.9122453,
-    "ast_hash": "7342806f62efd78f1f4dee87fd02e33a",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/integration_flcs/comparison_service.rb": {
-    "mtime": 1784538183.9686549,
-    "ast_hash": "67ce64a25fd5478e5b626b903b565613",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/integration_flcs/anagrafe_csv_parser.rb": {
-    "mtime": 1784538150.126179,
-    "ast_hash": "60633ac371196aa5dc1be8af91b8a023",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/models/integration_flc_upload_form.rb": {
-    "mtime": 1784538129.9306161,
-    "ast_hash": "4606ea47bd4cb432832a7b08e3a4444d",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/controllers/integration_flc_uploads_controller.rb": {
-    "mtime": 1784538198.7345345,
-    "ast_hash": "5c88a7baa02d0cac594973f89a8965cf",
     "semantic_hash": ""
   }
 }

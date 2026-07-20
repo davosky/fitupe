@@ -22,6 +22,11 @@ RSpec.describe IntegrationFlc, type: :model do
       expect(subject).not_to be_valid
     end
 
+    it "richiede un mese valido" do
+      subject.month = "Mese Inventato"
+      expect(subject).not_to be_valid
+    end
+
     it "richiede gli iscritti Anagrafe FLC" do
       subject.subscribers_af = nil
       expect(subject).not_to be_valid
@@ -33,9 +38,9 @@ RSpec.describe IntegrationFlc, type: :model do
     end
 
     it "richiede una combinazione univoca di azzonamento, anno e mese" do
-      create(:integration_flc, zoning: zoning, year: "2026", month: "01")
+      create(:integration_flc, zoning: zoning, year: "2026", month: "Gennaio")
       subject.year = "2026"
-      subject.month = "01"
+      subject.month = "Gennaio"
       expect(subject).not_to be_valid
     end
   end

@@ -400,15 +400,6 @@
       "norm_label": "integration_filleas_spec.rb"
     },
     {
-      "label": "integration_flc_uploads_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/requests/integration_flc_uploads_spec.rb",
-      "source_location": "L1",
-      "id": "spec_requests_integration_flc_uploads_spec_rb",
-      "community": 133,
-      "norm_label": "integration_flc_uploads_spec.rb"
-    },
-    {
       "label": "zonings_spec.rb",
       "file_type": "code",
       "source_file": "spec/requests/zonings_spec.rb",
@@ -508,24 +499,6 @@
       "norm_label": "import()"
     },
     {
-      "label": "comparison_service_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/services/integration_flcs/comparison_service_spec.rb",
-      "source_location": "L1",
-      "id": "spec_services_integration_flcs_comparison_service_spec_rb",
-      "community": 135,
-      "norm_label": "comparison_service_spec.rb"
-    },
-    {
-      "label": "anagrafe_csv_parser_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/services/integration_flcs/anagrafe_csv_parser_spec.rb",
-      "source_location": "L1",
-      "id": "spec_services_integration_flcs_anagrafe_csv_parser_spec_rb",
-      "community": 134,
-      "norm_label": "anagrafe_csv_parser_spec.rb"
-    },
-    {
       "label": "integration_fillea_spec.rb",
       "file_type": "code",
       "source_file": "spec/models/integration_fillea_spec.rb",
@@ -578,15 +551,6 @@
       "id": "spec_models_import_spec_rb",
       "community": 98,
       "norm_label": "import_spec.rb"
-    },
-    {
-      "label": "integration_flc_upload_form_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/models/integration_flc_upload_form_spec.rb",
-      "source_location": "L1",
-      "id": "spec_models_integration_flc_upload_form_spec_rb",
-      "community": 132,
-      "norm_label": "integration_flc_upload_form_spec.rb"
     },
     {
       "label": "import_csv_job_spec.rb",
@@ -1291,168 +1255,6 @@
       "norm_label": ".add_column()"
     },
     {
-      "label": "comparison_service.rb",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L1",
-      "id": "app_services_integration_flcs_comparison_service_rb",
-      "community": 129,
-      "norm_label": "comparison_service.rb"
-    },
-    {
-      "label": "ComparisonService",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L6",
-      "id": "integration_flcs_comparison_service_comparisonservice",
-      "community": 129,
-      "norm_label": "comparisonservice"
-    },
-    {
-      "label": "success?()",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L10",
-      "id": "integration_flcs_comparison_service_success",
-      "community": 129,
-      "norm_label": "success?()"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L13",
-      "id": "integration_flcs_comparison_service_comparisonservice_call",
-      "community": 129,
-      "norm_label": ".call()"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L17",
-      "id": "integration_flcs_comparison_service_comparisonservice_initialize",
-      "community": 129,
-      "norm_label": ".initialize()"
-    },
-    {
-      "label": ".sincgil_import_exists?()",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L38",
-      "id": "integration_flcs_comparison_service_comparisonservice_sincgil_import_exists",
-      "community": 129,
-      "norm_label": ".sincgil_import_exists?()"
-    },
-    {
-      "label": ".missing_sincgil_message()",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L42",
-      "id": "integration_flcs_comparison_service_comparisonservice_missing_sincgil_message",
-      "community": 129,
-      "norm_label": ".missing_sincgil_message()"
-    },
-    {
-      "label": ".missing_codici_fiscali()",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L46",
-      "id": "integration_flcs_comparison_service_comparisonservice_missing_codici_fiscali",
-      "community": 129,
-      "norm_label": ".missing_codici_fiscali()"
-    },
-    {
-      "label": ".anagrafe_codici_fiscali()",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L50",
-      "id": "integration_flcs_comparison_service_comparisonservice_anagrafe_codici_fiscali",
-      "community": 129,
-      "norm_label": ".anagrafe_codici_fiscali()"
-    },
-    {
-      "label": ".sincgil_codici_fiscali()",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L54",
-      "id": "integration_flcs_comparison_service_comparisonservice_sincgil_codici_fiscali",
-      "community": 129,
-      "norm_label": ".sincgil_codici_fiscali()"
-    },
-    {
-      "label": "anagrafe_csv_parser.rb",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
-      "source_location": "L1",
-      "id": "app_services_integration_flcs_anagrafe_csv_parser_rb",
-      "community": 130,
-      "norm_label": "anagrafe_csv_parser.rb"
-    },
-    {
-      "label": "AnagrafeCsvParser",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
-      "source_location": "L7",
-      "id": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser",
-      "community": 130,
-      "norm_label": "anagrafecsvparser"
-    },
-    {
-      "label": "InvalidFile",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
-      "source_location": "L8",
-      "id": "integration_flcs_anagrafe_csv_parser_invalidfile",
-      "community": 130,
-      "norm_label": "invalidfile"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
-      "source_location": "L10",
-      "id": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_call",
-      "community": 130,
-      "norm_label": ".call()"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
-      "source_location": "L14",
-      "id": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_initialize",
-      "community": 130,
-      "norm_label": ".initialize()"
-    },
-    {
-      "label": ".content()",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
-      "source_location": "L27",
-      "id": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_content",
-      "community": 130,
-      "norm_label": ".content()"
-    },
-    {
-      "label": ".delimiter()",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
-      "source_location": "L31",
-      "id": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_delimiter",
-      "community": 130,
-      "norm_label": ".delimiter()"
-    },
-    {
-      "label": ".codice_fiscale_header()",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
-      "source_location": "L36",
-      "id": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_codice_fiscale_header",
-      "community": 130,
-      "norm_label": ".codice_fiscale_header()"
-    },
-    {
       "label": "application_helper.rb",
       "file_type": "code",
       "source_file": "app/helpers/application_helper.rb",
@@ -1786,42 +1588,6 @@
       "norm_label": "import"
     },
     {
-      "label": "integration_flc_upload_form.rb",
-      "file_type": "code",
-      "source_file": "app/models/integration_flc_upload_form.rb",
-      "source_location": "L1",
-      "id": "app_models_integration_flc_upload_form_rb",
-      "community": 131,
-      "norm_label": "integration_flc_upload_form.rb"
-    },
-    {
-      "label": "IntegrationFlcUploadForm",
-      "file_type": "code",
-      "source_file": "app/models/integration_flc_upload_form.rb",
-      "source_location": "L1",
-      "id": "models_integration_flc_upload_form_integrationflcuploadform",
-      "community": 131,
-      "norm_label": "integrationflcuploadform"
-    },
-    {
-      "label": ".zoning()",
-      "file_type": "code",
-      "source_file": "app/models/integration_flc_upload_form.rb",
-      "source_location": "L15",
-      "id": "models_integration_flc_upload_form_integrationflcuploadform_zoning",
-      "community": 131,
-      "norm_label": ".zoning()"
-    },
-    {
-      "label": ".file_must_be_present_and_csv()",
-      "file_type": "code",
-      "source_file": "app/models/integration_flc_upload_form.rb",
-      "source_location": "L21",
-      "id": "models_integration_flc_upload_form_integrationflcuploadform_file_must_be_present_and_csv",
-      "community": 131,
-      "norm_label": ".file_must_be_present_and_csv()"
-    },
-    {
       "label": "integration_fillea.rb",
       "file_type": "code",
       "source_file": "app/models/integration_fillea.rb",
@@ -1901,78 +1667,6 @@
       "id": "controllers_application_controller_applicationcontroller_user_not_authorized",
       "community": 1,
       "norm_label": ".user_not_authorized()"
-    },
-    {
-      "label": "integration_flc_uploads_controller.rb",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_flc_uploads_controller.rb",
-      "source_location": "L1",
-      "id": "app_controllers_integration_flc_uploads_controller_rb",
-      "community": 129,
-      "norm_label": "integration_flc_uploads_controller.rb"
-    },
-    {
-      "label": "IntegrationFlcUploadsController",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_flc_uploads_controller.rb",
-      "source_location": "L1",
-      "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller",
-      "community": 129,
-      "norm_label": "integrationflcuploadscontroller"
-    },
-    {
-      "label": ".new()",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_flc_uploads_controller.rb",
-      "source_location": "L6",
-      "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_new",
-      "community": 129,
-      "norm_label": ".new()"
-    },
-    {
-      "label": ".create()",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_flc_uploads_controller.rb",
-      "source_location": "L10",
-      "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_create",
-      "community": 129,
-      "norm_label": ".create()"
-    },
-    {
-      "label": ".set_zonings()",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_flc_uploads_controller.rb",
-      "source_location": "L32",
-      "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_set_zonings",
-      "community": 129,
-      "norm_label": ".set_zonings()"
-    },
-    {
-      "label": ".authorize_upload()",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_flc_uploads_controller.rb",
-      "source_location": "L36",
-      "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_authorize_upload",
-      "community": 129,
-      "norm_label": ".authorize_upload()"
-    },
-    {
-      "label": ".upload_params()",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_flc_uploads_controller.rb",
-      "source_location": "L40",
-      "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_upload_params",
-      "community": 129,
-      "norm_label": ".upload_params()"
-    },
-    {
-      "label": ".render_form_errors()",
-      "file_type": "code",
-      "source_file": "app/controllers/integration_flc_uploads_controller.rb",
-      "source_location": "L44",
-      "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_render_form_errors",
-      "community": 129,
-      "norm_label": ".render_form_errors()"
     },
     {
       "label": "imports_controller.rb",
@@ -6146,9 +5840,9 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_policies_integration_flc_policy_rb",
-      "target": "policies_integration_flc_policy_integrationflcpolicy"
+      "target": "policies_integration_flc_policy_integrationflcpolicy",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6156,9 +5850,9 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_policies_integration_flc_policy_rb",
-      "target": "policies_integration_flc_policy_scope"
+      "target": "policies_integration_flc_policy_scope",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6166,9 +5860,9 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_flc_policy_integrationflcpolicy",
-      "target": "policies_integration_flc_policy_integrationflcpolicy_index"
+      "target": "policies_integration_flc_policy_integrationflcpolicy_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6176,9 +5870,9 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_flc_policy_integrationflcpolicy",
-      "target": "policies_integration_flc_policy_integrationflcpolicy_show"
+      "target": "policies_integration_flc_policy_integrationflcpolicy_show",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6186,9 +5880,9 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_flc_policy_integrationflcpolicy",
-      "target": "policies_integration_flc_policy_integrationflcpolicy_create"
+      "target": "policies_integration_flc_policy_integrationflcpolicy_create",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6196,9 +5890,9 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_flc_policy_integrationflcpolicy",
-      "target": "policies_integration_flc_policy_integrationflcpolicy_update"
+      "target": "policies_integration_flc_policy_integrationflcpolicy_update",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6206,9 +5900,9 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_flc_policy_integrationflcpolicy",
-      "target": "policies_integration_flc_policy_integrationflcpolicy_confirm_destroy"
+      "target": "policies_integration_flc_policy_integrationflcpolicy_confirm_destroy",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6216,9 +5910,9 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_flc_policy_integrationflcpolicy",
-      "target": "policies_integration_flc_policy_integrationflcpolicy_destroy"
+      "target": "policies_integration_flc_policy_integrationflcpolicy_destroy",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6226,9 +5920,9 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_flc_policy_integrationflcpolicy",
-      "target": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager"
+      "target": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6237,9 +5931,9 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_flc_policy_integrationflcpolicy_index",
-      "target": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager"
+      "target": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6248,9 +5942,9 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_flc_policy_integrationflcpolicy_show",
-      "target": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager"
+      "target": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6259,9 +5953,9 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_flc_policy_integrationflcpolicy_create",
-      "target": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager"
+      "target": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6270,9 +5964,9 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_flc_policy_integrationflcpolicy_update",
-      "target": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager"
+      "target": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6281,9 +5975,9 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_flc_policy_integrationflcpolicy_confirm_destroy",
-      "target": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager"
+      "target": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6292,9 +5986,9 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_flc_policy_integrationflcpolicy_destroy",
-      "target": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager"
+      "target": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6302,9 +5996,9 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_flc_policy_scope",
-      "target": "policies_integration_flc_policy_scope_resolve"
+      "target": "policies_integration_flc_policy_scope_resolve",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6733,210 +6427,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "app_services_integration_flcs_comparison_service_rb",
-      "target": "integration_flcs_comparison_service_comparisonservice",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "app_services_integration_flcs_comparison_service_rb",
-      "target": "integration_flcs_comparison_service_success",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L38",
-      "weight": 1.0,
-      "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_sincgil_import_exists",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L42",
-      "weight": 1.0,
-      "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_missing_sincgil_message",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_missing_codici_fiscali",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L50",
-      "weight": 1.0,
-      "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_anagrafe_codici_fiscali",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L54",
-      "weight": 1.0,
-      "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_sincgil_codici_fiscali",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/controllers/integration_flc_uploads_controller.rb",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_create",
-      "target": "integration_flcs_comparison_service_success"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L25",
-      "weight": 1.0,
-      "source": "integration_flcs_comparison_service_comparisonservice_call",
-      "target": "integration_flcs_comparison_service_comparisonservice_sincgil_import_exists",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L51",
-      "weight": 1.0,
-      "source": "integration_flcs_comparison_service_comparisonservice_anagrafe_codici_fiscali",
-      "target": "integration_flcs_comparison_service_comparisonservice_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "app_services_integration_flcs_anagrafe_csv_parser_rb",
-      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "app_services_integration_flcs_anagrafe_csv_parser_rb",
-      "target": "integration_flcs_anagrafe_csv_parser_invalidfile",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser",
-      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser",
-      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser",
-      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_content",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
-      "source_location": "L31",
-      "weight": 1.0,
-      "source": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser",
-      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_delimiter",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
-      "source_location": "L36",
-      "weight": 1.0,
-      "source": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser",
-      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_codice_fiscale_header",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_codice_fiscale_header",
-      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/helpers/application_helper.rb",
       "source_location": "L2",
       "weight": 1.0,
@@ -7020,9 +6510,9 @@
       "source_file": "app/helpers/integration_flc_helper.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_helpers_integration_flc_helper_rb",
-      "target": "helpers_integration_flc_helper_form_submit_label_integration_flc"
+      "target": "helpers_integration_flc_helper_form_submit_label_integration_flc",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -7238,9 +6728,9 @@
       "source_file": "app/models/integration_flc.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_models_integration_flc_rb",
-      "target": "models_integration_flc_integrationflc"
+      "target": "models_integration_flc_integrationflc",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7365,36 +6855,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/models/integration_flc_upload_form.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_models_integration_flc_upload_form_rb",
-      "target": "models_integration_flc_upload_form_integrationflcuploadform",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/models/integration_flc_upload_form.rb",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "models_integration_flc_upload_form_integrationflcuploadform",
-      "target": "models_integration_flc_upload_form_integrationflcuploadform_zoning",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/models/integration_flc_upload_form.rb",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "models_integration_flc_upload_form_integrationflcuploadform",
-      "target": "models_integration_flc_upload_form_integrationflcuploadform_file_must_be_present_and_csv",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/models/integration_fillea.rb",
       "source_location": "L1",
       "weight": 1.0,
@@ -7511,87 +6971,6 @@
       "confidence_score": 1.0,
       "source": "controllers_application_controller_applicationcontroller",
       "target": "controllers_application_controller_applicationcontroller_user_not_authorized"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_flc_uploads_controller.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_controllers_integration_flc_uploads_controller_rb",
-      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_flc_uploads_controller.rb",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller",
-      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_new",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_flc_uploads_controller.rb",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller",
-      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_create",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_flc_uploads_controller.rb",
-      "source_location": "L32",
-      "weight": 1.0,
-      "source": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller",
-      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_set_zonings",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_flc_uploads_controller.rb",
-      "source_location": "L36",
-      "weight": 1.0,
-      "source": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller",
-      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_authorize_upload",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_flc_uploads_controller.rb",
-      "source_location": "L40",
-      "weight": 1.0,
-      "source": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller",
-      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_upload_params",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_flc_uploads_controller.rb",
-      "source_location": "L44",
-      "weight": 1.0,
-      "source": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller",
-      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_render_form_errors",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/integration_flc_uploads_controller.rb",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_create",
-      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_new",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8003,9 +7382,9 @@
       "source_file": "app/controllers/integration_flcs_controller.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_controllers_integration_flcs_controller_rb",
-      "target": "controllers_integration_flcs_controller_integrationflcscontroller"
+      "target": "controllers_integration_flcs_controller_integrationflcscontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8013,9 +7392,9 @@
       "source_file": "app/controllers/integration_flcs_controller.rb",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flcs_controller_integrationflcscontroller",
-      "target": "controllers_integration_flcs_controller_integrationflcscontroller_index"
+      "target": "controllers_integration_flcs_controller_integrationflcscontroller_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8023,9 +7402,9 @@
       "source_file": "app/controllers/integration_flcs_controller.rb",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flcs_controller_integrationflcscontroller",
-      "target": "controllers_integration_flcs_controller_integrationflcscontroller_show"
+      "target": "controllers_integration_flcs_controller_integrationflcscontroller_show",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8033,9 +7412,9 @@
       "source_file": "app/controllers/integration_flcs_controller.rb",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flcs_controller_integrationflcscontroller",
-      "target": "controllers_integration_flcs_controller_integrationflcscontroller_new"
+      "target": "controllers_integration_flcs_controller_integrationflcscontroller_new",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8043,9 +7422,9 @@
       "source_file": "app/controllers/integration_flcs_controller.rb",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flcs_controller_integrationflcscontroller",
-      "target": "controllers_integration_flcs_controller_integrationflcscontroller_create"
+      "target": "controllers_integration_flcs_controller_integrationflcscontroller_create",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8053,9 +7432,9 @@
       "source_file": "app/controllers/integration_flcs_controller.rb",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flcs_controller_integrationflcscontroller",
-      "target": "controllers_integration_flcs_controller_integrationflcscontroller_edit"
+      "target": "controllers_integration_flcs_controller_integrationflcscontroller_edit",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8063,9 +7442,9 @@
       "source_file": "app/controllers/integration_flcs_controller.rb",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flcs_controller_integrationflcscontroller",
-      "target": "controllers_integration_flcs_controller_integrationflcscontroller_update"
+      "target": "controllers_integration_flcs_controller_integrationflcscontroller_update",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8073,9 +7452,9 @@
       "source_file": "app/controllers/integration_flcs_controller.rb",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flcs_controller_integrationflcscontroller",
-      "target": "controllers_integration_flcs_controller_integrationflcscontroller_destroy"
+      "target": "controllers_integration_flcs_controller_integrationflcscontroller_destroy",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8083,9 +7462,9 @@
       "source_file": "app/controllers/integration_flcs_controller.rb",
       "source_location": "L46",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flcs_controller_integrationflcscontroller",
-      "target": "controllers_integration_flcs_controller_integrationflcscontroller_confirm_destroy"
+      "target": "controllers_integration_flcs_controller_integrationflcscontroller_confirm_destroy",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8093,9 +7472,9 @@
       "source_file": "app/controllers/integration_flcs_controller.rb",
       "source_location": "L51",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flcs_controller_integrationflcscontroller",
-      "target": "controllers_integration_flcs_controller_integrationflcscontroller_set_integration_flc"
+      "target": "controllers_integration_flcs_controller_integrationflcscontroller_set_integration_flc",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8103,9 +7482,9 @@
       "source_file": "app/controllers/integration_flcs_controller.rb",
       "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flcs_controller_integrationflcscontroller",
-      "target": "controllers_integration_flcs_controller_integrationflcscontroller_set_zonings"
+      "target": "controllers_integration_flcs_controller_integrationflcscontroller_set_zonings",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8113,9 +7492,9 @@
       "source_file": "app/controllers/integration_flcs_controller.rb",
       "source_location": "L60",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flcs_controller_integrationflcscontroller",
-      "target": "controllers_integration_flcs_controller_integrationflcscontroller_integration_flc_params"
+      "target": "controllers_integration_flcs_controller_integrationflcscontroller_integration_flc_params",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8124,9 +7503,9 @@
       "source_file": "app/controllers/integration_flcs_controller.rb",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flcs_controller_integrationflcscontroller_create",
-      "target": "controllers_integration_flcs_controller_integrationflcscontroller_new"
+      "target": "controllers_integration_flcs_controller_integrationflcscontroller_new",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8194,9 +7573,9 @@
       "source_file": "app/controllers/admin/integration_flcs_controller.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_controllers_admin_integration_flcs_controller_rb",
-      "target": "admin_integration_flcs_controller_integrationflcscontroller"
+      "target": "admin_integration_flcs_controller_integrationflcscontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8325,9 +7704,9 @@
       "source_file": "app/dashboards/integration_flc_dashboard.rb",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_dashboards_integration_flc_dashboard_rb",
-      "target": "dashboards_integration_flc_dashboard_integrationflcdashboard"
+      "target": "dashboards_integration_flc_dashboard_integrationflcdashboard",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8365,9 +7744,9 @@
       "source_file": "db/migrate/20260720084820_create_integration_flcs.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "db_migrate_20260720084820_create_integration_flcs_rb",
-      "target": "migrate_20260720084820_create_integration_flcs_createintegrationflcs"
+      "target": "migrate_20260720084820_create_integration_flcs_createintegrationflcs",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8375,9 +7754,9 @@
       "source_file": "db/migrate/20260720084820_create_integration_flcs.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "migrate_20260720084820_create_integration_flcs_createintegrationflcs",
-      "target": "migrate_20260720084820_create_integration_flcs_createintegrationflcs_change"
+      "target": "migrate_20260720084820_create_integration_flcs_createintegrationflcs_change",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10071,5 +9450,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "4770ca461184bd333e9a21b99f659f3ebda9dbb9"
+  "built_at_commit": "276b1accf8f69149a232686cec014ac527267ab8"
 }

@@ -1,17 +1,35 @@
+<% content_for :title, "Carica Anagrafe FLC" %>
+<div class="mt-5 mb-3">
+  <h3 class="text-success">
+    <i class="fw-bold">
+      <%= image_tag("integration_flc/integration_flc-logo-new.svg", class: "img-fluid me-3", size: "58x58", alt: "Integrazioni FLC") %>
+      Carica Anagrafe FLC
+    </i>
+  </h3>
+</div>
+<hr class="text-success m-3"/>
 <div class="row">
   <div class="col-6 offset-3">
     <div class="card shadow">
       <div class="card-body p-4">
-        <%= form_with model: integration_flc, local: true do |f| %>
-          <% if integration_flc.errors.any? %>
+        <%= form_with model: @integration_flc_upload_form, scope: :integration_flc_upload_form,
+              url: integration_flc_uploads_path, local: true, multipart: true do |f| %>
+          <% if @integration_flc_upload_form.errors.any? %>
             <div class="alert alert-danger">
               <ul class="mb-0">
-                <% integration_flc.errors.full_messages.each do |message| %>
+                <% @integration_flc_upload_form.errors.full_messages.each do |message| %>
                   <li><%= message %></li>
                 <% end %>
               </ul>
             </div>
           <% end %>
+          <div class="input-group mb-3 shadow-sm">
+            <span class="<%= form_input_group_class %>">
+              <i class="bi bi-file-earmark-spreadsheet me-1"></i>
+              <%= f.label :file, "File CSV" %>
+            </span>
+            <%= f.file_field :file, class: "form-control", accept: ".csv" %>
+          </div>
           <div class="input-group mb-3 shadow-sm">
             <span class="<%= form_input_group_class %>">
               <i class="bi bi-geo-alt me-1"></i>
@@ -24,21 +42,14 @@
               <i class="bi bi-calendar3 me-1"></i>
               <%= f.label :year, "Anno" %>
             </span>
-            <%= f.text_field :year, class: "form-control" %>
+            <%= f.text_field :year, class: "form-control", placeholder: "es. 2026" %>
           </div>
-          <div class="input-group mb-3 shadow-sm">
+          <div class="input-group mb-4 shadow-sm">
             <span class="<%= form_input_group_class %>">
               <i class="bi bi-calendar-event me-1"></i>
               <%= f.label :month, "Mese" %>
             </span>
             <%= f.select :month, ImportForm::MESI, { prompt: "Seleziona un mese" }, class: "form-select" %>
-          </div>
-          <div class="input-group mb-4 shadow-sm">
-            <span class="<%= form_input_group_class %>">
-              <i class="bi bi-people-fill me-1"></i>
-              <%= f.label :subscribers_af, "Iscritti Anagrafe FLC" %>
-            </span>
-            <%= f.number_field :subscribers_af, class: "form-control" %>
           </div>
           <hr class="text-dark"/>
           <div class="d-flex justify-content-end mt-4">
@@ -47,7 +58,7 @@
               Annulla
             <% end %>
             <%= f.button class: form_button_class do %>
-              <i class="bi bi-arrow-left-right me-1"></i>&emsp;<%= form_submit_label_integration_flc %>
+              <i class="bi bi-arrow-left-right me-1"></i>&emsp;Confronta e Salva
             <% end %>
           </div>
         <% end %>

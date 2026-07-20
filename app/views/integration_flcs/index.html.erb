@@ -6,11 +6,18 @@
       Integrazioni FLC
     </i>
   </h3>
-  <%= link_to new_integration_flc_path, class: "btn btn-primary shadow" do %>
-    <i class="bi bi-plus-lg"></i>
-    <i class="bi bi-arrow-left-right me-2"></i>
-    Nuova Integrazione
-  <% end %>
+  <div>
+    <%= link_to new_integration_flc_upload_path, class: "btn btn-outline-primary shadow me-2" do %>
+      <i class="bi bi-upload"></i>
+      <i class="bi bi-arrow-left-right me-2"></i>
+      Carica Anagrafe FLC
+    <% end %>
+    <%= link_to new_integration_flc_path, class: "btn btn-primary shadow" do %>
+      <i class="bi bi-plus-lg"></i>
+      <i class="bi bi-arrow-left-right me-2"></i>
+      Nuova Integrazione
+    <% end %>
+  </div>
 </div>
 <hr class="text-primary m-3"/>
 <div class="card p-3 mt-5 border border-primary shadow">
