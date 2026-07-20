@@ -1303,7 +1303,7 @@
       "label": "ComparisonService",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L7",
+      "source_location": "L6",
       "id": "integration_flcs_comparison_service_comparisonservice",
       "community": 129,
       "norm_label": "comparisonservice"
@@ -1312,7 +1312,7 @@
       "label": "success?()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L11",
+      "source_location": "L10",
       "id": "integration_flcs_comparison_service_success",
       "community": 129,
       "norm_label": "success?()"
@@ -1321,7 +1321,7 @@
       "label": ".call()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L14",
+      "source_location": "L13",
       "id": "integration_flcs_comparison_service_comparisonservice_call",
       "community": 129,
       "norm_label": ".call()"
@@ -1330,7 +1330,7 @@
       "label": ".initialize()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L18",
+      "source_location": "L17",
       "id": "integration_flcs_comparison_service_comparisonservice_initialize",
       "community": 129,
       "norm_label": ".initialize()"
@@ -1339,7 +1339,7 @@
       "label": ".sincgil_import_exists?()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L39",
+      "source_location": "L38",
       "id": "integration_flcs_comparison_service_comparisonservice_sincgil_import_exists",
       "community": 129,
       "norm_label": ".sincgil_import_exists?()"
@@ -1348,7 +1348,7 @@
       "label": ".missing_sincgil_message()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L44",
+      "source_location": "L43",
       "id": "integration_flcs_comparison_service_comparisonservice_missing_sincgil_message",
       "community": 129,
       "norm_label": ".missing_sincgil_message()"
@@ -1357,7 +1357,7 @@
       "label": ".missing_codici_fiscali()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L48",
+      "source_location": "L47",
       "id": "integration_flcs_comparison_service_comparisonservice_missing_codici_fiscali",
       "community": 129,
       "norm_label": ".missing_codici_fiscali()"
@@ -1366,7 +1366,7 @@
       "label": ".anagrafe_codici_fiscali()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L52",
+      "source_location": "L51",
       "id": "integration_flcs_comparison_service_comparisonservice_anagrafe_codici_fiscali",
       "community": 129,
       "norm_label": ".anagrafe_codici_fiscali()"
@@ -1375,7 +1375,7 @@
       "label": ".sincgil_codici_fiscali()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L61",
+      "source_location": "L55",
       "id": "integration_flcs_comparison_service_comparisonservice_sincgil_codici_fiscali",
       "community": 129,
       "norm_label": ".sincgil_codici_fiscali()"
@@ -1384,7 +1384,7 @@
       "label": ".candidate_zoning_ids()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L75",
+      "source_location": "L67",
       "id": "integration_flcs_comparison_service_comparisonservice_candidate_zoning_ids",
       "community": 129,
       "norm_label": ".candidate_zoning_ids()"
@@ -1393,7 +1393,7 @@
       "label": ".regional_zoning_id()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L79",
+      "source_location": "L71",
       "id": "integration_flcs_comparison_service_comparisonservice_regional_zoning_id",
       "community": 129,
       "norm_label": ".regional_zoning_id()"
@@ -1402,7 +1402,7 @@
       "label": ".zoning()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L86",
+      "source_location": "L78",
       "id": "integration_flcs_comparison_service_comparisonservice_zoning",
       "community": 129,
       "norm_label": ".zoning()"
@@ -6853,9 +6853,9 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L67",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_candidate_zoning_ids"
+      "target": "integration_flcs_comparison_service_comparisonservice_candidate_zoning_ids",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6863,9 +6863,9 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L71",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_regional_zoning_id"
+      "target": "integration_flcs_comparison_service_comparisonservice_regional_zoning_id",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6873,9 +6873,9 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L78",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_zoning"
+      "target": "integration_flcs_comparison_service_comparisonservice_zoning",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -10128,5 +10128,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "d1bd2fc33493a124a0021c557ccc319e6ad11bfc"
+  "built_at_commit": "daf030b6916a5f1f064a24ccfef21c5650c04a83"
 }
