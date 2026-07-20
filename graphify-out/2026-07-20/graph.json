@@ -571,15 +571,6 @@
       "norm_label": "zonings.rb"
     },
     {
-      "label": "version.rb",
-      "file_type": "code",
-      "source_file": "lib/fitupe/version.rb",
-      "source_location": "L1",
-      "id": "lib_fitupe_version_rb",
-      "community": 117,
-      "norm_label": "version.rb"
-    },
-    {
       "label": "service-worker.js",
       "file_type": "code",
       "source_file": "app/views/pwa/service-worker.js",
@@ -5467,9 +5458,9 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_policies_integration_fillea_policy_rb",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy"
+      "target": "policies_integration_fillea_policy_integrationfilleapolicy",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5477,9 +5468,9 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_policies_integration_fillea_policy_rb",
-      "target": "policies_integration_fillea_policy_scope"
+      "target": "policies_integration_fillea_policy_scope",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5487,9 +5478,9 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_index"
+      "target": "policies_integration_fillea_policy_integrationfilleapolicy_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5497,9 +5488,9 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_show"
+      "target": "policies_integration_fillea_policy_integrationfilleapolicy_show",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5507,9 +5498,9 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_create"
+      "target": "policies_integration_fillea_policy_integrationfilleapolicy_create",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5517,9 +5508,9 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_update"
+      "target": "policies_integration_fillea_policy_integrationfilleapolicy_update",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5527,9 +5518,9 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_confirm_destroy"
+      "target": "policies_integration_fillea_policy_integrationfilleapolicy_confirm_destroy",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5537,9 +5528,9 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_destroy"
+      "target": "policies_integration_fillea_policy_integrationfilleapolicy_destroy",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5547,9 +5538,9 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager"
+      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5558,9 +5549,9 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_fillea_policy_integrationfilleapolicy_index",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager"
+      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5569,9 +5560,9 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_fillea_policy_integrationfilleapolicy_show",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager"
+      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5580,9 +5571,9 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_fillea_policy_integrationfilleapolicy_create",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager"
+      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5591,9 +5582,9 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_fillea_policy_integrationfilleapolicy_update",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager"
+      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5602,9 +5593,9 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_fillea_policy_integrationfilleapolicy_confirm_destroy",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager"
+      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5613,9 +5604,9 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_fillea_policy_integrationfilleapolicy_destroy",
-      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager"
+      "target": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5623,9 +5614,9 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "policies_integration_fillea_policy_scope",
-      "target": "policies_integration_fillea_policy_scope_resolve"
+      "target": "policies_integration_fillea_policy_scope_resolve",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5961,9 +5952,9 @@
       "source_file": "app/helpers/integration_fillea_helper.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_helpers_integration_fillea_helper_rb",
-      "target": "helpers_integration_fillea_helper_form_submit_label_integration_fillea"
+      "target": "helpers_integration_fillea_helper_form_submit_label_integration_fillea",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -6299,9 +6290,9 @@
       "source_file": "app/models/integration_fillea.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_models_integration_fillea_rb",
-      "target": "models_integration_fillea_integrationfillea"
+      "target": "models_integration_fillea_integrationfillea",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6571,9 +6562,9 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_controllers_integration_filleas_controller_rb",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller"
+      "target": "controllers_integration_filleas_controller_integrationfilleascontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6581,9 +6572,9 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_index"
+      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6591,9 +6582,9 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_show"
+      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_show",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6601,9 +6592,9 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_new"
+      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_new",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6611,9 +6602,9 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_create"
+      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_create",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6621,9 +6612,9 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_edit"
+      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_edit",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6631,9 +6622,9 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_update"
+      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_update",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6641,9 +6632,9 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_destroy"
+      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_destroy",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6651,9 +6642,9 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L46",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_confirm_destroy"
+      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_confirm_destroy",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6661,9 +6652,9 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L51",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_set_integration_fillea"
+      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_set_integration_fillea",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6671,9 +6662,9 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_set_zonings"
+      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_set_zonings",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6681,9 +6672,9 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L60",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_integration_fillea_params"
+      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_integration_fillea_params",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6692,9 +6683,9 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_filleas_controller_integrationfilleascontroller_create",
-      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_new"
+      "target": "controllers_integration_filleas_controller_integrationfilleascontroller_new",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6863,9 +6854,9 @@
       "source_file": "app/controllers/admin/integration_filleas_controller.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_controllers_admin_integration_filleas_controller_rb",
-      "target": "admin_integration_filleas_controller_integrationfilleascontroller"
+      "target": "admin_integration_filleas_controller_integrationfilleascontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6954,9 +6945,9 @@
       "source_file": "app/dashboards/integration_fillea_dashboard.rb",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_dashboards_integration_fillea_dashboard_rb",
-      "target": "dashboards_integration_fillea_dashboard_integrationfilleadashboard"
+      "target": "dashboards_integration_fillea_dashboard_integrationfilleadashboard",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7014,9 +7005,9 @@
       "source_file": "db/migrate/20260719095148_create_integration_filleas.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "db_migrate_20260719095148_create_integration_filleas_rb",
-      "target": "migrate_20260719095148_create_integration_filleas_createintegrationfilleas"
+      "target": "migrate_20260719095148_create_integration_filleas_createintegrationfilleas",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7024,9 +7015,9 @@
       "source_file": "db/migrate/20260719095148_create_integration_filleas.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "migrate_20260719095148_create_integration_filleas_createintegrationfilleas",
-      "target": "migrate_20260719095148_create_integration_filleas_createintegrationfilleas_change"
+      "target": "migrate_20260719095148_create_integration_filleas_createintegrationfilleas_change",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8720,5 +8711,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "217da94b15f6487d8b47b4aae1da9de506799f6b"
+  "built_at_commit": "88bde63b7482f49e37659db1c9dfdc01893c2153"
 }

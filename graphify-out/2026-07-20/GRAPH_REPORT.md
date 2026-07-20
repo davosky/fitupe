@@ -1,16 +1,16 @@
-# Graph Report - fitupe  (2026-07-20)
+# Graph Report - fitupe  (2026-07-19)
 
 ## Corpus Check
-- 103 files · ~33,958 words
+- 102 files · ~34,008 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 449 nodes · 406 edges · 118 communities (62 shown, 56 thin omitted)
+- 448 nodes · 406 edges · 117 communities (61 shown, 56 thin omitted)
 - Extraction: 83% EXTRACTED · 16% INFERRED · 0% AMBIGUOUS · INFERRED: 65 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `217da94b`
+- Built from commit: `88bde63b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -112,7 +112,7 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (118 total, 56 thin omitted)
+## Communities (117 total, 56 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
