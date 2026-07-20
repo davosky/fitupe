@@ -1,9 +1,8 @@
 module IntegrationFlcs
   # Compares an Anagrafe FLC extract against the SinCGIL data already
   # imported (Import) for the same azzonamento/anno/mese, and stores the
-  # reconciled total (SinCGIL FLC members for that azzonamento, plus those
-  # found in Anagrafe FLC but still missing from SinCGIL) as the
-  # corresponding IntegrationFlc record's subscribers_af.
+  # count of codici fiscali present in Anagrafe FLC but missing from
+  # SinCGIL as the corresponding IntegrationFlc record's subscribers_af.
   class ComparisonService
     CATEGORIA_SINDACALE = "FLC"
 
@@ -26,7 +25,7 @@ module IntegrationFlcs
       return Result.new(error: missing_sincgil_message) unless sincgil_import_exists?
 
       integration_flc = IntegrationFlc.find_or_initialize_by(zoning_id: @zoning_id, year: @year, month: @month)
-      integration_flc.subscribers_af = sincgil_codici_fiscali.size + missing_codici_fiscali.size
+      integration_flc.subscribers_af = missing_codici_fiscali.size
       integration_flc.save!
 
       Result.new(integration_flc: integration_flc)
@@ -59,13 +58,32 @@ module IntegrationFlcs
     # starting with the selected province/region's own code — a regional
     # batch holds every province's members, so this narrows it back down.
     def sincgil_codici_fiscali
-      @sincgil_codici_fiscali ||= Import
-        .where(azzonamento_di_riferimento_id: candidate_zoning_ids, anno_di_riferimento: @year,
-          mese_di_riferimento: @month, categoria_sindacale: CATEGORIA_SINDACALE)
+      @sincgil_codici_fiscali ||= period_scope
+        .where(categoria_column => CATEGORIA_SINDACALE)
         .where("codice_azzonamento_completo LIKE ?", "#{zoning.codice_azzonamento}%")
         .pluck(:codice_fiscale)
         .filter_map { |codice_fiscale| codice_fiscale&.strip&.upcase.presence }
         .to_set
+    end
+
+    def period_scope
+      Import.where(azzonamento_di_riferimento_id: candidate_zoning_ids, anno_di_riferimento: @year,
+        mese_di_riferimento: @month)
+    end
+
+    # The federation sigla has been imported under different column names
+    # depending on the exact header text of the SinCGIL export at the time
+    # ("Categoria Sindacale" vs "Categoria" — columns get added dynamically
+    # per-header by Imports::SchemaSyncService, so both can coexist). Prefer
+    # categoria_sindacale when this batch actually has data in it, otherwise
+    # fall back to categoria.
+    def categoria_column
+      @categoria_column ||= if Import.column_names.include?("categoria_sindacale") &&
+          period_scope.where.not(categoria_sindacale: nil).exists?
+        :categoria_sindacale
+      else
+        :categoria
+      end
     end
 
     # A SinCGIL export can be extracted at the broader "regionale" level

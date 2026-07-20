@@ -27,7 +27,7 @@ RSpec.describe "IntegrationFlcUploads", type: :request do
     it "crea l'integrazione FLC quando l'importazione SinCGIL esiste" do
       sign_in create(:user, :admin)
       create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026", mese_di_riferimento: "Giugno",
-        categoria_sindacale: "FLC", codice_fiscale: "RSSMRA80A01H501U",
+        categoria: "FLC", codice_fiscale: "RSSMRA80A01H501U",
         codice_azzonamento_completo: "#{zoning.codice_azzonamento}0101")
 
       expect {
@@ -40,7 +40,7 @@ RSpec.describe "IntegrationFlcUploads", type: :request do
       }.to change(IntegrationFlc, :count).by(1)
 
       integration_flc = IntegrationFlc.last
-      expect(integration_flc.subscribers_af).to eq(3)
+      expect(integration_flc.subscribers_af).to eq(2)
       expect(response).to redirect_to(integration_flc_path(integration_flc))
     end
 

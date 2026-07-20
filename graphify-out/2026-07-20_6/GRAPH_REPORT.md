@@ -1,16 +1,16 @@
 # Graph Report - fitupe  (2026-07-20)
 
 ## Corpus Check
-- 123 files · ~37,549 words
+- 122 files · ~37,373 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 530 nodes · 482 edges · 136 communities (73 shown, 63 thin omitted)
-- Extraction: 85% EXTRACTED · 14% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.85)
+- 525 nodes · 477 edges · 136 communities (72 shown, 64 thin omitted)
+- Extraction: 85% EXTRACTED · 14% INFERRED · 0% AMBIGUOUS · INFERRED: 68 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `40ebf22e`
+- Built from commit: `d1bd2fc3`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -99,11 +99,11 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `CLAUDE.md — Guida per Claude Code` - 15 edges
-2. `ComparisonService` - 13 edges
-3. `ImportsController` - 13 edges
-4. `IntegrationFilleasController` - 12 edges
-5. `IntegrationFlcsController` - 12 edges
-6. `ApplicationPolicy#admin?` - 12 edges
+2. `ImportsController` - 13 edges
+3. `IntegrationFilleasController` - 12 edges
+4. `IntegrationFlcsController` - 12 edges
+5. `ApplicationPolicy#admin?` - 12 edges
+6. `ComparisonService` - 11 edges
 7. `ZoningsController` - 11 edges
 8. `ApplicationPolicy` - 10 edges
 9. `CsvImporterService` - 10 edges
@@ -121,7 +121,7 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (136 total, 63 thin omitted)
+## Communities (136 total, 64 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
@@ -187,12 +187,8 @@ Nodes (5): Avvio del progetto, code:bash (bin/setup   # setup iniziale (dipenden
 Cohesion: 0.40
 Nodes (4): Copyright (c) 2026, Davo Davosky - The Davosky Connection, English, Italiano
 
-### Community 78 - "Community 78"
-Cohesion: 0.20
-Nodes (3): SchemaSyncService, AddLockableToUsers, AddCategoriaToImports
-
 ### Community 129 - "Community 129"
-Cohesion: 0.10
+Cohesion: 0.11
 Nodes (3): IntegrationFlcUploadsController, ComparisonService, success?()
 
 ## Ambiguous Edges - Review These
@@ -204,7 +200,7 @@ Nodes (3): IntegrationFlcUploadsController, ComparisonService, success?()
 ## Knowledge Gaps
 - **140 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+135 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **63 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **64 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_

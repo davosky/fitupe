@@ -255,8 +255,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/db/schema.rb": {
-    "mtime": 1784549673.4253504,
-    "ast_hash": "f27368ab83c911d3cf3ed62f3fea280b",
+    "mtime": 1784537326.8596547,
+    "ast_hash": "cdffeb374db60c56b96724ee25d45cb9",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/db/cache_schema.rb": {
@@ -800,13 +800,13 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/requests/integration_flc_uploads_spec.rb": {
-    "mtime": 1784549426.9568942,
-    "ast_hash": "454fdc670615d451b4d2562d55a804c3",
+    "mtime": 1784548904.3772094,
+    "ast_hash": "fbaf02979678bfaff069c4d0399bed32",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/integration_flcs/comparison_service_spec.rb": {
-    "mtime": 1784549722.008801,
-    "ast_hash": "57b1c0982a3da18f905f176c7cf80df2",
+    "mtime": 1784548889.534247,
+    "ast_hash": "ef21e1e64376821635c4a2aa6b616e10",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/integration_flcs/anagrafe_csv_parser_spec.rb": {
@@ -820,8 +820,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/integration_flcs/comparison_service.rb": {
-    "mtime": 1784549639.5874505,
-    "ast_hash": "885c1fa8c90ba5e086250d022b29d66e",
+    "mtime": 1784548838.3071644,
+    "ast_hash": "b1b6bf296fa0e26d3abbb893fcc09617",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/integration_flcs/anagrafe_csv_parser.rb": {
@@ -837,11 +837,6 @@
   "/home/davo/Programmazione/fitupe/app/controllers/integration_flc_uploads_controller.rb": {
     "mtime": 1784538198.7345345,
     "ast_hash": "5c88a7baa02d0cac594973f89a8965cf",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/db/migrate/20260720121416_add_categoria_to_imports.rb": {
-    "mtime": 1784549667.5911758,
-    "ast_hash": "52de124aa8127051ad00bb07df215d60",
     "semantic_hash": ""
   }
 }

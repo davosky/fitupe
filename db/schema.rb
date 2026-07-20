@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_07_20_084820) do
+ActiveRecord::Schema[8.1].define(version: 2026_07_20_121416) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -21,12 +21,15 @@ ActiveRecord::Schema[8.1].define(version: 2026_07_20_084820) do
     t.bigint "azzonamento_di_riferimento_id", null: false
     t.string "cap"
     t.string "cap_unita_locale"
+    t.string "categoria"
     t.string "categoria_pensione"
     t.string "categoria_sindacale"
     t.string "cellulare"
     t.string "cellulare_servizi"
+    t.string "cellulare_servizio"
     t.string "codice_azzonamento_completo"
     t.string "codice_azzonamento_comprensoriale"
+    t.string "codice_azzonamento_regionale"
     t.string "codice_azzonamento_regione"
     t.string "codice_categoria_pensione"
     t.string "codice_fiscale"
@@ -40,6 +43,10 @@ ActiveRecord::Schema[8.1].define(version: 2026_07_20_084820) do
     t.string "concomitante_spi_anno"
     t.string "condizione_status"
     t.string "condizione_unita_locale"
+    t.string "consenso1"
+    t.string "consenso2"
+    t.string "consenso3"
+    t.string "consenso4"
     t.string "consenso_1_com_dati_sensibili"
     t.string "consenso_2_promozione"
     t.string "consenso_3_mandato"
@@ -57,12 +64,14 @@ ActiveRecord::Schema[8.1].define(version: 2026_07_20_084820) do
     t.date "data_nascita"
     t.string "descrizione_azzonamento_completo"
     t.string "descrizione_azzonamento_comprensoriale"
+    t.string "descrizione_azzonamento_regionale"
     t.string "descrizione_azzonamento_regione"
     t.string "descrizione_reparto"
     t.string "documento_privacy"
     t.string "email"
     t.string "email_azienda"
     t.string "email_servizi"
+    t.string "email_servizio"
     t.string "ente"
     t.string "eta"
     t.string "evento_attivazione_iscrizione"
@@ -73,6 +82,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_07_20_084820) do
     t.string "iscritto_digita"
     t.string "livello"
     t.string "localita_postale"
+    t.string "luogo_nascita"
     t.string "mese_di_riferimento"
     t.string "motivo_cessazione_iscrizione"
     t.string "motivo_cessazione_lavoro"
@@ -110,6 +120,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_07_20_084820) do
     t.string "tipologia_status"
     t.string "tipologia_versamento"
     t.string "titolo_di_studio"
+    t.string "titolo_studio"
     t.datetime "updated_at", null: false
     t.index ["azzonamento_di_riferimento_id", "anno_di_riferimento", "mese_di_riferimento"], name: "index_imports_on_azzonamento_and_periodo"
     t.index ["azzonamento_di_riferimento_id"], name: "index_imports_on_azzonamento_di_riferimento_id"

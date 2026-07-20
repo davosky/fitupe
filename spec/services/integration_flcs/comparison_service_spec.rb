@@ -16,14 +16,14 @@ RSpec.describe IntegrationFlcs::ComparisonService do
   context "quando l'importazione SinCGIL esiste" do
     before do
       create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026", mese_di_riferimento: "Giugno",
-        categoria_sindacale: "FLC", codice_fiscale: "RSSMRA80A01H501U",
+        categoria: "FLC", codice_fiscale: "RSSMRA80A01H501U",
         codice_azzonamento_completo: "#{zoning.codice_azzonamento}0101")
     end
 
-    it "crea l'integrazione con il totale riconciliato: iscritti SinCGIL più i mancanti" do
+    it "crea l'integrazione con il conteggio dei codici fiscali mancanti in SinCGIL" do
       expect(result).to be_success
       expect(result.integration_flc).to be_persisted
-      expect(result.integration_flc.subscribers_af).to eq(3) # 1 già in SinCGIL + 2 mancanti dell'Anagrafe FLC
+      expect(result.integration_flc.subscribers_af).to eq(2)
       expect(result.integration_flc.zoning).to eq(zoning)
       expect(result.integration_flc.year).to eq("2026")
       expect(result.integration_flc.month).to eq("Giugno")
@@ -31,17 +31,17 @@ RSpec.describe IntegrationFlcs::ComparisonService do
 
     it "ignora gli iscritti SinCGIL di categoria diversa da FLC" do
       create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026", mese_di_riferimento: "Giugno",
-        categoria_sindacale: "FILCAMS", codice_fiscale: "VRDGPP75M20L219K",
+        categoria: "FILCAMS", codice_fiscale: "VRDGPP75M20L219K",
         codice_azzonamento_completo: "#{zoning.codice_azzonamento}0102")
 
-      expect(result.integration_flc.subscribers_af).to eq(3)
+      expect(result.integration_flc.subscribers_af).to eq(2)
     end
 
     it "ignora gli iscritti SinCGIL di un'altra provincia con lo stesso azzonamento_di_riferimento" do
       create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026", mese_di_riferimento: "Giugno",
-        categoria_sindacale: "FLC", codice_fiscale: "VRDGPP75M20L219K", codice_azzonamento_completo: "ALTRO0102")
+        categoria: "FLC", codice_fiscale: "VRDGPP75M20L219K", codice_azzonamento_completo: "ALTRO0102")
 
-      expect(result.integration_flc.subscribers_af).to eq(3)
+      expect(result.integration_flc.subscribers_af).to eq(2)
     end
 
     it "aggiorna il record esistente invece di duplicarlo" do
@@ -49,7 +49,20 @@ RSpec.describe IntegrationFlcs::ComparisonService do
 
       expect { result }.not_to change(IntegrationFlc, :count)
       expect(result.integration_flc).to eq(existing)
-      expect(result.integration_flc.reload.subscribers_af).to eq(3)
+      expect(result.integration_flc.reload.subscribers_af).to eq(2)
+    end
+  end
+
+  context "quando il batch usa la colonna categoria_sindacale invece di categoria" do
+    before do
+      create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026", mese_di_riferimento: "Giugno",
+        categoria_sindacale: "FLC", categoria: nil, codice_fiscale: "RSSMRA80A01H501U",
+        codice_azzonamento_completo: "#{zoning.codice_azzonamento}0101")
+    end
+
+    it "usa categoria_sindacale quando è quella valorizzata per il periodo" do
+      expect(result).to be_success
+      expect(result.integration_flc.subscribers_af).to eq(2)
     end
   end
 
@@ -61,20 +74,20 @@ RSpec.describe IntegrationFlcs::ComparisonService do
 
     before do
       create(:import, azzonamento_di_riferimento: regione, anno_di_riferimento: "2026", mese_di_riferimento: "Giugno",
-        categoria_sindacale: "FLC", codice_fiscale: "RSSMRA80A01H501U", codice_azzonamento_completo: "GB0101")
+        categoria: "FLC", codice_fiscale: "RSSMRA80A01H501U", codice_azzonamento_completo: "GB0101")
     end
 
     it "procede usando anche gli iscritti importati sotto l'azzonamento regionale" do
       expect(result).to be_success
-      expect(result.integration_flc.subscribers_af).to eq(3)
+      expect(result.integration_flc.subscribers_af).to eq(2)
       expect(result.integration_flc.zoning).to eq(provincia)
     end
 
     it "esclude dal conteggio le altre province presenti nello stesso import regionale" do
       create(:import, azzonamento_di_riferimento: regione, anno_di_riferimento: "2026", mese_di_riferimento: "Giugno",
-        categoria_sindacale: "FLC", codice_fiscale: "VRDGPP75M20L219K", codice_azzonamento_completo: "GA0101")
+        categoria: "FLC", codice_fiscale: "VRDGPP75M20L219K", codice_azzonamento_completo: "GA0101")
 
-      expect(result.integration_flc.subscribers_af).to eq(3)
+      expect(result.integration_flc.subscribers_af).to eq(2)
     end
   end
 
@@ -87,7 +100,7 @@ RSpec.describe IntegrationFlcs::ComparisonService do
 
     before do
       create(:import, azzonamento_di_riferimento: trieste, anno_di_riferimento: "2026", mese_di_riferimento: "Giugno",
-        categoria_sindacale: "FLC", codice_fiscale: "RSSMRA80A01H501U", codice_azzonamento_completo: "GA0101")
+        categoria: "FLC", codice_fiscale: "RSSMRA80A01H501U", codice_azzonamento_completo: "GA0101")
     end
 
     it "fallisce perché l'importazione di un'altra provincia non basta" do

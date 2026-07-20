@@ -1303,7 +1303,7 @@
       "label": "ComparisonService",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L6",
+      "source_location": "L7",
       "id": "integration_flcs_comparison_service_comparisonservice",
       "community": 129,
       "norm_label": "comparisonservice"
@@ -1312,7 +1312,7 @@
       "label": "success?()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L10",
+      "source_location": "L11",
       "id": "integration_flcs_comparison_service_success",
       "community": 129,
       "norm_label": "success?()"
@@ -1321,7 +1321,7 @@
       "label": ".call()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L13",
+      "source_location": "L14",
       "id": "integration_flcs_comparison_service_comparisonservice_call",
       "community": 129,
       "norm_label": ".call()"
@@ -1330,7 +1330,7 @@
       "label": ".initialize()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L17",
+      "source_location": "L18",
       "id": "integration_flcs_comparison_service_comparisonservice_initialize",
       "community": 129,
       "norm_label": ".initialize()"
@@ -1339,7 +1339,7 @@
       "label": ".sincgil_import_exists?()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L38",
+      "source_location": "L39",
       "id": "integration_flcs_comparison_service_comparisonservice_sincgil_import_exists",
       "community": 129,
       "norm_label": ".sincgil_import_exists?()"
@@ -1348,7 +1348,7 @@
       "label": ".missing_sincgil_message()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L43",
+      "source_location": "L44",
       "id": "integration_flcs_comparison_service_comparisonservice_missing_sincgil_message",
       "community": 129,
       "norm_label": ".missing_sincgil_message()"
@@ -1357,7 +1357,7 @@
       "label": ".missing_codici_fiscali()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L47",
+      "source_location": "L48",
       "id": "integration_flcs_comparison_service_comparisonservice_missing_codici_fiscali",
       "community": 129,
       "norm_label": ".missing_codici_fiscali()"
@@ -1366,7 +1366,7 @@
       "label": ".anagrafe_codici_fiscali()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L51",
+      "source_location": "L52",
       "id": "integration_flcs_comparison_service_comparisonservice_anagrafe_codici_fiscali",
       "community": 129,
       "norm_label": ".anagrafe_codici_fiscali()"
@@ -1375,34 +1375,16 @@
       "label": ".sincgil_codici_fiscali()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L60",
+      "source_location": "L61",
       "id": "integration_flcs_comparison_service_comparisonservice_sincgil_codici_fiscali",
       "community": 129,
       "norm_label": ".sincgil_codici_fiscali()"
     },
     {
-      "label": ".period_scope()",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L69",
-      "id": "integration_flcs_comparison_service_comparisonservice_period_scope",
-      "community": 129,
-      "norm_label": ".period_scope()"
-    },
-    {
-      "label": ".categoria_column()",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L80",
-      "id": "integration_flcs_comparison_service_comparisonservice_categoria_column",
-      "community": 129,
-      "norm_label": ".categoria_column()"
-    },
-    {
       "label": ".candidate_zoning_ids()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L93",
+      "source_location": "L75",
       "id": "integration_flcs_comparison_service_comparisonservice_candidate_zoning_ids",
       "community": 129,
       "norm_label": ".candidate_zoning_ids()"
@@ -1411,7 +1393,7 @@
       "label": ".regional_zoning_id()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L97",
+      "source_location": "L79",
       "id": "integration_flcs_comparison_service_comparisonservice_regional_zoning_id",
       "community": 129,
       "norm_label": ".regional_zoning_id()"
@@ -1420,7 +1402,7 @@
       "label": ".zoning()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L104",
+      "source_location": "L86",
       "id": "integration_flcs_comparison_service_comparisonservice_zoning",
       "community": 129,
       "norm_label": ".zoning()"
@@ -2819,33 +2801,6 @@
       "id": "db_cache_schema_rb",
       "community": 45,
       "norm_label": "cache_schema.rb"
-    },
-    {
-      "label": "20260720121416_add_categoria_to_imports.rb",
-      "file_type": "code",
-      "source_file": "db/migrate/20260720121416_add_categoria_to_imports.rb",
-      "source_location": "L1",
-      "id": "db_migrate_20260720121416_add_categoria_to_imports_rb",
-      "community": 78,
-      "norm_label": "20260720121416_add_categoria_to_imports.rb"
-    },
-    {
-      "label": "AddCategoriaToImports",
-      "file_type": "code",
-      "source_file": "db/migrate/20260720121416_add_categoria_to_imports.rb",
-      "source_location": "L1",
-      "id": "migrate_20260720121416_add_categoria_to_imports_addcategoriatoimports",
-      "community": 78,
-      "norm_label": "addcategoriatoimports"
-    },
-    {
-      "label": ".change()",
-      "file_type": "code",
-      "source_file": "db/migrate/20260720121416_add_categoria_to_imports.rb",
-      "source_location": "L2",
-      "id": "migrate_20260720121416_add_categoria_to_imports_addcategoriatoimports_change",
-      "community": 78,
-      "norm_label": ".change()"
     },
     {
       "label": "20260719095148_create_integration_filleas.rb",
@@ -6796,17 +6751,6 @@
       "context": "call",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
-      "source_file": "db/migrate/20260720121416_add_categoria_to_imports.rb",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "migrate_20260720121416_add_categoria_to_imports_addcategoriatoimports_change",
-      "target": "imports_schema_sync_service_schemasyncservice_add_column"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
       "source_file": "db/migrate/20260716062544_add_lockable_to_users.rb",
       "source_location": "L3",
       "weight": 1.0,
@@ -6902,26 +6846,6 @@
       "confidence_score": 1.0,
       "source": "integration_flcs_comparison_service_comparisonservice",
       "target": "integration_flcs_comparison_service_comparisonservice_sincgil_codici_fiscali"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L69",
-      "weight": 1.0,
-      "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_period_scope",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L80",
-      "weight": 1.0,
-      "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_categoria_column",
-      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8471,26 +8395,6 @@
       "confidence_score": 1.0,
       "source": "app_mailers_application_mailer_rb",
       "target": "mailers_application_mailer_applicationmailer"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "db/migrate/20260720121416_add_categoria_to_imports.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "db_migrate_20260720121416_add_categoria_to_imports_rb",
-      "target": "migrate_20260720121416_add_categoria_to_imports_addcategoriatoimports",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "db/migrate/20260720121416_add_categoria_to_imports.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "migrate_20260720121416_add_categoria_to_imports_addcategoriatoimports",
-      "target": "migrate_20260720121416_add_categoria_to_imports_addcategoriatoimports_change",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10224,5 +10128,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "40ebf22e246f36ac3176ceca6f756f0ebea460aa"
+  "built_at_commit": "d1bd2fc33493a124a0021c557ccc319e6ad11bfc"
 }
