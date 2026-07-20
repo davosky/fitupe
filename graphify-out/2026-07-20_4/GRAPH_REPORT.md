@@ -1,16 +1,16 @@
 # Graph Report - fitupe  (2026-07-20)
 
 ## Corpus Check
-- 122 files · ~37,227 words
+- 122 files · ~36,992 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 525 nodes · 477 edges · 136 communities (72 shown, 64 thin omitted)
+- 522 nodes · 474 edges · 136 communities (72 shown, 64 thin omitted)
 - Extraction: 85% EXTRACTED · 14% INFERRED · 0% AMBIGUOUS · INFERRED: 68 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `daf030b6`
+- Built from commit: `4770ca46`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -103,11 +103,11 @@
 3. `IntegrationFilleasController` - 12 edges
 4. `IntegrationFlcsController` - 12 edges
 5. `ApplicationPolicy#admin?` - 12 edges
-6. `ComparisonService` - 11 edges
-7. `ZoningsController` - 11 edges
-8. `ApplicationPolicy` - 10 edges
-9. `CsvImporterService` - 10 edges
-10. `User` - 10 edges
+6. `ZoningsController` - 11 edges
+7. `ApplicationPolicy` - 10 edges
+8. `CsvImporterService` - 10 edges
+9. `User` - 10 edges
+10. `CLAUDE.md Project Guide` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Bootstrap Alert Component API` --conceptually_related_to--> `Bootstrap CSS Framework`  [INFERRED]
@@ -188,7 +188,7 @@ Cohesion: 0.40
 Nodes (4): Copyright (c) 2026, Davo Davosky - The Davosky Connection, English, Italiano
 
 ### Community 129 - "Community 129"
-Cohesion: 0.11
+Cohesion: 0.13
 Nodes (3): IntegrationFlcUploadsController, ComparisonService, success?()
 
 ## Ambiguous Edges - Review These

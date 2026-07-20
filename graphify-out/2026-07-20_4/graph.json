@@ -1348,7 +1348,7 @@
       "label": ".missing_sincgil_message()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L43",
+      "source_location": "L42",
       "id": "integration_flcs_comparison_service_comparisonservice_missing_sincgil_message",
       "community": 129,
       "norm_label": ".missing_sincgil_message()"
@@ -1357,7 +1357,7 @@
       "label": ".missing_codici_fiscali()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L47",
+      "source_location": "L46",
       "id": "integration_flcs_comparison_service_comparisonservice_missing_codici_fiscali",
       "community": 129,
       "norm_label": ".missing_codici_fiscali()"
@@ -1366,7 +1366,7 @@
       "label": ".anagrafe_codici_fiscali()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L51",
+      "source_location": "L50",
       "id": "integration_flcs_comparison_service_comparisonservice_anagrafe_codici_fiscali",
       "community": 129,
       "norm_label": ".anagrafe_codici_fiscali()"
@@ -1375,37 +1375,10 @@
       "label": ".sincgil_codici_fiscali()",
       "file_type": "code",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L55",
+      "source_location": "L54",
       "id": "integration_flcs_comparison_service_comparisonservice_sincgil_codici_fiscali",
       "community": 129,
       "norm_label": ".sincgil_codici_fiscali()"
-    },
-    {
-      "label": ".candidate_zoning_ids()",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L67",
-      "id": "integration_flcs_comparison_service_comparisonservice_candidate_zoning_ids",
-      "community": 129,
-      "norm_label": ".candidate_zoning_ids()"
-    },
-    {
-      "label": ".regional_zoning_id()",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L71",
-      "id": "integration_flcs_comparison_service_comparisonservice_regional_zoning_id",
-      "community": 129,
-      "norm_label": ".regional_zoning_id()"
-    },
-    {
-      "label": ".zoning()",
-      "file_type": "code",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L78",
-      "id": "integration_flcs_comparison_service_comparisonservice_zoning",
-      "community": 129,
-      "norm_label": ".zoning()"
     },
     {
       "label": "anagrafe_csv_parser.rb",
@@ -6763,9 +6736,9 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_integration_flcs_comparison_service_rb",
-      "target": "integration_flcs_comparison_service_comparisonservice"
+      "target": "integration_flcs_comparison_service_comparisonservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6773,9 +6746,9 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_integration_flcs_comparison_service_rb",
-      "target": "integration_flcs_comparison_service_success"
+      "target": "integration_flcs_comparison_service_success",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6783,9 +6756,9 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_call"
+      "target": "integration_flcs_comparison_service_comparisonservice_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6793,9 +6766,9 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_initialize"
+      "target": "integration_flcs_comparison_service_comparisonservice_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6803,9 +6776,9 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L38",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_sincgil_import_exists"
+      "target": "integration_flcs_comparison_service_comparisonservice_sincgil_import_exists",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6813,9 +6786,9 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L42",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_missing_sincgil_message"
+      "target": "integration_flcs_comparison_service_comparisonservice_missing_sincgil_message",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6823,9 +6796,9 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L46",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_missing_codici_fiscali"
+      "target": "integration_flcs_comparison_service_comparisonservice_missing_codici_fiscali",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6833,9 +6806,9 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L50",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_anagrafe_codici_fiscali"
+      "target": "integration_flcs_comparison_service_comparisonservice_anagrafe_codici_fiscali",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6843,38 +6816,8 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L54",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_sincgil_codici_fiscali"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L67",
-      "weight": 1.0,
-      "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_candidate_zoning_ids",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L71",
-      "weight": 1.0,
-      "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_regional_zoning_id",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/integration_flcs/comparison_service.rb",
-      "source_location": "L78",
-      "weight": 1.0,
-      "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_zoning",
+      "target": "integration_flcs_comparison_service_comparisonservice_sincgil_codici_fiscali",
       "confidence_score": 1.0
     },
     {
@@ -6895,9 +6838,9 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L25",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_comparison_service_comparisonservice_call",
-      "target": "integration_flcs_comparison_service_comparisonservice_sincgil_import_exists"
+      "target": "integration_flcs_comparison_service_comparisonservice_sincgil_import_exists",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6906,9 +6849,9 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L51",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_comparison_service_comparisonservice_anagrafe_codici_fiscali",
-      "target": "integration_flcs_comparison_service_comparisonservice_call"
+      "target": "integration_flcs_comparison_service_comparisonservice_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6916,9 +6859,9 @@
       "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_integration_flcs_anagrafe_csv_parser_rb",
-      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser"
+      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6926,9 +6869,9 @@
       "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_integration_flcs_anagrafe_csv_parser_rb",
-      "target": "integration_flcs_anagrafe_csv_parser_invalidfile"
+      "target": "integration_flcs_anagrafe_csv_parser_invalidfile",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6936,9 +6879,9 @@
       "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser",
-      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_call"
+      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6946,9 +6889,9 @@
       "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser",
-      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_initialize"
+      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6956,9 +6899,9 @@
       "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
       "source_location": "L27",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser",
-      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_content"
+      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_content",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6966,9 +6909,9 @@
       "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser",
-      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_delimiter"
+      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_delimiter",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6976,9 +6919,9 @@
       "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser",
-      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_codice_fiscale_header"
+      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_codice_fiscale_header",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6987,9 +6930,9 @@
       "source_file": "app/services/integration_flcs/anagrafe_csv_parser.rb",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_codice_fiscale_header",
-      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_call"
+      "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7425,9 +7368,9 @@
       "source_file": "app/models/integration_flc_upload_form.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_models_integration_flc_upload_form_rb",
-      "target": "models_integration_flc_upload_form_integrationflcuploadform"
+      "target": "models_integration_flc_upload_form_integrationflcuploadform",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7435,9 +7378,9 @@
       "source_file": "app/models/integration_flc_upload_form.rb",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "models_integration_flc_upload_form_integrationflcuploadform",
-      "target": "models_integration_flc_upload_form_integrationflcuploadform_zoning"
+      "target": "models_integration_flc_upload_form_integrationflcuploadform_zoning",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7445,9 +7388,9 @@
       "source_file": "app/models/integration_flc_upload_form.rb",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "models_integration_flc_upload_form_integrationflcuploadform",
-      "target": "models_integration_flc_upload_form_integrationflcuploadform_file_must_be_present_and_csv"
+      "target": "models_integration_flc_upload_form_integrationflcuploadform_file_must_be_present_and_csv",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7575,9 +7518,9 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_controllers_integration_flc_uploads_controller_rb",
-      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller"
+      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7585,9 +7528,9 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller",
-      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_new"
+      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_new",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7595,9 +7538,9 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller",
-      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_create"
+      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_create",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7605,9 +7548,9 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L32",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller",
-      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_set_zonings"
+      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_set_zonings",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7615,9 +7558,9 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller",
-      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_authorize_upload"
+      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_authorize_upload",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7625,9 +7568,9 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller",
-      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_upload_params"
+      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_upload_params",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7635,9 +7578,9 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L44",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller",
-      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_render_form_errors"
+      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_render_form_errors",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7646,9 +7589,9 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_create",
-      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_new"
+      "target": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_new",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10128,5 +10071,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "daf030b6916a5f1f064a24ccfef21c5650c04a83"
+  "built_at_commit": "4770ca461184bd333e9a21b99f659f3ebda9dbb9"
 }

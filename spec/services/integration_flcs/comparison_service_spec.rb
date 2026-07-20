@@ -43,4 +43,40 @@ RSpec.describe IntegrationFlcs::ComparisonService do
       expect(result.integration_flc.reload.subscribers_af).to eq(2)
     end
   end
+
+  context "quando l'importazione SinCGIL esiste solo a livello di azzonamento regionale" do
+    let(:regione) { create(:zoning, codice_azzonamento: "G", descrizione_azzonamento: "Friuli Venezia Giulia") }
+    let(:provincia) { create(:zoning, codice_azzonamento: "GB", descrizione_azzonamento: "Gorizia") }
+
+    subject(:result) { described_class.call(file: file, zoning_id: provincia.id, year: "2026", month: "Giugno") }
+
+    before do
+      create(:import, azzonamento_di_riferimento: regione, anno_di_riferimento: "2026", mese_di_riferimento: "Giugno",
+        categoria_sindacale: "FLC", codice_fiscale: "RSSMRA80A01H501U")
+    end
+
+    it "procede usando anche gli iscritti importati sotto l'azzonamento regionale" do
+      expect(result).to be_success
+      expect(result.integration_flc.subscribers_af).to eq(2)
+      expect(result.integration_flc.zoning).to eq(provincia)
+    end
+  end
+
+  context "quando esiste solo un'importazione per un'altra provincia della stessa regione" do
+    let!(:regione) { create(:zoning, codice_azzonamento: "G", descrizione_azzonamento: "Friuli Venezia Giulia") }
+    let(:trieste) { create(:zoning, codice_azzonamento: "GA", descrizione_azzonamento: "Trieste") }
+    let(:gorizia) { create(:zoning, codice_azzonamento: "GB", descrizione_azzonamento: "Gorizia") }
+
+    subject(:result) { described_class.call(file: file, zoning_id: gorizia.id, year: "2026", month: "Giugno") }
+
+    before do
+      create(:import, azzonamento_di_riferimento: trieste, anno_di_riferimento: "2026", mese_di_riferimento: "Giugno",
+        categoria_sindacale: "FLC", codice_fiscale: "RSSMRA80A01H501U")
+    end
+
+    it "fallisce perché l'importazione di un'altra provincia non basta" do
+      expect(result).not_to be_success
+      expect(result.error).to match(/prima caricare i dati SinCGIL/)
+    end
+  end
 end

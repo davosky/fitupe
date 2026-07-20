@@ -36,7 +36,8 @@ module IntegrationFlcs
     private
 
     def sincgil_import_exists?
-      Import.exists?(azzonamento_di_riferimento_id: @zoning_id, anno_di_riferimento: @year, mese_di_riferimento: @month)
+      Import.exists?(azzonamento_di_riferimento_id: candidate_zoning_ids, anno_di_riferimento: @year,
+        mese_di_riferimento: @month)
     end
 
     def missing_sincgil_message
@@ -52,11 +53,30 @@ module IntegrationFlcs
     end
 
     def sincgil_codici_fiscali
-      Import.where(azzonamento_di_riferimento_id: @zoning_id, anno_di_riferimento: @year,
+      Import.where(azzonamento_di_riferimento_id: candidate_zoning_ids, anno_di_riferimento: @year,
         mese_di_riferimento: @month, categoria_sindacale: CATEGORIA_SINDACALE)
         .pluck(:codice_fiscale)
         .filter_map { |codice_fiscale| codice_fiscale&.strip&.upcase.presence }
         .to_set
+    end
+
+    # A SinCGIL export can be extracted at the broader "regionale" level
+    # (codice_azzonamento a single letter, e.g. "G") covering every province
+    # at once, instead of at the specific "provincia" level (e.g. "GB") the
+    # operator selected. Either counts as "the import for this azzonamento".
+    def candidate_zoning_ids
+      @candidate_zoning_ids ||= [ @zoning_id, regional_zoning_id ].compact.uniq
+    end
+
+    def regional_zoning_id
+      codice = zoning&.codice_azzonamento
+      return nil if codice.blank? || codice.length <= 1
+
+      Zoning.find_by(codice_azzonamento: codice[0])&.id
+    end
+
+    def zoning
+      @zoning ||= Zoning.find_by(id: @zoning_id)
     end
   end
 end
