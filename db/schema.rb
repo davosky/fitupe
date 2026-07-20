@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_07_19_095148) do
+ActiveRecord::Schema[8.1].define(version: 2026_07_20_084820) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -20,6 +20,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_07_19_095148) do
     t.string "anno_stampa"
     t.bigint "azzonamento_di_riferimento_id", null: false
     t.string "cap"
+    t.string "cap_unita_locale"
     t.string "categoria_pensione"
     t.string "categoria_sindacale"
     t.string "cellulare"
@@ -29,16 +30,21 @@ ActiveRecord::Schema[8.1].define(version: 2026_07_19_095148) do
     t.string "codice_azzonamento_regione"
     t.string "codice_categoria_pensione"
     t.string "codice_fiscale"
+    t.string "codice_fiscale_azienda"
     t.string "codice_fiscale_errato"
     t.string "codice_pratica_inca"
     t.string "cognome"
     t.string "cognome_acquisito"
     t.string "comune"
+    t.string "comune_unita_locale"
     t.string "concomitante_spi_anno"
+    t.string "condizione_status"
+    t.string "condizione_unita_locale"
     t.string "consenso_1_com_dati_sensibili"
     t.string "consenso_2_promozione"
     t.string "consenso_3_mandato"
     t.string "consenso_4_profilazione"
+    t.string "contratto_nazionale"
     t.datetime "created_at", null: false
     t.date "data_contabilizzazione_tessera"
     t.date "data_decesso"
@@ -52,34 +58,52 @@ ActiveRecord::Schema[8.1].define(version: 2026_07_19_095148) do
     t.string "descrizione_azzonamento_completo"
     t.string "descrizione_azzonamento_comprensoriale"
     t.string "descrizione_azzonamento_regione"
+    t.string "descrizione_reparto"
     t.string "documento_privacy"
     t.string "email"
+    t.string "email_azienda"
     t.string "email_servizi"
     t.string "ente"
+    t.string "eta"
     t.string "evento_attivazione_iscrizione"
     t.string "frazione"
+    t.string "funzionario"
     t.string "indirizzo"
+    t.string "indirizzo_unita_locale"
     t.string "iscritto_digita"
+    t.string "livello"
     t.string "localita_postale"
     t.string "mese_di_riferimento"
     t.string "motivo_cessazione_iscrizione"
     t.string "motivo_cessazione_lavoro"
+    t.string "motivononoccupazione"
     t.string "nato_a"
     t.string "nazionalita"
     t.string "nazione"
     t.string "nome"
+    t.string "nome_unita_locale"
+    t.string "nome_unita_locale_fruitrice"
     t.string "numero_pensione"
+    t.string "part_time"
+    t.string "partita_iva_azienda"
     t.string "provincia"
+    t.string "provincia_unita_locale"
     t.string "provvisoria"
+    t.string "qualifica"
+    t.string "ragione_sociale_azienda"
+    t.string "ragione_sociale_azienda_fruitrice"
     t.string "rata"
     t.string "sap"
     t.string "sede_primaria"
     t.string "sesso"
+    t.string "settore_lavorativo"
     t.string "stampa_tessera"
     t.string "stato_civile"
     t.string "status_confermato_da_nastro"
     t.string "struttura_attivazione_iscrizione"
     t.string "telefono"
+    t.string "telefono_azienda"
+    t.string "tipologia_azienda"
     t.string "tipologia_delega"
     t.string "tipologia_iscrizione"
     t.string "tipologia_rapporto_lavoro"
@@ -100,6 +124,17 @@ ActiveRecord::Schema[8.1].define(version: 2026_07_19_095148) do
     t.bigint "zoning_id", null: false
     t.index ["zoning_id", "year"], name: "index_integration_filleas_on_zoning_year", unique: true
     t.index ["zoning_id"], name: "index_integration_filleas_on_zoning_id"
+  end
+
+  create_table "integration_flcs", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.string "month", null: false
+    t.bigint "subscribers_af", default: 0, null: false
+    t.datetime "updated_at", null: false
+    t.string "year", null: false
+    t.bigint "zoning_id", null: false
+    t.index ["zoning_id", "year", "month"], name: "index_integration_flcs_on_zoning_year_month", unique: true
+    t.index ["zoning_id"], name: "index_integration_flcs_on_zoning_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -139,4 +174,5 @@ ActiveRecord::Schema[8.1].define(version: 2026_07_19_095148) do
 
   add_foreign_key "imports", "zonings", column: "azzonamento_di_riferimento_id"
   add_foreign_key "integration_filleas", "zonings"
+  add_foreign_key "integration_flcs", "zonings"
 end

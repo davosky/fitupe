@@ -62,6 +62,17 @@
                 <i class="bi bi-arrow-left-right text-primary me-2"></i>
                 Aggiungi Integrazione FILLEA
               <% end %>
+              <div class="dropdown-divider"></div>
+              <%= link_to integration_flcs_path, class: "dropdown-item" do %>
+                <i class="bi bi-list-ul text-primary"></i>
+                <i class="bi bi-arrow-left-right text-primary me-2"></i>
+                Elenco Integrazioni FLC
+              <% end %>
+              <%= link_to new_integration_flc_path, class: "dropdown-item" do %>
+                <i class="bi bi-plus-lg text-primary"></i>
+                <i class="bi bi-arrow-left-right text-primary me-2"></i>
+                Aggiungi Integrazione FLC
+              <% end %>
             <% end %>
           </div>
         </li>

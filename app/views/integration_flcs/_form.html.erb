@@ -1,0 +1,57 @@
+<div class="row">
+  <div class="col-6 offset-3">
+    <div class="card shadow">
+      <div class="card-body p-4">
+        <%= form_with model: integration_flc, local: true do |f| %>
+          <% if integration_flc.errors.any? %>
+            <div class="alert alert-danger">
+              <ul class="mb-0">
+                <% integration_flc.errors.full_messages.each do |message| %>
+                  <li><%= message %></li>
+                <% end %>
+              </ul>
+            </div>
+          <% end %>
+          <div class="input-group mb-3 shadow-sm">
+            <span class="<%= form_input_group_class %>">
+              <i class="bi bi-geo-alt me-1"></i>
+              <%= f.label :zoning_id, "Azzonamento" %>
+            </span>
+            <%= f.collection_select :zoning_id, @zonings, :id, :descrizione_azzonamento, { prompt: "Seleziona un azzonamento" }, class: "form-select" %>
+          </div>
+          <div class="input-group mb-3 shadow-sm">
+            <span class="<%= form_input_group_class %>">
+              <i class="bi bi-calendar3 me-1"></i>
+              <%= f.label :year, "Anno" %>
+            </span>
+            <%= f.text_field :year, class: "form-control" %>
+          </div>
+          <div class="input-group mb-3 shadow-sm">
+            <span class="<%= form_input_group_class %>">
+              <i class="bi bi-calendar-event me-1"></i>
+              <%= f.label :month, "Mese" %>
+            </span>
+            <%= f.text_field :month, class: "form-control" %>
+          </div>
+          <div class="input-group mb-4 shadow-sm">
+            <span class="<%= form_input_group_class %>">
+              <i class="bi bi-people-fill me-1"></i>
+              <%= f.label :subscribers_af, "Iscritti Anagrafe FLC" %>
+            </span>
+            <%= f.number_field :subscribers_af, class: "form-control" %>
+          </div>
+          <hr class="text-dark"/>
+          <div class="d-flex justify-content-end mt-4">
+            <%= link_to integration_flcs_path, class: "btn btn-dark shadow me-3" do %>
+              <i class="bi bi-arrow-counterclockwise me-2"></i>
+              Annulla
+            <% end %>
+            <%= f.button class: form_button_class do %>
+              <i class="bi bi-arrow-left-right me-1"></i>&emsp;<%= form_submit_label_integration_flc %>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

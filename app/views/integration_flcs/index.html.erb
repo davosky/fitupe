@@ -1,0 +1,68 @@
+<% content_for :title, "Integrazioni FLC" %>
+<div class="d-flex justify-content-between align-items-center mt-5 mb-3">
+  <h3 class="text-primary">
+    <i class="fw-bold">
+      <%= image_tag("integration_flc/integration_flc-logo.svg", class: "img-fluid me-3", size: "58x58", alt: "Integrazioni FLC") %>
+      Integrazioni FLC
+    </i>
+  </h3>
+  <%= link_to new_integration_flc_path, class: "btn btn-primary shadow" do %>
+    <i class="bi bi-plus-lg"></i>
+    <i class="bi bi-arrow-left-right me-2"></i>
+    Nuova Integrazione
+  <% end %>
+</div>
+<hr class="text-primary m-3"/>
+<div class="card p-3 mt-5 border border-primary shadow">
+  <div class="card-body">
+    <% if @integration_flcs.any? %>
+      <div class="table-responsive">
+        <table class="table table-hover align-middle">
+          <thead>
+            <tr>
+              <th class="text-primary fs-5">
+                <i class="bi bi-geo-alt me-1"></i>
+                Azzonamento
+              </th>
+              <th class="text-primary fs-5">
+                <i class="bi bi-calendar3 me-1"></i>
+                Anno
+              </th>
+              <th class="text-primary fs-5">
+                <i class="bi bi-calendar-event me-1"></i>
+                Mese
+              </th>
+              <th class="text-primary text-end fs-5">
+                <i class="bi bi-people-fill me-1"></i>
+                Iscritti Anagrafe FLC
+              </th>
+              <th class="text-end"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <% @integration_flcs.each do |integration_flc| %>
+              <tr>
+                <td class="fs-5"><%= integration_flc.zoning.descrizione_azzonamento %></td>
+                <td class="fs-5"><%= integration_flc.year %></td>
+                <td class="fs-5"><%= integration_flc.month %></td>
+                <td class="text-end fs-5">
+                  <span class="badge bg-primary fs-5 p-2"><%= number_with_delimiter(integration_flc.subscribers_af, locale: :it) %></span>
+                </td>
+                <td class="text-end fs-5">
+                  <%= link_to edit_integration_flc_path(integration_flc), class: "text-warning me-5", data: { bs_toggle: "tooltip", bs_placement: "bottom", bs_title: "Modifica il Record Corrente" } do %>
+                    <i class="bi bi-pen-fill"></i>
+                  <% end %>
+                  <%= link_to confirm_destroy_integration_flc_path(integration_flc), class: "text-danger", data: { bs_toggle: "tooltip", bs_placement: "bottom", bs_title: "Elimina il Record Corrente" } do %>
+                    <i class="bi bi-trash-fill"></i>
+                  <% end %>
+                </td>
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+    <% else %>
+      <p class="text-muted">Nessuna integrazione FLC inserita.</p>
+    <% end %>
+  </div>
+</div>

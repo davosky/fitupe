@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     resources :zonings
     resources :imports
     resources :integration_filleas
+    resources :integration_flcs
 
     root to: "users#index"
   end
@@ -17,6 +18,11 @@ Rails.application.routes.draw do
   end
   resources :imports, only: %i[index new create show]
   resources :integration_filleas do
+    member do
+      get :confirm_destroy
+    end
+  end
+  resources :integration_flcs do
     member do
       get :confirm_destroy
     end

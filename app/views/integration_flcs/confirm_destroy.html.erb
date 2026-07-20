@@ -1,0 +1,35 @@
+<% content_for :title, "Elimina integrazione FLC" %>
+<div class="mt-5 mb-3">
+  <h3 class="text-danger">
+    <i class="fw-bold">
+      <%= image_tag("integration_flc/integration_flc-logo-destroy.svg", class: "img-fluid me-3", size: "58x58", alt: "Integrazioni FLC") %>
+      Elimina Integrazione FLC
+    </i>
+  </h3>
+</div>
+<hr class="text-danger m-3"/>
+<div class="row">
+  <div class="col-6 offset-3">
+    <div class="card border-danger shadow">
+      <div class="card-body p-4">
+        <h4 class="text-danger">
+          Sei sicuro di voler eliminare l'integrazione FLC:
+        </h4>
+        <h4 class="text-danger">
+          <strong><%= @integration_flc.zoning.descrizione_azzonamento %> - <%= @integration_flc.month %>/<%= @integration_flc.year %></strong>?
+        </h4>
+        <hr class="text-danger"/>
+        <div class="d-flex mt-3">
+          <%= link_to integration_flcs_path, class: "btn btn-dark shadow me-3" do %>
+            <i class="bi bi-arrow-counterclockwise me-2"></i>
+            Annulla
+          <% end %>
+          <%= button_to integration_flc_path(@integration_flc), method: :delete, class: "btn btn-danger shadow" do %>
+            <i class="bi bi-trash-fill me-2"></i>
+            Elimina definitivamente
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

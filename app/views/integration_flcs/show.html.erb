@@ -1,0 +1,32 @@
+<% content_for :title, "Integrazione FLC #{@integration_flc.zoning.descrizione_azzonamento}" %>
+<div class="d-flex justify-content-between align-items-center mt-5 mb-3">
+  <h3 class="text-primary">
+    <i class="fw-bold">
+      <%= image_tag("integration_flc/integration_flc-logo-show.svg", class: "img-fluid me-3", size: "58x58", alt: "Integrazioni FLC") %>
+      <%= @integration_flc.zoning.descrizione_azzonamento %> - <%= @integration_flc.month %>/<%= @integration_flc.year %>
+    </i>
+  </h3>
+  <%= link_to integration_flcs_path, class: "btn btn-outline-secondary shadow" do %>
+    <i class="bi bi-arrow-counterclockwise me-2"></i>
+    Torna all'elenco
+  <% end %>
+</div>
+<hr class="text-primary m-3"/>
+<div class="row">
+  <div class="col-6 offset-3">
+    <div class="card shadow">
+      <div class="card-body p-4">
+        <dl class="row mb-0">
+          <dt class="col-sm-3">Azzonamento</dt>
+          <dd class="col-sm-9"><%= @integration_flc.zoning.descrizione_azzonamento %></dd>
+          <dt class="col-sm-3">Anno</dt>
+          <dd class="col-sm-9"><%= @integration_flc.year %></dd>
+          <dt class="col-sm-3">Mese</dt>
+          <dd class="col-sm-9"><%= @integration_flc.month %></dd>
+          <dt class="col-sm-3">Iscritti Anagrafe FLC</dt>
+          <dd class="col-sm-9"><%= number_with_delimiter(@integration_flc.subscribers_af, locale: :it) %></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>

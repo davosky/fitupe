@@ -1,0 +1,11 @@
+<% content_for :title, "Modifica integrazione FLC" %>
+<div class="mt-5 mb-3">
+  <h3 class="text-warning">
+    <i class="fw-bold">
+      <%= image_tag("integration_flc/integration_flc-logo-edit.svg", class: "img-fluid me-3", size: "58x58", alt: "Integrazioni FLC") %>
+      Modifica Integrazione FLC
+    </i>
+  </h3>
+</div>
+<hr class="text-warning m-3"/>
+<%= render "form", integration_flc: @integration_flc %>

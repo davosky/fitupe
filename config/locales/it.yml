@@ -17,6 +17,10 @@ it:
         one: Integrazione FILLEA
         many: Integrazioni FILLEA
         other: Integrazioni FILLEA
+      integration_flc:
+        one: Integrazione FLC
+        many: Integrazioni FLC
+        other: Integrazioni FLC
     attributes:
       user:
         username: Nome utente
@@ -48,6 +52,14 @@ it:
         zoning_id: Azzonamento
         year: Anno
         subscribers_ce: Iscritti Cassa Edile
+        created_at: Creato il
+        updated_at: Aggiornato il
+      integration_flc:
+        zoning: Azzonamento
+        zoning_id: Azzonamento
+        year: Anno
+        month: Mese
+        subscribers_af: Iscritti Anagrafe FLC
         created_at: Creato il
         updated_at: Aggiornato il
       errors:
