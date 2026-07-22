@@ -81,6 +81,18 @@
             <% end %>
           </div>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="bi bi-bar-chart text-primary me-2"></i>Statistiche
+          </a>
+          <div class="dropdown-menu dropdown-menu-centered">
+            <%= link_to statistics_path, class: "dropdown-item" do %>
+              <i class="bi bi-list-ul text-primary"></i>
+              <i class="bi bi-bar-chart text-primary me-2"></i>
+              Elenco Statistiche
+            <% end %>
+          </div>
+        </li>
       </ul>
       <ul class="navbar-nav ms-auto">
         <li class="nav-item dropdown">

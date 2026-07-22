@@ -1,0 +1,61 @@
+require "rails_helper"
+
+RSpec.describe Statistics::TotalMembersComparison do
+  let(:zoning) { create(:zoning) }
+
+  subject(:result) { described_class.call(zoning: zoning, anno: "2026", mese: "Giugno") }
+
+  context "quando mancano i dati dell'anno precedente" do
+    before do
+      create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026", mese_di_riferimento: "Giugno")
+    end
+
+    it "fallisce con un messaggio esplicativo" do
+      expect(result).not_to be_success
+      expect(result.error).to match(/2025/)
+    end
+  end
+
+  context "quando mancano i dati dell'anno scelto" do
+    before do
+      create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025", mese_di_riferimento: "Giugno")
+    end
+
+    it "fallisce con un messaggio esplicativo" do
+      expect(result).not_to be_success
+      expect(result.error).to match(/2026/)
+    end
+  end
+
+  context "quando esistono dati per entrambi gli anni" do
+    before do
+      create_list(:import, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno")
+      create_list(:import, 2, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno")
+    end
+
+    it "conta gli iscritti di entrambi gli anni e calcola la differenza" do
+      expect(result).to be_success
+      expect(result.count_precedente).to eq(3)
+      expect(result.count_anno).to eq(2)
+      expect(result.diff).to eq(-1)
+      expect(result.diff_percent).to be_within(0.01).of(-33.33)
+    end
+
+    it "non conta gli iscritti di un altro azzonamento" do
+      altro = create(:zoning, codice_azzonamento: "H")
+      create_list(:import, 5, azzonamento_di_riferimento: altro, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno")
+
+      expect(result.count_anno).to eq(2)
+    end
+
+    it "non conta gli iscritti di un altro mese" do
+      create_list(:import, 5, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Luglio")
+
+      expect(result.count_anno).to eq(2)
+    end
+  end
+end

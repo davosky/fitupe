@@ -526,24 +526,6 @@
       "norm_label": "anagrafe_csv_parser_spec.rb"
     },
     {
-      "label": "total_members_comparison_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/services/statistics/total_members_comparison_spec.rb",
-      "source_location": "L1",
-      "id": "spec_services_statistics_total_members_comparison_spec_rb",
-      "community": 140,
-      "norm_label": "total_members_comparison_spec.rb"
-    },
-    {
-      "label": "total_members_form_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/models/total_members_form_spec.rb",
-      "source_location": "L1",
-      "id": "spec_models_total_members_form_spec_rb",
-      "community": 139,
-      "norm_label": "total_members_form_spec.rb"
-    },
-    {
       "label": "integration_fillea_spec.rb",
       "file_type": "code",
       "source_file": "spec/models/integration_fillea_spec.rb",
@@ -1516,87 +1498,6 @@
       "norm_label": ".codice_fiscale_header()"
     },
     {
-      "label": "total_members_comparison.rb",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L1",
-      "id": "app_services_statistics_total_members_comparison_rb",
-      "community": 137,
-      "norm_label": "total_members_comparison.rb"
-    },
-    {
-      "label": "TotalMembersComparison",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L2",
-      "id": "statistics_total_members_comparison_totalmemberscomparison",
-      "community": 137,
-      "norm_label": "totalmemberscomparison"
-    },
-    {
-      "label": "success?()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L5",
-      "id": "statistics_total_members_comparison_success",
-      "community": 137,
-      "norm_label": "success?()"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L10",
-      "id": "statistics_total_members_comparison_totalmemberscomparison_call",
-      "community": 137,
-      "norm_label": ".call()"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L12",
-      "id": "statistics_total_members_comparison_totalmemberscomparison_initialize",
-      "community": 137,
-      "norm_label": ".initialize()"
-    },
-    {
-      "label": ".period_exists?()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L28",
-      "id": "statistics_total_members_comparison_totalmemberscomparison_period_exists",
-      "community": 137,
-      "norm_label": ".period_exists?()"
-    },
-    {
-      "label": ".count_for()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L32",
-      "id": "statistics_total_members_comparison_totalmemberscomparison_count_for",
-      "community": 137,
-      "norm_label": ".count_for()"
-    },
-    {
-      "label": ".build_result()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L37",
-      "id": "statistics_total_members_comparison_totalmemberscomparison_build_result",
-      "community": 137,
-      "norm_label": ".build_result()"
-    },
-    {
-      "label": ".missing_data_result()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L47",
-      "id": "statistics_total_members_comparison_totalmemberscomparison_missing_data_result",
-      "community": 137,
-      "norm_label": ".missing_data_result()"
-    },
-    {
       "label": "application_helper.rb",
       "file_type": "code",
       "source_file": "app/helpers/application_helper.rb",
@@ -1838,33 +1739,6 @@
       "id": "models_import_form_importform_persist_upload",
       "community": 8,
       "norm_label": ".persist_upload!()"
-    },
-    {
-      "label": "total_members_form.rb",
-      "file_type": "code",
-      "source_file": "app/models/total_members_form.rb",
-      "source_location": "L1",
-      "id": "app_models_total_members_form_rb",
-      "community": 138,
-      "norm_label": "total_members_form.rb"
-    },
-    {
-      "label": "TotalMembersForm",
-      "file_type": "code",
-      "source_file": "app/models/total_members_form.rb",
-      "source_location": "L1",
-      "id": "models_total_members_form_totalmembersform",
-      "community": 138,
-      "norm_label": "totalmembersform"
-    },
-    {
-      "label": ".zoning()",
-      "file_type": "code",
-      "source_file": "app/models/total_members_form.rb",
-      "source_location": "L13",
-      "id": "models_total_members_form_totalmembersform_zoning",
-      "community": 138,
-      "norm_label": ".zoning()"
     },
     {
       "label": "integration_flc.rb",
@@ -2495,60 +2369,6 @@
       "id": "controllers_zonings_controller_zoningscontroller_zoning_params",
       "community": 77,
       "norm_label": ".zoning_params()"
-    },
-    {
-      "label": "statistics_controller.rb",
-      "file_type": "code",
-      "source_file": "app/controllers/statistics_controller.rb",
-      "source_location": "L1",
-      "id": "app_controllers_statistics_controller_rb",
-      "community": 136,
-      "norm_label": "statistics_controller.rb"
-    },
-    {
-      "label": "StatisticsController",
-      "file_type": "code",
-      "source_file": "app/controllers/statistics_controller.rb",
-      "source_location": "L1",
-      "id": "controllers_statistics_controller_statisticscontroller",
-      "community": 136,
-      "norm_label": "statisticscontroller"
-    },
-    {
-      "label": ".index()",
-      "file_type": "code",
-      "source_file": "app/controllers/statistics_controller.rb",
-      "source_location": "L5",
-      "id": "controllers_statistics_controller_statisticscontroller_index",
-      "community": 136,
-      "norm_label": ".index()"
-    },
-    {
-      "label": ".set_zonings()",
-      "file_type": "code",
-      "source_file": "app/controllers/statistics_controller.rb",
-      "source_location": "L12",
-      "id": "controllers_statistics_controller_statisticscontroller_set_zonings",
-      "community": 136,
-      "norm_label": ".set_zonings()"
-    },
-    {
-      "label": ".total_members_params()",
-      "file_type": "code",
-      "source_file": "app/controllers/statistics_controller.rb",
-      "source_location": "L16",
-      "id": "controllers_statistics_controller_statisticscontroller_total_members_params",
-      "community": 136,
-      "norm_label": ".total_members_params()"
-    },
-    {
-      "label": ".compute_total_members_result()",
-      "file_type": "code",
-      "source_file": "app/controllers/statistics_controller.rb",
-      "source_location": "L20",
-      "id": "controllers_statistics_controller_statisticscontroller_compute_total_members_result",
-      "community": 136,
-      "norm_label": ".compute_total_members_result()"
     },
     {
       "label": "integration_flcs_controller.rb",
@@ -7089,9 +6909,9 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L69",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_period_scope"
+      "target": "integration_flcs_comparison_service_comparisonservice_period_scope",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7099,9 +6919,9 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L80",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integration_flcs_comparison_service_comparisonservice",
-      "target": "integration_flcs_comparison_service_comparisonservice_categoria_column"
+      "target": "integration_flcs_comparison_service_comparisonservice_categoria_column",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7246,119 +7066,6 @@
       "confidence_score": 1.0,
       "source": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_codice_fiscale_header",
       "target": "integration_flcs_anagrafe_csv_parser_anagrafecsvparser_call"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "app_services_statistics_total_members_comparison_rb",
-      "target": "statistics_total_members_comparison_totalmemberscomparison",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "app_services_statistics_total_members_comparison_rb",
-      "target": "statistics_total_members_comparison_success",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L28",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_period_exists",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L32",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_count_for",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_build_result",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L47",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_missing_data_result",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison_call",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_period_exists",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison_call",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_missing_data_result",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L38",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_count_for",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7657,26 +7364,6 @@
       "weight": 1.0,
       "source": "controllers_imports_controller_importscontroller_enqueue_import",
       "target": "models_import_form_importform_resolved_path"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/models/total_members_form.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_models_total_members_form_rb",
-      "target": "models_total_members_form_totalmembersform",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/models/total_members_form.rb",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "models_total_members_form_totalmembersform",
-      "target": "models_total_members_form_totalmembersform_zoning",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8446,56 +8133,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/controllers/statistics_controller.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_controllers_statistics_controller_rb",
-      "target": "controllers_statistics_controller_statisticscontroller"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/statistics_controller.rb",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "controllers_statistics_controller_statisticscontroller",
-      "target": "controllers_statistics_controller_statisticscontroller_index"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/statistics_controller.rb",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "controllers_statistics_controller_statisticscontroller",
-      "target": "controllers_statistics_controller_statisticscontroller_set_zonings",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/statistics_controller.rb",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "controllers_statistics_controller_statisticscontroller",
-      "target": "controllers_statistics_controller_statisticscontroller_total_members_params",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/statistics_controller.rb",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "controllers_statistics_controller_statisticscontroller",
-      "target": "controllers_statistics_controller_statisticscontroller_compute_total_members_result",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/controllers/integration_flcs_controller.rb",
       "source_location": "L1",
       "weight": 1.0,
@@ -8841,9 +8478,9 @@
       "source_file": "db/migrate/20260720121416_add_categoria_to_imports.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "db_migrate_20260720121416_add_categoria_to_imports_rb",
-      "target": "migrate_20260720121416_add_categoria_to_imports_addcategoriatoimports"
+      "target": "migrate_20260720121416_add_categoria_to_imports_addcategoriatoimports",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8851,9 +8488,9 @@
       "source_file": "db/migrate/20260720121416_add_categoria_to_imports.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "migrate_20260720121416_add_categoria_to_imports_addcategoriatoimports",
-      "target": "migrate_20260720121416_add_categoria_to_imports_addcategoriatoimports_change"
+      "target": "migrate_20260720121416_add_categoria_to_imports_addcategoriatoimports_change",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10587,5 +10224,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "69607a22f4368f950b486ba5fb4e6bbb6b5c7228"
+  "built_at_commit": "40ebf22e246f36ac3176ceca6f756f0ebea460aa"
 }

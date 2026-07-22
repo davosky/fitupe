@@ -1,0 +1,68 @@
+<div id="totale-iscritti" class="card p-3 mt-4 border border-primary shadow-sm">
+  <div class="card-body">
+    <h5 class="text-primary mb-3">
+      <i class="bi bi-people-fill me-2"></i>
+      Totale Iscritti
+    </h5>
+    <%= form_with model: @total_members_form, scope: :total_members_form, url: statistics_path, method: :get,
+    local: true do |f| %>
+      <div class="row g-3 align-items-end">
+        <div class="col-md-4">
+          <%= f.label :zoning_id, "Azzonamento", class: "form-label" %>
+          <%= f.collection_select :zoning_id, @zonings, :id, :descrizione_azzonamento,
+          { prompt: "Seleziona un azzonamento" }, class: "form-select", required: true %>
+        </div>
+        <div class="col-md-3">
+          <%= f.label :anno, "Anno", class: "form-label" %>
+          <%= f.text_field :anno, class: "form-control", placeholder: "es. 2026", required: true %>
+        </div>
+        <div class="col-md-3">
+          <%= f.label :mese, "Mese", class: "form-label" %>
+          <%= f.select :mese, ImportForm::MESI, { prompt: "Seleziona un mese" },
+          { class: "form-select", required: true } %>
+        </div>
+        <div class="col-md-2 d-grid">
+          <%= f.submit "Calcola", class: "btn btn-primary shadow" %>
+        </div>
+      </div>
+    <% end %>
+
+    <% if @total_members_result %>
+      <hr class="text-primary my-4"/>
+      <% if @total_members_result.success? %>
+        <div class="table-responsive">
+          <table class="table table-hover align-middle text-center">
+            <thead>
+              <tr>
+                <th class="text-primary fs-5">Azzonamento</th>
+                <th class="text-primary fs-5"><%= @total_members_result.mese %> <%= @total_members_result.anno_precedente %></th>
+                <th class="text-primary fs-5"><%= @total_members_result.mese %> <%= @total_members_result.anno %></th>
+                <th class="text-primary fs-5"><i>iscritti</i></th>
+                <th class="text-primary fs-5"><i>%</i></th>
+              </tr>
+            </thead>
+            <tbody>
+              <% diff_class = @total_members_result.diff.negative? ? "text-danger" : "text-success" %>
+              <tr>
+                <td class="fs-5"><%= @total_members_result.zoning.descrizione_azzonamento %></td>
+                <td class="fs-5"><%= number_with_delimiter(@total_members_result.count_precedente, locale: :it) %></td>
+                <td class="fs-5"><%= number_with_delimiter(@total_members_result.count_anno, locale: :it) %></td>
+                <td class="fs-5 <%= diff_class %>"><%= number_with_delimiter(@total_members_result.diff, locale: :it) %></td>
+                <td class="fs-5 <%= diff_class %>">
+                  <% if @total_members_result.diff_percent %>
+                    <%= number_to_percentage(@total_members_result.diff_percent, precision: 2, locale: :it) %>
+                  <% end %>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      <% else %>
+        <div class="alert alert-warning mb-0">
+          <i class="bi bi-exclamation-triangle-fill me-2"></i>
+          <%= @total_members_result.error %>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+</div>

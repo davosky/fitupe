@@ -28,6 +28,7 @@ Rails.application.routes.draw do
     end
   end
   resources :integration_flc_uploads, only: %i[new create]
+  resources :statistics, only: %i[index]
 
   mount ActionCable.server => "/cable"
 
