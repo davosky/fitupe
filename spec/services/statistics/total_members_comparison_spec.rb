@@ -140,4 +140,55 @@ RSpec.describe Statistics::TotalMembersComparison do
       expect(result.comprensori).to be_empty
     end
   end
+
+  context "quando esistono categorie diverse" do
+    before do
+      create_list(:import, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno", categoria: "FILLEA")
+      create_list(:import, 2, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", categoria: "FILLEA")
+      create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno", categoria: "FLC")
+    end
+
+    it "aggiunge una riga per ciascuna categoria, in ordine alfabetico" do
+      expect(result).to be_success
+      expect(result.categorie.map(&:categoria)).to eq(%w[FILLEA FLC])
+
+      fillea_row = result.categorie.find { |row| row.categoria == "FILLEA" }
+      expect(fillea_row.count_precedente).to eq(3)
+      expect(fillea_row.count_anno).to eq(2)
+
+      flc_row = result.categorie.find { |row| row.categoria == "FLC" }
+      expect(flc_row.count_precedente).to eq(1)
+      expect(flc_row.count_anno).to eq(0)
+      expect(flc_row.diff_percent).to eq(-100.0)
+    end
+  end
+
+  context "quando esistono categorie attive e la categoria SPI" do
+    before do
+      create_list(:import, 2, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno", categoria: "FILLEA")
+      create_list(:import, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno", categoria: "SPI")
+      create_list(:import, 4, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", categoria: "FILLEA")
+      create_list(:import, 5, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", categoria: "SPI")
+    end
+
+    it "espone le righe Attivi e Pensionati" do
+      expect(result).to be_success
+      expect(result.attivi_pensionati.map(&:gruppo)).to eq(%w[Attivi Pensionati])
+
+      attivi = result.attivi_pensionati.find { |row| row.gruppo == "Attivi" }
+      expect(attivi.count_precedente).to eq(2)
+      expect(attivi.count_anno).to eq(4)
+
+      pensionati = result.attivi_pensionati.find { |row| row.gruppo == "Pensionati" }
+      expect(pensionati.count_precedente).to eq(3)
+      expect(pensionati.count_anno).to eq(5)
+    end
+  end
 end

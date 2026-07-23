@@ -1,16 +1,16 @@
 # Graph Report - fitupe  (2026-07-23)
 
 ## Corpus Check
-- 135 files · ~59,943 words
+- 129 files · ~58,574 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 598 nodes · 568 edges · 147 communities (78 shown, 69 thin omitted)
-- Extraction: 88% EXTRACTED · 12% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.85)
+- 564 nodes · 525 edges · 141 communities (75 shown, 66 thin omitted)
+- Extraction: 86% EXTRACTED · 13% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d66a4199`
+- Built from commit: `764acae4`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -99,13 +99,10 @@
 - [[_COMMUNITY_Community 136|Community 136]]
 - [[_COMMUNITY_Community 137|Community 137]]
 - [[_COMMUNITY_Community 138|Community 138]]
-- [[_COMMUNITY_Community 141|Community 141]]
-- [[_COMMUNITY_Community 142|Community 142]]
-- [[_COMMUNITY_Community 145|Community 145]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `TotalMembersComparison` - 16 edges
-2. `CLAUDE.md — Guida per Claude Code` - 15 edges
+1. `CLAUDE.md — Guida per Claude Code` - 15 edges
+2. `TotalMembersComparison` - 14 edges
 3. `ComparisonService` - 13 edges
 4. `ImportsController` - 13 edges
 5. `IntegrationFilleasController` - 12 edges
@@ -127,7 +124,7 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (147 total, 69 thin omitted)
+## Communities (141 total, 66 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
@@ -154,8 +151,8 @@ Cohesion: 0.22
 Nodes (11): Action Cable adapter configuration, Rails cache store configuration, PostgreSQL database connections configuration, Kamal deploy configuration, Puma server configuration, Solid Queue worker/dispatcher configuration, Recurring scheduled jobs (Solid Queue), Active Storage services configuration (+3 more)
 
 ### Community 6 - "Stimulus Controllers e Flash"
-Cohesion: 0.12
-Nodes (12): Application, application, connect(), percentageLabelsPlugin(), successColor(), warningColor(), connect(), percentageLabelsPlugin() (+4 more)
+Cohesion: 0.16
+Nodes (8): Application, application, connect(), percentageLabelsPlugin(), successColor(), warningColor(), HelloController (Stimulus), Stimulus controllers manifest (index.js)
 
 ### Community 7 - "Dipendenze Frontend (package.json)"
 Cohesion: 0.06
@@ -210,7 +207,7 @@ Nodes (3): IntegrationFlcUploadsController, ComparisonService, success?()
 ## Knowledge Gaps
 - **141 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+136 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **69 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **66 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -220,9 +217,9 @@ _Questions this graph is uniquely positioned to answer:_
 - **What is the exact relationship between `Devise.setup configuration (username auth)` and `Admin namespace routes (users)`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
 - **Why does `authenticate_admin` connect `Pundit e Controlli Autorizzazione Admin` to `Modello User e Autenticazione`?**
-  _High betweenness centrality (0.009) - this node is a cross-community bridge._
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
 - **Why does `User` connect `Modello User e Autenticazione` to `Pundit e Controlli Autorizzazione Admin`?**
-  _High betweenness centrality (0.008) - this node is a cross-community bridge._
+  _High betweenness centrality (0.009) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `esbuild` to the rest of the system?**
   _144 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Modello User e Autenticazione` be split into smaller, more focused modules?**

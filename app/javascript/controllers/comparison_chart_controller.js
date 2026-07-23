@@ -1,7 +1,7 @@
 import { Controller } from "@hotwired/stimulus"
 import Chart from "chart.js/auto"
 
-// Connects to data-controller="comprensori-chart"
+// Connects to data-controller="comparison-chart"
 export default class extends Controller {
   static targets = ["canvas"]
   static values = {

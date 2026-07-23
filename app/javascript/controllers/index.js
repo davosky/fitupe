@@ -4,8 +4,8 @@
 
 import { application } from "./application"
 
-import ComprensoriChartController from "./comprensori_chart_controller"
-application.register("comprensori-chart", ComprensoriChartController)
+import ComparisonChartController from "./comparison_chart_controller"
+application.register("comparison-chart", ComparisonChartController)
 
 import FlashController from "./flash_controller"
 application.register("flash", FlashController)

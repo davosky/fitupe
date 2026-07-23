@@ -98,14 +98,114 @@
             </table>
           </div>
           <div class="mt-4 mx-auto" style="position: relative; height: 320px; width: 100%; max-width: 700px;"
-              data-controller="comprensori-chart"
-              data-comprensori-chart-labels-value="<%= @total_members_result.comprensori.map { |c| c.zoning.descrizione_azzonamento }.to_json %>"
-              data-comprensori-chart-previous-data-value="<%= @total_members_result.comprensori.map(&:count_precedente).to_json %>"
-              data-comprensori-chart-current-data-value="<%= @total_members_result.comprensori.map(&:count_anno).to_json %>"
-              data-comprensori-chart-percentages-value="<%= @total_members_result.comprensori.map(&:diff_percent).to_json %>"
-              data-comprensori-chart-previous-label-value="<%= @total_members_result.mese %> <%= @total_members_result.anno_precedente %>"
-              data-comprensori-chart-current-label-value="<%= @total_members_result.mese %> <%= @total_members_result.anno %>">
-            <canvas data-comprensori-chart-target="canvas"></canvas>
+              data-controller="comparison-chart"
+              data-comparison-chart-labels-value="<%= @total_members_result.comprensori.map { |c| c.zoning.descrizione_azzonamento }.to_json %>"
+              data-comparison-chart-previous-data-value="<%= @total_members_result.comprensori.map(&:count_precedente).to_json %>"
+              data-comparison-chart-current-data-value="<%= @total_members_result.comprensori.map(&:count_anno).to_json %>"
+              data-comparison-chart-percentages-value="<%= @total_members_result.comprensori.map(&:diff_percent).to_json %>"
+              data-comparison-chart-previous-label-value="<%= @total_members_result.mese %> <%= @total_members_result.anno_precedente %>"
+              data-comparison-chart-current-label-value="<%= @total_members_result.mese %> <%= @total_members_result.anno %>">
+            <canvas data-comparison-chart-target="canvas"></canvas>
+          </div>
+        </div>
+      <% end %>
+      <% if @total_members_result.categorie.present? %>
+        <div class="card border-dark p-3 m-2 shadow-sm">
+          <h4>
+            <span class="p-2 fw-bold fst-italic">
+              <%= image_tag("statistic/categorie.svg", class: "img-fluid me-1", size: "48x48", alt: "categorie") %>
+              Categorie
+            </span>
+          </h4>
+          <hr class="mt-2 mb-2"/>
+          <div class="table-responsive">
+            <table class="table table-hover align-middle">
+              <thead>
+                <tr>
+                  <th class="fs-5">Categoria</th>
+                  <th class="fs-5"><%= @total_members_result.mese %> <%= @total_members_result.anno_precedente %></th>
+                  <th class="fs-5"><%= @total_members_result.mese %> <%= @total_members_result.anno %></th>
+                  <th class="fs-5"><i>iscritti</i></th>
+                  <th class="fs-5"><i>%</i></th>
+                </tr>
+              </thead>
+              <tbody>
+                <% @total_members_result.categorie.each do |categoria| %>
+                  <% categoria_diff_class = categoria.diff.negative? ? "text-danger" : "text-success" %>
+                  <tr>
+                    <td class="fs-5"><%= categoria.categoria %></td>
+                    <td class="fs-5"><%= number_with_delimiter(categoria.count_precedente, locale: :it) %></td>
+                    <td class="fs-5"><%= number_with_delimiter(categoria.count_anno, locale: :it) %></td>
+                    <td class="fs-5 <%= categoria_diff_class %>"><%= number_with_delimiter(categoria.diff, locale: :it) %></td>
+                    <td class="fs-5 <%= categoria_diff_class %>">
+                      <% if categoria.diff_percent %>
+                        <%= number_to_percentage(categoria.diff_percent, precision: 2, locale: :it) %>
+                      <% end %>
+                    </td>
+                  </tr>
+                <% end %>
+              </tbody>
+            </table>
+          </div>
+          <div class="mt-4 mx-auto" style="position: relative; height: 480px; width: 100%; max-width: 1000px;"
+              data-controller="comparison-chart"
+              data-comparison-chart-labels-value="<%= @total_members_result.categorie.map(&:categoria).to_json %>"
+              data-comparison-chart-previous-data-value="<%= @total_members_result.categorie.map(&:count_precedente).to_json %>"
+              data-comparison-chart-current-data-value="<%= @total_members_result.categorie.map(&:count_anno).to_json %>"
+              data-comparison-chart-percentages-value="<%= @total_members_result.categorie.map(&:diff_percent).to_json %>"
+              data-comparison-chart-previous-label-value="<%= @total_members_result.mese %> <%= @total_members_result.anno_precedente %>"
+              data-comparison-chart-current-label-value="<%= @total_members_result.mese %> <%= @total_members_result.anno %>">
+            <canvas data-comparison-chart-target="canvas"></canvas>
+          </div>
+        </div>
+      <% end %>
+      <% if @total_members_result.attivi_pensionati.present? %>
+        <div class="card border-dark p-3 m-2 shadow-sm">
+          <h4>
+            <span class="p-2 fw-bold fst-italic">
+              <%= image_tag("statistic/attivipensionati.svg", class: "img-fluid me-1", size: "48x48", alt: "attivipensionati") %>
+              Attivi / Pensionati
+            </span>
+          </h4>
+          <hr class="mt-2 mb-2"/>
+          <div class="table-responsive">
+            <table class="table table-hover align-middle">
+              <thead>
+                <tr>
+                  <th class="fs-5">Gruppo</th>
+                  <th class="fs-5"><%= @total_members_result.mese %> <%= @total_members_result.anno_precedente %></th>
+                  <th class="fs-5"><%= @total_members_result.mese %> <%= @total_members_result.anno %></th>
+                  <th class="fs-5"><i>iscritti</i></th>
+                  <th class="fs-5"><i>%</i></th>
+                </tr>
+              </thead>
+              <tbody>
+                <% @total_members_result.attivi_pensionati.each do |gruppo| %>
+                  <% gruppo_diff_class = gruppo.diff.negative? ? "text-danger" : "text-success" %>
+                  <tr>
+                    <td class="fs-5"><%= gruppo.gruppo %></td>
+                    <td class="fs-5"><%= number_with_delimiter(gruppo.count_precedente, locale: :it) %></td>
+                    <td class="fs-5"><%= number_with_delimiter(gruppo.count_anno, locale: :it) %></td>
+                    <td class="fs-5 <%= gruppo_diff_class %>"><%= number_with_delimiter(gruppo.diff, locale: :it) %></td>
+                    <td class="fs-5 <%= gruppo_diff_class %>">
+                      <% if gruppo.diff_percent %>
+                        <%= number_to_percentage(gruppo.diff_percent, precision: 2, locale: :it) %>
+                      <% end %>
+                    </td>
+                  </tr>
+                <% end %>
+              </tbody>
+            </table>
+          </div>
+          <div class="mt-4 mx-auto" style="position: relative; height: 320px; width: 100%; max-width: 700px;"
+              data-controller="comparison-chart"
+              data-comparison-chart-labels-value="<%= @total_members_result.attivi_pensionati.map(&:gruppo).to_json %>"
+              data-comparison-chart-previous-data-value="<%= @total_members_result.attivi_pensionati.map(&:count_precedente).to_json %>"
+              data-comparison-chart-current-data-value="<%= @total_members_result.attivi_pensionati.map(&:count_anno).to_json %>"
+              data-comparison-chart-percentages-value="<%= @total_members_result.attivi_pensionati.map(&:diff_percent).to_json %>"
+              data-comparison-chart-previous-label-value="<%= @total_members_result.mese %> <%= @total_members_result.anno_precedente %>"
+              data-comparison-chart-current-label-value="<%= @total_members_result.mese %> <%= @total_members_result.anno %>">
+            <canvas data-comparison-chart-target="canvas"></canvas>
           </div>
         </div>
       <% end %>

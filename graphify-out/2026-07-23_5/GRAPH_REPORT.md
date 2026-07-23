@@ -1,12 +1,12 @@
 # Graph Report - fitupe  (2026-07-23)
 
 ## Corpus Check
-- 135 files · ~59,943 words
+- 133 files · ~59,174 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 598 nodes · 568 edges · 147 communities (78 shown, 69 thin omitted)
-- Extraction: 88% EXTRACTED · 12% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.85)
+- 589 nodes · 556 edges · 145 communities (77 shown, 68 thin omitted)
+- Extraction: 87% EXTRACTED · 12% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
@@ -101,10 +101,9 @@
 - [[_COMMUNITY_Community 138|Community 138]]
 - [[_COMMUNITY_Community 141|Community 141]]
 - [[_COMMUNITY_Community 142|Community 142]]
-- [[_COMMUNITY_Community 145|Community 145]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `TotalMembersComparison` - 16 edges
+1. `TotalMembersComparison` - 15 edges
 2. `CLAUDE.md — Guida per Claude Code` - 15 edges
 3. `ComparisonService` - 13 edges
 4. `ImportsController` - 13 edges
@@ -127,7 +126,7 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (147 total, 69 thin omitted)
+## Communities (145 total, 68 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
@@ -210,7 +209,7 @@ Nodes (3): IntegrationFlcUploadsController, ComparisonService, success?()
 ## Knowledge Gaps
 - **141 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+136 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **69 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **68 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
