@@ -1546,7 +1546,7 @@
       "label": ".call()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L12",
+      "source_location": "L10",
       "id": "statistics_total_members_comparison_totalmemberscomparison_call",
       "community": 137,
       "norm_label": ".call()"
@@ -1555,7 +1555,7 @@
       "label": ".initialize()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L14",
+      "source_location": "L12",
       "id": "statistics_total_members_comparison_totalmemberscomparison_initialize",
       "community": 137,
       "norm_label": ".initialize()"
@@ -1564,7 +1564,7 @@
       "label": ".period_exists?()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L30",
+      "source_location": "L28",
       "id": "statistics_total_members_comparison_totalmemberscomparison_period_exists",
       "community": 137,
       "norm_label": ".period_exists?()"
@@ -1573,7 +1573,7 @@
       "label": ".count_for()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L34",
+      "source_location": "L32",
       "id": "statistics_total_members_comparison_totalmemberscomparison_count_for",
       "community": 137,
       "norm_label": ".count_for()"
@@ -1582,7 +1582,7 @@
       "label": ".scope_for()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L41",
+      "source_location": "L39",
       "id": "statistics_total_members_comparison_totalmemberscomparison_scope_for",
       "community": 137,
       "norm_label": ".scope_for()"
@@ -1591,7 +1591,7 @@
       "label": ".regional_scope()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L49",
+      "source_location": "L47",
       "id": "statistics_total_members_comparison_totalmemberscomparison_regional_scope",
       "community": 137,
       "norm_label": ".regional_scope()"
@@ -1600,7 +1600,7 @@
       "label": ".regional_zoning_id()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L57",
+      "source_location": "L54",
       "id": "statistics_total_members_comparison_totalmemberscomparison_regional_zoning_id",
       "community": 137,
       "norm_label": ".regional_zoning_id()"
@@ -1609,52 +1609,16 @@
       "label": ".build_result()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L64",
+      "source_location": "L63",
       "id": "statistics_total_members_comparison_totalmemberscomparison_build_result",
       "community": 137,
       "norm_label": ".build_result()"
     },
     {
-      "label": ".build_row()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L72",
-      "id": "statistics_total_members_comparison_totalmemberscomparison_build_row",
-      "community": 137,
-      "norm_label": ".build_row()"
-    },
-    {
-      "label": ".comprensori()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L83",
-      "id": "statistics_total_members_comparison_totalmemberscomparison_comprensori",
-      "community": 137,
-      "norm_label": ".comprensori()"
-    },
-    {
-      "label": ".regionale?()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L89",
-      "id": "statistics_total_members_comparison_totalmemberscomparison_regionale",
-      "community": 137,
-      "norm_label": ".regionale?()"
-    },
-    {
-      "label": ".province_zonings()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L93",
-      "id": "statistics_total_members_comparison_totalmemberscomparison_province_zonings",
-      "community": 137,
-      "norm_label": ".province_zonings()"
-    },
-    {
       "label": ".missing_data_result()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L98",
+      "source_location": "L73",
       "id": "statistics_total_members_comparison_totalmemberscomparison_missing_data_result",
       "community": 137,
       "norm_label": ".missing_data_result()"
@@ -7376,9 +7340,9 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L39",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_scope_for"
+      "target": "statistics_total_members_comparison_totalmemberscomparison_scope_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7386,9 +7350,9 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_regional_scope"
+      "target": "statistics_total_members_comparison_totalmemberscomparison_regional_scope",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7396,9 +7360,9 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L54",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_regional_zoning_id"
+      "target": "statistics_total_members_comparison_totalmemberscomparison_regional_zoning_id",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7409,46 +7373,6 @@
       "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison",
       "target": "statistics_total_members_comparison_totalmemberscomparison_build_result"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L72",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_build_row",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L83",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_comprensori",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L89",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_regionale",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L93",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_province_zonings",
-      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7489,9 +7413,9 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L29",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison_period_exists",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_scope_for"
+      "target": "statistics_total_members_comparison_totalmemberscomparison_scope_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7500,19 +7424,8 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison_count_for",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_scope_for"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L73",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison_build_row",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_count_for",
+      "target": "statistics_total_members_comparison_totalmemberscomparison_scope_for",
       "confidence_score": 1.0
     },
     {
@@ -7533,52 +7446,8 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L44",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison_scope_for",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_regional_scope"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L50",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison_regional_scope",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_regional_zoning_id",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L65",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_build_row",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L86",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison_comprensori",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_build_row",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L84",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison_comprensori",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_regionale",
+      "target": "statistics_total_members_comparison_totalmemberscomparison_regional_scope",
       "confidence_score": 1.0
     },
     {
@@ -10808,5 +10677,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "7c3071cf3aad1e5b8c2b665190f7fc7913e1b86d"
+  "built_at_commit": "fac3f557f0ad71b161ca93a3c01b2554918a7824"
 }

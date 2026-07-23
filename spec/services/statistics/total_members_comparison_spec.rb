@@ -96,4 +96,48 @@ RSpec.describe Statistics::TotalMembersComparison do
       expect(result.count_anno).to eq(2)
     end
   end
+
+  context "quando l'azzonamento scelto è regionale" do
+    let(:zoning) { create(:zoning, codice_azzonamento: "G", descrizione_azzonamento: "FVG") }
+    let!(:gorizia) { create(:zoning, codice_azzonamento: "GB", descrizione_azzonamento: "Gorizia") }
+    let!(:pordenone) { create(:zoning, codice_azzonamento: "GC", descrizione_azzonamento: "Pordenone") }
+
+    before do
+      create_list(:import, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno", codice_azzonamento_completo: "GB001")
+      create_list(:import, 2, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", codice_azzonamento_completo: "GB002")
+      create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno", codice_azzonamento_completo: "GC001")
+      create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", codice_azzonamento_completo: "GC002")
+    end
+
+    it "aggiunge una riga per ciascuna provincia" do
+      expect(result).to be_success
+      expect(result.comprensori.map { |row| row.zoning.codice_azzonamento }).to eq(%w[GB GC])
+
+      gorizia_row = result.comprensori.find { |row| row.zoning == gorizia }
+      expect(gorizia_row.count_precedente).to eq(3)
+      expect(gorizia_row.count_anno).to eq(2)
+
+      pordenone_row = result.comprensori.find { |row| row.zoning == pordenone }
+      expect(pordenone_row.count_precedente).to eq(1)
+      expect(pordenone_row.count_anno).to eq(1)
+    end
+  end
+
+  context "quando l'azzonamento scelto non è regionale" do
+    before do
+      create_list(:import, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno")
+      create_list(:import, 2, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno")
+    end
+
+    it "non calcola alcun comprensorio" do
+      expect(result).to be_success
+      expect(result.comprensori).to be_empty
+    end
+  end
 end
