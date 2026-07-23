@@ -29,7 +29,7 @@
     <% if @total_members_result %>
       <hr class="text-primary my-4"/>
       <% if @total_members_result.success? %>
-        <div class="card border p-3 m-2 shadow">
+        <div class="card border p-3 m-2 shadow-sm">
           <h4>
             <span class="text-primary p-2 fw-bold fst-italic">
               <%= image_tag("statistic/regionale.svg", class: "img-fluid me-3", size: "48x48", alt: "regionale") %>
@@ -66,7 +66,7 @@
           </div>
         </div>
         <% if @total_members_result.comprensori.present? %>
-          <div class="card border p-3 m-2 shadow">
+          <div class="card border p-3 m-2 shadow-sm">
             <h4>
               <span class="text-primary p-2 fw-bold fst-italic">
                 <%= image_tag("statistic/comprensori.svg", class: "img-fluid me-3", size: "48x48", alt: "regionale") %>
@@ -102,6 +102,16 @@
                   <% end %>
                 </tbody>
               </table>
+            </div>
+            <div class="mt-4" style="position: relative; height: 320px;"
+              data-controller="comprensori-chart"
+              data-comprensori-chart-labels-value="<%= @total_members_result.comprensori.map { |c| c.zoning.descrizione_azzonamento }.to_json %>"
+              data-comprensori-chart-previous-data-value="<%= @total_members_result.comprensori.map(&:count_precedente).to_json %>"
+              data-comprensori-chart-current-data-value="<%= @total_members_result.comprensori.map(&:count_anno).to_json %>"
+              data-comprensori-chart-percentages-value="<%= @total_members_result.comprensori.map(&:diff_percent).to_json %>"
+              data-comprensori-chart-previous-label-value="<%= @total_members_result.mese %> <%= @total_members_result.anno_precedente %>"
+              data-comprensori-chart-current-label-value="<%= @total_members_result.mese %> <%= @total_members_result.anno %>">
+              <canvas data-comprensori-chart-target="canvas"></canvas>
             </div>
           </div>
         <% end %>

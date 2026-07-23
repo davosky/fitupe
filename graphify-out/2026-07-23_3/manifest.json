@@ -1,8 +1,8 @@
 {
   "/home/davo/Programmazione/fitupe/package.json": {
-    "mtime": 1784795079.1094947,
-    "ast_hash": "10d5f3273b015eafd32985d8ddbba317",
-    "semantic_hash": ""
+    "mtime": 1784114431.404202,
+    "ast_hash": "963e831d43fdb6f4c2576bf0549116ec",
+    "semantic_hash": "963e831d43fdb6f4c2576bf0549116ec"
   },
   "/home/davo/Programmazione/fitupe/config/boot.rb": {
     "mtime": 1784113604.078545,
@@ -190,9 +190,9 @@
     "semantic_hash": "e99511ba6b1056659bed1f0083cae290"
   },
   "/home/davo/Programmazione/fitupe/app/javascript/controllers/index.js": {
-    "mtime": 1784795170.3323689,
-    "ast_hash": "4fa367e3a9b6a44dbf080463ba1de222",
-    "semantic_hash": ""
+    "mtime": 1784122468.7431889,
+    "ast_hash": "020d9c357e64b1423d61225f3dc0153e",
+    "semantic_hash": "020d9c357e64b1423d61225f3dc0153e"
   },
   "/home/davo/Programmazione/fitupe/app/models/application_record.rb": {
     "mtime": 1784113603.6723335,
@@ -912,11 +912,6 @@
   "/home/davo/Programmazione/fitupe/app/assets/images/statistic/comprensori.svg": {
     "mtime": 1784794068.6989074,
     "ast_hash": "96c34d5401641c341ab6e519f7eb2386",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/javascript/controllers/comprensori_chart_controller.js": {
-    "mtime": 1784795162.2655685,
-    "ast_hash": "b471f64c211238056386052d12165b87",
     "semantic_hash": ""
   }
 }

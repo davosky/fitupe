@@ -175,19 +175,10 @@
       "norm_label": "bootswatch"
     },
     {
-      "label": "chart.js",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L22",
-      "id": "fitupe_package_dependencies_chart_js",
-      "community": 4,
-      "norm_label": "chart.js"
-    },
-    {
       "label": "nodemon",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L23",
+      "source_location": "L22",
       "id": "fitupe_package_dependencies_nodemon",
       "community": 4,
       "norm_label": "nodemon"
@@ -196,7 +187,7 @@
       "label": "postcss",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L24",
+      "source_location": "L23",
       "id": "fitupe_package_dependencies_postcss",
       "community": 4,
       "norm_label": "postcss"
@@ -205,7 +196,7 @@
       "label": "postcss-cli",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L25",
+      "source_location": "L24",
       "id": "fitupe_package_dependencies_postcss_cli",
       "community": 4,
       "norm_label": "postcss-cli"
@@ -214,7 +205,7 @@
       "label": "sass",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L26",
+      "source_location": "L25",
       "id": "fitupe_package_dependencies_sass",
       "community": 4,
       "norm_label": "sass"
@@ -223,7 +214,7 @@
       "label": "browserslist",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L28",
+      "source_location": "L27",
       "id": "fitupe_package_browserslist",
       "community": 4,
       "norm_label": "browserslist"
@@ -1773,7 +1764,7 @@
       "source_file": "app/javascript/controllers/flash_controller.js",
       "source_location": "L1",
       "id": "app_javascript_controllers_flash_controller_js",
-      "community": 2,
+      "community": 6,
       "norm_label": "flash_controller.js"
     },
     {
@@ -1782,7 +1773,7 @@
       "source_file": "app/javascript/controllers/flash_controller.js",
       "source_location": "L8",
       "id": "controllers_flash_controller_connect",
-      "community": 2,
+      "community": 6,
       "norm_label": "connect()"
     },
     {
@@ -1791,62 +1782,8 @@
       "source_file": "app/javascript/controllers/flash_controller.js",
       "source_location": "L14",
       "id": "controllers_flash_controller_disconnect",
-      "community": 2,
-      "norm_label": "disconnect()"
-    },
-    {
-      "label": "comprensori_chart_controller.js",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/comprensori_chart_controller.js",
-      "source_location": "L1",
-      "id": "app_javascript_controllers_comprensori_chart_controller_js",
-      "community": 6,
-      "norm_label": "comprensori_chart_controller.js"
-    },
-    {
-      "label": "connect()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/comprensori_chart_controller.js",
-      "source_location": "L16",
-      "id": "controllers_comprensori_chart_controller_connect",
-      "community": 6,
-      "norm_label": "connect()"
-    },
-    {
-      "label": "disconnect()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/comprensori_chart_controller.js",
-      "source_location": "L35",
-      "id": "controllers_comprensori_chart_controller_disconnect",
       "community": 6,
       "norm_label": "disconnect()"
-    },
-    {
-      "label": "successColor()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/comprensori_chart_controller.js",
-      "source_location": "L39",
-      "id": "controllers_comprensori_chart_controller_successcolor",
-      "community": 6,
-      "norm_label": "successcolor()"
-    },
-    {
-      "label": "warningColor()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/comprensori_chart_controller.js",
-      "source_location": "L43",
-      "id": "controllers_comprensori_chart_controller_warningcolor",
-      "community": 6,
-      "norm_label": "warningcolor()"
-    },
-    {
-      "label": "percentageLabelsPlugin()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/comprensori_chart_controller.js",
-      "source_location": "L49",
-      "id": "controllers_comprensori_chart_controller_percentagelabelsplugin",
-      "community": 6,
-      "norm_label": "percentagelabelsplugin()"
     },
     {
       "label": "hello_controller.js",
@@ -5405,7 +5342,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 6,
       "norm_label": "bootstrap alert component api",
       "id": "concept_bootstrap_alert"
     },
@@ -5834,16 +5771,6 @@
       "confidence_score": 1.0,
       "source": "fitupe_package_dependencies",
       "target": "fitupe_package_dependencies_bootswatch"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "fitupe_package_dependencies",
-      "target": "fitupe_package_dependencies_chart_js",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7489,9 +7416,9 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L72",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_build_row"
+      "target": "statistics_total_members_comparison_totalmemberscomparison_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7499,9 +7426,9 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L83",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_comprensori"
+      "target": "statistics_total_members_comparison_totalmemberscomparison_comprensori",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7509,9 +7436,9 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L89",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_regionale"
+      "target": "statistics_total_members_comparison_totalmemberscomparison_regionale",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7519,9 +7446,9 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L93",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_province_zonings"
+      "target": "statistics_total_members_comparison_totalmemberscomparison_province_zonings",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7584,9 +7511,9 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L73",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison_build_row",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_count_for"
+      "target": "statistics_total_members_comparison_totalmemberscomparison_count_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7617,9 +7544,9 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L50",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison_regional_scope",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_regional_zoning_id"
+      "target": "statistics_total_members_comparison_totalmemberscomparison_regional_zoning_id",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7628,9 +7555,9 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L65",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_build_row"
+      "target": "statistics_total_members_comparison_totalmemberscomparison_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7639,9 +7566,9 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L86",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison_comprensori",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_build_row"
+      "target": "statistics_total_members_comparison_totalmemberscomparison_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7650,9 +7577,9 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L84",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison_comprensori",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_regionale"
+      "target": "statistics_total_members_comparison_totalmemberscomparison_regionale",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7805,100 +7732,6 @@
       "weight": 1.0,
       "source": "controllers_flash_controller_connect",
       "target": "controllers_flash_controller_disconnect"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/comprensori_chart_controller.js",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_comprensori_chart_controller_js",
-      "target": "controllers_comprensori_chart_controller_connect",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/comprensori_chart_controller.js",
-      "source_location": "L35",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_comprensori_chart_controller_js",
-      "target": "controllers_comprensori_chart_controller_disconnect",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/comprensori_chart_controller.js",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_comprensori_chart_controller_js",
-      "target": "controllers_comprensori_chart_controller_successcolor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/comprensori_chart_controller.js",
-      "source_location": "L43",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_comprensori_chart_controller_js",
-      "target": "controllers_comprensori_chart_controller_warningcolor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/comprensori_chart_controller.js",
-      "source_location": "L49",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_comprensori_chart_controller_js",
-      "target": "controllers_comprensori_chart_controller_percentagelabelsplugin",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/index.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_index_js",
-      "target": "app_javascript_controllers_comprensori_chart_controller_js",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/comprensori_chart_controller.js",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "controllers_comprensori_chart_controller_connect",
-      "target": "controllers_comprensori_chart_controller_successcolor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/comprensori_chart_controller.js",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "controllers_comprensori_chart_controller_connect",
-      "target": "controllers_comprensori_chart_controller_warningcolor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/comprensori_chart_controller.js",
-      "source_location": "L31",
-      "weight": 1.0,
-      "source": "controllers_comprensori_chart_controller_connect",
-      "target": "controllers_comprensori_chart_controller_percentagelabelsplugin",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10975,5 +10808,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "764acae4c300e3b1be0a84a76b5f0bd66d96400b"
+  "built_at_commit": "7c3071cf3aad1e5b8c2b665190f7fc7913e1b86d"
 }

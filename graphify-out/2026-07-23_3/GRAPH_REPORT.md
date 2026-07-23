@@ -1,16 +1,16 @@
 # Graph Report - fitupe  (2026-07-23)
 
 ## Corpus Check
-- 129 files · ~58,574 words
+- 128 files · ~40,440 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 564 nodes · 525 edges · 141 communities (75 shown, 66 thin omitted)
+- 557 nodes · 515 edges · 141 communities (75 shown, 66 thin omitted)
 - Extraction: 86% EXTRACTED · 13% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `764acae4`
+- Built from commit: `7c3071cf`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -113,12 +113,12 @@
 10. `CsvImporterService` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `Bootstrap Alert Component API` --conceptually_related_to--> `Bootstrap CSS Framework`  [INFERRED]
+  app/javascript/controllers/flash_controller.js → CLAUDE.md
 - `Italian Devise Translations` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   config/locales/devise.it.yml → CLAUDE.md
 - `Italian ActiveRecord Labels for User Model` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   config/locales/it.yml → CLAUDE.md
-- `Bootstrap Alert Component API` --conceptually_related_to--> `Bootstrap CSS Framework`  [INFERRED]
-  app/javascript/controllers/flash_controller.js → CLAUDE.md
 - `README Tech Stack Section` --semantically_similar_to--> `RSpec + FactoryBot + Capybara Testing Stack`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
@@ -135,8 +135,8 @@ Cohesion: 0.13
 Nodes (9): Admin::ApplicationController, ApplicationController, authenticate_admin, ApplicationController, user_not_authorized, ApplicationPolicy#admin?, ApplicationPolicy, Scope (+1 more)
 
 ### Community 2 - "Documentazione (README, LICENCE, locale IT)"
-Cohesion: 0.06
-Nodes (38): bin/jobs script, Administrate Admin Panel, Anti-Patterns to Avoid, Bootstrap CSS Framework, Bootswatch Styles (Lumen), CLAUDE.md Project Guide, Devise Authentication, ESBuild JS Bundler (+30 more)
+Cohesion: 0.07
+Nodes (35): bin/jobs script, Administrate Admin Panel, Anti-Patterns to Avoid, Bootstrap CSS Framework, Bootswatch Styles (Lumen), CLAUDE.md Project Guide, Devise Authentication, ESBuild JS Bundler (+27 more)
 
 ### Community 3 - "Statistici e Origine del Nome Fitupe"
 Cohesion: 0.17
@@ -144,7 +144,7 @@ Nodes (12): Analysis of Variance (ANOVA), Box Plot, Chi-Square Test, Pearson Cor
 
 ### Community 4 - "Script Build NPM"
 Cohesion: 0.08
-Nodes (24): browserslist, dependencies, autoprefixer, bootstrap, bootstrap-icons, bootswatch, chart.js, @hotwired/stimulus (+16 more)
+Nodes (23): browserslist, dependencies, autoprefixer, bootstrap, bootstrap-icons, bootswatch, @hotwired/stimulus, @hotwired/turbo-rails (+15 more)
 
 ### Community 5 - "Config Ambienti e Solid Stack"
 Cohesion: 0.22
@@ -152,7 +152,7 @@ Nodes (11): Action Cable adapter configuration, Rails cache store configuration,
 
 ### Community 6 - "Stimulus Controllers e Flash"
 Cohesion: 0.16
-Nodes (8): Application, application, connect(), percentageLabelsPlugin(), successColor(), warningColor(), HelloController (Stimulus), Stimulus controllers manifest (index.js)
+Nodes (7): Bootstrap Alert Component API, Application, application, connect(), disconnect(), HelloController (Stimulus), Stimulus controllers manifest (index.js)
 
 ### Community 7 - "Dipendenze Frontend (package.json)"
 Cohesion: 0.06
@@ -205,7 +205,7 @@ Nodes (3): IntegrationFlcUploadsController, ComparisonService, success?()
   config/routes.rb · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **141 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+136 more)
+- **140 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+135 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **66 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -220,9 +220,9 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.010) - this node is a cross-community bridge._
 - **Why does `User` connect `Modello User e Autenticazione` to `Pundit e Controlli Autorizzazione Admin`?**
   _High betweenness centrality (0.009) - this node is a cross-community bridge._
+- **Why does `Bootstrap CSS Framework` connect `Documentazione (README, LICENCE, locale IT)` to `Stimulus Controllers e Flash`?**
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `esbuild` to the rest of the system?**
-  _144 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _143 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Modello User e Autenticazione` be split into smaller, more focused modules?**
   _Cohesion score 0.12987012987012986 - nodes in this community are weakly interconnected._
-- **Should `Pundit e Controlli Autorizzazione Admin` be split into smaller, more focused modules?**
-  _Cohesion score 0.13105413105413105 - nodes in this community are weakly interconnected._

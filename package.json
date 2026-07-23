@@ -19,6 +19,7 @@
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
     "bootswatch": "^5.3.8",
+    "chart.js": "^4.5.1",
     "nodemon": "^3.1.14",
     "postcss": "^8.5.19",
     "postcss-cli": "^11.0.1",
