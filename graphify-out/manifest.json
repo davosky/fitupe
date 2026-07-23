@@ -903,5 +903,15 @@
     "mtime": 1784736044.995429,
     "ast_hash": "31cd9481164c1e3f7782057ac57be0c5",
     "semantic_hash": ""
+  },
+  "/home/davo/Programmazione/fitupe/app/assets/images/statistic/regionale.svg": {
+    "mtime": 1784793926.814748,
+    "ast_hash": "e428e4e15cc47f2eda03e7456365fe6d",
+    "semantic_hash": ""
+  },
+  "/home/davo/Programmazione/fitupe/app/assets/images/statistic/comprensori.svg": {
+    "mtime": 1784794068.6989074,
+    "ast_hash": "96c34d5401641c341ab6e519f7eb2386",
+    "semantic_hash": ""
   }
 }
