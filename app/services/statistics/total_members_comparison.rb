@@ -26,12 +26,38 @@ module Statistics
     private
 
     def period_exists?(anno)
-      Import.exists?(azzonamento_di_riferimento_id: @zoning.id, anno_di_riferimento: anno, mese_di_riferimento: @mese)
+      scope_for(anno).exists?
     end
 
     def count_for(anno)
-      Import.where(azzonamento_di_riferimento_id: @zoning.id, anno_di_riferimento: anno,
-        mese_di_riferimento: @mese).count
+      scope_for(anno).count
+    end
+
+    # Se non esiste alcuna importazione per l'azzonamento scelto (es. "GB"),
+    # cerca un'importazione registrata sotto l'azzonamento superiore (es. "G")
+    # e filtra i record tramite codice_azzonamento_completo.
+    def scope_for(anno)
+      exact_scope = Import.where(azzonamento_di_riferimento_id: @zoning.id, anno_di_riferimento: anno,
+        mese_di_riferimento: @mese)
+      return exact_scope if exact_scope.exists?
+
+      regional_scope(anno)
+    end
+
+    def regional_scope(anno)
+      return Import.none if regional_zoning_id.nil?
+
+      Import.where(azzonamento_di_riferimento_id: regional_zoning_id, anno_di_riferimento: anno,
+        mese_di_riferimento: @mese).where("codice_azzonamento_completo LIKE ?", "#{@zoning.codice_azzonamento}%")
+    end
+
+    def regional_zoning_id
+      return @regional_zoning_id if defined?(@regional_zoning_id)
+
+      codice = @zoning.codice_azzonamento
+      @regional_zoning_id = if codice.present? && codice.length > 1
+        Zoning.find_by(codice_azzonamento: codice[0])&.id
+      end
     end
 
     def build_result

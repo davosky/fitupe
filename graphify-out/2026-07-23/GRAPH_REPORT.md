@@ -1,16 +1,16 @@
-# Graph Report - fitupe  (2026-07-23)
+# Graph Report - fitupe  (2026-07-22)
 
 ## Corpus Check
-- 128 files · ~40,196 words
+- 128 files · ~39,993 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 553 nodes · 506 edges · 141 communities (75 shown, 66 thin omitted)
+- 550 nodes · 500 edges · 141 communities (75 shown, 66 thin omitted)
 - Extraction: 86% EXTRACTED · 14% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `fac3f557`
+- Built from commit: `69607a22`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -110,7 +110,7 @@
 7. `ZoningsController` - 11 edges
 8. `ApplicationPolicy` - 10 edges
 9. `CsvImporterService` - 10 edges
-10. `TotalMembersComparison` - 10 edges
+10. `User` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Bootstrap Alert Component API` --conceptually_related_to--> `Bootstrap CSS Framework`  [INFERRED]

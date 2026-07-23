@@ -58,4 +58,42 @@ RSpec.describe Statistics::TotalMembersComparison do
       expect(result.count_anno).to eq(2)
     end
   end
+
+  context "quando l'azzonamento scelto non ha importazioni ma esiste quello superiore" do
+    let(:zoning) { create(:zoning, codice_azzonamento: "GB", descrizione_azzonamento: "Pordenone") }
+    let!(:regional_zoning) { create(:zoning, codice_azzonamento: "G", descrizione_azzonamento: "FVG") }
+
+    before do
+      create_list(:import, 3, azzonamento_di_riferimento: regional_zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno", codice_azzonamento_completo: "GB001")
+      create(:import, azzonamento_di_riferimento: regional_zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno", codice_azzonamento_completo: "GC001")
+      create_list(:import, 2, azzonamento_di_riferimento: regional_zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", codice_azzonamento_completo: "GB002")
+    end
+
+    it "recupera i dati dall'azzonamento superiore filtrando per codice_azzonamento_completo" do
+      expect(result).to be_success
+      expect(result.count_precedente).to eq(3)
+      expect(result.count_anno).to eq(2)
+    end
+  end
+
+  context "quando esiste sia l'importazione specifica che quella superiore" do
+    let(:zoning) { create(:zoning, codice_azzonamento: "GB", descrizione_azzonamento: "Pordenone") }
+
+    before do
+      create(:zoning, codice_azzonamento: "G", descrizione_azzonamento: "FVG")
+      create_list(:import, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno")
+      create_list(:import, 2, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno")
+    end
+
+    it "preferisce l'importazione specifica" do
+      expect(result).to be_success
+      expect(result.count_precedente).to eq(3)
+      expect(result.count_anno).to eq(2)
+    end
+  end
 end

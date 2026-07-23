@@ -885,8 +885,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistics/total_members_comparison_spec.rb": {
-    "mtime": 1784787339.9368613,
-    "ast_hash": "dd5834b40600186b0685ea03acf47ce8",
+    "mtime": 1784736310.223036,
+    "ast_hash": "de27d0c46c3cdf83509221034905d962",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/models/total_members_form_spec.rb": {
@@ -895,8 +895,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistics/total_members_comparison.rb": {
-    "mtime": 1784787328.5079103,
-    "ast_hash": "4d49d9e3b37eabde742b95fcebdd1a97",
+    "mtime": 1784736058.3228111,
+    "ast_hash": "3d1111443d12edbe7ffe653f5375f884",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/models/total_members_form.rb": {
