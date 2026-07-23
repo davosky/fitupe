@@ -191,4 +191,30 @@ RSpec.describe Statistics::TotalMembersComparison do
       expect(pensionati.count_anno).to eq(5)
     end
   end
+
+  context "quando esistono iscritti Delega e BreviManu" do
+    before do
+      create_list(:import, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno", tipologia_iscrizione: "Delega")
+      create_list(:import, 2, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno", tipologia_iscrizione: "BreviManu")
+      create_list(:import, 4, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", tipologia_iscrizione: "Delega")
+      create_list(:import, 1, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", tipologia_iscrizione: "BreviManu")
+    end
+
+    it "espone le righe Delega e BreviManu" do
+      expect(result).to be_success
+      expect(result.tipologie_iscrizione.map(&:tipologia)).to eq(%w[Delega BreviManu])
+
+      delega = result.tipologie_iscrizione.find { |row| row.tipologia == "Delega" }
+      expect(delega.count_precedente).to eq(3)
+      expect(delega.count_anno).to eq(4)
+
+      brevi_manu = result.tipologie_iscrizione.find { |row| row.tipologia == "BreviManu" }
+      expect(brevi_manu.count_precedente).to eq(2)
+      expect(brevi_manu.count_anno).to eq(1)
+    end
+  end
 end

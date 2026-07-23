@@ -535,15 +535,6 @@
       "norm_label": "anagrafe_csv_parser_spec.rb"
     },
     {
-      "label": "membership_type_breakdown_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/services/statistics/membership_type_breakdown_spec.rb",
-      "source_location": "L1",
-      "id": "spec_services_statistics_membership_type_breakdown_spec_rb",
-      "community": 148,
-      "norm_label": "membership_type_breakdown_spec.rb"
-    },
-    {
       "label": "employment_status_breakdown_spec.rb",
       "file_type": "code",
       "source_file": "spec/services/statistics/employment_status_breakdown_spec.rb",
@@ -1735,7 +1726,7 @@
       "label": "success?()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L6",
+      "source_location": "L5",
       "id": "statistics_total_members_comparison_success",
       "community": 137,
       "norm_label": "success?()"
@@ -1744,7 +1735,7 @@
       "label": ".call()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L13",
+      "source_location": "L12",
       "id": "statistics_total_members_comparison_totalmemberscomparison_call",
       "community": 137,
       "norm_label": ".call()"
@@ -1753,7 +1744,7 @@
       "label": ".initialize()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L15",
+      "source_location": "L14",
       "id": "statistics_total_members_comparison_totalmemberscomparison_initialize",
       "community": 137,
       "norm_label": ".initialize()"
@@ -1762,7 +1753,7 @@
       "label": ".period_exists?()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L31",
+      "source_location": "L30",
       "id": "statistics_total_members_comparison_totalmemberscomparison_period_exists",
       "community": 137,
       "norm_label": ".period_exists?()"
@@ -1771,7 +1762,7 @@
       "label": ".count_for()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L35",
+      "source_location": "L34",
       "id": "statistics_total_members_comparison_totalmemberscomparison_count_for",
       "community": 137,
       "norm_label": ".count_for()"
@@ -1780,7 +1771,7 @@
       "label": ".scope_for()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L39",
+      "source_location": "L38",
       "id": "statistics_total_members_comparison_totalmemberscomparison_scope_for",
       "community": 137,
       "norm_label": ".scope_for()"
@@ -1789,7 +1780,7 @@
       "label": ".build_result()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L43",
+      "source_location": "L42",
       "id": "statistics_total_members_comparison_totalmemberscomparison_build_result",
       "community": 137,
       "norm_label": ".build_result()"
@@ -1798,7 +1789,7 @@
       "label": ".build_row()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L52",
+      "source_location": "L51",
       "id": "statistics_total_members_comparison_totalmemberscomparison_build_row",
       "community": 137,
       "norm_label": ".build_row()"
@@ -1807,7 +1798,7 @@
       "label": ".comprensori()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L63",
+      "source_location": "L62",
       "id": "statistics_total_members_comparison_totalmemberscomparison_comprensori",
       "community": 137,
       "norm_label": ".comprensori()"
@@ -1816,7 +1807,7 @@
       "label": ".regionale?()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L69",
+      "source_location": "L68",
       "id": "statistics_total_members_comparison_totalmemberscomparison_regionale",
       "community": 137,
       "norm_label": ".regionale?()"
@@ -1825,7 +1816,7 @@
       "label": ".province_zonings()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L73",
+      "source_location": "L72",
       "id": "statistics_total_members_comparison_totalmemberscomparison_province_zonings",
       "community": 137,
       "norm_label": ".province_zonings()"
@@ -1834,7 +1825,7 @@
       "label": ".categorie()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L78",
+      "source_location": "L77",
       "id": "statistics_total_members_comparison_totalmemberscomparison_categorie",
       "community": 137,
       "norm_label": ".categorie()"
@@ -1843,25 +1834,16 @@
       "label": ".attivi_pensionati()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L82",
+      "source_location": "L81",
       "id": "statistics_total_members_comparison_totalmemberscomparison_attivi_pensionati",
       "community": 137,
       "norm_label": ".attivi_pensionati()"
     },
     {
-      "label": ".tipologie_iscrizione()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L86",
-      "id": "statistics_total_members_comparison_totalmemberscomparison_tipologie_iscrizione",
-      "community": 137,
-      "norm_label": ".tipologie_iscrizione()"
-    },
-    {
       "label": ".missing_data_result()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L90",
+      "source_location": "L85",
       "id": "statistics_total_members_comparison_totalmemberscomparison_missing_data_result",
       "community": 137,
       "norm_label": ".missing_data_result()"
@@ -1919,60 +1901,6 @@
       "id": "statistics_zoning_period_scope_zoningperiodscope_regional_zoning_id",
       "community": 142,
       "norm_label": ".regional_zoning_id()"
-    },
-    {
-      "label": "membership_type_breakdown.rb",
-      "file_type": "code",
-      "source_file": "app/services/statistics/membership_type_breakdown.rb",
-      "source_location": "L1",
-      "id": "app_services_statistics_membership_type_breakdown_rb",
-      "community": 147,
-      "norm_label": "membership_type_breakdown.rb"
-    },
-    {
-      "label": "MembershipTypeBreakdown",
-      "file_type": "code",
-      "source_file": "app/services/statistics/membership_type_breakdown.rb",
-      "source_location": "L5",
-      "id": "statistics_membership_type_breakdown_membershiptypebreakdown",
-      "community": 147,
-      "norm_label": "membershiptypebreakdown"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/membership_type_breakdown.rb",
-      "source_location": "L10",
-      "id": "statistics_membership_type_breakdown_membershiptypebreakdown_call",
-      "community": 147,
-      "norm_label": ".call()"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/membership_type_breakdown.rb",
-      "source_location": "L12",
-      "id": "statistics_membership_type_breakdown_membershiptypebreakdown_initialize",
-      "community": 147,
-      "norm_label": ".initialize()"
-    },
-    {
-      "label": ".build_row()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/membership_type_breakdown.rb",
-      "source_location": "L25",
-      "id": "statistics_membership_type_breakdown_membershiptypebreakdown_build_row",
-      "community": 147,
-      "norm_label": ".build_row()"
-    },
-    {
-      "label": ".count_for()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/membership_type_breakdown.rb",
-      "source_location": "L34",
-      "id": "statistics_membership_type_breakdown_membershiptypebreakdown_count_for",
-      "community": 147,
-      "norm_label": ".count_for()"
     },
     {
       "label": "application_helper.rb",
@@ -7767,9 +7695,9 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistics_employment_status_breakdown_rb",
-      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown"
+      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7777,9 +7705,9 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_employmentstatusbreakdown",
-      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_call"
+      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7787,9 +7715,9 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_employmentstatusbreakdown",
-      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_initialize"
+      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7797,9 +7725,9 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L25",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_employmentstatusbreakdown",
-      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_build_row"
+      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7807,9 +7735,9 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_employmentstatusbreakdown",
-      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_count_for"
+      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_count_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7817,9 +7745,9 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L44",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_employmentstatusbreakdown",
-      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_categoria_column"
+      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_categoria_column",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7828,9 +7756,9 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_employmentstatusbreakdown_call",
-      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_build_row"
+      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7839,9 +7767,9 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L35",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_employmentstatusbreakdown_count_for",
-      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_call"
+      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7850,9 +7778,9 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_employmentstatusbreakdown_build_row",
-      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_count_for"
+      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_count_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7861,9 +7789,9 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_employmentstatusbreakdown_count_for",
-      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_categoria_column"
+      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_categoria_column",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8146,18 +8074,8 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L81",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_attivi_pensionati"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L86",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_tipologie_iscrizione",
+      "target": "statistics_total_members_comparison_totalmemberscomparison_attivi_pensionati",
       "confidence_score": 1.0
     },
     {
@@ -8241,18 +8159,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L82",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison_attivi_pensionati",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_call"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L87",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison_tipologie_iscrizione",
       "target": "statistics_total_members_comparison_totalmemberscomparison_call",
       "confidence_score": 1.0
     },
@@ -8393,89 +8300,6 @@
       "confidence_score": 1.0,
       "source": "statistics_zoning_period_scope_zoningperiodscope",
       "target": "statistics_zoning_period_scope_zoningperiodscope_regional_zoning_id"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/membership_type_breakdown.rb",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "app_services_statistics_membership_type_breakdown_rb",
-      "target": "statistics_membership_type_breakdown_membershiptypebreakdown",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/membership_type_breakdown.rb",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "statistics_membership_type_breakdown_membershiptypebreakdown",
-      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/membership_type_breakdown.rb",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "statistics_membership_type_breakdown_membershiptypebreakdown",
-      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/membership_type_breakdown.rb",
-      "source_location": "L25",
-      "weight": 1.0,
-      "source": "statistics_membership_type_breakdown_membershiptypebreakdown",
-      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_build_row",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/membership_type_breakdown.rb",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "statistics_membership_type_breakdown_membershiptypebreakdown",
-      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_count_for",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/membership_type_breakdown.rb",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "statistics_membership_type_breakdown_membershiptypebreakdown_call",
-      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_build_row",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/membership_type_breakdown.rb",
-      "source_location": "L35",
-      "weight": 1.0,
-      "source": "statistics_membership_type_breakdown_membershiptypebreakdown_count_for",
-      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/membership_type_breakdown.rb",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "statistics_membership_type_breakdown_membershiptypebreakdown_build_row",
-      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_count_for",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11903,5 +11727,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "d7a1973978269fc209d7fc0b7948a48ba771a2a6"
+  "built_at_commit": "d66a419954cb4018344bd55269a4964717facf0d"
 }

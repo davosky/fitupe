@@ -209,6 +209,46 @@
           </div>
         </div>
       <% end %>
+      <% if @total_members_result.tipologie_iscrizione.present? %>
+        <div class="card border-dark p-3 m-2 shadow-sm">
+          <h4>
+            <span class="p-2 fw-bold fst-italic">
+              <%= image_tag("statistic/tipologieiscrizione.svg", class: "img-fluid me-1", size: "48x48", alt: "tipologie iscrizione") %>
+              Tipologie Iscrizione
+            </span>
+          </h4>
+          <hr class="mt-2 mb-2"/>
+          <div class="table-responsive">
+            <table class="table table-hover align-middle">
+              <thead>
+                <tr>
+                  <th class="fs-5">Tipologia Iscrizioni</th>
+                  <th class="fs-5"><%= @total_members_result.mese %> <%= @total_members_result.anno_precedente %></th>
+                  <th class="fs-5"><%= @total_members_result.mese %> <%= @total_members_result.anno %></th>
+                  <th class="fs-5"><i>iscritti</i></th>
+                  <th class="fs-5"><i>%</i></th>
+                </tr>
+              </thead>
+              <tbody>
+                <% @total_members_result.tipologie_iscrizione.each do |tipologia| %>
+                  <% tipologia_diff_class = tipologia.diff.negative? ? "text-danger" : "text-success" %>
+                  <tr>
+                    <td class="fs-5"><%= tipologia.tipologia %></td>
+                    <td class="fs-5"><%= number_with_delimiter(tipologia.count_precedente, locale: :it) %></td>
+                    <td class="fs-5"><%= number_with_delimiter(tipologia.count_anno, locale: :it) %></td>
+                    <td class="fs-5 <%= tipologia_diff_class %>"><%= number_with_delimiter(tipologia.diff, locale: :it) %></td>
+                    <td class="fs-5 <%= tipologia_diff_class %>">
+                      <% if tipologia.diff_percent %>
+                        <%= number_to_percentage(tipologia.diff_percent, precision: 2, locale: :it) %>
+                      <% end %>
+                    </td>
+                  </tr>
+                <% end %>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      <% end %>
     <% else %>
       <div class="alert alert-warning mb-0">
         <i class="bi bi-exclamation-triangle-fill me-2"></i>

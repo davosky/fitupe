@@ -1,16 +1,16 @@
 # Graph Report - fitupe  (2026-07-23)
 
 ## Corpus Check
-- 137 files · ~60,823 words
+- 135 files · ~59,943 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 606 nodes · 578 edges · 149 communities (79 shown, 70 thin omitted)
+- 598 nodes · 568 edges · 147 communities (78 shown, 69 thin omitted)
 - Extraction: 88% EXTRACTED · 12% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d7a19739`
+- Built from commit: `d66a4199`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -102,10 +102,9 @@
 - [[_COMMUNITY_Community 141|Community 141]]
 - [[_COMMUNITY_Community 142|Community 142]]
 - [[_COMMUNITY_Community 145|Community 145]]
-- [[_COMMUNITY_Community 147|Community 147]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `TotalMembersComparison` - 17 edges
+1. `TotalMembersComparison` - 16 edges
 2. `CLAUDE.md — Guida per Claude Code` - 15 edges
 3. `ComparisonService` - 13 edges
 4. `ImportsController` - 13 edges
@@ -128,7 +127,7 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (149 total, 70 thin omitted)
+## Communities (147 total, 69 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
@@ -211,7 +210,7 @@ Nodes (3): IntegrationFlcUploadsController, ComparisonService, success?()
 ## Knowledge Gaps
 - **141 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+136 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **70 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **69 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -221,7 +220,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **What is the exact relationship between `Devise.setup configuration (username auth)` and `Admin namespace routes (users)`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
 - **Why does `authenticate_admin` connect `Pundit e Controlli Autorizzazione Admin` to `Modello User e Autenticazione`?**
-  _High betweenness centrality (0.008) - this node is a cross-community bridge._
+  _High betweenness centrality (0.009) - this node is a cross-community bridge._
 - **Why does `User` connect `Modello User e Autenticazione` to `Pundit e Controlli Autorizzazione Admin`?**
   _High betweenness centrality (0.008) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `esbuild` to the rest of the system?**
