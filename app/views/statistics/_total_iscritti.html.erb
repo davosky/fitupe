@@ -103,7 +103,7 @@
                 </tbody>
               </table>
             </div>
-            <div class="mt-4" style="position: relative; height: 320px;"
+            <div class="mt-4 mx-auto" style="position: relative; height: 320px; width: 100%; max-width: 700px;"
               data-controller="comprensori-chart"
               data-comprensori-chart-labels-value="<%= @total_members_result.comprensori.map { |c| c.zoning.descrizione_azzonamento }.to_json %>"
               data-comprensori-chart-previous-data-value="<%= @total_members_result.comprensori.map(&:count_precedente).to_json %>"
