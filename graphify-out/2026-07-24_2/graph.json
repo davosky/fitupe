@@ -3694,51 +3694,6 @@
       "norm_label": "licenza"
     },
     {
-      "label": "CHANGELOG.md",
-      "file_type": "document",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L1",
-      "id": "changelog_md",
-      "community": 150,
-      "norm_label": "changelog.md"
-    },
-    {
-      "label": "Changelog",
-      "file_type": "document",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L1",
-      "id": "fitupe_changelog_changelog",
-      "community": 150,
-      "norm_label": "changelog"
-    },
-    {
-      "label": "[Non rilasciato]",
-      "file_type": "document",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L7",
-      "id": "fitupe_changelog_non_rilasciato",
-      "community": 150,
-      "norm_label": "[non rilasciato]"
-    },
-    {
-      "label": "Aggiunto",
-      "file_type": "document",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L9",
-      "id": "fitupe_changelog_aggiunto",
-      "community": 150,
-      "norm_label": "aggiunto"
-    },
-    {
-      "label": "Modificato",
-      "file_type": "document",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L13",
-      "id": "fitupe_changelog_modificato",
-      "community": 150,
-      "norm_label": "modificato"
-    },
-    {
       "label": "LICENCE.md",
       "file_type": "document",
       "source_file": "LICENCE.md",
@@ -8738,9 +8693,9 @@
       "source_file": "app/javascript/controllers/comparison_chart_controller.js",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_comparison_chart_controller_js",
-      "target": "controllers_comparison_chart_controller_dangercolor"
+      "target": "controllers_comparison_chart_controller_dangercolor",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10339,46 +10294,6 @@
       "confidence_score": 1.0,
       "source": "fitupe_readme_avvio_del_progetto",
       "target": "fitupe_readme_codeblock_1"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "changelog_md",
-      "target": "fitupe_changelog_changelog",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "fitupe_changelog_changelog",
-      "target": "fitupe_changelog_non_rilasciato",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "fitupe_changelog_non_rilasciato",
-      "target": "fitupe_changelog_aggiunto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "fitupe_changelog_non_rilasciato",
-      "target": "fitupe_changelog_modificato",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -12016,5 +11931,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "36cace71ff069d1dd1f24cdbdd393d26d70233d6"
+  "built_at_commit": "f89dc7d2627183b8d9452c7e2e3e556b49244ddb"
 }

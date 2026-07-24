@@ -1,16 +1,16 @@
 # Graph Report - fitupe  (2026-07-24)
 
 ## Corpus Check
-- 139 files · ~61,424 words
+- 138 files · ~61,304 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 613 nodes · 583 edges · 151 communities (81 shown, 70 thin omitted)
+- 608 nodes · 579 edges · 150 communities (80 shown, 70 thin omitted)
 - Extraction: 88% EXTRACTED · 12% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `36cace71`
+- Built from commit: `f89dc7d2`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -103,7 +103,6 @@
 - [[_COMMUNITY_Community 142|Community 142]]
 - [[_COMMUNITY_Community 145|Community 145]]
 - [[_COMMUNITY_Community 147|Community 147]]
-- [[_COMMUNITY_Community 150|Community 150]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `TotalMembersComparison` - 17 edges
@@ -129,7 +128,7 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (151 total, 70 thin omitted)
+## Communities (150 total, 70 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
@@ -203,10 +202,6 @@ Nodes (3): SchemaSyncService, AddLockableToUsers, AddCategoriaToImports
 Cohesion: 0.10
 Nodes (3): IntegrationFlcUploadsController, ComparisonService, success?()
 
-### Community 150 - "Community 150"
-Cohesion: 0.40
-Nodes (4): Aggiunto, Changelog, Modificato, [Non rilasciato]
-
 ## Ambiguous Edges - Review These
 - `Anti-Patterns to Avoid` → `PostgreSQL Database Config`  [AMBIGUOUS]
   CLAUDE.md · relation: conceptually_related_to
@@ -214,7 +209,7 @@ Nodes (4): Aggiunto, Changelog, Modificato, [Non rilasciato]
   config/routes.rb · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **143 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+138 more)
+- **141 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+136 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **70 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -230,7 +225,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `User` connect `Modello User e Autenticazione` to `Pundit e Controlli Autorizzazione Admin`?**
   _High betweenness centrality (0.008) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `esbuild` to the rest of the system?**
-  _146 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _144 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Modello User e Autenticazione` be split into smaller, more focused modules?**
   _Cohesion score 0.12987012987012986 - nodes in this community are weakly interconnected._
 - **Should `Pundit e Controlli Autorizzazione Admin` be split into smaller, more focused modules?**
