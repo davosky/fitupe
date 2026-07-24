@@ -200,15 +200,43 @@
               </tbody>
             </table>
           </div>
-          <div class="mt-4 mx-auto" style="position: relative; height: 320px; width: 100%; max-width: 700px;"
-              data-controller="comparison-chart"
-              data-comparison-chart-labels-value="<%= @total_members_result.attivi_pensionati.map(&:gruppo).to_json %>"
-              data-comparison-chart-previous-data-value="<%= @total_members_result.attivi_pensionati.map(&:count_precedente).to_json %>"
-              data-comparison-chart-current-data-value="<%= @total_members_result.attivi_pensionati.map(&:count_anno).to_json %>"
-              data-comparison-chart-percentages-value="<%= @total_members_result.attivi_pensionati.map(&:diff_percent).to_json %>"
-              data-comparison-chart-previous-label-value="<%= @total_members_result.mese %> <%= @total_members_result.anno_precedente %>"
-              data-comparison-chart-current-label-value="<%= @total_members_result.mese %> <%= @total_members_result.anno %>">
-            <canvas data-comparison-chart-target="canvas"></canvas>
+          <div class="row align-items-center mt-4">
+            <div class="col-md-8">
+              <div class="mx-auto" style="position: relative; height: 320px; width: 100%; max-width: 700px;"
+                  data-controller="comparison-chart"
+                  data-comparison-chart-labels-value="<%= @total_members_result.attivi_pensionati.map(&:gruppo).to_json %>"
+                  data-comparison-chart-previous-data-value="<%= @total_members_result.attivi_pensionati.map(&:count_precedente).to_json %>"
+                  data-comparison-chart-current-data-value="<%= @total_members_result.attivi_pensionati.map(&:count_anno).to_json %>"
+                  data-comparison-chart-percentages-value="<%= @total_members_result.attivi_pensionati.map(&:diff_percent).to_json %>"
+                  data-comparison-chart-previous-label-value="<%= @total_members_result.mese %> <%= @total_members_result.anno_precedente %>"
+                  data-comparison-chart-current-label-value="<%= @total_members_result.mese %> <%= @total_members_result.anno %>">
+                <canvas data-comparison-chart-target="canvas"></canvas>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="table-responsive">
+                <table class="table table-hover align-middle">
+                  <thead>
+                    <tr>
+                      <th class="fs-5">Gruppo</th>
+                      <th class="fs-5"><i>% sul totale iscritti</i></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <% @total_members_result.attivi_pensionati.each do |gruppo| %>
+                      <tr>
+                        <td class="fs-5"><%= gruppo.gruppo %></td>
+                        <td class="fs-5">
+                          <% if gruppo.percentuale %>
+                            <%= number_to_percentage(gruppo.percentuale, precision: 2, locale: :it) %>
+                          <% end %>
+                        </td>
+                      </tr>
+                    <% end %>
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
         </div>
       <% end %>
@@ -381,6 +409,110 @@
               data-pie-chart-labels-value="<%= @total_members_result.sesso.map(&:sesso).to_json %>"
               data-pie-chart-data-value="<%= @total_members_result.sesso.map(&:count).to_json %>">
             <canvas data-pie-chart-target="canvas"></canvas>
+          </div>
+        </div>
+      <% end %>
+      <% if @total_members_result.provvisorie_revoche.present? %>
+        <div class="card border-dark p-3 m-2 shadow-sm">
+          <h4>
+            <span class="p-2 fw-bold fst-italic">
+              <%= image_tag("statistic/provvisorierevoche.svg", class: "img-fluid me-1", size: "48x48", alt: "provvisorie e revoche") %>
+              Provvisorie / Revoche
+            </span>
+          </h4>
+          <hr class="mt-2 mb-2"/>
+          <div class="table-responsive">
+            <table class="table table-hover align-middle">
+              <thead>
+                <tr>
+                  <th class="fs-5">Tipologia</th>
+                  <th class="fs-5"><%= @total_members_result.mese %> <%= @total_members_result.anno %></th>
+                </tr>
+              </thead>
+              <tbody>
+                <% @total_members_result.provvisorie_revoche.each do |riga| %>
+                  <tr>
+                    <td class="fs-5"><%= riga.tipologia %></td>
+                    <td class="fs-5"><%= number_with_delimiter(riga.count, locale: :it) %></td>
+                  </tr>
+                <% end %>
+              </tbody>
+            </table>
+          </div>
+          <div class="row align-items-center mt-4">
+            <div class="col-md-8">
+              <div class="mx-auto" style="position: relative; height: 320px; width: 100%; max-width: 500px;"
+                  data-controller="bar-chart"
+                  data-bar-chart-labels-value="<%= @total_members_result.provvisorie_revoche.map(&:tipologia).to_json %>"
+                  data-bar-chart-data-value="<%= @total_members_result.provvisorie_revoche.map(&:count).to_json %>">
+                <canvas data-bar-chart-target="canvas"></canvas>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="table-responsive">
+                <table class="table table-hover align-middle">
+                  <thead>
+                    <tr>
+                      <th class="fs-5">Tipologia</th>
+                      <th class="fs-5"><i>% sul totale iscritti</i></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <% @total_members_result.provvisorie_revoche.each do |riga| %>
+                      <tr>
+                        <td class="fs-5"><%= riga.tipologia %></td>
+                        <td class="fs-5">
+                          <% if riga.percentuale %>
+                            <%= number_to_percentage(riga.percentuale, precision: 2, locale: :it) %>
+                          <% end %>
+                        </td>
+                      </tr>
+                    <% end %>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      <% end %>
+      <% if @total_members_result.status_lavorativo.present? %>
+        <div class="card border-dark p-3 m-2 shadow-sm">
+          <h4>
+            <span class="p-2 fw-bold fst-italic">
+              <%= image_tag("statistic/statuslavorativo.svg", class: "img-fluid me-1", size: "48x48", alt: "status lavorativo") %>
+              Status Lavorativo
+            </span>
+          </h4>
+          <hr class="mt-2 mb-2"/>
+          <div class="table-responsive">
+            <table class="table table-hover align-middle">
+              <thead>
+                <tr>
+                  <th class="fs-5">Tipologia Status</th>
+                  <th class="fs-5"><%= @total_members_result.mese %> <%= @total_members_result.anno %></th>
+                  <th class="fs-5"><i>%</i></th>
+                </tr>
+              </thead>
+              <tbody>
+                <% @total_members_result.status_lavorativo.each do |riga| %>
+                  <tr>
+                    <td class="fs-5"><%= riga.tipologia_status %></td>
+                    <td class="fs-5"><%= number_with_delimiter(riga.count, locale: :it) %></td>
+                    <td class="fs-5">
+                      <% if riga.percentuale %>
+                        <%= number_to_percentage(riga.percentuale, precision: 2, locale: :it) %>
+                      <% end %>
+                    </td>
+                  </tr>
+                <% end %>
+              </tbody>
+            </table>
+          </div>
+          <div class="mt-4 mx-auto" style="position: relative; height: 400px; width: 100%; max-width: 1200px;"
+              data-controller="bar-chart"
+              data-bar-chart-labels-value="<%= @total_members_result.status_lavorativo.map(&:tipologia_status).to_json %>"
+              data-bar-chart-data-value="<%= @total_members_result.status_lavorativo.map(&:count).to_json %>">
+            <canvas data-bar-chart-target="canvas"></canvas>
           </div>
         </div>
       <% end %>

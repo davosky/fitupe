@@ -1,16 +1,16 @@
 # Graph Report - fitupe  (2026-07-24)
 
 ## Corpus Check
-- 151 files · ~65,665 words
+- 146 files · ~63,736 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 675 nodes · 657 edges · 161 communities (86 shown, 75 thin omitted)
+- 650 nodes · 627 edges · 157 communities (84 shown, 73 thin omitted)
 - Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8d31f638`
+- Built from commit: `b75db830`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -107,11 +107,9 @@
 - [[_COMMUNITY_Community 151|Community 151]]
 - [[_COMMUNITY_Community 153|Community 153]]
 - [[_COMMUNITY_Community 155|Community 155]]
-- [[_COMMUNITY_Community 157|Community 157]]
-- [[_COMMUNITY_Community 158|Community 158]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `TotalMembersComparison` - 22 edges
+1. `TotalMembersComparison` - 20 edges
 2. `CLAUDE.md — Guida per Claude Code` - 15 edges
 3. `ComparisonService` - 13 edges
 4. `ImportsController` - 13 edges
@@ -134,7 +132,7 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (161 total, 75 thin omitted)
+## Communities (157 total, 73 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
@@ -161,8 +159,8 @@ Cohesion: 0.22
 Nodes (11): Action Cable adapter configuration, Rails cache store configuration, PostgreSQL database connections configuration, Kamal deploy configuration, Puma server configuration, Solid Queue worker/dispatcher configuration, Recurring scheduled jobs (Solid Queue), Active Storage services configuration (+3 more)
 
 ### Community 6 - "Stimulus Controllers e Flash"
-Cohesion: 0.07
-Nodes (20): Application, application, colors(), connect(), valueLabelsPlugin(), connect(), percentageLabelsPlugin(), successColor() (+12 more)
+Cohesion: 0.08
+Nodes (17): Application, application, connect(), percentageLabelsPlugin(), successColor(), warningColor(), connect(), percentageLabelsPlugin() (+9 more)
 
 ### Community 7 - "Dipendenze Frontend (package.json)"
 Cohesion: 0.06
@@ -221,7 +219,7 @@ Nodes (4): Aggiunto, Changelog, Modificato, [Non rilasciato]
 ## Knowledge Gaps
 - **143 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+138 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **75 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **73 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -232,11 +230,11 @@ _Questions this graph is uniquely positioned to answer:_
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
 - **Why does `authenticate_admin` connect `Pundit e Controlli Autorizzazione Admin` to `Modello User e Autenticazione`?**
   _High betweenness centrality (0.007) - this node is a cross-community bridge._
+- **Why does `User` connect `Modello User e Autenticazione` to `Pundit e Controlli Autorizzazione Admin`?**
+  _High betweenness centrality (0.007) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `esbuild` to the rest of the system?**
   _146 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Modello User e Autenticazione` be split into smaller, more focused modules?**
   _Cohesion score 0.12987012987012986 - nodes in this community are weakly interconnected._
 - **Should `Pundit e Controlli Autorizzazione Admin` be split into smaller, more focused modules?**
   _Cohesion score 0.13105413105413105 - nodes in this community are weakly interconnected._
-- **Should `Documentazione (README, LICENCE, locale IT)` be split into smaller, more focused modules?**
-  _Cohesion score 0.06477732793522267 - nodes in this community are weakly interconnected._

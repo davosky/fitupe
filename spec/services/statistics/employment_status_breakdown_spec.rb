@@ -25,12 +25,14 @@ RSpec.describe Statistics::EmploymentStatusBreakdown do
     attivi = rows.find { |row| row.gruppo == "Attivi" }
     expect(attivi.count_precedente).to eq(5)
     expect(attivi.count_anno).to eq(4)
+    expect(attivi.percentuale).to be_within(0.01).of(40.0)
 
     pensionati = rows.find { |row| row.gruppo == "Pensionati" }
     expect(pensionati.count_precedente).to eq(5)
     expect(pensionati.count_anno).to eq(6)
     expect(pensionati.diff).to eq(1)
     expect(pensionati.diff_percent).to be_within(0.01).of(20.0)
+    expect(pensionati.percentuale).to be_within(0.01).of(60.0)
   end
 
   it "conta come Attivi i record senza categoria" do

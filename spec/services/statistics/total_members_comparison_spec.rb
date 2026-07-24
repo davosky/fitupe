@@ -185,10 +185,12 @@ RSpec.describe Statistics::TotalMembersComparison do
       attivi = result.attivi_pensionati.find { |row| row.gruppo == "Attivi" }
       expect(attivi.count_precedente).to eq(2)
       expect(attivi.count_anno).to eq(4)
+      expect(attivi.percentuale).to be_within(0.01).of(44.44)
 
       pensionati = result.attivi_pensionati.find { |row| row.gruppo == "Pensionati" }
       expect(pensionati.count_precedente).to eq(3)
       expect(pensionati.count_anno).to eq(5)
+      expect(pensionati.percentuale).to be_within(0.01).of(55.56)
     end
   end
 
@@ -280,6 +282,50 @@ RSpec.describe Statistics::TotalMembersComparison do
       femmine = result.sesso.find { |row| row.sesso == "FEMMINE" }
       expect(femmine.count).to eq(3)
       expect(femmine.percentuale).to be_within(0.01).of(75.0)
+    end
+  end
+
+  context "quando esistono pratiche provvisorie e revoche" do
+    before do
+      create_list(:import, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno")
+      create_list(:import, 2, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", provvisoria: "SI")
+      create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", motivo_cessazione_iscrizione: "Revoca")
+    end
+
+    it "espone le righe Provvisorie e Revoche senza confronto con l'anno precedente" do
+      expect(result).to be_success
+      expect(result.provvisorie_revoche.map(&:tipologia)).to eq(%w[Provvisorie Revoche])
+
+      provvisorie = result.provvisorie_revoche.find { |row| row.tipologia == "Provvisorie" }
+      expect(provvisorie.count).to eq(2)
+      expect(provvisorie.percentuale).to be_within(0.01).of(66.67)
+
+      revoche = result.provvisorie_revoche.find { |row| row.tipologia == "Revoche" }
+      expect(revoche.count).to eq(1)
+      expect(revoche.percentuale).to be_within(0.01).of(33.33)
+    end
+  end
+
+  context "quando esistono iscritti con diversi status lavorativi" do
+    before do
+      create_list(:import, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno")
+      create_list(:import, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", tipologia_status: "Dipendente")
+      create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", tipologia_status: "Pensionato")
+    end
+
+    it "espone una riga per ciascuno status, in ordine alfabetico e senza confronto con l'anno precedente" do
+      expect(result).to be_success
+      expect(result.status_lavorativo.map(&:tipologia_status)).to eq(%w[Dipendente Pensionato])
+
+      dipendente = result.status_lavorativo.find { |row| row.tipologia_status == "Dipendente" }
+      expect(dipendente.count).to eq(3)
+      expect(dipendente.percentuale).to be_within(0.01).of(75.0)
     end
   end
 end

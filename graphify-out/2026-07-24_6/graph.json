@@ -553,15 +553,6 @@
       "norm_label": "membership_type_breakdown_spec.rb"
     },
     {
-      "label": "work_status_breakdown_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/services/statistics/work_status_breakdown_spec.rb",
-      "source_location": "L1",
-      "id": "spec_services_statistics_work_status_breakdown_spec_rb",
-      "community": 160,
-      "norm_label": "work_status_breakdown_spec.rb"
-    },
-    {
       "label": "nationality_breakdown_spec.rb",
       "file_type": "code",
       "source_file": "spec/services/statistics/nationality_breakdown_spec.rb",
@@ -605,15 +596,6 @@
       "id": "spec_services_statistics_category_breakdown_spec_rb",
       "community": 143,
       "norm_label": "category_breakdown_spec.rb"
-    },
-    {
-      "label": "provisional_revocation_breakdown_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/services/statistics/provisional_revocation_breakdown_spec.rb",
-      "source_location": "L1",
-      "id": "spec_services_statistics_provisional_revocation_breakdown_spec_rb",
-      "community": 159,
-      "norm_label": "provisional_revocation_breakdown_spec.rb"
     },
     {
       "label": "gender_breakdown_spec.rb",
@@ -1717,25 +1699,16 @@
       "label": ".count_for()",
       "file_type": "code",
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
-      "source_location": "L35",
+      "source_location": "L34",
       "id": "statistics_employment_status_breakdown_employmentstatusbreakdown_count_for",
       "community": 145,
       "norm_label": ".count_for()"
     },
     {
-      "label": ".totale_anno()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/employment_status_breakdown.rb",
-      "source_location": "L41",
-      "id": "statistics_employment_status_breakdown_employmentstatusbreakdown_totale_anno",
-      "community": 145,
-      "norm_label": ".totale_anno()"
-    },
-    {
       "label": ".categoria_column()",
       "file_type": "code",
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
-      "source_location": "L49",
+      "source_location": "L44",
       "id": "statistics_employment_status_breakdown_employmentstatusbreakdown_categoria_column",
       "community": 145,
       "norm_label": ".categoria_column()"
@@ -1894,78 +1867,6 @@
       "norm_label": ".categoria_column()"
     },
     {
-      "label": "work_status_breakdown.rb",
-      "file_type": "code",
-      "source_file": "app/services/statistics/work_status_breakdown.rb",
-      "source_location": "L1",
-      "id": "app_services_statistics_work_status_breakdown_rb",
-      "community": 157,
-      "norm_label": "work_status_breakdown.rb"
-    },
-    {
-      "label": "WorkStatusBreakdown",
-      "file_type": "code",
-      "source_file": "app/services/statistics/work_status_breakdown.rb",
-      "source_location": "L8",
-      "id": "statistics_work_status_breakdown_workstatusbreakdown",
-      "community": 157,
-      "norm_label": "workstatusbreakdown"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/work_status_breakdown.rb",
-      "source_location": "L11",
-      "id": "statistics_work_status_breakdown_workstatusbreakdown_call",
-      "community": 157,
-      "norm_label": ".call()"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/work_status_breakdown.rb",
-      "source_location": "L13",
-      "id": "statistics_work_status_breakdown_workstatusbreakdown_initialize",
-      "community": 157,
-      "norm_label": ".initialize()"
-    },
-    {
-      "label": ".build_row()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/work_status_breakdown.rb",
-      "source_location": "L25",
-      "id": "statistics_work_status_breakdown_workstatusbreakdown_build_row",
-      "community": 157,
-      "norm_label": ".build_row()"
-    },
-    {
-      "label": ".counts()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/work_status_breakdown.rb",
-      "source_location": "L31",
-      "id": "statistics_work_status_breakdown_workstatusbreakdown_counts",
-      "community": 157,
-      "norm_label": ".counts()"
-    },
-    {
-      "label": ".totale()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/work_status_breakdown.rb",
-      "source_location": "L35",
-      "id": "statistics_work_status_breakdown_workstatusbreakdown_totale",
-      "community": 157,
-      "norm_label": ".totale()"
-    },
-    {
-      "label": ".scope()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/work_status_breakdown.rb",
-      "source_location": "L39",
-      "id": "statistics_work_status_breakdown_workstatusbreakdown_scope",
-      "community": 157,
-      "norm_label": ".scope()"
-    },
-    {
       "label": "total_members_comparison.rb",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
@@ -2050,7 +1951,7 @@
       "label": ".build_row()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L54",
+      "source_location": "L53",
       "id": "statistics_total_members_comparison_totalmemberscomparison_build_row",
       "community": 137,
       "norm_label": ".build_row()"
@@ -2059,7 +1960,7 @@
       "label": ".comprensori()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L65",
+      "source_location": "L64",
       "id": "statistics_total_members_comparison_totalmemberscomparison_comprensori",
       "community": 137,
       "norm_label": ".comprensori()"
@@ -2068,7 +1969,7 @@
       "label": ".regionale?()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L71",
+      "source_location": "L70",
       "id": "statistics_total_members_comparison_totalmemberscomparison_regionale",
       "community": 137,
       "norm_label": ".regionale?()"
@@ -2077,7 +1978,7 @@
       "label": ".province_zonings()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L75",
+      "source_location": "L74",
       "id": "statistics_total_members_comparison_totalmemberscomparison_province_zonings",
       "community": 137,
       "norm_label": ".province_zonings()"
@@ -2086,7 +1987,7 @@
       "label": ".categorie()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L80",
+      "source_location": "L79",
       "id": "statistics_total_members_comparison_totalmemberscomparison_categorie",
       "community": 137,
       "norm_label": ".categorie()"
@@ -2095,7 +1996,7 @@
       "label": ".attivi_pensionati()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L84",
+      "source_location": "L83",
       "id": "statistics_total_members_comparison_totalmemberscomparison_attivi_pensionati",
       "community": 137,
       "norm_label": ".attivi_pensionati()"
@@ -2104,7 +2005,7 @@
       "label": ".tipologie_iscrizione()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L88",
+      "source_location": "L87",
       "id": "statistics_total_members_comparison_totalmemberscomparison_tipologie_iscrizione",
       "community": 137,
       "norm_label": ".tipologie_iscrizione()"
@@ -2113,7 +2014,7 @@
       "label": ".tipologie_delega()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L92",
+      "source_location": "L91",
       "id": "statistics_total_members_comparison_totalmemberscomparison_tipologie_delega",
       "community": 137,
       "norm_label": ".tipologie_delega()"
@@ -2122,7 +2023,7 @@
       "label": ".nazionalita()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L96",
+      "source_location": "L95",
       "id": "statistics_total_members_comparison_totalmemberscomparison_nazionalita",
       "community": 137,
       "norm_label": ".nazionalita()"
@@ -2131,100 +2032,19 @@
       "label": ".sesso()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L100",
+      "source_location": "L99",
       "id": "statistics_total_members_comparison_totalmemberscomparison_sesso",
       "community": 137,
       "norm_label": ".sesso()"
     },
     {
-      "label": ".provvisorie_revoche()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L104",
-      "id": "statistics_total_members_comparison_totalmemberscomparison_provvisorie_revoche",
-      "community": 137,
-      "norm_label": ".provvisorie_revoche()"
-    },
-    {
-      "label": ".status_lavorativo()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L108",
-      "id": "statistics_total_members_comparison_totalmemberscomparison_status_lavorativo",
-      "community": 137,
-      "norm_label": ".status_lavorativo()"
-    },
-    {
       "label": ".missing_data_result()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L112",
+      "source_location": "L103",
       "id": "statistics_total_members_comparison_totalmemberscomparison_missing_data_result",
       "community": 137,
       "norm_label": ".missing_data_result()"
-    },
-    {
-      "label": "provisional_revocation_breakdown.rb",
-      "file_type": "code",
-      "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
-      "source_location": "L1",
-      "id": "app_services_statistics_provisional_revocation_breakdown_rb",
-      "community": 158,
-      "norm_label": "provisional_revocation_breakdown.rb"
-    },
-    {
-      "label": "ProvisionalRevocationBreakdown",
-      "file_type": "code",
-      "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
-      "source_location": "L6",
-      "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown",
-      "community": 158,
-      "norm_label": "provisionalrevocationbreakdown"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
-      "source_location": "L9",
-      "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_call",
-      "community": 158,
-      "norm_label": ".call()"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
-      "source_location": "L11",
-      "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_initialize",
-      "community": 158,
-      "norm_label": ".initialize()"
-    },
-    {
-      "label": ".build_row()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
-      "source_location": "L26",
-      "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_build_row",
-      "community": 158,
-      "norm_label": ".build_row()"
-    },
-    {
-      "label": ".totale_iscritti()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
-      "source_location": "L32",
-      "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_totale_iscritti",
-      "community": 158,
-      "norm_label": ".totale_iscritti()"
-    },
-    {
-      "label": ".scope()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
-      "source_location": "L36",
-      "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_scope",
-      "community": 158,
-      "norm_label": ".scope()"
     },
     {
       "label": "zoning_period_scope.rb",
@@ -2657,51 +2477,6 @@
       "id": "controllers_hello_controller_connect",
       "community": 6,
       "norm_label": "connect()"
-    },
-    {
-      "label": "bar_chart_controller.js",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/bar_chart_controller.js",
-      "source_location": "L1",
-      "id": "app_javascript_controllers_bar_chart_controller_js",
-      "community": 6,
-      "norm_label": "bar_chart_controller.js"
-    },
-    {
-      "label": "connect()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/bar_chart_controller.js",
-      "source_location": "L12",
-      "id": "controllers_bar_chart_controller_connect",
-      "community": 6,
-      "norm_label": "connect()"
-    },
-    {
-      "label": "disconnect()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/bar_chart_controller.js",
-      "source_location": "L27",
-      "id": "controllers_bar_chart_controller_disconnect",
-      "community": 6,
-      "norm_label": "disconnect()"
-    },
-    {
-      "label": "colors()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/bar_chart_controller.js",
-      "source_location": "L32",
-      "id": "controllers_bar_chart_controller_colors",
-      "community": 6,
-      "norm_label": "colors()"
-    },
-    {
-      "label": "valueLabelsPlugin()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/bar_chart_controller.js",
-      "source_location": "L40",
-      "id": "controllers_bar_chart_controller_valuelabelsplugin",
-      "community": 6,
-      "norm_label": "valuelabelsplugin()"
     },
     {
       "label": "application.js",
@@ -4246,7 +4021,7 @@
       "label": "Modificato",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L19",
+      "source_location": "L16",
       "id": "fitupe_changelog_modificato",
       "community": 150,
       "norm_label": "modificato"
@@ -8519,16 +8294,6 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
-      "source_location": "L41",
-      "weight": 1.0,
-      "source": "statistics_employment_status_breakdown_employmentstatusbreakdown",
-      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_totale_anno",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L44",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -8562,17 +8327,6 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
-      "source_location": "L42",
-      "weight": 1.0,
-      "source": "statistics_employment_status_breakdown_employmentstatusbreakdown_totale_anno",
-      "target": "statistics_employment_status_breakdown_employmentstatusbreakdown_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L26",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -8596,9 +8350,9 @@
       "source_file": "app/services/statistics/gender_breakdown.rb",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistics_gender_breakdown_rb",
-      "target": "statistics_gender_breakdown_genderbreakdown"
+      "target": "statistics_gender_breakdown_genderbreakdown",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8606,9 +8360,9 @@
       "source_file": "app/services/statistics/gender_breakdown.rb",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_genderbreakdown",
-      "target": "statistics_gender_breakdown_genderbreakdown_call"
+      "target": "statistics_gender_breakdown_genderbreakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8616,9 +8370,9 @@
       "source_file": "app/services/statistics/gender_breakdown.rb",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_genderbreakdown",
-      "target": "statistics_gender_breakdown_genderbreakdown_initialize"
+      "target": "statistics_gender_breakdown_genderbreakdown_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8626,9 +8380,9 @@
       "source_file": "app/services/statistics/gender_breakdown.rb",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_genderbreakdown",
-      "target": "statistics_gender_breakdown_genderbreakdown_build_row"
+      "target": "statistics_gender_breakdown_genderbreakdown_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8636,9 +8390,9 @@
       "source_file": "app/services/statistics/gender_breakdown.rb",
       "source_location": "L35",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_genderbreakdown",
-      "target": "statistics_gender_breakdown_genderbreakdown_counts"
+      "target": "statistics_gender_breakdown_genderbreakdown_counts",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8646,9 +8400,9 @@
       "source_file": "app/services/statistics/gender_breakdown.rb",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_genderbreakdown",
-      "target": "statistics_gender_breakdown_genderbreakdown_scope"
+      "target": "statistics_gender_breakdown_genderbreakdown_scope",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8657,9 +8411,9 @@
       "source_file": "app/services/statistics/gender_breakdown.rb",
       "source_location": "L23",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_genderbreakdown_call",
-      "target": "statistics_gender_breakdown_genderbreakdown_build_row"
+      "target": "statistics_gender_breakdown_genderbreakdown_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8668,9 +8422,9 @@
       "source_file": "app/services/statistics/gender_breakdown.rb",
       "source_location": "L42",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_genderbreakdown_scope",
-      "target": "statistics_gender_breakdown_genderbreakdown_call"
+      "target": "statistics_gender_breakdown_genderbreakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8816,98 +8570,6 @@
       "confidence_score": 1.0,
       "source": "statistics_category_breakdown_categorybreakdown_counts_for",
       "target": "statistics_category_breakdown_categorybreakdown_categoria_column"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/work_status_breakdown.rb",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "app_services_statistics_work_status_breakdown_rb",
-      "target": "statistics_work_status_breakdown_workstatusbreakdown",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/work_status_breakdown.rb",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "statistics_work_status_breakdown_workstatusbreakdown",
-      "target": "statistics_work_status_breakdown_workstatusbreakdown_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/work_status_breakdown.rb",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "statistics_work_status_breakdown_workstatusbreakdown",
-      "target": "statistics_work_status_breakdown_workstatusbreakdown_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/work_status_breakdown.rb",
-      "source_location": "L25",
-      "weight": 1.0,
-      "source": "statistics_work_status_breakdown_workstatusbreakdown",
-      "target": "statistics_work_status_breakdown_workstatusbreakdown_build_row",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/work_status_breakdown.rb",
-      "source_location": "L31",
-      "weight": 1.0,
-      "source": "statistics_work_status_breakdown_workstatusbreakdown",
-      "target": "statistics_work_status_breakdown_workstatusbreakdown_counts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/work_status_breakdown.rb",
-      "source_location": "L35",
-      "weight": 1.0,
-      "source": "statistics_work_status_breakdown_workstatusbreakdown",
-      "target": "statistics_work_status_breakdown_workstatusbreakdown_totale",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/work_status_breakdown.rb",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "statistics_work_status_breakdown_workstatusbreakdown",
-      "target": "statistics_work_status_breakdown_workstatusbreakdown_scope",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/work_status_breakdown.rb",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "statistics_work_status_breakdown_workstatusbreakdown_call",
-      "target": "statistics_work_status_breakdown_workstatusbreakdown_build_row",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/work_status_breakdown.rb",
-      "source_location": "L40",
-      "weight": 1.0,
-      "source": "statistics_work_status_breakdown_workstatusbreakdown_scope",
-      "target": "statistics_work_status_breakdown_workstatusbreakdown_call",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9085,28 +8747,8 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L99",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_sesso"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L104",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_provvisorie_revoche",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L108",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_status_lavorativo",
+      "target": "statistics_total_members_comparison_totalmemberscomparison_sesso",
       "confidence_score": 1.0
     },
     {
@@ -9234,29 +8876,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L100",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison_sesso",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_call"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L105",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison_provvisorie_revoche",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L109",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison_status_lavorativo",
       "target": "statistics_total_members_comparison_totalmemberscomparison_call",
       "confidence_score": 1.0
     },
@@ -9347,88 +8967,6 @@
       "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison_comprensori",
       "target": "statistics_total_members_comparison_totalmemberscomparison_regionale"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "app_services_statistics_provisional_revocation_breakdown_rb",
-      "target": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown",
-      "target": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown",
-      "target": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown",
-      "target": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_build_row",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
-      "source_location": "L32",
-      "weight": 1.0,
-      "source": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown",
-      "target": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_totale_iscritti",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
-      "source_location": "L36",
-      "weight": 1.0,
-      "source": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown",
-      "target": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_scope",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_call",
-      "target": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_build_row",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_scope",
-      "target": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_call",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9803,9 +9341,9 @@
       "source_file": "app/javascript/controllers/pie_chart_controller.js",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_pie_chart_controller_js",
-      "target": "controllers_pie_chart_controller_connect"
+      "target": "controllers_pie_chart_controller_connect",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9813,9 +9351,9 @@
       "source_file": "app/javascript/controllers/pie_chart_controller.js",
       "source_location": "L27",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_pie_chart_controller_js",
-      "target": "controllers_pie_chart_controller_disconnect"
+      "target": "controllers_pie_chart_controller_disconnect",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9823,9 +9361,9 @@
       "source_file": "app/javascript/controllers/pie_chart_controller.js",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_pie_chart_controller_js",
-      "target": "controllers_pie_chart_controller_colors"
+      "target": "controllers_pie_chart_controller_colors",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9833,9 +9371,9 @@
       "source_file": "app/javascript/controllers/pie_chart_controller.js",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_pie_chart_controller_js",
-      "target": "controllers_pie_chart_controller_tooltiplabel"
+      "target": "controllers_pie_chart_controller_tooltiplabel",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9843,9 +9381,9 @@
       "source_file": "app/javascript/controllers/pie_chart_controller.js",
       "source_location": "L45",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_pie_chart_controller_js",
-      "target": "controllers_pie_chart_controller_datalabelsplugin"
+      "target": "controllers_pie_chart_controller_datalabelsplugin",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -9854,9 +9392,9 @@
       "source_file": "app/javascript/controllers/index.js",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_index_js",
-      "target": "app_javascript_controllers_pie_chart_controller_js"
+      "target": "app_javascript_controllers_pie_chart_controller_js",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -9865,9 +9403,9 @@
       "source_file": "app/javascript/controllers/pie_chart_controller.js",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_pie_chart_controller_connect",
-      "target": "controllers_pie_chart_controller_colors"
+      "target": "controllers_pie_chart_controller_colors",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -9876,9 +9414,9 @@
       "source_file": "app/javascript/controllers/pie_chart_controller.js",
       "source_location": "L23",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_pie_chart_controller_connect",
-      "target": "controllers_pie_chart_controller_datalabelsplugin"
+      "target": "controllers_pie_chart_controller_datalabelsplugin",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10004,79 +9542,6 @@
       "confidence_score": 1.0,
       "source": "app_javascript_controllers_index_js",
       "target": "app_javascript_controllers_hello_controller_js"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/bar_chart_controller.js",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_bar_chart_controller_js",
-      "target": "controllers_bar_chart_controller_connect",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/bar_chart_controller.js",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_bar_chart_controller_js",
-      "target": "controllers_bar_chart_controller_disconnect",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/bar_chart_controller.js",
-      "source_location": "L32",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_bar_chart_controller_js",
-      "target": "controllers_bar_chart_controller_colors",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/bar_chart_controller.js",
-      "source_location": "L40",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_bar_chart_controller_js",
-      "target": "controllers_bar_chart_controller_valuelabelsplugin",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/index.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_index_js",
-      "target": "app_javascript_controllers_bar_chart_controller_js",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/bar_chart_controller.js",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "controllers_bar_chart_controller_connect",
-      "target": "controllers_bar_chart_controller_colors",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/bar_chart_controller.js",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "controllers_bar_chart_controller_connect",
-      "target": "controllers_bar_chart_controller_valuelabelsplugin",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13339,5 +12804,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "8d31f638a29e0c97a2e9ef994b838f3ac6cfd598"
+  "built_at_commit": "b75db83000a720b1b7dc9167e88a9d20f4d35317"
 }

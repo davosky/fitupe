@@ -5,7 +5,7 @@ module Statistics
   class EmploymentStatusBreakdown
     SPI = "SPI".freeze
 
-    Row = Struct.new(:gruppo, :count_anno, :count_precedente, :diff, :diff_percent, keyword_init: true)
+    Row = Struct.new(:gruppo, :count_anno, :count_precedente, :diff, :diff_percent, :percentuale, keyword_init: true)
 
     def self.call(...) = new(...).call
 
@@ -27,14 +27,19 @@ module Statistics
       count_precedente = count_for(@anno_precedente, kind)
       diff = count_anno - count_precedente
       diff_percent = count_precedente.zero? ? nil : (diff.to_f / count_precedente * 100)
+      percentuale = totale_anno.zero? ? nil : (count_anno.to_f / totale_anno * 100)
 
-      Row.new(gruppo:, count_anno:, count_precedente:, diff:, diff_percent:)
+      Row.new(gruppo:, count_anno:, count_precedente:, diff:, diff_percent:, percentuale:)
     end
 
     def count_for(anno, kind)
       scope = ZoningPeriodScope.call(zoning: @zoning, anno:, mese: @mese)
       pensionati = scope.where(categoria_column(scope) => SPI).count
       kind == :pensionati ? pensionati : scope.count - pensionati
+    end
+
+    def totale_anno
+      @totale_anno ||= ZoningPeriodScope.call(zoning: @zoning, anno: @anno, mese: @mese).count
     end
 
     # La categoria sindacale è stata importata sotto nomi di colonna diversi a
