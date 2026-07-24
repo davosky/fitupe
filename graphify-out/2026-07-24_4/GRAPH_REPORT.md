@@ -1,16 +1,16 @@
 # Graph Report - fitupe  (2026-07-24)
 
 ## Corpus Check
-- 144 files · ~62,901 words
+- 141 files · ~62,076 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 635 nodes · 609 edges · 155 communities (83 shown, 72 thin omitted)
-- Extraction: 88% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.85)
+- 621 nodes · 593 edges · 153 communities (82 shown, 71 thin omitted)
+- Extraction: 88% EXTRACTED · 12% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `eb202163`
+- Built from commit: `1bc79be7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -105,10 +105,9 @@
 - [[_COMMUNITY_Community 147|Community 147]]
 - [[_COMMUNITY_Community 150|Community 150]]
 - [[_COMMUNITY_Community 151|Community 151]]
-- [[_COMMUNITY_Community 153|Community 153]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `TotalMembersComparison` - 19 edges
+1. `TotalMembersComparison` - 18 edges
 2. `CLAUDE.md — Guida per Claude Code` - 15 edges
 3. `ComparisonService` - 13 edges
 4. `ImportsController` - 13 edges
@@ -131,7 +130,7 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (155 total, 72 thin omitted)
+## Communities (153 total, 71 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
@@ -158,8 +157,8 @@ Cohesion: 0.22
 Nodes (11): Action Cable adapter configuration, Rails cache store configuration, PostgreSQL database connections configuration, Kamal deploy configuration, Puma server configuration, Solid Queue worker/dispatcher configuration, Recurring scheduled jobs (Solid Queue), Active Storage services configuration (+3 more)
 
 ### Community 6 - "Stimulus Controllers e Flash"
-Cohesion: 0.09
-Nodes (14): Application, application, connect(), percentageLabelsPlugin(), successColor(), warningColor(), connect(), percentageLabelsPlugin() (+6 more)
+Cohesion: 0.11
+Nodes (12): Application, application, connect(), percentageLabelsPlugin(), successColor(), warningColor(), connect(), percentageLabelsPlugin() (+4 more)
 
 ### Community 7 - "Dipendenze Frontend (package.json)"
 Cohesion: 0.06
@@ -218,7 +217,7 @@ Nodes (4): Aggiunto, Changelog, Modificato, [Non rilasciato]
 ## Knowledge Gaps
 - **143 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+138 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **72 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **71 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_

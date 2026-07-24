@@ -553,15 +553,6 @@
       "norm_label": "membership_type_breakdown_spec.rb"
     },
     {
-      "label": "nationality_breakdown_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/services/statistics/nationality_breakdown_spec.rb",
-      "source_location": "L1",
-      "id": "spec_services_statistics_nationality_breakdown_spec_rb",
-      "community": 154,
-      "norm_label": "nationality_breakdown_spec.rb"
-    },
-    {
       "label": "employment_status_breakdown_spec.rb",
       "file_type": "code",
       "source_file": "spec/services/statistics/employment_status_breakdown_spec.rb",
@@ -1948,19 +1939,10 @@
       "norm_label": ".tipologie_delega()"
     },
     {
-      "label": ".nazionalita()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L95",
-      "id": "statistics_total_members_comparison_totalmemberscomparison_nazionalita",
-      "community": 137,
-      "norm_label": ".nazionalita()"
-    },
-    {
       "label": ".missing_data_result()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L99",
+      "source_location": "L95",
       "id": "statistics_total_members_comparison_totalmemberscomparison_missing_data_result",
       "community": 137,
       "norm_label": ".missing_data_result()"
@@ -2072,69 +2054,6 @@
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_count_for",
       "community": 147,
       "norm_label": ".count_for()"
-    },
-    {
-      "label": "nationality_breakdown.rb",
-      "file_type": "code",
-      "source_file": "app/services/statistics/nationality_breakdown.rb",
-      "source_location": "L1",
-      "id": "app_services_statistics_nationality_breakdown_rb",
-      "community": 153,
-      "norm_label": "nationality_breakdown.rb"
-    },
-    {
-      "label": "NationalityBreakdown",
-      "file_type": "code",
-      "source_file": "app/services/statistics/nationality_breakdown.rb",
-      "source_location": "L5",
-      "id": "statistics_nationality_breakdown_nationalitybreakdown",
-      "community": 153,
-      "norm_label": "nationalitybreakdown"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/nationality_breakdown.rb",
-      "source_location": "L14",
-      "id": "statistics_nationality_breakdown_nationalitybreakdown_call",
-      "community": 153,
-      "norm_label": ".call()"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/nationality_breakdown.rb",
-      "source_location": "L16",
-      "id": "statistics_nationality_breakdown_nationalitybreakdown_initialize",
-      "community": 153,
-      "norm_label": ".initialize()"
-    },
-    {
-      "label": ".build_row()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/nationality_breakdown.rb",
-      "source_location": "L29",
-      "id": "statistics_nationality_breakdown_nationalitybreakdown_build_row",
-      "community": 153,
-      "norm_label": ".build_row()"
-    },
-    {
-      "label": ".counts()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/nationality_breakdown.rb",
-      "source_location": "L36",
-      "id": "statistics_nationality_breakdown_nationalitybreakdown_counts",
-      "community": 153,
-      "norm_label": ".counts()"
-    },
-    {
-      "label": ".scope()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/nationality_breakdown.rb",
-      "source_location": "L42",
-      "id": "statistics_nationality_breakdown_nationalitybreakdown_scope",
-      "community": 153,
-      "norm_label": ".scope()"
     },
     {
       "label": "application_helper.rb",
@@ -2369,51 +2288,6 @@
       "id": "app_javascript_controllers_index_js",
       "community": 6,
       "norm_label": "index.js"
-    },
-    {
-      "label": "nationality_chart_controller.js",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L1",
-      "id": "app_javascript_controllers_nationality_chart_controller_js",
-      "community": 6,
-      "norm_label": "nationality_chart_controller.js"
-    },
-    {
-      "label": "connect()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L12",
-      "id": "controllers_nationality_chart_controller_connect",
-      "community": 6,
-      "norm_label": "connect()"
-    },
-    {
-      "label": "disconnect()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L26",
-      "id": "controllers_nationality_chart_controller_disconnect",
-      "community": 6,
-      "norm_label": "disconnect()"
-    },
-    {
-      "label": "colors()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L30",
-      "id": "controllers_nationality_chart_controller_colors",
-      "community": 6,
-      "norm_label": "colors()"
-    },
-    {
-      "label": "tooltipLabel()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L35",
-      "id": "controllers_nationality_chart_controller_tooltiplabel",
-      "community": 6,
-      "norm_label": "tooltiplabel()"
     },
     {
       "label": "application_record.rb",
@@ -3931,7 +3805,7 @@
       "label": "Modificato",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L15",
+      "source_location": "L14",
       "id": "fitupe_changelog_modificato",
       "community": 150,
       "norm_label": "modificato"
@@ -8028,9 +7902,9 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistics_delegation_type_breakdown_rb",
-      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown"
+      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8038,9 +7912,9 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_delegationtypebreakdown",
-      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_call"
+      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8048,9 +7922,9 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L23",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_delegationtypebreakdown",
-      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_initialize"
+      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8058,9 +7932,9 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_delegationtypebreakdown",
-      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_build_row"
+      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8068,9 +7942,9 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L46",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_delegationtypebreakdown",
-      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_count_for"
+      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_count_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8079,9 +7953,9 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_delegationtypebreakdown_call",
-      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_build_row"
+      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8090,9 +7964,9 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_delegationtypebreakdown_count_for",
-      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_call"
+      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8101,9 +7975,9 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L38",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_delegationtypebreakdown_build_row",
-      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_count_for"
+      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_count_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8510,18 +8384,8 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L91",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_tipologie_delega"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L95",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_nazionalita",
+      "target": "statistics_total_members_comparison_totalmemberscomparison_tipologie_delega",
       "confidence_score": 1.0
     },
     {
@@ -8627,18 +8491,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L92",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison_tipologie_delega",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_call"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L96",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison_nazionalita",
       "target": "statistics_total_members_comparison_totalmemberscomparison_call",
       "confidence_score": 1.0
     },
@@ -8862,88 +8715,6 @@
       "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_membershiptypebreakdown_build_row",
       "target": "statistics_membership_type_breakdown_membershiptypebreakdown_count_for"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/nationality_breakdown.rb",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "app_services_statistics_nationality_breakdown_rb",
-      "target": "statistics_nationality_breakdown_nationalitybreakdown",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/nationality_breakdown.rb",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "statistics_nationality_breakdown_nationalitybreakdown",
-      "target": "statistics_nationality_breakdown_nationalitybreakdown_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/nationality_breakdown.rb",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "statistics_nationality_breakdown_nationalitybreakdown",
-      "target": "statistics_nationality_breakdown_nationalitybreakdown_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/nationality_breakdown.rb",
-      "source_location": "L29",
-      "weight": 1.0,
-      "source": "statistics_nationality_breakdown_nationalitybreakdown",
-      "target": "statistics_nationality_breakdown_nationalitybreakdown_build_row",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/nationality_breakdown.rb",
-      "source_location": "L36",
-      "weight": 1.0,
-      "source": "statistics_nationality_breakdown_nationalitybreakdown",
-      "target": "statistics_nationality_breakdown_nationalitybreakdown_counts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/nationality_breakdown.rb",
-      "source_location": "L42",
-      "weight": 1.0,
-      "source": "statistics_nationality_breakdown_nationalitybreakdown",
-      "target": "statistics_nationality_breakdown_nationalitybreakdown_scope",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/nationality_breakdown.rb",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "statistics_nationality_breakdown_nationalitybreakdown_call",
-      "target": "statistics_nationality_breakdown_nationalitybreakdown_build_row",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/nationality_breakdown.rb",
-      "source_location": "L43",
-      "weight": 1.0,
-      "source": "statistics_nationality_breakdown_nationalitybreakdown_scope",
-      "target": "statistics_nationality_breakdown_nationalitybreakdown_call",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9259,73 +9030,11 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "app/javascript/controllers/index.js",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_index_js",
-      "target": "app_javascript_controllers_nationality_chart_controller_js",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/index.js",
       "source_location": "L7",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "app_javascript_controllers_index_js",
       "target": "app_javascript_controllers_comprensori_chart_controller_js"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_nationality_chart_controller_js",
-      "target": "controllers_nationality_chart_controller_connect",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_nationality_chart_controller_js",
-      "target": "controllers_nationality_chart_controller_disconnect",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L30",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_nationality_chart_controller_js",
-      "target": "controllers_nationality_chart_controller_colors",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L35",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_nationality_chart_controller_js",
-      "target": "controllers_nationality_chart_controller_tooltiplabel",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "controllers_nationality_chart_controller_connect",
-      "target": "controllers_nationality_chart_controller_colors",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -12483,5 +12192,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "eb202163a6a793f1da304f63f02d709d0f13a73a"
+  "built_at_commit": "1bc79be7ba540b2c2fb06ca98b45fa8a09104408"
 }

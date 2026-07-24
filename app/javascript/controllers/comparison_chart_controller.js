@@ -63,7 +63,7 @@ export default class extends Controller {
 
         ctx.save()
         ctx.textAlign = "center"
-        ctx.font = "600 12px sans-serif"
+        ctx.font = "600 14px sans-serif"
 
         bars.forEach((bar, index) => {
           const value = percentages[index]
@@ -71,7 +71,7 @@ export default class extends Controller {
 
           const sign = value > 0 ? "+" : ""
           ctx.fillStyle = value < 0 ? dangerColor : successColor
-          ctx.fillText(`${sign}${value.toFixed(2).replace(".", ",")}%`, bar.x, bar.y - 6)
+          ctx.fillText(`${sign}${value.toFixed(2).replace(".", ",")}%`, bar.x, bar.y - 12)
         })
 
         ctx.restore()

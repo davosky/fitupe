@@ -242,4 +242,24 @@ RSpec.describe Statistics::TotalMembersComparison do
       expect(conc_spi_anno.count_anno).to eq(2)
     end
   end
+
+  context "quando esistono iscritti di diverse nazionalità" do
+    before do
+      create_list(:import, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno")
+      create_list(:import, 2, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", nazionalita: "ITALIA")
+      create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", nazionalita: "UE")
+    end
+
+    it "espone una riga per ciascuna nazionalità senza confronto con l'anno precedente" do
+      expect(result).to be_success
+      expect(result.nazionalita.map(&:nazionalita)).to eq(%w[ITALIANA UE EXTRAUE])
+
+      italiana = result.nazionalita.find { |row| row.nazionalita == "ITALIANA" }
+      expect(italiana.count).to eq(2)
+      expect(italiana.percentuale).to be_within(0.01).of(66.67)
+    end
+  end
 end

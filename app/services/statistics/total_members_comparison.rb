@@ -1,8 +1,8 @@
 module Statistics
   class TotalMembersComparison
     Result = Struct.new(:zoning, :mese, :anno, :anno_precedente, :count_anno, :count_precedente, :diff,
-      :diff_percent, :comprensori, :categorie, :attivi_pensionati, :tipologie_iscrizione, :tipologie_delega, :error,
-      keyword_init: true) do
+      :diff_percent, :comprensori, :categorie, :attivi_pensionati, :tipologie_iscrizione, :tipologie_delega,
+      :nazionalita, :error, keyword_init: true) do
       def success?
         error.blank?
       end
@@ -47,7 +47,7 @@ module Statistics
         count_anno: row.count_anno, count_precedente: row.count_precedente, diff: row.diff,
         diff_percent: row.diff_percent, comprensori: comprensori, categorie: categorie,
         attivi_pensionati: attivi_pensionati, tipologie_iscrizione: tipologie_iscrizione,
-        tipologie_delega: tipologie_delega)
+        tipologie_delega: tipologie_delega, nazionalita: nazionalita)
     end
 
     def build_row(zoning)
@@ -90,6 +90,10 @@ module Statistics
 
     def tipologie_delega
       DelegationTypeBreakdown.call(zoning: @zoning, anno: @anno, anno_precedente: @anno_precedente, mese: @mese)
+    end
+
+    def nazionalita
+      NationalityBreakdown.call(zoning: @zoning, anno: @anno, mese: @mese)
     end
 
     def missing_data_result(missing_years)
