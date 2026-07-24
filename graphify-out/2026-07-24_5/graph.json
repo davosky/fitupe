@@ -598,15 +598,6 @@
       "norm_label": "category_breakdown_spec.rb"
     },
     {
-      "label": "gender_breakdown_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/services/statistics/gender_breakdown_spec.rb",
-      "source_location": "L1",
-      "id": "spec_services_statistics_gender_breakdown_spec_rb",
-      "community": 156,
-      "norm_label": "gender_breakdown_spec.rb"
-    },
-    {
       "label": "delegation_type_breakdown_spec.rb",
       "file_type": "code",
       "source_file": "spec/services/statistics/delegation_type_breakdown_spec.rb",
@@ -1714,69 +1705,6 @@
       "norm_label": ".categoria_column()"
     },
     {
-      "label": "gender_breakdown.rb",
-      "file_type": "code",
-      "source_file": "app/services/statistics/gender_breakdown.rb",
-      "source_location": "L1",
-      "id": "app_services_statistics_gender_breakdown_rb",
-      "community": 155,
-      "norm_label": "gender_breakdown.rb"
-    },
-    {
-      "label": "GenderBreakdown",
-      "file_type": "code",
-      "source_file": "app/services/statistics/gender_breakdown.rb",
-      "source_location": "L5",
-      "id": "statistics_gender_breakdown_genderbreakdown",
-      "community": 155,
-      "norm_label": "genderbreakdown"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/gender_breakdown.rb",
-      "source_location": "L13",
-      "id": "statistics_gender_breakdown_genderbreakdown_call",
-      "community": 155,
-      "norm_label": ".call()"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/gender_breakdown.rb",
-      "source_location": "L15",
-      "id": "statistics_gender_breakdown_genderbreakdown_initialize",
-      "community": 155,
-      "norm_label": ".initialize()"
-    },
-    {
-      "label": ".build_row()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/gender_breakdown.rb",
-      "source_location": "L28",
-      "id": "statistics_gender_breakdown_genderbreakdown_build_row",
-      "community": 155,
-      "norm_label": ".build_row()"
-    },
-    {
-      "label": ".counts()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/gender_breakdown.rb",
-      "source_location": "L35",
-      "id": "statistics_gender_breakdown_genderbreakdown_counts",
-      "community": 155,
-      "norm_label": ".counts()"
-    },
-    {
-      "label": ".scope()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/gender_breakdown.rb",
-      "source_location": "L41",
-      "id": "statistics_gender_breakdown_genderbreakdown_scope",
-      "community": 155,
-      "norm_label": ".scope()"
-    },
-    {
       "label": "category_breakdown.rb",
       "file_type": "code",
       "source_file": "app/services/statistics/category_breakdown.rb",
@@ -2029,19 +1957,10 @@
       "norm_label": ".nazionalita()"
     },
     {
-      "label": ".sesso()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L99",
-      "id": "statistics_total_members_comparison_totalmemberscomparison_sesso",
-      "community": 137,
-      "norm_label": ".sesso()"
-    },
-    {
       "label": ".missing_data_result()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L103",
+      "source_location": "L99",
       "id": "statistics_total_members_comparison_totalmemberscomparison_missing_data_result",
       "community": 137,
       "norm_label": ".missing_data_result()"
@@ -2344,60 +2263,6 @@
       "norm_label": "disconnect()"
     },
     {
-      "label": "pie_chart_controller.js",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/pie_chart_controller.js",
-      "source_location": "L1",
-      "id": "app_javascript_controllers_pie_chart_controller_js",
-      "community": 6,
-      "norm_label": "pie_chart_controller.js"
-    },
-    {
-      "label": "connect()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/pie_chart_controller.js",
-      "source_location": "L12",
-      "id": "controllers_pie_chart_controller_connect",
-      "community": 6,
-      "norm_label": "connect()"
-    },
-    {
-      "label": "disconnect()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/pie_chart_controller.js",
-      "source_location": "L27",
-      "id": "controllers_pie_chart_controller_disconnect",
-      "community": 6,
-      "norm_label": "disconnect()"
-    },
-    {
-      "label": "colors()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/pie_chart_controller.js",
-      "source_location": "L31",
-      "id": "controllers_pie_chart_controller_colors",
-      "community": 6,
-      "norm_label": "colors()"
-    },
-    {
-      "label": "tooltipLabel()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/pie_chart_controller.js",
-      "source_location": "L36",
-      "id": "controllers_pie_chart_controller_tooltiplabel",
-      "community": 6,
-      "norm_label": "tooltiplabel()"
-    },
-    {
-      "label": "dataLabelsPlugin()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/pie_chart_controller.js",
-      "source_location": "L45",
-      "id": "controllers_pie_chart_controller_datalabelsplugin",
-      "community": 6,
-      "norm_label": "datalabelsplugin()"
-    },
-    {
       "label": "comparison_chart_controller.js",
       "file_type": "code",
       "source_file": "app/javascript/controllers/comparison_chart_controller.js",
@@ -2504,6 +2369,51 @@
       "id": "app_javascript_controllers_index_js",
       "community": 6,
       "norm_label": "index.js"
+    },
+    {
+      "label": "nationality_chart_controller.js",
+      "file_type": "code",
+      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
+      "source_location": "L1",
+      "id": "app_javascript_controllers_nationality_chart_controller_js",
+      "community": 6,
+      "norm_label": "nationality_chart_controller.js"
+    },
+    {
+      "label": "connect()",
+      "file_type": "code",
+      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
+      "source_location": "L12",
+      "id": "controllers_nationality_chart_controller_connect",
+      "community": 6,
+      "norm_label": "connect()"
+    },
+    {
+      "label": "disconnect()",
+      "file_type": "code",
+      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
+      "source_location": "L26",
+      "id": "controllers_nationality_chart_controller_disconnect",
+      "community": 6,
+      "norm_label": "disconnect()"
+    },
+    {
+      "label": "colors()",
+      "file_type": "code",
+      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
+      "source_location": "L30",
+      "id": "controllers_nationality_chart_controller_colors",
+      "community": 6,
+      "norm_label": "colors()"
+    },
+    {
+      "label": "tooltipLabel()",
+      "file_type": "code",
+      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
+      "source_location": "L35",
+      "id": "controllers_nationality_chart_controller_tooltiplabel",
+      "community": 6,
+      "norm_label": "tooltiplabel()"
     },
     {
       "label": "application_record.rb",
@@ -4021,7 +3931,7 @@
       "label": "Modificato",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L16",
+      "source_location": "L15",
       "id": "fitupe_changelog_modificato",
       "community": 150,
       "norm_label": "modificato"
@@ -4439,51 +4349,6 @@
       "id": "fitupe_fitupe_costruzione_del_logo_della_applicazione",
       "community": 9,
       "norm_label": "costruzione del logo della applicazione"
-    },
-    {
-      "label": "nationality_chart_controller.js",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L1",
-      "community": 6,
-      "norm_label": "nationality_chart_controller.js",
-      "id": "app_javascript_controllers_nationality_chart_controller_js"
-    },
-    {
-      "label": "connect()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L12",
-      "community": 6,
-      "norm_label": "connect()",
-      "id": "controllers_nationality_chart_controller_connect"
-    },
-    {
-      "label": "disconnect()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L26",
-      "community": 6,
-      "norm_label": "disconnect()",
-      "id": "controllers_nationality_chart_controller_disconnect"
-    },
-    {
-      "label": "colors()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L30",
-      "community": 6,
-      "norm_label": "colors()",
-      "id": "controllers_nationality_chart_controller_colors"
-    },
-    {
-      "label": "tooltipLabel()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L35",
-      "community": 6,
-      "norm_label": "tooltiplabel()",
-      "id": "controllers_nationality_chart_controller_tooltiplabel"
     },
     {
       "label": ".regional_scope()",
@@ -8347,88 +8212,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/gender_breakdown.rb",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "app_services_statistics_gender_breakdown_rb",
-      "target": "statistics_gender_breakdown_genderbreakdown",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/gender_breakdown.rb",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "statistics_gender_breakdown_genderbreakdown",
-      "target": "statistics_gender_breakdown_genderbreakdown_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/gender_breakdown.rb",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "statistics_gender_breakdown_genderbreakdown",
-      "target": "statistics_gender_breakdown_genderbreakdown_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/gender_breakdown.rb",
-      "source_location": "L28",
-      "weight": 1.0,
-      "source": "statistics_gender_breakdown_genderbreakdown",
-      "target": "statistics_gender_breakdown_genderbreakdown_build_row",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/gender_breakdown.rb",
-      "source_location": "L35",
-      "weight": 1.0,
-      "source": "statistics_gender_breakdown_genderbreakdown",
-      "target": "statistics_gender_breakdown_genderbreakdown_counts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/gender_breakdown.rb",
-      "source_location": "L41",
-      "weight": 1.0,
-      "source": "statistics_gender_breakdown_genderbreakdown",
-      "target": "statistics_gender_breakdown_genderbreakdown_scope",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/gender_breakdown.rb",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "statistics_gender_breakdown_genderbreakdown_call",
-      "target": "statistics_gender_breakdown_genderbreakdown_build_row",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/gender_breakdown.rb",
-      "source_location": "L42",
-      "weight": 1.0,
-      "source": "statistics_gender_breakdown_genderbreakdown_scope",
-      "target": "statistics_gender_breakdown_genderbreakdown_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/services/statistics/category_breakdown.rb",
       "source_location": "L5",
       "weight": 1.0,
@@ -8737,18 +8520,8 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L95",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_nazionalita"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L99",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_sesso",
+      "target": "statistics_total_members_comparison_totalmemberscomparison_nazionalita",
       "confidence_score": 1.0
     },
     {
@@ -8865,18 +8638,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L96",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison_nazionalita",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_call"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L100",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison_sesso",
       "target": "statistics_total_members_comparison_totalmemberscomparison_call",
       "confidence_score": 1.0
     },
@@ -9107,9 +8869,9 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistics_nationality_breakdown_rb",
-      "target": "statistics_nationality_breakdown_nationalitybreakdown"
+      "target": "statistics_nationality_breakdown_nationalitybreakdown",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -9117,9 +8879,9 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L22",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_nationality_breakdown_nationalitybreakdown",
-      "target": "statistics_nationality_breakdown_nationalitybreakdown_call"
+      "target": "statistics_nationality_breakdown_nationalitybreakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -9127,9 +8889,9 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_nationality_breakdown_nationalitybreakdown",
-      "target": "statistics_nationality_breakdown_nationalitybreakdown_initialize"
+      "target": "statistics_nationality_breakdown_nationalitybreakdown_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -9137,9 +8899,9 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L29",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_nationality_breakdown_nationalitybreakdown",
-      "target": "statistics_nationality_breakdown_nationalitybreakdown_build_row"
+      "target": "statistics_nationality_breakdown_nationalitybreakdown_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -9147,9 +8909,9 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_nationality_breakdown_nationalitybreakdown",
-      "target": "statistics_nationality_breakdown_nationalitybreakdown_counts"
+      "target": "statistics_nationality_breakdown_nationalitybreakdown_counts",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -9157,9 +8919,9 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L42",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_nationality_breakdown_nationalitybreakdown",
-      "target": "statistics_nationality_breakdown_nationalitybreakdown_scope"
+      "target": "statistics_nationality_breakdown_nationalitybreakdown_scope",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -9168,9 +8930,9 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_nationality_breakdown_nationalitybreakdown_call",
-      "target": "statistics_nationality_breakdown_nationalitybreakdown_build_row"
+      "target": "statistics_nationality_breakdown_nationalitybreakdown_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -9179,9 +8941,9 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L43",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_nationality_breakdown_nationalitybreakdown_scope",
-      "target": "statistics_nationality_breakdown_nationalitybreakdown_call"
+      "target": "statistics_nationality_breakdown_nationalitybreakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9334,89 +9096,6 @@
       "weight": 1.0,
       "source": "controllers_flash_controller_connect",
       "target": "controllers_flash_controller_disconnect"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/pie_chart_controller.js",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_pie_chart_controller_js",
-      "target": "controllers_pie_chart_controller_connect",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/pie_chart_controller.js",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_pie_chart_controller_js",
-      "target": "controllers_pie_chart_controller_disconnect",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/pie_chart_controller.js",
-      "source_location": "L31",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_pie_chart_controller_js",
-      "target": "controllers_pie_chart_controller_colors",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/pie_chart_controller.js",
-      "source_location": "L36",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_pie_chart_controller_js",
-      "target": "controllers_pie_chart_controller_tooltiplabel",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/pie_chart_controller.js",
-      "source_location": "L45",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_pie_chart_controller_js",
-      "target": "controllers_pie_chart_controller_datalabelsplugin",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/index.js",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_index_js",
-      "target": "app_javascript_controllers_pie_chart_controller_js",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/pie_chart_controller.js",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "controllers_pie_chart_controller_connect",
-      "target": "controllers_pie_chart_controller_colors",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/pie_chart_controller.js",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "controllers_pie_chart_controller_connect",
-      "target": "controllers_pie_chart_controller_datalabelsplugin",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9582,9 +9261,9 @@
       "source_file": "app/javascript/controllers/index.js",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_index_js",
-      "target": "app_javascript_controllers_nationality_chart_controller_js"
+      "target": "app_javascript_controllers_nationality_chart_controller_js",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -9596,6 +9275,57 @@
       "confidence_score": 1.0,
       "source": "app_javascript_controllers_index_js",
       "target": "app_javascript_controllers_comprensori_chart_controller_js"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "app_javascript_controllers_nationality_chart_controller_js",
+      "target": "controllers_nationality_chart_controller_connect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "app_javascript_controllers_nationality_chart_controller_js",
+      "target": "controllers_nationality_chart_controller_disconnect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "app_javascript_controllers_nationality_chart_controller_js",
+      "target": "controllers_nationality_chart_controller_colors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "app_javascript_controllers_nationality_chart_controller_js",
+      "target": "controllers_nationality_chart_controller_tooltiplabel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "controllers_nationality_chart_controller_connect",
+      "target": "controllers_nationality_chart_controller_colors",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11548,57 +11278,6 @@
       "target": "fitupe_fitupe_5_john_tukey"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_javascript_controllers_nationality_chart_controller_js",
-      "target": "controllers_nationality_chart_controller_connect"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L26",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_javascript_controllers_nationality_chart_controller_js",
-      "target": "controllers_nationality_chart_controller_disconnect"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L30",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_javascript_controllers_nationality_chart_controller_js",
-      "target": "controllers_nationality_chart_controller_colors"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L35",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_javascript_controllers_nationality_chart_controller_js",
-      "target": "controllers_nationality_chart_controller_tooltiplabel"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/nationality_chart_controller.js",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "controllers_nationality_chart_controller_connect",
-      "target": "controllers_nationality_chart_controller_colors"
-    },
-    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -12804,5 +12483,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "b75db83000a720b1b7dc9167e88a9d20f4d35317"
+  "built_at_commit": "eb202163a6a793f1da304f63f02d709d0f13a73a"
 }

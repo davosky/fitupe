@@ -190,8 +190,8 @@
     "semantic_hash": "e99511ba6b1056659bed1f0083cae290"
   },
   "/home/davo/Programmazione/fitupe/app/javascript/controllers/index.js": {
-    "mtime": 1784888992.231472,
-    "ast_hash": "0d627093937057d15a1d0ba91a19c116",
+    "mtime": 1784882851.3578475,
+    "ast_hash": "6238ea3d3ee2dcc1af3414bbbe319398",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/models/application_record.rb": {
@@ -885,8 +885,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistics/total_members_comparison_spec.rb": {
-    "mtime": 1784889012.5930188,
-    "ast_hash": "501e9a83558bc1aaf06ecd258cf774e5",
+    "mtime": 1784882896.8940904,
+    "ast_hash": "2d82316c2280997607b38516a034e484",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/models/total_members_form_spec.rb": {
@@ -895,8 +895,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistics/total_members_comparison.rb": {
-    "mtime": 1784888967.537809,
-    "ast_hash": "4b4136a5ec87878ed1dee5ba13290a5d",
+    "mtime": 1784882837.249462,
+    "ast_hash": "ccd3d014c7f921b6c88d1bf96a9b525f",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/models/total_members_form.rb": {
@@ -980,8 +980,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/CHANGELOG.md": {
-    "mtime": 1784889278.0773335,
-    "ast_hash": "f1b98dd826bea72ec989980eabc297af",
+    "mtime": 1784883082.6257472,
+    "ast_hash": "e6f4edc18b41bfd169c2bc9f88ba6c8a",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistics/delegation_type_breakdown_spec.rb": {
@@ -1009,29 +1009,14 @@
     "ast_hash": "f42fca2618568f7a38790db55863a4ca",
     "semantic_hash": ""
   },
+  "/home/davo/Programmazione/fitupe/app/javascript/controllers/nationality_chart_controller.js": {
+    "mtime": 1784882845.0162756,
+    "ast_hash": "44e5b88ab2c3dcaee6b00d27d046b934",
+    "semantic_hash": ""
+  },
   "/home/davo/Programmazione/fitupe/app/assets/images/statistic/nazionalita.svg": {
-    "mtime": 1784888364.2591302,
-    "ast_hash": "af83c21aa67ffdbbb39de232e46d669a",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/statistics/gender_breakdown_spec.rb": {
-    "mtime": 1784889004.2477946,
-    "ast_hash": "0ddd51f8bc5537cea28e05ea5f8a87f1",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistics/gender_breakdown.rb": {
-    "mtime": 1784888943.657168,
-    "ast_hash": "5d9d9938775bce285560bda0bbc78fe9",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/javascript/controllers/pie_chart_controller.js": {
-    "mtime": 1784889209.5771046,
-    "ast_hash": "07dc4fe0be102c7c73b6fc8661bd4b08",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/statistic/sesso.svg": {
-    "mtime": 1784888934.553565,
-    "ast_hash": "fe3fb6a68bc00c2fb2e6842158284e8e",
+    "mtime": 1784882806.3546176,
+    "ast_hash": "ed679c16dcab0f5d6cea24fc5961caee",
     "semantic_hash": ""
   }
 }

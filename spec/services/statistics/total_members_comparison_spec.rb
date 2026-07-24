@@ -262,4 +262,24 @@ RSpec.describe Statistics::TotalMembersComparison do
       expect(italiana.percentuale).to be_within(0.01).of(66.67)
     end
   end
+
+  context "quando esistono iscritti di entrambi i sessi" do
+    before do
+      create_list(:import, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno")
+      create_list(:import, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", sesso: "F")
+      create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", sesso: "M")
+    end
+
+    it "espone una riga per ciascun sesso senza confronto con l'anno precedente" do
+      expect(result).to be_success
+      expect(result.sesso.map(&:sesso)).to eq(%w[FEMMINE MASCHI])
+
+      femmine = result.sesso.find { |row| row.sesso == "FEMMINE" }
+      expect(femmine.count).to eq(3)
+      expect(femmine.percentuale).to be_within(0.01).of(75.0)
+    end
+  end
 end

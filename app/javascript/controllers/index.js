@@ -13,5 +13,5 @@ application.register("flash", FlashController)
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
 
-import NationalityChartController from "./nationality_chart_controller"
-application.register("nationality-chart", NationalityChartController)
+import PieChartController from "./pie_chart_controller"
+application.register("pie-chart", PieChartController)

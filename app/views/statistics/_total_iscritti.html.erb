@@ -336,10 +336,51 @@
             </table>
           </div>
           <div class="mt-4 mx-auto" style="position: relative; height: 320px; width: 100%; max-width: 420px;"
-              data-controller="nationality-chart"
-              data-nationality-chart-labels-value="<%= @total_members_result.nazionalita.map(&:nazionalita).to_json %>"
-              data-nationality-chart-data-value="<%= @total_members_result.nazionalita.map(&:count).to_json %>">
-            <canvas data-nationality-chart-target="canvas"></canvas>
+              data-controller="pie-chart"
+              data-pie-chart-labels-value="<%= @total_members_result.nazionalita.map(&:nazionalita).to_json %>"
+              data-pie-chart-data-value="<%= @total_members_result.nazionalita.map(&:count).to_json %>">
+            <canvas data-pie-chart-target="canvas"></canvas>
+          </div>
+        </div>
+      <% end %>
+      <% if @total_members_result.sesso.present? %>
+        <div class="card border-dark p-3 m-2 shadow-sm">
+          <h4>
+            <span class="p-2 fw-bold fst-italic">
+              <%= image_tag("statistic/sesso.svg", class: "img-fluid me-1", size: "48x48", alt: "sesso") %>
+              Sesso
+            </span>
+          </h4>
+          <hr class="mt-2 mb-2"/>
+          <div class="table-responsive">
+            <table class="table table-hover align-middle">
+              <thead>
+                <tr>
+                  <th class="fs-5">Sesso</th>
+                  <th class="fs-5"><%= @total_members_result.mese %> <%= @total_members_result.anno %></th>
+                  <th class="fs-5"><i>%</i></th>
+                </tr>
+              </thead>
+              <tbody>
+                <% @total_members_result.sesso.each do |riga| %>
+                  <tr>
+                    <td class="fs-5"><%= riga.sesso %></td>
+                    <td class="fs-5"><%= number_with_delimiter(riga.count, locale: :it) %></td>
+                    <td class="fs-5">
+                      <% if riga.percentuale %>
+                        <%= number_to_percentage(riga.percentuale, precision: 2, locale: :it) %>
+                      <% end %>
+                    </td>
+                  </tr>
+                <% end %>
+              </tbody>
+            </table>
+          </div>
+          <div class="mt-4 mx-auto" style="position: relative; height: 320px; width: 100%; max-width: 420px;"
+              data-controller="pie-chart"
+              data-pie-chart-labels-value="<%= @total_members_result.sesso.map(&:sesso).to_json %>"
+              data-pie-chart-data-value="<%= @total_members_result.sesso.map(&:count).to_json %>">
+            <canvas data-pie-chart-target="canvas"></canvas>
           </div>
         </div>
       <% end %>
