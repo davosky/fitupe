@@ -885,8 +885,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistics/total_members_comparison_spec.rb": {
-    "mtime": 1784879379.3295121,
-    "ast_hash": "e6140781bb2e18bee5a182ff769c70fb",
+    "mtime": 1784804515.989369,
+    "ast_hash": "10f8e71868bf9d64a1262607c7b7b7d7",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/models/total_members_form_spec.rb": {
@@ -895,8 +895,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistics/total_members_comparison.rb": {
-    "mtime": 1784879321.793478,
-    "ast_hash": "c6f880038d477091cbcc13b8113a98d4",
+    "mtime": 1784804479.9903226,
+    "ast_hash": "737ebc76fda30b90186e767ce6c29f1b",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/models/total_members_form.rb": {
@@ -980,23 +980,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/CHANGELOG.md": {
-    "mtime": 1784879511.9459844,
-    "ast_hash": "45908a189ba9c4a0f7251a016ae91129",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/statistics/delegation_type_breakdown_spec.rb": {
-    "mtime": 1784879368.1941233,
-    "ast_hash": "d6a094977193e0ca447e0e60f309a055",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistics/delegation_type_breakdown.rb": {
-    "mtime": 1784879291.9573975,
-    "ast_hash": "02fe3e0e2b66ac34998841d958d6e931",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/statistic/tipologiedelega.svg": {
-    "mtime": 1784879277.6483471,
-    "ast_hash": "b295812f12dc923a75eaec5d75529d26",
+    "mtime": 1784876851.4260638,
+    "ast_hash": "a3a32a7cd94d430f9709313e737687ee",
     "semantic_hash": ""
   }
 }

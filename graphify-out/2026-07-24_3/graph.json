@@ -589,15 +589,6 @@
       "norm_label": "category_breakdown_spec.rb"
     },
     {
-      "label": "delegation_type_breakdown_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/services/statistics/delegation_type_breakdown_spec.rb",
-      "source_location": "L1",
-      "id": "spec_services_statistics_delegation_type_breakdown_spec_rb",
-      "community": 152,
-      "norm_label": "delegation_type_breakdown_spec.rb"
-    },
-    {
       "label": "total_members_form_spec.rb",
       "file_type": "code",
       "source_file": "spec/models/total_members_form_spec.rb",
@@ -1579,60 +1570,6 @@
       "norm_label": ".codice_fiscale_header()"
     },
     {
-      "label": "delegation_type_breakdown.rb",
-      "file_type": "code",
-      "source_file": "app/services/statistics/delegation_type_breakdown.rb",
-      "source_location": "L1",
-      "id": "app_services_statistics_delegation_type_breakdown_rb",
-      "community": 151,
-      "norm_label": "delegation_type_breakdown.rb"
-    },
-    {
-      "label": "DelegationTypeBreakdown",
-      "file_type": "code",
-      "source_file": "app/services/statistics/delegation_type_breakdown.rb",
-      "source_location": "L7",
-      "id": "statistics_delegation_type_breakdown_delegationtypebreakdown",
-      "community": 151,
-      "norm_label": "delegationtypebreakdown"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/delegation_type_breakdown.rb",
-      "source_location": "L21",
-      "id": "statistics_delegation_type_breakdown_delegationtypebreakdown_call",
-      "community": 151,
-      "norm_label": ".call()"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/delegation_type_breakdown.rb",
-      "source_location": "L23",
-      "id": "statistics_delegation_type_breakdown_delegationtypebreakdown_initialize",
-      "community": 151,
-      "norm_label": ".initialize()"
-    },
-    {
-      "label": ".build_row()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/delegation_type_breakdown.rb",
-      "source_location": "L37",
-      "id": "statistics_delegation_type_breakdown_delegationtypebreakdown_build_row",
-      "community": 151,
-      "norm_label": ".build_row()"
-    },
-    {
-      "label": ".count_for()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/delegation_type_breakdown.rb",
-      "source_location": "L46",
-      "id": "statistics_delegation_type_breakdown_delegationtypebreakdown_count_for",
-      "community": 151,
-      "norm_label": ".count_for()"
-    },
-    {
       "label": "employment_status_breakdown.rb",
       "file_type": "code",
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
@@ -1870,7 +1807,7 @@
       "label": ".build_row()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L53",
+      "source_location": "L52",
       "id": "statistics_total_members_comparison_totalmemberscomparison_build_row",
       "community": 137,
       "norm_label": ".build_row()"
@@ -1879,7 +1816,7 @@
       "label": ".comprensori()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L64",
+      "source_location": "L63",
       "id": "statistics_total_members_comparison_totalmemberscomparison_comprensori",
       "community": 137,
       "norm_label": ".comprensori()"
@@ -1888,7 +1825,7 @@
       "label": ".regionale?()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L70",
+      "source_location": "L69",
       "id": "statistics_total_members_comparison_totalmemberscomparison_regionale",
       "community": 137,
       "norm_label": ".regionale?()"
@@ -1897,7 +1834,7 @@
       "label": ".province_zonings()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L74",
+      "source_location": "L73",
       "id": "statistics_total_members_comparison_totalmemberscomparison_province_zonings",
       "community": 137,
       "norm_label": ".province_zonings()"
@@ -1906,7 +1843,7 @@
       "label": ".categorie()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L79",
+      "source_location": "L78",
       "id": "statistics_total_members_comparison_totalmemberscomparison_categorie",
       "community": 137,
       "norm_label": ".categorie()"
@@ -1915,7 +1852,7 @@
       "label": ".attivi_pensionati()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L83",
+      "source_location": "L82",
       "id": "statistics_total_members_comparison_totalmemberscomparison_attivi_pensionati",
       "community": 137,
       "norm_label": ".attivi_pensionati()"
@@ -1924,25 +1861,16 @@
       "label": ".tipologie_iscrizione()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L87",
+      "source_location": "L86",
       "id": "statistics_total_members_comparison_totalmemberscomparison_tipologie_iscrizione",
       "community": 137,
       "norm_label": ".tipologie_iscrizione()"
     },
     {
-      "label": ".tipologie_delega()",
-      "file_type": "code",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L91",
-      "id": "statistics_total_members_comparison_totalmemberscomparison_tipologie_delega",
-      "community": 137,
-      "norm_label": ".tipologie_delega()"
-    },
-    {
       "label": ".missing_data_result()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L95",
+      "source_location": "L90",
       "id": "statistics_total_members_comparison_totalmemberscomparison_missing_data_result",
       "community": 137,
       "norm_label": ".missing_data_result()"
@@ -3805,7 +3733,7 @@
       "label": "Modificato",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L14",
+      "source_location": "L13",
       "id": "fitupe_changelog_modificato",
       "community": 150,
       "norm_label": "modificato"
@@ -7899,89 +7827,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/delegation_type_breakdown.rb",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "app_services_statistics_delegation_type_breakdown_rb",
-      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/delegation_type_breakdown.rb",
-      "source_location": "L30",
-      "weight": 1.0,
-      "source": "statistics_delegation_type_breakdown_delegationtypebreakdown",
-      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/delegation_type_breakdown.rb",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "statistics_delegation_type_breakdown_delegationtypebreakdown",
-      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/delegation_type_breakdown.rb",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "statistics_delegation_type_breakdown_delegationtypebreakdown",
-      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_build_row",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/delegation_type_breakdown.rb",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "statistics_delegation_type_breakdown_delegationtypebreakdown",
-      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_count_for",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/delegation_type_breakdown.rb",
-      "source_location": "L31",
-      "weight": 1.0,
-      "source": "statistics_delegation_type_breakdown_delegationtypebreakdown_call",
-      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_build_row",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/delegation_type_breakdown.rb",
-      "source_location": "L47",
-      "weight": 1.0,
-      "source": "statistics_delegation_type_breakdown_delegationtypebreakdown_count_for",
-      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/delegation_type_breakdown.rb",
-      "source_location": "L38",
-      "weight": 1.0,
-      "source": "statistics_delegation_type_breakdown_delegationtypebreakdown_build_row",
-      "target": "statistics_delegation_type_breakdown_delegationtypebreakdown_count_for",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L5",
       "weight": 1.0,
@@ -8382,16 +8227,6 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L91",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_tipologie_delega",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L47",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -8483,17 +8318,6 @@
       "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison_tipologie_iscrizione",
       "target": "statistics_total_members_comparison_totalmemberscomparison_call"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L92",
-      "weight": 1.0,
-      "source": "statistics_total_members_comparison_totalmemberscomparison_tipologie_delega",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_call",
-      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -10522,9 +10346,9 @@
       "source_file": "CHANGELOG.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "changelog_md",
-      "target": "fitupe_changelog_changelog"
+      "target": "fitupe_changelog_changelog",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10532,9 +10356,9 @@
       "source_file": "CHANGELOG.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_changelog_changelog",
-      "target": "fitupe_changelog_non_rilasciato"
+      "target": "fitupe_changelog_non_rilasciato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10542,9 +10366,9 @@
       "source_file": "CHANGELOG.md",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_changelog_non_rilasciato",
-      "target": "fitupe_changelog_aggiunto"
+      "target": "fitupe_changelog_aggiunto",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10552,9 +10376,9 @@
       "source_file": "CHANGELOG.md",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_changelog_non_rilasciato",
-      "target": "fitupe_changelog_modificato"
+      "target": "fitupe_changelog_modificato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -12192,5 +12016,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "1bc79be7ba540b2c2fb06ca98b45fa8a09104408"
+  "built_at_commit": "36cace71ff069d1dd1f24cdbdd393d26d70233d6"
 }

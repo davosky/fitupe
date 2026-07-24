@@ -217,4 +217,29 @@ RSpec.describe Statistics::TotalMembersComparison do
       expect(brevi_manu.count_anno).to eq(1)
     end
   end
+
+  context "quando esistono deleghe di diverse tipologie" do
+    before do
+      create_list(:import, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno", tipologia_delega: "Ordinaria")
+      create_list(:import, 4, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", tipologia_delega: "Ordinaria")
+      create_list(:import, 2, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", concomitante_spi_anno: "SI")
+    end
+
+    it "espone una riga per ciascuna tipologia di delega, nell'ordine atteso" do
+      expect(result).to be_success
+      expect(result.tipologie_delega.map(&:tipologia)).to eq(
+        [ "Ordinaria", "Ordinaria C.E.", "NASPI", "DS Agricola", "Delega Tesoro", "Concomitante", "Conc. SPI Anno" ]
+      )
+
+      ordinaria = result.tipologie_delega.find { |row| row.tipologia == "Ordinaria" }
+      expect(ordinaria.count_precedente).to eq(3)
+      expect(ordinaria.count_anno).to eq(4)
+
+      conc_spi_anno = result.tipologie_delega.find { |row| row.tipologia == "Conc. SPI Anno" }
+      expect(conc_spi_anno.count_anno).to eq(2)
+    end
+  end
 end

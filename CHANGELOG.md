@@ -8,6 +8,7 @@ Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 
 ### Aggiunto
 
+- Statistiche: nuova sezione "Tipologie Delega" con tabella e grafico a barre, che confronta anno su anno Ordinaria, Ordinaria C.E., NASPI, DS Agricola, Delega Tesoro, Concomitante e Conc. SPI Anno.
 - Request spec per la pagina Statistiche: header/icona dinamici e stile grassetto verde/rosso su iscritti e %.
 
 ### Modificato
