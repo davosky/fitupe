@@ -23,11 +23,14 @@
   <% end %>
   <% if @total_members_result %>
     <% if @total_members_result.success? %>
+      <% regionale = @total_members_result.zoning.codice_azzonamento.to_s.length == 1 %>
+      <% zoning_image = regionale ? "statistic/regionale.svg" : "statistic/comprensori.svg" %>
+      <% zoning_image_alt = regionale ? "regionale" : "comprensori" %>
       <div class="card border-dark p-3 m-2 shadow-sm">
         <h4>
           <span class="p-2 fw-bold fst-italic">
-            <%= image_tag("statistic/regionale.svg", class: "img-fluid me-1", size: "48x48", alt: "regionale") %>
-            Regionale
+            <%= image_tag(zoning_image, class: "img-fluid me-1", size: "48x48", alt: zoning_image_alt) %>
+            <%= @total_members_result.zoning.descrizione_azzonamento %>
           </span>
         </h4>
         <hr class="mt-2 mb-2"/>
@@ -48,8 +51,8 @@
                 <td class="fs-5"><%= @total_members_result.zoning.descrizione_azzonamento %></td>
                 <td class="fs-5"><%= number_with_delimiter(@total_members_result.count_precedente, locale: :it) %></td>
                 <td class="fs-5"><%= number_with_delimiter(@total_members_result.count_anno, locale: :it) %></td>
-                <td class="fs-5 <%= diff_class %>"><%= number_with_delimiter(@total_members_result.diff, locale: :it) %></td>
-                <td class="fs-5 <%= diff_class %>">
+                <td class="fs-5 fw-bold <%= diff_class %>"><%= number_with_delimiter(@total_members_result.diff, locale: :it) %></td>
+                <td class="fs-5 fw-bold <%= diff_class %>">
                   <% if @total_members_result.diff_percent %>
                     <%= number_to_percentage(@total_members_result.diff_percent, precision: 2, locale: :it) %>
                   <% end %>
@@ -86,8 +89,8 @@
                     <td class="fs-5"><%= comprensorio.zoning.descrizione_azzonamento %></td>
                     <td class="fs-5"><%= number_with_delimiter(comprensorio.count_precedente, locale: :it) %></td>
                     <td class="fs-5"><%= number_with_delimiter(comprensorio.count_anno, locale: :it) %></td>
-                    <td class="fs-5 <%= comprensorio_diff_class %>"><%= number_with_delimiter(comprensorio.diff, locale: :it) %></td>
-                    <td class="fs-5 <%= comprensorio_diff_class %>">
+                    <td class="fs-5 fw-bold <%= comprensorio_diff_class %>"><%= number_with_delimiter(comprensorio.diff, locale: :it) %></td>
+                    <td class="fs-5 fw-bold <%= comprensorio_diff_class %>">
                       <% if comprensorio.diff_percent %>
                         <%= number_to_percentage(comprensorio.diff_percent, precision: 2, locale: :it) %>
                       <% end %>
@@ -136,8 +139,8 @@
                     <td class="fs-5"><%= categoria.categoria %></td>
                     <td class="fs-5"><%= number_with_delimiter(categoria.count_precedente, locale: :it) %></td>
                     <td class="fs-5"><%= number_with_delimiter(categoria.count_anno, locale: :it) %></td>
-                    <td class="fs-5 <%= categoria_diff_class %>"><%= number_with_delimiter(categoria.diff, locale: :it) %></td>
-                    <td class="fs-5 <%= categoria_diff_class %>">
+                    <td class="fs-5 fw-bold <%= categoria_diff_class %>"><%= number_with_delimiter(categoria.diff, locale: :it) %></td>
+                    <td class="fs-5 fw-bold <%= categoria_diff_class %>">
                       <% if categoria.diff_percent %>
                         <%= number_to_percentage(categoria.diff_percent, precision: 2, locale: :it) %>
                       <% end %>
@@ -186,8 +189,8 @@
                     <td class="fs-5"><%= gruppo.gruppo %></td>
                     <td class="fs-5"><%= number_with_delimiter(gruppo.count_precedente, locale: :it) %></td>
                     <td class="fs-5"><%= number_with_delimiter(gruppo.count_anno, locale: :it) %></td>
-                    <td class="fs-5 <%= gruppo_diff_class %>"><%= number_with_delimiter(gruppo.diff, locale: :it) %></td>
-                    <td class="fs-5 <%= gruppo_diff_class %>">
+                    <td class="fs-5 fw-bold <%= gruppo_diff_class %>"><%= number_with_delimiter(gruppo.diff, locale: :it) %></td>
+                    <td class="fs-5 fw-bold <%= gruppo_diff_class %>">
                       <% if gruppo.diff_percent %>
                         <%= number_to_percentage(gruppo.diff_percent, precision: 2, locale: :it) %>
                       <% end %>
@@ -236,8 +239,8 @@
                     <td class="fs-5"><%= tipologia.tipologia %></td>
                     <td class="fs-5"><%= number_with_delimiter(tipologia.count_precedente, locale: :it) %></td>
                     <td class="fs-5"><%= number_with_delimiter(tipologia.count_anno, locale: :it) %></td>
-                    <td class="fs-5 <%= tipologia_diff_class %>"><%= number_with_delimiter(tipologia.diff, locale: :it) %></td>
-                    <td class="fs-5 <%= tipologia_diff_class %>">
+                    <td class="fs-5 fw-bold <%= tipologia_diff_class %>"><%= number_with_delimiter(tipologia.diff, locale: :it) %></td>
+                    <td class="fs-5 fw-bold <%= tipologia_diff_class %>">
                       <% if tipologia.diff_percent %>
                         <%= number_to_percentage(tipologia.diff_percent, precision: 2, locale: :it) %>
                       <% end %>

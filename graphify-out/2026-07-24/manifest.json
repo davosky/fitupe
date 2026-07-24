@@ -935,8 +935,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/javascript/controllers/comparison_chart_controller.js": {
-    "mtime": 1784875306.7129645,
-    "ast_hash": "ac4920439ba054b45e19db314fac0508",
+    "mtime": 1784800261.1904137,
+    "ast_hash": "a7de025206fa04c8e8c96b5d11bec604",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistics/employment_status_breakdown_spec.rb": {
@@ -972,11 +972,6 @@
   "/home/davo/Programmazione/fitupe/app/assets/images/statistic/tipologieiscrizione.svg": {
     "mtime": 1784805468.267103,
     "ast_hash": "f1c87cf1436d03ba876f3dc78dbe4a5c",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/requests/statistics_spec.rb": {
-    "mtime": 1784876680.3685143,
-    "ast_hash": "9ec774e2bc1abaade5461a181b8134d8",
     "semantic_hash": ""
   }
 }

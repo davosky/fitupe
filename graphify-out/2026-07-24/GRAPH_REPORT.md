@@ -1,16 +1,16 @@
-# Graph Report - fitupe  (2026-07-24)
+# Graph Report - fitupe  (2026-07-23)
 
 ## Corpus Check
-- 138 files · ~61,304 words
+- 137 files · ~60,823 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 608 nodes · 579 edges · 150 communities (80 shown, 70 thin omitted)
+- 606 nodes · 578 edges · 149 communities (79 shown, 70 thin omitted)
 - Extraction: 88% EXTRACTED · 12% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f89dc7d2`
+- Built from commit: `d7a19739`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -128,7 +128,7 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (150 total, 70 thin omitted)
+## Communities (149 total, 70 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
@@ -155,7 +155,7 @@ Cohesion: 0.22
 Nodes (11): Action Cable adapter configuration, Rails cache store configuration, PostgreSQL database connections configuration, Kamal deploy configuration, Puma server configuration, Solid Queue worker/dispatcher configuration, Recurring scheduled jobs (Solid Queue), Active Storage services configuration (+3 more)
 
 ### Community 6 - "Stimulus Controllers e Flash"
-Cohesion: 0.11
+Cohesion: 0.12
 Nodes (12): Application, application, connect(), percentageLabelsPlugin(), successColor(), warningColor(), connect(), percentageLabelsPlugin() (+4 more)
 
 ### Community 7 - "Dipendenze Frontend (package.json)"

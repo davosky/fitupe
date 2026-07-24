@@ -436,15 +436,6 @@
       "norm_label": "pages_spec.rb"
     },
     {
-      "label": "statistics_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/requests/statistics_spec.rb",
-      "source_location": "L1",
-      "id": "spec_requests_statistics_spec_rb",
-      "community": 149,
-      "norm_label": "statistics_spec.rb"
-    },
-    {
       "label": "integration_flcs_spec.rb",
       "file_type": "code",
       "source_file": "spec/requests/integration_flcs_spec.rb",
@@ -2155,19 +2146,10 @@
       "norm_label": "warningcolor()"
     },
     {
-      "label": "dangerColor()",
-      "file_type": "code",
-      "source_file": "app/javascript/controllers/comparison_chart_controller.js",
-      "source_location": "L47",
-      "id": "controllers_comparison_chart_controller_dangercolor",
-      "community": 6,
-      "norm_label": "dangercolor()"
-    },
-    {
       "label": "percentageLabelsPlugin()",
       "file_type": "code",
       "source_file": "app/javascript/controllers/comparison_chart_controller.js",
-      "source_location": "L53",
+      "source_location": "L49",
       "id": "controllers_comparison_chart_controller_percentagelabelsplugin",
       "community": 6,
       "norm_label": "percentagelabelsplugin()"
@@ -8174,9 +8156,9 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L86",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_tipologie_iscrizione"
+      "target": "statistics_total_members_comparison_totalmemberscomparison_tipologie_iscrizione",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8270,9 +8252,9 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L87",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison_tipologie_iscrizione",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_call"
+      "target": "statistics_total_members_comparison_totalmemberscomparison_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8418,9 +8400,9 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistics_membership_type_breakdown_rb",
-      "target": "statistics_membership_type_breakdown_membershiptypebreakdown"
+      "target": "statistics_membership_type_breakdown_membershiptypebreakdown",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8428,9 +8410,9 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_membershiptypebreakdown",
-      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_call"
+      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8438,9 +8420,9 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_membershiptypebreakdown",
-      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_initialize"
+      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8448,9 +8430,9 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L25",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_membershiptypebreakdown",
-      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_build_row"
+      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8458,9 +8440,9 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_membershiptypebreakdown",
-      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_count_for"
+      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_count_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8469,9 +8451,9 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_membershiptypebreakdown_call",
-      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_build_row"
+      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8480,9 +8462,9 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L35",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_membershiptypebreakdown_count_for",
-      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_call"
+      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8491,9 +8473,9 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_membershiptypebreakdown_build_row",
-      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_count_for"
+      "target": "statistics_membership_type_breakdown_membershiptypebreakdown_count_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8686,16 +8668,6 @@
       "confidence_score": 1.0,
       "source": "app_javascript_controllers_comparison_chart_controller_js",
       "target": "controllers_comparison_chart_controller_warningcolor"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/javascript/controllers/comparison_chart_controller.js",
-      "source_location": "L47",
-      "weight": 1.0,
-      "source": "app_javascript_controllers_comparison_chart_controller_js",
-      "target": "controllers_comparison_chart_controller_dangercolor",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11931,5 +11903,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f89dc7d2627183b8d9452c7e2e3e556b49244ddb"
+  "built_at_commit": "d7a1973978269fc209d7fc0b7948a48ba771a2a6"
 }

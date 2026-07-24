@@ -44,6 +44,10 @@ export default class extends Controller {
     return getComputedStyle(document.documentElement).getPropertyValue("--bs-warning").trim()
   }
 
+  dangerColor() {
+    return getComputedStyle(document.documentElement).getPropertyValue("--bs-danger").trim()
+  }
+
   // Disegna sopra ogni colonna della seconda serie (anno corrente) la
   // differenza percentuale rispetto all'anno precedente.
   percentageLabelsPlugin() {
@@ -54,9 +58,10 @@ export default class extends Controller {
       afterDatasetsDraw: (chart) => {
         const { ctx } = chart
         const bars = chart.getDatasetMeta(1).data
+        const successColor = this.successColor()
+        const dangerColor = this.dangerColor()
 
         ctx.save()
-        ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue("--bs-body-color").trim()
         ctx.textAlign = "center"
         ctx.font = "600 12px sans-serif"
 
@@ -65,6 +70,7 @@ export default class extends Controller {
           if (value === null || value === undefined) return
 
           const sign = value > 0 ? "+" : ""
+          ctx.fillStyle = value < 0 ? dangerColor : successColor
           ctx.fillText(`${sign}${value.toFixed(2).replace(".", ",")}%`, bar.x, bar.y - 6)
         })
 
