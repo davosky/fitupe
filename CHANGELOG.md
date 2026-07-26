@@ -13,6 +13,7 @@ Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 - Statistiche: nuova sezione "Sesso" con tabella e grafico a torta (FEMMINE, MASCHI) sul solo anno corrente, senza confronto con l'anno precedente.
 - Statistiche: nuova sezione "Nazionalità" con tabella e grafico a torta (ITALIANA, UE, EXTRAUE) sul solo anno corrente, senza confronto con l'anno precedente.
 - Statistiche: nuova sezione "Tipologie Delega" con tabella e grafico a barre, che confronta anno su anno Ordinaria, Ordinaria C.E., NASPI, DS Agricola, Delega Tesoro, Concomitante e Conc. SPI Anno.
+- Statistiche: nuova sezione "Fasce d'Età" con tabella e grafico a barre, che raggruppa gli iscritti per fascia d'età (calcolata da `data_nascita`) da GIOVANI (< 30 anni) a HIGHLANDERS (oltre 100 anni), sul solo anno corrente. Le etichette dati del grafico mostrano la percentuale sul totale iscritti anziché il conteggio.
 - Statistiche: la sezione "Attivi / Pensionati" mostra ora anche una tabella con la percentuale sul totale iscritti a fianco del grafico.
 - Request spec per la pagina Statistiche: header/icona dinamici e stile grassetto verde/rosso su iscritti e %.
 

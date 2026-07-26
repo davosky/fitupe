@@ -885,8 +885,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistics/total_members_comparison_spec.rb": {
-    "mtime": 1785053625.8507774,
-    "ast_hash": "658c6c24f8211f7f374c27e2f4fe39bc",
+    "mtime": 1784893018.9090726,
+    "ast_hash": "27d37fc85cc93c64f39d0ac387536ebb",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/models/total_members_form_spec.rb": {
@@ -895,8 +895,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistics/total_members_comparison.rb": {
-    "mtime": 1785053568.5976627,
-    "ast_hash": "cfa5011b1a57e99da825b9baa3289777",
+    "mtime": 1784892973.5158415,
+    "ast_hash": "28f104b99e1d2f4b0b2eaecd1dc473eb",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/models/total_members_form.rb": {
@@ -980,8 +980,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/CHANGELOG.md": {
-    "mtime": 1785054321.5068574,
-    "ast_hash": "1506d749d6bb8d919d09a136120a49c1",
+    "mtime": 1784893894.5585992,
+    "ast_hash": "e69fbe8c837e6c8ab586f42557bab9ea",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistics/delegation_type_breakdown_spec.rb": {
@@ -1055,8 +1055,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/javascript/controllers/bar_chart_controller.js": {
-    "mtime": 1785053585.0463908,
-    "ast_hash": "4b36264769d8a1c0fc35060a427e7caa",
+    "mtime": 1784893429.7396042,
+    "ast_hash": "9c73f3cfb774ca66de4481824a4af716",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/assets/images/colors.svg": {
@@ -1072,21 +1072,6 @@
   "/home/davo/Programmazione/fitupe/app/assets/images/statistic/provvisorierevoche.svg": {
     "mtime": 1784890934.2451909,
     "ast_hash": "dd788d49774843ca715ec6e33c2df74b",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/statistics/age_breakdown_spec.rb": {
-    "mtime": 1785053612.3327687,
-    "ast_hash": "cc5fa1c86b0110ded23111fdace62019",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistics/age_breakdown.rb": {
-    "mtime": 1785053529.8349571,
-    "ast_hash": "111c0d00b828c02ee52d30d4b50ecce0",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/statistic/fasceeta.svg": {
-    "mtime": 1785054265.8363593,
-    "ast_hash": "decfbe6bb817234710592b7a33697abb",
     "semantic_hash": ""
   }
 }

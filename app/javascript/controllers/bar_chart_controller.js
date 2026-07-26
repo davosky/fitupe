@@ -6,7 +6,8 @@ export default class extends Controller {
   static targets = ["canvas"]
   static values = {
     labels: Array,
-    data: Array
+    data: Array,
+    percentages: { type: Array, default: [] }
   }
 
   connect() {
@@ -36,9 +37,11 @@ export default class extends Controller {
     return this.dataValue.map((_, index) => style.getPropertyValue(palette[index % palette.length]).trim())
   }
 
-  // Disegna sopra ogni colonna il valore corrispondente.
+  // Disegna sopra ogni colonna il valore corrispondente, oppure la
+  // percentuale quando viene passato data-bar-chart-percentages-value.
   valueLabelsPlugin() {
     const data = this.dataValue
+    const percentages = this.percentagesValue
 
     return {
       id: "barValueLabels",
@@ -52,11 +55,17 @@ export default class extends Controller {
         ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue("--bs-body-color").trim()
 
         bars.forEach((bar, index) => {
-          ctx.fillText(data[index].toLocaleString("it-IT"), bar.x, bar.y - 12)
+          ctx.fillText(this.label(data, percentages, index), bar.x, bar.y - 12)
         })
 
         ctx.restore()
       }
     }
+  }
+
+  label(data, percentages, index) {
+    if (percentages.length === 0) return data[index].toLocaleString("it-IT")
+
+    return `${percentages[index].toFixed(2).replace(".", ",")}%`
   }
 }

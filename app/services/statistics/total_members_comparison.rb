@@ -2,7 +2,7 @@ module Statistics
   class TotalMembersComparison
     Result = Struct.new(:zoning, :mese, :anno, :anno_precedente, :count_anno, :count_precedente, :diff,
       :diff_percent, :comprensori, :categorie, :attivi_pensionati, :tipologie_iscrizione, :tipologie_delega,
-      :nazionalita, :sesso, :provvisorie_revoche, :status_lavorativo, :error, keyword_init: true) do
+      :nazionalita, :sesso, :provvisorie_revoche, :status_lavorativo, :fasce_eta, :error, keyword_init: true) do
       def success?
         error.blank?
       end
@@ -48,7 +48,7 @@ module Statistics
         diff_percent: row.diff_percent, comprensori: comprensori, categorie: categorie,
         attivi_pensionati: attivi_pensionati, tipologie_iscrizione: tipologie_iscrizione,
         tipologie_delega: tipologie_delega, nazionalita: nazionalita, sesso: sesso,
-        provvisorie_revoche: provvisorie_revoche, status_lavorativo: status_lavorativo)
+        provvisorie_revoche: provvisorie_revoche, status_lavorativo: status_lavorativo, fasce_eta: fasce_eta)
     end
 
     def build_row(zoning)
@@ -107,6 +107,10 @@ module Statistics
 
     def status_lavorativo
       WorkStatusBreakdown.call(zoning: @zoning, anno: @anno, mese: @mese)
+    end
+
+    def fasce_eta
+      AgeBreakdown.call(zoning: @zoning, anno: @anno, mese: @mese)
     end
 
     def missing_data_result(missing_years)

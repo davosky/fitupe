@@ -328,4 +328,25 @@ RSpec.describe Statistics::TotalMembersComparison do
       expect(dipendente.percentuale).to be_within(0.01).of(75.0)
     end
   end
+
+  context "quando esistono iscritti di diverse fasce d'età" do
+    before do
+      create_list(:import, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno")
+      create_list(:import, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", data_nascita: 45.years.ago.to_date)
+      create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", data_nascita: 25.years.ago.to_date)
+    end
+
+    it "espone una riga per ciascuna fascia, in ordine crescente e senza confronto con l'anno precedente" do
+      expect(result).to be_success
+      expect(result.fasce_eta.map(&:fascia)).to eq(%w[GIOVANI TRENTENNI QUARANTENNI CINQUANTENNI SESSANTENNI
+        SETTANTENNI OTTANTENNI NOVANTENNI HIGHLANDERS])
+
+      quarantenni = result.fasce_eta.find { |row| row.fascia == "QUARANTENNI" }
+      expect(quarantenni.count).to eq(3)
+      expect(quarantenni.percentuale).to be_within(0.01).of(75.0)
+    end
+  end
 end

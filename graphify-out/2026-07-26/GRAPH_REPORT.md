@@ -1,16 +1,16 @@
-# Graph Report - fitupe  (2026-07-26)
+# Graph Report - fitupe  (2026-07-24)
 
 ## Corpus Check
-- 153 files · ~66,901 words
+- 151 files · ~65,665 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 687 nodes · 670 edges · 163 communities (87 shown, 76 thin omitted)
-- Extraction: 89% EXTRACTED · 10% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.85)
+- 675 nodes · 657 edges · 161 communities (86 shown, 75 thin omitted)
+- Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `dfc5b241`
+- Built from commit: `8d31f638`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -109,10 +109,9 @@
 - [[_COMMUNITY_Community 155|Community 155]]
 - [[_COMMUNITY_Community 157|Community 157]]
 - [[_COMMUNITY_Community 158|Community 158]]
-- [[_COMMUNITY_Community 161|Community 161]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `TotalMembersComparison` - 23 edges
+1. `TotalMembersComparison` - 22 edges
 2. `CLAUDE.md — Guida per Claude Code` - 15 edges
 3. `ComparisonService` - 13 edges
 4. `ImportsController` - 13 edges
@@ -135,7 +134,7 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (163 total, 76 thin omitted)
+## Communities (161 total, 75 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
@@ -222,7 +221,7 @@ Nodes (4): Aggiunto, Changelog, Modificato, [Non rilasciato]
 ## Knowledge Gaps
 - **143 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+138 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **76 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **75 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
