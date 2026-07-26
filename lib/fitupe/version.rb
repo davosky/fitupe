@@ -1,6 +1,6 @@
 module Fitupe
   module Version
-    NUMBER = "0.3.0.1"
+    NUMBER = "3.0.6"
     CODENAME = "Grande Capo Estiquaatsi"
     STRING = "#{NUMBER} \"#{CODENAME}\""
   end
