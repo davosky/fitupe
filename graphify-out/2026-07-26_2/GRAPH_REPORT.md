@@ -1,16 +1,16 @@
 # Graph Report - fitupe  (2026-07-26)
 
 ## Corpus Check
-- 166 files · ~80,573 words
+- 153 files · ~66,901 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 921 nodes · 891 edges · 175 communities (99 shown, 76 thin omitted)
-- Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.85)
+- 687 nodes · 670 edges · 163 communities (87 shown, 76 thin omitted)
+- Extraction: 89% EXTRACTED · 10% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f049995b`
+- Built from commit: `dfc5b241`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -110,18 +110,6 @@
 - [[_COMMUNITY_Community 157|Community 157]]
 - [[_COMMUNITY_Community 158|Community 158]]
 - [[_COMMUNITY_Community 161|Community 161]]
-- [[_COMMUNITY_Community 163|Community 163]]
-- [[_COMMUNITY_Community 164|Community 164]]
-- [[_COMMUNITY_Community 165|Community 165]]
-- [[_COMMUNITY_Community 166|Community 166]]
-- [[_COMMUNITY_Community 167|Community 167]]
-- [[_COMMUNITY_Community 168|Community 168]]
-- [[_COMMUNITY_Community 169|Community 169]]
-- [[_COMMUNITY_Community 170|Community 170]]
-- [[_COMMUNITY_Community 171|Community 171]]
-- [[_COMMUNITY_Community 172|Community 172]]
-- [[_COMMUNITY_Community 173|Community 173]]
-- [[_COMMUNITY_Community 174|Community 174]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `TotalMembersComparison` - 23 edges
@@ -130,10 +118,10 @@
 4. `ImportsController` - 13 edges
 5. `IntegrationFilleasController` - 12 edges
 6. `IntegrationFlcsController` - 12 edges
-7. `Sezioni commentate` - 12 edges
-8. `ApplicationPolicy#admin?` - 12 edges
-9. `ZoningsController` - 11 edges
-10. `Sezioni commentate` - 11 edges
+7. `ApplicationPolicy#admin?` - 12 edges
+8. `ZoningsController` - 11 edges
+9. `ApplicationPolicy` - 10 edges
+10. `CsvImporterService` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Italian Devise Translations` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
@@ -147,15 +135,15 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (175 total, 76 thin omitted)
+## Communities (163 total, 76 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
 Nodes (13): Admin::UsersController, PagesController, UserDashboard, users table (schema.rb), davo admin User seed, user FactoryBot factory, DeviseCreateUsers, User::GENDERS (+5 more)
 
 ### Community 1 - "Pundit e Controlli Autorizzazione Admin"
-Cohesion: 0.09
-Nodes (11): Admin::ApplicationController, ApplicationController, authenticate_admin, ApplicationController, user_not_authorized, ApplicationPolicy#admin?, ApplicationPolicy, Scope (+3 more)
+Cohesion: 0.13
+Nodes (9): Admin::ApplicationController, ApplicationController, authenticate_admin, ApplicationController, user_not_authorized, ApplicationPolicy#admin?, ApplicationPolicy, Scope (+1 more)
 
 ### Community 2 - "Documentazione (README, LICENCE, locale IT)"
 Cohesion: 0.06
@@ -217,10 +205,6 @@ Nodes (4): Copyright (c) 2026, Davo Davosky - The Davosky Connection, English, I
 Cohesion: 0.20
 Nodes (3): SchemaSyncService, AddLockableToUsers, AddCategoriaToImports
 
-### Community 119 - "Community 119"
-Cohesion: 0.08
-Nodes (25): `build_result` *(privato)*, `build_row` *(privato)*, `call`, `categorie`, `attivi_pensionati`, `tipologie_iscrizione`, `tipologie_delega`, `nazionalita`, `sesso`, `provvisorie_revoche`, `status_lavorativo`, `fasce_eta` *(privati)*, code:ruby (module Statistics), code:ruby (def categorie), code:ruby (def missing_data_result(missing_years)), code:ruby (Result = Struct.new(:zoning, :mese, :anno, :anno_precedente,) (+17 more)
-
 ### Community 129 - "Community 129"
 Cohesion: 0.10
 Nodes (3): IntegrationFlcUploadsController, ComparisonService, success?()
@@ -229,50 +213,6 @@ Nodes (3): IntegrationFlcUploadsController, ComparisonService, success?()
 Cohesion: 0.40
 Nodes (4): Aggiunto, Changelog, Modificato, [Non rilasciato]
 
-### Community 163 - "Community 163"
-Cohesion: 0.08
-Nodes (24): `AGE_EXPR` (costante), `band_case_sql` *(privato)*, `BANDS` (costante), `build_row` *(privato)*, `call`, code:ruby (module Statistics), code:ruby (def scope), code:ruby (def band_case_sql) (+16 more)
-
-### Community 164 - "Community 164"
-Cohesion: 0.09
-Nodes (21): A full example: Age Bands (Fasce d'Età), code:ruby (class ZoningPeriodScope), code:ruby (def band_case_sql), code:ruby (class ZoningPeriodScope), code:ruby (def band_case_sql), Decisioni che *non* sono ovvie dal codice, Decisions that are *not* obvious from the code, Dove continuare (+13 more)
-
-### Community 165 - "Community 165"
-Cohesion: 0.10
-Nodes (20): `build_row` *(privato)*, `call`, `categoria_column` *(privato)*, `categorie_presenti` *(privato)*, code:ruby (module Statistics), code:ruby (# Una riga per ciascuna categoria sindacale presente nell'az), code:ruby (Row = Struct.new(:categoria, :count_anno, :count_precedente,), code:ruby (def self.call(...) = new(...).call) (+12 more)
-
-### Community 166 - "Community 166"
-Cohesion: 0.10
-Nodes (20): `build_row` *(privato)*, `call`, `categoria_column` *(privato)*, code:ruby (module Statistics), code:ruby (# Confronta il totale degli iscritti "Attivi" (tutte le cate), code:ruby (SPI = "SPI".freeze), code:ruby (Row = Struct.new(:gruppo, :count_anno, :count_precedente, :d), code:ruby (def call) (+12 more)
-
-### Community 167 - "Community 167"
-Cohesion: 0.11
-Nodes (18): `build_row` *(privato)*, `call`, code:ruby (module Statistics), code:ruby (# Distribuzione degli iscritti per sesso (FEMMINE, MASCHI) n), code:ruby (SESSI = {), code:ruby (Row = Struct.new(:sesso, :count, :percentuale, keyword_init:), code:ruby (def call), code:ruby (def build_row(sesso, totale)) (+10 more)
-
-### Community 168 - "Community 168"
-Cohesion: 0.11
-Nodes (18): `build_row` *(privato)*, `call`, code:ruby (module Statistics), code:ruby (# Distribuzione degli iscritti per status lavorativo (valori), code:ruby (Row = Struct.new(:tipologia_status, :count, :percentuale, ke), code:ruby (def call), code:ruby (def build_row(tipologia_status, count)), code:ruby (def counts) (+10 more)
-
-### Community 169 - "Community 169"
-Cohesion: 0.12
-Nodes (16): `build_row`, `count_for` *(privati)*, `call`, code:ruby (module Statistics), code:ruby (# Una riga per ciascuna tipologia di delega (Ordinaria, Ordi), code:ruby (TIPOLOGIE = {), code:ruby (CONC_SPI_ANNO = "Conc. SPI Anno".freeze), code:ruby (Row = Struct.new(:tipologia, :count_anno, :count_precedente,), code:ruby (def call) (+8 more)
-
-### Community 170 - "Community 170"
-Cohesion: 0.12
-Nodes (16): `build_row` *(privato)*, `call`, code:ruby (module Statistics), code:ruby (# Confronta gli iscritti con tipologia "Delega" (tipologia_i), code:ruby (DELEGA = "Delega".freeze), code:ruby (Row = Struct.new(:tipologia, :count_anno, :count_precedente,), code:ruby (def call), code:ruby (def build_row(tipologia, kind)) (+8 more)
-
-### Community 171 - "Community 171"
-Cohesion: 0.12
-Nodes (16): `call`, code:ruby (module Statistics), code:ruby (# Risolve lo scope di Import per un azzonamento/anno/mese. S), code:ruby (def self.call(...) = new(...).call), code:ruby (def initialize(zoning:, anno:, mese:)), code:ruby (def call), code:ruby (def regional_scope), code:ruby (def regional_zoning_id) (+8 more)
-
-### Community 172 - "Community 172"
-Cohesion: 0.13
-Nodes (14): `build_row` *(privato)*, `call`, code:ruby (module Statistics), code:ruby (# Conta le pratiche Provvisorie (provvisoria = "SI") e le Re), code:ruby (Row = Struct.new(:tipologia, :count, :percentuale, keyword_i), code:ruby (def call), code:ruby (def build_row(tipologia, count)), code:ruby (def totale_iscritti) (+6 more)
-
-### Community 173 - "Community 173"
-Cohesion: 0.15
-Nodes (12): `call`, `build_row`, `counts`, `scope` *(privati)*, code:ruby (module Statistics), code:ruby (# Distribuzione degli iscritti per nazionalità (ITALIANA, UE), code:ruby (NAZIONALITA = {), code:ruby (Row = Struct.new(:nazionalita, :count, :percentuale, keyword), code:ruby (def call), Codice completo, Commento di classe (+4 more)
-
 ## Ambiguous Edges - Review These
 - `Anti-Patterns to Avoid` → `PostgreSQL Database Config`  [AMBIGUOUS]
   CLAUDE.md · relation: conceptually_related_to
@@ -280,7 +220,7 @@ Nodes (12): `call`, `build_row`, `counts`, `scope` *(privati)*, code:ruby (modul
   config/routes.rb · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **247 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+242 more)
+- **143 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+138 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **76 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -292,12 +232,12 @@ _Questions this graph is uniquely positioned to answer:_
 - **What is the exact relationship between `Devise.setup configuration (username auth)` and `Admin namespace routes (users)`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
 - **Why does `authenticate_admin` connect `Pundit e Controlli Autorizzazione Admin` to `Modello User e Autenticazione`?**
-  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+  _High betweenness centrality (0.007) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `esbuild` to the rest of the system?**
-  _250 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _146 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Modello User e Autenticazione` be split into smaller, more focused modules?**
   _Cohesion score 0.12987012987012986 - nodes in this community are weakly interconnected._
 - **Should `Pundit e Controlli Autorizzazione Admin` be split into smaller, more focused modules?**
-  _Cohesion score 0.09103840682788052 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.13105413105413105 - nodes in this community are weakly interconnected._
 - **Should `Documentazione (README, LICENCE, locale IT)` be split into smaller, more focused modules?**
   _Cohesion score 0.06477732793522267 - nodes in this community are weakly interconnected._

@@ -1044,7 +1044,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L1",
       "id": "app_policies_integration_flc_policy_rb",
-      "community": 119,
+      "community": 1,
       "norm_label": "integration_flc_policy.rb"
     },
     {
@@ -1053,7 +1053,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L1",
       "id": "policies_integration_flc_policy_integrationflcpolicy",
-      "community": 119,
+      "community": 1,
       "norm_label": "integrationflcpolicy"
     },
     {
@@ -1062,7 +1062,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L2",
       "id": "policies_integration_flc_policy_integrationflcpolicy_index",
-      "community": 119,
+      "community": 1,
       "norm_label": ".index?()"
     },
     {
@@ -1071,7 +1071,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L3",
       "id": "policies_integration_flc_policy_integrationflcpolicy_show",
-      "community": 119,
+      "community": 1,
       "norm_label": ".show?()"
     },
     {
@@ -1080,7 +1080,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L4",
       "id": "policies_integration_flc_policy_integrationflcpolicy_create",
-      "community": 119,
+      "community": 1,
       "norm_label": ".create?()"
     },
     {
@@ -1089,7 +1089,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L5",
       "id": "policies_integration_flc_policy_integrationflcpolicy_update",
-      "community": 119,
+      "community": 1,
       "norm_label": ".update?()"
     },
     {
@@ -1098,7 +1098,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L6",
       "id": "policies_integration_flc_policy_integrationflcpolicy_confirm_destroy",
-      "community": 119,
+      "community": 1,
       "norm_label": ".confirm_destroy?()"
     },
     {
@@ -1107,7 +1107,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L7",
       "id": "policies_integration_flc_policy_integrationflcpolicy_destroy",
-      "community": 119,
+      "community": 1,
       "norm_label": ".destroy?()"
     },
     {
@@ -1116,7 +1116,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L9",
       "id": "policies_integration_flc_policy_scope",
-      "community": 119,
+      "community": 1,
       "norm_label": "scope"
     },
     {
@@ -1125,7 +1125,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L10",
       "id": "policies_integration_flc_policy_scope_resolve",
-      "community": 119,
+      "community": 1,
       "norm_label": ".resolve()"
     },
     {
@@ -1134,7 +1134,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L17",
       "id": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager",
-      "community": 119,
+      "community": 1,
       "norm_label": ".admin_or_manager?()"
     },
     {
@@ -4772,6 +4772,2112 @@
       "id": "fitupe_fitupe_costruzione_del_logo_della_applicazione",
       "community": 9,
       "norm_label": "costruzione del logo della applicazione"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "CodeGuide/README.md",
+      "source_location": "L1",
+      "id": "codeguide_readme_md",
+      "community": 174,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "CodeGuide",
+      "file_type": "document",
+      "source_file": "CodeGuide/README.md",
+      "source_location": "L1",
+      "id": "codeguide_readme_codeguide",
+      "community": 174,
+      "norm_label": "codeguide"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L1",
+      "id": "codeguide_statistics_readme_md",
+      "community": 164,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Statistiche \u2014 come funzionano e come sono state pensate",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L1",
+      "id": "statistics_readme_statistiche_come_funzionano_e_come_sono_state_pensate",
+      "community": 164,
+      "norm_label": "statistiche \u2014 come funzionano e come sono state pensate"
+    },
+    {
+      "label": "Parte 1 \u2014 Italiano",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L7",
+      "id": "statistics_readme_parte_1_italiano",
+      "community": 164,
+      "norm_label": "parte 1 \u2014 italiano"
+    },
+    {
+      "label": "Scopo",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L9",
+      "id": "statistics_readme_scopo",
+      "community": 164,
+      "norm_label": "scopo"
+    },
+    {
+      "label": "Il form: azzonamento + anno + mese",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L15",
+      "id": "statistics_readme_il_form_azzonamento_anno_mese",
+      "community": 164,
+      "norm_label": "il form: azzonamento + anno + mese"
+    },
+    {
+      "label": "`ZoningPeriodScope`: il fallback che rende tutto il resto possibile",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L21",
+      "id": "statistics_readme_zoningperiodscope_il_fallback_che_rende_tutto_il_resto_possibile",
+      "community": 164,
+      "norm_label": "`zoningperiodscope`: il fallback che rende tutto il resto possibile"
+    },
+    {
+      "label": "code:ruby (class ZoningPeriodScope)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L27",
+      "id": "statistics_readme_codeblock_1",
+      "community": 164,
+      "norm_label": "code:ruby (class zoningperiodscope)"
+    },
+    {
+      "label": "La \"recipe\" delle sezioni: un pattern ripetuto ~10 volte",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L41",
+      "id": "statistics_readme_la_recipe_delle_sezioni_un_pattern_ripetuto_10_volte",
+      "community": 164,
+      "norm_label": "la \"recipe\" delle sezioni: un pattern ripetuto ~10 volte"
+    },
+    {
+      "label": "Un esempio completo: Fasce d'Et\u00e0",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L60",
+      "id": "statistics_readme_un_esempio_completo_fasce_d_et\u00e0",
+      "community": 164,
+      "norm_label": "un esempio completo: fasce d'eta"
+    },
+    {
+      "label": "code:ruby (def band_case_sql)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L66",
+      "id": "statistics_readme_codeblock_2",
+      "community": 164,
+      "norm_label": "code:ruby (def band_case_sql)"
+    },
+    {
+      "label": "Decisioni che *non* sono ovvie dal codice",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L75",
+      "id": "statistics_readme_decisioni_che_non_sono_ovvie_dal_codice",
+      "community": 164,
+      "norm_label": "decisioni che *non* sono ovvie dal codice"
+    },
+    {
+      "label": "Dove continuare",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L84",
+      "id": "statistics_readme_dove_continuare",
+      "community": 164,
+      "norm_label": "dove continuare"
+    },
+    {
+      "label": "Part 2 \u2014 English",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L90",
+      "id": "statistics_readme_part_2_english",
+      "community": 164,
+      "norm_label": "part 2 \u2014 english"
+    },
+    {
+      "label": "Purpose",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L92",
+      "id": "statistics_readme_purpose",
+      "community": 164,
+      "norm_label": "purpose"
+    },
+    {
+      "label": "The form: zoning + year + month",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L98",
+      "id": "statistics_readme_the_form_zoning_year_month",
+      "community": 164,
+      "norm_label": "the form: zoning + year + month"
+    },
+    {
+      "label": "`ZoningPeriodScope`: the fallback that makes everything else possible",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L104",
+      "id": "statistics_readme_zoningperiodscope_the_fallback_that_makes_everything_else_possible",
+      "community": 164,
+      "norm_label": "`zoningperiodscope`: the fallback that makes everything else possible"
+    },
+    {
+      "label": "code:ruby (class ZoningPeriodScope)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L110",
+      "id": "statistics_readme_codeblock_3",
+      "community": 164,
+      "norm_label": "code:ruby (class zoningperiodscope)"
+    },
+    {
+      "label": "The section \"recipe\": a pattern repeated ~10 times",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L124",
+      "id": "statistics_readme_the_section_recipe_a_pattern_repeated_10_times",
+      "community": 164,
+      "norm_label": "the section \"recipe\": a pattern repeated ~10 times"
+    },
+    {
+      "label": "A full example: Age Bands (Fasce d'Et\u00e0)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L143",
+      "id": "statistics_readme_a_full_example_age_bands_fasce_d_et\u00e0",
+      "community": 164,
+      "norm_label": "a full example: age bands (fasce d'eta)"
+    },
+    {
+      "label": "code:ruby (def band_case_sql)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L149",
+      "id": "statistics_readme_codeblock_4",
+      "community": 164,
+      "norm_label": "code:ruby (def band_case_sql)"
+    },
+    {
+      "label": "Decisions that are *not* obvious from the code",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L158",
+      "id": "statistics_readme_decisions_that_are_not_obvious_from_the_code",
+      "community": 164,
+      "norm_label": "decisions that are *not* obvious from the code"
+    },
+    {
+      "label": "Where to continue",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L167",
+      "id": "statistics_readme_where_to_continue",
+      "community": 164,
+      "norm_label": "where to continue"
+    },
+    {
+      "label": "nationality_breakdown.md",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L1",
+      "id": "codeguide_statistics_nationality_breakdown_md",
+      "community": 173,
+      "norm_label": "nationality_breakdown.md"
+    },
+    {
+      "label": "`Statistics::NationalityBreakdown`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L1",
+      "id": "statistics_nationality_breakdown_statistics_nationalitybreakdown",
+      "community": 173,
+      "norm_label": "`statistics::nationalitybreakdown`"
+    },
+    {
+      "label": "Codice completo",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L5",
+      "id": "statistics_nationality_breakdown_codice_completo",
+      "community": 173,
+      "norm_label": "codice completo"
+    },
+    {
+      "label": "code:ruby (module Statistics)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L7",
+      "id": "statistics_nationality_breakdown_codeblock_1",
+      "community": 173,
+      "norm_label": "code:ruby (module statistics)"
+    },
+    {
+      "label": "Sezioni commentate",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L56",
+      "id": "statistics_nationality_breakdown_sezioni_commentate",
+      "community": 173,
+      "norm_label": "sezioni commentate"
+    },
+    {
+      "label": "Commento di classe",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L58",
+      "id": "statistics_nationality_breakdown_commento_di_classe",
+      "community": 173,
+      "norm_label": "commento di classe"
+    },
+    {
+      "label": "code:ruby (# Distribuzione degli iscritti per nazionalit\u00e0 (ITALIANA, UE)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L60",
+      "id": "statistics_nationality_breakdown_codeblock_2",
+      "community": 173,
+      "norm_label": "code:ruby (# distribuzione degli iscritti per nazionalita (italiana, ue)"
+    },
+    {
+      "label": "`NAZIONALITA` (costante)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L71",
+      "id": "statistics_nationality_breakdown_nazionalita_costante",
+      "community": 173,
+      "norm_label": "`nazionalita` (costante)"
+    },
+    {
+      "label": "code:ruby (NAZIONALITA = {)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L73",
+      "id": "statistics_nationality_breakdown_codeblock_3",
+      "community": 173,
+      "norm_label": "code:ruby (nazionalita = {)"
+    },
+    {
+      "label": "`Row` (Struct)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L85",
+      "id": "statistics_nationality_breakdown_row_struct",
+      "community": 173,
+      "norm_label": "`row` (struct)"
+    },
+    {
+      "label": "code:ruby (Row = Struct.new(:nazionalita, :count, :percentuale, keyword)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L87",
+      "id": "statistics_nationality_breakdown_codeblock_4",
+      "community": 173,
+      "norm_label": "code:ruby (row = struct.new(:nazionalita, :count, :percentuale, keyword)"
+    },
+    {
+      "label": "`call`, `build_row`, `counts`, `scope` *(privati)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L95",
+      "id": "statistics_nationality_breakdown_call_build_row_counts_scope_privati",
+      "community": 173,
+      "norm_label": "`call`, `build_row`, `counts`, `scope` *(privati)*"
+    },
+    {
+      "label": "code:ruby (def call)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L97",
+      "id": "statistics_nationality_breakdown_codeblock_5",
+      "community": 173,
+      "norm_label": "code:ruby (def call)"
+    },
+    {
+      "label": "delegation_type_breakdown.md",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L1",
+      "id": "codeguide_statistics_delegation_type_breakdown_md",
+      "community": 169,
+      "norm_label": "delegation_type_breakdown.md"
+    },
+    {
+      "label": "`Statistics::DelegationTypeBreakdown`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L1",
+      "id": "statistics_delegation_type_breakdown_statistics_delegationtypebreakdown",
+      "community": 169,
+      "norm_label": "`statistics::delegationtypebreakdown`"
+    },
+    {
+      "label": "Codice completo",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L5",
+      "id": "statistics_delegation_type_breakdown_codice_completo",
+      "community": 169,
+      "norm_label": "codice completo"
+    },
+    {
+      "label": "code:ruby (module Statistics)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L7",
+      "id": "statistics_delegation_type_breakdown_codeblock_1",
+      "community": 169,
+      "norm_label": "code:ruby (module statistics)"
+    },
+    {
+      "label": "Sezioni commentate",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L61",
+      "id": "statistics_delegation_type_breakdown_sezioni_commentate",
+      "community": 169,
+      "norm_label": "sezioni commentate"
+    },
+    {
+      "label": "Commento di classe",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L63",
+      "id": "statistics_delegation_type_breakdown_commento_di_classe",
+      "community": 169,
+      "norm_label": "commento di classe"
+    },
+    {
+      "label": "code:ruby (# Una riga per ciascuna tipologia di delega (Ordinaria, Ordi)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L65",
+      "id": "statistics_delegation_type_breakdown_codeblock_2",
+      "community": 169,
+      "norm_label": "code:ruby (# una riga per ciascuna tipologia di delega (ordinaria, ordi)"
+    },
+    {
+      "label": "`TIPOLOGIE` (costante)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L78",
+      "id": "statistics_delegation_type_breakdown_tipologie_costante",
+      "community": 169,
+      "norm_label": "`tipologie` (costante)"
+    },
+    {
+      "label": "code:ruby (TIPOLOGIE = {)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L80",
+      "id": "statistics_delegation_type_breakdown_codeblock_3",
+      "community": 169,
+      "norm_label": "code:ruby (tipologie = {)"
+    },
+    {
+      "label": "`CONC_SPI_ANNO` (costante)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L95",
+      "id": "statistics_delegation_type_breakdown_conc_spi_anno_costante",
+      "community": 169,
+      "norm_label": "`conc_spi_anno` (costante)"
+    },
+    {
+      "label": "code:ruby (CONC_SPI_ANNO = \"Conc. SPI Anno\".freeze)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L97",
+      "id": "statistics_delegation_type_breakdown_codeblock_4",
+      "community": 169,
+      "norm_label": "code:ruby (conc_spi_anno = \"conc. spi anno\".freeze)"
+    },
+    {
+      "label": "`Row` (Struct)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L105",
+      "id": "statistics_delegation_type_breakdown_row_struct",
+      "community": 169,
+      "norm_label": "`row` (struct)"
+    },
+    {
+      "label": "code:ruby (Row = Struct.new(:tipologia, :count_anno, :count_precedente,)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L107",
+      "id": "statistics_delegation_type_breakdown_codeblock_5",
+      "community": 169,
+      "norm_label": "code:ruby (row = struct.new(:tipologia, :count_anno, :count_precedente,)"
+    },
+    {
+      "label": "`call`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L115",
+      "id": "statistics_delegation_type_breakdown_call",
+      "community": 169,
+      "norm_label": "`call`"
+    },
+    {
+      "label": "code:ruby (def call)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L117",
+      "id": "statistics_delegation_type_breakdown_codeblock_6",
+      "community": 169,
+      "norm_label": "code:ruby (def call)"
+    },
+    {
+      "label": "`build_row`, `count_for` *(privati)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L128",
+      "id": "statistics_delegation_type_breakdown_build_row_count_for_privati",
+      "community": 169,
+      "norm_label": "`build_row`, `count_for` *(privati)*"
+    },
+    {
+      "label": "code:ruby (def build_row(tipologia, &scope_filter))",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L130",
+      "id": "statistics_delegation_type_breakdown_codeblock_7",
+      "community": 169,
+      "norm_label": "code:ruby (def build_row(tipologia, &scope_filter))"
+    },
+    {
+      "label": "membership_type_breakdown.md",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L1",
+      "id": "codeguide_statistics_membership_type_breakdown_md",
+      "community": 170,
+      "norm_label": "membership_type_breakdown.md"
+    },
+    {
+      "label": "`Statistics::MembershipTypeBreakdown`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L1",
+      "id": "statistics_membership_type_breakdown_statistics_membershiptypebreakdown",
+      "community": 170,
+      "norm_label": "`statistics::membershiptypebreakdown`"
+    },
+    {
+      "label": "Codice completo",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L5",
+      "id": "statistics_membership_type_breakdown_codice_completo",
+      "community": 170,
+      "norm_label": "codice completo"
+    },
+    {
+      "label": "code:ruby (module Statistics)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L7",
+      "id": "statistics_membership_type_breakdown_codeblock_1",
+      "community": 170,
+      "norm_label": "code:ruby (module statistics)"
+    },
+    {
+      "label": "Sezioni commentate",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L50",
+      "id": "statistics_membership_type_breakdown_sezioni_commentate",
+      "community": 170,
+      "norm_label": "sezioni commentate"
+    },
+    {
+      "label": "Commento di classe",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L52",
+      "id": "statistics_membership_type_breakdown_commento_di_classe",
+      "community": 170,
+      "norm_label": "commento di classe"
+    },
+    {
+      "label": "code:ruby (# Confronta gli iscritti con tipologia \"Delega\" (tipologia_i)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L54",
+      "id": "statistics_membership_type_breakdown_codeblock_2",
+      "community": 170,
+      "norm_label": "code:ruby (# confronta gli iscritti con tipologia \"delega\" (tipologia_i)"
+    },
+    {
+      "label": "`DELEGA` (costante)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L65",
+      "id": "statistics_membership_type_breakdown_delega_costante",
+      "community": 170,
+      "norm_label": "`delega` (costante)"
+    },
+    {
+      "label": "code:ruby (DELEGA = \"Delega\".freeze)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L67",
+      "id": "statistics_membership_type_breakdown_codeblock_3",
+      "community": 170,
+      "norm_label": "code:ruby (delega = \"delega\".freeze)"
+    },
+    {
+      "label": "`Row` (Struct)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L75",
+      "id": "statistics_membership_type_breakdown_row_struct",
+      "community": 170,
+      "norm_label": "`row` (struct)"
+    },
+    {
+      "label": "code:ruby (Row = Struct.new(:tipologia, :count_anno, :count_precedente,)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L77",
+      "id": "statistics_membership_type_breakdown_codeblock_4",
+      "community": 170,
+      "norm_label": "code:ruby (row = struct.new(:tipologia, :count_anno, :count_precedente,)"
+    },
+    {
+      "label": "`call`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L85",
+      "id": "statistics_membership_type_breakdown_call",
+      "community": 170,
+      "norm_label": "`call`"
+    },
+    {
+      "label": "code:ruby (def call)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L87",
+      "id": "statistics_membership_type_breakdown_codeblock_5",
+      "community": 170,
+      "norm_label": "code:ruby (def call)"
+    },
+    {
+      "label": "`build_row` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L97",
+      "id": "statistics_membership_type_breakdown_build_row_privato",
+      "community": 170,
+      "norm_label": "`build_row` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def build_row(tipologia, kind))",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L99",
+      "id": "statistics_membership_type_breakdown_codeblock_6",
+      "community": 170,
+      "norm_label": "code:ruby (def build_row(tipologia, kind))"
+    },
+    {
+      "label": "`count_for` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L114",
+      "id": "statistics_membership_type_breakdown_count_for_privato",
+      "community": 170,
+      "norm_label": "`count_for` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def count_for(anno, kind))",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L116",
+      "id": "statistics_membership_type_breakdown_codeblock_7",
+      "community": 170,
+      "norm_label": "code:ruby (def count_for(anno, kind))"
+    },
+    {
+      "label": "gender_breakdown.md",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L1",
+      "id": "codeguide_statistics_gender_breakdown_md",
+      "community": 167,
+      "norm_label": "gender_breakdown.md"
+    },
+    {
+      "label": "`Statistics::GenderBreakdown`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L1",
+      "id": "statistics_gender_breakdown_statistics_genderbreakdown",
+      "community": 167,
+      "norm_label": "`statistics::genderbreakdown`"
+    },
+    {
+      "label": "Codice completo",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L5",
+      "id": "statistics_gender_breakdown_codice_completo",
+      "community": 167,
+      "norm_label": "codice completo"
+    },
+    {
+      "label": "code:ruby (module Statistics)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L7",
+      "id": "statistics_gender_breakdown_codeblock_1",
+      "community": 167,
+      "norm_label": "code:ruby (module statistics)"
+    },
+    {
+      "label": "Sezioni commentate",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L55",
+      "id": "statistics_gender_breakdown_sezioni_commentate",
+      "community": 167,
+      "norm_label": "sezioni commentate"
+    },
+    {
+      "label": "Commento di classe",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L57",
+      "id": "statistics_gender_breakdown_commento_di_classe",
+      "community": 167,
+      "norm_label": "commento di classe"
+    },
+    {
+      "label": "code:ruby (# Distribuzione degli iscritti per sesso (FEMMINE, MASCHI) n)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L59",
+      "id": "statistics_gender_breakdown_codeblock_2",
+      "community": 167,
+      "norm_label": "code:ruby (# distribuzione degli iscritti per sesso (femmine, maschi) n)"
+    },
+    {
+      "label": "`SESSI` (costante)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L70",
+      "id": "statistics_gender_breakdown_sessi_costante",
+      "community": 167,
+      "norm_label": "`sessi` (costante)"
+    },
+    {
+      "label": "code:ruby (SESSI = {)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L72",
+      "id": "statistics_gender_breakdown_codeblock_3",
+      "community": 167,
+      "norm_label": "code:ruby (sessi = {)"
+    },
+    {
+      "label": "`Row` (Struct)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L83",
+      "id": "statistics_gender_breakdown_row_struct",
+      "community": 167,
+      "norm_label": "`row` (struct)"
+    },
+    {
+      "label": "code:ruby (Row = Struct.new(:sesso, :count, :percentuale, keyword_init:)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L85",
+      "id": "statistics_gender_breakdown_codeblock_4",
+      "community": 167,
+      "norm_label": "code:ruby (row = struct.new(:sesso, :count, :percentuale, keyword_init:)"
+    },
+    {
+      "label": "`call`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L93",
+      "id": "statistics_gender_breakdown_call",
+      "community": 167,
+      "norm_label": "`call`"
+    },
+    {
+      "label": "code:ruby (def call)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L95",
+      "id": "statistics_gender_breakdown_codeblock_5",
+      "community": 167,
+      "norm_label": "code:ruby (def call)"
+    },
+    {
+      "label": "`build_row` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L106",
+      "id": "statistics_gender_breakdown_build_row_privato",
+      "community": 167,
+      "norm_label": "`build_row` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def build_row(sesso, totale))",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L108",
+      "id": "statistics_gender_breakdown_codeblock_6",
+      "community": 167,
+      "norm_label": "code:ruby (def build_row(sesso, totale))"
+    },
+    {
+      "label": "`counts` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L121",
+      "id": "statistics_gender_breakdown_counts_privato",
+      "community": 167,
+      "norm_label": "`counts` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def counts)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L123",
+      "id": "statistics_gender_breakdown_codeblock_7",
+      "community": 167,
+      "norm_label": "code:ruby (def counts)"
+    },
+    {
+      "label": "`scope` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L135",
+      "id": "statistics_gender_breakdown_scope_privato",
+      "community": 167,
+      "norm_label": "`scope` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def scope)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L137",
+      "id": "statistics_gender_breakdown_codeblock_8",
+      "community": 167,
+      "norm_label": "code:ruby (def scope)"
+    },
+    {
+      "label": "work_status_breakdown.md",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L1",
+      "id": "codeguide_statistics_work_status_breakdown_md",
+      "community": 168,
+      "norm_label": "work_status_breakdown.md"
+    },
+    {
+      "label": "`Statistics::WorkStatusBreakdown`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L1",
+      "id": "statistics_work_status_breakdown_statistics_workstatusbreakdown",
+      "community": 168,
+      "norm_label": "`statistics::workstatusbreakdown`"
+    },
+    {
+      "label": "Codice completo",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L5",
+      "id": "statistics_work_status_breakdown_codice_completo",
+      "community": 168,
+      "norm_label": "codice completo"
+    },
+    {
+      "label": "code:ruby (module Statistics)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L7",
+      "id": "statistics_work_status_breakdown_codeblock_1",
+      "community": 168,
+      "norm_label": "code:ruby (module statistics)"
+    },
+    {
+      "label": "Sezioni commentate",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L53",
+      "id": "statistics_work_status_breakdown_sezioni_commentate",
+      "community": 168,
+      "norm_label": "sezioni commentate"
+    },
+    {
+      "label": "Commento di classe",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L55",
+      "id": "statistics_work_status_breakdown_commento_di_classe",
+      "community": 168,
+      "norm_label": "commento di classe"
+    },
+    {
+      "label": "code:ruby (# Distribuzione degli iscritti per status lavorativo (valori)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L57",
+      "id": "statistics_work_status_breakdown_codeblock_2",
+      "community": 168,
+      "norm_label": "code:ruby (# distribuzione degli iscritti per status lavorativo (valori)"
+    },
+    {
+      "label": "`Row` (Struct)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L71",
+      "id": "statistics_work_status_breakdown_row_struct",
+      "community": 168,
+      "norm_label": "`row` (struct)"
+    },
+    {
+      "label": "code:ruby (Row = Struct.new(:tipologia_status, :count, :percentuale, ke)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L73",
+      "id": "statistics_work_status_breakdown_codeblock_3",
+      "community": 168,
+      "norm_label": "code:ruby (row = struct.new(:tipologia_status, :count, :percentuale, ke)"
+    },
+    {
+      "label": "`call`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L81",
+      "id": "statistics_work_status_breakdown_call",
+      "community": 168,
+      "norm_label": "`call`"
+    },
+    {
+      "label": "code:ruby (def call)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L83",
+      "id": "statistics_work_status_breakdown_codeblock_4",
+      "community": 168,
+      "norm_label": "code:ruby (def call)"
+    },
+    {
+      "label": "`build_row` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L93",
+      "id": "statistics_work_status_breakdown_build_row_privato",
+      "community": 168,
+      "norm_label": "`build_row` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def build_row(tipologia_status, count))",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L95",
+      "id": "statistics_work_status_breakdown_codeblock_5",
+      "community": 168,
+      "norm_label": "code:ruby (def build_row(tipologia_status, count))"
+    },
+    {
+      "label": "`counts` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L107",
+      "id": "statistics_work_status_breakdown_counts_privato",
+      "community": 168,
+      "norm_label": "`counts` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def counts)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L109",
+      "id": "statistics_work_status_breakdown_codeblock_6",
+      "community": 168,
+      "norm_label": "code:ruby (def counts)"
+    },
+    {
+      "label": "`totale` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L119",
+      "id": "statistics_work_status_breakdown_totale_privato",
+      "community": 168,
+      "norm_label": "`totale` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def totale)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L121",
+      "id": "statistics_work_status_breakdown_codeblock_7",
+      "community": 168,
+      "norm_label": "code:ruby (def totale)"
+    },
+    {
+      "label": "`scope` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L131",
+      "id": "statistics_work_status_breakdown_scope_privato",
+      "community": 168,
+      "norm_label": "`scope` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def scope)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L133",
+      "id": "statistics_work_status_breakdown_codeblock_8",
+      "community": 168,
+      "norm_label": "code:ruby (def scope)"
+    },
+    {
+      "label": "zoning_period_scope.md",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L1",
+      "id": "codeguide_statistics_zoning_period_scope_md",
+      "community": 171,
+      "norm_label": "zoning_period_scope.md"
+    },
+    {
+      "label": "`Statistics::ZoningPeriodScope`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L1",
+      "id": "statistics_zoning_period_scope_statistics_zoningperiodscope",
+      "community": 171,
+      "norm_label": "`statistics::zoningperiodscope`"
+    },
+    {
+      "label": "Codice completo",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L5",
+      "id": "statistics_zoning_period_scope_codice_completo",
+      "community": 171,
+      "norm_label": "codice completo"
+    },
+    {
+      "label": "code:ruby (module Statistics)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L7",
+      "id": "statistics_zoning_period_scope_codeblock_1",
+      "community": 171,
+      "norm_label": "code:ruby (module statistics)"
+    },
+    {
+      "label": "Sezioni commentate",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L49",
+      "id": "statistics_zoning_period_scope_sezioni_commentate",
+      "community": 171,
+      "norm_label": "sezioni commentate"
+    },
+    {
+      "label": "Commento di classe",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L51",
+      "id": "statistics_zoning_period_scope_commento_di_classe",
+      "community": 171,
+      "norm_label": "commento di classe"
+    },
+    {
+      "label": "code:ruby (# Risolve lo scope di Import per un azzonamento/anno/mese. S)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L53",
+      "id": "statistics_zoning_period_scope_codeblock_2",
+      "community": 171,
+      "norm_label": "code:ruby (# risolve lo scope di import per un azzonamento/anno/mese. s)"
+    },
+    {
+      "label": "`def self.call(...)`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L65",
+      "id": "statistics_zoning_period_scope_def_self_call",
+      "community": 171,
+      "norm_label": "`def self.call(...)`"
+    },
+    {
+      "label": "code:ruby (def self.call(...) = new(...).call)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L67",
+      "id": "statistics_zoning_period_scope_codeblock_3",
+      "community": 171,
+      "norm_label": "code:ruby (def self.call(...) = new(...).call)"
+    },
+    {
+      "label": "`initialize`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L75",
+      "id": "statistics_zoning_period_scope_initialize",
+      "community": 171,
+      "norm_label": "`initialize`"
+    },
+    {
+      "label": "code:ruby (def initialize(zoning:, anno:, mese:))",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L77",
+      "id": "statistics_zoning_period_scope_codeblock_4",
+      "community": 171,
+      "norm_label": "code:ruby (def initialize(zoning:, anno:, mese:))"
+    },
+    {
+      "label": "`call`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L89",
+      "id": "statistics_zoning_period_scope_call",
+      "community": 171,
+      "norm_label": "`call`"
+    },
+    {
+      "label": "code:ruby (def call)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L91",
+      "id": "statistics_zoning_period_scope_codeblock_5",
+      "community": 171,
+      "norm_label": "code:ruby (def call)"
+    },
+    {
+      "label": "`regional_scope` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L105",
+      "id": "statistics_zoning_period_scope_regional_scope_privato",
+      "community": 171,
+      "norm_label": "`regional_scope` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def regional_scope)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L107",
+      "id": "statistics_zoning_period_scope_codeblock_6",
+      "community": 171,
+      "norm_label": "code:ruby (def regional_scope)"
+    },
+    {
+      "label": "`regional_zoning_id` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L120",
+      "id": "statistics_zoning_period_scope_regional_zoning_id_privato",
+      "community": 171,
+      "norm_label": "`regional_zoning_id` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def regional_zoning_id)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L122",
+      "id": "statistics_zoning_period_scope_codeblock_7",
+      "community": 171,
+      "norm_label": "code:ruby (def regional_zoning_id)"
+    },
+    {
+      "label": "employment_status_breakdown.md",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L1",
+      "id": "codeguide_statistics_employment_status_breakdown_md",
+      "community": 166,
+      "norm_label": "employment_status_breakdown.md"
+    },
+    {
+      "label": "`Statistics::EmploymentStatusBreakdown`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L1",
+      "id": "statistics_employment_status_breakdown_statistics_employmentstatusbreakdown",
+      "community": 166,
+      "norm_label": "`statistics::employmentstatusbreakdown`"
+    },
+    {
+      "label": "Codice completo",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L5",
+      "id": "statistics_employment_status_breakdown_codice_completo",
+      "community": 166,
+      "norm_label": "codice completo"
+    },
+    {
+      "label": "code:ruby (module Statistics)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L7",
+      "id": "statistics_employment_status_breakdown_codeblock_1",
+      "community": 166,
+      "norm_label": "code:ruby (module statistics)"
+    },
+    {
+      "label": "Sezioni commentate",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L67",
+      "id": "statistics_employment_status_breakdown_sezioni_commentate",
+      "community": 166,
+      "norm_label": "sezioni commentate"
+    },
+    {
+      "label": "Commento di classe",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L69",
+      "id": "statistics_employment_status_breakdown_commento_di_classe",
+      "community": 166,
+      "norm_label": "commento di classe"
+    },
+    {
+      "label": "code:ruby (# Confronta il totale degli iscritti \"Attivi\" (tutte le cate)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L71",
+      "id": "statistics_employment_status_breakdown_codeblock_2",
+      "community": 166,
+      "norm_label": "code:ruby (# confronta il totale degli iscritti \"attivi\" (tutte le cate)"
+    },
+    {
+      "label": "`SPI` (costante)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L82",
+      "id": "statistics_employment_status_breakdown_spi_costante",
+      "community": 166,
+      "norm_label": "`spi` (costante)"
+    },
+    {
+      "label": "code:ruby (SPI = \"SPI\".freeze)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L84",
+      "id": "statistics_employment_status_breakdown_codeblock_3",
+      "community": 166,
+      "norm_label": "code:ruby (spi = \"spi\".freeze)"
+    },
+    {
+      "label": "`Row` (Struct)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L92",
+      "id": "statistics_employment_status_breakdown_row_struct",
+      "community": 166,
+      "norm_label": "`row` (struct)"
+    },
+    {
+      "label": "code:ruby (Row = Struct.new(:gruppo, :count_anno, :count_precedente, :d)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L94",
+      "id": "statistics_employment_status_breakdown_codeblock_4",
+      "community": 166,
+      "norm_label": "code:ruby (row = struct.new(:gruppo, :count_anno, :count_precedente, :d)"
+    },
+    {
+      "label": "`call`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L102",
+      "id": "statistics_employment_status_breakdown_call",
+      "community": 166,
+      "norm_label": "`call`"
+    },
+    {
+      "label": "code:ruby (def call)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L104",
+      "id": "statistics_employment_status_breakdown_codeblock_5",
+      "community": 166,
+      "norm_label": "code:ruby (def call)"
+    },
+    {
+      "label": "`build_row` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L114",
+      "id": "statistics_employment_status_breakdown_build_row_privato",
+      "community": 166,
+      "norm_label": "`build_row` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def build_row(gruppo, kind))",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L116",
+      "id": "statistics_employment_status_breakdown_codeblock_6",
+      "community": 166,
+      "norm_label": "code:ruby (def build_row(gruppo, kind))"
+    },
+    {
+      "label": "`count_for` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L132",
+      "id": "statistics_employment_status_breakdown_count_for_privato",
+      "community": 166,
+      "norm_label": "`count_for` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def count_for(anno, kind))",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L134",
+      "id": "statistics_employment_status_breakdown_codeblock_7",
+      "community": 166,
+      "norm_label": "code:ruby (def count_for(anno, kind))"
+    },
+    {
+      "label": "`totale_anno` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L146",
+      "id": "statistics_employment_status_breakdown_totale_anno_privato",
+      "community": 166,
+      "norm_label": "`totale_anno` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def totale_anno)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L148",
+      "id": "statistics_employment_status_breakdown_codeblock_8",
+      "community": 166,
+      "norm_label": "code:ruby (def totale_anno)"
+    },
+    {
+      "label": "`categoria_column` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L158",
+      "id": "statistics_employment_status_breakdown_categoria_column_privato",
+      "community": 166,
+      "norm_label": "`categoria_column` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def categoria_column(scope))",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L160",
+      "id": "statistics_employment_status_breakdown_codeblock_9",
+      "community": 166,
+      "norm_label": "code:ruby (def categoria_column(scope))"
+    },
+    {
+      "label": "category_breakdown.md",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L1",
+      "id": "codeguide_statistics_category_breakdown_md",
+      "community": 165,
+      "norm_label": "category_breakdown.md"
+    },
+    {
+      "label": "`Statistics::CategoryBreakdown`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L1",
+      "id": "statistics_category_breakdown_statistics_categorybreakdown",
+      "community": 165,
+      "norm_label": "`statistics::categorybreakdown`"
+    },
+    {
+      "label": "Codice completo",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L5",
+      "id": "statistics_category_breakdown_codice_completo",
+      "community": 165,
+      "norm_label": "codice completo"
+    },
+    {
+      "label": "code:ruby (module Statistics)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L7",
+      "id": "statistics_category_breakdown_codeblock_1",
+      "community": 165,
+      "norm_label": "code:ruby (module statistics)"
+    },
+    {
+      "label": "Sezioni commentate",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L71",
+      "id": "statistics_category_breakdown_sezioni_commentate",
+      "community": 165,
+      "norm_label": "sezioni commentate"
+    },
+    {
+      "label": "Commento di classe",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L73",
+      "id": "statistics_category_breakdown_commento_di_classe",
+      "community": 165,
+      "norm_label": "commento di classe"
+    },
+    {
+      "label": "code:ruby (# Una riga per ciascuna categoria sindacale presente nell'az)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L75",
+      "id": "statistics_category_breakdown_codeblock_2",
+      "community": 165,
+      "norm_label": "code:ruby (# una riga per ciascuna categoria sindacale presente nell'az)"
+    },
+    {
+      "label": "`Row` (Struct)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L86",
+      "id": "statistics_category_breakdown_row_struct",
+      "community": 165,
+      "norm_label": "`row` (struct)"
+    },
+    {
+      "label": "code:ruby (Row = Struct.new(:categoria, :count_anno, :count_precedente,)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L88",
+      "id": "statistics_category_breakdown_codeblock_3",
+      "community": 165,
+      "norm_label": "code:ruby (row = struct.new(:categoria, :count_anno, :count_precedente,)"
+    },
+    {
+      "label": "`def self.call(...)` / `initialize`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L96",
+      "id": "statistics_category_breakdown_def_self_call_initialize",
+      "community": 165,
+      "norm_label": "`def self.call(...)` / `initialize`"
+    },
+    {
+      "label": "code:ruby (def self.call(...) = new(...).call)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L98",
+      "id": "statistics_category_breakdown_codeblock_4",
+      "community": 165,
+      "norm_label": "code:ruby (def self.call(...) = new(...).call)"
+    },
+    {
+      "label": "`call`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L113",
+      "id": "statistics_category_breakdown_call",
+      "community": 165,
+      "norm_label": "`call`"
+    },
+    {
+      "label": "code:ruby (def call)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L115",
+      "id": "statistics_category_breakdown_codeblock_5",
+      "community": 165,
+      "norm_label": "code:ruby (def call)"
+    },
+    {
+      "label": "`categorie_presenti` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L125",
+      "id": "statistics_category_breakdown_categorie_presenti_privato",
+      "community": 165,
+      "norm_label": "`categorie_presenti` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def categorie_presenti)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L127",
+      "id": "statistics_category_breakdown_codeblock_6",
+      "community": 165,
+      "norm_label": "code:ruby (def categorie_presenti)"
+    },
+    {
+      "label": "`build_row` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L137",
+      "id": "statistics_category_breakdown_build_row_privato",
+      "community": 165,
+      "norm_label": "`build_row` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def build_row(categoria))",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L139",
+      "id": "statistics_category_breakdown_codeblock_7",
+      "community": 165,
+      "norm_label": "code:ruby (def build_row(categoria))"
+    },
+    {
+      "label": "`counts_anno`, `counts_precedente`, `counts_for` *(privati)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L154",
+      "id": "statistics_category_breakdown_counts_anno_counts_precedente_counts_for_privati",
+      "community": 165,
+      "norm_label": "`counts_anno`, `counts_precedente`, `counts_for` *(privati)*"
+    },
+    {
+      "label": "code:ruby (def counts_anno)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L156",
+      "id": "statistics_category_breakdown_codeblock_8",
+      "community": 165,
+      "norm_label": "code:ruby (def counts_anno)"
+    },
+    {
+      "label": "`categoria_column` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L175",
+      "id": "statistics_category_breakdown_categoria_column_privato",
+      "community": 165,
+      "norm_label": "`categoria_column` *(privato)*"
+    },
+    {
+      "label": "code:ruby (# La categoria sindacale \u00e8 stata importata sotto nomi di col)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L177",
+      "id": "statistics_category_breakdown_codeblock_9",
+      "community": 165,
+      "norm_label": "code:ruby (# la categoria sindacale e stata importata sotto nomi di col)"
+    },
+    {
+      "label": "age_breakdown.md",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L1",
+      "id": "codeguide_statistics_age_breakdown_md",
+      "community": 163,
+      "norm_label": "age_breakdown.md"
+    },
+    {
+      "label": "`Statistics::AgeBreakdown`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L1",
+      "id": "statistics_age_breakdown_statistics_agebreakdown",
+      "community": 163,
+      "norm_label": "`statistics::agebreakdown`"
+    },
+    {
+      "label": "Codice completo",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L5",
+      "id": "statistics_age_breakdown_codice_completo",
+      "community": 163,
+      "norm_label": "codice completo"
+    },
+    {
+      "label": "code:ruby (module Statistics)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L7",
+      "id": "statistics_age_breakdown_codeblock_1",
+      "community": 163,
+      "norm_label": "code:ruby (module statistics)"
+    },
+    {
+      "label": "Sezioni commentate",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L72",
+      "id": "statistics_age_breakdown_sezioni_commentate",
+      "community": 163,
+      "norm_label": "sezioni commentate"
+    },
+    {
+      "label": "Commento di classe",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L74",
+      "id": "statistics_age_breakdown_commento_di_classe",
+      "community": 163,
+      "norm_label": "commento di classe"
+    },
+    {
+      "label": "code:ruby (# Distribuzione degli iscritti per fascia d'et\u00e0 (calcolata d)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L76",
+      "id": "statistics_age_breakdown_codeblock_2",
+      "community": 163,
+      "norm_label": "code:ruby (# distribuzione degli iscritti per fascia d'eta (calcolata d)"
+    },
+    {
+      "label": "`BANDS` (costante)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L89",
+      "id": "statistics_age_breakdown_bands_costante",
+      "community": 163,
+      "norm_label": "`bands` (costante)"
+    },
+    {
+      "label": "code:ruby (BANDS = [)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L91",
+      "id": "statistics_age_breakdown_codeblock_3",
+      "community": 163,
+      "norm_label": "code:ruby (bands = [)"
+    },
+    {
+      "label": "`AGE_EXPR` (costante)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L109",
+      "id": "statistics_age_breakdown_age_expr_costante",
+      "community": 163,
+      "norm_label": "`age_expr` (costante)"
+    },
+    {
+      "label": "code:ruby (AGE_EXPR = \"EXTRACT(YEAR FROM AGE(data_nascita))\".freeze)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L111",
+      "id": "statistics_age_breakdown_codeblock_4",
+      "community": 163,
+      "norm_label": "code:ruby (age_expr = \"extract(year from age(data_nascita))\".freeze)"
+    },
+    {
+      "label": "`Row` (Struct)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L119",
+      "id": "statistics_age_breakdown_row_struct",
+      "community": 163,
+      "norm_label": "`row` (struct)"
+    },
+    {
+      "label": "code:ruby (Row = Struct.new(:fascia, :count, :percentuale, keyword_init)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L121",
+      "id": "statistics_age_breakdown_codeblock_5",
+      "community": 163,
+      "norm_label": "code:ruby (row = struct.new(:fascia, :count, :percentuale, keyword_init)"
+    },
+    {
+      "label": "`call`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L129",
+      "id": "statistics_age_breakdown_call",
+      "community": 163,
+      "norm_label": "`call`"
+    },
+    {
+      "label": "code:ruby (def call)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L131",
+      "id": "statistics_age_breakdown_codeblock_6",
+      "community": 163,
+      "norm_label": "code:ruby (def call)"
+    },
+    {
+      "label": "`build_row` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L141",
+      "id": "statistics_age_breakdown_build_row_privato",
+      "community": 163,
+      "norm_label": "`build_row` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def build_row(fascia))",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L143",
+      "id": "statistics_age_breakdown_codeblock_7",
+      "community": 163,
+      "norm_label": "code:ruby (def build_row(fascia))"
+    },
+    {
+      "label": "`counts` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L156",
+      "id": "statistics_age_breakdown_counts_privato",
+      "community": 163,
+      "norm_label": "`counts` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def counts)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L158",
+      "id": "statistics_age_breakdown_codeblock_8",
+      "community": 163,
+      "norm_label": "code:ruby (def counts)"
+    },
+    {
+      "label": "`totale` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L168",
+      "id": "statistics_age_breakdown_totale_privato",
+      "community": 163,
+      "norm_label": "`totale` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def totale)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L170",
+      "id": "statistics_age_breakdown_codeblock_9",
+      "community": 163,
+      "norm_label": "code:ruby (def totale)"
+    },
+    {
+      "label": "`scope` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L180",
+      "id": "statistics_age_breakdown_scope_privato",
+      "community": 163,
+      "norm_label": "`scope` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def scope)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L182",
+      "id": "statistics_age_breakdown_codeblock_10",
+      "community": 163,
+      "norm_label": "code:ruby (def scope)"
+    },
+    {
+      "label": "`band_case_sql` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L192",
+      "id": "statistics_age_breakdown_band_case_sql_privato",
+      "community": 163,
+      "norm_label": "`band_case_sql` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def band_case_sql)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L194",
+      "id": "statistics_age_breakdown_codeblock_11",
+      "community": 163,
+      "norm_label": "code:ruby (def band_case_sql)"
+    },
+    {
+      "label": "provisional_revocation_breakdown.md",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L1",
+      "id": "codeguide_statistics_provisional_revocation_breakdown_md",
+      "community": 172,
+      "norm_label": "provisional_revocation_breakdown.md"
+    },
+    {
+      "label": "`Statistics::ProvisionalRevocationBreakdown`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L1",
+      "id": "statistics_provisional_revocation_breakdown_statistics_provisionalrevocationbreakdown",
+      "community": 172,
+      "norm_label": "`statistics::provisionalrevocationbreakdown`"
+    },
+    {
+      "label": "Codice completo",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L5",
+      "id": "statistics_provisional_revocation_breakdown_codice_completo",
+      "community": 172,
+      "norm_label": "codice completo"
+    },
+    {
+      "label": "code:ruby (module Statistics)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L7",
+      "id": "statistics_provisional_revocation_breakdown_codeblock_1",
+      "community": 172,
+      "norm_label": "code:ruby (module statistics)"
+    },
+    {
+      "label": "Sezioni commentate",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L50",
+      "id": "statistics_provisional_revocation_breakdown_sezioni_commentate",
+      "community": 172,
+      "norm_label": "sezioni commentate"
+    },
+    {
+      "label": "Commento di classe",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L52",
+      "id": "statistics_provisional_revocation_breakdown_commento_di_classe",
+      "community": 172,
+      "norm_label": "commento di classe"
+    },
+    {
+      "label": "code:ruby (# Conta le pratiche Provvisorie (provvisoria = \"SI\") e le Re)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L54",
+      "id": "statistics_provisional_revocation_breakdown_codeblock_2",
+      "community": 172,
+      "norm_label": "code:ruby (# conta le pratiche provvisorie (provvisoria = \"si\") e le re)"
+    },
+    {
+      "label": "`Row` (Struct)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L66",
+      "id": "statistics_provisional_revocation_breakdown_row_struct",
+      "community": 172,
+      "norm_label": "`row` (struct)"
+    },
+    {
+      "label": "code:ruby (Row = Struct.new(:tipologia, :count, :percentuale, keyword_i)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L68",
+      "id": "statistics_provisional_revocation_breakdown_codeblock_3",
+      "community": 172,
+      "norm_label": "code:ruby (row = struct.new(:tipologia, :count, :percentuale, keyword_i)"
+    },
+    {
+      "label": "`call`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L76",
+      "id": "statistics_provisional_revocation_breakdown_call",
+      "community": 172,
+      "norm_label": "`call`"
+    },
+    {
+      "label": "code:ruby (def call)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L78",
+      "id": "statistics_provisional_revocation_breakdown_codeblock_4",
+      "community": 172,
+      "norm_label": "code:ruby (def call)"
+    },
+    {
+      "label": "`build_row` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L91",
+      "id": "statistics_provisional_revocation_breakdown_build_row_privato",
+      "community": 172,
+      "norm_label": "`build_row` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def build_row(tipologia, count))",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L93",
+      "id": "statistics_provisional_revocation_breakdown_codeblock_5",
+      "community": 172,
+      "norm_label": "code:ruby (def build_row(tipologia, count))"
+    },
+    {
+      "label": "`totale_iscritti`, `scope` *(privati)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L105",
+      "id": "statistics_provisional_revocation_breakdown_totale_iscritti_scope_privati",
+      "community": 172,
+      "norm_label": "`totale_iscritti`, `scope` *(privati)*"
+    },
+    {
+      "label": "code:ruby (def totale_iscritti)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L107",
+      "id": "statistics_provisional_revocation_breakdown_codeblock_6",
+      "community": 172,
+      "norm_label": "code:ruby (def totale_iscritti)"
+    },
+    {
+      "label": "total_members_comparison.md",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L1",
+      "id": "codeguide_statistics_total_members_comparison_md",
+      "community": 119,
+      "norm_label": "total_members_comparison.md"
+    },
+    {
+      "label": "`Statistics::TotalMembersComparison`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L1",
+      "id": "statistics_total_members_comparison_statistics_totalmemberscomparison",
+      "community": 119,
+      "norm_label": "`statistics::totalmemberscomparison`"
+    },
+    {
+      "label": "Codice completo",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L5",
+      "id": "statistics_total_members_comparison_codice_completo",
+      "community": 119,
+      "norm_label": "codice completo"
+    },
+    {
+      "label": "code:ruby (module Statistics)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L7",
+      "id": "statistics_total_members_comparison_codeblock_1",
+      "community": 119,
+      "norm_label": "code:ruby (module statistics)"
+    },
+    {
+      "label": "Sezioni commentate",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L134",
+      "id": "statistics_total_members_comparison_sezioni_commentate",
+      "community": 119,
+      "norm_label": "sezioni commentate"
+    },
+    {
+      "label": "Panoramica della classe",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L136",
+      "id": "statistics_total_members_comparison_panoramica_della_classe",
+      "community": 119,
+      "norm_label": "panoramica della classe"
+    },
+    {
+      "label": "`Result` (Struct)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L142",
+      "id": "statistics_total_members_comparison_result_struct",
+      "community": 119,
+      "norm_label": "`result` (struct)"
+    },
+    {
+      "label": "code:ruby (Result = Struct.new(:zoning, :mese, :anno, :anno_precedente,)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L144",
+      "id": "statistics_total_members_comparison_codeblock_2",
+      "community": 119,
+      "norm_label": "code:ruby (result = struct.new(:zoning, :mese, :anno, :anno_precedente,)"
+    },
+    {
+      "label": "`Row` (Struct)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L158",
+      "id": "statistics_total_members_comparison_row_struct",
+      "community": 119,
+      "norm_label": "`row` (struct)"
+    },
+    {
+      "label": "code:ruby (Row = Struct.new(:zoning, :count_anno, :count_precedente, :d)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L160",
+      "id": "statistics_total_members_comparison_codeblock_3",
+      "community": 119,
+      "norm_label": "code:ruby (row = struct.new(:zoning, :count_anno, :count_precedente, :d)"
+    },
+    {
+      "label": "`def self.call(...)` / `initialize`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L168",
+      "id": "statistics_total_members_comparison_def_self_call_initialize",
+      "community": 119,
+      "norm_label": "`def self.call(...)` / `initialize`"
+    },
+    {
+      "label": "code:ruby (def self.call(...) = new(...).call)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L170",
+      "id": "statistics_total_members_comparison_codeblock_4",
+      "community": 119,
+      "norm_label": "code:ruby (def self.call(...) = new(...).call)"
+    },
+    {
+      "label": "`call`",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L185",
+      "id": "statistics_total_members_comparison_call",
+      "community": 119,
+      "norm_label": "`call`"
+    },
+    {
+      "label": "code:ruby (def call)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L187",
+      "id": "statistics_total_members_comparison_codeblock_5",
+      "community": 119,
+      "norm_label": "code:ruby (def call)"
+    },
+    {
+      "label": "`period_exists?`, `count_for`, `scope_for` *(privati)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L200",
+      "id": "statistics_total_members_comparison_period_exists_count_for_scope_for_privati",
+      "community": 119,
+      "norm_label": "`period_exists?`, `count_for`, `scope_for` *(privati)*"
+    },
+    {
+      "label": "code:ruby (def period_exists?(zoning, anno))",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L202",
+      "id": "statistics_total_members_comparison_codeblock_6",
+      "community": 119,
+      "norm_label": "code:ruby (def period_exists?(zoning, anno))"
+    },
+    {
+      "label": "`build_result` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L220",
+      "id": "statistics_total_members_comparison_build_result_privato",
+      "community": 119,
+      "norm_label": "`build_result` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def build_result)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L222",
+      "id": "statistics_total_members_comparison_codeblock_7",
+      "community": 119,
+      "norm_label": "code:ruby (def build_result)"
+    },
+    {
+      "label": "`build_row` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L239",
+      "id": "statistics_total_members_comparison_build_row_privato",
+      "community": 119,
+      "norm_label": "`build_row` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def build_row(zoning))",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L241",
+      "id": "statistics_total_members_comparison_codeblock_8",
+      "community": 119,
+      "norm_label": "code:ruby (def build_row(zoning))"
+    },
+    {
+      "label": "`comprensori`, `regionale?`, `province_zonings` *(privati)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L256",
+      "id": "statistics_total_members_comparison_comprensori_regionale_province_zonings_privati",
+      "community": 119,
+      "norm_label": "`comprensori`, `regionale?`, `province_zonings` *(privati)*"
+    },
+    {
+      "label": "code:ruby (# Quando l'azzonamento scelto \u00e8 regionale (codice a lettera )",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L258",
+      "id": "statistics_total_members_comparison_codeblock_9",
+      "community": 119,
+      "norm_label": "code:ruby (# quando l'azzonamento scelto e regionale (codice a lettera )"
+    },
+    {
+      "label": "`categorie`, `attivi_pensionati`, `tipologie_iscrizione`, `tipologie_delega`, `nazionalita`, `sesso`, `provvisorie_revoche`, `status_lavorativo`, `fasce_eta` *(privati)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L281",
+      "id": "statistics_total_members_comparison_categorie_attivi_pensionati_tipologie_iscrizione_tipologie_delega_nazionalita_sesso_provvisorie_revoche_status_lavorativo_fasce_eta_privati",
+      "community": 119,
+      "norm_label": "`categorie`, `attivi_pensionati`, `tipologie_iscrizione`, `tipologie_delega`, `nazionalita`, `sesso`, `provvisorie_revoche`, `status_lavorativo`, `fasce_eta` *(privati)*"
+    },
+    {
+      "label": "code:ruby (def categorie)",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L283",
+      "id": "statistics_total_members_comparison_codeblock_10",
+      "community": 119,
+      "norm_label": "code:ruby (def categorie)"
+    },
+    {
+      "label": "`missing_data_result` *(privato)*",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L294",
+      "id": "statistics_total_members_comparison_missing_data_result_privato",
+      "community": 119,
+      "norm_label": "`missing_data_result` *(privato)*"
+    },
+    {
+      "label": "code:ruby (def missing_data_result(missing_years))",
+      "file_type": "document",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L296",
+      "id": "statistics_total_members_comparison_codeblock_11",
+      "community": 119,
+      "norm_label": "code:ruby (def missing_data_result(missing_years))"
     },
     {
       "label": "nationality_chart_controller.js",
@@ -8496,9 +10602,9 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_services_statistics_age_breakdown_rb",
-      "target": "statistics_age_breakdown_agebreakdown",
-      "confidence_score": 1.0
+      "target": "statistics_age_breakdown_agebreakdown"
     },
     {
       "relation": "method",
@@ -8506,9 +10612,9 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_agebreakdown",
-      "target": "statistics_age_breakdown_agebreakdown_call",
-      "confidence_score": 1.0
+      "target": "statistics_age_breakdown_agebreakdown_call"
     },
     {
       "relation": "method",
@@ -8516,9 +10622,9 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_agebreakdown",
-      "target": "statistics_age_breakdown_agebreakdown_initialize",
-      "confidence_score": 1.0
+      "target": "statistics_age_breakdown_agebreakdown_initialize"
     },
     {
       "relation": "method",
@@ -8526,9 +10632,9 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_agebreakdown",
-      "target": "statistics_age_breakdown_agebreakdown_build_row",
-      "confidence_score": 1.0
+      "target": "statistics_age_breakdown_agebreakdown_build_row"
     },
     {
       "relation": "method",
@@ -8536,9 +10642,9 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_agebreakdown",
-      "target": "statistics_age_breakdown_agebreakdown_counts",
-      "confidence_score": 1.0
+      "target": "statistics_age_breakdown_agebreakdown_counts"
     },
     {
       "relation": "method",
@@ -8546,9 +10652,9 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_agebreakdown",
-      "target": "statistics_age_breakdown_agebreakdown_totale",
-      "confidence_score": 1.0
+      "target": "statistics_age_breakdown_agebreakdown_totale"
     },
     {
       "relation": "method",
@@ -8556,9 +10662,9 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_agebreakdown",
-      "target": "statistics_age_breakdown_agebreakdown_scope",
-      "confidence_score": 1.0
+      "target": "statistics_age_breakdown_agebreakdown_scope"
     },
     {
       "relation": "method",
@@ -8566,9 +10672,9 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_agebreakdown",
-      "target": "statistics_age_breakdown_agebreakdown_band_case_sql",
-      "confidence_score": 1.0
+      "target": "statistics_age_breakdown_agebreakdown_band_case_sql"
     },
     {
       "relation": "calls",
@@ -8577,9 +10683,9 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_agebreakdown_call",
-      "target": "statistics_age_breakdown_agebreakdown_build_row",
-      "confidence_score": 1.0
+      "target": "statistics_age_breakdown_agebreakdown_build_row"
     },
     {
       "relation": "calls",
@@ -8588,9 +10694,9 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_agebreakdown_scope",
-      "target": "statistics_age_breakdown_agebreakdown_call",
-      "confidence_score": 1.0
+      "target": "statistics_age_breakdown_agebreakdown_call"
     },
     {
       "relation": "contains",
@@ -9325,9 +11431,9 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_fasce_eta",
-      "confidence_score": 1.0
+      "target": "statistics_total_members_comparison_totalmemberscomparison_fasce_eta"
     },
     {
       "relation": "method",
@@ -9487,9 +11593,9 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L113",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_totalmemberscomparison_fasce_eta",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_call",
-      "confidence_score": 1.0
+      "target": "statistics_total_members_comparison_totalmemberscomparison_call"
     },
     {
       "relation": "calls",
@@ -10282,9 +12388,9 @@
       "source_file": "app/javascript/controllers/bar_chart_controller.js",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_javascript_controllers_bar_chart_controller_js",
-      "target": "controllers_bar_chart_controller_label",
-      "confidence_score": 1.0
+      "target": "controllers_bar_chart_controller_label"
     },
     {
       "relation": "imports_from",
@@ -12326,6 +14432,2216 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "codeguide_readme_md",
+      "target": "codeguide_readme_codeguide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "codeguide_statistics_readme_md",
+      "target": "statistics_readme_statistiche_come_funzionano_e_come_sono_state_pensate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "statistics_readme_statistiche_come_funzionano_e_come_sono_state_pensate",
+      "target": "statistics_readme_parte_1_italiano",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "statistics_readme_statistiche_come_funzionano_e_come_sono_state_pensate",
+      "target": "statistics_readme_part_2_english",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "statistics_readme_parte_1_italiano",
+      "target": "statistics_readme_scopo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "statistics_readme_parte_1_italiano",
+      "target": "statistics_readme_il_form_azzonamento_anno_mese",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "statistics_readme_parte_1_italiano",
+      "target": "statistics_readme_zoningperiodscope_il_fallback_che_rende_tutto_il_resto_possibile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "statistics_readme_parte_1_italiano",
+      "target": "statistics_readme_la_recipe_delle_sezioni_un_pattern_ripetuto_10_volte",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "statistics_readme_parte_1_italiano",
+      "target": "statistics_readme_un_esempio_completo_fasce_d_et\u00e0",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "statistics_readme_parte_1_italiano",
+      "target": "statistics_readme_decisioni_che_non_sono_ovvie_dal_codice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "statistics_readme_parte_1_italiano",
+      "target": "statistics_readme_dove_continuare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "statistics_readme_zoningperiodscope_il_fallback_che_rende_tutto_il_resto_possibile",
+      "target": "statistics_readme_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "statistics_readme_un_esempio_completo_fasce_d_et\u00e0",
+      "target": "statistics_readme_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "statistics_readme_part_2_english",
+      "target": "statistics_readme_purpose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "statistics_readme_part_2_english",
+      "target": "statistics_readme_the_form_zoning_year_month",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "statistics_readme_part_2_english",
+      "target": "statistics_readme_zoningperiodscope_the_fallback_that_makes_everything_else_possible",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "statistics_readme_part_2_english",
+      "target": "statistics_readme_the_section_recipe_a_pattern_repeated_10_times",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "statistics_readme_part_2_english",
+      "target": "statistics_readme_a_full_example_age_bands_fasce_d_et\u00e0",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "statistics_readme_part_2_english",
+      "target": "statistics_readme_decisions_that_are_not_obvious_from_the_code",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L167",
+      "weight": 1.0,
+      "source": "statistics_readme_part_2_english",
+      "target": "statistics_readme_where_to_continue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "statistics_readme_zoningperiodscope_the_fallback_that_makes_everything_else_possible",
+      "target": "statistics_readme_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/README.md",
+      "source_location": "L149",
+      "weight": 1.0,
+      "source": "statistics_readme_a_full_example_age_bands_fasce_d_et\u00e0",
+      "target": "statistics_readme_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "codeguide_statistics_nationality_breakdown_md",
+      "target": "statistics_nationality_breakdown_statistics_nationalitybreakdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "statistics_nationality_breakdown_statistics_nationalitybreakdown",
+      "target": "statistics_nationality_breakdown_codice_completo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "statistics_nationality_breakdown_statistics_nationalitybreakdown",
+      "target": "statistics_nationality_breakdown_sezioni_commentate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "statistics_nationality_breakdown_codice_completo",
+      "target": "statistics_nationality_breakdown_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "statistics_nationality_breakdown_sezioni_commentate",
+      "target": "statistics_nationality_breakdown_commento_di_classe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "statistics_nationality_breakdown_sezioni_commentate",
+      "target": "statistics_nationality_breakdown_nazionalita_costante",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "statistics_nationality_breakdown_sezioni_commentate",
+      "target": "statistics_nationality_breakdown_row_struct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "statistics_nationality_breakdown_sezioni_commentate",
+      "target": "statistics_nationality_breakdown_call_build_row_counts_scope_privati",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "statistics_nationality_breakdown_commento_di_classe",
+      "target": "statistics_nationality_breakdown_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "statistics_nationality_breakdown_nazionalita_costante",
+      "target": "statistics_nationality_breakdown_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "statistics_nationality_breakdown_row_struct",
+      "target": "statistics_nationality_breakdown_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "statistics_nationality_breakdown_call_build_row_counts_scope_privati",
+      "target": "statistics_nationality_breakdown_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "codeguide_statistics_delegation_type_breakdown_md",
+      "target": "statistics_delegation_type_breakdown_statistics_delegationtypebreakdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "statistics_delegation_type_breakdown_statistics_delegationtypebreakdown",
+      "target": "statistics_delegation_type_breakdown_codice_completo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "statistics_delegation_type_breakdown_statistics_delegationtypebreakdown",
+      "target": "statistics_delegation_type_breakdown_sezioni_commentate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "statistics_delegation_type_breakdown_codice_completo",
+      "target": "statistics_delegation_type_breakdown_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "statistics_delegation_type_breakdown_sezioni_commentate",
+      "target": "statistics_delegation_type_breakdown_commento_di_classe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "statistics_delegation_type_breakdown_sezioni_commentate",
+      "target": "statistics_delegation_type_breakdown_tipologie_costante",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "statistics_delegation_type_breakdown_sezioni_commentate",
+      "target": "statistics_delegation_type_breakdown_conc_spi_anno_costante",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "statistics_delegation_type_breakdown_sezioni_commentate",
+      "target": "statistics_delegation_type_breakdown_row_struct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "statistics_delegation_type_breakdown_sezioni_commentate",
+      "target": "statistics_delegation_type_breakdown_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "statistics_delegation_type_breakdown_sezioni_commentate",
+      "target": "statistics_delegation_type_breakdown_build_row_count_for_privati",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "statistics_delegation_type_breakdown_commento_di_classe",
+      "target": "statistics_delegation_type_breakdown_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "statistics_delegation_type_breakdown_tipologie_costante",
+      "target": "statistics_delegation_type_breakdown_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "statistics_delegation_type_breakdown_conc_spi_anno_costante",
+      "target": "statistics_delegation_type_breakdown_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "statistics_delegation_type_breakdown_row_struct",
+      "target": "statistics_delegation_type_breakdown_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "statistics_delegation_type_breakdown_call",
+      "target": "statistics_delegation_type_breakdown_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "statistics_delegation_type_breakdown_build_row_count_for_privati",
+      "target": "statistics_delegation_type_breakdown_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "codeguide_statistics_membership_type_breakdown_md",
+      "target": "statistics_membership_type_breakdown_statistics_membershiptypebreakdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "statistics_membership_type_breakdown_statistics_membershiptypebreakdown",
+      "target": "statistics_membership_type_breakdown_codice_completo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "statistics_membership_type_breakdown_statistics_membershiptypebreakdown",
+      "target": "statistics_membership_type_breakdown_sezioni_commentate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "statistics_membership_type_breakdown_codice_completo",
+      "target": "statistics_membership_type_breakdown_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "statistics_membership_type_breakdown_sezioni_commentate",
+      "target": "statistics_membership_type_breakdown_commento_di_classe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "statistics_membership_type_breakdown_sezioni_commentate",
+      "target": "statistics_membership_type_breakdown_delega_costante",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "statistics_membership_type_breakdown_sezioni_commentate",
+      "target": "statistics_membership_type_breakdown_row_struct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "statistics_membership_type_breakdown_sezioni_commentate",
+      "target": "statistics_membership_type_breakdown_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "statistics_membership_type_breakdown_sezioni_commentate",
+      "target": "statistics_membership_type_breakdown_build_row_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "statistics_membership_type_breakdown_sezioni_commentate",
+      "target": "statistics_membership_type_breakdown_count_for_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "statistics_membership_type_breakdown_commento_di_classe",
+      "target": "statistics_membership_type_breakdown_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "statistics_membership_type_breakdown_delega_costante",
+      "target": "statistics_membership_type_breakdown_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "statistics_membership_type_breakdown_row_struct",
+      "target": "statistics_membership_type_breakdown_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "statistics_membership_type_breakdown_call",
+      "target": "statistics_membership_type_breakdown_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "statistics_membership_type_breakdown_build_row_privato",
+      "target": "statistics_membership_type_breakdown_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "statistics_membership_type_breakdown_count_for_privato",
+      "target": "statistics_membership_type_breakdown_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "codeguide_statistics_gender_breakdown_md",
+      "target": "statistics_gender_breakdown_statistics_genderbreakdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "statistics_gender_breakdown_statistics_genderbreakdown",
+      "target": "statistics_gender_breakdown_codice_completo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "statistics_gender_breakdown_statistics_genderbreakdown",
+      "target": "statistics_gender_breakdown_sezioni_commentate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "statistics_gender_breakdown_codice_completo",
+      "target": "statistics_gender_breakdown_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "statistics_gender_breakdown_sezioni_commentate",
+      "target": "statistics_gender_breakdown_commento_di_classe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "statistics_gender_breakdown_sezioni_commentate",
+      "target": "statistics_gender_breakdown_sessi_costante",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "statistics_gender_breakdown_sezioni_commentate",
+      "target": "statistics_gender_breakdown_row_struct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "statistics_gender_breakdown_sezioni_commentate",
+      "target": "statistics_gender_breakdown_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "statistics_gender_breakdown_sezioni_commentate",
+      "target": "statistics_gender_breakdown_build_row_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "statistics_gender_breakdown_sezioni_commentate",
+      "target": "statistics_gender_breakdown_counts_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "statistics_gender_breakdown_sezioni_commentate",
+      "target": "statistics_gender_breakdown_scope_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "statistics_gender_breakdown_commento_di_classe",
+      "target": "statistics_gender_breakdown_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "statistics_gender_breakdown_sessi_costante",
+      "target": "statistics_gender_breakdown_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "statistics_gender_breakdown_row_struct",
+      "target": "statistics_gender_breakdown_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "statistics_gender_breakdown_call",
+      "target": "statistics_gender_breakdown_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "statistics_gender_breakdown_build_row_privato",
+      "target": "statistics_gender_breakdown_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "statistics_gender_breakdown_counts_privato",
+      "target": "statistics_gender_breakdown_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/gender_breakdown.md",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "statistics_gender_breakdown_scope_privato",
+      "target": "statistics_gender_breakdown_codeblock_8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "codeguide_statistics_work_status_breakdown_md",
+      "target": "statistics_work_status_breakdown_statistics_workstatusbreakdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "statistics_work_status_breakdown_statistics_workstatusbreakdown",
+      "target": "statistics_work_status_breakdown_codice_completo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "statistics_work_status_breakdown_statistics_workstatusbreakdown",
+      "target": "statistics_work_status_breakdown_sezioni_commentate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "statistics_work_status_breakdown_codice_completo",
+      "target": "statistics_work_status_breakdown_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "statistics_work_status_breakdown_sezioni_commentate",
+      "target": "statistics_work_status_breakdown_commento_di_classe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "statistics_work_status_breakdown_sezioni_commentate",
+      "target": "statistics_work_status_breakdown_row_struct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "statistics_work_status_breakdown_sezioni_commentate",
+      "target": "statistics_work_status_breakdown_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "statistics_work_status_breakdown_sezioni_commentate",
+      "target": "statistics_work_status_breakdown_build_row_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "statistics_work_status_breakdown_sezioni_commentate",
+      "target": "statistics_work_status_breakdown_counts_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "statistics_work_status_breakdown_sezioni_commentate",
+      "target": "statistics_work_status_breakdown_totale_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "statistics_work_status_breakdown_sezioni_commentate",
+      "target": "statistics_work_status_breakdown_scope_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "statistics_work_status_breakdown_commento_di_classe",
+      "target": "statistics_work_status_breakdown_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "statistics_work_status_breakdown_row_struct",
+      "target": "statistics_work_status_breakdown_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "statistics_work_status_breakdown_call",
+      "target": "statistics_work_status_breakdown_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "statistics_work_status_breakdown_build_row_privato",
+      "target": "statistics_work_status_breakdown_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "statistics_work_status_breakdown_counts_privato",
+      "target": "statistics_work_status_breakdown_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "statistics_work_status_breakdown_totale_privato",
+      "target": "statistics_work_status_breakdown_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "statistics_work_status_breakdown_scope_privato",
+      "target": "statistics_work_status_breakdown_codeblock_8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "codeguide_statistics_zoning_period_scope_md",
+      "target": "statistics_zoning_period_scope_statistics_zoningperiodscope",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "statistics_zoning_period_scope_statistics_zoningperiodscope",
+      "target": "statistics_zoning_period_scope_codice_completo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "statistics_zoning_period_scope_statistics_zoningperiodscope",
+      "target": "statistics_zoning_period_scope_sezioni_commentate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "statistics_zoning_period_scope_codice_completo",
+      "target": "statistics_zoning_period_scope_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "statistics_zoning_period_scope_sezioni_commentate",
+      "target": "statistics_zoning_period_scope_commento_di_classe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "statistics_zoning_period_scope_sezioni_commentate",
+      "target": "statistics_zoning_period_scope_def_self_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "statistics_zoning_period_scope_sezioni_commentate",
+      "target": "statistics_zoning_period_scope_initialize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "statistics_zoning_period_scope_sezioni_commentate",
+      "target": "statistics_zoning_period_scope_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "statistics_zoning_period_scope_sezioni_commentate",
+      "target": "statistics_zoning_period_scope_regional_scope_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "statistics_zoning_period_scope_sezioni_commentate",
+      "target": "statistics_zoning_period_scope_regional_zoning_id_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "statistics_zoning_period_scope_commento_di_classe",
+      "target": "statistics_zoning_period_scope_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "statistics_zoning_period_scope_def_self_call",
+      "target": "statistics_zoning_period_scope_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "statistics_zoning_period_scope_initialize",
+      "target": "statistics_zoning_period_scope_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "statistics_zoning_period_scope_call",
+      "target": "statistics_zoning_period_scope_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "statistics_zoning_period_scope_regional_scope_privato",
+      "target": "statistics_zoning_period_scope_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "statistics_zoning_period_scope_regional_zoning_id_privato",
+      "target": "statistics_zoning_period_scope_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "codeguide_statistics_employment_status_breakdown_md",
+      "target": "statistics_employment_status_breakdown_statistics_employmentstatusbreakdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_statistics_employmentstatusbreakdown",
+      "target": "statistics_employment_status_breakdown_codice_completo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_statistics_employmentstatusbreakdown",
+      "target": "statistics_employment_status_breakdown_sezioni_commentate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_codice_completo",
+      "target": "statistics_employment_status_breakdown_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_sezioni_commentate",
+      "target": "statistics_employment_status_breakdown_commento_di_classe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_sezioni_commentate",
+      "target": "statistics_employment_status_breakdown_spi_costante",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_sezioni_commentate",
+      "target": "statistics_employment_status_breakdown_row_struct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_sezioni_commentate",
+      "target": "statistics_employment_status_breakdown_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_sezioni_commentate",
+      "target": "statistics_employment_status_breakdown_build_row_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_sezioni_commentate",
+      "target": "statistics_employment_status_breakdown_count_for_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_sezioni_commentate",
+      "target": "statistics_employment_status_breakdown_totale_anno_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_sezioni_commentate",
+      "target": "statistics_employment_status_breakdown_categoria_column_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_commento_di_classe",
+      "target": "statistics_employment_status_breakdown_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_spi_costante",
+      "target": "statistics_employment_status_breakdown_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_row_struct",
+      "target": "statistics_employment_status_breakdown_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_call",
+      "target": "statistics_employment_status_breakdown_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_build_row_privato",
+      "target": "statistics_employment_status_breakdown_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L134",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_count_for_privato",
+      "target": "statistics_employment_status_breakdown_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L148",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_totale_anno_privato",
+      "target": "statistics_employment_status_breakdown_codeblock_8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "statistics_employment_status_breakdown_categoria_column_privato",
+      "target": "statistics_employment_status_breakdown_codeblock_9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "codeguide_statistics_category_breakdown_md",
+      "target": "statistics_category_breakdown_statistics_categorybreakdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_statistics_categorybreakdown",
+      "target": "statistics_category_breakdown_codice_completo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_statistics_categorybreakdown",
+      "target": "statistics_category_breakdown_sezioni_commentate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_codice_completo",
+      "target": "statistics_category_breakdown_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_sezioni_commentate",
+      "target": "statistics_category_breakdown_commento_di_classe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_sezioni_commentate",
+      "target": "statistics_category_breakdown_row_struct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_sezioni_commentate",
+      "target": "statistics_category_breakdown_def_self_call_initialize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_sezioni_commentate",
+      "target": "statistics_category_breakdown_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_sezioni_commentate",
+      "target": "statistics_category_breakdown_categorie_presenti_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_sezioni_commentate",
+      "target": "statistics_category_breakdown_build_row_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L154",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_sezioni_commentate",
+      "target": "statistics_category_breakdown_counts_anno_counts_precedente_counts_for_privati",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_sezioni_commentate",
+      "target": "statistics_category_breakdown_categoria_column_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_commento_di_classe",
+      "target": "statistics_category_breakdown_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_row_struct",
+      "target": "statistics_category_breakdown_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_def_self_call_initialize",
+      "target": "statistics_category_breakdown_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_call",
+      "target": "statistics_category_breakdown_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_categorie_presenti_privato",
+      "target": "statistics_category_breakdown_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_build_row_privato",
+      "target": "statistics_category_breakdown_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_counts_anno_counts_precedente_counts_for_privati",
+      "target": "statistics_category_breakdown_codeblock_8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/category_breakdown.md",
+      "source_location": "L177",
+      "weight": 1.0,
+      "source": "statistics_category_breakdown_categoria_column_privato",
+      "target": "statistics_category_breakdown_codeblock_9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "codeguide_statistics_age_breakdown_md",
+      "target": "statistics_age_breakdown_statistics_agebreakdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_statistics_agebreakdown",
+      "target": "statistics_age_breakdown_codice_completo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_statistics_agebreakdown",
+      "target": "statistics_age_breakdown_sezioni_commentate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_codice_completo",
+      "target": "statistics_age_breakdown_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_sezioni_commentate",
+      "target": "statistics_age_breakdown_commento_di_classe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_sezioni_commentate",
+      "target": "statistics_age_breakdown_bands_costante",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_sezioni_commentate",
+      "target": "statistics_age_breakdown_age_expr_costante",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_sezioni_commentate",
+      "target": "statistics_age_breakdown_row_struct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_sezioni_commentate",
+      "target": "statistics_age_breakdown_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_sezioni_commentate",
+      "target": "statistics_age_breakdown_build_row_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_sezioni_commentate",
+      "target": "statistics_age_breakdown_counts_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L168",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_sezioni_commentate",
+      "target": "statistics_age_breakdown_totale_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L180",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_sezioni_commentate",
+      "target": "statistics_age_breakdown_scope_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L192",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_sezioni_commentate",
+      "target": "statistics_age_breakdown_band_case_sql_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_commento_di_classe",
+      "target": "statistics_age_breakdown_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_bands_costante",
+      "target": "statistics_age_breakdown_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_age_expr_costante",
+      "target": "statistics_age_breakdown_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_row_struct",
+      "target": "statistics_age_breakdown_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_call",
+      "target": "statistics_age_breakdown_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_build_row_privato",
+      "target": "statistics_age_breakdown_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_counts_privato",
+      "target": "statistics_age_breakdown_codeblock_8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_totale_privato",
+      "target": "statistics_age_breakdown_codeblock_9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_scope_privato",
+      "target": "statistics_age_breakdown_codeblock_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/age_breakdown.md",
+      "source_location": "L194",
+      "weight": 1.0,
+      "source": "statistics_age_breakdown_band_case_sql_privato",
+      "target": "statistics_age_breakdown_codeblock_11",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "codeguide_statistics_provisional_revocation_breakdown_md",
+      "target": "statistics_provisional_revocation_breakdown_statistics_provisionalrevocationbreakdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "statistics_provisional_revocation_breakdown_statistics_provisionalrevocationbreakdown",
+      "target": "statistics_provisional_revocation_breakdown_codice_completo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "statistics_provisional_revocation_breakdown_statistics_provisionalrevocationbreakdown",
+      "target": "statistics_provisional_revocation_breakdown_sezioni_commentate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "statistics_provisional_revocation_breakdown_codice_completo",
+      "target": "statistics_provisional_revocation_breakdown_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "statistics_provisional_revocation_breakdown_sezioni_commentate",
+      "target": "statistics_provisional_revocation_breakdown_commento_di_classe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "statistics_provisional_revocation_breakdown_sezioni_commentate",
+      "target": "statistics_provisional_revocation_breakdown_row_struct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "statistics_provisional_revocation_breakdown_sezioni_commentate",
+      "target": "statistics_provisional_revocation_breakdown_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "statistics_provisional_revocation_breakdown_sezioni_commentate",
+      "target": "statistics_provisional_revocation_breakdown_build_row_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "statistics_provisional_revocation_breakdown_sezioni_commentate",
+      "target": "statistics_provisional_revocation_breakdown_totale_iscritti_scope_privati",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "statistics_provisional_revocation_breakdown_commento_di_classe",
+      "target": "statistics_provisional_revocation_breakdown_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "statistics_provisional_revocation_breakdown_row_struct",
+      "target": "statistics_provisional_revocation_breakdown_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "statistics_provisional_revocation_breakdown_call",
+      "target": "statistics_provisional_revocation_breakdown_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "statistics_provisional_revocation_breakdown_build_row_privato",
+      "target": "statistics_provisional_revocation_breakdown_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "statistics_provisional_revocation_breakdown_totale_iscritti_scope_privati",
+      "target": "statistics_provisional_revocation_breakdown_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "codeguide_statistics_total_members_comparison_md",
+      "target": "statistics_total_members_comparison_statistics_totalmemberscomparison",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_statistics_totalmemberscomparison",
+      "target": "statistics_total_members_comparison_codice_completo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L134",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_statistics_totalmemberscomparison",
+      "target": "statistics_total_members_comparison_sezioni_commentate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_codice_completo",
+      "target": "statistics_total_members_comparison_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_sezioni_commentate",
+      "target": "statistics_total_members_comparison_panoramica_della_classe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_sezioni_commentate",
+      "target": "statistics_total_members_comparison_result_struct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_sezioni_commentate",
+      "target": "statistics_total_members_comparison_row_struct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L168",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_sezioni_commentate",
+      "target": "statistics_total_members_comparison_def_self_call_initialize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L185",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_sezioni_commentate",
+      "target": "statistics_total_members_comparison_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L200",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_sezioni_commentate",
+      "target": "statistics_total_members_comparison_period_exists_count_for_scope_for_privati",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L220",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_sezioni_commentate",
+      "target": "statistics_total_members_comparison_build_result_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L239",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_sezioni_commentate",
+      "target": "statistics_total_members_comparison_build_row_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L256",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_sezioni_commentate",
+      "target": "statistics_total_members_comparison_comprensori_regionale_province_zonings_privati",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L281",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_sezioni_commentate",
+      "target": "statistics_total_members_comparison_categorie_attivi_pensionati_tipologie_iscrizione_tipologie_delega_nazionalita_sesso_provvisorie_revoche_status_lavorativo_fasce_eta_privati",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L294",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_sezioni_commentate",
+      "target": "statistics_total_members_comparison_missing_data_result_privato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_result_struct",
+      "target": "statistics_total_members_comparison_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_row_struct",
+      "target": "statistics_total_members_comparison_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_def_self_call_initialize",
+      "target": "statistics_total_members_comparison_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_call",
+      "target": "statistics_total_members_comparison_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L202",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_period_exists_count_for_scope_for_privati",
+      "target": "statistics_total_members_comparison_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L222",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_build_result_privato",
+      "target": "statistics_total_members_comparison_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L241",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_build_row_privato",
+      "target": "statistics_total_members_comparison_codeblock_8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L258",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_comprensori_regionale_province_zonings_privati",
+      "target": "statistics_total_members_comparison_codeblock_9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L283",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_categorie_attivi_pensionati_tipologie_iscrizione_tipologie_delega_nazionalita_sesso_provvisorie_revoche_status_lavorativo_fasce_eta_privati",
+      "target": "statistics_total_members_comparison_codeblock_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CodeGuide/Statistics/total_members_comparison.md",
+      "source_location": "L296",
+      "weight": 1.0,
+      "source": "statistics_total_members_comparison_missing_data_result_privato",
+      "target": "statistics_total_members_comparison_codeblock_11",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "app/javascript/controllers/nationality_chart_controller.js",
       "source_location": "L12",
       "weight": 1.0,
@@ -13580,5 +17896,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "dfc5b241b4d1c0413be9c60e3cbab3d1689269b0"
+  "built_at_commit": "f049995b752ccd47e909f854c985325a30b9ea3e"
 }
