@@ -1,16 +1,16 @@
 # Graph Report - fitupe  (2026-07-27)
 
 ## Corpus Check
-- 173 files · ~83,794 words
+- 173 files · ~83,409 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 970 nodes · 971 edges · 181 communities (103 shown, 78 thin omitted)
+- 968 nodes · 969 edges · 181 communities (103 shown, 78 thin omitted)
 - Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 79 edges (avg confidence: 0.84)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `59fb84aa`
+- Built from commit: `564a4661`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -169,8 +169,8 @@ Cohesion: 0.17
 Nodes (12): Analysis of Variance (ANOVA), Box Plot, Chi-Square Test, Pearson Correlation Coefficient, Exploratory Data Analysis (EDA), Fitupe Logo Design, Fitupe Application Name Origin, John Tukey (+4 more)
 
 ### Community 4 - "Script Build NPM"
-Cohesion: 0.07
-Nodes (26): browserslist, dependencies, autoprefixer, bootstrap, bootstrap-icons, bootswatch, chart.js, @hotwired/stimulus (+18 more)
+Cohesion: 0.08
+Nodes (24): browserslist, dependencies, autoprefixer, bootstrap, bootstrap-icons, bootswatch, chart.js, @hotwired/stimulus (+16 more)
 
 ### Community 5 - "Config Ambienti e Solid Stack"
 Cohesion: 0.22
@@ -287,7 +287,7 @@ Nodes (12): `call`, `build_row`, `counts`, `scope` *(privati)*, code:ruby (modul
   config/routes.rb · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **248 isolated node(s):** `name`, `private`, `esbuild`, `brace-expansion`, `build` (+243 more)
+- **247 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+242 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **78 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -301,7 +301,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `authenticate_admin` connect `Pundit e Controlli Autorizzazione Admin` to `Modello User e Autenticazione`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `esbuild` to the rest of the system?**
-  _251 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _250 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Modello User e Autenticazione` be split into smaller, more focused modules?**
   _Cohesion score 0.12987012987012986 - nodes in this community are weakly interconnected._
 - **Should `Pundit e Controlli Autorizzazione Admin` be split into smaller, more focused modules?**

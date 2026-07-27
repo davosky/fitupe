@@ -49,28 +49,10 @@
       "norm_label": "esbuild"
     },
     {
-      "label": "resolutions",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "id": "fitupe_package_resolutions",
-      "community": 4,
-      "norm_label": "resolutions"
-    },
-    {
-      "label": "brace-expansion",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L8",
-      "id": "fitupe_package_resolutions_brace_expansion",
-      "community": 4,
-      "norm_label": "brace-expansion"
-    },
-    {
       "label": "scripts",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L10",
+      "source_location": "L7",
       "id": "fitupe_package_scripts",
       "community": 4,
       "norm_label": "scripts"
@@ -79,7 +61,7 @@
       "label": "build",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L11",
+      "source_location": "L8",
       "id": "fitupe_package_scripts_build",
       "community": 4,
       "norm_label": "build"
@@ -88,7 +70,7 @@
       "label": "build:css:compile",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L12",
+      "source_location": "L9",
       "id": "fitupe_package_scripts_build_css_compile",
       "community": 4,
       "norm_label": "build:css:compile"
@@ -97,7 +79,7 @@
       "label": "build:css:prefix",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L13",
+      "source_location": "L10",
       "id": "fitupe_package_scripts_build_css_prefix",
       "community": 4,
       "norm_label": "build:css:prefix"
@@ -106,7 +88,7 @@
       "label": "build:css",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L14",
+      "source_location": "L11",
       "id": "fitupe_package_scripts_build_css",
       "community": 4,
       "norm_label": "build:css"
@@ -115,7 +97,7 @@
       "label": "watch:css",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L15",
+      "source_location": "L12",
       "id": "fitupe_package_scripts_watch_css",
       "community": 4,
       "norm_label": "watch:css"
@@ -124,7 +106,7 @@
       "label": "dependencies",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L17",
+      "source_location": "L14",
       "id": "fitupe_package_dependencies",
       "community": 4,
       "norm_label": "dependencies"
@@ -133,7 +115,7 @@
       "label": "@hotwired/stimulus",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L18",
+      "source_location": "L15",
       "id": "fitupe_package_dependencies_hotwired_stimulus",
       "community": 4,
       "norm_label": "@hotwired/stimulus"
@@ -142,7 +124,7 @@
       "label": "@hotwired/turbo-rails",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L19",
+      "source_location": "L16",
       "id": "fitupe_package_dependencies_hotwired_turbo_rails",
       "community": 4,
       "norm_label": "@hotwired/turbo-rails"
@@ -151,7 +133,7 @@
       "label": "@popperjs/core",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L20",
+      "source_location": "L17",
       "id": "fitupe_package_dependencies_popperjs_core",
       "community": 4,
       "norm_label": "@popperjs/core"
@@ -160,7 +142,7 @@
       "label": "autoprefixer",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L21",
+      "source_location": "L18",
       "id": "fitupe_package_dependencies_autoprefixer",
       "community": 4,
       "norm_label": "autoprefixer"
@@ -169,7 +151,7 @@
       "label": "bootstrap",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L22",
+      "source_location": "L19",
       "id": "fitupe_package_dependencies_bootstrap",
       "community": 4,
       "norm_label": "bootstrap"
@@ -178,7 +160,7 @@
       "label": "bootstrap-icons",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L23",
+      "source_location": "L20",
       "id": "fitupe_package_dependencies_bootstrap_icons",
       "community": 4,
       "norm_label": "bootstrap-icons"
@@ -187,7 +169,7 @@
       "label": "bootswatch",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L24",
+      "source_location": "L21",
       "id": "fitupe_package_dependencies_bootswatch",
       "community": 4,
       "norm_label": "bootswatch"
@@ -196,7 +178,7 @@
       "label": "chart.js",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L25",
+      "source_location": "L22",
       "id": "fitupe_package_dependencies_chart_js",
       "community": 4,
       "norm_label": "chart.js"
@@ -205,7 +187,7 @@
       "label": "nodemon",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L26",
+      "source_location": "L23",
       "id": "fitupe_package_dependencies_nodemon",
       "community": 4,
       "norm_label": "nodemon"
@@ -214,7 +196,7 @@
       "label": "postcss",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L27",
+      "source_location": "L24",
       "id": "fitupe_package_dependencies_postcss",
       "community": 4,
       "norm_label": "postcss"
@@ -223,7 +205,7 @@
       "label": "postcss-cli",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L28",
+      "source_location": "L25",
       "id": "fitupe_package_dependencies_postcss_cli",
       "community": 4,
       "norm_label": "postcss-cli"
@@ -232,7 +214,7 @@
       "label": "sass",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L29",
+      "source_location": "L26",
       "id": "fitupe_package_dependencies_sass",
       "community": 4,
       "norm_label": "sass"
@@ -241,7 +223,7 @@
       "label": "browserslist",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L31",
+      "source_location": "L28",
       "id": "fitupe_package_browserslist",
       "community": 4,
       "norm_label": "browserslist"
@@ -1089,7 +1071,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L1",
       "id": "app_policies_integration_flc_policy_rb",
-      "community": 1,
+      "community": 107,
       "norm_label": "integration_flc_policy.rb"
     },
     {
@@ -1098,7 +1080,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L1",
       "id": "policies_integration_flc_policy_integrationflcpolicy",
-      "community": 1,
+      "community": 107,
       "norm_label": "integrationflcpolicy"
     },
     {
@@ -1107,7 +1089,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L2",
       "id": "policies_integration_flc_policy_integrationflcpolicy_index",
-      "community": 1,
+      "community": 107,
       "norm_label": ".index?()"
     },
     {
@@ -1116,7 +1098,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L3",
       "id": "policies_integration_flc_policy_integrationflcpolicy_show",
-      "community": 1,
+      "community": 107,
       "norm_label": ".show?()"
     },
     {
@@ -1125,7 +1107,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L4",
       "id": "policies_integration_flc_policy_integrationflcpolicy_create",
-      "community": 1,
+      "community": 107,
       "norm_label": ".create?()"
     },
     {
@@ -1134,7 +1116,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L5",
       "id": "policies_integration_flc_policy_integrationflcpolicy_update",
-      "community": 1,
+      "community": 107,
       "norm_label": ".update?()"
     },
     {
@@ -1143,7 +1125,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L6",
       "id": "policies_integration_flc_policy_integrationflcpolicy_confirm_destroy",
-      "community": 1,
+      "community": 107,
       "norm_label": ".confirm_destroy?()"
     },
     {
@@ -1152,7 +1134,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L7",
       "id": "policies_integration_flc_policy_integrationflcpolicy_destroy",
-      "community": 1,
+      "community": 107,
       "norm_label": ".destroy?()"
     },
     {
@@ -1161,7 +1143,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L9",
       "id": "policies_integration_flc_policy_scope",
-      "community": 1,
+      "community": 107,
       "norm_label": "scope"
     },
     {
@@ -1170,7 +1152,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L10",
       "id": "policies_integration_flc_policy_scope_resolve",
-      "community": 1,
+      "community": 107,
       "norm_label": ".resolve()"
     },
     {
@@ -1179,7 +1161,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L17",
       "id": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager",
-      "community": 1,
+      "community": 107,
       "norm_label": ".admin_or_manager?()"
     },
     {
@@ -1188,7 +1170,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L1",
       "id": "app_policies_integration_fillea_policy_rb",
-      "community": 107,
+      "community": 1,
       "norm_label": "integration_fillea_policy.rb"
     },
     {
@@ -1197,7 +1179,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L1",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "community": 107,
+      "community": 1,
       "norm_label": "integrationfilleapolicy"
     },
     {
@@ -1206,7 +1188,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L2",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_index",
-      "community": 107,
+      "community": 1,
       "norm_label": ".index?()"
     },
     {
@@ -1215,7 +1197,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L3",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_show",
-      "community": 107,
+      "community": 1,
       "norm_label": ".show?()"
     },
     {
@@ -1224,7 +1206,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L4",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_create",
-      "community": 107,
+      "community": 1,
       "norm_label": ".create?()"
     },
     {
@@ -1233,7 +1215,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L5",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_update",
-      "community": 107,
+      "community": 1,
       "norm_label": ".update?()"
     },
     {
@@ -1242,7 +1224,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L6",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_confirm_destroy",
-      "community": 107,
+      "community": 1,
       "norm_label": ".confirm_destroy?()"
     },
     {
@@ -1251,7 +1233,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L7",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_destroy",
-      "community": 107,
+      "community": 1,
       "norm_label": ".destroy?()"
     },
     {
@@ -1260,7 +1242,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L9",
       "id": "policies_integration_fillea_policy_scope",
-      "community": 107,
+      "community": 1,
       "norm_label": "scope"
     },
     {
@@ -1269,7 +1251,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L10",
       "id": "policies_integration_fillea_policy_scope_resolve",
-      "community": 107,
+      "community": 1,
       "norm_label": ".resolve()"
     },
     {
@@ -1278,7 +1260,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L17",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
-      "community": 107,
+      "community": 1,
       "norm_label": ".admin_or_manager?()"
     },
     {
@@ -9335,16 +9317,6 @@
       "source_file": "package.json",
       "source_location": "L7",
       "weight": 1.0,
-      "source": "package_json",
-      "target": "fitupe_package_resolutions",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "package_json",
       "target": "fitupe_package_scripts"
@@ -9378,16 +9350,6 @@
       "confidence_score": 1.0,
       "source": "fitupe_package_devdependencies",
       "target": "fitupe_package_devdependencies_esbuild"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "fitupe_package_resolutions",
-      "target": "fitupe_package_resolutions_brace_expansion",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10879,9 +10841,9 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L104",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_diff_for"
+      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_diff_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -10899,9 +10861,9 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L114",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_total_diff_precedente"
+      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_total_diff_precedente",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -10952,9 +10914,9 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L115",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_total_diff_precedente",
-      "target": "statistic_with_integrations_total_members_comparison_success"
+      "target": "statistic_with_integrations_total_members_comparison_success",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -10985,9 +10947,9 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L48",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_total_diff_precedente"
+      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_total_diff_precedente",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -11150,9 +11112,9 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L79",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_recalibrate_comprensori",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_diff_for"
+      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_diff_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -11194,9 +11156,9 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L111",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_diff_precedente_for",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_diff_for"
+      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_diff_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11204,9 +11166,9 @@
       "source_file": "app/services/statistic_with_integrations/flc_correction.rb",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistic_with_integrations_flc_correction_rb",
-      "target": "statistic_with_integrations_flc_correction_flccorrection"
+      "target": "statistic_with_integrations_flc_correction_flccorrection",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11214,9 +11176,9 @@
       "source_file": "app/services/statistic_with_integrations/flc_correction.rb",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistic_with_integrations_flc_correction_rb",
-      "target": "statistic_with_integrations_flc_correction_success"
+      "target": "statistic_with_integrations_flc_correction_success",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -11224,9 +11186,9 @@
       "source_file": "app/services/statistic_with_integrations/flc_correction.rb",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_flc_correction_flccorrection",
-      "target": "statistic_with_integrations_flc_correction_flccorrection_call"
+      "target": "statistic_with_integrations_flc_correction_flccorrection_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -11234,9 +11196,9 @@
       "source_file": "app/services/statistic_with_integrations/flc_correction.rb",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_flc_correction_flccorrection",
-      "target": "statistic_with_integrations_flc_correction_flccorrection_initialize"
+      "target": "statistic_with_integrations_flc_correction_flccorrection_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -11244,9 +11206,9 @@
       "source_file": "app/services/statistic_with_integrations/flc_correction.rb",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_flc_correction_flccorrection",
-      "target": "statistic_with_integrations_flc_correction_flccorrection_regional_result"
+      "target": "statistic_with_integrations_flc_correction_flccorrection_regional_result",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -11254,9 +11216,9 @@
       "source_file": "app/services/statistic_with_integrations/flc_correction.rb",
       "source_location": "L45",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_flc_correction_flccorrection",
-      "target": "statistic_with_integrations_flc_correction_flccorrection_dato_presente"
+      "target": "statistic_with_integrations_flc_correction_flccorrection_dato_presente",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -11264,9 +11226,9 @@
       "source_file": "app/services/statistic_with_integrations/flc_correction.rb",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_flc_correction_flccorrection",
-      "target": "statistic_with_integrations_flc_correction_flccorrection_regionale"
+      "target": "statistic_with_integrations_flc_correction_flccorrection_regionale",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -11274,9 +11236,9 @@
       "source_file": "app/services/statistic_with_integrations/flc_correction.rb",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_flc_correction_flccorrection",
-      "target": "statistic_with_integrations_flc_correction_flccorrection_province_zonings"
+      "target": "statistic_with_integrations_flc_correction_flccorrection_province_zonings",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -11284,9 +11246,9 @@
       "source_file": "app/services/statistic_with_integrations/flc_correction.rb",
       "source_location": "L54",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_flc_correction_flccorrection",
-      "target": "statistic_with_integrations_flc_correction_flccorrection_lookup_month"
+      "target": "statistic_with_integrations_flc_correction_flccorrection_lookup_month",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -11294,9 +11256,9 @@
       "source_file": "app/services/statistic_with_integrations/flc_correction.rb",
       "source_location": "L60",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_flc_correction_flccorrection",
-      "target": "statistic_with_integrations_flc_correction_flccorrection_lookup_year"
+      "target": "statistic_with_integrations_flc_correction_flccorrection_lookup_year",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -11304,9 +11266,9 @@
       "source_file": "app/services/statistic_with_integrations/flc_correction.rb",
       "source_location": "L64",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_flc_correction_flccorrection",
-      "target": "statistic_with_integrations_flc_correction_flccorrection_build_row"
+      "target": "statistic_with_integrations_flc_correction_flccorrection_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -11314,9 +11276,9 @@
       "source_file": "app/services/statistic_with_integrations/flc_correction.rb",
       "source_location": "L69",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_flc_correction_flccorrection",
-      "target": "statistic_with_integrations_flc_correction_flccorrection_missing_result"
+      "target": "statistic_with_integrations_flc_correction_flccorrection_missing_result",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -11325,9 +11287,9 @@
       "source_file": "app/services/statistic_with_integrations/flc_correction.rb",
       "source_location": "L27",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_flc_correction_flccorrection_call",
-      "target": "statistic_with_integrations_flc_correction_flccorrection_regionale"
+      "target": "statistic_with_integrations_flc_correction_flccorrection_regionale",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -11336,9 +11298,9 @@
       "source_file": "app/services/statistic_with_integrations/flc_correction.rb",
       "source_location": "L29",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_flc_correction_flccorrection_call",
-      "target": "statistic_with_integrations_flc_correction_flccorrection_missing_result"
+      "target": "statistic_with_integrations_flc_correction_flccorrection_missing_result",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -11347,9 +11309,9 @@
       "source_file": "app/services/statistic_with_integrations/flc_correction.rb",
       "source_location": "L29",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_flc_correction_flccorrection_call",
-      "target": "statistic_with_integrations_flc_correction_flccorrection_dato_presente"
+      "target": "statistic_with_integrations_flc_correction_flccorrection_dato_presente",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -11358,9 +11320,9 @@
       "source_file": "app/services/statistic_with_integrations/flc_correction.rb",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_flc_correction_flccorrection_call",
-      "target": "statistic_with_integrations_flc_correction_flccorrection_build_row"
+      "target": "statistic_with_integrations_flc_correction_flccorrection_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -11369,9 +11331,9 @@
       "source_file": "app/services/statistic_with_integrations/flc_correction.rb",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_flc_correction_flccorrection_regional_result",
-      "target": "statistic_with_integrations_flc_correction_flccorrection_dato_presente"
+      "target": "statistic_with_integrations_flc_correction_flccorrection_dato_presente",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -11380,9 +11342,9 @@
       "source_file": "app/services/statistic_with_integrations/flc_correction.rb",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_flc_correction_flccorrection_regional_result",
-      "target": "statistic_with_integrations_flc_correction_flccorrection_build_row"
+      "target": "statistic_with_integrations_flc_correction_flccorrection_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11430,9 +11392,9 @@
       "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_fillea_correction_filleacorrection",
-      "target": "statistic_with_integrations_fillea_correction_filleacorrection_regional_result"
+      "target": "statistic_with_integrations_fillea_correction_filleacorrection_regional_result",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -11440,9 +11402,9 @@
       "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_fillea_correction_filleacorrection",
-      "target": "statistic_with_integrations_fillea_correction_filleacorrection_dato_presente"
+      "target": "statistic_with_integrations_fillea_correction_filleacorrection_dato_presente",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -11501,9 +11463,9 @@
       "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
       "source_location": "L23",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_fillea_correction_filleacorrection_call",
-      "target": "statistic_with_integrations_fillea_correction_filleacorrection_regionale"
+      "target": "statistic_with_integrations_fillea_correction_filleacorrection_regionale",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -11523,9 +11485,9 @@
       "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
       "source_location": "L25",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_fillea_correction_filleacorrection_call",
-      "target": "statistic_with_integrations_fillea_correction_filleacorrection_dato_presente"
+      "target": "statistic_with_integrations_fillea_correction_filleacorrection_dato_presente",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -11545,9 +11507,9 @@
       "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_fillea_correction_filleacorrection_regional_result",
-      "target": "statistic_with_integrations_fillea_correction_filleacorrection_dato_presente"
+      "target": "statistic_with_integrations_fillea_correction_filleacorrection_dato_presente",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -11556,9 +11518,9 @@
       "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_with_integrations_fillea_correction_filleacorrection_regional_result",
-      "target": "statistic_with_integrations_fillea_correction_filleacorrection_build_row"
+      "target": "statistic_with_integrations_fillea_correction_filleacorrection_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -19175,5 +19137,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "59fb84aaf00cab771195185edfc38794ff2cbe1c"
+  "built_at_commit": "564a4661f1cea8c5d005ee41793c95277f4e8505"
 }

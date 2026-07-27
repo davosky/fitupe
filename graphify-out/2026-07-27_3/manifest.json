@@ -1,7 +1,7 @@
 {
   "/home/davo/Programmazione/fitupe/package.json": {
-    "mtime": 1785158741.156469,
-    "ast_hash": "ed7c1a2df0959c293de2a5b714a1699f",
+    "mtime": 1784795079.1094947,
+    "ast_hash": "10d5f3273b015eafd32985d8ddbba317",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/config/boot.rb": {
@@ -1180,8 +1180,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/assets/images/statistic_with_integrations/statistic_with_integrations-logo.svg": {
-    "mtime": 1785158584.681992,
-    "ast_hash": "f0370c8859d0412e41f86e306b682cdc",
+    "mtime": 1785141316.6239283,
+    "ast_hash": "733203658b0c9c7ddc6ab46aadfdbbf1",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistic_with_integrations/flc_correction_spec.rb": {

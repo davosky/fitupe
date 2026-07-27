@@ -4,6 +4,9 @@
   "devDependencies": {
     "esbuild": "^0.28.1"
   },
+  "resolutions": {
+    "brace-expansion": "^5.0.8"
+  },
   "scripts": {
     "build": "esbuild app/javascript/*.* --bundle --sourcemap --format=esm --outdir=app/assets/builds --public-path=/assets",
     "build:css:compile": "sass ./app/assets/stylesheets/application.bootstrap.scss:./app/assets/builds/application.css --no-source-map --load-path=node_modules",
