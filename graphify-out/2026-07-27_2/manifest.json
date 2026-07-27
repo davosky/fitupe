@@ -1155,23 +1155,23 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistic_with_integrations/fillea_correction_spec.rb": {
-    "mtime": 1785148791.0026357,
-    "ast_hash": "1846e05f4006ccee1404ac651d1d23b4",
+    "mtime": 1785142417.7894619,
+    "ast_hash": "ef59e662304c478b5414f5d1459abc9b",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistic_with_integrations/total_members_comparison_spec.rb": {
-    "mtime": 1785148834.4476626,
-    "ast_hash": "ec06f8e9e5ea885f5b68a5ad79c99426",
+    "mtime": 1785142464.485457,
+    "ast_hash": "14953bbedc172420a6a8881599211d57",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_with_integrations/total_members_comparison.rb": {
-    "mtime": 1785148878.4334183,
-    "ast_hash": "2a65e7bddbbc0b5f77a50621f97f403b",
+    "mtime": 1785142255.9241042,
+    "ast_hash": "e0bcd26922d580792bda565db6e90cdb",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_with_integrations/fillea_correction.rb": {
-    "mtime": 1785148765.5037675,
-    "ast_hash": "0eada3f5489135761bfc52220a431a09",
+    "mtime": 1785142227.9470716,
+    "ast_hash": "0f46b47396312159b112ebf2c08a3229",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/controllers/statistic_with_integrations_controller.rb": {
@@ -1182,16 +1182,6 @@
   "/home/davo/Programmazione/fitupe/app/assets/images/statistic_with_integrations/statistic_with_integrations-logo.svg": {
     "mtime": 1785141316.6239283,
     "ast_hash": "733203658b0c9c7ddc6ab46aadfdbbf1",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/statistic_with_integrations/flc_correction_spec.rb": {
-    "mtime": 1785148800.339091,
-    "ast_hash": "cbf61a596626868b7c938d31ffa98d53",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_with_integrations/flc_correction.rb": {
-    "mtime": 1785148777.4864514,
-    "ast_hash": "112122fc07cd40068731ac304e57f19a",
     "semantic_hash": ""
   }
 }

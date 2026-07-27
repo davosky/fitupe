@@ -93,11 +93,24 @@ RSpec.describe StatisticWithIntegrations::FilleaCorrection do
     context "quando una provincia non ha il dato Cassa Edile" do
       before do
         create(:integration_fillea, zoning: gorizia, year: "2026", subscribers_ce: 402)
+        create_list(:import, 128, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+          mese_di_riferimento: "Giugno", tipologia_delega: "Ordinaria Cassa Edile",
+          codice_azzonamento_completo: "GB001")
       end
 
-      it "fallisce con un messaggio che indica la provincia mancante" do
-        expect(result).not_to be_success
-        expect(result.error).to match(/Pordenone/)
+      it "non si blocca, integra solo le province con il dato disponibile" do
+        expect(result).to be_success
+        expect(result.rows.map { |row| row.zoning }).to eq([ gorizia ])
+        expect(result.rows.first.diff).to eq(274)
+        expect(result.total_diff).to eq(274)
+      end
+    end
+
+    context "quando nessuna provincia ha il dato Cassa Edile" do
+      it "non si blocca e non applica alcuna correzione" do
+        expect(result).to be_success
+        expect(result.rows).to be_empty
+        expect(result.total_diff).to eq(0)
       end
     end
   end

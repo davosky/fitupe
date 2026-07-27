@@ -1,16 +1,16 @@
 # Graph Report - fitupe  (2026-07-27)
 
 ## Corpus Check
-- 173 files · ~83,409 words
+- 171 files · ~82,070 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 968 nodes · 969 edges · 181 communities (103 shown, 78 thin omitted)
-- Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 79 edges (avg confidence: 0.84)
+- 950 nodes · 939 edges · 179 communities (102 shown, 77 thin omitted)
+- Extraction: 91% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 79 edges (avg confidence: 0.84)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `564a4661`
+- Built from commit: `a3ccd92a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -124,7 +124,6 @@
 - [[_COMMUNITY_Community 174|Community 174]]
 - [[_COMMUNITY_Community 175|Community 175]]
 - [[_COMMUNITY_Community 176|Community 176]]
-- [[_COMMUNITY_Community 179|Community 179]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `TotalMembersComparison` - 23 edges
@@ -135,8 +134,8 @@
 6. `IntegrationFlcsController` - 12 edges
 7. `Sezioni commentate` - 12 edges
 8. `ApplicationPolicy#admin?` - 12 edges
-9. `TotalMembersComparison` - 11 edges
-10. `FlcCorrection` - 11 edges
+9. `ZoningsController` - 11 edges
+10. `Sezioni commentate` - 11 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Italian Devise Translations` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
@@ -150,7 +149,7 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (181 total, 78 thin omitted)
+## Communities (179 total, 77 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
@@ -289,7 +288,7 @@ Nodes (12): `call`, `build_row`, `counts`, `scope` *(privati)*, code:ruby (modul
 ## Knowledge Gaps
 - **247 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+242 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **78 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **77 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_

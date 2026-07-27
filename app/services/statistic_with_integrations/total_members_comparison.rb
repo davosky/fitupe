@@ -1,19 +1,21 @@
 module StatisticWithIntegrations
   # Riusa Statistics::TotalMembersComparison per tutte le sezioni della
-  # dashboard e ricalibra con FilleaCorrection le sole sezioni toccate dalla
-  # direttiva Cassa Edile: totale, comprensori, la riga FILLEA di categorie e
-  # la riga "Ordinaria C.E." di tipologie_delega. Le altre sezioni (nazionalità,
-  # sesso, fasce età, ecc.) non hanno un equivalente Cassa Edile e passano
+  # dashboard e ricalibra con FilleaCorrection/FlcCorrection le sole sezioni
+  # toccate dalle due direttive di integrazione dati esterni: totale,
+  # comprensori, le righe FILLEA/FLC di categorie e le righe "Ordinaria
+  # C.E."/"Delega Tesoro" di tipologie_delega. Le altre sezioni (nazionalità,
+  # sesso, fasce età, ecc.) non hanno un equivalente esterno e passano
   # invariate da Statistics.
   class TotalMembersComparison
     Result = Struct.new(:zoning, :mese, :anno, :anno_precedente, :count_anno, :count_precedente, :diff,
       :diff_percent, :comprensori, :categorie, :attivi_pensionati, :tipologie_iscrizione, :tipologie_delega,
-      :nazionalita, :sesso, :provvisorie_revoche, :status_lavorativo, :fasce_eta, :fillea_correzione, :error,
-      keyword_init: true) do
+      :nazionalita, :sesso, :provvisorie_revoche, :status_lavorativo, :fasce_eta, :fillea_correzione,
+      :flc_correzione, :error, keyword_init: true) do
       def success? = error.blank?
     end
 
     ORDINARIA_CE = "Ordinaria C.E.".freeze
+    DELEGA_TESORO = "Delega Tesoro".freeze
 
     def self.call(...) = new(...).call
 
@@ -28,38 +30,55 @@ module StatisticWithIntegrations
       base = Statistics::TotalMembersComparison.call(zoning: @zoning, anno: @anno, mese: @mese)
       return missing_result(base.error) unless base.success?
 
-      correzione_anno = FilleaCorrection.call(zoning: @zoning, anno: @anno, mese: @mese)
-      return missing_result(correzione_anno.error) unless correzione_anno.success?
+      fillea_anno = FilleaCorrection.call(zoning: @zoning, anno: @anno, mese: @mese)
+      return missing_result(fillea_anno.error) unless fillea_anno.success?
 
-      correzione_precedente = FilleaCorrection.call(zoning: @zoning, anno: @anno_precedente, mese: @mese)
-      build_result(base, correzione_anno, correzione_precedente)
+      flc_anno = FlcCorrection.call(zoning: @zoning, anno: @anno, mese: @mese)
+      return missing_result(flc_anno.error) unless flc_anno.success?
+
+      fillea_precedente = FilleaCorrection.call(zoning: @zoning, anno: @anno_precedente, mese: @mese)
+      flc_precedente = FlcCorrection.call(zoning: @zoning, anno: @anno_precedente, mese: @mese)
+
+      build_result(base, fillea_anno, fillea_precedente, flc_anno, flc_precedente)
     end
 
     private
 
-    def build_result(base, correzione_anno, correzione_precedente)
-      diff_anno = correzione_anno.total_diff
-      diff_precedente = diff_precedente_for(@zoning, correzione_precedente)
+    def build_result(base, fillea_anno, fillea_precedente, flc_anno, flc_precedente)
+      fillea_diff_precedente = total_diff_precedente(fillea_precedente)
+      flc_diff_precedente = total_diff_precedente(flc_precedente)
+
+      diff_anno = fillea_anno.total_diff + flc_anno.total_diff
+      diff_precedente = fillea_diff_precedente + flc_diff_precedente
       count_anno, count_precedente, diff, diff_percent =
-        recalibrate(count_anno: base.count_anno, count_precedente: base.count_precedente,
-          diff_anno:, diff_precedente:)
+        recalibrate(count_anno: base.count_anno, count_precedente: base.count_precedente, diff_anno:,
+          diff_precedente:)
+
+      categorie = recalibrate_named(base.categorie, :categoria, "FILLEA", fillea_anno.total_diff,
+        fillea_diff_precedente)
+      categorie = recalibrate_named(categorie, :categoria, "FLC", flc_anno.total_diff, flc_diff_precedente)
+
+      tipologie_delega = recalibrate_named(base.tipologie_delega, :tipologia, ORDINARIA_CE, fillea_anno.total_diff,
+        fillea_diff_precedente)
+      tipologie_delega = recalibrate_named(tipologie_delega, :tipologia, DELEGA_TESORO, flc_anno.total_diff,
+        flc_diff_precedente)
 
       Result.new(zoning: @zoning, mese: @mese, anno: @anno, anno_precedente: @anno_precedente,
         count_anno:, count_precedente:, diff:, diff_percent:,
-        comprensori: recalibrate_comprensori(base.comprensori, correzione_anno, correzione_precedente),
-        categorie: recalibrate_named(base.categorie, :categoria, "FILLEA", diff_anno, diff_precedente),
-        tipologie_delega: recalibrate_named(base.tipologie_delega, :tipologia, ORDINARIA_CE, diff_anno,
-          diff_precedente),
+        comprensori: recalibrate_comprensori(base.comprensori, fillea_anno, fillea_precedente, flc_anno,
+          flc_precedente),
+        categorie:, tipologie_delega:,
         attivi_pensionati: base.attivi_pensionati, tipologie_iscrizione: base.tipologie_iscrizione,
         nazionalita: base.nazionalita, sesso: base.sesso, provvisorie_revoche: base.provvisorie_revoche,
         status_lavorativo: base.status_lavorativo, fasce_eta: base.fasce_eta,
-        fillea_correzione: correzione_anno)
+        fillea_correzione: fillea_anno, flc_correzione: flc_anno)
     end
 
-    def recalibrate_comprensori(comprensori, correzione_anno, correzione_precedente)
+    def recalibrate_comprensori(comprensori, fillea_anno, fillea_precedente, flc_anno, flc_precedente)
       comprensori.map do |riga|
-        diff_anno = correzione_anno.rows.find { |r| r.zoning == riga.zoning }&.diff || 0
-        diff_precedente = diff_precedente_for(riga.zoning, correzione_precedente)
+        diff_anno = diff_for(riga.zoning, fillea_anno) + diff_for(riga.zoning, flc_anno)
+        diff_precedente = diff_precedente_for(riga.zoning, fillea_precedente) +
+          diff_precedente_for(riga.zoning, flc_precedente)
         count_anno, count_precedente, diff, diff_percent =
           recalibrate(count_anno: riga.count_anno, count_precedente: riga.count_precedente, diff_anno:,
             diff_precedente:)
@@ -69,7 +88,7 @@ module StatisticWithIntegrations
     end
 
     # ricalibra una singola riga di un breakdown (categorie/tipologie_delega)
-    # individuata per nome, sommando lo stesso diff aggregato del totale
+    # individuata per nome, sommando il diff aggregato passato
     def recalibrate_named(righe, attributo, valore, diff_anno, diff_precedente)
       righe.map do |riga|
         next riga unless riga.public_send(attributo) == valore
@@ -82,10 +101,18 @@ module StatisticWithIntegrations
       end
     end
 
+    def diff_for(zoning, correzione)
+      correzione.rows.find { |r| r.zoning == zoning }&.diff || 0
+    end
+
     def diff_precedente_for(zoning, correzione_precedente)
       return 0 unless correzione_precedente.success?
 
-      correzione_precedente.rows.find { |r| r.zoning == zoning }&.diff || 0
+      diff_for(zoning, correzione_precedente)
+    end
+
+    def total_diff_precedente(correzione_precedente)
+      correzione_precedente.success? ? correzione_precedente.total_diff : 0
     end
 
     def recalibrate(count_anno:, count_precedente:, diff_anno:, diff_precedente:)
@@ -93,7 +120,6 @@ module StatisticWithIntegrations
       nuovo_precedente = count_precedente + diff_precedente
       nuovo_diff = nuovo_anno - nuovo_precedente
       nuovo_diff_percent = nuovo_precedente.zero? ? nil : (nuovo_diff.to_f / nuovo_precedente * 100)
-
       [ nuovo_anno, nuovo_precedente, nuovo_diff, nuovo_diff_percent ]
     end
 

@@ -20,18 +20,25 @@ module StatisticWithIntegrations
     end
 
     def call
-      missing = target_zonings.reject { |zoning| IntegrationFillea.exists?(zoning:, year: @anno) }
-      return missing_result(missing) if missing.any?
+      return regional_result if regionale?
 
-      rows = target_zonings.map { |zoning| build_row(zoning) }
+      return missing_result([ @zoning ]) unless dato_presente?(@zoning)
+
+      rows = [ build_row(@zoning) ]
       Result.new(rows:, total_diff: rows.sum(&:diff))
     end
 
     private
 
-    def target_zonings
-      regionale? ? province_zonings : [ @zoning ]
+    # A livello regionale non si blocca mai: si integrano le province per cui
+    # esiste il dato Cassa Edile e si lasciano invariate (nessuna riga, quindi
+    # nessun diff) quelle prive di integrazione.
+    def regional_result
+      rows = province_zonings.select { |zoning| dato_presente?(zoning) }.map { |zoning| build_row(zoning) }
+      Result.new(rows:, total_diff: rows.sum(&:diff))
     end
+
+    def dato_presente?(zoning) = IntegrationFillea.exists?(zoning:, year: @anno)
 
     def regionale? = @zoning.codice_azzonamento.to_s.length == 1
 
