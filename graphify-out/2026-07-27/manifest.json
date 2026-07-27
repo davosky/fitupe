@@ -10,8 +10,8 @@
     "semantic_hash": "590009f4b8daf822d34925fc6490b45c"
   },
   "/home/davo/Programmazione/fitupe/config/routes.rb": {
-    "mtime": 1785141340.1055813,
-    "ast_hash": "0fb0cf935fb4570d55d788174aabb2cf",
+    "mtime": 1784733405.8622599,
+    "ast_hash": "16b7c90f4556c48dd05cea2e00157801",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/config/ci.rb": {
@@ -1090,8 +1090,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/CodeGuide/README.md": {
-    "mtime": 1785135113.4825668,
-    "ast_hash": "48e5f8a7572ee373b37574a5f2eb70ad",
+    "mtime": 1785056071.7454014,
+    "ast_hash": "468e29b1b5ccf0a2ce1846bfac91822c",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/CodeGuide/Statistics/README.md": {
@@ -1152,36 +1152,6 @@
   "/home/davo/Programmazione/fitupe/CodeGuide/Statistics/total_members_comparison.md": {
     "mtime": 1785056980.7273972,
     "ast_hash": "31d475ee4b29cb23ada9fc4a2a7729c1",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/statistic_with_integrations/fillea_correction_spec.rb": {
-    "mtime": 1785142417.7894619,
-    "ast_hash": "ef59e662304c478b5414f5d1459abc9b",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/statistic_with_integrations/total_members_comparison_spec.rb": {
-    "mtime": 1785142464.485457,
-    "ast_hash": "14953bbedc172420a6a8881599211d57",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_with_integrations/total_members_comparison.rb": {
-    "mtime": 1785142255.9241042,
-    "ast_hash": "e0bcd26922d580792bda565db6e90cdb",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_with_integrations/fillea_correction.rb": {
-    "mtime": 1785142227.9470716,
-    "ast_hash": "0f46b47396312159b112ebf2c08a3229",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/controllers/statistic_with_integrations_controller.rb": {
-    "mtime": 1785142293.488361,
-    "ast_hash": "2ab27f2de8a708058da5e1b0df639842",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/statistic_with_integrations/statistic_with_integrations-logo.svg": {
-    "mtime": 1785141316.6239283,
-    "ast_hash": "733203658b0c9c7ddc6ab46aadfdbbf1",
     "semantic_hash": ""
   }
 }

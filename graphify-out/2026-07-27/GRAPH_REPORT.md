@@ -1,16 +1,16 @@
-# Graph Report - fitupe  (2026-07-27)
+# Graph Report - fitupe  (2026-07-26)
 
 ## Corpus Check
-- 171 files · ~82,070 words
+- 166 files · ~80,573 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 950 nodes · 939 edges · 179 communities (102 shown, 77 thin omitted)
-- Extraction: 91% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 79 edges (avg confidence: 0.84)
+- 921 nodes · 891 edges · 175 communities (99 shown, 76 thin omitted)
+- Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a3ccd92a`
+- Built from commit: `f049995b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -122,8 +122,6 @@
 - [[_COMMUNITY_Community 172|Community 172]]
 - [[_COMMUNITY_Community 173|Community 173]]
 - [[_COMMUNITY_Community 174|Community 174]]
-- [[_COMMUNITY_Community 175|Community 175]]
-- [[_COMMUNITY_Community 176|Community 176]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `TotalMembersComparison` - 23 edges
@@ -149,7 +147,7 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (179 total, 77 thin omitted)
+## Communities (175 total, 76 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
@@ -227,10 +225,6 @@ Nodes (25): `build_result` *(privato)*, `build_row` *(privato)*, `call`, `catego
 Cohesion: 0.10
 Nodes (3): IntegrationFlcUploadsController, ComparisonService, success?()
 
-### Community 137 - "Community 137"
-Cohesion: 0.12
-Nodes (3): success?(), TotalMembersComparison, TotalMembersComparison
-
 ### Community 150 - "Community 150"
 Cohesion: 0.40
 Nodes (4): Aggiunto, Changelog, Modificato, [Non rilasciato]
@@ -288,7 +282,7 @@ Nodes (12): `call`, `build_row`, `counts`, `scope` *(privati)*, code:ruby (modul
 ## Knowledge Gaps
 - **247 isolated node(s):** `name`, `private`, `esbuild`, `build`, `build:css:compile` (+242 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **77 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **76 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -298,7 +292,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **What is the exact relationship between `Devise.setup configuration (username auth)` and `Admin namespace routes (users)`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
 - **Why does `authenticate_admin` connect `Pundit e Controlli Autorizzazione Admin` to `Modello User e Autenticazione`?**
-  _High betweenness centrality (0.003) - this node is a cross-community bridge._
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `esbuild` to the rest of the system?**
   _250 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Modello User e Autenticazione` be split into smaller, more focused modules?**

@@ -526,24 +526,6 @@
       "norm_label": "import()"
     },
     {
-      "label": "fillea_correction_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/services/statistic_with_integrations/fillea_correction_spec.rb",
-      "source_location": "L1",
-      "id": "spec_services_statistic_with_integrations_fillea_correction_spec_rb",
-      "community": 177,
-      "norm_label": "fillea_correction_spec.rb"
-    },
-    {
-      "label": "total_members_comparison_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/services/statistic_with_integrations/total_members_comparison_spec.rb",
-      "source_location": "L1",
-      "id": "spec_services_statistic_with_integrations_total_members_comparison_spec_rb",
-      "community": 178,
-      "norm_label": "total_members_comparison_spec.rb"
-    },
-    {
       "label": "comparison_service_spec.rb",
       "file_type": "code",
       "source_file": "spec/services/integration_flcs/comparison_service_spec.rb",
@@ -1062,7 +1044,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L1",
       "id": "app_policies_integration_flc_policy_rb",
-      "community": 107,
+      "community": 1,
       "norm_label": "integration_flc_policy.rb"
     },
     {
@@ -1071,7 +1053,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L1",
       "id": "policies_integration_flc_policy_integrationflcpolicy",
-      "community": 107,
+      "community": 1,
       "norm_label": "integrationflcpolicy"
     },
     {
@@ -1080,7 +1062,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L2",
       "id": "policies_integration_flc_policy_integrationflcpolicy_index",
-      "community": 107,
+      "community": 1,
       "norm_label": ".index?()"
     },
     {
@@ -1089,7 +1071,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L3",
       "id": "policies_integration_flc_policy_integrationflcpolicy_show",
-      "community": 107,
+      "community": 1,
       "norm_label": ".show?()"
     },
     {
@@ -1098,7 +1080,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L4",
       "id": "policies_integration_flc_policy_integrationflcpolicy_create",
-      "community": 107,
+      "community": 1,
       "norm_label": ".create?()"
     },
     {
@@ -1107,7 +1089,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L5",
       "id": "policies_integration_flc_policy_integrationflcpolicy_update",
-      "community": 107,
+      "community": 1,
       "norm_label": ".update?()"
     },
     {
@@ -1116,7 +1098,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L6",
       "id": "policies_integration_flc_policy_integrationflcpolicy_confirm_destroy",
-      "community": 107,
+      "community": 1,
       "norm_label": ".confirm_destroy?()"
     },
     {
@@ -1125,7 +1107,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L7",
       "id": "policies_integration_flc_policy_integrationflcpolicy_destroy",
-      "community": 107,
+      "community": 1,
       "norm_label": ".destroy?()"
     },
     {
@@ -1134,7 +1116,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L9",
       "id": "policies_integration_flc_policy_scope",
-      "community": 107,
+      "community": 1,
       "norm_label": "scope"
     },
     {
@@ -1143,7 +1125,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L10",
       "id": "policies_integration_flc_policy_scope_resolve",
-      "community": 107,
+      "community": 1,
       "norm_label": ".resolve()"
     },
     {
@@ -1152,7 +1134,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L17",
       "id": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager",
-      "community": 107,
+      "community": 1,
       "norm_label": ".admin_or_manager?()"
     },
     {
@@ -1161,7 +1143,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L1",
       "id": "app_policies_integration_fillea_policy_rb",
-      "community": 1,
+      "community": 107,
       "norm_label": "integration_fillea_policy.rb"
     },
     {
@@ -1170,7 +1152,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L1",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "community": 1,
+      "community": 107,
       "norm_label": "integrationfilleapolicy"
     },
     {
@@ -1179,7 +1161,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L2",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_index",
-      "community": 1,
+      "community": 107,
       "norm_label": ".index?()"
     },
     {
@@ -1188,7 +1170,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L3",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_show",
-      "community": 1,
+      "community": 107,
       "norm_label": ".show?()"
     },
     {
@@ -1197,7 +1179,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L4",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_create",
-      "community": 1,
+      "community": 107,
       "norm_label": ".create?()"
     },
     {
@@ -1206,7 +1188,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L5",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_update",
-      "community": 1,
+      "community": 107,
       "norm_label": ".update?()"
     },
     {
@@ -1215,7 +1197,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L6",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_confirm_destroy",
-      "community": 1,
+      "community": 107,
       "norm_label": ".confirm_destroy?()"
     },
     {
@@ -1224,7 +1206,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L7",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_destroy",
-      "community": 1,
+      "community": 107,
       "norm_label": ".destroy?()"
     },
     {
@@ -1233,7 +1215,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L9",
       "id": "policies_integration_fillea_policy_scope",
-      "community": 1,
+      "community": 107,
       "norm_label": "scope"
     },
     {
@@ -1242,7 +1224,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L10",
       "id": "policies_integration_fillea_policy_scope_resolve",
-      "community": 1,
+      "community": 107,
       "norm_label": ".resolve()"
     },
     {
@@ -1251,7 +1233,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L17",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
-      "community": 1,
+      "community": 107,
       "norm_label": ".admin_or_manager?()"
     },
     {
@@ -1433,195 +1415,6 @@
       "id": "imports_schema_sync_service_schemasyncservice_add_column",
       "community": 78,
       "norm_label": ".add_column()"
-    },
-    {
-      "label": "total_members_comparison.rb",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L1",
-      "id": "app_services_statistic_with_integrations_total_members_comparison_rb",
-      "community": 137,
-      "norm_label": "total_members_comparison.rb"
-    },
-    {
-      "label": "TotalMembersComparison",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L8",
-      "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison",
-      "community": 137,
-      "norm_label": "totalmemberscomparison"
-    },
-    {
-      "label": "success?()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L13",
-      "id": "statistic_with_integrations_total_members_comparison_success",
-      "community": 137,
-      "norm_label": "success?()"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L18",
-      "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_call",
-      "community": 137,
-      "norm_label": ".call()"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L20",
-      "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_initialize",
-      "community": 137,
-      "norm_label": ".initialize()"
-    },
-    {
-      "label": ".build_result()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L40",
-      "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "community": 137,
-      "norm_label": ".build_result()"
-    },
-    {
-      "label": ".recalibrate_comprensori()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L59",
-      "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_recalibrate_comprensori",
-      "community": 137,
-      "norm_label": ".recalibrate_comprensori()"
-    },
-    {
-      "label": ".recalibrate_named()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L73",
-      "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_recalibrate_named",
-      "community": 137,
-      "norm_label": ".recalibrate_named()"
-    },
-    {
-      "label": ".diff_precedente_for()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L85",
-      "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_diff_precedente_for",
-      "community": 137,
-      "norm_label": ".diff_precedente_for()"
-    },
-    {
-      "label": ".recalibrate()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L91",
-      "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_recalibrate",
-      "community": 137,
-      "norm_label": ".recalibrate()"
-    },
-    {
-      "label": ".missing_result()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L100",
-      "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_missing_result",
-      "community": 137,
-      "norm_label": ".missing_result()"
-    },
-    {
-      "label": "fillea_correction.rb",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L1",
-      "id": "app_services_statistic_with_integrations_fillea_correction_rb",
-      "community": 175,
-      "norm_label": "fillea_correction.rb"
-    },
-    {
-      "label": "FilleaCorrection",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L8",
-      "id": "statistic_with_integrations_fillea_correction_filleacorrection",
-      "community": 175,
-      "norm_label": "filleacorrection"
-    },
-    {
-      "label": "success?()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L11",
-      "id": "statistic_with_integrations_fillea_correction_success",
-      "community": 175,
-      "norm_label": "success?()"
-    },
-    {
-      "label": ".call()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L14",
-      "id": "statistic_with_integrations_fillea_correction_filleacorrection_call",
-      "community": 175,
-      "norm_label": ".call()"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L16",
-      "id": "statistic_with_integrations_fillea_correction_filleacorrection_initialize",
-      "community": 175,
-      "norm_label": ".initialize()"
-    },
-    {
-      "label": ".target_zonings()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L32",
-      "id": "statistic_with_integrations_fillea_correction_filleacorrection_target_zonings",
-      "community": 175,
-      "norm_label": ".target_zonings()"
-    },
-    {
-      "label": ".regionale?()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L36",
-      "id": "statistic_with_integrations_fillea_correction_filleacorrection_regionale",
-      "community": 175,
-      "norm_label": ".regionale?()"
-    },
-    {
-      "label": ".province_zonings()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L38",
-      "id": "statistic_with_integrations_fillea_correction_filleacorrection_province_zonings",
-      "community": 175,
-      "norm_label": ".province_zonings()"
-    },
-    {
-      "label": ".build_row()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L43",
-      "id": "statistic_with_integrations_fillea_correction_filleacorrection_build_row",
-      "community": 175,
-      "norm_label": ".build_row()"
-    },
-    {
-      "label": ".missing_result()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L51",
-      "id": "statistic_with_integrations_fillea_correction_filleacorrection_missing_result",
-      "community": 175,
-      "norm_label": ".missing_result()"
     },
     {
       "label": "comparison_service.rb",
@@ -3323,60 +3116,6 @@
       "id": "controllers_pages_controller_pagescontroller_credits",
       "community": 0,
       "norm_label": ".credits()"
-    },
-    {
-      "label": "statistic_with_integrations_controller.rb",
-      "file_type": "code",
-      "source_file": "app/controllers/statistic_with_integrations_controller.rb",
-      "source_location": "L1",
-      "id": "app_controllers_statistic_with_integrations_controller_rb",
-      "community": 176,
-      "norm_label": "statistic_with_integrations_controller.rb"
-    },
-    {
-      "label": "StatisticWithIntegrationsController",
-      "file_type": "code",
-      "source_file": "app/controllers/statistic_with_integrations_controller.rb",
-      "source_location": "L1",
-      "id": "controllers_statistic_with_integrations_controller_statisticwithintegrationscontroller",
-      "community": 176,
-      "norm_label": "statisticwithintegrationscontroller"
-    },
-    {
-      "label": ".index()",
-      "file_type": "code",
-      "source_file": "app/controllers/statistic_with_integrations_controller.rb",
-      "source_location": "L5",
-      "id": "controllers_statistic_with_integrations_controller_statisticwithintegrationscontroller_index",
-      "community": 176,
-      "norm_label": ".index()"
-    },
-    {
-      "label": ".set_zonings()",
-      "file_type": "code",
-      "source_file": "app/controllers/statistic_with_integrations_controller.rb",
-      "source_location": "L12",
-      "id": "controllers_statistic_with_integrations_controller_statisticwithintegrationscontroller_set_zonings",
-      "community": 176,
-      "norm_label": ".set_zonings()"
-    },
-    {
-      "label": ".total_members_params()",
-      "file_type": "code",
-      "source_file": "app/controllers/statistic_with_integrations_controller.rb",
-      "source_location": "L16",
-      "id": "controllers_statistic_with_integrations_controller_statisticwithintegrationscontroller_total_members_params",
-      "community": 176,
-      "norm_label": ".total_members_params()"
-    },
-    {
-      "label": ".compute_total_members_result()",
-      "file_type": "code",
-      "source_file": "app/controllers/statistic_with_integrations_controller.rb",
-      "source_location": "L20",
-      "id": "controllers_statistic_with_integrations_controller_statisticwithintegrationscontroller_compute_total_members_result",
-      "community": 176,
-      "norm_label": ".compute_total_members_result()"
     },
     {
       "label": "application_controller.rb",
@@ -10606,460 +10345,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "app_services_statistic_with_integrations_total_members_comparison_rb",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "app_services_statistic_with_integrations_total_members_comparison_rb",
-      "target": "statistic_with_integrations_total_members_comparison_success",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L40",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L59",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_recalibrate_comprensori",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L73",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_recalibrate_named",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L85",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_diff_precedente_for",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L91",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_recalibrate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L100",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_missing_result",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L29",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_call",
-      "target": "statistic_with_integrations_total_members_comparison_success",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L86",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_diff_precedente_for",
-      "target": "statistic_with_integrations_total_members_comparison_success",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L29",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_call",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_missing_result",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L35",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_call",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L42",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_diff_precedente_for",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L44",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_recalibrate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L49",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_recalibrate_comprensori",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L50",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_recalibrate_named",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L49",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_comprensori"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L50",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_categorie"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L51",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_tipologie_delega"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L53",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_attivi_pensionati"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L53",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_tipologie_iscrizione"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L54",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_nazionalita"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L54",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_sesso"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L54",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_provvisorie_revoche"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L55",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_status_lavorativo"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L55",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_fasce_eta"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L62",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_recalibrate_comprensori",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_diff_precedente_for",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L64",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_recalibrate_comprensori",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_recalibrate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
-      "source_location": "L78",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_recalibrate_named",
-      "target": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_recalibrate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "app_services_statistic_with_integrations_fillea_correction_rb",
-      "target": "statistic_with_integrations_fillea_correction_filleacorrection",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "app_services_statistic_with_integrations_fillea_correction_rb",
-      "target": "statistic_with_integrations_fillea_correction_success",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_fillea_correction_filleacorrection",
-      "target": "statistic_with_integrations_fillea_correction_filleacorrection_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_fillea_correction_filleacorrection",
-      "target": "statistic_with_integrations_fillea_correction_filleacorrection_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L32",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_fillea_correction_filleacorrection",
-      "target": "statistic_with_integrations_fillea_correction_filleacorrection_target_zonings",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L36",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_fillea_correction_filleacorrection",
-      "target": "statistic_with_integrations_fillea_correction_filleacorrection_regionale",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L38",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_fillea_correction_filleacorrection",
-      "target": "statistic_with_integrations_fillea_correction_filleacorrection_province_zonings",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L43",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_fillea_correction_filleacorrection",
-      "target": "statistic_with_integrations_fillea_correction_filleacorrection_build_row",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L51",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_fillea_correction_filleacorrection",
-      "target": "statistic_with_integrations_fillea_correction_filleacorrection_missing_result",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_fillea_correction_filleacorrection_call",
-      "target": "statistic_with_integrations_fillea_correction_filleacorrection_missing_result",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L45",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_fillea_correction_filleacorrection_build_row",
-      "target": "statistic_with_integrations_fillea_correction_filleacorrection_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
-      "source_location": "L33",
-      "weight": 1.0,
-      "source": "statistic_with_integrations_fillea_correction_filleacorrection_target_zonings",
-      "target": "statistic_with_integrations_fillea_correction_filleacorrection_regionale",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L6",
       "weight": 1.0,
@@ -13530,56 +12815,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/controllers/statistic_with_integrations_controller.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_controllers_statistic_with_integrations_controller_rb",
-      "target": "controllers_statistic_with_integrations_controller_statisticwithintegrationscontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/statistic_with_integrations_controller.rb",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "controllers_statistic_with_integrations_controller_statisticwithintegrationscontroller",
-      "target": "controllers_statistic_with_integrations_controller_statisticwithintegrationscontroller_index",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/statistic_with_integrations_controller.rb",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "controllers_statistic_with_integrations_controller_statisticwithintegrationscontroller",
-      "target": "controllers_statistic_with_integrations_controller_statisticwithintegrationscontroller_set_zonings",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/statistic_with_integrations_controller.rb",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "controllers_statistic_with_integrations_controller_statisticwithintegrationscontroller",
-      "target": "controllers_statistic_with_integrations_controller_statisticwithintegrationscontroller_total_members_params",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/statistic_with_integrations_controller.rb",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "controllers_statistic_with_integrations_controller_statisticwithintegrationscontroller",
-      "target": "controllers_statistic_with_integrations_controller_statisticwithintegrationscontroller_compute_total_members_result",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/controllers/application_controller.rb",
       "source_location": "L1",
       "weight": 1.0,
@@ -15200,9 +14435,9 @@
       "source_file": "CodeGuide/README.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_readme_md",
-      "target": "codeguide_readme_codeguide"
+      "target": "codeguide_readme_codeguide",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15210,9 +14445,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_statistics_readme_md",
-      "target": "statistics_readme_statistiche_come_funzionano_e_come_sono_state_pensate"
+      "target": "statistics_readme_statistiche_come_funzionano_e_come_sono_state_pensate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15220,9 +14455,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_statistiche_come_funzionano_e_come_sono_state_pensate",
-      "target": "statistics_readme_parte_1_italiano"
+      "target": "statistics_readme_parte_1_italiano",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15230,9 +14465,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L90",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_statistiche_come_funzionano_e_come_sono_state_pensate",
-      "target": "statistics_readme_part_2_english"
+      "target": "statistics_readme_part_2_english",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15240,9 +14475,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_parte_1_italiano",
-      "target": "statistics_readme_scopo"
+      "target": "statistics_readme_scopo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15250,9 +14485,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_parte_1_italiano",
-      "target": "statistics_readme_il_form_azzonamento_anno_mese"
+      "target": "statistics_readme_il_form_azzonamento_anno_mese",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15260,9 +14495,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_parte_1_italiano",
-      "target": "statistics_readme_zoningperiodscope_il_fallback_che_rende_tutto_il_resto_possibile"
+      "target": "statistics_readme_zoningperiodscope_il_fallback_che_rende_tutto_il_resto_possibile",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15270,9 +14505,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_parte_1_italiano",
-      "target": "statistics_readme_la_recipe_delle_sezioni_un_pattern_ripetuto_10_volte"
+      "target": "statistics_readme_la_recipe_delle_sezioni_un_pattern_ripetuto_10_volte",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15280,9 +14515,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L60",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_parte_1_italiano",
-      "target": "statistics_readme_un_esempio_completo_fasce_d_et\u00e0"
+      "target": "statistics_readme_un_esempio_completo_fasce_d_et\u00e0",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15290,9 +14525,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L75",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_parte_1_italiano",
-      "target": "statistics_readme_decisioni_che_non_sono_ovvie_dal_codice"
+      "target": "statistics_readme_decisioni_che_non_sono_ovvie_dal_codice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15300,9 +14535,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L84",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_parte_1_italiano",
-      "target": "statistics_readme_dove_continuare"
+      "target": "statistics_readme_dove_continuare",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15310,9 +14545,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L27",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_zoningperiodscope_il_fallback_che_rende_tutto_il_resto_possibile",
-      "target": "statistics_readme_codeblock_1"
+      "target": "statistics_readme_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15320,9 +14555,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L66",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_un_esempio_completo_fasce_d_et\u00e0",
-      "target": "statistics_readme_codeblock_2"
+      "target": "statistics_readme_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15330,9 +14565,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L92",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_part_2_english",
-      "target": "statistics_readme_purpose"
+      "target": "statistics_readme_purpose",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15340,9 +14575,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L98",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_part_2_english",
-      "target": "statistics_readme_the_form_zoning_year_month"
+      "target": "statistics_readme_the_form_zoning_year_month",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15350,9 +14585,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L104",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_part_2_english",
-      "target": "statistics_readme_zoningperiodscope_the_fallback_that_makes_everything_else_possible"
+      "target": "statistics_readme_zoningperiodscope_the_fallback_that_makes_everything_else_possible",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15360,9 +14595,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L124",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_part_2_english",
-      "target": "statistics_readme_the_section_recipe_a_pattern_repeated_10_times"
+      "target": "statistics_readme_the_section_recipe_a_pattern_repeated_10_times",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15370,9 +14605,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L143",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_part_2_english",
-      "target": "statistics_readme_a_full_example_age_bands_fasce_d_et\u00e0"
+      "target": "statistics_readme_a_full_example_age_bands_fasce_d_et\u00e0",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15380,9 +14615,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L158",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_part_2_english",
-      "target": "statistics_readme_decisions_that_are_not_obvious_from_the_code"
+      "target": "statistics_readme_decisions_that_are_not_obvious_from_the_code",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15390,9 +14625,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L167",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_part_2_english",
-      "target": "statistics_readme_where_to_continue"
+      "target": "statistics_readme_where_to_continue",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15400,9 +14635,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L110",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_zoningperiodscope_the_fallback_that_makes_everything_else_possible",
-      "target": "statistics_readme_codeblock_3"
+      "target": "statistics_readme_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15410,9 +14645,9 @@
       "source_file": "CodeGuide/Statistics/README.md",
       "source_location": "L149",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_readme_a_full_example_age_bands_fasce_d_et\u00e0",
-      "target": "statistics_readme_codeblock_4"
+      "target": "statistics_readme_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15420,9 +14655,9 @@
       "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_statistics_nationality_breakdown_md",
-      "target": "statistics_nationality_breakdown_statistics_nationalitybreakdown"
+      "target": "statistics_nationality_breakdown_statistics_nationalitybreakdown",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15430,9 +14665,9 @@
       "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_nationality_breakdown_statistics_nationalitybreakdown",
-      "target": "statistics_nationality_breakdown_codice_completo"
+      "target": "statistics_nationality_breakdown_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15440,9 +14675,9 @@
       "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
       "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_nationality_breakdown_statistics_nationalitybreakdown",
-      "target": "statistics_nationality_breakdown_sezioni_commentate"
+      "target": "statistics_nationality_breakdown_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15450,9 +14685,9 @@
       "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_nationality_breakdown_codice_completo",
-      "target": "statistics_nationality_breakdown_codeblock_1"
+      "target": "statistics_nationality_breakdown_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15460,9 +14695,9 @@
       "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
       "source_location": "L58",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_nationality_breakdown_sezioni_commentate",
-      "target": "statistics_nationality_breakdown_commento_di_classe"
+      "target": "statistics_nationality_breakdown_commento_di_classe",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15470,9 +14705,9 @@
       "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
       "source_location": "L71",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_nationality_breakdown_sezioni_commentate",
-      "target": "statistics_nationality_breakdown_nazionalita_costante"
+      "target": "statistics_nationality_breakdown_nazionalita_costante",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15480,9 +14715,9 @@
       "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
       "source_location": "L85",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_nationality_breakdown_sezioni_commentate",
-      "target": "statistics_nationality_breakdown_row_struct"
+      "target": "statistics_nationality_breakdown_row_struct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15490,9 +14725,9 @@
       "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
       "source_location": "L95",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_nationality_breakdown_sezioni_commentate",
-      "target": "statistics_nationality_breakdown_call_build_row_counts_scope_privati"
+      "target": "statistics_nationality_breakdown_call_build_row_counts_scope_privati",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15500,9 +14735,9 @@
       "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
       "source_location": "L60",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_nationality_breakdown_commento_di_classe",
-      "target": "statistics_nationality_breakdown_codeblock_2"
+      "target": "statistics_nationality_breakdown_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15510,9 +14745,9 @@
       "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
       "source_location": "L73",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_nationality_breakdown_nazionalita_costante",
-      "target": "statistics_nationality_breakdown_codeblock_3"
+      "target": "statistics_nationality_breakdown_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15520,9 +14755,9 @@
       "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
       "source_location": "L87",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_nationality_breakdown_row_struct",
-      "target": "statistics_nationality_breakdown_codeblock_4"
+      "target": "statistics_nationality_breakdown_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15530,9 +14765,9 @@
       "source_file": "CodeGuide/Statistics/nationality_breakdown.md",
       "source_location": "L97",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_nationality_breakdown_call_build_row_counts_scope_privati",
-      "target": "statistics_nationality_breakdown_codeblock_5"
+      "target": "statistics_nationality_breakdown_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15540,9 +14775,9 @@
       "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_statistics_delegation_type_breakdown_md",
-      "target": "statistics_delegation_type_breakdown_statistics_delegationtypebreakdown"
+      "target": "statistics_delegation_type_breakdown_statistics_delegationtypebreakdown",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15550,9 +14785,9 @@
       "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_statistics_delegationtypebreakdown",
-      "target": "statistics_delegation_type_breakdown_codice_completo"
+      "target": "statistics_delegation_type_breakdown_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15560,9 +14795,9 @@
       "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
       "source_location": "L61",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_statistics_delegationtypebreakdown",
-      "target": "statistics_delegation_type_breakdown_sezioni_commentate"
+      "target": "statistics_delegation_type_breakdown_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15570,9 +14805,9 @@
       "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_codice_completo",
-      "target": "statistics_delegation_type_breakdown_codeblock_1"
+      "target": "statistics_delegation_type_breakdown_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15580,9 +14815,9 @@
       "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
       "source_location": "L63",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_sezioni_commentate",
-      "target": "statistics_delegation_type_breakdown_commento_di_classe"
+      "target": "statistics_delegation_type_breakdown_commento_di_classe",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15590,9 +14825,9 @@
       "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
       "source_location": "L78",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_sezioni_commentate",
-      "target": "statistics_delegation_type_breakdown_tipologie_costante"
+      "target": "statistics_delegation_type_breakdown_tipologie_costante",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15600,9 +14835,9 @@
       "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
       "source_location": "L95",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_sezioni_commentate",
-      "target": "statistics_delegation_type_breakdown_conc_spi_anno_costante"
+      "target": "statistics_delegation_type_breakdown_conc_spi_anno_costante",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15610,9 +14845,9 @@
       "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
       "source_location": "L105",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_sezioni_commentate",
-      "target": "statistics_delegation_type_breakdown_row_struct"
+      "target": "statistics_delegation_type_breakdown_row_struct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15620,9 +14855,9 @@
       "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
       "source_location": "L115",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_sezioni_commentate",
-      "target": "statistics_delegation_type_breakdown_call"
+      "target": "statistics_delegation_type_breakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15630,9 +14865,9 @@
       "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
       "source_location": "L128",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_sezioni_commentate",
-      "target": "statistics_delegation_type_breakdown_build_row_count_for_privati"
+      "target": "statistics_delegation_type_breakdown_build_row_count_for_privati",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15640,9 +14875,9 @@
       "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
       "source_location": "L65",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_commento_di_classe",
-      "target": "statistics_delegation_type_breakdown_codeblock_2"
+      "target": "statistics_delegation_type_breakdown_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15650,9 +14885,9 @@
       "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
       "source_location": "L80",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_tipologie_costante",
-      "target": "statistics_delegation_type_breakdown_codeblock_3"
+      "target": "statistics_delegation_type_breakdown_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15660,9 +14895,9 @@
       "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
       "source_location": "L97",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_conc_spi_anno_costante",
-      "target": "statistics_delegation_type_breakdown_codeblock_4"
+      "target": "statistics_delegation_type_breakdown_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15670,9 +14905,9 @@
       "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
       "source_location": "L107",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_row_struct",
-      "target": "statistics_delegation_type_breakdown_codeblock_5"
+      "target": "statistics_delegation_type_breakdown_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15680,9 +14915,9 @@
       "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
       "source_location": "L117",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_call",
-      "target": "statistics_delegation_type_breakdown_codeblock_6"
+      "target": "statistics_delegation_type_breakdown_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15690,9 +14925,9 @@
       "source_file": "CodeGuide/Statistics/delegation_type_breakdown.md",
       "source_location": "L130",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_delegation_type_breakdown_build_row_count_for_privati",
-      "target": "statistics_delegation_type_breakdown_codeblock_7"
+      "target": "statistics_delegation_type_breakdown_codeblock_7",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15700,9 +14935,9 @@
       "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_statistics_membership_type_breakdown_md",
-      "target": "statistics_membership_type_breakdown_statistics_membershiptypebreakdown"
+      "target": "statistics_membership_type_breakdown_statistics_membershiptypebreakdown",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15710,9 +14945,9 @@
       "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_statistics_membershiptypebreakdown",
-      "target": "statistics_membership_type_breakdown_codice_completo"
+      "target": "statistics_membership_type_breakdown_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15720,9 +14955,9 @@
       "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
       "source_location": "L50",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_statistics_membershiptypebreakdown",
-      "target": "statistics_membership_type_breakdown_sezioni_commentate"
+      "target": "statistics_membership_type_breakdown_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15730,9 +14965,9 @@
       "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_codice_completo",
-      "target": "statistics_membership_type_breakdown_codeblock_1"
+      "target": "statistics_membership_type_breakdown_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15740,9 +14975,9 @@
       "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_sezioni_commentate",
-      "target": "statistics_membership_type_breakdown_commento_di_classe"
+      "target": "statistics_membership_type_breakdown_commento_di_classe",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15750,9 +14985,9 @@
       "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
       "source_location": "L65",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_sezioni_commentate",
-      "target": "statistics_membership_type_breakdown_delega_costante"
+      "target": "statistics_membership_type_breakdown_delega_costante",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15760,9 +14995,9 @@
       "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
       "source_location": "L75",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_sezioni_commentate",
-      "target": "statistics_membership_type_breakdown_row_struct"
+      "target": "statistics_membership_type_breakdown_row_struct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15770,9 +15005,9 @@
       "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
       "source_location": "L85",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_sezioni_commentate",
-      "target": "statistics_membership_type_breakdown_call"
+      "target": "statistics_membership_type_breakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15780,9 +15015,9 @@
       "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
       "source_location": "L97",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_sezioni_commentate",
-      "target": "statistics_membership_type_breakdown_build_row_privato"
+      "target": "statistics_membership_type_breakdown_build_row_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15790,9 +15025,9 @@
       "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
       "source_location": "L114",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_sezioni_commentate",
-      "target": "statistics_membership_type_breakdown_count_for_privato"
+      "target": "statistics_membership_type_breakdown_count_for_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15800,9 +15035,9 @@
       "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
       "source_location": "L54",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_commento_di_classe",
-      "target": "statistics_membership_type_breakdown_codeblock_2"
+      "target": "statistics_membership_type_breakdown_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15810,9 +15045,9 @@
       "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
       "source_location": "L67",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_delega_costante",
-      "target": "statistics_membership_type_breakdown_codeblock_3"
+      "target": "statistics_membership_type_breakdown_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15820,9 +15055,9 @@
       "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
       "source_location": "L77",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_row_struct",
-      "target": "statistics_membership_type_breakdown_codeblock_4"
+      "target": "statistics_membership_type_breakdown_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15830,9 +15065,9 @@
       "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
       "source_location": "L87",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_call",
-      "target": "statistics_membership_type_breakdown_codeblock_5"
+      "target": "statistics_membership_type_breakdown_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15840,9 +15075,9 @@
       "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
       "source_location": "L99",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_build_row_privato",
-      "target": "statistics_membership_type_breakdown_codeblock_6"
+      "target": "statistics_membership_type_breakdown_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15850,9 +15085,9 @@
       "source_file": "CodeGuide/Statistics/membership_type_breakdown.md",
       "source_location": "L116",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_membership_type_breakdown_count_for_privato",
-      "target": "statistics_membership_type_breakdown_codeblock_7"
+      "target": "statistics_membership_type_breakdown_codeblock_7",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15860,9 +15095,9 @@
       "source_file": "CodeGuide/Statistics/gender_breakdown.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_statistics_gender_breakdown_md",
-      "target": "statistics_gender_breakdown_statistics_genderbreakdown"
+      "target": "statistics_gender_breakdown_statistics_genderbreakdown",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15870,9 +15105,9 @@
       "source_file": "CodeGuide/Statistics/gender_breakdown.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_statistics_genderbreakdown",
-      "target": "statistics_gender_breakdown_codice_completo"
+      "target": "statistics_gender_breakdown_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15880,9 +15115,9 @@
       "source_file": "CodeGuide/Statistics/gender_breakdown.md",
       "source_location": "L55",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_statistics_genderbreakdown",
-      "target": "statistics_gender_breakdown_sezioni_commentate"
+      "target": "statistics_gender_breakdown_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15890,9 +15125,9 @@
       "source_file": "CodeGuide/Statistics/gender_breakdown.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_codice_completo",
-      "target": "statistics_gender_breakdown_codeblock_1"
+      "target": "statistics_gender_breakdown_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15900,9 +15135,9 @@
       "source_file": "CodeGuide/Statistics/gender_breakdown.md",
       "source_location": "L57",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_sezioni_commentate",
-      "target": "statistics_gender_breakdown_commento_di_classe"
+      "target": "statistics_gender_breakdown_commento_di_classe",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15910,9 +15145,9 @@
       "source_file": "CodeGuide/Statistics/gender_breakdown.md",
       "source_location": "L70",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_sezioni_commentate",
-      "target": "statistics_gender_breakdown_sessi_costante"
+      "target": "statistics_gender_breakdown_sessi_costante",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15920,9 +15155,9 @@
       "source_file": "CodeGuide/Statistics/gender_breakdown.md",
       "source_location": "L83",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_sezioni_commentate",
-      "target": "statistics_gender_breakdown_row_struct"
+      "target": "statistics_gender_breakdown_row_struct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15930,9 +15165,9 @@
       "source_file": "CodeGuide/Statistics/gender_breakdown.md",
       "source_location": "L93",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_sezioni_commentate",
-      "target": "statistics_gender_breakdown_call"
+      "target": "statistics_gender_breakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15940,9 +15175,9 @@
       "source_file": "CodeGuide/Statistics/gender_breakdown.md",
       "source_location": "L106",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_sezioni_commentate",
-      "target": "statistics_gender_breakdown_build_row_privato"
+      "target": "statistics_gender_breakdown_build_row_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15950,9 +15185,9 @@
       "source_file": "CodeGuide/Statistics/gender_breakdown.md",
       "source_location": "L121",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_sezioni_commentate",
-      "target": "statistics_gender_breakdown_counts_privato"
+      "target": "statistics_gender_breakdown_counts_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15960,9 +15195,9 @@
       "source_file": "CodeGuide/Statistics/gender_breakdown.md",
       "source_location": "L135",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_sezioni_commentate",
-      "target": "statistics_gender_breakdown_scope_privato"
+      "target": "statistics_gender_breakdown_scope_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15970,9 +15205,9 @@
       "source_file": "CodeGuide/Statistics/gender_breakdown.md",
       "source_location": "L59",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_commento_di_classe",
-      "target": "statistics_gender_breakdown_codeblock_2"
+      "target": "statistics_gender_breakdown_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15980,9 +15215,9 @@
       "source_file": "CodeGuide/Statistics/gender_breakdown.md",
       "source_location": "L72",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_sessi_costante",
-      "target": "statistics_gender_breakdown_codeblock_3"
+      "target": "statistics_gender_breakdown_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15990,9 +15225,9 @@
       "source_file": "CodeGuide/Statistics/gender_breakdown.md",
       "source_location": "L85",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_row_struct",
-      "target": "statistics_gender_breakdown_codeblock_4"
+      "target": "statistics_gender_breakdown_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16000,9 +15235,9 @@
       "source_file": "CodeGuide/Statistics/gender_breakdown.md",
       "source_location": "L95",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_call",
-      "target": "statistics_gender_breakdown_codeblock_5"
+      "target": "statistics_gender_breakdown_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16010,9 +15245,9 @@
       "source_file": "CodeGuide/Statistics/gender_breakdown.md",
       "source_location": "L108",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_build_row_privato",
-      "target": "statistics_gender_breakdown_codeblock_6"
+      "target": "statistics_gender_breakdown_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16020,9 +15255,9 @@
       "source_file": "CodeGuide/Statistics/gender_breakdown.md",
       "source_location": "L123",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_counts_privato",
-      "target": "statistics_gender_breakdown_codeblock_7"
+      "target": "statistics_gender_breakdown_codeblock_7",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16030,9 +15265,9 @@
       "source_file": "CodeGuide/Statistics/gender_breakdown.md",
       "source_location": "L137",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_gender_breakdown_scope_privato",
-      "target": "statistics_gender_breakdown_codeblock_8"
+      "target": "statistics_gender_breakdown_codeblock_8",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16040,9 +15275,9 @@
       "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_statistics_work_status_breakdown_md",
-      "target": "statistics_work_status_breakdown_statistics_workstatusbreakdown"
+      "target": "statistics_work_status_breakdown_statistics_workstatusbreakdown",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16050,9 +15285,9 @@
       "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_work_status_breakdown_statistics_workstatusbreakdown",
-      "target": "statistics_work_status_breakdown_codice_completo"
+      "target": "statistics_work_status_breakdown_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16060,9 +15295,9 @@
       "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
       "source_location": "L53",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_work_status_breakdown_statistics_workstatusbreakdown",
-      "target": "statistics_work_status_breakdown_sezioni_commentate"
+      "target": "statistics_work_status_breakdown_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16070,9 +15305,9 @@
       "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_work_status_breakdown_codice_completo",
-      "target": "statistics_work_status_breakdown_codeblock_1"
+      "target": "statistics_work_status_breakdown_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16080,9 +15315,9 @@
       "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
       "source_location": "L55",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_work_status_breakdown_sezioni_commentate",
-      "target": "statistics_work_status_breakdown_commento_di_classe"
+      "target": "statistics_work_status_breakdown_commento_di_classe",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16090,9 +15325,9 @@
       "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
       "source_location": "L71",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_work_status_breakdown_sezioni_commentate",
-      "target": "statistics_work_status_breakdown_row_struct"
+      "target": "statistics_work_status_breakdown_row_struct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16100,9 +15335,9 @@
       "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
       "source_location": "L81",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_work_status_breakdown_sezioni_commentate",
-      "target": "statistics_work_status_breakdown_call"
+      "target": "statistics_work_status_breakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16110,9 +15345,9 @@
       "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
       "source_location": "L93",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_work_status_breakdown_sezioni_commentate",
-      "target": "statistics_work_status_breakdown_build_row_privato"
+      "target": "statistics_work_status_breakdown_build_row_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16120,9 +15355,9 @@
       "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
       "source_location": "L107",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_work_status_breakdown_sezioni_commentate",
-      "target": "statistics_work_status_breakdown_counts_privato"
+      "target": "statistics_work_status_breakdown_counts_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16130,9 +15365,9 @@
       "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
       "source_location": "L119",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_work_status_breakdown_sezioni_commentate",
-      "target": "statistics_work_status_breakdown_totale_privato"
+      "target": "statistics_work_status_breakdown_totale_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16140,9 +15375,9 @@
       "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
       "source_location": "L131",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_work_status_breakdown_sezioni_commentate",
-      "target": "statistics_work_status_breakdown_scope_privato"
+      "target": "statistics_work_status_breakdown_scope_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16150,9 +15385,9 @@
       "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
       "source_location": "L57",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_work_status_breakdown_commento_di_classe",
-      "target": "statistics_work_status_breakdown_codeblock_2"
+      "target": "statistics_work_status_breakdown_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16160,9 +15395,9 @@
       "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
       "source_location": "L73",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_work_status_breakdown_row_struct",
-      "target": "statistics_work_status_breakdown_codeblock_3"
+      "target": "statistics_work_status_breakdown_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16170,9 +15405,9 @@
       "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
       "source_location": "L83",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_work_status_breakdown_call",
-      "target": "statistics_work_status_breakdown_codeblock_4"
+      "target": "statistics_work_status_breakdown_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16180,9 +15415,9 @@
       "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
       "source_location": "L95",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_work_status_breakdown_build_row_privato",
-      "target": "statistics_work_status_breakdown_codeblock_5"
+      "target": "statistics_work_status_breakdown_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16190,9 +15425,9 @@
       "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
       "source_location": "L109",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_work_status_breakdown_counts_privato",
-      "target": "statistics_work_status_breakdown_codeblock_6"
+      "target": "statistics_work_status_breakdown_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16200,9 +15435,9 @@
       "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
       "source_location": "L121",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_work_status_breakdown_totale_privato",
-      "target": "statistics_work_status_breakdown_codeblock_7"
+      "target": "statistics_work_status_breakdown_codeblock_7",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16210,9 +15445,9 @@
       "source_file": "CodeGuide/Statistics/work_status_breakdown.md",
       "source_location": "L133",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_work_status_breakdown_scope_privato",
-      "target": "statistics_work_status_breakdown_codeblock_8"
+      "target": "statistics_work_status_breakdown_codeblock_8",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16220,9 +15455,9 @@
       "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_statistics_zoning_period_scope_md",
-      "target": "statistics_zoning_period_scope_statistics_zoningperiodscope"
+      "target": "statistics_zoning_period_scope_statistics_zoningperiodscope",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16230,9 +15465,9 @@
       "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_zoning_period_scope_statistics_zoningperiodscope",
-      "target": "statistics_zoning_period_scope_codice_completo"
+      "target": "statistics_zoning_period_scope_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16240,9 +15475,9 @@
       "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_zoning_period_scope_statistics_zoningperiodscope",
-      "target": "statistics_zoning_period_scope_sezioni_commentate"
+      "target": "statistics_zoning_period_scope_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16250,9 +15485,9 @@
       "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_zoning_period_scope_codice_completo",
-      "target": "statistics_zoning_period_scope_codeblock_1"
+      "target": "statistics_zoning_period_scope_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16260,9 +15495,9 @@
       "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
       "source_location": "L51",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_zoning_period_scope_sezioni_commentate",
-      "target": "statistics_zoning_period_scope_commento_di_classe"
+      "target": "statistics_zoning_period_scope_commento_di_classe",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16270,9 +15505,9 @@
       "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
       "source_location": "L65",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_zoning_period_scope_sezioni_commentate",
-      "target": "statistics_zoning_period_scope_def_self_call"
+      "target": "statistics_zoning_period_scope_def_self_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16280,9 +15515,9 @@
       "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
       "source_location": "L75",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_zoning_period_scope_sezioni_commentate",
-      "target": "statistics_zoning_period_scope_initialize"
+      "target": "statistics_zoning_period_scope_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16290,9 +15525,9 @@
       "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
       "source_location": "L89",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_zoning_period_scope_sezioni_commentate",
-      "target": "statistics_zoning_period_scope_call"
+      "target": "statistics_zoning_period_scope_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16300,9 +15535,9 @@
       "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
       "source_location": "L105",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_zoning_period_scope_sezioni_commentate",
-      "target": "statistics_zoning_period_scope_regional_scope_privato"
+      "target": "statistics_zoning_period_scope_regional_scope_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16310,9 +15545,9 @@
       "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
       "source_location": "L120",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_zoning_period_scope_sezioni_commentate",
-      "target": "statistics_zoning_period_scope_regional_zoning_id_privato"
+      "target": "statistics_zoning_period_scope_regional_zoning_id_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16320,9 +15555,9 @@
       "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
       "source_location": "L53",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_zoning_period_scope_commento_di_classe",
-      "target": "statistics_zoning_period_scope_codeblock_2"
+      "target": "statistics_zoning_period_scope_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16330,9 +15565,9 @@
       "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
       "source_location": "L67",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_zoning_period_scope_def_self_call",
-      "target": "statistics_zoning_period_scope_codeblock_3"
+      "target": "statistics_zoning_period_scope_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16340,9 +15575,9 @@
       "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
       "source_location": "L77",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_zoning_period_scope_initialize",
-      "target": "statistics_zoning_period_scope_codeblock_4"
+      "target": "statistics_zoning_period_scope_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16350,9 +15585,9 @@
       "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
       "source_location": "L91",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_zoning_period_scope_call",
-      "target": "statistics_zoning_period_scope_codeblock_5"
+      "target": "statistics_zoning_period_scope_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16360,9 +15595,9 @@
       "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
       "source_location": "L107",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_zoning_period_scope_regional_scope_privato",
-      "target": "statistics_zoning_period_scope_codeblock_6"
+      "target": "statistics_zoning_period_scope_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16370,9 +15605,9 @@
       "source_file": "CodeGuide/Statistics/zoning_period_scope.md",
       "source_location": "L122",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_zoning_period_scope_regional_zoning_id_privato",
-      "target": "statistics_zoning_period_scope_codeblock_7"
+      "target": "statistics_zoning_period_scope_codeblock_7",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16380,9 +15615,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_statistics_employment_status_breakdown_md",
-      "target": "statistics_employment_status_breakdown_statistics_employmentstatusbreakdown"
+      "target": "statistics_employment_status_breakdown_statistics_employmentstatusbreakdown",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16390,9 +15625,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_statistics_employmentstatusbreakdown",
-      "target": "statistics_employment_status_breakdown_codice_completo"
+      "target": "statistics_employment_status_breakdown_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16400,9 +15635,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L67",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_statistics_employmentstatusbreakdown",
-      "target": "statistics_employment_status_breakdown_sezioni_commentate"
+      "target": "statistics_employment_status_breakdown_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16410,9 +15645,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_codice_completo",
-      "target": "statistics_employment_status_breakdown_codeblock_1"
+      "target": "statistics_employment_status_breakdown_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16420,9 +15655,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L69",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_sezioni_commentate",
-      "target": "statistics_employment_status_breakdown_commento_di_classe"
+      "target": "statistics_employment_status_breakdown_commento_di_classe",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16430,9 +15665,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L82",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_sezioni_commentate",
-      "target": "statistics_employment_status_breakdown_spi_costante"
+      "target": "statistics_employment_status_breakdown_spi_costante",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16440,9 +15675,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L92",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_sezioni_commentate",
-      "target": "statistics_employment_status_breakdown_row_struct"
+      "target": "statistics_employment_status_breakdown_row_struct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16450,9 +15685,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L102",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_sezioni_commentate",
-      "target": "statistics_employment_status_breakdown_call"
+      "target": "statistics_employment_status_breakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16460,9 +15695,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L114",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_sezioni_commentate",
-      "target": "statistics_employment_status_breakdown_build_row_privato"
+      "target": "statistics_employment_status_breakdown_build_row_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16470,9 +15705,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L132",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_sezioni_commentate",
-      "target": "statistics_employment_status_breakdown_count_for_privato"
+      "target": "statistics_employment_status_breakdown_count_for_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16480,9 +15715,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L146",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_sezioni_commentate",
-      "target": "statistics_employment_status_breakdown_totale_anno_privato"
+      "target": "statistics_employment_status_breakdown_totale_anno_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16490,9 +15725,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L158",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_sezioni_commentate",
-      "target": "statistics_employment_status_breakdown_categoria_column_privato"
+      "target": "statistics_employment_status_breakdown_categoria_column_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16500,9 +15735,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L71",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_commento_di_classe",
-      "target": "statistics_employment_status_breakdown_codeblock_2"
+      "target": "statistics_employment_status_breakdown_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16510,9 +15745,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L84",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_spi_costante",
-      "target": "statistics_employment_status_breakdown_codeblock_3"
+      "target": "statistics_employment_status_breakdown_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16520,9 +15755,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L94",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_row_struct",
-      "target": "statistics_employment_status_breakdown_codeblock_4"
+      "target": "statistics_employment_status_breakdown_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16530,9 +15765,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L104",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_call",
-      "target": "statistics_employment_status_breakdown_codeblock_5"
+      "target": "statistics_employment_status_breakdown_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16540,9 +15775,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L116",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_build_row_privato",
-      "target": "statistics_employment_status_breakdown_codeblock_6"
+      "target": "statistics_employment_status_breakdown_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16550,9 +15785,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L134",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_count_for_privato",
-      "target": "statistics_employment_status_breakdown_codeblock_7"
+      "target": "statistics_employment_status_breakdown_codeblock_7",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16560,9 +15795,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L148",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_totale_anno_privato",
-      "target": "statistics_employment_status_breakdown_codeblock_8"
+      "target": "statistics_employment_status_breakdown_codeblock_8",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16570,9 +15805,9 @@
       "source_file": "CodeGuide/Statistics/employment_status_breakdown.md",
       "source_location": "L160",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_employment_status_breakdown_categoria_column_privato",
-      "target": "statistics_employment_status_breakdown_codeblock_9"
+      "target": "statistics_employment_status_breakdown_codeblock_9",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16580,9 +15815,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_statistics_category_breakdown_md",
-      "target": "statistics_category_breakdown_statistics_categorybreakdown"
+      "target": "statistics_category_breakdown_statistics_categorybreakdown",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16590,9 +15825,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_statistics_categorybreakdown",
-      "target": "statistics_category_breakdown_codice_completo"
+      "target": "statistics_category_breakdown_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16600,9 +15835,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L71",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_statistics_categorybreakdown",
-      "target": "statistics_category_breakdown_sezioni_commentate"
+      "target": "statistics_category_breakdown_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16610,9 +15845,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_codice_completo",
-      "target": "statistics_category_breakdown_codeblock_1"
+      "target": "statistics_category_breakdown_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16620,9 +15855,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L73",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_sezioni_commentate",
-      "target": "statistics_category_breakdown_commento_di_classe"
+      "target": "statistics_category_breakdown_commento_di_classe",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16630,9 +15865,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L86",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_sezioni_commentate",
-      "target": "statistics_category_breakdown_row_struct"
+      "target": "statistics_category_breakdown_row_struct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16640,9 +15875,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L96",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_sezioni_commentate",
-      "target": "statistics_category_breakdown_def_self_call_initialize"
+      "target": "statistics_category_breakdown_def_self_call_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16650,9 +15885,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L113",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_sezioni_commentate",
-      "target": "statistics_category_breakdown_call"
+      "target": "statistics_category_breakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16660,9 +15895,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L125",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_sezioni_commentate",
-      "target": "statistics_category_breakdown_categorie_presenti_privato"
+      "target": "statistics_category_breakdown_categorie_presenti_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16670,9 +15905,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L137",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_sezioni_commentate",
-      "target": "statistics_category_breakdown_build_row_privato"
+      "target": "statistics_category_breakdown_build_row_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16680,9 +15915,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L154",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_sezioni_commentate",
-      "target": "statistics_category_breakdown_counts_anno_counts_precedente_counts_for_privati"
+      "target": "statistics_category_breakdown_counts_anno_counts_precedente_counts_for_privati",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16690,9 +15925,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L175",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_sezioni_commentate",
-      "target": "statistics_category_breakdown_categoria_column_privato"
+      "target": "statistics_category_breakdown_categoria_column_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16700,9 +15935,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L75",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_commento_di_classe",
-      "target": "statistics_category_breakdown_codeblock_2"
+      "target": "statistics_category_breakdown_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16710,9 +15945,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L88",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_row_struct",
-      "target": "statistics_category_breakdown_codeblock_3"
+      "target": "statistics_category_breakdown_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16720,9 +15955,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L98",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_def_self_call_initialize",
-      "target": "statistics_category_breakdown_codeblock_4"
+      "target": "statistics_category_breakdown_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16730,9 +15965,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L115",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_call",
-      "target": "statistics_category_breakdown_codeblock_5"
+      "target": "statistics_category_breakdown_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16740,9 +15975,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L127",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_categorie_presenti_privato",
-      "target": "statistics_category_breakdown_codeblock_6"
+      "target": "statistics_category_breakdown_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16750,9 +15985,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L139",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_build_row_privato",
-      "target": "statistics_category_breakdown_codeblock_7"
+      "target": "statistics_category_breakdown_codeblock_7",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16760,9 +15995,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L156",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_counts_anno_counts_precedente_counts_for_privati",
-      "target": "statistics_category_breakdown_codeblock_8"
+      "target": "statistics_category_breakdown_codeblock_8",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16770,9 +16005,9 @@
       "source_file": "CodeGuide/Statistics/category_breakdown.md",
       "source_location": "L177",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_category_breakdown_categoria_column_privato",
-      "target": "statistics_category_breakdown_codeblock_9"
+      "target": "statistics_category_breakdown_codeblock_9",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16780,9 +16015,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_statistics_age_breakdown_md",
-      "target": "statistics_age_breakdown_statistics_agebreakdown"
+      "target": "statistics_age_breakdown_statistics_agebreakdown",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16790,9 +16025,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_statistics_agebreakdown",
-      "target": "statistics_age_breakdown_codice_completo"
+      "target": "statistics_age_breakdown_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16800,9 +16035,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L72",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_statistics_agebreakdown",
-      "target": "statistics_age_breakdown_sezioni_commentate"
+      "target": "statistics_age_breakdown_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16810,9 +16045,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_codice_completo",
-      "target": "statistics_age_breakdown_codeblock_1"
+      "target": "statistics_age_breakdown_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16820,9 +16055,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L74",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_sezioni_commentate",
-      "target": "statistics_age_breakdown_commento_di_classe"
+      "target": "statistics_age_breakdown_commento_di_classe",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16830,9 +16065,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L89",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_sezioni_commentate",
-      "target": "statistics_age_breakdown_bands_costante"
+      "target": "statistics_age_breakdown_bands_costante",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16840,9 +16075,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L109",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_sezioni_commentate",
-      "target": "statistics_age_breakdown_age_expr_costante"
+      "target": "statistics_age_breakdown_age_expr_costante",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16850,9 +16085,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L119",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_sezioni_commentate",
-      "target": "statistics_age_breakdown_row_struct"
+      "target": "statistics_age_breakdown_row_struct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16860,9 +16095,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L129",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_sezioni_commentate",
-      "target": "statistics_age_breakdown_call"
+      "target": "statistics_age_breakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16870,9 +16105,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L141",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_sezioni_commentate",
-      "target": "statistics_age_breakdown_build_row_privato"
+      "target": "statistics_age_breakdown_build_row_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16880,9 +16115,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L156",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_sezioni_commentate",
-      "target": "statistics_age_breakdown_counts_privato"
+      "target": "statistics_age_breakdown_counts_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16890,9 +16125,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L168",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_sezioni_commentate",
-      "target": "statistics_age_breakdown_totale_privato"
+      "target": "statistics_age_breakdown_totale_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16900,9 +16135,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L180",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_sezioni_commentate",
-      "target": "statistics_age_breakdown_scope_privato"
+      "target": "statistics_age_breakdown_scope_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16910,9 +16145,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L192",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_sezioni_commentate",
-      "target": "statistics_age_breakdown_band_case_sql_privato"
+      "target": "statistics_age_breakdown_band_case_sql_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16920,9 +16155,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L76",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_commento_di_classe",
-      "target": "statistics_age_breakdown_codeblock_2"
+      "target": "statistics_age_breakdown_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16930,9 +16165,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L91",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_bands_costante",
-      "target": "statistics_age_breakdown_codeblock_3"
+      "target": "statistics_age_breakdown_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16940,9 +16175,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L111",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_age_expr_costante",
-      "target": "statistics_age_breakdown_codeblock_4"
+      "target": "statistics_age_breakdown_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16950,9 +16185,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L121",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_row_struct",
-      "target": "statistics_age_breakdown_codeblock_5"
+      "target": "statistics_age_breakdown_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16960,9 +16195,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L131",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_call",
-      "target": "statistics_age_breakdown_codeblock_6"
+      "target": "statistics_age_breakdown_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16970,9 +16205,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L143",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_build_row_privato",
-      "target": "statistics_age_breakdown_codeblock_7"
+      "target": "statistics_age_breakdown_codeblock_7",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16980,9 +16215,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L158",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_counts_privato",
-      "target": "statistics_age_breakdown_codeblock_8"
+      "target": "statistics_age_breakdown_codeblock_8",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16990,9 +16225,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L170",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_totale_privato",
-      "target": "statistics_age_breakdown_codeblock_9"
+      "target": "statistics_age_breakdown_codeblock_9",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17000,9 +16235,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L182",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_scope_privato",
-      "target": "statistics_age_breakdown_codeblock_10"
+      "target": "statistics_age_breakdown_codeblock_10",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17010,9 +16245,9 @@
       "source_file": "CodeGuide/Statistics/age_breakdown.md",
       "source_location": "L194",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_age_breakdown_band_case_sql_privato",
-      "target": "statistics_age_breakdown_codeblock_11"
+      "target": "statistics_age_breakdown_codeblock_11",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17020,9 +16255,9 @@
       "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_statistics_provisional_revocation_breakdown_md",
-      "target": "statistics_provisional_revocation_breakdown_statistics_provisionalrevocationbreakdown"
+      "target": "statistics_provisional_revocation_breakdown_statistics_provisionalrevocationbreakdown",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17030,9 +16265,9 @@
       "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_provisional_revocation_breakdown_statistics_provisionalrevocationbreakdown",
-      "target": "statistics_provisional_revocation_breakdown_codice_completo"
+      "target": "statistics_provisional_revocation_breakdown_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17040,9 +16275,9 @@
       "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
       "source_location": "L50",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_provisional_revocation_breakdown_statistics_provisionalrevocationbreakdown",
-      "target": "statistics_provisional_revocation_breakdown_sezioni_commentate"
+      "target": "statistics_provisional_revocation_breakdown_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17050,9 +16285,9 @@
       "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_provisional_revocation_breakdown_codice_completo",
-      "target": "statistics_provisional_revocation_breakdown_codeblock_1"
+      "target": "statistics_provisional_revocation_breakdown_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17060,9 +16295,9 @@
       "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_provisional_revocation_breakdown_sezioni_commentate",
-      "target": "statistics_provisional_revocation_breakdown_commento_di_classe"
+      "target": "statistics_provisional_revocation_breakdown_commento_di_classe",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17070,9 +16305,9 @@
       "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
       "source_location": "L66",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_provisional_revocation_breakdown_sezioni_commentate",
-      "target": "statistics_provisional_revocation_breakdown_row_struct"
+      "target": "statistics_provisional_revocation_breakdown_row_struct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17080,9 +16315,9 @@
       "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
       "source_location": "L76",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_provisional_revocation_breakdown_sezioni_commentate",
-      "target": "statistics_provisional_revocation_breakdown_call"
+      "target": "statistics_provisional_revocation_breakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17090,9 +16325,9 @@
       "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
       "source_location": "L91",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_provisional_revocation_breakdown_sezioni_commentate",
-      "target": "statistics_provisional_revocation_breakdown_build_row_privato"
+      "target": "statistics_provisional_revocation_breakdown_build_row_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17100,9 +16335,9 @@
       "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
       "source_location": "L105",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_provisional_revocation_breakdown_sezioni_commentate",
-      "target": "statistics_provisional_revocation_breakdown_totale_iscritti_scope_privati"
+      "target": "statistics_provisional_revocation_breakdown_totale_iscritti_scope_privati",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17110,9 +16345,9 @@
       "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
       "source_location": "L54",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_provisional_revocation_breakdown_commento_di_classe",
-      "target": "statistics_provisional_revocation_breakdown_codeblock_2"
+      "target": "statistics_provisional_revocation_breakdown_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17120,9 +16355,9 @@
       "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
       "source_location": "L68",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_provisional_revocation_breakdown_row_struct",
-      "target": "statistics_provisional_revocation_breakdown_codeblock_3"
+      "target": "statistics_provisional_revocation_breakdown_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17130,9 +16365,9 @@
       "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
       "source_location": "L78",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_provisional_revocation_breakdown_call",
-      "target": "statistics_provisional_revocation_breakdown_codeblock_4"
+      "target": "statistics_provisional_revocation_breakdown_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17140,9 +16375,9 @@
       "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
       "source_location": "L93",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_provisional_revocation_breakdown_build_row_privato",
-      "target": "statistics_provisional_revocation_breakdown_codeblock_5"
+      "target": "statistics_provisional_revocation_breakdown_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17150,9 +16385,9 @@
       "source_file": "CodeGuide/Statistics/provisional_revocation_breakdown.md",
       "source_location": "L107",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_provisional_revocation_breakdown_totale_iscritti_scope_privati",
-      "target": "statistics_provisional_revocation_breakdown_codeblock_6"
+      "target": "statistics_provisional_revocation_breakdown_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17160,9 +16395,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_statistics_total_members_comparison_md",
-      "target": "statistics_total_members_comparison_statistics_totalmemberscomparison"
+      "target": "statistics_total_members_comparison_statistics_totalmemberscomparison",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17170,9 +16405,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_statistics_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_codice_completo"
+      "target": "statistics_total_members_comparison_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17180,9 +16415,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L134",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_statistics_totalmemberscomparison",
-      "target": "statistics_total_members_comparison_sezioni_commentate"
+      "target": "statistics_total_members_comparison_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17190,9 +16425,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_codice_completo",
-      "target": "statistics_total_members_comparison_codeblock_1"
+      "target": "statistics_total_members_comparison_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17200,9 +16435,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L136",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_sezioni_commentate",
-      "target": "statistics_total_members_comparison_panoramica_della_classe"
+      "target": "statistics_total_members_comparison_panoramica_della_classe",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17210,9 +16445,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L142",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_sezioni_commentate",
-      "target": "statistics_total_members_comparison_result_struct"
+      "target": "statistics_total_members_comparison_result_struct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17220,9 +16455,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L158",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_sezioni_commentate",
-      "target": "statistics_total_members_comparison_row_struct"
+      "target": "statistics_total_members_comparison_row_struct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17230,9 +16465,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L168",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_sezioni_commentate",
-      "target": "statistics_total_members_comparison_def_self_call_initialize"
+      "target": "statistics_total_members_comparison_def_self_call_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17240,9 +16475,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L185",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_sezioni_commentate",
-      "target": "statistics_total_members_comparison_call"
+      "target": "statistics_total_members_comparison_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17250,9 +16485,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L200",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_sezioni_commentate",
-      "target": "statistics_total_members_comparison_period_exists_count_for_scope_for_privati"
+      "target": "statistics_total_members_comparison_period_exists_count_for_scope_for_privati",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17260,9 +16495,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L220",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_sezioni_commentate",
-      "target": "statistics_total_members_comparison_build_result_privato"
+      "target": "statistics_total_members_comparison_build_result_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17270,9 +16505,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L239",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_sezioni_commentate",
-      "target": "statistics_total_members_comparison_build_row_privato"
+      "target": "statistics_total_members_comparison_build_row_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17280,9 +16515,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L256",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_sezioni_commentate",
-      "target": "statistics_total_members_comparison_comprensori_regionale_province_zonings_privati"
+      "target": "statistics_total_members_comparison_comprensori_regionale_province_zonings_privati",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17290,9 +16525,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L281",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_sezioni_commentate",
-      "target": "statistics_total_members_comparison_categorie_attivi_pensionati_tipologie_iscrizione_tipologie_delega_nazionalita_sesso_provvisorie_revoche_status_lavorativo_fasce_eta_privati"
+      "target": "statistics_total_members_comparison_categorie_attivi_pensionati_tipologie_iscrizione_tipologie_delega_nazionalita_sesso_provvisorie_revoche_status_lavorativo_fasce_eta_privati",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17300,9 +16535,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L294",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_sezioni_commentate",
-      "target": "statistics_total_members_comparison_missing_data_result_privato"
+      "target": "statistics_total_members_comparison_missing_data_result_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17310,9 +16545,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L144",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_result_struct",
-      "target": "statistics_total_members_comparison_codeblock_2"
+      "target": "statistics_total_members_comparison_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17320,9 +16555,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L160",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_row_struct",
-      "target": "statistics_total_members_comparison_codeblock_3"
+      "target": "statistics_total_members_comparison_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17330,9 +16565,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L170",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_def_self_call_initialize",
-      "target": "statistics_total_members_comparison_codeblock_4"
+      "target": "statistics_total_members_comparison_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17340,9 +16575,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L187",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_call",
-      "target": "statistics_total_members_comparison_codeblock_5"
+      "target": "statistics_total_members_comparison_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17350,9 +16585,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L202",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_period_exists_count_for_scope_for_privati",
-      "target": "statistics_total_members_comparison_codeblock_6"
+      "target": "statistics_total_members_comparison_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17360,9 +16595,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L222",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_build_result_privato",
-      "target": "statistics_total_members_comparison_codeblock_7"
+      "target": "statistics_total_members_comparison_codeblock_7",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17370,9 +16605,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L241",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_build_row_privato",
-      "target": "statistics_total_members_comparison_codeblock_8"
+      "target": "statistics_total_members_comparison_codeblock_8",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17380,9 +16615,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L258",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_comprensori_regionale_province_zonings_privati",
-      "target": "statistics_total_members_comparison_codeblock_9"
+      "target": "statistics_total_members_comparison_codeblock_9",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17390,9 +16625,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L283",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_categorie_attivi_pensionati_tipologie_iscrizione_tipologie_delega_nazionalita_sesso_provvisorie_revoche_status_lavorativo_fasce_eta_privati",
-      "target": "statistics_total_members_comparison_codeblock_10"
+      "target": "statistics_total_members_comparison_codeblock_10",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -17400,9 +16635,9 @@
       "source_file": "CodeGuide/Statistics/total_members_comparison.md",
       "source_location": "L296",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_missing_data_result_privato",
-      "target": "statistics_total_members_comparison_codeblock_11"
+      "target": "statistics_total_members_comparison_codeblock_11",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -18661,5 +17896,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "a3ccd92a87a8fc74f95f0e9fc256f9620f9dbc0d"
+  "built_at_commit": "f049995b752ccd47e909f854c985325a30b9ea3e"
 }
