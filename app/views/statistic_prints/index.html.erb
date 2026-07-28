@@ -2,7 +2,7 @@
 <div class="mt-5 mb-3">
   <h3 class="text-primary">
     <i class="fw-bold">
-      <i class="bi bi-printer me-3" style="font-size: 48px;"></i>
+      <%= image_tag("statistic_prints/statistic-print-logo.svg", class: "img-fluid me-3", size: "58x58", alt: "Stampa Statistiche") %>
       Stampa Statistiche
     </i>
   </h3>
@@ -31,21 +31,25 @@
       </div>
     </div>
   <% end %>
-
   <% if @total_members_form.valid? %>
-    <div class="card border-dark p-3 m-2 shadow-sm">
-      <h4>
-        <span class="p-2 fw-bold fst-italic">
-          <i class="bi bi-file-earmark-pdf text-danger me-2"></i>
-          <%= @total_members_form.zoning.descrizione_azzonamento %> &mdash; <%= @total_members_form.mese %> <%= @total_members_form.anno %>
-        </span>
-      </h4>
-      <hr class="mt-2 mb-2"/>
-      <%= link_to statistic_prints_path(total_members_form: {
+    <div class="row mt-5">
+      <hr class="text-primary"/>
+      <div class="col-6 offset-3">
+        <div class="card border p-3 m-2 shadow-sm">
+          <h4>
+            <span class="p-2 fw-bold fst-italic">
+              <i class="bi bi-file-earmark-pdf text-danger me-2"></i>
+              <%= @total_members_form.zoning.descrizione_azzonamento %> &mdash; <%= @total_members_form.mese %> <%= @total_members_form.anno %>
+            </span>
+          </h4>
+          <hr class="mt-2 mb-2"/>
+          <%= link_to statistic_prints_path(total_members_form: {
         zoning_id: @total_members_form.zoning_id, anno: @total_members_form.anno, mese: @total_members_form.mese
       }, format: :pdf), class: "btn btn-danger shadow", target: "_blank", rel: "noopener" do %>
-        <i class="bi bi-printer me-2"></i>Genera PDF
-      <% end %>
+            <i class="bi bi-printer me-2"></i>Genera PDF
+          <% end %>
+        </div>
+      </div>
     </div>
   <% end %>
 </div>

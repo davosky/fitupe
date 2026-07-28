@@ -1180,8 +1180,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/assets/images/statistic_with_integrations/statistic_with_integrations-logo.svg": {
-    "mtime": 1785158584.681992,
-    "ast_hash": "f0370c8859d0412e41f86e306b682cdc",
+    "mtime": 1785229800.8784785,
+    "ast_hash": "4ead1a57eb7929d754cd4d8e671f4b88",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistic_with_integrations/flc_correction_spec.rb": {
@@ -1207,6 +1207,11 @@
   "/home/davo/Programmazione/fitupe/app/assets/images/statistic_prints/cover_background.png": {
     "mtime": 1785228660.576378,
     "ast_hash": "028926ff1954a719e7029f775134ba7b",
+    "semantic_hash": ""
+  },
+  "/home/davo/Programmazione/fitupe/app/assets/images/statistic_prints/statistic-print-logo.svg": {
+    "mtime": 1785229737.825971,
+    "ast_hash": "22d01837ea7be7d1a9cf2912200e9222",
     "semantic_hash": ""
   }
 }
