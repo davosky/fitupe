@@ -1194,9 +1194,14 @@
     "ast_hash": "112122fc07cd40068731ac304e57f19a",
     "semantic_hash": ""
   },
+  "/home/davo/Programmazione/fitupe/app/services/statistic_prints/cover_pdf.rb": {
+    "mtime": 1785229302.525259,
+    "ast_hash": "485def13b47e4476e1934ebfd856edfd",
+    "semantic_hash": ""
+  },
   "/home/davo/Programmazione/fitupe/app/controllers/statistic_prints_controller.rb": {
-    "mtime": 1785235088.3487213,
-    "ast_hash": "192906f3b0f8bc9d02a2758548aa374a",
+    "mtime": 1785224619.0895882,
+    "ast_hash": "186dfdfd9d8d726d9f3c338a83083e49",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/assets/images/statistic_prints/cover_background.png": {
@@ -1207,36 +1212,6 @@
   "/home/davo/Programmazione/fitupe/app/assets/images/statistic_prints/statistic-print-logo.svg": {
     "mtime": 1785229737.825971,
     "ast_hash": "22d01837ea7be7d1a9cf2912200e9222",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_prints/bar_chart.rb": {
-    "mtime": 1785236406.6217034,
-    "ast_hash": "42ac5f825325e5741eba58c8cb33b650",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_prints/comparison_table.rb": {
-    "mtime": 1785235378.4212642,
-    "ast_hash": "81c363d5aa26e861d2379d4dc066d64f",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_prints/report_pdf.rb": {
-    "mtime": 1785235037.0959024,
-    "ast_hash": "057364046c1cb21b74b29cc7267ff22a",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_prints/cover_page.rb": {
-    "mtime": 1785235079.9296575,
-    "ast_hash": "1bdb347b74eb4094b501b5a65612c0a6",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_prints/regional_page.rb": {
-    "mtime": 1785236828.2170157,
-    "ast_hash": "1ba8550411947354f49ee9ab7804eb75",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_prints/number_formatting.rb": {
-    "mtime": 1785235258.95982,
-    "ast_hash": "a7c3a56e02ced55fbc9b448f12348d52",
     "semantic_hash": ""
   }
 }

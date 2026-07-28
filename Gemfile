@@ -65,6 +65,7 @@ gem "view_component"
 
 # PDF generation
 gem "prawn"
+gem "prawn-table"
 
 # Environment variables
 gem "dotenv-rails"

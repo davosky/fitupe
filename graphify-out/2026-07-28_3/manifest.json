@@ -1210,8 +1210,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/bar_chart.rb": {
-    "mtime": 1785236406.6217034,
-    "ast_hash": "42ac5f825325e5741eba58c8cb33b650",
+    "mtime": 1785235282.5142863,
+    "ast_hash": "d4a086211d3ea935a9703c3d5333106d",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/comparison_table.rb": {
@@ -1230,8 +1230,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/regional_page.rb": {
-    "mtime": 1785236828.2170157,
-    "ast_hash": "1ba8550411947354f49ee9ab7804eb75",
+    "mtime": 1785235372.0331287,
+    "ast_hash": "cde5e12b76389109b10a056f3940bbb5",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/number_formatting.rb": {

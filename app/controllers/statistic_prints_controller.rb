@@ -24,7 +24,7 @@ class StatisticPrintsController < ApplicationController
   def render_pdf
     return redirect_to statistic_prints_path, alert: "Compila azzonamento, anno e mese" unless @total_members_form.valid?
 
-    pdf = StatisticPrints::CoverPdf.call(form: @total_members_form)
+    pdf = StatisticPrints::ReportPdf.call(form: @total_members_form)
     send_data pdf.render, filename: pdf_filename, type: "application/pdf", disposition: "inline"
   end
 
