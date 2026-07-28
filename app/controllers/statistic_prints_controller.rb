@@ -1,0 +1,36 @@
+class StatisticPrintsController < ApplicationController
+  before_action :authenticate_user!
+  before_action :set_zonings
+
+  def index
+    @total_members_form = TotalMembersForm.new(total_members_params)
+
+    respond_to do |format|
+      format.html
+      format.pdf { render_pdf }
+    end
+  end
+
+  private
+
+  def set_zonings
+    @zonings = Zoning.order(:codice_azzonamento)
+  end
+
+  def total_members_params
+    params.fetch(:total_members_form, {}).permit(:zoning_id, :anno, :mese)
+  end
+
+  def render_pdf
+    return redirect_to statistic_prints_path, alert: "Compila azzonamento, anno e mese" unless @total_members_form.valid?
+
+    pdf = StatisticPrints::CoverPdf.call(form: @total_members_form)
+    send_data pdf.render, filename: pdf_filename, type: "application/pdf", disposition: "inline"
+  end
+
+  def pdf_filename
+    form = @total_members_form
+    slug = "#{form.zoning.codice_azzonamento}-#{form.anno}-#{form.mese}".parameterize
+    "statistiche-#{slug}.pdf"
+  end
+end

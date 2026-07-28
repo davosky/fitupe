@@ -30,6 +30,7 @@ Rails.application.routes.draw do
   resources :integration_flc_uploads, only: %i[new create]
   resources :statistics, only: %i[index]
   resources :statistic_with_integrations, only: %i[index]
+  resources :statistic_prints, only: %i[index]
 
   mount ActionCable.server => "/cable"
 

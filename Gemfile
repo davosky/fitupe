@@ -63,6 +63,9 @@ gem "pagy"
 # View components
 gem "view_component"
 
+# PDF generation
+gem "prawn"
+
 # Environment variables
 gem "dotenv-rails"
 
