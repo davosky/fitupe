@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     resources :imports
     resources :integration_filleas
     resources :integration_flcs
+    resources :legends
 
     root to: "users#index"
   end
@@ -28,6 +29,11 @@ Rails.application.routes.draw do
     end
   end
   resources :integration_flc_uploads, only: %i[new create]
+  resources :legends do
+    member do
+      get :confirm_destroy
+    end
+  end
   resources :statistics, only: %i[index]
   resources :statistic_with_integrations, only: %i[index]
   resources :statistic_prints, only: %i[index]

@@ -18,3 +18,6 @@ application.register("hello", HelloController)
 
 import PieChartController from "./pie_chart_controller"
 application.register("pie-chart", PieChartController)
+
+import TrixController from "./trix_controller"
+application.register("trix", TrixController)

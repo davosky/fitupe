@@ -5,18 +5,18 @@ module StatisticPrints
 
     def self.draw(...) = new(...).draw
 
-    def initialize(pdf, title:, rows:, mese:, anno:, anno_precedente:)
+    def initialize(pdf, rows:, mese:, anno:, anno_precedente:, title: nil, label_header: "Azzonamento")
       @pdf = pdf
       @title = title
       @rows = rows
       @mese = mese
       @anno = anno
       @anno_precedente = anno_precedente
+      @label_header = label_header
     end
 
     def draw
-      @pdf.font("AsapCondensed", style: :bold, size: 13) { @pdf.text @title }
-      @pdf.move_down 4
+      draw_title
       table = @pdf.make_table(table_data, header: true, width: @pdf.bounds.width, cell_style: cell_style,
         column_widths: column_widths)
       style_header(table)
@@ -26,8 +26,15 @@ module StatisticPrints
 
     private
 
+    def draw_title
+      return if @title.blank?
+
+      @pdf.font("AsapCondensed", style: :bold, size: 13) { @pdf.text @title }
+      @pdf.move_down 4
+    end
+
     def header_row
-      [ "Azzonamento", "#{@mese} #{@anno_precedente}", "#{@mese} #{@anno}", "iscritti", "%" ]
+      [ @label_header, "#{@mese} #{@anno_precedente}", "#{@mese} #{@anno}", "iscritti", "%" ]
     end
 
     def table_data

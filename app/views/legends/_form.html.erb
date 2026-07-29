@@ -1,0 +1,58 @@
+<div class="row">
+  <div class="col-10 offset-1">
+    <div class="card shadow">
+      <div class="card-body p-4">
+        <%= form_with model: legend, local: true do |f| %>
+          <% if legend.errors.any? %>
+            <div class="alert alert-danger">
+              <ul class="mb-0">
+                <% legend.errors.full_messages.each do |message| %>
+                  <li><%= message %></li>
+                <% end %>
+              </ul>
+            </div>
+          <% end %>
+          <div class="input-group mb-3 shadow-sm">
+            <span class="<%= form_input_group_class %>">
+              <i class="bi bi-geo-alt me-1"></i>
+              <%= f.label :zoning_id, "Azzonamento" %>
+            </span>
+            <%= f.collection_select :zoning_id, @zonings, :id, :descrizione_azzonamento, { prompt: "Seleziona un azzonamento" }, class: "form-select" %>
+          </div>
+          <div class="input-group mb-3 shadow-sm">
+            <span class="<%= form_input_group_class %>">
+              <i class="bi bi-calendar3 me-1"></i>
+              <%= f.label :year, "Anno" %>
+            </span>
+            <%= f.text_field :year, class: "form-control" %>
+          </div>
+          <div class="input-group mb-4 shadow-sm">
+            <span class="<%= form_input_group_class %>">
+              <i class="bi bi-calendar-event me-1"></i>
+              <%= f.label :month, "Mese" %>
+            </span>
+            <%= f.select :month, ImportForm::MESI, { prompt: "Seleziona un mese" }, class: "form-select" %>
+          </div>
+          <div class="mb-4">
+            <label class="<%= form_label_class %>">
+              <i class="bi bi-blockquote-right me-1"></i>
+              <%= f.label :description, "Descrizione" %>
+            </label>
+            <%= f.rich_text_area :description, class: "form-control",
+              data: { controller: "trix", action: "trix-initialize->trix#extendToolbar trix-action-invoke->trix#performAction" } %>
+          </div>
+          <hr class="text-dark"/>
+          <div class="d-flex justify-content-end mt-4">
+            <%= link_to legends_path, class: "btn btn-dark shadow me-3" do %>
+              <i class="bi bi-arrow-counterclockwise me-2"></i>
+              Annulla
+            <% end %>
+            <%= f.button class: form_button_class do %>
+              <i class="bi bi-journal-text me-1"></i>&emsp;<%= form_submit_label_legend %>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

@@ -21,6 +21,10 @@ it:
         one: Integrazione FLC
         many: Integrazioni FLC
         other: Integrazioni FLC
+      legend:
+        one: Legenda
+        many: Legende
+        other: Legende
     attributes:
       user:
         username: Nome utente
@@ -60,6 +64,14 @@ it:
         year: Anno
         month: Mese
         subscribers_af: Iscritti Anagrafe FLC
+        created_at: Creato il
+        updated_at: Aggiornato il
+      legend:
+        zoning: Azzonamento
+        zoning_id: Azzonamento
+        year: Anno
+        month: Mese
+        description: Descrizione
         created_at: Creato il
         updated_at: Aggiornato il
       errors:

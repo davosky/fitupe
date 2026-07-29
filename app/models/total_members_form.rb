@@ -13,4 +13,8 @@ class TotalMembersForm
   def zoning
     @zoning ||= Zoning.find_by(id: zoning_id)
   end
+
+  def legend
+    @legend ||= Legend.find_by(zoning_id: zoning_id, year: anno, month: mese)
+  end
 end

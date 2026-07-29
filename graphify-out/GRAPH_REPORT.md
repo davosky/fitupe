@@ -1,16 +1,16 @@
-# Graph Report - fitupe  (2026-07-28)
+# Graph Report - fitupe  (2026-07-29)
 
 ## Corpus Check
-- 180 files · ~94,081 words
+- 201 files · ~99,017 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1046 nodes · 1089 edges · 188 communities (103 shown, 85 thin omitted)
-- Extraction: 91% EXTRACTED · 9% INFERRED · 0% AMBIGUOUS · INFERRED: 101 edges (avg confidence: 0.83)
+- 1143 nodes · 1203 edges · 205 communities (112 shown, 93 thin omitted)
+- Extraction: 91% EXTRACTED · 9% INFERRED · 0% AMBIGUOUS · INFERRED: 109 edges (avg confidence: 0.83)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `dbb4d4a1`
+- Built from commit: `17f95008`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -127,11 +127,20 @@
 - [[_COMMUNITY_Community 179|Community 179]]
 - [[_COMMUNITY_Community 181|Community 181]]
 - [[_COMMUNITY_Community 182|Community 182]]
-- [[_COMMUNITY_Community 183|Community 183]]
-- [[_COMMUNITY_Community 184|Community 184]]
 - [[_COMMUNITY_Community 185|Community 185]]
 - [[_COMMUNITY_Community 186|Community 186]]
 - [[_COMMUNITY_Community 187|Community 187]]
+- [[_COMMUNITY_Community 188|Community 188]]
+- [[_COMMUNITY_Community 189|Community 189]]
+- [[_COMMUNITY_Community 190|Community 190]]
+- [[_COMMUNITY_Community 191|Community 191]]
+- [[_COMMUNITY_Community 192|Community 192]]
+- [[_COMMUNITY_Community 193|Community 193]]
+- [[_COMMUNITY_Community 194|Community 194]]
+- [[_COMMUNITY_Community 196|Community 196]]
+- [[_COMMUNITY_Community 202|Community 202]]
+- [[_COMMUNITY_Community 203|Community 203]]
+- [[_COMMUNITY_Community 204|Community 204]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `TotalMembersComparison` - 23 edges
@@ -141,9 +150,9 @@
 5. `RegionalPage` - 13 edges
 6. `ComparisonService` - 13 edges
 7. `ImportsController` - 13 edges
-8. `IntegrationFilleasController` - 12 edges
-9. `IntegrationFlcsController` - 12 edges
-10. `Sezioni commentate` - 12 edges
+8. `ComparisonTable` - 12 edges
+9. `LegendsController` - 12 edges
+10. `IntegrationFilleasController` - 12 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Italian Devise Translations` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
@@ -157,15 +166,15 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (188 total, 85 thin omitted)
+## Communities (205 total, 93 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
 Nodes (13): Admin::UsersController, PagesController, UserDashboard, users table (schema.rb), davo admin User seed, user FactoryBot factory, DeviseCreateUsers, User::GENDERS (+5 more)
 
 ### Community 1 - "Pundit e Controlli Autorizzazione Admin"
-Cohesion: 0.09
-Nodes (11): Admin::ApplicationController, ApplicationController, authenticate_admin, ApplicationController, user_not_authorized, ApplicationPolicy#admin?, ApplicationPolicy, Scope (+3 more)
+Cohesion: 0.07
+Nodes (13): Admin::ApplicationController, ApplicationController, authenticate_admin, ApplicationController, user_not_authorized, ApplicationPolicy#admin?, ApplicationPolicy, Scope (+5 more)
 
 ### Community 2 - "Documentazione (README, LICENCE, locale IT)"
 Cohesion: 0.06
@@ -177,15 +186,15 @@ Nodes (12): Analysis of Variance (ANOVA), Box Plot, Chi-Square Test, Pearson Cor
 
 ### Community 4 - "Script Build NPM"
 Cohesion: 0.07
-Nodes (26): browserslist, dependencies, autoprefixer, bootstrap, bootstrap-icons, bootswatch, chart.js, @hotwired/stimulus (+18 more)
+Nodes (28): browserslist, dependencies, autoprefixer, bootstrap, bootstrap-icons, bootswatch, chart.js, @hotwired/stimulus (+20 more)
 
 ### Community 5 - "Config Ambienti e Solid Stack"
 Cohesion: 0.22
 Nodes (11): Action Cable adapter configuration, Rails cache store configuration, PostgreSQL database connections configuration, Kamal deploy configuration, Puma server configuration, Solid Queue worker/dispatcher configuration, Recurring scheduled jobs (Solid Queue), Active Storage services configuration (+3 more)
 
 ### Community 6 - "Stimulus Controllers e Flash"
-Cohesion: 0.07
-Nodes (20): Application, application, colors(), connect(), valueLabelsPlugin(), connect(), percentageLabelsPlugin(), successColor() (+12 more)
+Cohesion: 0.05
+Nodes (22): Application, application, colors(), connect(), valueLabelsPlugin(), connect(), percentageLabelsPlugin(), successColor() (+14 more)
 
 ### Community 7 - "Dipendenze Frontend (package.json)"
 Cohesion: 0.06
@@ -236,8 +245,12 @@ Cohesion: 0.10
 Nodes (3): IntegrationFlcUploadsController, ComparisonService, success?()
 
 ### Community 137 - "Community 137"
-Cohesion: 0.12
-Nodes (3): success?(), TotalMembersComparison, TotalMembersComparison
+Cohesion: 0.09
+Nodes (4): CategoriesPage, success?(), TotalMembersComparison, TotalMembersComparison
+
+### Community 147 - "Community 147"
+Cohesion: 0.14
+Nodes (11): attachment_blocks(), blocks(), blocks_for(), inline(), inline_node(), link_node(), list_blocks(), list_item_block() (+3 more)
 
 ### Community 150 - "Community 150"
 Cohesion: 0.40
@@ -294,9 +307,9 @@ Nodes (12): `call`, `build_row`, `counts`, `scope` *(privati)*, code:ruby (modul
   config/routes.rb · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **248 isolated node(s):** `name`, `private`, `esbuild`, `brace-expansion`, `build` (+243 more)
+- **253 isolated node(s):** `name`, `private`, `esbuild`, `brace-expansion`, `build` (+248 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **85 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **93 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -305,13 +318,13 @@ _Questions this graph is uniquely positioned to answer:_
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
 - **What is the exact relationship between `Devise.setup configuration (username auth)` and `Admin namespace routes (users)`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
-- **Why does `count()` connect `Community 141` to `Community 161`, `Community 130`, `Community 153`, `Stack Tecnico (CLAUDE.md)`, `Community 137`, `Community 187`, `Community 175`, `Community 80`, `Community 145`, `Community 183`, `Community 184`, `Community 185`, `Community 186`, `Community 155`?**
-  _High betweenness centrality (0.039) - this node is a cross-community bridge._
+- **Why does `count()` connect `Community 202` to `Community 161`, `Community 130`, `Community 153`, `Stack Tecnico (CLAUDE.md)`, `Community 137`, `Community 203`, `Community 204`, `Community 187`, `Community 175`, `Community 80`, `Community 145`, `Community 185`, `Community 155`, `Community 189`?**
+  _High betweenness centrality (0.025) - this node is a cross-community bridge._
 - **Why does `TotalMembersComparison` connect `Community 137` to `Community 81`?**
-  _High betweenness centrality (0.015) - this node is a cross-community bridge._
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
 - **Are the 19 inferred relationships involving `count()` (e.g. with `.data_row()` and `.count_data_rows()`) actually correct?**
   _`count()` has 19 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `name`, `private`, `esbuild` to the rest of the system?**
-  _251 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _256 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Modello User e Autenticazione` be split into smaller, more focused modules?**
   _Cohesion score 0.12987012987012986 - nodes in this community are weakly interconnected._

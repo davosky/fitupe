@@ -1,0 +1,22 @@
+/*
+ * Custom Trix formats added in app/javascript/controllers/trix_controller.js:
+ * underline (text attribute) and justify (block attribute, rendered as <p>).
+ * The horizontal rule button inserts a content attachment containing a bare <hr>.
+ */
+trix-editor p,
+.trix-content p {
+  text-align: justify;
+}
+
+trix-editor .attachment--content,
+.trix-content .attachment--content {
+  display: block;
+  margin: 1em 0;
+}
+
+trix-editor .attachment--content hr,
+.trix-content .attachment--content hr {
+  margin: 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}

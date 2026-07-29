@@ -9,3 +9,6 @@ document.addEventListener("turbo:load", () => {
     bootstrap.Tooltip.getOrCreateInstance(el);
   });
 });
+
+import "trix"
+import "@rails/actiontext"

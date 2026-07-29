@@ -1,0 +1,11 @@
+<% content_for :title, "Nuova legenda" %>
+<div class="mt-5 mb-3">
+  <h3 class="text-success">
+    <i class="fw-bold">
+      <%= image_tag("legend/legenda-logo-new.svg", class: "img-fluid me-3", size: "58x58", alt: "Legenda") %>
+      Nuova Legenda
+    </i>
+  </h3>
+</div>
+<hr class="text-success m-3"/>
+<%= render "form", legend: @legend %>

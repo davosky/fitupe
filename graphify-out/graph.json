@@ -157,10 +157,19 @@
       "norm_label": "@popperjs/core"
     },
     {
-      "label": "autoprefixer",
+      "label": "@rails/actiontext",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L21",
+      "id": "fitupe_package_dependencies_rails_actiontext",
+      "community": 4,
+      "norm_label": "@rails/actiontext"
+    },
+    {
+      "label": "autoprefixer",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
       "id": "fitupe_package_dependencies_autoprefixer",
       "community": 4,
       "norm_label": "autoprefixer"
@@ -169,7 +178,7 @@
       "label": "bootstrap",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L22",
+      "source_location": "L23",
       "id": "fitupe_package_dependencies_bootstrap",
       "community": 4,
       "norm_label": "bootstrap"
@@ -178,7 +187,7 @@
       "label": "bootstrap-icons",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L23",
+      "source_location": "L24",
       "id": "fitupe_package_dependencies_bootstrap_icons",
       "community": 4,
       "norm_label": "bootstrap-icons"
@@ -187,7 +196,7 @@
       "label": "bootswatch",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L24",
+      "source_location": "L25",
       "id": "fitupe_package_dependencies_bootswatch",
       "community": 4,
       "norm_label": "bootswatch"
@@ -196,7 +205,7 @@
       "label": "chart.js",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L25",
+      "source_location": "L26",
       "id": "fitupe_package_dependencies_chart_js",
       "community": 4,
       "norm_label": "chart.js"
@@ -205,7 +214,7 @@
       "label": "nodemon",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L26",
+      "source_location": "L27",
       "id": "fitupe_package_dependencies_nodemon",
       "community": 4,
       "norm_label": "nodemon"
@@ -214,7 +223,7 @@
       "label": "postcss",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L27",
+      "source_location": "L28",
       "id": "fitupe_package_dependencies_postcss",
       "community": 4,
       "norm_label": "postcss"
@@ -223,7 +232,7 @@
       "label": "postcss-cli",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L28",
+      "source_location": "L29",
       "id": "fitupe_package_dependencies_postcss_cli",
       "community": 4,
       "norm_label": "postcss-cli"
@@ -232,16 +241,25 @@
       "label": "sass",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L29",
+      "source_location": "L30",
       "id": "fitupe_package_dependencies_sass",
       "community": 4,
       "norm_label": "sass"
     },
     {
-      "label": "browserslist",
+      "label": "trix",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L31",
+      "id": "fitupe_package_dependencies_trix",
+      "community": 4,
+      "norm_label": "trix"
+    },
+    {
+      "label": "browserslist",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L33",
       "id": "fitupe_package_browserslist",
       "community": 4,
       "norm_label": "browserslist"
@@ -373,6 +391,15 @@
       "norm_label": "assets.rb"
     },
     {
+      "label": "action_text.rb",
+      "file_type": "code",
+      "source_file": "config/initializers/action_text.rb",
+      "source_location": "L1",
+      "id": "config_initializers_action_text_rb",
+      "community": 183,
+      "norm_label": "action_text.rb"
+    },
+    {
       "label": "inflections.rb",
       "file_type": "code",
       "source_file": "config/initializers/inflections.rb",
@@ -427,6 +454,15 @@
       "norm_label": "integration_filleas_spec.rb"
     },
     {
+      "label": "legends_spec.rb",
+      "file_type": "code",
+      "source_file": "spec/requests/legends_spec.rb",
+      "source_location": "L1",
+      "id": "spec_requests_legends_spec_rb",
+      "community": 200,
+      "norm_label": "legends_spec.rb"
+    },
+    {
       "label": "integration_flc_uploads_spec.rb",
       "file_type": "code",
       "source_file": "spec/requests/integration_flc_uploads_spec.rb",
@@ -472,6 +508,15 @@
       "norm_label": "integration_flcs_spec.rb"
     },
     {
+      "label": "legend_policy_spec.rb",
+      "file_type": "code",
+      "source_file": "spec/policies/legend_policy_spec.rb",
+      "source_location": "L1",
+      "id": "spec_policies_legend_policy_spec_rb",
+      "community": 199,
+      "norm_label": "legend_policy_spec.rb"
+    },
+    {
       "label": "integration_flc_policy_spec.rb",
       "file_type": "code",
       "source_file": "spec/policies/integration_flc_policy_spec.rb",
@@ -506,6 +551,51 @@
       "id": "spec_policies_zoning_policy_spec_rb",
       "community": 101,
       "norm_label": "zoning_policy_spec.rb"
+    },
+    {
+      "label": "report_pdf_spec.rb",
+      "file_type": "code",
+      "source_file": "spec/services/statistic_prints/report_pdf_spec.rb",
+      "source_location": "L1",
+      "id": "spec_services_statistic_prints_report_pdf_spec_rb",
+      "community": 201,
+      "norm_label": "report_pdf_spec.rb"
+    },
+    {
+      "label": "legend_content_spec.rb",
+      "file_type": "code",
+      "source_file": "spec/services/statistic_prints/legend_content_spec.rb",
+      "source_location": "L1",
+      "id": "spec_services_statistic_prints_legend_content_spec_rb",
+      "community": 147,
+      "norm_label": "legend_content_spec.rb"
+    },
+    {
+      "label": "blocks_for()",
+      "file_type": "code",
+      "source_file": "spec/services/statistic_prints/legend_content_spec.rb",
+      "source_location": "L4",
+      "id": "statistic_prints_legend_content_spec_blocks_for",
+      "community": 147,
+      "norm_label": "blocks_for()"
+    },
+    {
+      "label": "categories_page_spec.rb",
+      "file_type": "code",
+      "source_file": "spec/services/statistic_prints/categories_page_spec.rb",
+      "source_location": "L1",
+      "id": "spec_services_statistic_prints_categories_page_spec_rb",
+      "community": 184,
+      "norm_label": "categories_page_spec.rb"
+    },
+    {
+      "label": "build_pdf()",
+      "file_type": "code",
+      "source_file": "spec/services/statistic_prints/categories_page_spec.rb",
+      "source_location": "L7",
+      "id": "statistic_prints_categories_page_spec_build_pdf",
+      "community": 184,
+      "norm_label": "build_pdf()"
     },
     {
       "label": "header_normalizer_spec.rb",
@@ -715,6 +805,15 @@
       "norm_label": "user_spec.rb"
     },
     {
+      "label": "legend_spec.rb",
+      "file_type": "code",
+      "source_file": "spec/models/legend_spec.rb",
+      "source_location": "L1",
+      "id": "spec_models_legend_spec_rb",
+      "community": 198,
+      "norm_label": "legend_spec.rb"
+    },
+    {
       "label": "integration_flc_spec.rb",
       "file_type": "code",
       "source_file": "spec/models/integration_flc_spec.rb",
@@ -787,6 +886,15 @@
       "norm_label": "imports.rb"
     },
     {
+      "label": "legends.rb",
+      "file_type": "code",
+      "source_file": "spec/factories/legends.rb",
+      "source_location": "L1",
+      "id": "spec_factories_legends_rb",
+      "community": 197,
+      "norm_label": "legends.rb"
+    },
+    {
       "label": "users.rb",
       "file_type": "code",
       "source_file": "spec/factories/users.rb",
@@ -857,6 +965,105 @@
       "id": "policies_import_policy_importpolicy_manage",
       "community": 1,
       "norm_label": ".manage?()"
+    },
+    {
+      "label": "legend_policy.rb",
+      "file_type": "code",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L1",
+      "id": "app_policies_legend_policy_rb",
+      "community": 141,
+      "norm_label": "legend_policy.rb"
+    },
+    {
+      "label": "LegendPolicy",
+      "file_type": "code",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L1",
+      "id": "policies_legend_policy_legendpolicy",
+      "community": 141,
+      "norm_label": "legendpolicy"
+    },
+    {
+      "label": ".index?()",
+      "file_type": "code",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L2",
+      "id": "policies_legend_policy_legendpolicy_index",
+      "community": 141,
+      "norm_label": ".index?()"
+    },
+    {
+      "label": ".show?()",
+      "file_type": "code",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L3",
+      "id": "policies_legend_policy_legendpolicy_show",
+      "community": 141,
+      "norm_label": ".show?()"
+    },
+    {
+      "label": ".create?()",
+      "file_type": "code",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L4",
+      "id": "policies_legend_policy_legendpolicy_create",
+      "community": 141,
+      "norm_label": ".create?()"
+    },
+    {
+      "label": ".update?()",
+      "file_type": "code",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L5",
+      "id": "policies_legend_policy_legendpolicy_update",
+      "community": 141,
+      "norm_label": ".update?()"
+    },
+    {
+      "label": ".confirm_destroy?()",
+      "file_type": "code",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L6",
+      "id": "policies_legend_policy_legendpolicy_confirm_destroy",
+      "community": 141,
+      "norm_label": ".confirm_destroy?()"
+    },
+    {
+      "label": ".destroy?()",
+      "file_type": "code",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L7",
+      "id": "policies_legend_policy_legendpolicy_destroy",
+      "community": 141,
+      "norm_label": ".destroy?()"
+    },
+    {
+      "label": "Scope",
+      "file_type": "code",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L9",
+      "id": "policies_legend_policy_scope",
+      "community": 141,
+      "norm_label": "scope"
+    },
+    {
+      "label": ".resolve()",
+      "file_type": "code",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L10",
+      "id": "policies_legend_policy_scope_resolve",
+      "community": 141,
+      "norm_label": ".resolve()"
+    },
+    {
+      "label": ".admin_or_manager?()",
+      "file_type": "code",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L17",
+      "id": "policies_legend_policy_legendpolicy_admin_or_manager",
+      "community": 141,
+      "norm_label": ".admin_or_manager?()"
     },
     {
       "label": "application_policy.rb",
@@ -990,7 +1197,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L1",
       "id": "app_policies_zoning_policy_rb",
-      "community": 1,
+      "community": 158,
       "norm_label": "zoning_policy.rb"
     },
     {
@@ -999,7 +1206,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L1",
       "id": "policies_zoning_policy_zoningpolicy",
-      "community": 1,
+      "community": 158,
       "norm_label": "zoningpolicy"
     },
     {
@@ -1008,7 +1215,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L2",
       "id": "policies_zoning_policy_zoningpolicy_index",
-      "community": 1,
+      "community": 158,
       "norm_label": ".index?()"
     },
     {
@@ -1017,7 +1224,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L3",
       "id": "policies_zoning_policy_zoningpolicy_show",
-      "community": 1,
+      "community": 158,
       "norm_label": ".show?()"
     },
     {
@@ -1026,7 +1233,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L4",
       "id": "policies_zoning_policy_zoningpolicy_create",
-      "community": 1,
+      "community": 158,
       "norm_label": ".create?()"
     },
     {
@@ -1035,7 +1242,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L5",
       "id": "policies_zoning_policy_zoningpolicy_update",
-      "community": 1,
+      "community": 158,
       "norm_label": ".update?()"
     },
     {
@@ -1044,7 +1251,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L6",
       "id": "policies_zoning_policy_zoningpolicy_confirm_destroy",
-      "community": 1,
+      "community": 158,
       "norm_label": ".confirm_destroy?()"
     },
     {
@@ -1053,7 +1260,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L7",
       "id": "policies_zoning_policy_zoningpolicy_destroy",
-      "community": 1,
+      "community": 158,
       "norm_label": ".destroy?()"
     },
     {
@@ -1062,7 +1269,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L9",
       "id": "policies_zoning_policy_scope",
-      "community": 1,
+      "community": 158,
       "norm_label": "scope"
     },
     {
@@ -1071,7 +1278,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L10",
       "id": "policies_zoning_policy_scope_resolve",
-      "community": 1,
+      "community": 158,
       "norm_label": ".resolve()"
     },
     {
@@ -1080,7 +1287,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L17",
       "id": "policies_zoning_policy_zoningpolicy_admin_or_manager",
-      "community": 1,
+      "community": 158,
       "norm_label": ".admin_or_manager?()"
     },
     {
@@ -1089,7 +1296,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L1",
       "id": "app_policies_integration_flc_policy_rb",
-      "community": 158,
+      "community": 1,
       "norm_label": "integration_flc_policy.rb"
     },
     {
@@ -1098,7 +1305,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L1",
       "id": "policies_integration_flc_policy_integrationflcpolicy",
-      "community": 158,
+      "community": 1,
       "norm_label": "integrationflcpolicy"
     },
     {
@@ -1107,7 +1314,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L2",
       "id": "policies_integration_flc_policy_integrationflcpolicy_index",
-      "community": 158,
+      "community": 1,
       "norm_label": ".index?()"
     },
     {
@@ -1116,7 +1323,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L3",
       "id": "policies_integration_flc_policy_integrationflcpolicy_show",
-      "community": 158,
+      "community": 1,
       "norm_label": ".show?()"
     },
     {
@@ -1125,7 +1332,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L4",
       "id": "policies_integration_flc_policy_integrationflcpolicy_create",
-      "community": 158,
+      "community": 1,
       "norm_label": ".create?()"
     },
     {
@@ -1134,7 +1341,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L5",
       "id": "policies_integration_flc_policy_integrationflcpolicy_update",
-      "community": 158,
+      "community": 1,
       "norm_label": ".update?()"
     },
     {
@@ -1143,7 +1350,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L6",
       "id": "policies_integration_flc_policy_integrationflcpolicy_confirm_destroy",
-      "community": 158,
+      "community": 1,
       "norm_label": ".confirm_destroy?()"
     },
     {
@@ -1152,7 +1359,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L7",
       "id": "policies_integration_flc_policy_integrationflcpolicy_destroy",
-      "community": 158,
+      "community": 1,
       "norm_label": ".destroy?()"
     },
     {
@@ -1161,7 +1368,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L9",
       "id": "policies_integration_flc_policy_scope",
-      "community": 158,
+      "community": 1,
       "norm_label": "scope"
     },
     {
@@ -1170,7 +1377,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L10",
       "id": "policies_integration_flc_policy_scope_resolve",
-      "community": 158,
+      "community": 1,
       "norm_label": ".resolve()"
     },
     {
@@ -1179,7 +1386,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L17",
       "id": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager",
-      "community": 158,
+      "community": 1,
       "norm_label": ".admin_or_manager?()"
     },
     {
@@ -1188,7 +1395,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L1",
       "id": "app_policies_integration_fillea_policy_rb",
-      "community": 147,
+      "community": 1,
       "norm_label": "integration_fillea_policy.rb"
     },
     {
@@ -1197,7 +1404,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L1",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "community": 147,
+      "community": 1,
       "norm_label": "integrationfilleapolicy"
     },
     {
@@ -1206,7 +1413,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L2",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_index",
-      "community": 147,
+      "community": 1,
       "norm_label": ".index?()"
     },
     {
@@ -1215,7 +1422,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L3",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_show",
-      "community": 147,
+      "community": 1,
       "norm_label": ".show?()"
     },
     {
@@ -1224,7 +1431,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L4",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_create",
-      "community": 147,
+      "community": 1,
       "norm_label": ".create?()"
     },
     {
@@ -1233,7 +1440,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L5",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_update",
-      "community": 147,
+      "community": 1,
       "norm_label": ".update?()"
     },
     {
@@ -1242,7 +1449,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L6",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_confirm_destroy",
-      "community": 147,
+      "community": 1,
       "norm_label": ".confirm_destroy?()"
     },
     {
@@ -1251,7 +1458,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L7",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_destroy",
-      "community": 147,
+      "community": 1,
       "norm_label": ".destroy?()"
     },
     {
@@ -1260,7 +1467,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L9",
       "id": "policies_integration_fillea_policy_scope",
-      "community": 147,
+      "community": 1,
       "norm_label": "scope"
     },
     {
@@ -1269,7 +1476,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L10",
       "id": "policies_integration_fillea_policy_scope_resolve",
-      "community": 147,
+      "community": 1,
       "norm_label": ".resolve()"
     },
     {
@@ -1278,7 +1485,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L17",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
-      "community": 147,
+      "community": 1,
       "norm_label": ".admin_or_manager?()"
     },
     {
@@ -1435,6 +1642,114 @@
       "norm_label": ".draw_label()"
     },
     {
+      "label": "legend_page.rb",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L1",
+      "id": "app_services_statistic_prints_legend_page_rb",
+      "community": 147,
+      "norm_label": "legend_page.rb"
+    },
+    {
+      "label": "LegendPage",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L2",
+      "id": "statistic_prints_legend_page_legendpage",
+      "community": 147,
+      "norm_label": "legendpage"
+    },
+    {
+      "label": ".draw()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L5",
+      "id": "statistic_prints_legend_page_legendpage_draw",
+      "community": 147,
+      "norm_label": ".draw()"
+    },
+    {
+      "label": ".initialize()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L7",
+      "id": "statistic_prints_legend_page_legendpage_initialize",
+      "community": 147,
+      "norm_label": ".initialize()"
+    },
+    {
+      "label": ".draw_heading()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L20",
+      "id": "statistic_prints_legend_page_legendpage_draw_heading",
+      "community": 147,
+      "norm_label": ".draw_heading()"
+    },
+    {
+      "label": ".draw_body()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L30",
+      "id": "statistic_prints_legend_page_legendpage_draw_body",
+      "community": 147,
+      "norm_label": ".draw_body()"
+    },
+    {
+      "label": ".draw_block()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L36",
+      "id": "statistic_prints_legend_page_legendpage_draw_block",
+      "community": 147,
+      "norm_label": ".draw_block()"
+    },
+    {
+      "label": ".draw_list_item()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L47",
+      "id": "statistic_prints_legend_page_legendpage_draw_list_item",
+      "community": 147,
+      "norm_label": ".draw_list_item()"
+    },
+    {
+      "label": ".draw_quote()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L51",
+      "id": "statistic_prints_legend_page_legendpage_draw_quote",
+      "community": 147,
+      "norm_label": ".draw_quote()"
+    },
+    {
+      "label": ".draw_rule()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L55",
+      "id": "statistic_prints_legend_page_legendpage_draw_rule",
+      "community": 147,
+      "norm_label": ".draw_rule()"
+    },
+    {
+      "label": ".draw_text()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L60",
+      "id": "statistic_prints_legend_page_legendpage_draw_text",
+      "community": 147,
+      "norm_label": ".draw_text()"
+    },
+    {
+      "label": ".list_indent()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L66",
+      "id": "statistic_prints_legend_page_legendpage_list_indent",
+      "community": 147,
+      "norm_label": ".list_indent()"
+    },
+    {
       "label": "comparison_table.rb",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/comparison_table.rb",
@@ -1471,10 +1786,19 @@
       "norm_label": ".initialize()"
     },
     {
-      "label": ".header_row()",
+      "label": ".draw_title()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/comparison_table.rb",
       "source_location": "L29",
+      "id": "statistic_prints_comparison_table_comparisontable_draw_title",
+      "community": 145,
+      "norm_label": ".draw_title()"
+    },
+    {
+      "label": ".header_row()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/comparison_table.rb",
+      "source_location": "L36",
       "id": "statistic_prints_comparison_table_comparisontable_header_row",
       "community": 145,
       "norm_label": ".header_row()"
@@ -1483,7 +1807,7 @@
       "label": ".table_data()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/comparison_table.rb",
-      "source_location": "L33",
+      "source_location": "L40",
       "id": "statistic_prints_comparison_table_comparisontable_table_data",
       "community": 145,
       "norm_label": ".table_data()"
@@ -1492,7 +1816,7 @@
       "label": ".data_row()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/comparison_table.rb",
-      "source_location": "L37",
+      "source_location": "L44",
       "id": "statistic_prints_comparison_table_comparisontable_data_row",
       "community": 145,
       "norm_label": ".data_row()"
@@ -1501,7 +1825,7 @@
       "label": ".column_widths()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/comparison_table.rb",
-      "source_location": "L44",
+      "source_location": "L51",
       "id": "statistic_prints_comparison_table_comparisontable_column_widths",
       "community": 145,
       "norm_label": ".column_widths()"
@@ -1510,7 +1834,7 @@
       "label": ".cell_style()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/comparison_table.rb",
-      "source_location": "L49",
+      "source_location": "L56",
       "id": "statistic_prints_comparison_table_comparisontable_cell_style",
       "community": 145,
       "norm_label": ".cell_style()"
@@ -1519,7 +1843,7 @@
       "label": ".style_header()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/comparison_table.rb",
-      "source_location": "L56",
+      "source_location": "L63",
       "id": "statistic_prints_comparison_table_comparisontable_style_header",
       "community": 145,
       "norm_label": ".style_header()"
@@ -1528,7 +1852,7 @@
       "label": ".style_rows()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/comparison_table.rb",
-      "source_location": "L62",
+      "source_location": "L69",
       "id": "statistic_prints_comparison_table_comparisontable_style_rows",
       "community": 145,
       "norm_label": ".style_rows()"
@@ -1537,10 +1861,199 @@
       "label": ".style_cell()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/comparison_table.rb",
-      "source_location": "L69",
+      "source_location": "L76",
       "id": "statistic_prints_comparison_table_comparisontable_style_cell",
       "community": 145,
       "norm_label": ".style_cell()"
+    },
+    {
+      "label": "categories_page.rb",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L1",
+      "id": "app_services_statistic_prints_categories_page_rb",
+      "community": 137,
+      "norm_label": "categories_page.rb"
+    },
+    {
+      "label": "CategoriesPage",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L2",
+      "id": "statistic_prints_categories_page_categoriespage",
+      "community": 137,
+      "norm_label": "categoriespage"
+    },
+    {
+      "label": ".draw()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L6",
+      "id": "statistic_prints_categories_page_categoriespage_draw",
+      "community": 137,
+      "norm_label": ".draw()"
+    },
+    {
+      "label": ".initialize()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L8",
+      "id": "statistic_prints_categories_page_categoriespage_initialize",
+      "community": 137,
+      "norm_label": ".initialize()"
+    },
+    {
+      "label": ".draw_heading()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L25",
+      "id": "statistic_prints_categories_page_categoriespage_draw_heading",
+      "community": 137,
+      "norm_label": ".draw_heading()"
+    },
+    {
+      "label": ".draw_empty()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L33",
+      "id": "statistic_prints_categories_page_categoriespage_draw_empty",
+      "community": 137,
+      "norm_label": ".draw_empty()"
+    },
+    {
+      "label": ".draw_table()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L38",
+      "id": "statistic_prints_categories_page_categoriespage_draw_table",
+      "community": 137,
+      "norm_label": ".draw_table()"
+    },
+    {
+      "label": ".row_for()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L45",
+      "id": "statistic_prints_categories_page_categoriespage_row_for",
+      "community": 137,
+      "norm_label": ".row_for()"
+    },
+    {
+      "label": ".draw_chart()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L50",
+      "id": "statistic_prints_categories_page_categoriespage_draw_chart",
+      "community": 137,
+      "norm_label": ".draw_chart()"
+    },
+    {
+      "label": ".chart_height()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L60",
+      "id": "statistic_prints_categories_page_categoriespage_chart_height",
+      "community": 137,
+      "norm_label": ".chart_height()"
+    },
+    {
+      "label": ".section_gap()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L64",
+      "id": "statistic_prints_categories_page_categoriespage_section_gap",
+      "community": 137,
+      "norm_label": ".section_gap()"
+    },
+    {
+      "label": "legend_content.rb",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L1",
+      "id": "app_services_statistic_prints_legend_content_rb",
+      "community": 147,
+      "norm_label": "legend_content.rb"
+    },
+    {
+      "label": "blocks()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L5",
+      "id": "statistic_prints_legend_content_blocks",
+      "community": 147,
+      "norm_label": "blocks()"
+    },
+    {
+      "label": "blocks_for()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L10",
+      "id": "statistic_prints_legend_content_blocks_for",
+      "community": 147,
+      "norm_label": "blocks_for()"
+    },
+    {
+      "label": "attachment_blocks()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L23",
+      "id": "statistic_prints_legend_content_attachment_blocks",
+      "community": 147,
+      "norm_label": "attachment_blocks()"
+    },
+    {
+      "label": "list_blocks()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L27",
+      "id": "statistic_prints_legend_content_list_blocks",
+      "community": 147,
+      "norm_label": "list_blocks()"
+    },
+    {
+      "label": "list_item_block()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L32",
+      "id": "statistic_prints_legend_content_list_item_block",
+      "community": 147,
+      "norm_label": "list_item_block()"
+    },
+    {
+      "label": "text_block()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L38",
+      "id": "statistic_prints_legend_content_text_block",
+      "community": 147,
+      "norm_label": "text_block()"
+    },
+    {
+      "label": "inline()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L43",
+      "id": "statistic_prints_legend_content_inline",
+      "community": 147,
+      "norm_label": "inline()"
+    },
+    {
+      "label": "inline_node()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L47",
+      "id": "statistic_prints_legend_content_inline_node",
+      "community": 147,
+      "norm_label": "inline_node()"
+    },
+    {
+      "label": "link_node()",
+      "file_type": "code",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L59",
+      "id": "statistic_prints_legend_content_link_node",
+      "community": 147,
+      "norm_label": "link_node()"
     },
     {
       "label": "report_pdf.rb",
@@ -1564,7 +2077,7 @@
       "label": ".call()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L6",
+      "source_location": "L8",
       "id": "statistic_prints_report_pdf_reportpdf_call",
       "community": 157,
       "norm_label": ".call()"
@@ -1573,7 +2086,7 @@
       "label": ".initialize()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L8",
+      "source_location": "L10",
       "id": "statistic_prints_report_pdf_reportpdf_initialize",
       "community": 157,
       "norm_label": ".initialize()"
@@ -1582,7 +2095,7 @@
       "label": ".mm_to_pt()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L23",
+      "source_location": "L33",
       "id": "statistic_prints_report_pdf_reportpdf_mm_to_pt",
       "community": 157,
       "norm_label": ".mm_to_pt()"
@@ -1591,7 +2104,7 @@
       "label": ".register_fonts()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L25",
+      "source_location": "L35",
       "id": "statistic_prints_report_pdf_reportpdf_register_fonts",
       "community": 157,
       "norm_label": ".register_fonts()"
@@ -1791,7 +2304,7 @@
       "source_file": "app/services/statistic_prints/number_formatting.rb",
       "source_location": "L1",
       "id": "app_services_statistic_prints_number_formatting_rb",
-      "community": 141,
+      "community": 202,
       "norm_label": "number_formatting.rb"
     },
     {
@@ -1800,7 +2313,7 @@
       "source_file": "app/services/statistic_prints/number_formatting.rb",
       "source_location": "L5",
       "id": "statistic_prints_number_formatting_count",
-      "community": 141,
+      "community": 202,
       "norm_label": "count()"
     },
     {
@@ -1809,7 +2322,7 @@
       "source_file": "app/services/statistic_prints/number_formatting.rb",
       "source_location": "L7",
       "id": "statistic_prints_number_formatting_percent",
-      "community": 141,
+      "community": 202,
       "norm_label": "percent()"
     },
     {
@@ -2538,7 +3051,7 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_age_breakdown_rb",
-      "community": 141,
+      "community": 186,
       "norm_label": "age_breakdown.rb"
     },
     {
@@ -2547,7 +3060,7 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L7",
       "id": "statistics_age_breakdown_agebreakdown",
-      "community": 141,
+      "community": 186,
       "norm_label": "agebreakdown"
     },
     {
@@ -2556,7 +3069,7 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L24",
       "id": "statistics_age_breakdown_agebreakdown_call",
-      "community": 141,
+      "community": 186,
       "norm_label": ".call()"
     },
     {
@@ -2565,7 +3078,7 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L26",
       "id": "statistics_age_breakdown_agebreakdown_initialize",
-      "community": 141,
+      "community": 186,
       "norm_label": ".initialize()"
     },
     {
@@ -2574,7 +3087,7 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L38",
       "id": "statistics_age_breakdown_agebreakdown_build_row",
-      "community": 141,
+      "community": 186,
       "norm_label": ".build_row()"
     },
     {
@@ -2583,7 +3096,7 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L45",
       "id": "statistics_age_breakdown_agebreakdown_counts",
-      "community": 141,
+      "community": 202,
       "norm_label": ".counts()"
     },
     {
@@ -2592,7 +3105,7 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L49",
       "id": "statistics_age_breakdown_agebreakdown_totale",
-      "community": 141,
+      "community": 202,
       "norm_label": ".totale()"
     },
     {
@@ -2601,7 +3114,7 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L53",
       "id": "statistics_age_breakdown_agebreakdown_scope",
-      "community": 141,
+      "community": 186,
       "norm_label": ".scope()"
     },
     {
@@ -2610,7 +3123,7 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L57",
       "id": "statistics_age_breakdown_agebreakdown_band_case_sql",
-      "community": 141,
+      "community": 186,
       "norm_label": ".band_case_sql()"
     },
     {
@@ -2619,7 +3132,7 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_delegation_type_breakdown_rb",
-      "community": 186,
+      "community": 203,
       "norm_label": "delegation_type_breakdown.rb"
     },
     {
@@ -2628,7 +3141,7 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L7",
       "id": "statistics_delegation_type_breakdown_delegationtypebreakdown",
-      "community": 186,
+      "community": 203,
       "norm_label": "delegationtypebreakdown"
     },
     {
@@ -2637,7 +3150,7 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L21",
       "id": "statistics_delegation_type_breakdown_delegationtypebreakdown_call",
-      "community": 186,
+      "community": 203,
       "norm_label": ".call()"
     },
     {
@@ -2646,7 +3159,7 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L23",
       "id": "statistics_delegation_type_breakdown_delegationtypebreakdown_initialize",
-      "community": 186,
+      "community": 203,
       "norm_label": ".initialize()"
     },
     {
@@ -2655,7 +3168,7 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L37",
       "id": "statistics_delegation_type_breakdown_delegationtypebreakdown_build_row",
-      "community": 186,
+      "community": 203,
       "norm_label": ".build_row()"
     },
     {
@@ -2664,7 +3177,7 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L46",
       "id": "statistics_delegation_type_breakdown_delegationtypebreakdown_count_for",
-      "community": 186,
+      "community": 203,
       "norm_label": ".count_for()"
     },
     {
@@ -2673,7 +3186,7 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_employment_status_breakdown_rb",
-      "community": 183,
+      "community": 185,
       "norm_label": "employment_status_breakdown.rb"
     },
     {
@@ -2682,7 +3195,7 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L5",
       "id": "statistics_employment_status_breakdown_employmentstatusbreakdown",
-      "community": 183,
+      "community": 185,
       "norm_label": "employmentstatusbreakdown"
     },
     {
@@ -2691,7 +3204,7 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L10",
       "id": "statistics_employment_status_breakdown_employmentstatusbreakdown_call",
-      "community": 183,
+      "community": 185,
       "norm_label": ".call()"
     },
     {
@@ -2700,7 +3213,7 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L12",
       "id": "statistics_employment_status_breakdown_employmentstatusbreakdown_initialize",
-      "community": 183,
+      "community": 185,
       "norm_label": ".initialize()"
     },
     {
@@ -2709,7 +3222,7 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L25",
       "id": "statistics_employment_status_breakdown_employmentstatusbreakdown_build_row",
-      "community": 183,
+      "community": 185,
       "norm_label": ".build_row()"
     },
     {
@@ -2718,7 +3231,7 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L35",
       "id": "statistics_employment_status_breakdown_employmentstatusbreakdown_count_for",
-      "community": 183,
+      "community": 185,
       "norm_label": ".count_for()"
     },
     {
@@ -2727,7 +3240,7 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L41",
       "id": "statistics_employment_status_breakdown_employmentstatusbreakdown_totale_anno",
-      "community": 183,
+      "community": 185,
       "norm_label": ".totale_anno()"
     },
     {
@@ -2736,7 +3249,7 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L49",
       "id": "statistics_employment_status_breakdown_employmentstatusbreakdown_categoria_column",
-      "community": 183,
+      "community": 185,
       "norm_label": ".categoria_column()"
     },
     {
@@ -2898,7 +3411,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_work_status_breakdown_rb",
-      "community": 184,
+      "community": 189,
       "norm_label": "work_status_breakdown.rb"
     },
     {
@@ -2907,7 +3420,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L8",
       "id": "statistics_work_status_breakdown_workstatusbreakdown",
-      "community": 184,
+      "community": 189,
       "norm_label": "workstatusbreakdown"
     },
     {
@@ -2916,7 +3429,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L11",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_call",
-      "community": 184,
+      "community": 189,
       "norm_label": ".call()"
     },
     {
@@ -2925,7 +3438,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L13",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_initialize",
-      "community": 184,
+      "community": 189,
       "norm_label": ".initialize()"
     },
     {
@@ -2934,7 +3447,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L25",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_build_row",
-      "community": 184,
+      "community": 189,
       "norm_label": ".build_row()"
     },
     {
@@ -2943,7 +3456,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L31",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_counts",
-      "community": 184,
+      "community": 202,
       "norm_label": ".counts()"
     },
     {
@@ -2952,7 +3465,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L35",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_totale",
-      "community": 184,
+      "community": 189,
       "norm_label": ".totale()"
     },
     {
@@ -2961,7 +3474,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L39",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_scope",
-      "community": 184,
+      "community": 189,
       "norm_label": ".scope()"
     },
     {
@@ -3177,7 +3690,7 @@
       "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_provisional_revocation_breakdown_rb",
-      "community": 185,
+      "community": 187,
       "norm_label": "provisional_revocation_breakdown.rb"
     },
     {
@@ -3186,7 +3699,7 @@
       "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
       "source_location": "L6",
       "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown",
-      "community": 185,
+      "community": 187,
       "norm_label": "provisionalrevocationbreakdown"
     },
     {
@@ -3195,7 +3708,7 @@
       "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
       "source_location": "L9",
       "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_call",
-      "community": 185,
+      "community": 187,
       "norm_label": ".call()"
     },
     {
@@ -3204,7 +3717,7 @@
       "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
       "source_location": "L11",
       "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_initialize",
-      "community": 185,
+      "community": 187,
       "norm_label": ".initialize()"
     },
     {
@@ -3213,7 +3726,7 @@
       "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
       "source_location": "L26",
       "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_build_row",
-      "community": 185,
+      "community": 187,
       "norm_label": ".build_row()"
     },
     {
@@ -3222,7 +3735,7 @@
       "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
       "source_location": "L32",
       "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_totale_iscritti",
-      "community": 185,
+      "community": 187,
       "norm_label": ".totale_iscritti()"
     },
     {
@@ -3231,7 +3744,7 @@
       "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
       "source_location": "L36",
       "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_scope",
-      "community": 185,
+      "community": 187,
       "norm_label": ".scope()"
     },
     {
@@ -3294,7 +3807,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_membership_type_breakdown_rb",
-      "community": 187,
+      "community": 204,
       "norm_label": "membership_type_breakdown.rb"
     },
     {
@@ -3303,7 +3816,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L5",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown",
-      "community": 187,
+      "community": 204,
       "norm_label": "membershiptypebreakdown"
     },
     {
@@ -3312,7 +3825,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L10",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_call",
-      "community": 187,
+      "community": 204,
       "norm_label": ".call()"
     },
     {
@@ -3321,7 +3834,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L12",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_initialize",
-      "community": 187,
+      "community": 204,
       "norm_label": ".initialize()"
     },
     {
@@ -3330,7 +3843,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L25",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_build_row",
-      "community": 187,
+      "community": 204,
       "norm_label": ".build_row()"
     },
     {
@@ -3339,7 +3852,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L34",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_count_for",
-      "community": 187,
+      "community": 204,
       "norm_label": ".count_for()"
     },
     {
@@ -3476,6 +3989,24 @@
       "id": "helpers_integration_fillea_helper_form_submit_label_integration_fillea",
       "community": 111,
       "norm_label": "form_submit_label_integration_fillea()"
+    },
+    {
+      "label": "legend_helper.rb",
+      "file_type": "code",
+      "source_file": "app/helpers/legend_helper.rb",
+      "source_location": "L1",
+      "id": "app_helpers_legend_helper_rb",
+      "community": 195,
+      "norm_label": "legend_helper.rb"
+    },
+    {
+      "label": "form_submit_label_legend()",
+      "file_type": "code",
+      "source_file": "app/helpers/legend_helper.rb",
+      "source_location": "L2",
+      "id": "helpers_legend_helper_form_submit_label_legend",
+      "community": 195,
+      "norm_label": "form_submit_label_legend()"
     },
     {
       "label": "integration_flc_helper.rb",
@@ -3739,6 +4270,69 @@
       "norm_label": "application"
     },
     {
+      "label": "trix_controller.js",
+      "file_type": "code",
+      "source_file": "app/javascript/controllers/trix_controller.js",
+      "source_location": "L1",
+      "id": "app_javascript_controllers_trix_controller_js",
+      "community": 6,
+      "norm_label": "trix_controller.js"
+    },
+    {
+      "label": "extendToolbar()",
+      "file_type": "code",
+      "source_file": "app/javascript/controllers/trix_controller.js",
+      "source_location": "L11",
+      "id": "controllers_trix_controller_extendtoolbar",
+      "community": 6,
+      "norm_label": "extendtoolbar()"
+    },
+    {
+      "label": "performAction()",
+      "file_type": "code",
+      "source_file": "app/javascript/controllers/trix_controller.js",
+      "source_location": "L17",
+      "id": "controllers_trix_controller_performaction",
+      "community": 6,
+      "norm_label": "performaction()"
+    },
+    {
+      "label": "addButton()",
+      "file_type": "code",
+      "source_file": "app/javascript/controllers/trix_controller.js",
+      "source_location": "L24",
+      "id": "controllers_trix_controller_addbutton",
+      "community": 6,
+      "norm_label": "addbutton()"
+    },
+    {
+      "label": "underlineButtonHTML()",
+      "file_type": "code",
+      "source_file": "app/javascript/controllers/trix_controller.js",
+      "source_location": "L28",
+      "id": "controllers_trix_controller_underlinebuttonhtml",
+      "community": 6,
+      "norm_label": "underlinebuttonhtml()"
+    },
+    {
+      "label": "justifyButtonHTML()",
+      "file_type": "code",
+      "source_file": "app/javascript/controllers/trix_controller.js",
+      "source_location": "L32",
+      "id": "controllers_trix_controller_justifybuttonhtml",
+      "community": 6,
+      "norm_label": "justifybuttonhtml()"
+    },
+    {
+      "label": "horizontalRuleButtonHTML()",
+      "file_type": "code",
+      "source_file": "app/javascript/controllers/trix_controller.js",
+      "source_location": "L36",
+      "id": "controllers_trix_controller_horizontalrulebuttonhtml",
+      "community": 6,
+      "norm_label": "horizontalrulebuttonhtml()"
+    },
+    {
       "label": "index.js",
       "file_type": "code",
       "source_file": "app/javascript/controllers/index.js",
@@ -3847,6 +4441,15 @@
       "norm_label": ".zoning()"
     },
     {
+      "label": ".legend()",
+      "file_type": "code",
+      "source_file": "app/models/total_members_form.rb",
+      "source_location": "L17",
+      "id": "models_total_members_form_totalmembersform_legend",
+      "community": 138,
+      "norm_label": ".legend()"
+    },
+    {
       "label": "integration_flc.rb",
       "file_type": "code",
       "source_file": "app/models/integration_flc.rb",
@@ -3937,6 +4540,24 @@
       "norm_label": "import"
     },
     {
+      "label": "legend.rb",
+      "file_type": "code",
+      "source_file": "app/models/legend.rb",
+      "source_location": "L1",
+      "id": "app_models_legend_rb",
+      "community": 196,
+      "norm_label": "legend.rb"
+    },
+    {
+      "label": "Legend",
+      "file_type": "code",
+      "source_file": "app/models/legend.rb",
+      "source_location": "L1",
+      "id": "models_legend_legend",
+      "community": 196,
+      "norm_label": "legend"
+    },
+    {
       "label": "integration_flc_upload_form.rb",
       "file_type": "code",
       "source_file": "app/models/integration_flc_upload_form.rb",
@@ -4025,6 +4646,123 @@
       "id": "controllers_pages_controller_pagescontroller_credits",
       "community": 0,
       "norm_label": ".credits()"
+    },
+    {
+      "label": "legends_controller.rb",
+      "file_type": "code",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L1",
+      "id": "app_controllers_legends_controller_rb",
+      "community": 188,
+      "norm_label": "legends_controller.rb"
+    },
+    {
+      "label": "LegendsController",
+      "file_type": "code",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L1",
+      "id": "controllers_legends_controller_legendscontroller",
+      "community": 188,
+      "norm_label": "legendscontroller"
+    },
+    {
+      "label": ".index()",
+      "file_type": "code",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L6",
+      "id": "controllers_legends_controller_legendscontroller_index",
+      "community": 188,
+      "norm_label": ".index()"
+    },
+    {
+      "label": ".show()",
+      "file_type": "code",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L11",
+      "id": "controllers_legends_controller_legendscontroller_show",
+      "community": 188,
+      "norm_label": ".show()"
+    },
+    {
+      "label": ".new()",
+      "file_type": "code",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L14",
+      "id": "controllers_legends_controller_legendscontroller_new",
+      "community": 188,
+      "norm_label": ".new()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L19",
+      "id": "controllers_legends_controller_legendscontroller_create",
+      "community": 188,
+      "norm_label": ".create()"
+    },
+    {
+      "label": ".edit()",
+      "file_type": "code",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L30",
+      "id": "controllers_legends_controller_legendscontroller_edit",
+      "community": 188,
+      "norm_label": ".edit()"
+    },
+    {
+      "label": ".update()",
+      "file_type": "code",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L33",
+      "id": "controllers_legends_controller_legendscontroller_update",
+      "community": 188,
+      "norm_label": ".update()"
+    },
+    {
+      "label": ".destroy()",
+      "file_type": "code",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L41",
+      "id": "controllers_legends_controller_legendscontroller_destroy",
+      "community": 188,
+      "norm_label": ".destroy()"
+    },
+    {
+      "label": ".confirm_destroy()",
+      "file_type": "code",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L46",
+      "id": "controllers_legends_controller_legendscontroller_confirm_destroy",
+      "community": 188,
+      "norm_label": ".confirm_destroy()"
+    },
+    {
+      "label": ".set_legend()",
+      "file_type": "code",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L51",
+      "id": "controllers_legends_controller_legendscontroller_set_legend",
+      "community": 188,
+      "norm_label": ".set_legend()"
+    },
+    {
+      "label": ".set_zonings()",
+      "file_type": "code",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L56",
+      "id": "controllers_legends_controller_legendscontroller_set_zonings",
+      "community": 188,
+      "norm_label": ".set_zonings()"
+    },
+    {
+      "label": ".legend_params()",
+      "file_type": "code",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L60",
+      "id": "controllers_legends_controller_legendscontroller_legend_params",
+      "community": 188,
+      "norm_label": ".legend_params()"
     },
     {
       "label": "statistic_with_integrations_controller.rb",
@@ -4765,6 +5503,24 @@
       "norm_label": ".integration_flc_params()"
     },
     {
+      "label": "legends_controller.rb",
+      "file_type": "code",
+      "source_file": "app/controllers/admin/legends_controller.rb",
+      "source_location": "L1",
+      "id": "app_controllers_admin_legends_controller_rb",
+      "community": 193,
+      "norm_label": "legends_controller.rb"
+    },
+    {
+      "label": "LegendsController",
+      "file_type": "code",
+      "source_file": "app/controllers/admin/legends_controller.rb",
+      "source_location": "L2",
+      "id": "admin_legends_controller_legendscontroller",
+      "community": 193,
+      "norm_label": "legendscontroller"
+    },
+    {
       "label": "application_controller.rb",
       "file_type": "code",
       "source_file": "app/controllers/admin/application_controller.rb",
@@ -5017,6 +5773,24 @@
       "norm_label": "userdashboard"
     },
     {
+      "label": "legend_dashboard.rb",
+      "file_type": "code",
+      "source_file": "app/dashboards/legend_dashboard.rb",
+      "source_location": "L1",
+      "id": "app_dashboards_legend_dashboard_rb",
+      "community": 194,
+      "norm_label": "legend_dashboard.rb"
+    },
+    {
+      "label": "LegendDashboard",
+      "file_type": "code",
+      "source_file": "app/dashboards/legend_dashboard.rb",
+      "source_location": "L3",
+      "id": "dashboards_legend_dashboard_legenddashboard",
+      "community": 194,
+      "norm_label": "legenddashboard"
+    },
+    {
       "label": "integration_flc_dashboard.rb",
       "file_type": "code",
       "source_file": "app/dashboards/integration_flc_dashboard.rb",
@@ -5179,6 +5953,69 @@
       "norm_label": ".change()"
     },
     {
+      "label": "20260729073539_create_active_storage_tables.active_storage.rb",
+      "file_type": "code",
+      "source_file": "db/migrate/20260729073539_create_active_storage_tables.active_storage.rb",
+      "source_location": "L1",
+      "id": "db_migrate_20260729073539_create_active_storage_tables_active_storage_rb",
+      "community": 190,
+      "norm_label": "20260729073539_create_active_storage_tables.active_storage.rb"
+    },
+    {
+      "label": "CreateActiveStorageTables",
+      "file_type": "code",
+      "source_file": "db/migrate/20260729073539_create_active_storage_tables.active_storage.rb",
+      "source_location": "L2",
+      "id": "migrate_20260729073539_create_active_storage_tables_active_storage_createactivestoragetables",
+      "community": 190,
+      "norm_label": "createactivestoragetables"
+    },
+    {
+      "label": ".change()",
+      "file_type": "code",
+      "source_file": "db/migrate/20260729073539_create_active_storage_tables.active_storage.rb",
+      "source_location": "L3",
+      "id": "migrate_20260729073539_create_active_storage_tables_active_storage_createactivestoragetables_change",
+      "community": 190,
+      "norm_label": ".change()"
+    },
+    {
+      "label": ".primary_and_foreign_key_types()",
+      "file_type": "code",
+      "source_file": "db/migrate/20260729073539_create_active_storage_tables.active_storage.rb",
+      "source_location": "L50",
+      "id": "migrate_20260729073539_create_active_storage_tables_active_storage_createactivestoragetables_primary_and_foreign_key_types",
+      "community": 190,
+      "norm_label": ".primary_and_foreign_key_types()"
+    },
+    {
+      "label": "20260729073615_create_legends.rb",
+      "file_type": "code",
+      "source_file": "db/migrate/20260729073615_create_legends.rb",
+      "source_location": "L1",
+      "id": "db_migrate_20260729073615_create_legends_rb",
+      "community": 192,
+      "norm_label": "20260729073615_create_legends.rb"
+    },
+    {
+      "label": "CreateLegends",
+      "file_type": "code",
+      "source_file": "db/migrate/20260729073615_create_legends.rb",
+      "source_location": "L1",
+      "id": "migrate_20260729073615_create_legends_createlegends",
+      "community": 192,
+      "norm_label": "createlegends"
+    },
+    {
+      "label": ".change()",
+      "file_type": "code",
+      "source_file": "db/migrate/20260729073615_create_legends.rb",
+      "source_location": "L2",
+      "id": "migrate_20260729073615_create_legends_createlegends_change",
+      "community": 192,
+      "norm_label": ".change()"
+    },
+    {
       "label": "20260715111350_devise_create_users.rb",
       "file_type": "code",
       "source_file": "db/migrate/20260715111350_devise_create_users.rb",
@@ -5258,6 +6095,42 @@
       "id": "migrate_20260716062544_add_lockable_to_users_addlockabletousers_change",
       "community": 78,
       "norm_label": ".change()"
+    },
+    {
+      "label": "20260729073544_create_action_text_tables.action_text.rb",
+      "file_type": "code",
+      "source_file": "db/migrate/20260729073544_create_action_text_tables.action_text.rb",
+      "source_location": "L1",
+      "id": "db_migrate_20260729073544_create_action_text_tables_action_text_rb",
+      "community": 191,
+      "norm_label": "20260729073544_create_action_text_tables.action_text.rb"
+    },
+    {
+      "label": "CreateActionTextTables",
+      "file_type": "code",
+      "source_file": "db/migrate/20260729073544_create_action_text_tables.action_text.rb",
+      "source_location": "L2",
+      "id": "migrate_20260729073544_create_action_text_tables_action_text_createactiontexttables",
+      "community": 191,
+      "norm_label": "createactiontexttables"
+    },
+    {
+      "label": ".change()",
+      "file_type": "code",
+      "source_file": "db/migrate/20260729073544_create_action_text_tables.action_text.rb",
+      "source_location": "L3",
+      "id": "migrate_20260729073544_create_action_text_tables_action_text_createactiontexttables_change",
+      "community": 191,
+      "norm_label": ".change()"
+    },
+    {
+      "label": ".primary_and_foreign_key_types()",
+      "file_type": "code",
+      "source_file": "db/migrate/20260729073544_create_action_text_tables.action_text.rb",
+      "source_location": "L19",
+      "id": "migrate_20260729073544_create_action_text_tables_action_text_createactiontexttables_primary_and_foreign_key_types",
+      "community": 191,
+      "norm_label": ".primary_and_foreign_key_types()"
     },
     {
       "label": "20260716104253_create_imports.rb",
@@ -10157,6 +11030,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fitupe_package_dependencies",
+      "target": "fitupe_package_dependencies_rails_actiontext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
       "source_location": "L18",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -10246,6 +11129,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fitupe_package_dependencies",
+      "target": "fitupe_package_dependencies_trix"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "config/application.rb",
       "source_location": "L22",
       "weight": 1.0,
@@ -10287,6 +11180,37 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "spec/services/statistic_prints/legend_content_spec.rb",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "spec_services_statistic_prints_legend_content_spec_rb",
+      "target": "statistic_prints_legend_content_spec_blocks_for"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "spec/services/statistic_prints/legend_content_spec.rb",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "statistic_prints_legend_content_spec_blocks_for",
+      "target": "statistic_prints_legend_content_blocks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "spec/services/statistic_prints/categories_page_spec.rb",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "spec_services_statistic_prints_categories_page_spec_rb",
+      "target": "statistic_prints_categories_page_spec_build_pdf"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "spec/services/imports/csv_importer_service_spec.rb",
       "source_location": "L10",
       "weight": 1.0,
@@ -10323,6 +11247,194 @@
       "source_location": "L3",
       "weight": 1.0,
       "source": "policies_import_policy_importpolicy_manage",
+      "target": "policies_application_policy_applicationpolicy_admin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_policies_legend_policy_rb",
+      "target": "policies_legend_policy_legendpolicy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_policies_legend_policy_rb",
+      "target": "policies_legend_policy_scope"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_legend_policy_legendpolicy",
+      "target": "policies_legend_policy_legendpolicy_index"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_legend_policy_legendpolicy",
+      "target": "policies_legend_policy_legendpolicy_show"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_legend_policy_legendpolicy",
+      "target": "policies_legend_policy_legendpolicy_create"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_legend_policy_legendpolicy",
+      "target": "policies_legend_policy_legendpolicy_update"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_legend_policy_legendpolicy",
+      "target": "policies_legend_policy_legendpolicy_confirm_destroy"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_legend_policy_legendpolicy",
+      "target": "policies_legend_policy_legendpolicy_destroy"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_legend_policy_legendpolicy",
+      "target": "policies_legend_policy_legendpolicy_admin_or_manager"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_legend_policy_legendpolicy_index",
+      "target": "policies_legend_policy_legendpolicy_admin_or_manager"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_legend_policy_legendpolicy_show",
+      "target": "policies_legend_policy_legendpolicy_admin_or_manager"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_legend_policy_legendpolicy_create",
+      "target": "policies_legend_policy_legendpolicy_admin_or_manager"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_legend_policy_legendpolicy_update",
+      "target": "policies_legend_policy_legendpolicy_admin_or_manager"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_legend_policy_legendpolicy_confirm_destroy",
+      "target": "policies_legend_policy_legendpolicy_admin_or_manager"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_legend_policy_legendpolicy_destroy",
+      "target": "policies_legend_policy_legendpolicy_admin_or_manager"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "policies_legend_policy_scope",
+      "target": "policies_legend_policy_scope_resolve"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "policies_legend_policy_scope_resolve",
+      "target": "policies_application_policy_applicationpolicy_admin"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/policies/legend_policy.rb",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "policies_legend_policy_legendpolicy_admin_or_manager",
       "target": "policies_application_policy_applicationpolicy_admin"
     },
     {
@@ -11284,9 +12396,9 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistic_prints_bar_chart_barchart",
-      "target": "statistic_prints_bar_chart_barchart_content_width",
-      "confidence_score": 1.0
+      "target": "statistic_prints_bar_chart_barchart_content_width"
     },
     {
       "relation": "method",
@@ -11294,9 +12406,9 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistic_prints_bar_chart_barchart",
-      "target": "statistic_prints_bar_chart_barchart_content_x",
-      "confidence_score": 1.0
+      "target": "statistic_prints_bar_chart_barchart_content_x"
     },
     {
       "relation": "method",
@@ -11403,6 +12515,17 @@
     {
       "relation": "calls",
       "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/services/statistic_prints/bar_chart.rb",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "statistic_prints_bar_chart_barchart_draw_legend_item",
+      "target": "statistic_prints_legend_page_legendpage_draw_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L55",
@@ -11436,6 +12559,193 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_services_statistic_prints_legend_page_rb",
+      "target": "statistic_prints_legend_page_legendpage"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_page_legendpage",
+      "target": "statistic_prints_legend_page_legendpage_draw"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_page_legendpage",
+      "target": "statistic_prints_legend_page_legendpage_initialize"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_page_legendpage",
+      "target": "statistic_prints_legend_page_legendpage_draw_heading"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_page_legendpage",
+      "target": "statistic_prints_legend_page_legendpage_draw_body"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_page_legendpage",
+      "target": "statistic_prints_legend_page_legendpage_draw_block"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_page_legendpage",
+      "target": "statistic_prints_legend_page_legendpage_draw_list_item"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_page_legendpage",
+      "target": "statistic_prints_legend_page_legendpage_draw_quote"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_page_legendpage",
+      "target": "statistic_prints_legend_page_legendpage_draw_rule"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_page_legendpage",
+      "target": "statistic_prints_legend_page_legendpage_draw_text"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_page_legendpage",
+      "target": "statistic_prints_legend_page_legendpage_list_indent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_page_legendpage_draw_body",
+      "target": "statistic_prints_legend_page_legendpage_draw_block"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "statistic_prints_legend_page_legendpage_draw_body",
+      "target": "statistic_prints_legend_content_blocks"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_page_legendpage_draw_block",
+      "target": "statistic_prints_legend_page_legendpage_draw_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_page_legendpage_draw_block",
+      "target": "statistic_prints_legend_page_legendpage_draw_list_item"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_page_legendpage_draw_block",
+      "target": "statistic_prints_legend_page_legendpage_draw_quote"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_page_legendpage_draw_list_item",
+      "target": "statistic_prints_legend_page_legendpage_draw_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_page.rb",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_page_legendpage_draw_quote",
+      "target": "statistic_prints_legend_page_legendpage_draw_text"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "app/services/statistic_prints/comparison_table.rb",
       "source_location": "L2",
       "weight": 1.0,
@@ -11462,6 +12772,16 @@
       "confidence_score": 1.0,
       "source": "statistic_prints_comparison_table_comparisontable",
       "target": "statistic_prints_comparison_table_comparisontable_initialize"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/comparison_table.rb",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_comparison_table_comparisontable",
+      "target": "statistic_prints_comparison_table_comparisontable_draw_title"
     },
     {
       "relation": "method",
@@ -11597,6 +12917,394 @@
       "confidence_score": 1.0,
       "source": "statistic_prints_comparison_table_comparisontable_style_rows",
       "target": "statistic_prints_comparison_table_comparisontable_style_cell"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_services_statistic_prints_categories_page_rb",
+      "target": "statistic_prints_categories_page_categoriespage"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_categories_page_categoriespage",
+      "target": "statistic_prints_categories_page_categoriespage_draw"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_categories_page_categoriespage",
+      "target": "statistic_prints_categories_page_categoriespage_initialize"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_categories_page_categoriespage",
+      "target": "statistic_prints_categories_page_categoriespage_draw_heading"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_categories_page_categoriespage",
+      "target": "statistic_prints_categories_page_categoriespage_draw_empty"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_categories_page_categoriespage",
+      "target": "statistic_prints_categories_page_categoriespage_draw_table"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_categories_page_categoriespage",
+      "target": "statistic_prints_categories_page_categoriespage_row_for"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_categories_page_categoriespage",
+      "target": "statistic_prints_categories_page_categoriespage_draw_chart"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_categories_page_categoriespage",
+      "target": "statistic_prints_categories_page_categoriespage_chart_height"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_categories_page_categoriespage",
+      "target": "statistic_prints_categories_page_categoriespage_section_gap"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "statistic_prints_categories_page_categoriespage_draw",
+      "target": "statistic_prints_categories_page_categoriespage_draw_heading",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_categories_page_categoriespage_draw",
+      "target": "statistic_prints_categories_page_categoriespage_draw_empty"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_categories_page_categoriespage_draw_table",
+      "target": "statistic_prints_categories_page_categoriespage_draw"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_categories_page_categoriespage_draw_chart",
+      "target": "statistic_prints_categories_page_categoriespage_draw"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "statistic_prints_categories_page_categoriespage_draw",
+      "target": "statistics_total_members_comparison_totalmemberscomparison_categorie"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_categories_page_categoriespage_draw_table",
+      "target": "statistic_prints_categories_page_categoriespage_row_for"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "statistic_prints_categories_page_categoriespage_draw_table",
+      "target": "statistics_total_members_comparison_totalmemberscomparison_categorie"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/services/statistic_prints/categories_page.rb",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "statistic_prints_categories_page_categoriespage_draw_chart",
+      "target": "statistics_total_members_comparison_totalmemberscomparison_categorie"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_services_statistic_prints_legend_content_rb",
+      "target": "statistic_prints_legend_content_blocks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_services_statistic_prints_legend_content_rb",
+      "target": "statistic_prints_legend_content_blocks_for"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_services_statistic_prints_legend_content_rb",
+      "target": "statistic_prints_legend_content_attachment_blocks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_services_statistic_prints_legend_content_rb",
+      "target": "statistic_prints_legend_content_list_blocks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_services_statistic_prints_legend_content_rb",
+      "target": "statistic_prints_legend_content_list_item_block"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_services_statistic_prints_legend_content_rb",
+      "target": "statistic_prints_legend_content_text_block"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_services_statistic_prints_legend_content_rb",
+      "target": "statistic_prints_legend_content_inline"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_services_statistic_prints_legend_content_rb",
+      "target": "statistic_prints_legend_content_inline_node"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_services_statistic_prints_legend_content_rb",
+      "target": "statistic_prints_legend_content_link_node"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_content_blocks",
+      "target": "statistic_prints_legend_content_blocks_for"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_content_blocks_for",
+      "target": "statistic_prints_legend_content_inline"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_content_blocks_for",
+      "target": "statistic_prints_legend_content_list_blocks"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_content_blocks_for",
+      "target": "statistic_prints_legend_content_attachment_blocks"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_content_blocks_for",
+      "target": "statistic_prints_legend_content_text_block"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_content_list_blocks",
+      "target": "statistic_prints_legend_content_list_item_block"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_content_list_item_block",
+      "target": "statistic_prints_legend_content_inline"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_content_inline_node",
+      "target": "statistic_prints_legend_content_inline"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_content_link_node",
+      "target": "statistic_prints_legend_content_inline"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/statistic_prints/legend_content.rb",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "statistic_prints_legend_content_inline_node",
+      "target": "statistic_prints_legend_content_link_node"
     },
     {
       "relation": "contains",
@@ -11786,9 +13494,9 @@
       "source_file": "app/services/statistic_prints/regional_page.rb",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistic_prints_regional_page_regionalpage",
-      "target": "statistic_prints_regional_page_regionalpage_heading_title",
-      "confidence_score": 1.0
+      "target": "statistic_prints_regional_page_regionalpage_heading_title"
     },
     {
       "relation": "method",
@@ -11826,9 +13534,9 @@
       "source_file": "app/services/statistic_prints/regional_page.rb",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistic_prints_regional_page_regionalpage",
-      "target": "statistic_prints_regional_page_regionalpage_draw_single_chart",
-      "confidence_score": 1.0
+      "target": "statistic_prints_regional_page_regionalpage_draw_single_chart"
     },
     {
       "relation": "method",
@@ -11846,9 +13554,9 @@
       "source_file": "app/services/statistic_prints/regional_page.rb",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistic_prints_regional_page_regionalpage",
-      "target": "statistic_prints_regional_page_regionalpage_chart_height",
-      "confidence_score": 1.0
+      "target": "statistic_prints_regional_page_regionalpage_chart_height"
     },
     {
       "relation": "method",
@@ -11856,9 +13564,9 @@
       "source_file": "app/services/statistic_prints/regional_page.rb",
       "source_location": "L90",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistic_prints_regional_page_regionalpage",
-      "target": "statistic_prints_regional_page_regionalpage_section_gap",
-      "confidence_score": 1.0
+      "target": "statistic_prints_regional_page_regionalpage_section_gap"
     },
     {
       "relation": "calls",
@@ -11911,9 +13619,9 @@
       "source_file": "app/services/statistic_prints/regional_page.rb",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistic_prints_regional_page_regionalpage_draw",
-      "target": "statistic_prints_regional_page_regionalpage_draw_single_chart",
-      "confidence_score": 1.0
+      "target": "statistic_prints_regional_page_regionalpage_draw_single_chart"
     },
     {
       "relation": "calls",
@@ -11944,9 +13652,9 @@
       "source_file": "app/services/statistic_prints/regional_page.rb",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistic_prints_regional_page_regionalpage_draw_heading",
-      "target": "statistic_prints_regional_page_regionalpage_heading_title",
-      "confidence_score": 1.0
+      "target": "statistic_prints_regional_page_regionalpage_heading_title"
     },
     {
       "relation": "calls",
@@ -11999,9 +13707,9 @@
       "source_file": "app/services/statistic_prints/regional_page.rb",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "statistic_prints_regional_page_regionalpage_draw_single_chart",
-      "target": "statistic_prints_regional_page_regionalpage_draw_chart",
-      "confidence_score": 1.0
+      "target": "statistic_prints_regional_page_regionalpage_draw_chart"
     },
     {
       "relation": "calls",
@@ -14992,6 +16700,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "app/helpers/legend_helper.rb",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_helpers_legend_helper_rb",
+      "target": "helpers_legend_helper_form_submit_label_legend"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "app/helpers/integration_flc_helper.rb",
       "source_location": "L2",
       "weight": 1.0,
@@ -15385,6 +17103,88 @@
       "target": "controllers_application_application"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/javascript/controllers/trix_controller.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_javascript_controllers_trix_controller_js",
+      "target": "controllers_trix_controller_extendtoolbar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/javascript/controllers/trix_controller.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_javascript_controllers_trix_controller_js",
+      "target": "controllers_trix_controller_performaction"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/javascript/controllers/trix_controller.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_javascript_controllers_trix_controller_js",
+      "target": "controllers_trix_controller_addbutton"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/javascript/controllers/trix_controller.js",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_javascript_controllers_trix_controller_js",
+      "target": "controllers_trix_controller_underlinebuttonhtml"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/javascript/controllers/trix_controller.js",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_javascript_controllers_trix_controller_js",
+      "target": "controllers_trix_controller_justifybuttonhtml"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/javascript/controllers/trix_controller.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_javascript_controllers_trix_controller_js",
+      "target": "controllers_trix_controller_horizontalrulebuttonhtml"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/javascript/controllers/index.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_javascript_controllers_index_js",
+      "target": "app_javascript_controllers_trix_controller_js"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/javascript/controllers/trix_controller.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controllers_trix_controller_extendtoolbar",
+      "target": "controllers_trix_controller_addbutton"
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -15520,6 +17320,16 @@
       "target": "models_total_members_form_totalmembersform_zoning"
     },
     {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/models/total_members_form.rb",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "models_total_members_form_totalmembersform",
+      "target": "models_total_members_form_totalmembersform_legend"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/models/integration_flc.rb",
@@ -15652,6 +17462,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "app/models/legend.rb",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_models_legend_rb",
+      "target": "models_legend_legend"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "app/models/integration_flc_upload_form.rb",
       "source_location": "L1",
       "weight": 1.0,
@@ -15738,6 +17558,137 @@
       "confidence_score": 1.0,
       "source": "controllers_pages_controller_pagescontroller",
       "target": "controllers_pages_controller_pagescontroller_credits"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_controllers_legends_controller_rb",
+      "target": "controllers_legends_controller_legendscontroller"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controllers_legends_controller_legendscontroller",
+      "target": "controllers_legends_controller_legendscontroller_index"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controllers_legends_controller_legendscontroller",
+      "target": "controllers_legends_controller_legendscontroller_show"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controllers_legends_controller_legendscontroller",
+      "target": "controllers_legends_controller_legendscontroller_new"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controllers_legends_controller_legendscontroller",
+      "target": "controllers_legends_controller_legendscontroller_create"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controllers_legends_controller_legendscontroller",
+      "target": "controllers_legends_controller_legendscontroller_edit"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controllers_legends_controller_legendscontroller",
+      "target": "controllers_legends_controller_legendscontroller_update"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controllers_legends_controller_legendscontroller",
+      "target": "controllers_legends_controller_legendscontroller_destroy"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controllers_legends_controller_legendscontroller",
+      "target": "controllers_legends_controller_legendscontroller_confirm_destroy"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controllers_legends_controller_legendscontroller",
+      "target": "controllers_legends_controller_legendscontroller_set_legend"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controllers_legends_controller_legendscontroller",
+      "target": "controllers_legends_controller_legendscontroller_set_zonings"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controllers_legends_controller_legendscontroller",
+      "target": "controllers_legends_controller_legendscontroller_legend_params"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/controllers/legends_controller.rb",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "controllers_legends_controller_legendscontroller_create",
+      "target": "controllers_legends_controller_legendscontroller_new"
     },
     {
       "relation": "contains",
@@ -16578,6 +18529,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "app/controllers/admin/legends_controller.rb",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_controllers_admin_legends_controller_rb",
+      "target": "admin_legends_controller_legendscontroller"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "app/controllers/admin/application_controller.rb",
       "source_location": "L8",
       "weight": 1.0,
@@ -16769,6 +18730,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "app/dashboards/legend_dashboard.rb",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_dashboards_legend_dashboard_rb",
+      "target": "dashboards_legend_dashboard_legenddashboard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "app/dashboards/integration_flc_dashboard.rb",
       "source_location": "L3",
       "weight": 1.0,
@@ -16849,6 +18820,56 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "db/migrate/20260729073539_create_active_storage_tables.active_storage.rb",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "db_migrate_20260729073539_create_active_storage_tables_active_storage_rb",
+      "target": "migrate_20260729073539_create_active_storage_tables_active_storage_createactivestoragetables"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "db/migrate/20260729073539_create_active_storage_tables.active_storage.rb",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "migrate_20260729073539_create_active_storage_tables_active_storage_createactivestoragetables",
+      "target": "migrate_20260729073539_create_active_storage_tables_active_storage_createactivestoragetables_change"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "db/migrate/20260729073539_create_active_storage_tables.active_storage.rb",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "migrate_20260729073539_create_active_storage_tables_active_storage_createactivestoragetables",
+      "target": "migrate_20260729073539_create_active_storage_tables_active_storage_createactivestoragetables_primary_and_foreign_key_types"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/migrate/20260729073615_create_legends.rb",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "db_migrate_20260729073615_create_legends_rb",
+      "target": "migrate_20260729073615_create_legends_createlegends"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "db/migrate/20260729073615_create_legends.rb",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "migrate_20260729073615_create_legends_createlegends",
+      "target": "migrate_20260729073615_create_legends_createlegends_change"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "db/migrate/20260715111350_devise_create_users.rb",
       "source_location": "L3",
       "weight": 1.0,
@@ -16925,6 +18946,36 @@
       "confidence_score": 1.0,
       "source": "migrate_20260716062544_add_lockable_to_users_addlockabletousers",
       "target": "migrate_20260716062544_add_lockable_to_users_addlockabletousers_change"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/migrate/20260729073544_create_action_text_tables.action_text.rb",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "db_migrate_20260729073544_create_action_text_tables_action_text_rb",
+      "target": "migrate_20260729073544_create_action_text_tables_action_text_createactiontexttables"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "db/migrate/20260729073544_create_action_text_tables.action_text.rb",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "migrate_20260729073544_create_action_text_tables_action_text_createactiontexttables",
+      "target": "migrate_20260729073544_create_action_text_tables_action_text_createactiontexttables_change"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "db/migrate/20260729073544_create_action_text_tables.action_text.rb",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "migrate_20260729073544_create_action_text_tables_action_text_createactiontexttables",
+      "target": "migrate_20260729073544_create_action_text_tables_action_text_createactiontexttables_primary_and_foreign_key_types"
     },
     {
       "relation": "contains",
@@ -21089,5 +23140,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "dbb4d4a1f76ed07a8ef7d5192c53a1649c08eb36"
+  "built_at_commit": "17f950083fe8639ddeb69070070d6591cbffe680"
 }
