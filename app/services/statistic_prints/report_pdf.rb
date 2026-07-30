@@ -25,6 +25,14 @@ module StatisticPrints
         RegionalPage.draw(pdf, form: @form)
         pdf.start_new_page
         CategoriesPage.draw(pdf, form: @form)
+        pdf.start_new_page
+        EmploymentStatusPage.draw(pdf, form: @form)
+        pdf.start_new_page
+        MembershipTypesPage.draw(pdf, form: @form)
+        pdf.start_new_page
+        NationalityGenderPage.draw(pdf, form: @form)
+        pdf.start_new_page
+        WorkStatusAgePage.draw(pdf, form: @form)
       end
     end
 

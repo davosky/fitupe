@@ -1210,8 +1210,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/bar_chart.rb": {
-    "mtime": 1785393621.367281,
-    "ast_hash": "c3d73762a5fb1e0391c3fc6b6056b684",
+    "mtime": 1785236406.6217034,
+    "ast_hash": "42ac5f825325e5741eba58c8cb33b650",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/comparison_table.rb": {
@@ -1220,8 +1220,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/report_pdf.rb": {
-    "mtime": 1785397170.4863648,
-    "ast_hash": "7226aa4d04e1429bd2b7d9529e5ec113",
+    "mtime": 1785315111.9988134,
+    "ast_hash": "7e90a720e7fd23cdcfc27ea5dd699d9f",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/cover_page.rb": {
@@ -1250,8 +1250,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistic_prints/report_pdf_spec.rb": {
-    "mtime": 1785397261.3137803,
-    "ast_hash": "d12e8977243296f86278229870eb77f3",
+    "mtime": 1785315160.2161562,
+    "ast_hash": "2b8f8d238f4859fe3199ee706cdab256",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistic_prints/legend_content_spec.rb": {
@@ -1367,66 +1367,6 @@
   "/home/davo/Programmazione/fitupe/app/assets/images/legend/legenda-logo-destroy.svg": {
     "mtime": 1785316963.2924826,
     "ast_hash": "b4aa9a4bfdc8fb4230cdc5bbb9e13923",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/statistic_prints/nationality_gender_page_spec.rb": {
-    "mtime": 1785396053.320965,
-    "ast_hash": "2cb7b9d3cdc4065ba0509f533ad83d96",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/statistic_prints/work_status_age_page_spec.rb": {
-    "mtime": 1785397276.731186,
-    "ast_hash": "590dce492e5d694985da107d4c81476f",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/statistic_prints/membership_types_page_spec.rb": {
-    "mtime": 1785395137.0207047,
-    "ast_hash": "6b3f2c83bf4f0a38945fd865393173e5",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/statistic_prints/employment_status_page_spec.rb": {
-    "mtime": 1785394546.8075235,
-    "ast_hash": "5615ee23487135851d52867bba8450b4",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_prints/percentage_table.rb": {
-    "mtime": 1785394480.4281454,
-    "ast_hash": "0330da054ff3b6c458a2da1269018d15",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_prints/work_status_age_page.rb": {
-    "mtime": 1785397583.3010375,
-    "ast_hash": "596b90b19754eb086f6976a3d1f95de8",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_prints/pie_chart.rb": {
-    "mtime": 1785397762.4684908,
-    "ast_hash": "9262ccec7c323a5f42fec4e9d77e9734",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_prints/single_year_table.rb": {
-    "mtime": 1785395867.9401097,
-    "ast_hash": "febf8f978de4f5390b25b8210f0e6623",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_prints/membership_types_page.rb": {
-    "mtime": 1785395089.730641,
-    "ast_hash": "9eb2c1b171b071a1d51db67dc435d360",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_prints/employment_status_page.rb": {
-    "mtime": 1785394496.0555294,
-    "ast_hash": "8604ae623c92766b7af253077e1100ec",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_prints/single_series_bar_chart.rb": {
-    "mtime": 1785397204.5022752,
-    "ast_hash": "9bb33aea51cfe6d9da674e8a1c67fb64",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_prints/nationality_gender_page.rb": {
-    "mtime": 1785397786.3059018,
-    "ast_hash": "15c3aa1ef67d3269ea94580f246342ac",
     "semantic_hash": ""
   }
 }

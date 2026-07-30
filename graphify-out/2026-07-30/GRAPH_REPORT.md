@@ -1,16 +1,16 @@
-# Graph Report - fitupe  (2026-07-30)
+# Graph Report - fitupe  (2026-07-29)
 
 ## Corpus Check
-- 213 files · ~101,723 words
+- 201 files · ~99,017 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1266 nodes · 1401 edges · 215 communities (116 shown, 99 thin omitted)
-- Extraction: 91% EXTRACTED · 9% INFERRED · 0% AMBIGUOUS · INFERRED: 130 edges (avg confidence: 0.82)
+- 1143 nodes · 1203 edges · 205 communities (112 shown, 93 thin omitted)
+- Extraction: 91% EXTRACTED · 9% INFERRED · 0% AMBIGUOUS · INFERRED: 109 edges (avg confidence: 0.83)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `306f3f24`
+- Built from commit: `17f95008`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -141,24 +141,18 @@
 - [[_COMMUNITY_Community 202|Community 202]]
 - [[_COMMUNITY_Community 203|Community 203]]
 - [[_COMMUNITY_Community 204|Community 204]]
-- [[_COMMUNITY_Community 205|Community 205]]
-- [[_COMMUNITY_Community 206|Community 206]]
-- [[_COMMUNITY_Community 207|Community 207]]
-- [[_COMMUNITY_Community 208|Community 208]]
-- [[_COMMUNITY_Community 209|Community 209]]
-- [[_COMMUNITY_Community 210|Community 210]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `count()` - 25 edges
-2. `TotalMembersComparison` - 23 edges
-3. `PieChart` - 17 edges
-4. `BarChart` - 16 edges
-5. `NationalityGenderPage` - 16 edges
-6. `WorkStatusAgePage` - 15 edges
-7. `EmploymentStatusPage` - 15 edges
-8. `SingleSeriesBarChart` - 15 edges
-9. `CLAUDE.md — Guida per Claude Code` - 15 edges
-10. `RegionalPage` - 13 edges
+1. `TotalMembersComparison` - 23 edges
+2. `count()` - 20 edges
+3. `BarChart` - 16 edges
+4. `CLAUDE.md — Guida per Claude Code` - 15 edges
+5. `RegionalPage` - 13 edges
+6. `ComparisonService` - 13 edges
+7. `ImportsController` - 13 edges
+8. `ComparisonTable` - 12 edges
+9. `LegendsController` - 12 edges
+10. `IntegrationFilleasController` - 12 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Italian Devise Translations` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
@@ -172,7 +166,7 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (215 total, 99 thin omitted)
+## Communities (205 total, 93 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
@@ -251,12 +245,12 @@ Cohesion: 0.10
 Nodes (3): IntegrationFlcUploadsController, ComparisonService, success?()
 
 ### Community 137 - "Community 137"
-Cohesion: 0.07
-Nodes (5): MembershipTypesPage, RegionalPage, success?(), TotalMembersComparison, TotalMembersComparison
+Cohesion: 0.09
+Nodes (4): CategoriesPage, success?(), TotalMembersComparison, TotalMembersComparison
 
 ### Community 147 - "Community 147"
-Cohesion: 0.32
-Nodes (10): attachment_blocks(), blocks(), blocks_for(), inline(), inline_node(), link_node(), list_blocks(), list_item_block() (+2 more)
+Cohesion: 0.14
+Nodes (11): attachment_blocks(), blocks(), blocks_for(), inline(), inline_node(), link_node(), list_blocks(), list_item_block() (+3 more)
 
 ### Community 150 - "Community 150"
 Cohesion: 0.40
@@ -315,7 +309,7 @@ Nodes (12): `call`, `build_row`, `counts`, `scope` *(privati)*, code:ruby (modul
 ## Knowledge Gaps
 - **253 isolated node(s):** `name`, `private`, `esbuild`, `brace-expansion`, `build` (+248 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **99 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **93 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -324,12 +318,12 @@ _Questions this graph is uniquely positioned to answer:_
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
 - **What is the exact relationship between `Devise.setup configuration (username auth)` and `Admin namespace routes (users)`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
-- **Why does `count()` connect `Community 186` to `Community 130`, `Stack Tecnico (CLAUDE.md)`, `Community 137`, `Community 145`, `Community 153`, `Community 155`, `Community 158`, `Community 161`, `Community 175`, `Community 185`, `Community 187`, `Community 189`, `Community 203`, `Community 204`, `Community 205`, `Community 206`, `Community 80`, `Community 209`, `Community 81`?**
-  _High betweenness centrality (0.070) - this node is a cross-community bridge._
-- **Why does `TotalMembersComparison` connect `Community 137` to `Community 81`, `Community 202`, `Community 207`?**
-  _High betweenness centrality (0.021) - this node is a cross-community bridge._
-- **Are the 24 inferred relationships involving `count()` (e.g. with `.row_for()` and `.draw_label()`) actually correct?**
-  _`count()` has 24 INFERRED edges - model-reasoned connections that need verification._
+- **Why does `count()` connect `Community 202` to `Community 161`, `Community 130`, `Community 153`, `Stack Tecnico (CLAUDE.md)`, `Community 137`, `Community 203`, `Community 204`, `Community 187`, `Community 175`, `Community 80`, `Community 145`, `Community 185`, `Community 155`, `Community 189`?**
+  _High betweenness centrality (0.025) - this node is a cross-community bridge._
+- **Why does `TotalMembersComparison` connect `Community 137` to `Community 81`?**
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
+- **Are the 19 inferred relationships involving `count()` (e.g. with `.data_row()` and `.count_data_rows()`) actually correct?**
+  _`count()` has 19 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `name`, `private`, `esbuild` to the rest of the system?**
   _256 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Modello User e Autenticazione` be split into smaller, more focused modules?**

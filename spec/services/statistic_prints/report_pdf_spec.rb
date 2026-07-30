@@ -7,7 +7,7 @@ RSpec.describe StatisticPrints::ReportPdf do
   it "non inserisce la pagina Legenda quando non esiste un record corrispondente" do
     pdf = described_class.call(form: form)
 
-    expect(pdf.page_count).to eq(3)
+    expect(pdf.page_count).to eq(7)
   end
 
   it "inserisce la pagina Legenda subito dopo la copertina quando esiste un record corrispondente" do
@@ -15,7 +15,7 @@ RSpec.describe StatisticPrints::ReportPdf do
 
     pdf = described_class.call(form: form)
 
-    expect(pdf.page_count).to eq(4)
+    expect(pdf.page_count).to eq(8)
   end
 
   it "ignora una legenda di un altro mese" do
@@ -23,7 +23,7 @@ RSpec.describe StatisticPrints::ReportPdf do
 
     pdf = described_class.call(form: form)
 
-    expect(pdf.page_count).to eq(3)
+    expect(pdf.page_count).to eq(7)
   end
 
   it "genera il PDF anche con una legenda che contiene grassetto, elenchi e una linea orizzontale" do
@@ -37,6 +37,6 @@ RSpec.describe StatisticPrints::ReportPdf do
 
     pdf = described_class.call(form: form)
 
-    expect(pdf.page_count).to eq(4)
+    expect(pdf.page_count).to eq(8)
   end
 end

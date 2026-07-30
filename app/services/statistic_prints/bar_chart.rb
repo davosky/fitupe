@@ -7,14 +7,15 @@ module StatisticPrints
     LABEL_HEIGHT = 16
     PERCENT_HEIGHT = 14
     MAX_GROUP_WIDTH = 200
+    MAX_WIDTH_RATIO = 0.7
 
     def self.draw(...) = new(...).draw
 
     def initialize(pdf, at:, width:, height:, labels:, previous_data:, current_data:, percentages:,
       previous_label:, current_label:)
       @pdf = pdf
-      @at = at
-      @width = width
+      @width = width * MAX_WIDTH_RATIO
+      @at = [ at[0] + ((width - @width) / 2), at[1] ]
       @height = height
       @labels = labels
       @previous_data = previous_data
