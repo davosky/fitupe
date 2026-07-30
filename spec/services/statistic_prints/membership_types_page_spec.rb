@@ -33,4 +33,15 @@ RSpec.describe StatisticPrints::MembershipTypesPage do
 
     expect { described_class.draw(build_pdf, form: form) }.not_to raise_error
   end
+
+  it "usa il comparison_service passato invece di quello di default" do
+    create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+      mese_di_riferimento: "Giugno", tipologia_iscrizione: "Delega", tipologia_delega: "Ordinaria")
+    create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+      mese_di_riferimento: "Giugno", tipologia_iscrizione: "BreviManu", tipologia_delega: "NASPI")
+
+    expect {
+      described_class.draw(build_pdf, form: form, comparison_service: StatisticWithIntegrations::TotalMembersComparison)
+    }.not_to raise_error
+  end
 end

@@ -5,13 +5,14 @@ module StatisticPrints
 
     def self.draw(...) = new(...).draw
 
-    def initialize(pdf, form:)
+    def initialize(pdf, form:, comparison_service: Statistics::TotalMembersComparison)
       @pdf = pdf
       @form = form
+      @comparison_service = comparison_service
     end
 
     def draw
-      result = Statistics::TotalMembersComparison.call(zoning: @form.zoning, anno: @form.anno, mese: @form.mese)
+      result = @comparison_service.call(zoning: @form.zoning, anno: @form.anno, mese: @form.mese)
       @pdf.fill_color "000000"
       return draw_error(result.error) unless result.success?
 
@@ -41,7 +42,7 @@ module StatisticPrints
     end
 
     def heading_title(zoning)
-      return "CGIL Totale Iscritti – Regionale e Comprensori" if zoning.codice_azzonamento.to_s.length == 1
+      return "CGIL Totale Iscritti – Regionale e Comprensori" if zoning.regionale?
 
       "CGIL Totale Iscritti – Comprensorio di #{zoning.descrizione_azzonamento}"
     end

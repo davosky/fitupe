@@ -5,7 +5,7 @@ class IntegrationFilleasController < ApplicationController
 
   def index
     authorize IntegrationFillea
-    @integration_filleas = policy_scope(IntegrationFillea).includes(:zoning).order(year: :desc)
+    @integration_filleas = policy_scope(IntegrationFillea).includes(:zoning).order(zoning_id: :asc, year: :desc)
   end
 
   def show

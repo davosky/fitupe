@@ -472,15 +472,6 @@
       "norm_label": "integration_flc_uploads_spec.rb"
     },
     {
-      "label": "statistic_with_integrations_prints_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/requests/statistic_with_integrations_prints_spec.rb",
-      "source_location": "L1",
-      "id": "spec_requests_statistic_with_integrations_prints_spec_rb",
-      "community": 219,
-      "norm_label": "statistic_with_integrations_prints_spec.rb"
-    },
-    {
       "label": "zonings_spec.rb",
       "file_type": "code",
       "source_file": "spec/requests/zonings_spec.rb",
@@ -607,24 +598,6 @@
       "norm_label": "build_pdf()"
     },
     {
-      "label": "regional_page_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/services/statistic_prints/regional_page_spec.rb",
-      "source_location": "L1",
-      "id": "spec_services_statistic_prints_regional_page_spec_rb",
-      "community": 217,
-      "norm_label": "regional_page_spec.rb"
-    },
-    {
-      "label": "build_pdf()",
-      "file_type": "code",
-      "source_file": "spec/services/statistic_prints/regional_page_spec.rb",
-      "source_location": "L7",
-      "id": "statistic_prints_regional_page_spec_build_pdf",
-      "community": 217,
-      "norm_label": "build_pdf()"
-    },
-    {
       "label": "legend_content_spec.rb",
       "file_type": "code",
       "source_file": "spec/services/statistic_prints/legend_content_spec.rb",
@@ -694,24 +667,6 @@
       "source_location": "L7",
       "id": "statistic_prints_employment_status_page_spec_build_pdf",
       "community": 211,
-      "norm_label": "build_pdf()"
-    },
-    {
-      "label": "zoning_divider_page_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/services/statistic_prints/zoning_divider_page_spec.rb",
-      "source_location": "L1",
-      "id": "spec_services_statistic_prints_zoning_divider_page_spec_rb",
-      "community": 218,
-      "norm_label": "zoning_divider_page_spec.rb"
-    },
-    {
-      "label": "build_pdf()",
-      "file_type": "code",
-      "source_file": "spec/services/statistic_prints/zoning_divider_page_spec.rb",
-      "source_location": "L4",
-      "id": "statistic_prints_zoning_divider_page_spec_build_pdf",
-      "community": 218,
       "norm_label": "build_pdf()"
     },
     {
@@ -1413,7 +1368,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L1",
       "id": "app_policies_integration_flc_policy_rb",
-      "community": 1,
+      "community": 208,
       "norm_label": "integration_flc_policy.rb"
     },
     {
@@ -1422,7 +1377,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L1",
       "id": "policies_integration_flc_policy_integrationflcpolicy",
-      "community": 1,
+      "community": 208,
       "norm_label": "integrationflcpolicy"
     },
     {
@@ -1431,7 +1386,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L2",
       "id": "policies_integration_flc_policy_integrationflcpolicy_index",
-      "community": 1,
+      "community": 208,
       "norm_label": ".index?()"
     },
     {
@@ -1440,7 +1395,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L3",
       "id": "policies_integration_flc_policy_integrationflcpolicy_show",
-      "community": 1,
+      "community": 208,
       "norm_label": ".show?()"
     },
     {
@@ -1449,7 +1404,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L4",
       "id": "policies_integration_flc_policy_integrationflcpolicy_create",
-      "community": 1,
+      "community": 208,
       "norm_label": ".create?()"
     },
     {
@@ -1458,7 +1413,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L5",
       "id": "policies_integration_flc_policy_integrationflcpolicy_update",
-      "community": 1,
+      "community": 208,
       "norm_label": ".update?()"
     },
     {
@@ -1467,7 +1422,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L6",
       "id": "policies_integration_flc_policy_integrationflcpolicy_confirm_destroy",
-      "community": 1,
+      "community": 208,
       "norm_label": ".confirm_destroy?()"
     },
     {
@@ -1476,7 +1431,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L7",
       "id": "policies_integration_flc_policy_integrationflcpolicy_destroy",
-      "community": 1,
+      "community": 208,
       "norm_label": ".destroy?()"
     },
     {
@@ -1485,7 +1440,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L9",
       "id": "policies_integration_flc_policy_scope",
-      "community": 1,
+      "community": 208,
       "norm_label": "scope"
     },
     {
@@ -1494,7 +1449,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L10",
       "id": "policies_integration_flc_policy_scope_resolve",
-      "community": 1,
+      "community": 208,
       "norm_label": ".resolve()"
     },
     {
@@ -1503,7 +1458,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L17",
       "id": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager",
-      "community": 1,
+      "community": 208,
       "norm_label": ".admin_or_manager?()"
     },
     {
@@ -1512,7 +1467,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L1",
       "id": "app_policies_integration_fillea_policy_rb",
-      "community": 215,
+      "community": 1,
       "norm_label": "integration_fillea_policy.rb"
     },
     {
@@ -1521,7 +1476,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L1",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "community": 215,
+      "community": 1,
       "norm_label": "integrationfilleapolicy"
     },
     {
@@ -1530,7 +1485,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L2",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_index",
-      "community": 215,
+      "community": 1,
       "norm_label": ".index?()"
     },
     {
@@ -1539,7 +1494,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L3",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_show",
-      "community": 215,
+      "community": 1,
       "norm_label": ".show?()"
     },
     {
@@ -1548,7 +1503,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L4",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_create",
-      "community": 215,
+      "community": 1,
       "norm_label": ".create?()"
     },
     {
@@ -1557,7 +1512,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L5",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_update",
-      "community": 215,
+      "community": 1,
       "norm_label": ".update?()"
     },
     {
@@ -1566,7 +1521,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L6",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_confirm_destroy",
-      "community": 215,
+      "community": 1,
       "norm_label": ".confirm_destroy?()"
     },
     {
@@ -1575,7 +1530,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L7",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_destroy",
-      "community": 215,
+      "community": 1,
       "norm_label": ".destroy?()"
     },
     {
@@ -1584,7 +1539,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L9",
       "id": "policies_integration_fillea_policy_scope",
-      "community": 215,
+      "community": 1,
       "norm_label": "scope"
     },
     {
@@ -1593,7 +1548,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L10",
       "id": "policies_integration_fillea_policy_scope_resolve",
-      "community": 215,
+      "community": 1,
       "norm_label": ".resolve()"
     },
     {
@@ -1602,7 +1557,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L17",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
-      "community": 215,
+      "community": 1,
       "norm_label": ".admin_or_manager?()"
     },
     {
@@ -1987,7 +1942,7 @@
       "label": ".draw_heading()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
-      "source_location": "L26",
+      "source_location": "L25",
       "id": "statistic_prints_work_status_age_page_workstatusagepage_draw_heading",
       "community": 206,
       "norm_label": ".draw_heading()"
@@ -1996,7 +1951,7 @@
       "label": ".draw_message()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
-      "source_location": "L36",
+      "source_location": "L35",
       "id": "statistic_prints_work_status_age_page_workstatusagepage_draw_message",
       "community": 206,
       "norm_label": ".draw_message()"
@@ -2005,7 +1960,7 @@
       "label": ".draw_columns()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
-      "source_location": "L43",
+      "source_location": "L42",
       "id": "statistic_prints_work_status_age_page_workstatusagepage_draw_columns",
       "community": 206,
       "norm_label": ".draw_columns()"
@@ -2014,7 +1969,7 @@
       "label": ".draw_status_table()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
-      "source_location": "L53",
+      "source_location": "L52",
       "id": "statistic_prints_work_status_age_page_workstatusagepage_draw_status_table",
       "community": 206,
       "norm_label": ".draw_status_table()"
@@ -2023,7 +1978,7 @@
       "label": ".draw_eta_table()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
-      "source_location": "L69",
+      "source_location": "L68",
       "id": "statistic_prints_work_status_age_page_workstatusagepage_draw_eta_table",
       "community": 206,
       "norm_label": ".draw_eta_table()"
@@ -2032,7 +1987,7 @@
       "label": ".row_for()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
-      "source_location": "L85",
+      "source_location": "L84",
       "id": "statistic_prints_work_status_age_page_workstatusagepage_row_for",
       "community": 206,
       "norm_label": ".row_for()"
@@ -2041,7 +1996,7 @@
       "label": ".draw_charts()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
-      "source_location": "L89",
+      "source_location": "L88",
       "id": "statistic_prints_work_status_age_page_workstatusagepage_draw_charts",
       "community": 206,
       "norm_label": ".draw_charts()"
@@ -2050,7 +2005,7 @@
       "label": ".draw_status_chart()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
-      "source_location": "L99",
+      "source_location": "L98",
       "id": "statistic_prints_work_status_age_page_workstatusagepage_draw_status_chart",
       "community": 206,
       "norm_label": ".draw_status_chart()"
@@ -2059,7 +2014,7 @@
       "label": ".draw_eta_chart()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
-      "source_location": "L106",
+      "source_location": "L105",
       "id": "statistic_prints_work_status_age_page_workstatusagepage_draw_eta_chart",
       "community": 206,
       "norm_label": ".draw_eta_chart()"
@@ -2068,7 +2023,7 @@
       "label": ".column_width()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
-      "source_location": "L114",
+      "source_location": "L113",
       "id": "statistic_prints_work_status_age_page_workstatusagepage_column_width",
       "community": 206,
       "norm_label": ".column_width()"
@@ -2077,7 +2032,7 @@
       "label": ".column_gap()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
-      "source_location": "L115",
+      "source_location": "L114",
       "id": "statistic_prints_work_status_age_page_workstatusagepage_column_gap",
       "community": 206,
       "norm_label": ".column_gap()"
@@ -2086,82 +2041,10 @@
       "label": ".section_gap()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
-      "source_location": "L116",
+      "source_location": "L115",
       "id": "statistic_prints_work_status_age_page_workstatusagepage_section_gap",
       "community": 206,
       "norm_label": ".section_gap()"
-    },
-    {
-      "label": "zoning_divider_page.rb",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/zoning_divider_page.rb",
-      "source_location": "L1",
-      "id": "app_services_statistic_prints_zoning_divider_page_rb",
-      "community": 151,
-      "norm_label": "zoning_divider_page.rb"
-    },
-    {
-      "label": "ZoningDividerPage",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/zoning_divider_page.rb",
-      "source_location": "L2",
-      "id": "statistic_prints_zoning_divider_page_zoningdividerpage",
-      "community": 151,
-      "norm_label": "zoningdividerpage"
-    },
-    {
-      "label": ".draw()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/zoning_divider_page.rb",
-      "source_location": "L7",
-      "id": "statistic_prints_zoning_divider_page_zoningdividerpage_draw",
-      "community": 151,
-      "norm_label": ".draw()"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/zoning_divider_page.rb",
-      "source_location": "L9",
-      "id": "statistic_prints_zoning_divider_page_zoningdividerpage_initialize",
-      "community": 151,
-      "norm_label": ".initialize()"
-    },
-    {
-      "label": ".block_height()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/zoning_divider_page.rb",
-      "source_location": "L24",
-      "id": "statistic_prints_zoning_divider_page_zoningdividerpage_block_height",
-      "community": 151,
-      "norm_label": ".block_height()"
-    },
-    {
-      "label": ".top()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/zoning_divider_page.rb",
-      "source_location": "L25",
-      "id": "statistic_prints_zoning_divider_page_zoningdividerpage_top",
-      "community": 151,
-      "norm_label": ".top()"
-    },
-    {
-      "label": ".draw_title()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/zoning_divider_page.rb",
-      "source_location": "L27",
-      "id": "statistic_prints_zoning_divider_page_zoningdividerpage_draw_title",
-      "community": 151,
-      "norm_label": ".draw_title()"
-    },
-    {
-      "label": ".draw_subtitle()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/zoning_divider_page.rb",
-      "source_location": "L34",
-      "id": "statistic_prints_zoning_divider_page_zoningdividerpage_draw_subtitle",
-      "community": 151,
-      "norm_label": ".draw_subtitle()"
     },
     {
       "label": "pie_chart.rb",
@@ -2581,7 +2464,7 @@
       "label": ".draw_heading()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/categories_page.rb",
-      "source_location": "L26",
+      "source_location": "L25",
       "id": "statistic_prints_categories_page_categoriespage_draw_heading",
       "community": 207,
       "norm_label": ".draw_heading()"
@@ -2590,7 +2473,7 @@
       "label": ".draw_empty()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/categories_page.rb",
-      "source_location": "L34",
+      "source_location": "L33",
       "id": "statistic_prints_categories_page_categoriespage_draw_empty",
       "community": 207,
       "norm_label": ".draw_empty()"
@@ -2599,7 +2482,7 @@
       "label": ".draw_table()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/categories_page.rb",
-      "source_location": "L39",
+      "source_location": "L38",
       "id": "statistic_prints_categories_page_categoriespage_draw_table",
       "community": 207,
       "norm_label": ".draw_table()"
@@ -2608,7 +2491,7 @@
       "label": ".row_for()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/categories_page.rb",
-      "source_location": "L46",
+      "source_location": "L45",
       "id": "statistic_prints_categories_page_categoriespage_row_for",
       "community": 207,
       "norm_label": ".row_for()"
@@ -2617,7 +2500,7 @@
       "label": ".draw_chart()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/categories_page.rb",
-      "source_location": "L51",
+      "source_location": "L50",
       "id": "statistic_prints_categories_page_categoriespage_draw_chart",
       "community": 207,
       "norm_label": ".draw_chart()"
@@ -2626,7 +2509,7 @@
       "label": ".chart_height()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/categories_page.rb",
-      "source_location": "L61",
+      "source_location": "L60",
       "id": "statistic_prints_categories_page_categoriespage_chart_height",
       "community": 207,
       "norm_label": ".chart_height()"
@@ -2635,7 +2518,7 @@
       "label": ".section_gap()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/categories_page.rb",
-      "source_location": "L65",
+      "source_location": "L64",
       "id": "statistic_prints_categories_page_categoriespage_section_gap",
       "community": 207,
       "norm_label": ".section_gap()"
@@ -2646,7 +2529,7 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L1",
       "id": "app_services_statistic_prints_membership_types_page_rb",
-      "community": 208,
+      "community": 137,
       "norm_label": "membership_types_page.rb"
     },
     {
@@ -2655,7 +2538,7 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L2",
       "id": "statistic_prints_membership_types_page_membershiptypespage",
-      "community": 208,
+      "community": 137,
       "norm_label": "membershiptypespage"
     },
     {
@@ -2664,7 +2547,7 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L6",
       "id": "statistic_prints_membership_types_page_membershiptypespage_draw",
-      "community": 208,
+      "community": 137,
       "norm_label": ".draw()"
     },
     {
@@ -2673,79 +2556,79 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L8",
       "id": "statistic_prints_membership_types_page_membershiptypespage_initialize",
-      "community": 208,
+      "community": 137,
       "norm_label": ".initialize()"
     },
     {
       "label": ".draw_heading()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
-      "source_location": "L26",
+      "source_location": "L25",
       "id": "statistic_prints_membership_types_page_membershiptypespage_draw_heading",
-      "community": 208,
+      "community": 137,
       "norm_label": ".draw_heading()"
     },
     {
       "label": ".draw_message()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
-      "source_location": "L34",
+      "source_location": "L33",
       "id": "statistic_prints_membership_types_page_membershiptypespage_draw_message",
-      "community": 208,
+      "community": 137,
       "norm_label": ".draw_message()"
     },
     {
       "label": ".draw_iscrizione()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
-      "source_location": "L38",
+      "source_location": "L37",
       "id": "statistic_prints_membership_types_page_membershiptypespage_draw_iscrizione",
-      "community": 208,
+      "community": 137,
       "norm_label": ".draw_iscrizione()"
     },
     {
       "label": ".draw_delega()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
-      "source_location": "L49",
+      "source_location": "L48",
       "id": "statistic_prints_membership_types_page_membershiptypespage_draw_delega",
-      "community": 208,
+      "community": 137,
       "norm_label": ".draw_delega()"
     },
     {
       "label": ".row_for()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
-      "source_location": "L60",
+      "source_location": "L59",
       "id": "statistic_prints_membership_types_page_membershiptypespage_row_for",
-      "community": 208,
+      "community": 137,
       "norm_label": ".row_for()"
     },
     {
       "label": ".draw_chart()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
-      "source_location": "L65",
+      "source_location": "L64",
       "id": "statistic_prints_membership_types_page_membershiptypespage_draw_chart",
-      "community": 208,
+      "community": 137,
       "norm_label": ".draw_chart()"
     },
     {
       "label": ".chart_height()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
-      "source_location": "L74",
+      "source_location": "L73",
       "id": "statistic_prints_membership_types_page_membershiptypespage_chart_height",
-      "community": 208,
+      "community": 137,
       "norm_label": ".chart_height()"
     },
     {
       "label": ".section_gap()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
-      "source_location": "L78",
+      "source_location": "L77",
       "id": "statistic_prints_membership_types_page_membershiptypespage_section_gap",
-      "community": 208,
+      "community": 137,
       "norm_label": ".section_gap()"
     },
     {
@@ -2788,7 +2671,7 @@
       "label": ".draw_heading()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
-      "source_location": "L29",
+      "source_location": "L28",
       "id": "statistic_prints_employment_status_page_employmentstatuspage_draw_heading",
       "community": 202,
       "norm_label": ".draw_heading()"
@@ -2797,7 +2680,7 @@
       "label": ".draw_message()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
-      "source_location": "L37",
+      "source_location": "L36",
       "id": "statistic_prints_employment_status_page_employmentstatuspage_draw_message",
       "community": 202,
       "norm_label": ".draw_message()"
@@ -2806,7 +2689,7 @@
       "label": ".draw_table()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
-      "source_location": "L41",
+      "source_location": "L40",
       "id": "statistic_prints_employment_status_page_employmentstatuspage_draw_table",
       "community": 202,
       "norm_label": ".draw_table()"
@@ -2815,7 +2698,7 @@
       "label": ".row_for()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
-      "source_location": "L48",
+      "source_location": "L47",
       "id": "statistic_prints_employment_status_page_employmentstatuspage_row_for",
       "community": 202,
       "norm_label": ".row_for()"
@@ -2824,7 +2707,7 @@
       "label": ".draw_chart_and_percentages()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
-      "source_location": "L53",
+      "source_location": "L52",
       "id": "statistic_prints_employment_status_page_employmentstatuspage_draw_chart_and_percentages",
       "community": 202,
       "norm_label": ".draw_chart_and_percentages()"
@@ -2833,7 +2716,7 @@
       "label": ".draw_chart()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
-      "source_location": "L61",
+      "source_location": "L60",
       "id": "statistic_prints_employment_status_page_employmentstatuspage_draw_chart",
       "community": 202,
       "norm_label": ".draw_chart()"
@@ -2842,7 +2725,7 @@
       "label": ".draw_percentages()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
-      "source_location": "L70",
+      "source_location": "L69",
       "id": "statistic_prints_employment_status_page_employmentstatuspage_draw_percentages",
       "community": 202,
       "norm_label": ".draw_percentages()"
@@ -2851,7 +2734,7 @@
       "label": ".chart_width()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
-      "source_location": "L77",
+      "source_location": "L76",
       "id": "statistic_prints_employment_status_page_employmentstatuspage_chart_width",
       "community": 202,
       "norm_label": ".chart_width()"
@@ -2860,7 +2743,7 @@
       "label": ".percentages_width()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
-      "source_location": "L78",
+      "source_location": "L77",
       "id": "statistic_prints_employment_status_page_employmentstatuspage_percentages_width",
       "community": 202,
       "norm_label": ".percentages_width()"
@@ -2869,7 +2752,7 @@
       "label": ".column_gap()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
-      "source_location": "L79",
+      "source_location": "L78",
       "id": "statistic_prints_employment_status_page_employmentstatuspage_column_gap",
       "community": 202,
       "norm_label": ".column_gap()"
@@ -2878,7 +2761,7 @@
       "label": ".chart_height()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
-      "source_location": "L81",
+      "source_location": "L80",
       "id": "statistic_prints_employment_status_page_employmentstatuspage_chart_height",
       "community": 202,
       "norm_label": ".chart_height()"
@@ -2887,7 +2770,7 @@
       "label": ".section_gap()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
-      "source_location": "L83",
+      "source_location": "L82",
       "id": "statistic_prints_employment_status_page_employmentstatuspage_section_gap",
       "community": 202,
       "norm_label": ".section_gap()"
@@ -3148,7 +3031,7 @@
       "label": ".call()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L13",
+      "source_location": "L8",
       "id": "statistic_prints_report_pdf_reportpdf_call",
       "community": 157,
       "norm_label": ".call()"
@@ -3157,52 +3040,16 @@
       "label": ".initialize()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L15",
+      "source_location": "L10",
       "id": "statistic_prints_report_pdf_reportpdf_initialize",
       "community": 157,
       "norm_label": ".initialize()"
     },
     {
-      "label": ".draw_legend()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L34",
-      "id": "statistic_prints_report_pdf_reportpdf_draw_legend",
-      "community": 157,
-      "norm_label": ".draw_legend()"
-    },
-    {
-      "label": ".draw_content_pages()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L41",
-      "id": "statistic_prints_report_pdf_reportpdf_draw_content_pages",
-      "community": 157,
-      "norm_label": ".draw_content_pages()"
-    },
-    {
-      "label": ".draw_province_sections()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L51",
-      "id": "statistic_prints_report_pdf_reportpdf_draw_province_sections",
-      "community": 157,
-      "norm_label": ".draw_province_sections()"
-    },
-    {
-      "label": ".province_form()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L61",
-      "id": "statistic_prints_report_pdf_reportpdf_province_form",
-      "community": 157,
-      "norm_label": ".province_form()"
-    },
-    {
       "label": ".mm_to_pt()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L65",
+      "source_location": "L41",
       "id": "statistic_prints_report_pdf_reportpdf_mm_to_pt",
       "community": 157,
       "norm_label": ".mm_to_pt()"
@@ -3211,7 +3058,7 @@
       "label": ".register_fonts()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L67",
+      "source_location": "L43",
       "id": "statistic_prints_report_pdf_reportpdf_register_fonts",
       "community": 157,
       "norm_label": ".register_fonts()"
@@ -3285,7 +3132,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L1",
       "id": "app_services_statistic_prints_nationality_gender_page_rb",
-      "community": 137,
+      "community": 81,
       "norm_label": "nationality_gender_page.rb"
     },
     {
@@ -3294,7 +3141,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L2",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage",
-      "community": 137,
+      "community": 81,
       "norm_label": "nationalitygenderpage"
     },
     {
@@ -3303,7 +3150,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L8",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw",
-      "community": 137,
+      "community": 81,
       "norm_label": ".draw()"
     },
     {
@@ -3312,124 +3159,124 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L10",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_initialize",
-      "community": 137,
+      "community": 81,
       "norm_label": ".initialize()"
     },
     {
       "label": ".draw_heading()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
-      "source_location": "L27",
+      "source_location": "L26",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_heading",
-      "community": 137,
+      "community": 81,
       "norm_label": ".draw_heading()"
     },
     {
       "label": ".draw_message()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
-      "source_location": "L35",
+      "source_location": "L34",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_message",
-      "community": 137,
+      "community": 81,
       "norm_label": ".draw_message()"
     },
     {
       "label": ".draw_columns()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
-      "source_location": "L42",
+      "source_location": "L41",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_columns",
-      "community": 137,
+      "community": 81,
       "norm_label": ".draw_columns()"
     },
     {
       "label": ".draw_sesso_table()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
-      "source_location": "L52",
+      "source_location": "L51",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_sesso_table",
-      "community": 137,
+      "community": 81,
       "norm_label": ".draw_sesso_table()"
     },
     {
       "label": ".draw_nazionalita_table()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
-      "source_location": "L68",
+      "source_location": "L67",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_nazionalita_table",
-      "community": 137,
+      "community": 81,
       "norm_label": ".draw_nazionalita_table()"
     },
     {
       "label": ".row_for()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
-      "source_location": "L84",
+      "source_location": "L83",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_row_for",
-      "community": 137,
+      "community": 81,
       "norm_label": ".row_for()"
     },
     {
       "label": ".draw_charts()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
-      "source_location": "L88",
+      "source_location": "L87",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_charts",
-      "community": 137,
+      "community": 81,
       "norm_label": ".draw_charts()"
     },
     {
       "label": ".draw_sesso_chart()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
-      "source_location": "L98",
+      "source_location": "L97",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_sesso_chart",
-      "community": 137,
+      "community": 81,
       "norm_label": ".draw_sesso_chart()"
     },
     {
       "label": ".draw_nazionalita_chart()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
-      "source_location": "L105",
+      "source_location": "L104",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_nazionalita_chart",
-      "community": 137,
+      "community": 81,
       "norm_label": ".draw_nazionalita_chart()"
     },
     {
       "label": ".sesso_width()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
-      "source_location": "L112",
+      "source_location": "L111",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_sesso_width",
-      "community": 137,
+      "community": 81,
       "norm_label": ".sesso_width()"
     },
     {
       "label": ".nazionalita_width()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
-      "source_location": "L113",
+      "source_location": "L112",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_nazionalita_width",
-      "community": 137,
+      "community": 81,
       "norm_label": ".nazionalita_width()"
     },
     {
       "label": ".column_gap()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
-      "source_location": "L114",
+      "source_location": "L113",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_column_gap",
-      "community": 137,
+      "community": 81,
       "norm_label": ".column_gap()"
     },
     {
       "label": ".section_gap()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
-      "source_location": "L116",
+      "source_location": "L115",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_section_gap",
-      "community": 137,
+      "community": 81,
       "norm_label": ".section_gap()"
     },
     {
@@ -3438,7 +3285,7 @@
       "source_file": "app/services/statistic_prints/regional_page.rb",
       "source_location": "L1",
       "id": "app_services_statistic_prints_regional_page_rb",
-      "community": 81,
+      "community": 137,
       "norm_label": "regional_page.rb"
     },
     {
@@ -3447,7 +3294,7 @@
       "source_file": "app/services/statistic_prints/regional_page.rb",
       "source_location": "L2",
       "id": "statistic_prints_regional_page_regionalpage",
-      "community": 81,
+      "community": 137,
       "norm_label": "regionalpage"
     },
     {
@@ -3456,7 +3303,7 @@
       "source_file": "app/services/statistic_prints/regional_page.rb",
       "source_location": "L6",
       "id": "statistic_prints_regional_page_regionalpage_draw",
-      "community": 81,
+      "community": 137,
       "norm_label": ".draw()"
     },
     {
@@ -3465,97 +3312,97 @@
       "source_file": "app/services/statistic_prints/regional_page.rb",
       "source_location": "L8",
       "id": "statistic_prints_regional_page_regionalpage_initialize",
-      "community": 81,
+      "community": 137,
       "norm_label": ".initialize()"
     },
     {
       "label": ".draw_error()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/regional_page.rb",
-      "source_location": "L30",
+      "source_location": "L29",
       "id": "statistic_prints_regional_page_regionalpage_draw_error",
-      "community": 81,
+      "community": 137,
       "norm_label": ".draw_error()"
     },
     {
       "label": ".draw_heading()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/regional_page.rb",
-      "source_location": "L34",
+      "source_location": "L33",
       "id": "statistic_prints_regional_page_regionalpage_draw_heading",
-      "community": 81,
+      "community": 137,
       "norm_label": ".draw_heading()"
     },
     {
       "label": ".heading_title()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/regional_page.rb",
-      "source_location": "L44",
+      "source_location": "L43",
       "id": "statistic_prints_regional_page_regionalpage_heading_title",
-      "community": 81,
+      "community": 137,
       "norm_label": ".heading_title()"
     },
     {
       "label": ".draw_regional_table()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/regional_page.rb",
-      "source_location": "L50",
+      "source_location": "L49",
       "id": "statistic_prints_regional_page_regionalpage_draw_regional_table",
-      "community": 81,
+      "community": 137,
       "norm_label": ".draw_regional_table()"
     },
     {
       "label": ".row_for()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/regional_page.rb",
-      "source_location": "L57",
+      "source_location": "L56",
       "id": "statistic_prints_regional_page_regionalpage_row_for",
-      "community": 81,
+      "community": 137,
       "norm_label": ".row_for()"
     },
     {
       "label": ".draw_comprensori()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/regional_page.rb",
-      "source_location": "L62",
+      "source_location": "L61",
       "id": "statistic_prints_regional_page_regionalpage_draw_comprensori",
-      "community": 81,
+      "community": 137,
       "norm_label": ".draw_comprensori()"
     },
     {
       "label": ".draw_single_chart()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/regional_page.rb",
-      "source_location": "L72",
+      "source_location": "L71",
       "id": "statistic_prints_regional_page_regionalpage_draw_single_chart",
-      "community": 81,
+      "community": 137,
       "norm_label": ".draw_single_chart()"
     },
     {
       "label": ".draw_chart()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/regional_page.rb",
-      "source_location": "L77",
+      "source_location": "L76",
       "id": "statistic_prints_regional_page_regionalpage_draw_chart",
-      "community": 81,
+      "community": 137,
       "norm_label": ".draw_chart()"
     },
     {
       "label": ".chart_height()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/regional_page.rb",
-      "source_location": "L87",
+      "source_location": "L86",
       "id": "statistic_prints_regional_page_regionalpage_chart_height",
-      "community": 81,
+      "community": 137,
       "norm_label": ".chart_height()"
     },
     {
       "label": ".section_gap()",
       "file_type": "code",
       "source_file": "app/services/statistic_prints/regional_page.rb",
-      "source_location": "L91",
+      "source_location": "L90",
       "id": "statistic_prints_regional_page_regionalpage_section_gap",
-      "community": 81,
+      "community": 137,
       "norm_label": ".section_gap()"
     },
     {
@@ -3564,7 +3411,7 @@
       "source_file": "app/services/statistic_prints/number_formatting.rb",
       "source_location": "L1",
       "id": "app_services_statistic_prints_number_formatting_rb",
-      "community": 189,
+      "community": 186,
       "norm_label": "number_formatting.rb"
     },
     {
@@ -3573,7 +3420,7 @@
       "source_file": "app/services/statistic_prints/number_formatting.rb",
       "source_location": "L5",
       "id": "statistic_prints_number_formatting_count",
-      "community": 189,
+      "community": 186,
       "norm_label": "count()"
     },
     {
@@ -3582,7 +3429,7 @@
       "source_file": "app/services/statistic_prints/number_formatting.rb",
       "source_location": "L7",
       "id": "statistic_prints_number_formatting_percent",
-      "community": 189,
+      "community": 186,
       "norm_label": "percent()"
     },
     {
@@ -4833,7 +4680,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L65",
       "id": "statistics_total_members_comparison_totalmemberscomparison_comprensori",
-      "community": 81,
+      "community": 137,
       "norm_label": ".comprensori()"
     },
     {
@@ -4842,7 +4689,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L71",
       "id": "statistics_total_members_comparison_totalmemberscomparison_regionale",
-      "community": 81,
+      "community": 137,
       "norm_label": ".regionale?()"
     },
     {
@@ -4858,7 +4705,7 @@
       "label": ".categorie()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L79",
+      "source_location": "L80",
       "id": "statistics_total_members_comparison_totalmemberscomparison_categorie",
       "community": 207,
       "norm_label": ".categorie()"
@@ -4867,7 +4714,7 @@
       "label": ".attivi_pensionati()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L83",
+      "source_location": "L84",
       "id": "statistics_total_members_comparison_totalmemberscomparison_attivi_pensionati",
       "community": 202,
       "norm_label": ".attivi_pensionati()"
@@ -4876,7 +4723,7 @@
       "label": ".tipologie_iscrizione()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L87",
+      "source_location": "L88",
       "id": "statistics_total_members_comparison_totalmemberscomparison_tipologie_iscrizione",
       "community": 137,
       "norm_label": ".tipologie_iscrizione()"
@@ -4885,7 +4732,7 @@
       "label": ".tipologie_delega()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L91",
+      "source_location": "L92",
       "id": "statistics_total_members_comparison_totalmemberscomparison_tipologie_delega",
       "community": 137,
       "norm_label": ".tipologie_delega()"
@@ -4894,25 +4741,25 @@
       "label": ".nazionalita()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L95",
+      "source_location": "L96",
       "id": "statistics_total_members_comparison_totalmemberscomparison_nazionalita",
-      "community": 137,
+      "community": 81,
       "norm_label": ".nazionalita()"
     },
     {
       "label": ".sesso()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L99",
+      "source_location": "L100",
       "id": "statistics_total_members_comparison_totalmemberscomparison_sesso",
-      "community": 137,
+      "community": 81,
       "norm_label": ".sesso()"
     },
     {
       "label": ".provvisorie_revoche()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L103",
+      "source_location": "L104",
       "id": "statistics_total_members_comparison_totalmemberscomparison_provvisorie_revoche",
       "community": 137,
       "norm_label": ".provvisorie_revoche()"
@@ -4921,7 +4768,7 @@
       "label": ".status_lavorativo()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L107",
+      "source_location": "L108",
       "id": "statistics_total_members_comparison_totalmemberscomparison_status_lavorativo",
       "community": 137,
       "norm_label": ".status_lavorativo()"
@@ -4930,7 +4777,7 @@
       "label": ".fasce_eta()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L111",
+      "source_location": "L112",
       "id": "statistics_total_members_comparison_totalmemberscomparison_fasce_eta",
       "community": 137,
       "norm_label": ".fasce_eta()"
@@ -4939,7 +4786,7 @@
       "label": ".missing_data_result()",
       "file_type": "code",
       "source_file": "app/services/statistics/total_members_comparison.rb",
-      "source_location": "L115",
+      "source_location": "L116",
       "id": "statistics_total_members_comparison_totalmemberscomparison_missing_data_result",
       "community": 137,
       "norm_label": ".missing_data_result()"
@@ -5782,15 +5629,6 @@
       "norm_label": "zoning"
     },
     {
-      "label": ".regionale?()",
-      "file_type": "code",
-      "source_file": "app/models/zoning.rb",
-      "source_location": "L15",
-      "id": "models_zoning_zoning_regionale",
-      "community": 91,
-      "norm_label": ".regionale?()"
-    },
-    {
       "label": "import.rb",
       "file_type": "code",
       "source_file": "app/models/import.rb",
@@ -5915,69 +5753,6 @@
       "id": "controllers_pages_controller_pagescontroller_credits",
       "community": 0,
       "norm_label": ".credits()"
-    },
-    {
-      "label": "statistic_with_integrations_prints_controller.rb",
-      "file_type": "code",
-      "source_file": "app/controllers/statistic_with_integrations_prints_controller.rb",
-      "source_location": "L1",
-      "id": "app_controllers_statistic_with_integrations_prints_controller_rb",
-      "community": 216,
-      "norm_label": "statistic_with_integrations_prints_controller.rb"
-    },
-    {
-      "label": "StatisticWithIntegrationsPrintsController",
-      "file_type": "code",
-      "source_file": "app/controllers/statistic_with_integrations_prints_controller.rb",
-      "source_location": "L1",
-      "id": "controllers_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller",
-      "community": 216,
-      "norm_label": "statisticwithintegrationsprintscontroller"
-    },
-    {
-      "label": ".index()",
-      "file_type": "code",
-      "source_file": "app/controllers/statistic_with_integrations_prints_controller.rb",
-      "source_location": "L5",
-      "id": "controllers_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller_index",
-      "community": 216,
-      "norm_label": ".index()"
-    },
-    {
-      "label": ".set_zonings()",
-      "file_type": "code",
-      "source_file": "app/controllers/statistic_with_integrations_prints_controller.rb",
-      "source_location": "L16",
-      "id": "controllers_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller_set_zonings",
-      "community": 216,
-      "norm_label": ".set_zonings()"
-    },
-    {
-      "label": ".total_members_params()",
-      "file_type": "code",
-      "source_file": "app/controllers/statistic_with_integrations_prints_controller.rb",
-      "source_location": "L20",
-      "id": "controllers_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller_total_members_params",
-      "community": 216,
-      "norm_label": ".total_members_params()"
-    },
-    {
-      "label": ".render_pdf()",
-      "file_type": "code",
-      "source_file": "app/controllers/statistic_with_integrations_prints_controller.rb",
-      "source_location": "L24",
-      "id": "controllers_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller_render_pdf",
-      "community": 216,
-      "norm_label": ".render_pdf()"
-    },
-    {
-      "label": ".pdf_filename()",
-      "file_type": "code",
-      "source_file": "app/controllers/statistic_with_integrations_prints_controller.rb",
-      "source_location": "L34",
-      "id": "controllers_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller_pdf_filename",
-      "community": 216,
-      "norm_label": ".pdf_filename()"
     },
     {
       "label": "legends_controller.rb",
@@ -12515,9 +12290,9 @@
       "source_file": "spec/services/statistic_prints/nationality_gender_page_spec.rb",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "spec_services_statistic_prints_nationality_gender_page_spec_rb",
-      "target": "statistic_prints_nationality_gender_page_spec_build_pdf"
+      "target": "statistic_prints_nationality_gender_page_spec_build_pdf",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -12525,18 +12300,8 @@
       "source_file": "spec/services/statistic_prints/work_status_age_page_spec.rb",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "spec_services_statistic_prints_work_status_age_page_spec_rb",
-      "target": "statistic_prints_work_status_age_page_spec_build_pdf"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "spec/services/statistic_prints/regional_page_spec.rb",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "spec_services_statistic_prints_regional_page_spec_rb",
-      "target": "statistic_prints_regional_page_spec_build_pdf",
+      "target": "statistic_prints_work_status_age_page_spec_build_pdf",
       "confidence_score": 1.0
     },
     {
@@ -12576,9 +12341,9 @@
       "source_file": "spec/services/statistic_prints/membership_types_page_spec.rb",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "spec_services_statistic_prints_membership_types_page_spec_rb",
-      "target": "statistic_prints_membership_types_page_spec_build_pdf"
+      "target": "statistic_prints_membership_types_page_spec_build_pdf",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -12586,18 +12351,8 @@
       "source_file": "spec/services/statistic_prints/employment_status_page_spec.rb",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "spec_services_statistic_prints_employment_status_page_spec_rb",
-      "target": "statistic_prints_employment_status_page_spec_build_pdf"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "spec/services/statistic_prints/zoning_divider_page_spec.rb",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "spec_services_statistic_prints_zoning_divider_page_spec_rb",
-      "target": "statistic_prints_zoning_divider_page_spec_build_pdf",
+      "target": "statistic_prints_employment_status_page_spec_build_pdf",
       "confidence_score": 1.0
     },
     {
@@ -13728,9 +13483,9 @@
       "source_file": "app/services/statistic_prints/percentage_table.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistic_prints_percentage_table_rb",
-      "target": "statistic_prints_percentage_table_percentagetable"
+      "target": "statistic_prints_percentage_table_percentagetable",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -13738,9 +13493,9 @@
       "source_file": "app/services/statistic_prints/percentage_table.rb",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_percentage_table_percentagetable",
-      "target": "statistic_prints_percentage_table_percentagetable_draw"
+      "target": "statistic_prints_percentage_table_percentagetable_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -13748,9 +13503,9 @@
       "source_file": "app/services/statistic_prints/percentage_table.rb",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_percentage_table_percentagetable",
-      "target": "statistic_prints_percentage_table_percentagetable_initialize"
+      "target": "statistic_prints_percentage_table_percentagetable_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -13758,9 +13513,9 @@
       "source_file": "app/services/statistic_prints/percentage_table.rb",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_percentage_table_percentagetable",
-      "target": "statistic_prints_percentage_table_percentagetable_header_row"
+      "target": "statistic_prints_percentage_table_percentagetable_header_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -13768,9 +13523,9 @@
       "source_file": "app/services/statistic_prints/percentage_table.rb",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_percentage_table_percentagetable",
-      "target": "statistic_prints_percentage_table_percentagetable_table_data"
+      "target": "statistic_prints_percentage_table_percentagetable_table_data",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -13778,9 +13533,9 @@
       "source_file": "app/services/statistic_prints/percentage_table.rb",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_percentage_table_percentagetable",
-      "target": "statistic_prints_percentage_table_percentagetable_column_widths"
+      "target": "statistic_prints_percentage_table_percentagetable_column_widths",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -13788,9 +13543,9 @@
       "source_file": "app/services/statistic_prints/percentage_table.rb",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_percentage_table_percentagetable",
-      "target": "statistic_prints_percentage_table_percentagetable_cell_style"
+      "target": "statistic_prints_percentage_table_percentagetable_cell_style",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -13798,9 +13553,9 @@
       "source_file": "app/services/statistic_prints/percentage_table.rb",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_percentage_table_percentagetable",
-      "target": "statistic_prints_percentage_table_percentagetable_style_header"
+      "target": "statistic_prints_percentage_table_percentagetable_style_header",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -13809,9 +13564,9 @@
       "source_file": "app/services/statistic_prints/percentage_table.rb",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_percentage_table_percentagetable_draw",
-      "target": "statistic_prints_percentage_table_percentagetable_style_header"
+      "target": "statistic_prints_percentage_table_percentagetable_style_header",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -14243,9 +13998,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistic_prints_work_status_age_page_rb",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14253,9 +14008,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14263,9 +14018,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_initialize"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14273,9 +14028,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L25",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_heading"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_heading",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14283,9 +14038,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L35",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_message"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_message",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14293,9 +14048,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L42",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_columns"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_columns",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14303,9 +14058,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_status_table"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_status_table",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14313,9 +14068,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L68",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_eta_table"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_eta_table",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14323,9 +14078,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L84",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_row_for"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_row_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14333,9 +14088,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L88",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_charts"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_charts",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14343,9 +14098,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L98",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_status_chart"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_status_chart",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14353,9 +14108,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L105",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_eta_chart"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_eta_chart",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14363,9 +14118,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L113",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_column_width"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_column_width",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14373,9 +14128,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L114",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_column_gap"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_column_gap",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14383,9 +14138,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L115",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_section_gap"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_section_gap",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14394,9 +14149,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage_draw",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_heading"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_heading",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14405,9 +14160,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage_draw",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_message"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_message",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14416,9 +14171,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage_draw",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_columns"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_columns",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14427,9 +14182,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L58",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage_draw_status_table",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14438,9 +14193,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L74",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage_draw_eta_table",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14449,9 +14204,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L99",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage_draw_status_chart",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14460,9 +14215,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L106",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage_draw_eta_chart",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14471,9 +14226,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage_draw_status_table",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_message"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_message",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14482,9 +14237,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L72",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage_draw_eta_table",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_message"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_message",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14493,9 +14248,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L46",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage_draw_columns",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_status_table"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_status_table",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14504,9 +14259,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage_draw_columns",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_eta_table"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_eta_table",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14515,9 +14270,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage_draw_columns",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_charts"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_charts",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14526,9 +14281,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L60",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage_draw_status_table",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_row_for"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_row_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14548,9 +14303,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L76",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage_draw_eta_table",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_row_for"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_row_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14581,9 +14336,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L94",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage_draw_charts",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_status_chart"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_status_chart",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14592,9 +14347,9 @@
       "source_file": "app/services/statistic_prints/work_status_age_page.rb",
       "source_location": "L95",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_work_status_age_page_workstatusagepage_draw_charts",
-      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_eta_chart"
+      "target": "statistic_prints_work_status_age_page_workstatusagepage_draw_eta_chart",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14621,93 +14376,12 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/zoning_divider_page.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "app_services_statistic_prints_zoning_divider_page_rb",
-      "target": "statistic_prints_zoning_divider_page_zoningdividerpage",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/zoning_divider_page.rb",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "statistic_prints_zoning_divider_page_zoningdividerpage",
-      "target": "statistic_prints_zoning_divider_page_zoningdividerpage_draw",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/zoning_divider_page.rb",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "statistic_prints_zoning_divider_page_zoningdividerpage",
-      "target": "statistic_prints_zoning_divider_page_zoningdividerpage_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/zoning_divider_page.rb",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "statistic_prints_zoning_divider_page_zoningdividerpage",
-      "target": "statistic_prints_zoning_divider_page_zoningdividerpage_block_height",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/zoning_divider_page.rb",
-      "source_location": "L25",
-      "weight": 1.0,
-      "source": "statistic_prints_zoning_divider_page_zoningdividerpage",
-      "target": "statistic_prints_zoning_divider_page_zoningdividerpage_top",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/zoning_divider_page.rb",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "statistic_prints_zoning_divider_page_zoningdividerpage",
-      "target": "statistic_prints_zoning_divider_page_zoningdividerpage_draw_title",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/zoning_divider_page.rb",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "statistic_prints_zoning_divider_page_zoningdividerpage",
-      "target": "statistic_prints_zoning_divider_page_zoningdividerpage_draw_subtitle",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/statistic_prints/cover_page.rb",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "statistic_prints_cover_page_coverpage_draw_background",
-      "target": "statistic_prints_zoning_divider_page_zoningdividerpage_top"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistic_prints_pie_chart_rb",
-      "target": "statistic_prints_pie_chart_piechart"
+      "target": "statistic_prints_pie_chart_piechart",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14715,9 +14389,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart",
-      "target": "statistic_prints_pie_chart_piechart_draw"
+      "target": "statistic_prints_pie_chart_piechart_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14725,9 +14399,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart",
-      "target": "statistic_prints_pie_chart_piechart_initialize"
+      "target": "statistic_prints_pie_chart_piechart_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14735,9 +14409,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart",
-      "target": "statistic_prints_pie_chart_piechart_total"
+      "target": "statistic_prints_pie_chart_piechart_total",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14745,9 +14419,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L27",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart",
-      "target": "statistic_prints_pie_chart_piechart_circle_area_height"
+      "target": "statistic_prints_pie_chart_piechart_circle_area_height",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14755,9 +14429,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart",
-      "target": "statistic_prints_pie_chart_piechart_diameter"
+      "target": "statistic_prints_pie_chart_piechart_diameter",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14765,9 +14439,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L29",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart",
-      "target": "statistic_prints_pie_chart_piechart_radius"
+      "target": "statistic_prints_pie_chart_piechart_radius",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14775,9 +14449,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart",
-      "target": "statistic_prints_pie_chart_piechart_center"
+      "target": "statistic_prints_pie_chart_piechart_center",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14785,9 +14459,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L32",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart",
-      "target": "statistic_prints_pie_chart_piechart_draw_slices"
+      "target": "statistic_prints_pie_chart_piechart_draw_slices",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14795,9 +14469,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L45",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart",
-      "target": "statistic_prints_pie_chart_piechart_draw_slice"
+      "target": "statistic_prints_pie_chart_piechart_draw_slice",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14805,9 +14479,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart",
-      "target": "statistic_prints_pie_chart_piechart_arc_points"
+      "target": "statistic_prints_pie_chart_piechart_arc_points",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14815,9 +14489,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L57",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart",
-      "target": "statistic_prints_pie_chart_piechart_point_at"
+      "target": "statistic_prints_pie_chart_piechart_point_at",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14825,9 +14499,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L62",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart",
-      "target": "statistic_prints_pie_chart_piechart_draw_label"
+      "target": "statistic_prints_pie_chart_piechart_draw_label",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14835,9 +14509,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L75",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart",
-      "target": "statistic_prints_pie_chart_piechart_draw_legend"
+      "target": "statistic_prints_pie_chart_piechart_draw_legend",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14845,9 +14519,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L84",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart",
-      "target": "statistic_prints_pie_chart_piechart_draw_legend_item"
+      "target": "statistic_prints_pie_chart_piechart_draw_legend_item",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14855,9 +14529,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L91",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart",
-      "target": "statistic_prints_pie_chart_piechart_legend_item_width"
+      "target": "statistic_prints_pie_chart_piechart_legend_item_width",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14865,9 +14539,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L97",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart",
-      "target": "statistic_prints_pie_chart_piechart_legend_width"
+      "target": "statistic_prints_pie_chart_piechart_legend_width",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14876,9 +14550,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L39",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart_draw_slices",
-      "target": "statistic_prints_pie_chart_piechart_draw_slice"
+      "target": "statistic_prints_pie_chart_piechart_draw_slice",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14887,9 +14561,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart_draw_slices",
-      "target": "statistic_prints_pie_chart_piechart_draw_label"
+      "target": "statistic_prints_pie_chart_piechart_draw_label",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14898,9 +14572,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart_draw_slice",
-      "target": "statistic_prints_pie_chart_piechart_arc_points"
+      "target": "statistic_prints_pie_chart_piechart_arc_points",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14909,9 +14583,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L54",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart_arc_points",
-      "target": "statistic_prints_pie_chart_piechart_point_at"
+      "target": "statistic_prints_pie_chart_piechart_point_at",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14931,9 +14605,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L79",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart_draw_legend",
-      "target": "statistic_prints_pie_chart_piechart_draw_legend_item"
+      "target": "statistic_prints_pie_chart_piechart_draw_legend_item",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14942,9 +14616,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L80",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart_draw_legend",
-      "target": "statistic_prints_pie_chart_piechart_legend_item_width"
+      "target": "statistic_prints_pie_chart_piechart_legend_item_width",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -14953,9 +14627,9 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L98",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_pie_chart_piechart_legend_width",
-      "target": "statistic_prints_pie_chart_piechart_legend_item_width"
+      "target": "statistic_prints_pie_chart_piechart_legend_item_width",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15138,9 +14812,9 @@
       "source_file": "app/services/statistic_prints/single_year_table.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistic_prints_single_year_table_rb",
-      "target": "statistic_prints_single_year_table_singleyeartable"
+      "target": "statistic_prints_single_year_table_singleyeartable",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15148,9 +14822,9 @@
       "source_file": "app/services/statistic_prints/single_year_table.rb",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_year_table_singleyeartable",
-      "target": "statistic_prints_single_year_table_singleyeartable_draw"
+      "target": "statistic_prints_single_year_table_singleyeartable_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15158,9 +14832,9 @@
       "source_file": "app/services/statistic_prints/single_year_table.rb",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_year_table_singleyeartable",
-      "target": "statistic_prints_single_year_table_singleyeartable_initialize"
+      "target": "statistic_prints_single_year_table_singleyeartable_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15168,9 +14842,9 @@
       "source_file": "app/services/statistic_prints/single_year_table.rb",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_year_table_singleyeartable",
-      "target": "statistic_prints_single_year_table_singleyeartable_draw_title"
+      "target": "statistic_prints_single_year_table_singleyeartable_draw_title",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15178,9 +14852,9 @@
       "source_file": "app/services/statistic_prints/single_year_table.rb",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_year_table_singleyeartable",
-      "target": "statistic_prints_single_year_table_singleyeartable_header_row"
+      "target": "statistic_prints_single_year_table_singleyeartable_header_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15188,9 +14862,9 @@
       "source_file": "app/services/statistic_prints/single_year_table.rb",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_year_table_singleyeartable",
-      "target": "statistic_prints_single_year_table_singleyeartable_table_data"
+      "target": "statistic_prints_single_year_table_singleyeartable_table_data",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15198,9 +14872,9 @@
       "source_file": "app/services/statistic_prints/single_year_table.rb",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_year_table_singleyeartable",
-      "target": "statistic_prints_single_year_table_singleyeartable_data_row"
+      "target": "statistic_prints_single_year_table_singleyeartable_data_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15208,9 +14882,9 @@
       "source_file": "app/services/statistic_prints/single_year_table.rb",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_year_table_singleyeartable",
-      "target": "statistic_prints_single_year_table_singleyeartable_column_widths"
+      "target": "statistic_prints_single_year_table_singleyeartable_column_widths",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15218,9 +14892,9 @@
       "source_file": "app/services/statistic_prints/single_year_table.rb",
       "source_location": "L46",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_year_table_singleyeartable",
-      "target": "statistic_prints_single_year_table_singleyeartable_cell_style"
+      "target": "statistic_prints_single_year_table_singleyeartable_cell_style",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15228,9 +14902,9 @@
       "source_file": "app/services/statistic_prints/single_year_table.rb",
       "source_location": "L53",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_year_table_singleyeartable",
-      "target": "statistic_prints_single_year_table_singleyeartable_style_header"
+      "target": "statistic_prints_single_year_table_singleyeartable_style_header",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15239,9 +14913,9 @@
       "source_file": "app/services/statistic_prints/single_year_table.rb",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_year_table_singleyeartable_draw",
-      "target": "statistic_prints_single_year_table_singleyeartable_style_header"
+      "target": "statistic_prints_single_year_table_singleyeartable_style_header",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15250,9 +14924,9 @@
       "source_file": "app/services/statistic_prints/single_year_table.rb",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_year_table_singleyeartable_table_data",
-      "target": "statistic_prints_single_year_table_singleyeartable_data_row"
+      "target": "statistic_prints_single_year_table_singleyeartable_data_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15459,9 +15133,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistic_prints_membership_types_page_rb",
-      "target": "statistic_prints_membership_types_page_membershiptypespage"
+      "target": "statistic_prints_membership_types_page_membershiptypespage",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15469,9 +15143,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_membership_types_page_membershiptypespage",
-      "target": "statistic_prints_membership_types_page_membershiptypespage_draw"
+      "target": "statistic_prints_membership_types_page_membershiptypespage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15479,9 +15153,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_membership_types_page_membershiptypespage",
-      "target": "statistic_prints_membership_types_page_membershiptypespage_initialize"
+      "target": "statistic_prints_membership_types_page_membershiptypespage_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15489,9 +15163,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L25",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_membership_types_page_membershiptypespage",
-      "target": "statistic_prints_membership_types_page_membershiptypespage_draw_heading"
+      "target": "statistic_prints_membership_types_page_membershiptypespage_draw_heading",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15499,9 +15173,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_membership_types_page_membershiptypespage",
-      "target": "statistic_prints_membership_types_page_membershiptypespage_draw_message"
+      "target": "statistic_prints_membership_types_page_membershiptypespage_draw_message",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15509,9 +15183,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_membership_types_page_membershiptypespage",
-      "target": "statistic_prints_membership_types_page_membershiptypespage_draw_iscrizione"
+      "target": "statistic_prints_membership_types_page_membershiptypespage_draw_iscrizione",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15519,9 +15193,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L48",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_membership_types_page_membershiptypespage",
-      "target": "statistic_prints_membership_types_page_membershiptypespage_draw_delega"
+      "target": "statistic_prints_membership_types_page_membershiptypespage_draw_delega",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15529,9 +15203,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L59",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_membership_types_page_membershiptypespage",
-      "target": "statistic_prints_membership_types_page_membershiptypespage_row_for"
+      "target": "statistic_prints_membership_types_page_membershiptypespage_row_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15539,9 +15213,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L64",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_membership_types_page_membershiptypespage",
-      "target": "statistic_prints_membership_types_page_membershiptypespage_draw_chart"
+      "target": "statistic_prints_membership_types_page_membershiptypespage_draw_chart",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15549,9 +15223,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L73",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_membership_types_page_membershiptypespage",
-      "target": "statistic_prints_membership_types_page_membershiptypespage_chart_height"
+      "target": "statistic_prints_membership_types_page_membershiptypespage_chart_height",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15559,9 +15233,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L77",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_membership_types_page_membershiptypespage",
-      "target": "statistic_prints_membership_types_page_membershiptypespage_section_gap"
+      "target": "statistic_prints_membership_types_page_membershiptypespage_section_gap",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15570,9 +15244,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_membership_types_page_membershiptypespage_draw",
-      "target": "statistic_prints_membership_types_page_membershiptypespage_draw_heading"
+      "target": "statistic_prints_membership_types_page_membershiptypespage_draw_heading",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15581,9 +15255,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_membership_types_page_membershiptypespage_draw",
-      "target": "statistic_prints_membership_types_page_membershiptypespage_draw_message"
+      "target": "statistic_prints_membership_types_page_membershiptypespage_draw_message",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15592,9 +15266,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_membership_types_page_membershiptypespage_draw_iscrizione",
-      "target": "statistic_prints_membership_types_page_membershiptypespage_draw"
+      "target": "statistic_prints_membership_types_page_membershiptypespage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15603,9 +15277,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L51",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_membership_types_page_membershiptypespage_draw_delega",
-      "target": "statistic_prints_membership_types_page_membershiptypespage_draw"
+      "target": "statistic_prints_membership_types_page_membershiptypespage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15614,9 +15288,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L65",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_membership_types_page_membershiptypespage_draw_chart",
-      "target": "statistic_prints_membership_types_page_membershiptypespage_draw"
+      "target": "statistic_prints_membership_types_page_membershiptypespage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15625,9 +15299,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L43",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_membership_types_page_membershiptypespage_draw_iscrizione",
-      "target": "statistic_prints_membership_types_page_membershiptypespage_row_for"
+      "target": "statistic_prints_membership_types_page_membershiptypespage_row_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15647,9 +15321,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L53",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_membership_types_page_membershiptypespage_draw_delega",
-      "target": "statistic_prints_membership_types_page_membershiptypespage_row_for"
+      "target": "statistic_prints_membership_types_page_membershiptypespage_row_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15658,9 +15332,9 @@
       "source_file": "app/services/statistic_prints/membership_types_page.rb",
       "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_membership_types_page_membershiptypespage_draw_delega",
-      "target": "statistic_prints_membership_types_page_membershiptypespage_draw_chart"
+      "target": "statistic_prints_membership_types_page_membershiptypespage_draw_chart",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15690,9 +15364,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistic_prints_employment_status_page_rb",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15700,9 +15374,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15710,9 +15384,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_initialize"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15720,9 +15394,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_heading"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_heading",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15730,9 +15404,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_message"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_message",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15740,9 +15414,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_table"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_table",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15750,9 +15424,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_row_for"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_row_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15760,9 +15434,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_chart_and_percentages"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_chart_and_percentages",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15770,9 +15444,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L60",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_chart"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_chart",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15780,9 +15454,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L69",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_percentages"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_percentages",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15790,9 +15464,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L76",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_chart_width"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_chart_width",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15800,9 +15474,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L77",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_percentages_width"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_percentages_width",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15810,9 +15484,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L78",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_column_gap"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_column_gap",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15820,9 +15494,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L80",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_chart_height"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_chart_height",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15830,9 +15504,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L82",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_section_gap"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_section_gap",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15841,9 +15515,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage_draw",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_heading"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_heading",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15852,9 +15526,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage_draw",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_message"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_message",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15863,9 +15537,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage_draw_table",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15874,9 +15548,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L23",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage_draw",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_chart_and_percentages"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_chart_and_percentages",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15885,9 +15559,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L61",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage_draw_chart",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15896,9 +15570,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L70",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage_draw_percentages",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15918,9 +15592,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L43",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage_draw_table",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_row_for"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_row_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15940,9 +15614,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L55",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage_draw_chart_and_percentages",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_chart"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_chart",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15951,9 +15625,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage_draw_chart_and_percentages",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_percentages"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_draw_percentages",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15962,9 +15636,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L57",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage_draw_chart_and_percentages",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_chart_height"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_chart_height",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -15973,9 +15647,9 @@
       "source_file": "app/services/statistic_prints/employment_status_page.rb",
       "source_location": "L62",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_employment_status_page_employmentstatuspage_draw_chart",
-      "target": "statistic_prints_employment_status_page_employmentstatuspage_chart_height"
+      "target": "statistic_prints_employment_status_page_employmentstatuspage_chart_height",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16205,9 +15879,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistic_prints_single_series_bar_chart_rb",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16215,9 +15889,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16225,9 +15899,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_initialize"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16235,9 +15909,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L32",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_plot_top"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_plot_top",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16245,9 +15919,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_plot_bottom"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_plot_bottom",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16255,9 +15929,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_plot_height"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_plot_height",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16265,9 +15939,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L35",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_content_width"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_content_width",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16275,9 +15949,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_content_x"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_content_x",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16285,9 +15959,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_group_width"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_group_width",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16295,9 +15969,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L38",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_max_value"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_max_value",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16305,9 +15979,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_group"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_group",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16315,9 +15989,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_bar"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_bar",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16325,9 +15999,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L54",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_value"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_value",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16335,9 +16009,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L62",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_value_label"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_value_label",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16345,9 +16019,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L68",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_label"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_label",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16356,9 +16030,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L27",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_group"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_group",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16367,9 +16041,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L43",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_group",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_bar"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_bar",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16378,9 +16052,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L44",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_group",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_label"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_label",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16389,9 +16063,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L51",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_bar",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_value"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_value",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16400,9 +16074,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L57",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_value",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_value_label"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_value_label",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16449,46 +16123,6 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "statistic_prints_report_pdf_reportpdf",
-      "target": "statistic_prints_report_pdf_reportpdf_draw_legend",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L41",
-      "weight": 1.0,
-      "source": "statistic_prints_report_pdf_reportpdf",
-      "target": "statistic_prints_report_pdf_reportpdf_draw_content_pages",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L51",
-      "weight": 1.0,
-      "source": "statistic_prints_report_pdf_reportpdf",
-      "target": "statistic_prints_report_pdf_reportpdf_draw_province_sections",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L61",
-      "weight": 1.0,
-      "source": "statistic_prints_report_pdf_reportpdf",
-      "target": "statistic_prints_report_pdf_reportpdf_province_form",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/report_pdf.rb",
       "source_location": "L23",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -16526,61 +16160,6 @@
       "confidence_score": 1.0,
       "source": "statistic_prints_report_pdf_reportpdf_call",
       "target": "statistic_prints_report_pdf_reportpdf_register_fonts"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "statistic_prints_report_pdf_reportpdf_call",
-      "target": "statistic_prints_report_pdf_reportpdf_draw_legend",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "statistic_prints_report_pdf_reportpdf_call",
-      "target": "statistic_prints_report_pdf_reportpdf_draw_content_pages",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L28",
-      "weight": 1.0,
-      "source": "statistic_prints_report_pdf_reportpdf_call",
-      "target": "statistic_prints_report_pdf_reportpdf_draw_province_sections",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L57",
-      "weight": 1.0,
-      "source": "statistic_prints_report_pdf_reportpdf_draw_province_sections",
-      "target": "statistic_prints_report_pdf_reportpdf_draw_content_pages",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/report_pdf.rb",
-      "source_location": "L57",
-      "weight": 1.0,
-      "source": "statistic_prints_report_pdf_reportpdf_draw_province_sections",
-      "target": "statistic_prints_report_pdf_reportpdf_province_form",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16648,9 +16227,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistic_prints_nationality_gender_page_rb",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16658,9 +16237,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16668,9 +16247,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_initialize"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16678,9 +16257,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_heading"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_heading",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16688,9 +16267,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_message"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_message",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16698,9 +16277,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_columns"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_columns",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16708,9 +16287,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L51",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_sesso_table"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_sesso_table",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16718,9 +16297,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L67",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_nazionalita_table"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_nazionalita_table",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16728,9 +16307,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L83",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_row_for"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_row_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16738,9 +16317,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L87",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_charts"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_charts",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16748,9 +16327,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L97",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_sesso_chart"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_sesso_chart",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16758,9 +16337,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L104",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_nazionalita_chart"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_nazionalita_chart",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16768,9 +16347,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L111",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_sesso_width"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_sesso_width",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16778,9 +16357,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L112",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_nazionalita_width"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_nazionalita_width",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16788,9 +16367,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L113",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_column_gap"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_column_gap",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -16798,9 +16377,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L115",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_section_gap"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_section_gap",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16809,9 +16388,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_heading"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_heading",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16820,9 +16399,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_message"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_message",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16831,9 +16410,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_columns"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_columns",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16842,9 +16421,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L57",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_sesso_table",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16853,9 +16432,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L73",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_nazionalita_table",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16864,9 +16443,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L98",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_sesso_chart",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16875,9 +16454,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L105",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_nazionalita_chart",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16886,9 +16465,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L55",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_sesso_table",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_message"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_message",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16897,9 +16476,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L71",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_nazionalita_table",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_message"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_message",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16908,9 +16487,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L45",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_columns",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_sesso_table"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_sesso_table",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16919,9 +16498,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L46",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_columns",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_nazionalita_table"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_nazionalita_table",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16930,9 +16509,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L48",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_columns",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_charts"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_charts",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16941,9 +16520,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L59",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_sesso_table",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_row_for"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_row_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16963,9 +16542,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L75",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_nazionalita_table",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_row_for"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_row_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -16996,9 +16575,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L93",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_charts",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_sesso_chart"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_sesso_chart",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -17007,9 +16586,9 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L94",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_charts",
-      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_nazionalita_chart"
+      "target": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_nazionalita_chart",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -21045,16 +20624,6 @@
       "target": "models_zoning_zoning"
     },
     {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/models/zoning.rb",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "models_zoning_zoning",
-      "target": "models_zoning_zoning_regionale",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/models/import.rb",
@@ -21163,66 +20732,6 @@
       "confidence_score": 1.0,
       "source": "controllers_pages_controller_pagescontroller",
       "target": "controllers_pages_controller_pagescontroller_credits"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/statistic_with_integrations_prints_controller.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_controllers_statistic_with_integrations_prints_controller_rb",
-      "target": "controllers_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/statistic_with_integrations_prints_controller.rb",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "controllers_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller",
-      "target": "controllers_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller_index",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/statistic_with_integrations_prints_controller.rb",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "controllers_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller",
-      "target": "controllers_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller_set_zonings",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/statistic_with_integrations_prints_controller.rb",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "controllers_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller",
-      "target": "controllers_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller_total_members_params",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/statistic_with_integrations_prints_controller.rb",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "controllers_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller",
-      "target": "controllers_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller_render_pdf",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/statistic_with_integrations_prints_controller.rb",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "controllers_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller",
-      "target": "controllers_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller_pdf_filename",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -26805,5 +26314,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "5a97fe36b0290f7d332d98d8d386e5754844fd9f"
+  "built_at_commit": "306f3f2410ae33d151a43f6b6e8bc94a9ca3c0a9"
 }

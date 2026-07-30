@@ -69,12 +69,11 @@ module Statistics
     end
 
     def regionale?
-      @zoning.codice_azzonamento.to_s.length == 1
+      @zoning.regionale?
     end
 
     def province_zonings
-      Zoning.where("codice_azzonamento LIKE ? AND codice_azzonamento != ?", "#{@zoning.codice_azzonamento}%",
-        @zoning.codice_azzonamento).order(:codice_azzonamento)
+      Zoning.comprensori_di(@zoning)
     end
 
     def categorie

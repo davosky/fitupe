@@ -1,0 +1,55 @@
+<% content_for :title, "Stampa Statistiche Con Integrazioni" %>
+<div class="mt-5 mb-3">
+  <h3 class="text-primary">
+    <i class="fw-bold">
+      <%= image_tag("statistic_prints/statistic-print-logo.svg", class: "img-fluid me-3", size: "58x58", alt: "Stampa Statistiche Con Integrazioni") %>
+      Stampa Statistiche Con Integrazioni
+    </i>
+  </h3>
+</div>
+<hr class="text-primary mb-1"/>
+<div id="stampa-statistiche-con-integrazioni" class="p-3 mt-2">
+  <%= form_with model: @total_members_form, scope: :total_members_form, url: statistic_with_integrations_prints_path,
+    method: :get, local: true do |f| %>
+    <div class="row g-3 align-items-end mb-3">
+      <div class="col-md-4">
+        <%= f.label :zoning_id, "Scegli l'Azzonamento", class: "form-label fst-italic text-secondary" %>
+        <%= f.collection_select :zoning_id, @zonings, :id, :descrizione_azzonamento,
+          { prompt: "Seleziona un azzonamento" }, class: "form-select", required: true %>
+      </div>
+      <div class="col-md-3">
+        <%= f.label :anno, "Scegli l'Anno", class: "form-label fst-italic text-secondary" %>
+        <%= f.text_field :anno, class: "form-control", placeholder: "es. 2026", required: true %>
+      </div>
+      <div class="col-md-3">
+        <%= f.label :mese, "Scegli il Mese", class: "form-label fst-italic text-secondary" %>
+        <%= f.select :mese, ImportForm::MESI, { prompt: "Seleziona un mese" },
+          { class: "form-select", required: true } %>
+      </div>
+      <div class="col-md-2 d-grid">
+        <%= f.submit "Calcola", class: "btn btn-primary shadow" %>
+      </div>
+    </div>
+  <% end %>
+  <% if @total_members_form.valid? %>
+    <div class="row mt-5">
+      <hr class="text-primary"/>
+      <div class="col-6 offset-3">
+        <div class="card border p-3 m-2 shadow-sm">
+          <h4>
+            <span class="p-2 fw-bold fst-italic">
+              <i class="bi bi-file-earmark-pdf text-danger me-2"></i>
+              <%= @total_members_form.zoning.descrizione_azzonamento %> &mdash; <%= @total_members_form.mese %> <%= @total_members_form.anno %>
+            </span>
+          </h4>
+          <hr class="mt-2 mb-2"/>
+          <%= link_to statistic_with_integrations_prints_path(total_members_form: {
+        zoning_id: @total_members_form.zoning_id, anno: @total_members_form.anno, mese: @total_members_form.mese
+      }, format: :pdf), class: "btn btn-danger shadow", target: "_blank", rel: "noopener" do %>
+            <i class="bi bi-printer me-2"></i>Genera PDF
+          <% end %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

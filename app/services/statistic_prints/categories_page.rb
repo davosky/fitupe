@@ -5,13 +5,14 @@ module StatisticPrints
 
     def self.draw(...) = new(...).draw
 
-    def initialize(pdf, form:)
+    def initialize(pdf, form:, comparison_service: Statistics::TotalMembersComparison)
       @pdf = pdf
       @form = form
+      @comparison_service = comparison_service
     end
 
     def draw
-      result = Statistics::TotalMembersComparison.call(zoning: @form.zoning, anno: @form.anno, mese: @form.mese)
+      result = @comparison_service.call(zoning: @form.zoning, anno: @form.anno, mese: @form.mese)
       @pdf.fill_color "000000"
       draw_heading(result.zoning)
       return draw_empty(result) if result.categorie.blank?

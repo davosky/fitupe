@@ -5,7 +5,7 @@ class IntegrationFlcsController < ApplicationController
 
   def index
     authorize IntegrationFlc
-    @integration_flcs = policy_scope(IntegrationFlc).includes(:zoning).order(year: :desc, month: :desc)
+    @integration_flcs = policy_scope(IntegrationFlc).includes(:zoning).order(zoning_id: :asc, year: :desc)
   end
 
   def show
