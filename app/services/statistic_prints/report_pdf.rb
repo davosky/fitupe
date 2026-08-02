@@ -6,8 +6,8 @@ module StatisticPrints
     CONTENT_MARGIN_LR_MM = 15
 
     CONTENT_PAGES = [
-      RegionalPage, CategoriesPage, EmploymentStatusPage, MembershipTypesPage, NationalityGenderPage,
-      WorkStatusAgePage
+      RegionalPage, CategoriesPage, EmploymentStatusPage, MembershipTypesPage, ProvisionalRevocationsPage,
+      NationalityGenderPage, WorkStatusAgePage
     ].freeze
 
     def self.call(...) = new(...).call
@@ -24,8 +24,9 @@ module StatisticPrints
         register_fonts(pdf)
         pdf.canvas { CoverPage.draw(pdf, form: @form) }
         draw_legend(pdf)
-        draw_content_pages(pdf, @form)
+        draw_zoning_section(pdf, @form.zoning, @form)
         draw_province_sections(pdf)
+        draw_back_cover(pdf)
       end
     end
 
@@ -38,6 +39,14 @@ module StatisticPrints
       LegendPage.draw(pdf, form: @form)
     end
 
+    # Una pagina divisoria con il nome dell'azzonamento, seguita dal set
+    # completo di pagine di contenuto per quell'azzonamento.
+    def draw_zoning_section(pdf, zoning, form)
+      pdf.start_new_page
+      ZoningDividerPage.draw(pdf, zoning: zoning, mese: @form.mese, anno: @form.anno)
+      draw_content_pages(pdf, form)
+    end
+
     def draw_content_pages(pdf, form)
       CONTENT_PAGES.each do |page_class|
         pdf.start_new_page
@@ -45,17 +54,24 @@ module StatisticPrints
       end
     end
 
-    # Quando l'azzonamento scelto è regionale, ripete l'intero set di pagine
-    # per ciascun comprensorio (provincia), interponendo una pagina divisoria
-    # con il nome dell'azzonamento e il periodo scelto.
+    # Quando l'azzonamento scelto è regionale, ripete l'intera sezione
+    # (pagina divisoria + set di pagine di contenuto) per ciascun comprensorio.
     def draw_province_sections(pdf)
       return unless @form.zoning.regionale?
 
       Zoning.comprensori_di(@form.zoning).each do |zoning|
-        pdf.start_new_page
-        ZoningDividerPage.draw(pdf, zoning: zoning, mese: @form.mese, anno: @form.anno)
-        draw_content_pages(pdf, province_form(zoning))
+        draw_zoning_section(pdf, zoning, province_form(zoning))
       end
+    end
+
+    # Chiude il fascicolo con la controcopertina. Se il numero di pagine fin
+    # qui è dispari, inserisce prima una pagina bianca: così l'interno del
+    # fascicolo (esclusa la controcopertina) ha un numero di pagine pari,
+    # pronto per la stampa fisica fronte/retro.
+    def draw_back_cover(pdf)
+      pdf.start_new_page if pdf.page_count.odd?
+      pdf.start_new_page
+      pdf.canvas { BackCoverPage.draw(pdf) }
     end
 
     def province_form(zoning)

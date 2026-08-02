@@ -1220,8 +1220,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/report_pdf.rb": {
-    "mtime": 1785661845.730561,
-    "ast_hash": "c9a5219e491841ce4788efd75b690235",
+    "mtime": 1785659751.218894,
+    "ast_hash": "667ecf9c89e705db80e43710de0a0c90",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/cover_page.rb": {
@@ -1250,8 +1250,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistic_prints/report_pdf_spec.rb": {
-    "mtime": 1785661880.3772025,
-    "ast_hash": "b36840bb1eb7986911f4b9a60e2c49a6",
+    "mtime": 1785659805.23874,
+    "ast_hash": "63e0af1ee60fb528fadfd613b62c1c6a",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistic_prints/legend_content_spec.rb": {
@@ -1472,16 +1472,6 @@
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/back_cover_page.rb": {
     "mtime": 1785659738.821351,
     "ast_hash": "0d46f4c7c82ee162c9a4001a96b9b822",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/statistic_prints/provisional_revocations_page_spec.rb": {
-    "mtime": 1785661913.1255147,
-    "ast_hash": "b9fdf36706f23310d3edc9abbea76114",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_prints/provisional_revocations_page.rb": {
-    "mtime": 1785661836.2197928,
-    "ast_hash": "0f40bfc2a2914f66e0bfe93bdc585458",
     "semantic_hash": ""
   }
 }

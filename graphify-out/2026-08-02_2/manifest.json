@@ -1210,8 +1210,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/bar_chart.rb": {
-    "mtime": 1785660981.952965,
-    "ast_hash": "601ecd6ebc9ecf7cb729557f46c2d13d",
+    "mtime": 1785659765.717143,
+    "ast_hash": "5fe1ad73050b76d5ca54a2652dcf462c",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/comparison_table.rb": {
@@ -1220,8 +1220,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/report_pdf.rb": {
-    "mtime": 1785661845.730561,
-    "ast_hash": "c9a5219e491841ce4788efd75b690235",
+    "mtime": 1785659751.218894,
+    "ast_hash": "667ecf9c89e705db80e43710de0a0c90",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/cover_page.rb": {
@@ -1250,8 +1250,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistic_prints/report_pdf_spec.rb": {
-    "mtime": 1785661880.3772025,
-    "ast_hash": "b36840bb1eb7986911f4b9a60e2c49a6",
+    "mtime": 1785659805.23874,
+    "ast_hash": "63e0af1ee60fb528fadfd613b62c1c6a",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistic_prints/legend_content_spec.rb": {
@@ -1420,8 +1420,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/single_series_bar_chart.rb": {
-    "mtime": 1785661000.8255973,
-    "ast_hash": "a9fbf1538bec4490dced862e00c611db",
+    "mtime": 1785659780.7221763,
+    "ast_hash": "0af9ea68dcb5e3ccb121233d51d12a85",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/nationality_gender_page.rb": {
@@ -1445,8 +1445,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/zoning_divider_page.rb": {
-    "mtime": 1785661019.0933514,
-    "ast_hash": "5dfad12de4ca2bd78b9836451aff682e",
+    "mtime": 1785659732.701178,
+    "ast_hash": "7851770d7738d695804eeaa95f2187e8",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/controllers/statistic_with_integrations_prints_controller.rb": {
@@ -1454,9 +1454,39 @@
     "ast_hash": "e740bb870a7ede15553285ff16500268",
     "semantic_hash": ""
   },
+  "/home/davo/Programmazione/fitupe/app/assets/images/statistic_prints/StemmaDiGorizia.svg": {
+    "mtime": 1785591969.8102198,
+    "ast_hash": "24f820e94d8e36c1738174eb02beb014",
+    "semantic_hash": ""
+  },
+  "/home/davo/Programmazione/fitupe/app/assets/images/statistic_prints/ts.png": {
+    "mtime": 1785592148.589795,
+    "ast_hash": "ea1e0302bbbcb2587e7c65468db0462f",
+    "semantic_hash": ""
+  },
+  "/home/davo/Programmazione/fitupe/app/assets/images/statistic_prints/StemmaDiPordenone.svg": {
+    "mtime": 1785592055.7668502,
+    "ast_hash": "af92138c8494fab0f54b8c4f2c0a3a79",
+    "semantic_hash": ""
+  },
+  "/home/davo/Programmazione/fitupe/app/assets/images/statistic_prints/pn.png": {
+    "mtime": 1785592051.8939254,
+    "ast_hash": "1312e5148272c9c126639e0afc7db723",
+    "semantic_hash": ""
+  },
+  "/home/davo/Programmazione/fitupe/app/assets/images/statistic_prints/StemmaDiUdine.svg": {
+    "mtime": 1785592245.8267918,
+    "ast_hash": "e05dc0ff0a4cde48a62f96f750673111",
+    "semantic_hash": ""
+  },
   "/home/davo/Programmazione/fitupe/app/assets/images/statistic_prints/fvg.png": {
     "mtime": 1785591807.1266418,
     "ast_hash": "575a447f7f9c5c631eaf9eac9ee34bc8",
+    "semantic_hash": ""
+  },
+  "/home/davo/Programmazione/fitupe/app/assets/images/statistic_prints/ud.png": {
+    "mtime": 1785592240.51552,
+    "ast_hash": "d15eabd22980ed6e7822d323283b4cb4",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/assets/images/statistic_prints/backcover_background.png": {
@@ -1469,19 +1499,24 @@
     "ast_hash": "4f53c7ac6e1a2cabda7c667625cf0a33",
     "semantic_hash": ""
   },
+  "/home/davo/Programmazione/fitupe/app/assets/images/statistic_prints/go.png": {
+    "mtime": 1785591966.132377,
+    "ast_hash": "1d86e87ab3e678ee5c4e78c1a94d50b5",
+    "semantic_hash": ""
+  },
+  "/home/davo/Programmazione/fitupe/app/assets/images/statistic_prints/StemmaDiTrieste.svg": {
+    "mtime": 1785592152.3756196,
+    "ast_hash": "1ebb5247aeb7850b03da0e22c04ff14f",
+    "semantic_hash": ""
+  },
+  "/home/davo/Programmazione/fitupe/app/assets/images/statistic_prints/StemmaDelFriuliVeneziaGiulia.svg": {
+    "mtime": 1785591830.050685,
+    "ast_hash": "49a80b58c3c219b51c99d66296177d21",
+    "semantic_hash": ""
+  },
   "/home/davo/Programmazione/fitupe/app/services/statistic_prints/back_cover_page.rb": {
     "mtime": 1785659738.821351,
     "ast_hash": "0d46f4c7c82ee162c9a4001a96b9b822",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/statistic_prints/provisional_revocations_page_spec.rb": {
-    "mtime": 1785661913.1255147,
-    "ast_hash": "b9fdf36706f23310d3edc9abbea76114",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_prints/provisional_revocations_page.rb": {
-    "mtime": 1785661836.2197928,
-    "ast_hash": "0f40bfc2a2914f66e0bfe93bdc585458",
     "semantic_hash": ""
   }
 }

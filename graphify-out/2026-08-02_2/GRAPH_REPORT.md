@@ -1,12 +1,12 @@
 # Graph Report - fitupe  (2026-08-02)
 
 ## Corpus Check
-- 221 files · ~117,693 words
+- 219 files · ~362,012 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1326 nodes · 1481 edges · 220 communities (121 shown, 99 thin omitted)
-- Extraction: 91% EXTRACTED · 9% INFERRED · 0% AMBIGUOUS · INFERRED: 136 edges (avg confidence: 0.82)
+- 1306 nodes · 1447 edges · 220 communities (119 shown, 101 thin omitted)
+- Extraction: 91% EXTRACTED · 9% INFERRED · 0% AMBIGUOUS · INFERRED: 131 edges (avg confidence: 0.82)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
@@ -144,22 +144,23 @@
 - [[_COMMUNITY_Community 205|Community 205]]
 - [[_COMMUNITY_Community 206|Community 206]]
 - [[_COMMUNITY_Community 207|Community 207]]
+- [[_COMMUNITY_Community 208|Community 208]]
 - [[_COMMUNITY_Community 209|Community 209]]
 - [[_COMMUNITY_Community 210|Community 210]]
 - [[_COMMUNITY_Community 215|Community 215]]
 - [[_COMMUNITY_Community 216|Community 216]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `count()` - 26 edges
+1. `count()` - 25 edges
 2. `TotalMembersComparison` - 23 edges
-3. `BarChart` - 17 edges
-4. `ZoningDividerPage` - 17 edges
-5. `PieChart` - 17 edges
-6. `SingleSeriesBarChart` - 16 edges
-7. `NationalityGenderPage` - 16 edges
-8. `WorkStatusAgePage` - 15 edges
-9. `ProvisionalRevocationsPage` - 15 edges
-10. `EmploymentStatusPage` - 15 edges
+3. `ZoningDividerPage` - 17 edges
+4. `PieChart` - 17 edges
+5. `BarChart` - 16 edges
+6. `NationalityGenderPage` - 16 edges
+7. `WorkStatusAgePage` - 15 edges
+8. `EmploymentStatusPage` - 15 edges
+9. `SingleSeriesBarChart` - 15 edges
+10. `CLAUDE.md — Guida per Claude Code` - 15 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Italian Devise Translations` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
@@ -173,7 +174,7 @@
 - `README Tech Stack Section` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
   README.md → CLAUDE.md
 
-## Communities (220 total, 99 thin omitted)
+## Communities (220 total, 101 thin omitted)
 
 ### Community 0 - "Modello User e Autenticazione"
 Cohesion: 0.13
@@ -243,10 +244,6 @@ Nodes (4): Copyright (c) 2026, Davo Davosky - The Davosky Connection, English, I
 Cohesion: 0.20
 Nodes (3): SchemaSyncService, AddLockableToUsers, AddCategoriaToImports
 
-### Community 81 - "Community 81"
-Cohesion: 0.15
-Nodes (3): CategoriesPage, success?(), TotalMembersComparison
-
 ### Community 119 - "Community 119"
 Cohesion: 0.08
 Nodes (25): `build_result` *(privato)*, `build_row` *(privato)*, `call`, `categorie`, `attivi_pensionati`, `tipologie_iscrizione`, `tipologie_delega`, `nazionalita`, `sesso`, `provvisorie_revoche`, `status_lavorativo`, `fasce_eta` *(privati)*, code:ruby (module Statistics), code:ruby (def categorie), code:ruby (def missing_data_result(missing_years)), code:ruby (Result = Struct.new(:zoning, :mese, :anno, :anno_precedente,) (+17 more)
@@ -256,12 +253,12 @@ Cohesion: 0.10
 Nodes (3): IntegrationFlcUploadsController, ComparisonService, success?()
 
 ### Community 137 - "Community 137"
-Cohesion: 0.06
-Nodes (4): MembershipTypesPage, RegionalPage, WorkStatusAgePage, TotalMembersComparison
+Cohesion: 0.07
+Nodes (5): CategoriesPage, MembershipTypesPage, success?(), TotalMembersComparison, TotalMembersComparison
 
 ### Community 147 - "Community 147"
-Cohesion: 0.14
-Nodes (11): attachment_blocks(), blocks(), blocks_for(), inline(), inline_node(), link_node(), list_blocks(), list_item_block() (+3 more)
+Cohesion: 0.32
+Nodes (10): attachment_blocks(), blocks(), blocks_for(), inline(), inline_node(), link_node(), list_blocks(), list_item_block() (+2 more)
 
 ### Community 150 - "Community 150"
 Cohesion: 0.40
@@ -320,7 +317,7 @@ Nodes (12): `call`, `build_row`, `counts`, `scope` *(privati)*, code:ruby (modul
 ## Knowledge Gaps
 - **252 isolated node(s):** `name`, `private`, `esbuild`, `brace-expansion`, `build` (+247 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **99 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **101 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -329,12 +326,12 @@ _Questions this graph is uniquely positioned to answer:_
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
 - **What is the exact relationship between `Devise.setup configuration (username auth)` and `Admin namespace routes (users)`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
-- **Why does `count()` connect `Community 80` to `Community 130`, `Stack Tecnico (CLAUDE.md)`, `Community 137`, `Community 141`, `Community 145`, `Community 153`, `Community 155`, `Community 158`, `Community 161`, `Community 175`, `Community 186`, `Community 187`, `Community 189`, `Community 203`, `Community 204`, `Community 205`, `Community 206`, `Community 207`, `Community 209`?**
-  _High betweenness centrality (0.080) - this node is a cross-community bridge._
-- **Why does `TotalMembersComparison` connect `Community 137` to `Community 81`, `Community 202`, `Community 141`, `Community 207`?**
-  _High betweenness centrality (0.028) - this node is a cross-community bridge._
-- **Are the 25 inferred relationships involving `count()` (e.g. with `.row_for()` and `.row_for()`) actually correct?**
-  _`count()` has 25 INFERRED edges - model-reasoned connections that need verification._
+- **Why does `count()` connect `Community 208` to `Community 130`, `Stack Tecnico (CLAUDE.md)`, `Community 137`, `Community 145`, `Community 153`, `Community 155`, `Community 158`, `Community 161`, `Community 175`, `Community 185`, `Community 187`, `Community 189`, `Community 203`, `Community 204`, `Community 205`, `Community 206`, `Community 207`, `Community 80`, `Community 209`?**
+  _High betweenness centrality (0.062) - this node is a cross-community bridge._
+- **Why does `TotalMembersComparison` connect `Community 137` to `Community 81`, `Community 202`?**
+  _High betweenness centrality (0.030) - this node is a cross-community bridge._
+- **Are the 24 inferred relationships involving `count()` (e.g. with `.row_for()` and `.draw_label()`) actually correct?**
+  _`count()` has 24 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `name`, `private`, `esbuild` to the rest of the system?**
   _255 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Modello User e Autenticazione` be split into smaller, more focused modules?**

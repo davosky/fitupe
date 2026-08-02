@@ -7,7 +7,8 @@ RSpec.describe StatisticPrints::ReportPdf do
   it "non inserisce la pagina Legenda quando non esiste un record corrispondente" do
     pdf = described_class.call(form: form)
 
-    expect(pdf.page_count).to eq(7)
+    # copertina + divisoria + 7 pagine di contenuto (9, dispari) + bianca + controcopertina
+    expect(pdf.page_count).to eq(11)
   end
 
   it "inserisce la pagina Legenda subito dopo la copertina quando esiste un record corrispondente" do
@@ -15,7 +16,8 @@ RSpec.describe StatisticPrints::ReportPdf do
 
     pdf = described_class.call(form: form)
 
-    expect(pdf.page_count).to eq(8)
+    # copertina + legenda + divisoria + 7 pagine (10, pari) + controcopertina
+    expect(pdf.page_count).to eq(11)
   end
 
   it "ignora una legenda di un altro mese" do
@@ -23,7 +25,7 @@ RSpec.describe StatisticPrints::ReportPdf do
 
     pdf = described_class.call(form: form)
 
-    expect(pdf.page_count).to eq(7)
+    expect(pdf.page_count).to eq(11)
   end
 
   it "genera il PDF anche con una legenda che contiene grassetto, elenchi e una linea orizzontale" do
@@ -37,7 +39,8 @@ RSpec.describe StatisticPrints::ReportPdf do
 
     pdf = described_class.call(form: form)
 
-    expect(pdf.page_count).to eq(8)
+    # copertina + legenda + divisoria + 7 pagine (10, pari) + controcopertina
+    expect(pdf.page_count).to eq(11)
   end
 
   context "quando l'azzonamento scelto è regionale" do
@@ -48,11 +51,12 @@ RSpec.describe StatisticPrints::ReportPdf do
       create(:zoning, codice_azzonamento: "GC", descrizione_azzonamento: "Pordenone")
     end
 
-    it "ripete l'intero set di pagine per ciascun comprensorio, con una pagina divisoria per ognuno" do
+    it "ripete l'intera sezione per ciascun comprensorio, con una pagina divisoria per ognuno" do
       pdf = described_class.call(form: form)
 
-      # copertina + 6 pagine regionali + 2 comprensori * (1 divisoria + 6 pagine)
-      expect(pdf.page_count).to eq(1 + 6 + (2 * 7))
+      # copertina + divisoria regionale + 7 pagine regionali + 2 comprensori * (1 divisoria + 7 pagine) = 25
+      # (dispari) + bianca + controcopertina
+      expect(pdf.page_count).to eq(1 + 8 + (2 * 8) + 2)
     end
 
     it "non ripete nulla per un azzonamento provinciale" do
@@ -61,7 +65,7 @@ RSpec.describe StatisticPrints::ReportPdf do
 
       pdf = described_class.call(form: provincia_form)
 
-      expect(pdf.page_count).to eq(7)
+      expect(pdf.page_count).to eq(11)
     end
   end
 
@@ -72,7 +76,7 @@ RSpec.describe StatisticPrints::ReportPdf do
 
       pdf = described_class.call(form: form, comparison_service: StatisticWithIntegrations::TotalMembersComparison)
 
-      expect(pdf.page_count).to eq(7)
+      expect(pdf.page_count).to eq(11)
     end
 
     it "invoca davvero il comparison_service passato, non quello di default" do

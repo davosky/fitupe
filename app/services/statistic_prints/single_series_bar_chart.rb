@@ -7,9 +7,14 @@ module StatisticPrints
     INFO = "75CAEB"
     DARK = "555555"
     PALETTE = [ WARNING, DANGER, SUCCESS, PRIMARY, INFO, DARK ].freeze
-    LABEL_HEIGHT = 16
+    AXIS_COLOR = "999999"
+    LABEL_COLOR = "666666"
+    LABEL_HEIGHT = 20
+    LABEL_GAP = 4
     VALUE_HEIGHT = 12
     MAX_GROUP_WIDTH = 90
+    BASELINE_HEIGHT = 2
+    AXIS_OVERHANG = 5 * 72 / 25.4
 
     def self.draw(...) = new(...).draw
 
@@ -25,6 +30,7 @@ module StatisticPrints
 
     def draw
       @labels.each_index { |index| draw_group(index) }
+      draw_axis_line
     end
 
     private
@@ -46,8 +52,9 @@ module StatisticPrints
 
     def draw_bar(x, width, value, color, index)
       bar_height = max_value.zero? ? 0 : (value.to_f / max_value) * plot_height
+      drawn_height = [ bar_height, BASELINE_HEIGHT ].max
       @pdf.fill_color color
-      @pdf.fill_rectangle [ x, plot_bottom + bar_height ], width, bar_height
+      @pdf.fill_rectangle [ x, plot_bottom + drawn_height ], width, drawn_height
       draw_value(x, width, bar_height, index)
     end
 
@@ -67,11 +74,16 @@ module StatisticPrints
 
     def draw_label(index)
       x = content_x + (index * group_width)
-      @pdf.fill_color "333333"
-      @pdf.font("AsapCondensed", size: 7) do
-        @pdf.text_box @labels[index], at: [ x, plot_bottom ], width: group_width, align: :center,
+      @pdf.fill_color LABEL_COLOR
+      @pdf.font("AsapCondensed", style: :italic, size: 7) do
+        @pdf.text_box @labels[index], at: [ x, plot_bottom - LABEL_GAP ], width: group_width, align: :center,
           overflow: :shrink_to_fit, min_font_size: 5, single_line: true
       end
+    end
+
+    def draw_axis_line
+      @pdf.stroke_color AXIS_COLOR
+      @pdf.stroke_line [ content_x - AXIS_OVERHANG, plot_bottom ], [ content_x + content_width + AXIS_OVERHANG, plot_bottom ]
     end
   end
 end

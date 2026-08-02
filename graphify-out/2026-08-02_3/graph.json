@@ -580,24 +580,6 @@
       "norm_label": "build_pdf()"
     },
     {
-      "label": "provisional_revocations_page_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/services/statistic_prints/provisional_revocations_page_spec.rb",
-      "source_location": "L1",
-      "id": "spec_services_statistic_prints_provisional_revocations_page_spec_rb",
-      "community": 208,
-      "norm_label": "provisional_revocations_page_spec.rb"
-    },
-    {
-      "label": "build_pdf()",
-      "file_type": "code",
-      "source_file": "spec/services/statistic_prints/provisional_revocations_page_spec.rb",
-      "source_location": "L7",
-      "id": "statistic_prints_provisional_revocations_page_spec_build_pdf",
-      "community": 208,
-      "norm_label": "build_pdf()"
-    },
-    {
       "label": "report_pdf_spec.rb",
       "file_type": "code",
       "source_file": "spec/services/statistic_prints/report_pdf_spec.rb",
@@ -1332,7 +1314,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L1",
       "id": "app_policies_zoning_policy_rb",
-      "community": 1,
+      "community": 141,
       "norm_label": "zoning_policy.rb"
     },
     {
@@ -1341,7 +1323,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L1",
       "id": "policies_zoning_policy_zoningpolicy",
-      "community": 1,
+      "community": 141,
       "norm_label": "zoningpolicy"
     },
     {
@@ -1350,7 +1332,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L2",
       "id": "policies_zoning_policy_zoningpolicy_index",
-      "community": 1,
+      "community": 141,
       "norm_label": ".index?()"
     },
     {
@@ -1359,7 +1341,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L3",
       "id": "policies_zoning_policy_zoningpolicy_show",
-      "community": 1,
+      "community": 141,
       "norm_label": ".show?()"
     },
     {
@@ -1368,7 +1350,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L4",
       "id": "policies_zoning_policy_zoningpolicy_create",
-      "community": 1,
+      "community": 141,
       "norm_label": ".create?()"
     },
     {
@@ -1377,7 +1359,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L5",
       "id": "policies_zoning_policy_zoningpolicy_update",
-      "community": 1,
+      "community": 141,
       "norm_label": ".update?()"
     },
     {
@@ -1386,7 +1368,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L6",
       "id": "policies_zoning_policy_zoningpolicy_confirm_destroy",
-      "community": 1,
+      "community": 141,
       "norm_label": ".confirm_destroy?()"
     },
     {
@@ -1395,7 +1377,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L7",
       "id": "policies_zoning_policy_zoningpolicy_destroy",
-      "community": 1,
+      "community": 141,
       "norm_label": ".destroy?()"
     },
     {
@@ -1404,7 +1386,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L9",
       "id": "policies_zoning_policy_scope",
-      "community": 1,
+      "community": 141,
       "norm_label": "scope"
     },
     {
@@ -1413,7 +1395,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L10",
       "id": "policies_zoning_policy_scope_resolve",
-      "community": 1,
+      "community": 141,
       "norm_label": ".resolve()"
     },
     {
@@ -1422,7 +1404,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L17",
       "id": "policies_zoning_policy_zoningpolicy_admin_or_manager",
-      "community": 1,
+      "community": 141,
       "norm_label": ".admin_or_manager?()"
     },
     {
@@ -1431,7 +1413,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L1",
       "id": "app_policies_integration_flc_policy_rb",
-      "community": 185,
+      "community": 1,
       "norm_label": "integration_flc_policy.rb"
     },
     {
@@ -1440,7 +1422,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L1",
       "id": "policies_integration_flc_policy_integrationflcpolicy",
-      "community": 185,
+      "community": 1,
       "norm_label": "integrationflcpolicy"
     },
     {
@@ -1449,7 +1431,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L2",
       "id": "policies_integration_flc_policy_integrationflcpolicy_index",
-      "community": 185,
+      "community": 1,
       "norm_label": ".index?()"
     },
     {
@@ -1458,7 +1440,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L3",
       "id": "policies_integration_flc_policy_integrationflcpolicy_show",
-      "community": 185,
+      "community": 1,
       "norm_label": ".show?()"
     },
     {
@@ -1467,7 +1449,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L4",
       "id": "policies_integration_flc_policy_integrationflcpolicy_create",
-      "community": 185,
+      "community": 1,
       "norm_label": ".create?()"
     },
     {
@@ -1476,7 +1458,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L5",
       "id": "policies_integration_flc_policy_integrationflcpolicy_update",
-      "community": 185,
+      "community": 1,
       "norm_label": ".update?()"
     },
     {
@@ -1485,7 +1467,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L6",
       "id": "policies_integration_flc_policy_integrationflcpolicy_confirm_destroy",
-      "community": 185,
+      "community": 1,
       "norm_label": ".confirm_destroy?()"
     },
     {
@@ -1494,7 +1476,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L7",
       "id": "policies_integration_flc_policy_integrationflcpolicy_destroy",
-      "community": 185,
+      "community": 1,
       "norm_label": ".destroy?()"
     },
     {
@@ -1503,7 +1485,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L9",
       "id": "policies_integration_flc_policy_scope",
-      "community": 185,
+      "community": 1,
       "norm_label": "scope"
     },
     {
@@ -1512,7 +1494,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L10",
       "id": "policies_integration_flc_policy_scope_resolve",
-      "community": 185,
+      "community": 1,
       "norm_label": ".resolve()"
     },
     {
@@ -1521,7 +1503,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L17",
       "id": "policies_integration_flc_policy_integrationflcpolicy_admin_or_manager",
-      "community": 185,
+      "community": 1,
       "norm_label": ".admin_or_manager?()"
     },
     {
@@ -2243,150 +2225,6 @@
       "id": "statistic_prints_zoning_divider_page_zoningdividerpage_draw_footer_period",
       "community": 151,
       "norm_label": ".draw_footer_period()"
-    },
-    {
-      "label": "provisional_revocations_page.rb",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L1",
-      "id": "app_services_statistic_prints_provisional_revocations_page_rb",
-      "community": 141,
-      "norm_label": "provisional_revocations_page.rb"
-    },
-    {
-      "label": "ProvisionalRevocationsPage",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L2",
-      "id": "statistic_prints_provisional_revocations_page_provisionalrevocationspage",
-      "community": 141,
-      "norm_label": "provisionalrevocationspage"
-    },
-    {
-      "label": ".draw()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L8",
-      "id": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw",
-      "community": 141,
-      "norm_label": ".draw()"
-    },
-    {
-      "label": ".initialize()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L10",
-      "id": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_initialize",
-      "community": 141,
-      "norm_label": ".initialize()"
-    },
-    {
-      "label": ".draw_heading()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L29",
-      "id": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_heading",
-      "community": 141,
-      "norm_label": ".draw_heading()"
-    },
-    {
-      "label": ".draw_message()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L37",
-      "id": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_message",
-      "community": 141,
-      "norm_label": ".draw_message()"
-    },
-    {
-      "label": ".draw_table()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L41",
-      "id": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_table",
-      "community": 141,
-      "norm_label": ".draw_table()"
-    },
-    {
-      "label": ".row_for()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L48",
-      "id": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_row_for",
-      "community": 141,
-      "norm_label": ".row_for()"
-    },
-    {
-      "label": ".draw_chart_and_percentages()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L52",
-      "id": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_chart_and_percentages",
-      "community": 141,
-      "norm_label": ".draw_chart_and_percentages()"
-    },
-    {
-      "label": ".draw_chart()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L60",
-      "id": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_chart",
-      "community": 141,
-      "norm_label": ".draw_chart()"
-    },
-    {
-      "label": ".draw_percentages()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L67",
-      "id": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_percentages",
-      "community": 141,
-      "norm_label": ".draw_percentages()"
-    },
-    {
-      "label": ".chart_width()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L74",
-      "id": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_chart_width",
-      "community": 141,
-      "norm_label": ".chart_width()"
-    },
-    {
-      "label": ".percentages_width()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L75",
-      "id": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_percentages_width",
-      "community": 141,
-      "norm_label": ".percentages_width()"
-    },
-    {
-      "label": ".column_gap()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L76",
-      "id": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_column_gap",
-      "community": 141,
-      "norm_label": ".column_gap()"
-    },
-    {
-      "label": ".chart_height()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L78",
-      "id": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_chart_height",
-      "community": 141,
-      "norm_label": ".chart_height()"
-    },
-    {
-      "label": ".section_gap()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L80",
-      "id": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_section_gap",
-      "community": 141,
-      "norm_label": ".section_gap()"
     },
     {
       "label": "pie_chart.rb",
@@ -3897,7 +3735,7 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L1",
       "id": "app_services_imports_csv_importer_service_rb",
-      "community": 186,
+      "community": 80,
       "norm_label": "csv_importer_service.rb"
     },
     {
@@ -3906,7 +3744,7 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L6",
       "id": "imports_csv_importer_service_csvimporterservice",
-      "community": 186,
+      "community": 80,
       "norm_label": "csvimporterservice"
     },
     {
@@ -3915,7 +3753,7 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L10",
       "id": "imports_csv_importer_service_csvimporterservice_call",
-      "community": 186,
+      "community": 80,
       "norm_label": ".call()"
     },
     {
@@ -3924,7 +3762,7 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L14",
       "id": "imports_csv_importer_service_csvimporterservice_initialize",
-      "community": 186,
+      "community": 80,
       "norm_label": ".initialize()"
     },
     {
@@ -3933,7 +3771,7 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L40",
       "id": "imports_csv_importer_service_csvimporterservice_build_field_specs",
-      "community": 186,
+      "community": 80,
       "norm_label": ".build_field_specs()"
     },
     {
@@ -3942,7 +3780,7 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L51",
       "id": "imports_csv_importer_service_csvimporterservice_delete_existing_scope",
-      "community": 186,
+      "community": 80,
       "norm_label": ".delete_existing_scope()"
     },
     {
@@ -3951,7 +3789,7 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L56",
       "id": "imports_csv_importer_service_csvimporterservice_copy_rows",
-      "community": 186,
+      "community": 80,
       "norm_label": ".copy_rows()"
     },
     {
@@ -3960,7 +3798,7 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L73",
       "id": "imports_csv_importer_service_csvimporterservice_copy_line",
-      "community": 186,
+      "community": 80,
       "norm_label": ".copy_line()"
     },
     {
@@ -3969,7 +3807,7 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L88",
       "id": "imports_csv_importer_service_csvimporterservice_parse_date",
-      "community": 186,
+      "community": 80,
       "norm_label": ".parse_date()"
     },
     {
@@ -3978,7 +3816,7 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L96",
       "id": "imports_csv_importer_service_csvimporterservice_percent",
-      "community": 186,
+      "community": 80,
       "norm_label": ".percent()"
     },
     {
@@ -3987,7 +3825,7 @@
       "source_file": "app/services/imports/csv_importer_service.rb",
       "source_location": "L100",
       "id": "imports_csv_importer_service_csvimporterservice_count_data_rows",
-      "community": 186,
+      "community": 80,
       "norm_label": ".count_data_rows()"
     },
     {
@@ -4050,7 +3888,7 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L1",
       "id": "app_services_statistic_with_integrations_total_members_comparison_rb",
-      "community": 81,
+      "community": 137,
       "norm_label": "total_members_comparison.rb"
     },
     {
@@ -4059,7 +3897,7 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L9",
       "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison",
-      "community": 81,
+      "community": 137,
       "norm_label": "totalmemberscomparison"
     },
     {
@@ -4068,7 +3906,7 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L14",
       "id": "statistic_with_integrations_total_members_comparison_success",
-      "community": 81,
+      "community": 137,
       "norm_label": "success?()"
     },
     {
@@ -4077,7 +3915,7 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L20",
       "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_call",
-      "community": 81,
+      "community": 137,
       "norm_label": ".call()"
     },
     {
@@ -4086,7 +3924,7 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L22",
       "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_initialize",
-      "community": 81,
+      "community": 137,
       "norm_label": ".initialize()"
     },
     {
@@ -4095,7 +3933,7 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L47",
       "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_build_result",
-      "community": 81,
+      "community": 137,
       "norm_label": ".build_result()"
     },
     {
@@ -4104,7 +3942,7 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L77",
       "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_recalibrate_comprensori",
-      "community": 81,
+      "community": 137,
       "norm_label": ".recalibrate_comprensori()"
     },
     {
@@ -4113,7 +3951,7 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L92",
       "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_recalibrate_named",
-      "community": 81,
+      "community": 137,
       "norm_label": ".recalibrate_named()"
     },
     {
@@ -4122,7 +3960,7 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L104",
       "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_diff_for",
-      "community": 81,
+      "community": 137,
       "norm_label": ".diff_for()"
     },
     {
@@ -4131,7 +3969,7 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L108",
       "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_diff_precedente_for",
-      "community": 81,
+      "community": 137,
       "norm_label": ".diff_precedente_for()"
     },
     {
@@ -4140,7 +3978,7 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L114",
       "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_total_diff_precedente",
-      "community": 81,
+      "community": 137,
       "norm_label": ".total_diff_precedente()"
     },
     {
@@ -4149,7 +3987,7 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L118",
       "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_recalibrate",
-      "community": 81,
+      "community": 137,
       "norm_label": ".recalibrate()"
     },
     {
@@ -4158,7 +3996,7 @@
       "source_file": "app/services/statistic_with_integrations/total_members_comparison.rb",
       "source_location": "L126",
       "id": "statistic_with_integrations_total_members_comparison_totalmemberscomparison_missing_result",
-      "community": 81,
+      "community": 137,
       "norm_label": ".missing_result()"
     },
     {
@@ -4671,7 +4509,7 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_delegation_type_breakdown_rb",
-      "community": 204,
+      "community": 80,
       "norm_label": "delegation_type_breakdown.rb"
     },
     {
@@ -4680,7 +4518,7 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L7",
       "id": "statistics_delegation_type_breakdown_delegationtypebreakdown",
-      "community": 204,
+      "community": 80,
       "norm_label": "delegationtypebreakdown"
     },
     {
@@ -4689,7 +4527,7 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L21",
       "id": "statistics_delegation_type_breakdown_delegationtypebreakdown_call",
-      "community": 204,
+      "community": 80,
       "norm_label": ".call()"
     },
     {
@@ -4698,7 +4536,7 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L23",
       "id": "statistics_delegation_type_breakdown_delegationtypebreakdown_initialize",
-      "community": 204,
+      "community": 80,
       "norm_label": ".initialize()"
     },
     {
@@ -4707,7 +4545,7 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L37",
       "id": "statistics_delegation_type_breakdown_delegationtypebreakdown_build_row",
-      "community": 204,
+      "community": 80,
       "norm_label": ".build_row()"
     },
     {
@@ -4716,7 +4554,7 @@
       "source_file": "app/services/statistics/delegation_type_breakdown.rb",
       "source_location": "L46",
       "id": "statistics_delegation_type_breakdown_delegationtypebreakdown_count_for",
-      "community": 204,
+      "community": 80,
       "norm_label": ".count_for()"
     },
     {
@@ -4725,7 +4563,7 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_employment_status_breakdown_rb",
-      "community": 187,
+      "community": 80,
       "norm_label": "employment_status_breakdown.rb"
     },
     {
@@ -4734,7 +4572,7 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L5",
       "id": "statistics_employment_status_breakdown_employmentstatusbreakdown",
-      "community": 187,
+      "community": 80,
       "norm_label": "employmentstatusbreakdown"
     },
     {
@@ -4743,7 +4581,7 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L10",
       "id": "statistics_employment_status_breakdown_employmentstatusbreakdown_call",
-      "community": 187,
+      "community": 80,
       "norm_label": ".call()"
     },
     {
@@ -4752,7 +4590,7 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L12",
       "id": "statistics_employment_status_breakdown_employmentstatusbreakdown_initialize",
-      "community": 187,
+      "community": 80,
       "norm_label": ".initialize()"
     },
     {
@@ -4761,7 +4599,7 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L25",
       "id": "statistics_employment_status_breakdown_employmentstatusbreakdown_build_row",
-      "community": 187,
+      "community": 80,
       "norm_label": ".build_row()"
     },
     {
@@ -4770,7 +4608,7 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L35",
       "id": "statistics_employment_status_breakdown_employmentstatusbreakdown_count_for",
-      "community": 187,
+      "community": 80,
       "norm_label": ".count_for()"
     },
     {
@@ -4779,7 +4617,7 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L41",
       "id": "statistics_employment_status_breakdown_employmentstatusbreakdown_totale_anno",
-      "community": 187,
+      "community": 80,
       "norm_label": ".totale_anno()"
     },
     {
@@ -4788,7 +4626,7 @@
       "source_file": "app/services/statistics/employment_status_breakdown.rb",
       "source_location": "L49",
       "id": "statistics_employment_status_breakdown_employmentstatusbreakdown_categoria_column",
-      "community": 187,
+      "community": 80,
       "norm_label": ".categoria_column()"
     },
     {
@@ -4950,7 +4788,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_work_status_breakdown_rb",
-      "community": 189,
+      "community": 80,
       "norm_label": "work_status_breakdown.rb"
     },
     {
@@ -4959,7 +4797,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L8",
       "id": "statistics_work_status_breakdown_workstatusbreakdown",
-      "community": 189,
+      "community": 80,
       "norm_label": "workstatusbreakdown"
     },
     {
@@ -4968,7 +4806,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L11",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_call",
-      "community": 189,
+      "community": 80,
       "norm_label": ".call()"
     },
     {
@@ -4977,7 +4815,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L13",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_initialize",
-      "community": 189,
+      "community": 80,
       "norm_label": ".initialize()"
     },
     {
@@ -4986,7 +4824,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L25",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_build_row",
-      "community": 189,
+      "community": 80,
       "norm_label": ".build_row()"
     },
     {
@@ -4995,7 +4833,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L31",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_counts",
-      "community": 189,
+      "community": 80,
       "norm_label": ".counts()"
     },
     {
@@ -5004,7 +4842,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L35",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_totale",
-      "community": 189,
+      "community": 80,
       "norm_label": ".totale()"
     },
     {
@@ -5013,7 +4851,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L39",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_scope",
-      "community": 189,
+      "community": 80,
       "norm_label": ".scope()"
     },
     {
@@ -5193,7 +5031,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L103",
       "id": "statistics_total_members_comparison_totalmemberscomparison_provvisorie_revoche",
-      "community": 141,
+      "community": 137,
       "norm_label": ".provvisorie_revoche()"
     },
     {
@@ -5229,7 +5067,7 @@
       "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_provisional_revocation_breakdown_rb",
-      "community": 203,
+      "community": 80,
       "norm_label": "provisional_revocation_breakdown.rb"
     },
     {
@@ -5238,7 +5076,7 @@
       "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
       "source_location": "L6",
       "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown",
-      "community": 203,
+      "community": 80,
       "norm_label": "provisionalrevocationbreakdown"
     },
     {
@@ -5247,7 +5085,7 @@
       "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
       "source_location": "L9",
       "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_call",
-      "community": 203,
+      "community": 80,
       "norm_label": ".call()"
     },
     {
@@ -5256,7 +5094,7 @@
       "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
       "source_location": "L11",
       "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_initialize",
-      "community": 203,
+      "community": 80,
       "norm_label": ".initialize()"
     },
     {
@@ -5265,7 +5103,7 @@
       "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
       "source_location": "L26",
       "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_build_row",
-      "community": 203,
+      "community": 80,
       "norm_label": ".build_row()"
     },
     {
@@ -5274,7 +5112,7 @@
       "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
       "source_location": "L32",
       "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_totale_iscritti",
-      "community": 203,
+      "community": 80,
       "norm_label": ".totale_iscritti()"
     },
     {
@@ -5283,7 +5121,7 @@
       "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
       "source_location": "L36",
       "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_scope",
-      "community": 203,
+      "community": 80,
       "norm_label": ".scope()"
     },
     {
@@ -5346,7 +5184,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_membership_type_breakdown_rb",
-      "community": 206,
+      "community": 80,
       "norm_label": "membership_type_breakdown.rb"
     },
     {
@@ -5355,7 +5193,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L5",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown",
-      "community": 206,
+      "community": 80,
       "norm_label": "membershiptypebreakdown"
     },
     {
@@ -5364,7 +5202,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L10",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_call",
-      "community": 206,
+      "community": 80,
       "norm_label": ".call()"
     },
     {
@@ -5373,7 +5211,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L12",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_initialize",
-      "community": 206,
+      "community": 80,
       "norm_label": ".initialize()"
     },
     {
@@ -5382,7 +5220,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L25",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_build_row",
-      "community": 206,
+      "community": 80,
       "norm_label": ".build_row()"
     },
     {
@@ -5391,7 +5229,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L34",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_count_for",
-      "community": 206,
+      "community": 80,
       "norm_label": ".count_for()"
     },
     {
@@ -12837,16 +12675,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "spec/services/statistic_prints/provisional_revocations_page_spec.rb",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "spec_services_statistic_prints_provisional_revocations_page_spec_rb",
-      "target": "statistic_prints_provisional_revocations_page_spec_build_pdf",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "spec/services/statistic_prints/work_status_age_page_spec.rb",
       "source_location": "L7",
       "weight": 1.0,
@@ -14264,9 +14092,9 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L67",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_bar_chart_barchart",
-      "target": "statistic_prints_bar_chart_barchart_draw_axis_line"
+      "target": "statistic_prints_bar_chart_barchart_draw_axis_line",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -15144,332 +14972,6 @@
       "confidence_score": 1.0,
       "source": "statistic_prints_zoning_divider_page_zoningdividerpage_draw_footer",
       "target": "statistic_prints_zoning_divider_page_zoningdividerpage_draw_footer_period"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "app_services_statistic_prints_provisional_revocations_page_rb",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L29",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_heading",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_message",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L41",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_table",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L48",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_row_for",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L52",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_chart_and_percentages",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L60",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_chart",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L67",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_percentages",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L74",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_chart_width",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L75",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_percentages_width",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L76",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_column_gap",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L78",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_chart_height",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L80",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_section_gap",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_heading",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_message",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L42",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_table",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_chart_and_percentages",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L61",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_chart",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L68",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_percentages",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_provvisorie_revoche"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L44",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_table",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_row_for",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L44",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_table",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_provvisorie_revoche"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L49",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_row_for",
-      "target": "statistic_prints_number_formatting_count"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L55",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_chart_and_percentages",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_chart",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L56",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_chart_and_percentages",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_percentages",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L57",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_chart_and_percentages",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_chart_height",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L62",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_chart",
-      "target": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_chart_height",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L63",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_chart",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_provvisorie_revoche"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/services/statistic_prints/provisional_revocations_page.rb",
-      "source_location": "L70",
-      "weight": 1.0,
-      "source": "statistic_prints_provisional_revocations_page_provisionalrevocationspage_draw_percentages",
-      "target": "statistics_total_members_comparison_totalmemberscomparison_provvisorie_revoche"
     },
     {
       "relation": "contains",
@@ -17127,9 +16629,9 @@
       "source_file": "app/services/statistic_prints/single_series_bar_chart.rb",
       "source_location": "L84",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_single_series_bar_chart_singleseriesbarchart",
-      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_axis_line"
+      "target": "statistic_prints_single_series_bar_chart_singleseriesbarchart_draw_axis_line",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
