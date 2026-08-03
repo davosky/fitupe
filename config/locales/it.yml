@@ -13,6 +13,10 @@ it:
         one: Importazione
         many: Importazioni
         other: Importazioni
+      import_spi:
+        one: Importazione SPI
+        many: Importazioni SPI
+        other: Importazioni SPI
       integration_fillea:
         one: Integrazione FILLEA
         many: Integrazioni FILLEA
@@ -44,11 +48,21 @@ it:
         codice_azzonamento: Codice Azzonamento
         descrizione_azzonamento: Descrizione Azzonamento
         imports: Importazioni
+        import_spis: Importazioni SPI
         created_at: Creato il
         updated_at: Aggiornato il
       import:
         zoning: Azzonamento
         zoning_id: Azzonamento
+        created_at: Creato il
+        updated_at: Aggiornato il
+      import_spi:
+        zoning: Azzonamento
+        zoning_id: Azzonamento
+        azzonamento_di_riferimento: Azzonamento
+        anno_di_riferimento: Anno
+        mese_di_riferimento: Mese
+        rata: Rata
         created_at: Creato il
         updated_at: Aggiornato il
       integration_fillea:
@@ -83,6 +97,8 @@ it:
   activemodel:
     attributes:
       import_form:
+        zoning_id: Azzonamento
+      import_spi_form:
         zoning_id: Azzonamento
       integration_flc_upload_form:
         file: File CSV

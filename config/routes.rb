@@ -3,6 +3,7 @@ Rails.application.routes.draw do
     resources :users
     resources :zonings
     resources :imports
+    resources :import_spis
     resources :integration_filleas
     resources :integration_flcs
     resources :legends
@@ -18,6 +19,7 @@ Rails.application.routes.draw do
     end
   end
   resources :imports, only: %i[index new create show]
+  resources :import_spis, only: %i[index new create show]
   resources :integration_filleas do
     member do
       get :confirm_destroy

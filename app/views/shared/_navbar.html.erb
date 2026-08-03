@@ -132,6 +132,28 @@
             <% end %>
           </div>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="bi bi-upload text-primary"></i>
+            <i class="bi bi-person text-primary me-2"></i>Importazioni SPI
+          </a>
+          <div class="dropdown-menu dropdown-menu-centered">
+            <% if current_user.admin? || current_user.manager? %>
+              <%= link_to import_spis_path, class: "dropdown-item" do %>
+                <i class="bi bi-list-ul text-primary"></i>
+                <i class="bi bi-upload text-primary"></i>
+                <i class="bi bi-person text-primary me-2"></i>
+                Elenco Importazioni SPI
+              <% end %>
+              <%= link_to new_import_spi_path, class: "dropdown-item" do %>
+                <i class="bi bi-plus-lg text-primary"></i>
+                <i class="bi bi-upload text-primary"></i>
+                <i class="bi bi-person text-primary me-2"></i>
+                Effetua una Nuova Importazione SPI
+              <% end %>
+            <% end %>
+          </div>
+        </li>
       </ul>
       <ul class="navbar-nav ms-auto">
         <li class="nav-item dropdown">
@@ -145,8 +167,9 @@
             <%= link_to credits_path, class: "dropdown-item" do %>
               <i class="bi bi-person-circle text-primary me-2"></i>Crediti
             <% end %>
+            <hr class="dropdown-divider">
             <%= link_to destroy_user_session_path, class: "dropdown-item" do %>
-              <i class="bi bi-box-arrow-left text-danger me-2"></i>Esci
+              <i class="bi bi-door-open text-danger me-2"></i>Esci
             <% end %>
           </div>
         </li>

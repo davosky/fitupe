@@ -1,6 +1,8 @@
 class Zoning < ApplicationRecord
   has_many :imports, foreign_key: "azzonamento_di_riferimento_id", inverse_of: :azzonamento_di_riferimento,
     dependent: :restrict_with_error
+  has_many :import_spis, class_name: "ImportSpi", foreign_key: "azzonamento_di_riferimento_id",
+    inverse_of: :azzonamento_di_riferimento, dependent: :restrict_with_error
   has_many :integration_filleas, dependent: :restrict_with_error
   has_many :legends, dependent: :restrict_with_error
 

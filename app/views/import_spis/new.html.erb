@@ -1,0 +1,65 @@
+<% content_for :title, "Importazioni SPI" %>
+<div class="d-flex justify-content-between align-items-center mt-5 mb-3">
+  <h3 class="text-success">
+    <i class="fw-bold">
+      <i class="bi bi-upload me-1"></i>
+      <i class="bi bi-person me-2"></i>
+      Nuova Importazione SPI
+    </i>
+  </h3>
+</div>
+<hr class="text-success mb-5"/>
+<div class="col-6 offset-3">
+  <div class="card shadow-sm">
+    <div class="card-body p-4">
+      <%= form_with model: @import_spi_form, scope: :import_spi_form, url: import_spis_path, local: true, multipart: true do |f| %>
+        <% if @import_spi_form.errors.any? %>
+          <div class="alert alert-danger">
+            <ul class="mb-0">
+              <% @import_spi_form.errors.full_messages.each do |message| %>
+                <li><%= message %></li>
+              <% end %>
+            </ul>
+          </div>
+        <% end %>
+        <% if @conflict %>
+          <%= f.hidden_field :stored_path %>
+          <%= f.hidden_field :zoning_id %>
+          <%= f.hidden_field :anno %>
+          <%= f.hidden_field :mese %>
+          <div class="alert alert-warning">
+            Esiste già un'importazione per l'azzonamento <strong><%= @import_spi_form.zoning&.descrizione_azzonamento %></strong>,
+            <strong><%= @import_spi_form.mese %> <%= @import_spi_form.anno %></strong>.
+            Vuoi mantenere i dati esistenti o sovrascriverli con il nuovo file?
+          </div>
+          <div class="d-flex gap-2">
+            <%= f.submit "Mantieni i dati esistenti", name: "import_spi_form[resolution]", value: "keep",
+            class: "btn btn-outline-secondary" %>
+            <%= f.submit "Sovrascrivi", name: "import_spi_form[resolution]", value: "overwrite", class: "btn btn-danger" %>
+          </div>
+        <% else %>
+          <div class="mb-3">
+            <%= f.label :file, "File CSV", class: "form-label" %>
+            <%= f.file_field :file, class: "form-control", accept: ".csv" %>
+          </div>
+          <div class="mb-3">
+            <%= f.label :zoning_id, "Azzonamento", class: "form-label" %>
+            <%= f.collection_select :zoning_id, @zonings, :id, :descrizione_azzonamento,
+            { prompt: "Seleziona un azzonamento" }, class: "form-select" %>
+          </div>
+          <div class="mb-3">
+            <%= f.label :anno, "Anno di riferimento", class: "form-label" %>
+            <%= f.text_field :anno, class: "form-control", placeholder: "es. 2026" %>
+          </div>
+          <div class="mb-3">
+            <%= f.label :mese, "Mese di riferimento", class: "form-label" %>
+            <%= f.select :mese, ImportSpiForm::MESI, { prompt: "Seleziona un mese" }, class: "form-select" %>
+          </div>
+          <div class="d-grid">
+            <%= f.submit "Importa", class: "btn btn-success shadow" %>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>
