@@ -1,0 +1,38 @@
+<div id="totale-iscritti" class="p-3 mt-2">
+  <%= form_with model: @total_members_form, scope: :total_members_form, url: statistic_spi_index_path, method: :get,
+    local: true do |f| %>
+    <div class="row g-3 align-items-end mb-5">
+      <div class="col-md-4">
+        <%= f.label :zoning_id, "Scegli l'Azzonamento", class: "form-label fst-italic text-secondary" %>
+        <%= f.collection_select :zoning_id, @zonings, :id, :descrizione_azzonamento,
+          { prompt: "Seleziona un azzonamento" }, class: "form-select", required: true %>
+      </div>
+      <div class="col-md-3">
+        <%= f.label :anno, "Scegli l'Anno", class: "form-label fst-italic text-secondary" %>
+        <%= f.text_field :anno, class: "form-control", placeholder: "es. 2026", required: true %>
+      </div>
+      <div class="col-md-3">
+        <%= f.label :mese, "Scegli il Mese", class: "form-label  fst-italic text-secondary" %>
+        <%= f.select :mese, ImportForm::MESI, { prompt: "Seleziona un mese" },
+          { class: "form-select", required: true } %>
+      </div>
+      <div class="col-md-2 d-grid">
+        <%= f.submit "Calcola", class: "btn btn-primary shadow" %>
+      </div>
+    </div>
+  <% end %>
+  <% if @total_members_result %>
+    <% if @total_members_result.success? %>
+      <%= render partial: "totale_card", locals: { row: @total_members_result.iscritti_totale, metric_label: "Iscritti", result: @total_members_result } %>
+      <%= render partial: "totale_card", locals: { row: @total_members_result.deleghe_totale, metric_label: "Deleghe", result: @total_members_result } %>
+      <% if @total_members_result.iscritti_comprensori.present? %>
+        <%= render partial: "comprensori_section", locals: { iscritti_rows: @total_members_result.iscritti_comprensori, deleghe_rows: @total_members_result.deleghe_comprensori, result: @total_members_result } %>
+      <% end %>
+    <% else %>
+      <div class="alert alert-warning mb-0">
+        <i class="bi bi-exclamation-triangle-fill me-2"></i>
+        <%= @total_members_result.error %>
+      </div>
+    <% end %>
+  <% end %>
+</div>

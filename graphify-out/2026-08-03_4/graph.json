@@ -6172,7 +6172,7 @@
       "label": "disconnect()",
       "file_type": "code",
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
-      "source_location": "L46",
+      "source_location": "L43",
       "id": "controllers_spi_comparison_chart_controller_disconnect",
       "community": 245,
       "norm_label": "disconnect()"
@@ -6181,7 +6181,7 @@
       "label": "successColor()",
       "file_type": "code",
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
-      "source_location": "L50",
+      "source_location": "L47",
       "id": "controllers_spi_comparison_chart_controller_successcolor",
       "community": 245,
       "norm_label": "successcolor()"
@@ -6190,7 +6190,7 @@
       "label": "warningColor()",
       "file_type": "code",
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
-      "source_location": "L54",
+      "source_location": "L51",
       "id": "controllers_spi_comparison_chart_controller_warningcolor",
       "community": 245,
       "norm_label": "warningcolor()"
@@ -6199,7 +6199,7 @@
       "label": "infoColor()",
       "file_type": "code",
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
-      "source_location": "L58",
+      "source_location": "L55",
       "id": "controllers_spi_comparison_chart_controller_infocolor",
       "community": 245,
       "norm_label": "infocolor()"
@@ -6208,7 +6208,7 @@
       "label": "dangerColor()",
       "file_type": "code",
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
-      "source_location": "L62",
+      "source_location": "L59",
       "id": "controllers_spi_comparison_chart_controller_dangercolor",
       "community": 245,
       "norm_label": "dangercolor()"
@@ -6217,7 +6217,7 @@
       "label": "percentageLabelsPlugin()",
       "file_type": "code",
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
-      "source_location": "L68",
+      "source_location": "L65",
       "id": "controllers_spi_comparison_chart_controller_percentagelabelsplugin",
       "community": 245,
       "norm_label": "percentagelabelsplugin()"
@@ -6226,7 +6226,7 @@
       "label": "drawLabels()",
       "file_type": "code",
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
-      "source_location": "L91",
+      "source_location": "L88",
       "id": "controllers_spi_comparison_chart_controller_drawlabels",
       "community": 245,
       "norm_label": "drawlabels()"
@@ -22995,9 +22995,9 @@
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
       "source_location": "L22",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_spi_comparison_chart_controller_js",
-      "target": "controllers_spi_comparison_chart_controller_connect"
+      "target": "controllers_spi_comparison_chart_controller_connect",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -23005,9 +23005,9 @@
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
       "source_location": "L43",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_spi_comparison_chart_controller_js",
-      "target": "controllers_spi_comparison_chart_controller_disconnect"
+      "target": "controllers_spi_comparison_chart_controller_disconnect",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -23015,9 +23015,9 @@
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_spi_comparison_chart_controller_js",
-      "target": "controllers_spi_comparison_chart_controller_successcolor"
+      "target": "controllers_spi_comparison_chart_controller_successcolor",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -23025,9 +23025,9 @@
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
       "source_location": "L51",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_spi_comparison_chart_controller_js",
-      "target": "controllers_spi_comparison_chart_controller_warningcolor"
+      "target": "controllers_spi_comparison_chart_controller_warningcolor",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -23035,9 +23035,9 @@
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
       "source_location": "L55",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_spi_comparison_chart_controller_js",
-      "target": "controllers_spi_comparison_chart_controller_infocolor"
+      "target": "controllers_spi_comparison_chart_controller_infocolor",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -23045,9 +23045,9 @@
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
       "source_location": "L59",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_spi_comparison_chart_controller_js",
-      "target": "controllers_spi_comparison_chart_controller_dangercolor"
+      "target": "controllers_spi_comparison_chart_controller_dangercolor",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -23055,9 +23055,9 @@
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
       "source_location": "L65",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_spi_comparison_chart_controller_js",
-      "target": "controllers_spi_comparison_chart_controller_percentagelabelsplugin"
+      "target": "controllers_spi_comparison_chart_controller_percentagelabelsplugin",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -23065,9 +23065,9 @@
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
       "source_location": "L88",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_spi_comparison_chart_controller_js",
-      "target": "controllers_spi_comparison_chart_controller_drawlabels"
+      "target": "controllers_spi_comparison_chart_controller_drawlabels",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -23076,9 +23076,9 @@
       "source_file": "app/javascript/controllers/index.js",
       "source_location": "L22",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_javascript_controllers_index_js",
-      "target": "app_javascript_controllers_spi_comparison_chart_controller_js"
+      "target": "app_javascript_controllers_spi_comparison_chart_controller_js",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -23087,9 +23087,9 @@
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_spi_comparison_chart_controller_connect",
-      "target": "controllers_spi_comparison_chart_controller_successcolor"
+      "target": "controllers_spi_comparison_chart_controller_successcolor",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -23098,9 +23098,9 @@
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
       "source_location": "L29",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_spi_comparison_chart_controller_connect",
-      "target": "controllers_spi_comparison_chart_controller_warningcolor"
+      "target": "controllers_spi_comparison_chart_controller_warningcolor",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -23109,9 +23109,9 @@
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_spi_comparison_chart_controller_connect",
-      "target": "controllers_spi_comparison_chart_controller_infocolor"
+      "target": "controllers_spi_comparison_chart_controller_infocolor",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -23120,9 +23120,9 @@
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_spi_comparison_chart_controller_connect",
-      "target": "controllers_spi_comparison_chart_controller_dangercolor"
+      "target": "controllers_spi_comparison_chart_controller_dangercolor",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -23131,9 +23131,9 @@
       "source_file": "app/javascript/controllers/spi_comparison_chart_controller.js",
       "source_location": "L39",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_spi_comparison_chart_controller_connect",
-      "target": "controllers_spi_comparison_chart_controller_percentagelabelsplugin"
+      "target": "controllers_spi_comparison_chart_controller_percentagelabelsplugin",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",

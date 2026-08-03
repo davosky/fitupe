@@ -190,8 +190,8 @@
     "semantic_hash": "e99511ba6b1056659bed1f0083cae290"
   },
   "/home/davo/Programmazione/fitupe/app/javascript/controllers/index.js": {
-    "mtime": 1785751698.1050467,
-    "ast_hash": "dba931c7b9b26fc6040736aeae10b57a",
+    "mtime": 1785312677.4607596,
+    "ast_hash": "ce975962dd95d731564e904888c1ff19",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/models/application_record.rb": {
@@ -1607,11 +1607,6 @@
   "/home/davo/Programmazione/fitupe/app/controllers/statistic_spi_controller.rb": {
     "mtime": 1785744528.289054,
     "ast_hash": "afaf4b5283e4c8d217a53c8b51435e2b",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/javascript/controllers/spi_comparison_chart_controller.js": {
-    "mtime": 1785752898.1412323,
-    "ast_hash": "002ca39782858373cca75de76be30b9d",
     "semantic_hash": ""
   }
 }

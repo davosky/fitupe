@@ -1,0 +1,35 @@
+<div class="card border-dark p-3 m-2 shadow-sm">
+  <h4>
+    <span class="p-2 fw-bold fst-italic">
+      <%= image_tag("statistic/comprensori.svg", class: "img-fluid me-1", size: "48x48", alt: "comprensori") %>
+      Comprensori
+      <span class="text-info">&nbsp;Iscritti&nbsp;SPI</span>
+    </span>
+  </h4>
+  <hr class="mt-2 mb-2"/>
+  <%= render partial: "comprensori_table", locals: { rows: iscritti_rows, result: result } %>
+
+  <h4 class="mt-4">
+    <span class="p-2 fw-bold fst-italic">
+      <%= image_tag("statistic/comprensori.svg", class: "img-fluid me-1", size: "48x48", alt: "comprensori") %>
+      Comprensori
+      <span class="text-info">&nbsp;Deleghe&nbsp;SPI</span>
+    </span>
+  </h4>
+  <hr class="mt-2 mb-2"/>
+  <%= render partial: "comprensori_table", locals: { rows: deleghe_rows, result: result } %>
+
+  <div class="mt-4 mx-auto" style="position: relative; height: 420px; width: 75%;"
+      data-controller="spi-comparison-chart"
+      data-spi-comparison-chart-labels-value="<%= iscritti_rows.map { |c| c.zoning.descrizione_azzonamento }.to_json %>"
+      data-spi-comparison-chart-iscritti-previous-data-value="<%= iscritti_rows.map(&:count_precedente).to_json %>"
+      data-spi-comparison-chart-iscritti-current-data-value="<%= iscritti_rows.map(&:count_anno).to_json %>"
+      data-spi-comparison-chart-deleghe-previous-data-value="<%= deleghe_rows.map(&:count_precedente).to_json %>"
+      data-spi-comparison-chart-deleghe-current-data-value="<%= deleghe_rows.map(&:count_anno).to_json %>"
+      data-spi-comparison-chart-iscritti-percentages-value="<%= iscritti_rows.map(&:diff_percent).to_json %>"
+      data-spi-comparison-chart-deleghe-percentages-value="<%= deleghe_rows.map(&:diff_percent).to_json %>"
+      data-spi-comparison-chart-previous-label-value="<%= result.mese %> <%= result.anno_precedente %>"
+      data-spi-comparison-chart-current-label-value="<%= result.mese %> <%= result.anno %>">
+    <canvas data-spi-comparison-chart-target="canvas"></canvas>
+  </div>
+</div>

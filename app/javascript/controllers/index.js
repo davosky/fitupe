@@ -19,5 +19,8 @@ application.register("hello", HelloController)
 import PieChartController from "./pie_chart_controller"
 application.register("pie-chart", PieChartController)
 
+import SpiComparisonChartController from "./spi_comparison_chart_controller"
+application.register("spi-comparison-chart", SpiComparisonChartController)
+
 import TrixController from "./trix_controller"
 application.register("trix", TrixController)

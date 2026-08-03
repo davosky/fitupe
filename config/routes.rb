@@ -37,6 +37,7 @@ Rails.application.routes.draw do
     end
   end
   resources :statistics, only: %i[index]
+  resources :statistic_spi, only: %i[index]
   resources :statistic_with_integrations, only: %i[index]
   resources :statistic_prints, only: %i[index]
   resources :statistic_with_integrations_prints, only: %i[index]
