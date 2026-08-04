@@ -39,12 +39,32 @@ export default class extends Controller {
           y: { beginAtZero: true }
         }
       },
-      plugins: [ this.percentageLabelsPlugin() ]
+      plugins: [ this.legendMarginPlugin(), this.percentageLabelsPlugin() ]
     })
   }
 
   disconnect() {
     this.chart?.destroy()
+  }
+
+  // Con 4 serie la legenda va facilmente sopra le colonne più alte,
+  // coprendo l'etichetta percentuale che percentageLabelsPlugin disegna
+  // subito sopra di esse. Chart.js non espone un'opzione diretta per il
+  // margine sotto la legenda, quindi si allunga manualmente la sua altezza
+  // calcolata (fit()) per lasciare più spazio prima dell'area del grafico.
+  legendMarginPlugin() {
+    const LEGEND_MARGIN = 20
+
+    return {
+      id: "legendMargin",
+      beforeInit: (chart) => {
+        const originalFit = chart.legend.fit
+        chart.legend.fit = function fit() {
+          originalFit.bind(this)()
+          this.height += LEGEND_MARGIN
+        }
+      }
+    }
   }
 
   successColor() {

@@ -1,0 +1,20 @@
+<div class="card border-dark p-3 m-2 shadow-sm">
+  <h4>
+    <span class="p-2 fw-bold fst-italic">
+      <%= image_tag("statistic/comprensori.svg", class: "img-fluid me-1", size: "48x48", alt: "comprensori") %>
+      <%= result.zoning.descrizione_azzonamento %>
+      <span class="text-info">&nbsp;Iscritti&nbsp;e&nbsp;Deleghe&nbsp;SPI</span>
+    </span>
+  </h4>
+  <hr class="mt-2 mb-2"/>
+  <%= render partial: "comparison_chart", locals: {
+    labels: [ result.zoning.descrizione_azzonamento ],
+    iscritti_previous_data: [ result.iscritti_totale.count_precedente ],
+    iscritti_current_data: [ result.iscritti_totale.count_anno ],
+    deleghe_previous_data: [ result.deleghe_totale.count_precedente ],
+    deleghe_current_data: [ result.deleghe_totale.count_anno ],
+    iscritti_percentages: [ result.iscritti_totale.diff_percent ],
+    deleghe_percentages: [ result.deleghe_totale.diff_percent ],
+    result: result
+  } %>
+</div>

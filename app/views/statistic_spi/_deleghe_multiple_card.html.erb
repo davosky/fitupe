@@ -1,0 +1,11 @@
+<div class="card border-dark p-3 m-2 shadow-sm">
+  <h4>
+    <span class="p-2 fw-bold fst-italic">
+      <%= image_tag("statistic/multiplespi.svg", class: "img-fluid me-1", size: "48x48", alt: "deleghe multiple") %>
+      <%= row.zoning.descrizione_azzonamento %>
+      <span class="text-info">&nbsp;Deleghe&nbsp;Multiple&nbsp;SPI</span>
+    </span>
+  </h4>
+  <hr class="mt-2 mb-2"/>
+  <%= render partial: "multiple_delegations_table", locals: { rows: [ row ] } %>
+</div>

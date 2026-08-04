@@ -980,9 +980,9 @@
     "semantic_hash": "9ec774e2bc1abaade5461a181b8134d8"
   },
   "/home/davo/Programmazione/fitupe/CHANGELOG.md": {
-    "mtime": 1785827807.700089,
-    "ast_hash": "0b2c01ac94aa11a41dd01d5595ebd087",
-    "semantic_hash": ""
+    "mtime": 1785054321.5068574,
+    "ast_hash": "1506d749d6bb8d919d09a136120a49c1",
+    "semantic_hash": "1506d749d6bb8d919d09a136120a49c1"
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistics/delegation_type_breakdown_spec.rb": {
     "mtime": 1784879368.1941233,
@@ -1585,9 +1585,9 @@
     "semantic_hash": "0a3d0c5f263e1b69c5cb5ab927365e16"
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistic_spi/total_members_comparison_spec.rb": {
-    "mtime": 1785835621.8082106,
-    "ast_hash": "1e1390c79050133cc843c9043e48e837",
-    "semantic_hash": ""
+    "mtime": 1785744602.3945653,
+    "ast_hash": "fed92be775091d4571487ef32199e8de",
+    "semantic_hash": "fed92be775091d4571487ef32199e8de"
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb": {
     "mtime": 1785744510.430578,
@@ -1595,9 +1595,9 @@
     "semantic_hash": "2da214d64e92b41c2036dbadaaddcbb2"
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_spi/total_members_comparison.rb": {
-    "mtime": 1785835461.867967,
-    "ast_hash": "ba3b0ac6e51aa91338d49c39b9d783b8",
-    "semantic_hash": ""
+    "mtime": 1785744522.0938535,
+    "ast_hash": "7de9301dde9ca8a0e4ff58fdc7de1a07",
+    "semantic_hash": "7de9301dde9ca8a0e4ff58fdc7de1a07"
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_spi/zoning_period_scope.rb": {
     "mtime": 1785744504.6289504,
@@ -1610,23 +1610,8 @@
     "semantic_hash": "afaf4b5283e4c8d217a53c8b51435e2b"
   },
   "/home/davo/Programmazione/fitupe/app/javascript/controllers/spi_comparison_chart_controller.js": {
-    "mtime": 1785829520.1762848,
-    "ast_hash": "24d20eeebf804bfc6aabc0438a63ff9f",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/statistic_spi/multiple_delegations_breakdown_spec.rb": {
-    "mtime": 1785835585.3680964,
-    "ast_hash": "14c61d1823d20e811fd0cd156faf9875",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_spi/multiple_delegations_breakdown.rb": {
-    "mtime": 1785835442.2749605,
-    "ast_hash": "cac4ed45b63d828aa27fa9c4bc72dfee",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/statistic/multiplespi.svg": {
-    "mtime": 1785833231.7045891,
-    "ast_hash": "6efc5507bf8da11dcd50faa2e16af787",
-    "semantic_hash": ""
+    "mtime": 1785752898.1412323,
+    "ast_hash": "002ca39782858373cca75de76be30b9d",
+    "semantic_hash": "002ca39782858373cca75de76be30b9d"
   }
 }

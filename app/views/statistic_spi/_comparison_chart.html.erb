@@ -1,0 +1,13 @@
+<div class="mt-4 mx-auto" style="position: relative; height: 420px; width: 75%;"
+    data-controller="spi-comparison-chart"
+    data-spi-comparison-chart-labels-value="<%= labels.to_json %>"
+    data-spi-comparison-chart-iscritti-previous-data-value="<%= iscritti_previous_data.to_json %>"
+    data-spi-comparison-chart-iscritti-current-data-value="<%= iscritti_current_data.to_json %>"
+    data-spi-comparison-chart-deleghe-previous-data-value="<%= deleghe_previous_data.to_json %>"
+    data-spi-comparison-chart-deleghe-current-data-value="<%= deleghe_current_data.to_json %>"
+    data-spi-comparison-chart-iscritti-percentages-value="<%= iscritti_percentages.to_json %>"
+    data-spi-comparison-chart-deleghe-percentages-value="<%= deleghe_percentages.to_json %>"
+    data-spi-comparison-chart-previous-label-value="<%= result.mese %> <%= result.anno_precedente %>"
+    data-spi-comparison-chart-current-label-value="<%= result.mese %> <%= result.anno %>">
+  <canvas data-spi-comparison-chart-target="canvas"></canvas>
+</div>

@@ -113,5 +113,34 @@ RSpec.describe StatisticSpi::TotalMembersComparison do
       expect(result.iscritti_totale.count_precedente).to eq(result.iscritti_comprensori.sum(&:count_precedente))
       expect(result.iscritti_totale.count_anno).to eq(result.iscritti_comprensori.sum(&:count_anno))
     end
+
+    it "non calcola alcuna delega multipla quando nessuno ha piu' di una delega nell'anno corrente" do
+      expect(result.deleghe_multiple_totale.totale).to eq(0)
+      expect(result.deleghe_multiple_comprensori.sum(&:totale)).to eq(0)
+    end
+  end
+
+  context "quando un pensionato ha piu' deleghe nell'anno corrente in comprensori diversi" do
+    let(:zoning) { create(:zoning, codice_azzonamento: "G", descrizione_azzonamento: "FVG") }
+    let!(:gorizia) { create(:zoning, codice_azzonamento: "GB", descrizione_azzonamento: "Gorizia") }
+    let!(:pordenone) { create(:zoning, codice_azzonamento: "GC", descrizione_azzonamento: "Pordenone") }
+
+    before do
+      create_list(:import_spi, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+        mese_di_riferimento: "Giugno")
+      create(:import_spi, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", codice_fiscale: "RSSMRA80A01H501U", codice_azzonamento_completo: "GBA01001")
+      create(:import_spi, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", codice_fiscale: "RSSMRA80A01H501U", codice_azzonamento_completo: "GCB02002")
+    end
+
+    it "espone le deleghe multiple riconciliate per comprensorio (assegnate al primo alfabetico)" do
+      gorizia_multiple = result.deleghe_multiple_comprensori.find { |row| row.zoning == gorizia }
+      pordenone_multiple = result.deleghe_multiple_comprensori.find { |row| row.zoning == pordenone }
+
+      expect(gorizia_multiple.doppia).to eq(1)
+      expect(pordenone_multiple.doppia).to eq(0)
+      expect(result.deleghe_multiple_totale.doppia).to eq(1)
+    end
   end
 end

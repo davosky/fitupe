@@ -27,6 +27,12 @@
       <%= render partial: "totale_card", locals: { row: @total_members_result.deleghe_totale, metric_label: "Deleghe", result: @total_members_result } %>
       <% if @total_members_result.iscritti_comprensori.present? %>
         <%= render partial: "comprensori_section", locals: { iscritti_rows: @total_members_result.iscritti_comprensori, deleghe_rows: @total_members_result.deleghe_comprensori, result: @total_members_result } %>
+      <% else %>
+        <%= render partial: "single_chart_section", locals: { result: @total_members_result } %>
+      <% end %>
+      <%= render partial: "deleghe_multiple_card", locals: { row: @total_members_result.deleghe_multiple_totale } %>
+      <% if @total_members_result.deleghe_multiple_comprensori.present? %>
+        <%= render partial: "multiple_delegations_comprensori_card", locals: { rows: @total_members_result.deleghe_multiple_comprensori } %>
       <% end %>
     <% else %>
       <div class="alert alert-warning mb-0">

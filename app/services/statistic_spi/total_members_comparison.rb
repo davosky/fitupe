@@ -4,7 +4,8 @@ module StatisticSpi
   # per comprensorio) e deleghe (conteggio record, gia' additivo).
   class TotalMembersComparison
     Result = Struct.new(:zoning, :mese, :anno, :anno_precedente, :iscritti_totale, :iscritti_comprensori,
-      :deleghe_totale, :deleghe_comprensori, :error, keyword_init: true) do
+      :deleghe_totale, :deleghe_comprensori, :deleghe_multiple_totale, :deleghe_multiple_comprensori, :error,
+      keyword_init: true) do
       def success?
         error.blank?
       end
@@ -35,10 +36,13 @@ module StatisticSpi
     end
 
     def build_result
+      deleghe_multiple = MultipleDelegationsBreakdown.call(zoning: @zoning, anno: @anno, mese: @mese)
+
       Result.new(
         zoning: @zoning, mese: @mese, anno: @anno, anno_precedente: @anno_precedente,
         iscritti_totale: totale_row(:iscritti), iscritti_comprensori: comprensori_rows(:iscritti),
-        deleghe_totale: totale_row(:deleghe), deleghe_comprensori: comprensori_rows(:deleghe)
+        deleghe_totale: totale_row(:deleghe), deleghe_comprensori: comprensori_rows(:deleghe),
+        deleghe_multiple_totale: deleghe_multiple.totale, deleghe_multiple_comprensori: deleghe_multiple.comprensori
       )
     end
 
