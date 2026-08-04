@@ -1,11 +1,15 @@
 module StatisticWithIntegrations
   # Riusa Statistics::TotalMembersComparison per tutte le sezioni della
-  # dashboard e ricalibra con FilleaCorrection/FlcCorrection le sole sezioni
+  # dashboard e ricalibra con FilleaCorrection/FlcCorrection le sezioni
   # toccate dalle due direttive di integrazione dati esterni: totale,
-  # comprensori, le righe FILLEA/FLC di categorie e le righe "Ordinaria
-  # C.E."/"Delega Tesoro" di tipologie_delega. Le altre sezioni (nazionalità,
-  # sesso, fasce età, ecc.) non hanno un equivalente esterno e passano
-  # invariate da Statistics.
+  # comprensori, le righe FILLEA/FLC di categorie, le righe "Ordinaria
+  # C.E."/"Delega Tesoro" di tipologie_delega, la riga "Attivi" di
+  # attivi_pensionati (Pensionati = SPI, mai toccato dalle integrazioni) e la
+  # riga "Delega" di tipologie_iscrizione (i lavoratori aggiunti da Cassa
+  # Edile/Anagrafe sono per definizione a delega, mai BreviManu) — senza
+  # ricalibrare anche queste due sezioni, la loro somma non torna più con il
+  # totale corretto. Le altre sezioni (nazionalità, sesso, fasce età, ecc.)
+  # non hanno un equivalente esterno e passano invariate da Statistics.
   class TotalMembersComparison
     Result = Struct.new(:zoning, :mese, :anno, :anno_precedente, :count_anno, :count_precedente, :diff,
       :diff_percent, :comprensori, :categorie, :attivi_pensionati, :tipologie_iscrizione, :tipologie_delega,
@@ -16,6 +20,7 @@ module StatisticWithIntegrations
 
     ORDINARIA_CE = "Ordinaria C.E.".freeze
     DELEGA_TESORO = "Delega Tesoro".freeze
+    ATTIVI = "Attivi".freeze
 
     def self.call(...) = new(...).call
 
@@ -63,12 +68,16 @@ module StatisticWithIntegrations
       tipologie_delega = recalibrate_named(tipologie_delega, :tipologia, DELEGA_TESORO, flc_anno.total_diff,
         flc_diff_precedente)
 
+      tipologie_iscrizione = recalibrate_named(base.tipologie_iscrizione, :tipologia,
+        Statistics::MembershipTypeBreakdown::DELEGA, diff_anno, diff_precedente)
+
       Result.new(zoning: @zoning, mese: @mese, anno: @anno, anno_precedente: @anno_precedente,
         count_anno:, count_precedente:, diff:, diff_percent:,
         comprensori: recalibrate_comprensori(base.comprensori, fillea_anno, fillea_precedente, flc_anno,
           flc_precedente),
-        categorie:, tipologie_delega:,
-        attivi_pensionati: base.attivi_pensionati, tipologie_iscrizione: base.tipologie_iscrizione,
+        categorie:, tipologie_delega:, tipologie_iscrizione:,
+        attivi_pensionati: recalibrate_attivi_pensionati(base.attivi_pensionati, diff_anno, diff_precedente,
+          count_anno),
         nazionalita: base.nazionalita, sesso: base.sesso, provvisorie_revoche: base.provvisorie_revoche,
         status_lavorativo: base.status_lavorativo, fasce_eta: base.fasce_eta,
         fillea_correzione: fillea_anno, flc_correzione: flc_anno)
@@ -98,6 +107,25 @@ module StatisticWithIntegrations
             diff_precedente:)
 
         riga.class.new(attributo => valore, count_anno:, count_precedente:, diff:, diff_percent:)
+      end
+    end
+
+    # ricalibra la riga "Attivi" (Pensionati = SPI, non toccato dalle
+    # integrazioni) e ricalcola la percentuale di entrambe le righe sul nuovo
+    # totale corretto, invariato per il gruppo Pensionati.
+    def recalibrate_attivi_pensionati(righe, diff_anno, diff_precedente, totale_anno_corretto)
+      righe.map do |riga|
+        if riga.gruppo == ATTIVI
+          count_anno, count_precedente, diff, diff_percent =
+            recalibrate(count_anno: riga.count_anno, count_precedente: riga.count_precedente, diff_anno:,
+              diff_precedente:)
+        else
+          count_anno, count_precedente, diff, diff_percent =
+            riga.count_anno, riga.count_precedente, riga.diff, riga.diff_percent
+        end
+
+        percentuale = totale_anno_corretto.zero? ? nil : (count_anno.to_f / totale_anno_corretto * 100)
+        riga.class.new(gruppo: riga.gruppo, count_anno:, count_precedente:, diff:, diff_percent:, percentuale:)
       end
     end
 

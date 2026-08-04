@@ -109,6 +109,34 @@ RSpec.describe StatisticWithIntegrations::TotalMembersComparison do
         expect(result.flc_correzione.total_diff).to eq(50)
       end
 
+      it "ricalibra la riga Attivi di attivi_pensionati sommando entrambe le correzioni" do
+        attivi = result.attivi_pensionati.find { |row| row.gruppo == "Attivi" }
+        expect(attivi.count_anno).to eq(452)
+        expect(attivi.count_precedente).to eq(331)
+      end
+
+      it "non tocca la riga Pensionati di attivi_pensionati (SPI non è integrato)" do
+        pensionati = result.attivi_pensionati.find { |row| row.gruppo == "Pensionati" }
+        expect(pensionati.count_anno).to eq(0)
+        expect(pensionati.count_precedente).to eq(0)
+      end
+
+      it "la somma di attivi_pensionati torna con il totale corretto" do
+        expect(result.attivi_pensionati.sum(&:count_anno)).to eq(result.count_anno)
+        expect(result.attivi_pensionati.sum(&:count_precedente)).to eq(result.count_precedente)
+      end
+
+      it "ricalibra la riga Delega di tipologie_iscrizione sommando entrambe le correzioni" do
+        delega = result.tipologie_iscrizione.find { |row| row.tipologia == "Delega" }
+        expect(delega.count_anno).to eq(447) # 0 SinCGIL (nessun import ha tipologia_iscrizione Delega) + 447 correzioni
+        expect(delega.count_precedente).to eq(328) # 0 SinCGIL + 328 correzioni
+      end
+
+      it "la somma di tipologie_iscrizione torna con il totale corretto" do
+        expect(result.tipologie_iscrizione.sum(&:count_anno)).to eq(result.count_anno)
+        expect(result.tipologie_iscrizione.sum(&:count_precedente)).to eq(result.count_precedente)
+      end
+
       it "non altera le sezioni senza equivalente esterno" do
         expect(result.nazionalita.map(&:count)).to eq(
           Statistics::NationalityBreakdown.call(zoning: zoning, anno: "2026", mese: "Giugno").map(&:count)

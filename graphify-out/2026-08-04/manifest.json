@@ -1160,14 +1160,14 @@
     "semantic_hash": "1846e05f4006ccee1404ac651d1d23b4"
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistic_with_integrations/total_members_comparison_spec.rb": {
-    "mtime": 1785826858.865688,
-    "ast_hash": "db72952315caff781f2cfd1cc285282a",
-    "semantic_hash": ""
+    "mtime": 1785148834.4476626,
+    "ast_hash": "ec06f8e9e5ea885f5b68a5ad79c99426",
+    "semantic_hash": "ec06f8e9e5ea885f5b68a5ad79c99426"
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_with_integrations/total_members_comparison.rb": {
-    "mtime": 1785826801.415336,
-    "ast_hash": "db0a5c35b51040a363ab39c5e29ef481",
-    "semantic_hash": ""
+    "mtime": 1785148878.4334183,
+    "ast_hash": "2a65e7bddbbc0b5f77a50621f97f403b",
+    "semantic_hash": "2a65e7bddbbc0b5f77a50621f97f403b"
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_with_integrations/fillea_correction.rb": {
     "mtime": 1785148765.5037675,
