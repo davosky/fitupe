@@ -23,8 +23,7 @@
   <% end %>
   <% if @total_members_result %>
     <% if @total_members_result.success? %>
-      <%= render partial: "totale_card", locals: { row: @total_members_result.iscritti_totale, metric_label: "Iscritti", result: @total_members_result } %>
-      <%= render partial: "totale_card", locals: { row: @total_members_result.deleghe_totale, metric_label: "Deleghe", result: @total_members_result } %>
+      <%= render partial: "totale_card", locals: { iscritti_row: @total_members_result.iscritti_totale, deleghe_row: @total_members_result.deleghe_totale, result: @total_members_result } %>
       <% if @total_members_result.iscritti_comprensori.present? %>
         <%= render partial: "comprensori_section", locals: { iscritti_rows: @total_members_result.iscritti_comprensori, deleghe_rows: @total_members_result.deleghe_comprensori, result: @total_members_result } %>
       <% else %>

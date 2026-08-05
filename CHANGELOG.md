@@ -33,9 +33,13 @@ Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 - Statistiche: il grafico a barre della sezione "Status Lavorativo" è più largo e usa una palette di colori ciclica (con `--bs-dark` al posto di `--bs-secondary`, poco visibile nel tema Lumen).
 - Rifinite l'icona e la navbar di Statistiche Con Integrazioni e di Stampa Statistiche (icona definitiva al posto del placeholder).
 - Aggiornato il testo della pagina crediti.
+- Statistiche SPI: le card "Iscritti"/"Deleghe" (Regionale e Comprensori) sono state unificate in un'unica card con il nome della zona/"Comprensori" in cima seguito dalle sezioni Iscritti e Deleghe, ciascuna con icona dedicata (persona/documento) e badge CGIL SPI, invece di due card separate.
+- Statistiche SPI: le tabelle mostrano ora "iscritti" o "deleghe" nell'intestazione della colonna differenza, a seconda della metrica rappresentata, invece del testo fisso "iscritti".
+- Statistiche SPI: rifinite icona di pagina, icona e layout delle card "Deleghe Multiple" (Regionale e Comprensori) e colori dell'icona `multiplespi.svg` (icona definitiva al posto del placeholder).
 
 ### Corretto
 
 - Corretta una vulnerabilità high (DoS) in `brace-expansion` (dipendenza transitiva di `nodemon`) forzando la versione patchata via `resolutions` in `package.json`.
 - Aggiornato Rails a 8.1.3.1 per risolvere la CVE-2026-66066 su Active Storage.
+- Corretta una vulnerabilità moderate in `postcss` (lettura di file `.map` non previsti quando `from` non è impostato) e una nuova vulnerabilità high in `brace-expansion` che aggirava la mitigazione precedente, aggiornando le versioni minime richieste rispettivamente a `^8.5.23` e `^5.0.9`.
 - Statistiche Con Integrazioni: le sezioni "Attivi/Pensionati" e "Tipologie Iscrizione" non venivano ricalibrate con le correzioni FILLEA/FLC, per cui la loro somma non coincideva con il totale corretto (es. somma Categorie 40210 contro Attivi 38781). Ora la correzione viene sommata rispettivamente alla riga "Attivi" e alla riga "Delega".

@@ -1,40 +1,31 @@
-<% regionale = row.zoning.codice_azzonamento.to_s.length == 1 %>
+<% regionale = iscritti_row.zoning.codice_azzonamento.to_s.length == 1 %>
 <% zoning_image = regionale ? "statistic/regionale.svg" : "statistic/comprensori.svg" %>
 <% zoning_image_alt = regionale ? "regionale" : "comprensori" %>
 <div class="card border-dark p-3 m-2 shadow-sm">
   <h4>
     <span class="p-2 fw-bold fst-italic">
       <%= image_tag(zoning_image, class: "img-fluid me-1", size: "48x48", alt: zoning_image_alt) %>
-      <%= row.zoning.descrizione_azzonamento %>
-      <span class="text-info">&nbsp;<%= metric_label %>&nbsp;SPI</span>
+      <%= iscritti_row.zoning.descrizione_azzonamento %>
     </span>
   </h4>
+
+  <h5>
+    <span class="text-danger p-2 fw-bold fst-italic">
+      <i class="bi bi-person me-1"></i>
+      Iscritti
+      <%= image_tag("statistic/logospi.svg", class: "img-fluid ms-1", size: "40x40", alt: "logospi") %>
+    </span>
+  </h5>
   <hr class="mt-2 mb-2"/>
-  <div class="table-responsive">
-    <table class="table table-hover align-middle">
-      <thead>
-        <tr>
-          <th class="fs-5">Azzonamento</th>
-          <th class="fs-5"><%= result.mese %> <%= result.anno_precedente %></th>
-          <th class="fs-5"><%= result.mese %> <%= result.anno %></th>
-          <th class="fs-5"><i>iscritti</i></th>
-          <th class="fs-5"><i>%</i></th>
-        </tr>
-      </thead>
-      <tbody>
-        <% diff_class = row.diff.negative? ? "text-danger" : "text-success" %>
-        <tr>
-          <td class="fs-5"><%= row.zoning.descrizione_azzonamento %></td>
-          <td class="fs-5"><%= number_with_delimiter(row.count_precedente, locale: :it) %></td>
-          <td class="fs-5"><%= number_with_delimiter(row.count_anno, locale: :it) %></td>
-          <td class="fs-5 fw-bold <%= diff_class %>"><%= number_with_delimiter(row.diff, locale: :it) %></td>
-          <td class="fs-5 fw-bold <%= diff_class %>">
-            <% if row.diff_percent %>
-              <%= number_to_percentage(row.diff_percent, precision: 2, locale: :it) %>
-            <% end %>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+  <%= render partial: "comprensori_table", locals: { rows: [iscritti_row], result: result, metric_label: "iscritti" } %>
+
+  <h5 class="mt-4">
+    <span class="text-danger p-2 fw-bold fst-italic">
+      <i class="bi bi-file-text me-1"></i>
+      Deleghe
+      <%= image_tag("statistic/logospi.svg", class: "img-fluid ms-1", size: "40x40", alt: "logospi") %>
+    </span>
+  </h5>
+  <hr class="mt-2 mb-2"/>
+  <%= render partial: "comprensori_table", locals: { rows: [deleghe_row], result: result, metric_label: "deleghe" } %>
 </div>

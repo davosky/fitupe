@@ -7455,7 +7455,7 @@
       "source_file": "app/models/import_spi.rb",
       "source_location": "L1",
       "id": "app_models_import_spi_rb",
-      "community": 8,
+      "community": 39,
       "norm_label": "import_spi.rb"
     },
     {
@@ -7464,7 +7464,7 @@
       "source_file": "app/models/import_spi.rb",
       "source_location": "L1",
       "id": "models_import_spi_importspi",
-      "community": 8,
+      "community": 39,
       "norm_label": "importspi"
     },
     {
@@ -8868,7 +8868,7 @@
       "source_file": "app/jobs/import_csv_job.rb",
       "source_location": "L1",
       "id": "app_jobs_import_csv_job_rb",
-      "community": 39,
+      "community": 59,
       "norm_label": "import_csv_job.rb"
     },
     {
@@ -8877,7 +8877,7 @@
       "source_file": "app/jobs/import_csv_job.rb",
       "source_location": "L1",
       "id": "jobs_import_csv_job_importcsvjob",
-      "community": 39,
+      "community": 59,
       "norm_label": "importcsvjob"
     },
     {
@@ -8886,7 +8886,7 @@
       "source_file": "app/jobs/import_csv_job.rb",
       "source_location": "L4",
       "id": "jobs_import_csv_job_importcsvjob_perform",
-      "community": 39,
+      "community": 59,
       "norm_label": ".perform()"
     },
     {
@@ -8895,7 +8895,7 @@
       "source_file": "app/jobs/import_csv_job.rb",
       "source_location": "L22",
       "id": "jobs_import_csv_job_importcsvjob_broadcast",
-      "community": 39,
+      "community": 59,
       "norm_label": ".broadcast()"
     },
     {
@@ -9228,7 +9228,7 @@
       "source_file": "db/migrate/20260803071317_create_imports_spi.rb",
       "source_location": "L1",
       "id": "db_migrate_20260803071317_create_imports_spi_rb",
-      "community": 8,
+      "community": 39,
       "norm_label": "20260803071317_create_imports_spi.rb"
     },
     {
@@ -9237,7 +9237,7 @@
       "source_file": "db/migrate/20260803071317_create_imports_spi.rb",
       "source_location": "L1",
       "id": "migrate_20260803071317_create_imports_spi_createimportsspi",
-      "community": 8,
+      "community": 39,
       "norm_label": "createimportsspi"
     },
     {
@@ -9246,7 +9246,7 @@
       "source_file": "db/migrate/20260803071317_create_imports_spi.rb",
       "source_location": "L2",
       "id": "migrate_20260803071317_create_imports_spi_createimportsspi_change",
-      "community": 8,
+      "community": 39,
       "norm_label": ".change()"
     },
     {
@@ -9309,7 +9309,7 @@
       "source_file": "db/migrate/20260716104233_create_zonings.rb",
       "source_location": "L1",
       "id": "db_migrate_20260716104233_create_zonings_rb",
-      "community": 98,
+      "community": 8,
       "norm_label": "20260716104233_create_zonings.rb"
     },
     {
@@ -9318,7 +9318,7 @@
       "source_file": "db/migrate/20260716104233_create_zonings.rb",
       "source_location": "L1",
       "id": "migrate_20260716104233_create_zonings_createzonings",
-      "community": 98,
+      "community": 8,
       "norm_label": "createzonings"
     },
     {
@@ -9327,7 +9327,7 @@
       "source_file": "db/migrate/20260716104233_create_zonings.rb",
       "source_location": "L2",
       "id": "migrate_20260716104233_create_zonings_createzonings_change",
-      "community": 98,
+      "community": 8,
       "norm_label": ".change()"
     },
     {
@@ -9523,7 +9523,7 @@
       "label": "Corretto",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L40",
+      "source_location": "L37",
       "id": "fitupe_changelog_corretto",
       "community": 90,
       "norm_label": "corretto"
@@ -15679,7 +15679,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 39,
+      "community": 59,
       "norm_label": "importcsvjob spec",
       "id": "jobs_import_csv_job_spec"
     },
@@ -15796,7 +15796,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 39,
       "norm_label": "importspi spec",
       "id": "models_import_spi_spec"
     },
@@ -15900,7 +15900,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 39,
+      "community": 59,
       "norm_label": "imports request spec",
       "id": "requests_imports_spec"
     },
@@ -23841,9 +23841,9 @@
       "source_file": "app/services/statistic_spi/multiple_delegations_breakdown.rb",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistic_spi_multiple_delegations_breakdown_rb",
-      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown"
+      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -23851,9 +23851,9 @@
       "source_file": "app/services/statistic_spi/multiple_delegations_breakdown.rb",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown",
-      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_call"
+      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -23861,9 +23861,9 @@
       "source_file": "app/services/statistic_spi/multiple_delegations_breakdown.rb",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown",
-      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_initialize"
+      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -23871,9 +23871,9 @@
       "source_file": "app/services/statistic_spi/multiple_delegations_breakdown.rb",
       "source_location": "L35",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown",
-      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_build_row"
+      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -23881,9 +23881,9 @@
       "source_file": "app/services/statistic_spi/multiple_delegations_breakdown.rb",
       "source_location": "L42",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown",
-      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_merge_counts"
+      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_merge_counts",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -23891,9 +23891,9 @@
       "source_file": "app/services/statistic_spi/multiple_delegations_breakdown.rb",
       "source_location": "L48",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown",
-      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_province_zonings"
+      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_province_zonings",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -23901,9 +23901,9 @@
       "source_file": "app/services/statistic_spi/multiple_delegations_breakdown.rb",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown",
-      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_regional_zoning"
+      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_regional_zoning",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -23911,9 +23911,9 @@
       "source_file": "app/services/statistic_spi/multiple_delegations_breakdown.rb",
       "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown",
-      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_regional_scope"
+      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_regional_scope",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -23921,9 +23921,9 @@
       "source_file": "app/services/statistic_spi/multiple_delegations_breakdown.rb",
       "source_location": "L62",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown",
-      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_counts_by_comprensorio"
+      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_counts_by_comprensorio",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -23931,9 +23931,9 @@
       "source_file": "app/services/statistic_spi/multiple_delegations_breakdown.rb",
       "source_location": "L68",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown",
-      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_sql"
+      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_sql",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -23942,9 +23942,9 @@
       "source_file": "app/services/statistic_spi/multiple_delegations_breakdown.rb",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_call",
-      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_build_row"
+      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_build_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -23953,9 +23953,9 @@
       "source_file": "app/services/statistic_spi/multiple_delegations_breakdown.rb",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_call",
-      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_merge_counts"
+      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_merge_counts",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -23964,9 +23964,9 @@
       "source_file": "app/services/statistic_spi/multiple_delegations_breakdown.rb",
       "source_location": "L59",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_regional_scope",
-      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_call"
+      "target": "statistic_spi_multiple_delegations_breakdown_multipledelegationsbreakdown_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -24248,9 +24248,9 @@
       "source_file": "app/services/statistic_spi/total_members_comparison.rb",
       "source_location": "L39",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_total_members_comparison_totalmemberscomparison_build_result",
-      "target": "statistic_spi_total_members_comparison_totalmemberscomparison_call"
+      "target": "statistic_spi_total_members_comparison_totalmemberscomparison_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -38719,5 +38719,5 @@
       "source_file": "spec/services/statistic_prints/membership_types_page_spec.rb"
     }
   ],
-  "built_at_commit": "a224372f07aaa978ed037a102e83d9cf75b2e9b5"
+  "built_at_commit": "aded9dd790f12648d56810642fd00161cb223596"
 }

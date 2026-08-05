@@ -1,16 +1,16 @@
-# Graph Report - fitupe  (2026-08-05)
+# Graph Report - fitupe  (2026-08-04)
 
 ## Corpus Check
-- 249 files · ~124,674 words
+- 249 files · ~124,071 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1627 nodes · 2132 edges · 238 communities (168 shown, 70 thin omitted)
+- 1627 nodes · 2132 edges · 237 communities (168 shown, 69 thin omitted)
 - Extraction: 84% EXTRACTED · 16% INFERRED · 0% AMBIGUOUS · INFERRED: 331 edges (avg confidence: 0.84)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a224372f`
+- Built from commit: `aded9dd7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -110,7 +110,6 @@
 - [[_COMMUNITY_Community 93|Community 93]]
 - [[_COMMUNITY_Bin Scripts (devdockerrailssetup)|Bin Scripts (dev/docker/rails/setup)]]
 - [[_COMMUNITY_Rubocop Config|Rubocop Config]]
-- [[_COMMUNITY_Community 98|Community 98]]
 - [[_COMMUNITY_DelegationMembership Type Icons|Delegation/Membership Type Icons]]
 - [[_COMMUNITY_Community 100|Community 100]]
 - [[_COMMUNITY_Community 103|Community 103]]
@@ -217,7 +216,7 @@
 - **StatisticWithIntegrations::TotalMembersComparison composes FlcCorrection and FilleaCorrection** — statistic_with_integrations_total_members_comparison_spec_totalmemberscomparison, statistic_with_integrations_flc_correction_flccorrection, statistic_with_integrations_fillea_correction_filleacorrection [EXTRACTED 1.00]
 - **StatisticPrints pages accepting an alternate comparison_service** — statistic_prints_membership_types_page_spec_membershiptypespage, statistic_prints_employment_status_page_spec_employmentstatuspage, statistic_with_integrations_total_members_comparison_totalmemberscomparison [EXTRACTED 1.00]
 
-## Communities (238 total, 70 thin omitted)
+## Communities (237 total, 69 thin omitted)
 
 ### Community 0 - "Statistic Prints Table Helpers"
 Cohesion: 0.13
@@ -245,7 +244,7 @@ Nodes (28): browserslist, dependencies, autoprefixer, bootstrap, bootstrap-icons
 
 ### Community 8 - "SPI/Fillea/Legend/Zoning Migrations"
 Cohesion: 0.10
-Nodes (19): Database Schema, ImportSpi Factory, Import Factory, IntegrationFillea Factory, Legend Factory, Italian Locale File, CreateIntegrationFilleas, CreateIntegrationFlcs (+11 more)
+Nodes (17): Database Schema, ImportSpi Factory, Import Factory, IntegrationFillea Factory, Legend Factory, Italian Locale File, CreateZonings, CreateIntegrationFilleas (+9 more)
 
 ### Community 10 - "FILLEA/FLC Correction Services"
 Cohesion: 0.11
@@ -344,8 +343,8 @@ Cohesion: 0.13
 Nodes (14): `build_row` *(privato)*, `call`, code:ruby (module Statistics), code:ruby (# Conta le pratiche Provvisorie (provvisoria = "SI") e le Re), code:ruby (Row = Struct.new(:tipologia, :count, :percentuale, keyword_i), code:ruby (def call), code:ruby (def build_row(tipologia, count)), code:ruby (def totale_iscritti) (+6 more)
 
 ### Community 39 - "Import CSV Background Jobs"
-Cohesion: 0.22
-Nodes (5): ImportCsvJob, ImportCsvJob Spec, ImportSpiCsvJob, ImportSpiCsvJob Spec, Imports Request Spec
+Cohesion: 0.20
+Nodes (5): ImportSpiCsvJob, ImportSpiCsvJob Spec, CreateImportsSpi, ImportSpi, ImportSpi Spec
 
 ### Community 40 - "Statistic Breakdown Icons & PDF Art"
 Cohesion: 0.23
@@ -388,8 +387,8 @@ Cohesion: 0.22
 Nodes (4): Application, application, HelloController (Stimulus), Stimulus controllers manifest (index.js)
 
 ### Community 59 - "Import Migrations & ActiveStorage"
-Cohesion: 0.20
-Nodes (4): CreateImports, CreateActiveStorageTables, Import, Import Spec
+Cohesion: 0.14
+Nodes (7): ImportCsvJob, ImportCsvJob Spec, CreateImports, CreateActiveStorageTables, Import, Import Spec, Imports Request Spec
 
 ### Community 60 - "Devise Users Table & Seed"
 Cohesion: 0.29
@@ -514,7 +513,7 @@ Nodes (3): Provvisorie/Revoche (Provisional/Revocations) breakdown icon, Tipolog
 ## Knowledge Gaps
 - **307 isolated node(s):** `name`, `private`, `esbuild`, `brace-expansion`, `build` (+302 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **70 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **69 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
