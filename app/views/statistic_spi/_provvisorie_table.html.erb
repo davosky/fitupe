@@ -1,0 +1,24 @@
+<div class="table-responsive">
+  <table class="table table-hover align-middle">
+    <thead>
+      <tr>
+        <th class="fs-5">Azzonamento</th>
+        <th class="fs-5"><i>totale provvisorie</i></th>
+        <th class="fs-5"><i>% sul totale deleghe</i></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% rows.each do |row| %>
+        <tr>
+          <td class="fs-5"><%= row.zoning.descrizione_azzonamento %></td>
+          <td class="fs-5 fw-bold"><%= number_with_delimiter(row.totale, locale: :it) %></td>
+          <td class="fs-5">
+            <% if row.percentuale %>
+              <%= number_to_percentage(row.percentuale, precision: 2, locale: :it) %>
+            <% end %>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>

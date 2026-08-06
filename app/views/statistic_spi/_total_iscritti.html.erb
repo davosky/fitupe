@@ -41,6 +41,10 @@
       <% if @total_members_result.cessazioni_comprensori.present? %>
         <%= render partial: "cessazioni_comprensori_card", locals: { rows: @total_members_result.cessazioni_comprensori } %>
       <% end %>
+      <%= render partial: "provvisorie_card", locals: { row: @total_members_result.provvisorie_totale } %>
+      <% if @total_members_result.provvisorie_comprensori.present? %>
+        <%= render partial: "provvisorie_comprensori_card", locals: { rows: @total_members_result.provvisorie_comprensori, total_row: @total_members_result.provvisorie_totale } %>
+      <% end %>
     <% else %>
       <div class="alert alert-warning mb-0">
         <i class="bi bi-exclamation-triangle-fill me-2"></i>

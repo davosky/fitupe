@@ -6,7 +6,14 @@ export default class extends Controller {
   static targets = ["canvas"]
   static values = {
     labels: Array,
-    data: Array
+    data: Array,
+    // Quando true, i valori in `data` sono già percentuali (non conteggi da
+    // rapportare alla somma del dataset) — usato per confrontare un tasso già
+    // calcolato tra più fette (es. una percentuale diversa per comprensorio),
+    // dove la dimensione della fetta serve solo al confronto visivo relativo
+    // e l'etichetta deve riportare il valore così com'è, non una sua ulteriore
+    // percentuale sul totale del grafico.
+    rawPercentages: Boolean
   }
 
   connect() {
@@ -37,17 +44,24 @@ export default class extends Controller {
     return this.dataValue.map((_, index) => style.getPropertyValue(palette[index % palette.length]).trim())
   }
 
+  formatPercent(value) {
+    return `${value.toFixed(2).replace(".", ",")}%`
+  }
+
   tooltipLabel(context) {
+    if (this.rawPercentagesValue) return `${context.label}: ${this.formatPercent(context.parsed)}`
+
     const total = context.dataset.data.reduce((sum, value) => sum + value, 0)
     const percent = total === 0 ? 0 : (context.parsed / total * 100)
 
-    return `${context.label}: ${context.parsed.toLocaleString("it-IT")} (${percent.toFixed(2).replace(".", ",")}%)`
+    return `${context.label}: ${context.parsed.toLocaleString("it-IT")} (${this.formatPercent(percent)})`
   }
 
   // Disegna al centro di ciascuna fetta il valore e la percentuale sul
   // totale, per non dover passare dal tooltip per leggerli.
   dataLabelsPlugin() {
     const data = this.dataValue
+    const rawPercentages = this.rawPercentagesValue
     const total = data.reduce((sum, value) => sum + value, 0)
 
     return {
@@ -66,10 +80,16 @@ export default class extends Controller {
           const value = data[index]
           if (!value) return
 
-          const percent = total === 0 ? 0 : (value / total * 100)
           const { x, y } = arc.tooltipPosition()
+
+          if (rawPercentages) {
+            ctx.fillText(this.formatPercent(value), x, y)
+            return
+          }
+
+          const percent = total === 0 ? 0 : (value / total * 100)
           ctx.fillText(`${value.toLocaleString("it-IT")}`, x, y - 8)
-          ctx.fillText(`(${percent.toFixed(2).replace(".", ",")}%)`, x, y + 8)
+          ctx.fillText(`(${this.formatPercent(percent)})`, x, y + 8)
         })
 
         ctx.restore()

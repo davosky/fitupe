@@ -128,6 +128,11 @@ RSpec.describe StatisticSpi::TotalMembersComparison do
       expect(result.cessazioni_totale.totale).to eq(result.cessazioni_comprensori.sum(&:totale))
       expect(result.cessazioni_totale.deleghe_totale).to eq(result.deleghe_totale.count_anno)
     end
+
+    it "il totale regionale provvisorie resta coerente con la somma dei comprensori" do
+      expect(result.provvisorie_totale.totale).to eq(result.provvisorie_comprensori.sum(&:totale))
+      expect(result.provvisorie_totale.deleghe_totale).to eq(result.deleghe_totale.count_anno)
+    end
   end
 
   context "quando un pensionato ha piu' deleghe nell'anno corrente in comprensori diversi" do
