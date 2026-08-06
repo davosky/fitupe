@@ -5,7 +5,7 @@ module StatisticSpi
   class TotalMembersComparison
     Result = Struct.new(:zoning, :mese, :anno, :anno_precedente, :iscritti_totale, :iscritti_comprensori,
       :deleghe_totale, :deleghe_comprensori, :deleghe_multiple_totale, :deleghe_multiple_comprensori,
-      :tipologie_delega_totale, :tipologie_delega_comprensori, :error,
+      :tipologie_delega_totale, :tipologie_delega_comprensori, :cessazioni_totale, :cessazioni_comprensori, :error,
       keyword_init: true) do
       def success?
         error.blank?
@@ -39,13 +39,15 @@ module StatisticSpi
     def build_result
       deleghe_multiple = MultipleDelegationsBreakdown.call(zoning: @zoning, anno: @anno, mese: @mese)
       tipologie_delega = TipologieDelegaBreakdown.call(zoning: @zoning, anno: @anno, mese: @mese)
+      cessazioni = CessazioniBreakdown.call(zoning: @zoning, anno: @anno, mese: @mese)
 
       Result.new(
         zoning: @zoning, mese: @mese, anno: @anno, anno_precedente: @anno_precedente,
         iscritti_totale: totale_row(:iscritti), iscritti_comprensori: comprensori_rows(:iscritti),
         deleghe_totale: totale_row(:deleghe), deleghe_comprensori: comprensori_rows(:deleghe),
         deleghe_multiple_totale: deleghe_multiple.totale, deleghe_multiple_comprensori: deleghe_multiple.comprensori,
-        tipologie_delega_totale: tipologie_delega.totale, tipologie_delega_comprensori: tipologie_delega.comprensori
+        tipologie_delega_totale: tipologie_delega.totale, tipologie_delega_comprensori: tipologie_delega.comprensori,
+        cessazioni_totale: cessazioni.totale, cessazioni_comprensori: cessazioni.comprensori
       )
     end
 

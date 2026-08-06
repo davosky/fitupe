@@ -1,0 +1,21 @@
+<div class="card border-dark p-3 m-2 shadow-sm">
+  <h4>
+    <span class="p-2 fw-bold fst-italic">
+      <%= image_tag("statistic/comprensori.svg", class: "img-fluid me-1", size: "48x48", alt: "comprensori") %>
+      Comprensori
+      <br/>
+      <span class="text-danger">
+        &nbsp;
+        <%= image_tag("statistic/cessazioni.svg", class: "img-fluid align-middle me-1", size: "48x48", alt: "cessazioni") %>
+        &nbsp;
+        Cessazioni
+        <%= image_tag("statistic/logospi.svg", class: "img-fluid ms-1", size: "40x40", alt: "logospi") %>
+      </span>
+    </span>
+  </h4>
+  <hr class="mt-2 mb-2"/>
+  <%= render partial: "cessazioni_table", locals: { rows: rows } %>
+  <div class="mt-4">
+    <%= render partial: "cessazioni_comprensori_percentage_table", locals: { rows: rows } %>
+  </div>
+</div>

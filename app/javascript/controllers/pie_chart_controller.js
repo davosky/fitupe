@@ -15,6 +15,7 @@ export default class extends Controller {
       data: { labels: this.labelsValue, datasets: [ { data: this.dataValue, backgroundColor: this.colors() } ] },
       options: {
         responsive: true,
+        maintainAspectRatio: false,
         plugins: {
           legend: { position: "bottom" },
           tooltip: { callbacks: { label: (context) => this.tooltipLabel(context) } }
@@ -28,9 +29,12 @@ export default class extends Controller {
     this.chart?.destroy()
   }
 
+  // Cicla sulla palette se le fette sono più dei colori disponibili.
   colors() {
+    const palette = [ "--bs-success", "--bs-warning", "--bs-danger", "--bs-primary", "--bs-info", "--bs-dark", "--bs-secondary" ]
     const style = getComputedStyle(document.documentElement)
-    return [ "--bs-success", "--bs-warning", "--bs-danger" ].map((name) => style.getPropertyValue(name).trim())
+
+    return this.dataValue.map((_, index) => style.getPropertyValue(palette[index % palette.length]).trim())
   }
 
   tooltipLabel(context) {

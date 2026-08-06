@@ -190,7 +190,7 @@
     "semantic_hash": "e99511ba6b1056659bed1f0083cae290"
   },
   "/home/davo/Programmazione/fitupe/app/javascript/controllers/index.js": {
-    "mtime": 1786005269.220339,
+    "mtime": 1786002041.683648,
     "ast_hash": "2737250800efe9dafad37dbb6e5cdaf7",
     "semantic_hash": ""
   },
@@ -1025,9 +1025,9 @@
     "semantic_hash": "5d9d9938775bce285560bda0bbc78fe9"
   },
   "/home/davo/Programmazione/fitupe/app/javascript/controllers/pie_chart_controller.js": {
-    "mtime": 1786005567.2430036,
-    "ast_hash": "845800d80b3972fa816921db177f37fa",
-    "semantic_hash": ""
+    "mtime": 1784889209.5771046,
+    "ast_hash": "07dc4fe0be102c7c73b6fc8661bd4b08",
+    "semantic_hash": "07dc4fe0be102c7c73b6fc8661bd4b08"
   },
   "/home/davo/Programmazione/fitupe/app/assets/images/statistic/sesso.svg": {
     "mtime": 1784889864.3621316,
@@ -1585,8 +1585,8 @@
     "semantic_hash": "0a3d0c5f263e1b69c5cb5ab927365e16"
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistic_spi/total_members_comparison_spec.rb": {
-    "mtime": 1786005245.9380307,
-    "ast_hash": "862e3288168dae485baa67c2036b508c",
+    "mtime": 1786000856.2999568,
+    "ast_hash": "982dd161bf3fca0420d5490c6213b0dc",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb": {
@@ -1595,8 +1595,8 @@
     "semantic_hash": "2da214d64e92b41c2036dbadaaddcbb2"
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_spi/total_members_comparison.rb": {
-    "mtime": 1786005135.4444,
-    "ast_hash": "764baefc84f649885e4f2bc9d4c231da",
+    "mtime": 1786000783.66261,
+    "ast_hash": "82071f99f5ddf71258541247f8fcf521",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/services/statistic_spi/zoning_period_scope.rb": {
@@ -1652,21 +1652,6 @@
   "/home/davo/Programmazione/fitupe/app/javascript/controllers/grouped_bar_chart_controller.js": {
     "mtime": 1786002032.3351724,
     "ast_hash": "d337d9d9fac8a39541823623487275fc",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/services/statistic_spi/cessazioni_breakdown_spec.rb": {
-    "mtime": 1786005234.802727,
-    "ast_hash": "7afc486fa78f53a50b1f19a1951a6d46",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/services/statistic_spi/cessazioni_breakdown.rb": {
-    "mtime": 1786005113.4709177,
-    "ast_hash": "f1b579475ffb59610b1845bffc3c94e7",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/statistic/cessazioni.svg": {
-    "mtime": 1786006535.4202073,
-    "ast_hash": "edee9e6d36542b008a2b1e4852e408a9",
     "semantic_hash": ""
   }
 }
