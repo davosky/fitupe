@@ -1,0 +1,26 @@
+<div class="table-responsive">
+  <table class="table table-hover align-middle">
+    <thead>
+      <tr>
+        <th class="fs-5">Azzonamento</th>
+        <% StatisticSpi::TipologieDelegaBreakdown::ETICHETTE.each do |etichetta| %>
+          <th class="fs-5"><i><%= etichetta %></i></th>
+        <% end %>
+      </tr>
+    </thead>
+    <tbody>
+      <% rows.each do |row| %>
+        <tr>
+          <td class="fs-5"><%= row.zoning.descrizione_azzonamento %></td>
+          <% StatisticSpi::TipologieDelegaBreakdown::ETICHETTE.each do |etichetta| %>
+            <td class="fs-5">
+              <% if row.percentuali[etichetta] %>
+                <%= number_to_percentage(row.percentuali[etichetta], precision: 2, locale: :it) %>
+              <% end %>
+            </td>
+          <% end %>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>

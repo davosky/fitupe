@@ -118,6 +118,11 @@ RSpec.describe StatisticSpi::TotalMembersComparison do
       expect(result.deleghe_multiple_totale.totale).to eq(0)
       expect(result.deleghe_multiple_comprensori.sum(&:totale)).to eq(0)
     end
+
+    it "il totale regionale tipologie delega resta coerente con la somma dei comprensori" do
+      expect(result.tipologie_delega_totale.totale).to eq(result.tipologie_delega_comprensori.sum(&:totale))
+      expect(result.tipologie_delega_totale.totale).to eq(2)
+    end
   end
 
   context "quando un pensionato ha piu' deleghe nell'anno corrente in comprensori diversi" do

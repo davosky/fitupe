@@ -1,0 +1,22 @@
+<div class="card border-dark p-3 m-2 shadow-sm">
+  <h4>
+    <span class="p-2 fw-bold fst-italic">
+      <%= image_tag("statistic/regionale.svg", class: "img-fluid me-1", size: "48x48", alt: "regionale") %>
+      <%= row.zoning.descrizione_azzonamento %>
+      <br/>
+      <span class="text-danger">
+        &nbsp;
+        <%= image_tag("statistic/tipologiedelega.svg", class: "img-fluid me-1", size: "48x48", alt: "tipologie delega") %>
+        &nbsp;
+        Tipologie
+        &nbsp;
+        Delega
+        &nbsp;
+        <%= image_tag("statistic/logospi.svg", class: "img-fluid ms-1", size: "40x40", alt: "logospi") %>
+      </span>
+    </span>
+  </h4>
+  <hr class="mt-2 mb-2"/>
+  <%= render partial: "tipologie_delega_table", locals: { rows: [ row ] } %>
+  <%= render partial: "tipologie_delega_percentage_section", locals: { row: row, heading: nil } %>
+</div>

@@ -1,0 +1,30 @@
+<div class="card border-dark p-3 m-2 shadow-sm">
+  <h4>
+    <span class="p-2 fw-bold fst-italic">
+      <%= image_tag("statistic/comprensori.svg", class: "img-fluid me-1", size: "48x48", alt: "comprensori") %>
+      Comprensori
+      <br/>
+      <span class="text-danger">
+        &nbsp;
+        <%= image_tag("statistic/tipologiedelega.svg", class: "img-fluid me-1", size: "48x48", alt: "tipologie delega") %>
+        &nbsp;
+        Tipologie
+        &nbsp;
+        Delega
+        <%= image_tag("statistic/logospi.svg", class: "img-fluid ms-1", size: "40x40", alt: "logospi") %>
+      </span>
+    </span>
+  </h4>
+  <hr class="mt-2 mb-2"/>
+  <%= render partial: "tipologie_delega_table", locals: { rows: rows } %>
+  <div class="mx-auto mt-4" style="position: relative; height: 420px; width: 75%;"
+      data-controller="grouped-bar-chart"
+      data-grouped-bar-chart-labels-value="<%= rows.map { |row| row.zoning.descrizione_azzonamento }.to_json %>"
+      data-grouped-bar-chart-dataset-labels-value="<%= StatisticSpi::TipologieDelegaBreakdown::ETICHETTE.to_json %>"
+      data-grouped-bar-chart-data-value="<%= StatisticSpi::TipologieDelegaBreakdown::ETICHETTE.map { |etichetta| rows.map { |row| row.percentuali[etichetta] || 0 } }.to_json %>">
+    <canvas data-grouped-bar-chart-target="canvas"></canvas>
+  </div>
+  <div class="mt-4">
+    <%= render partial: "tipologie_delega_percentage_table", locals: { rows: rows } %>
+  </div>
+</div>

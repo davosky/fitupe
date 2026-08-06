@@ -33,6 +33,10 @@
       <% if @total_members_result.deleghe_multiple_comprensori.present? %>
         <%= render partial: "multiple_delegations_comprensori_card", locals: { rows: @total_members_result.deleghe_multiple_comprensori } %>
       <% end %>
+      <%= render partial: "tipologie_delega_card", locals: { row: @total_members_result.tipologie_delega_totale } %>
+      <% if @total_members_result.tipologie_delega_comprensori.present? %>
+        <%= render partial: "tipologie_delega_comprensori_card", locals: { rows: @total_members_result.tipologie_delega_comprensori } %>
+      <% end %>
     <% else %>
       <div class="alert alert-warning mb-0">
         <i class="bi bi-exclamation-triangle-fill me-2"></i>
