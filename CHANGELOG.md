@@ -8,6 +8,10 @@ Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 
 ### Aggiunto
 
+- Statistiche SPI: nuova sezione "Provvisorie" con tabella (Regionale e Comprensori, percentuale sul totale deleghe del periodo) e grafici a torta — a livello Regionale, Provvisorie contro Deleghe Confermate; a livello Comprensori, un'unica torta con una fetta colorata per ciascun comprensorio (percentuale reale, non ri-normalizzata) più la quota aggregata di Deleghe Confermate.
+- Statistiche SPI: nuova sezione "Cessazioni" con tabella (Regionale e Comprensori) che conta le cessazioni per motivo (Altra Motivazione Ente, Cambio Situazione Pensionistica, Cessazione Posizione Pensionistica, Chiusura Iscrizione Provvisoria, Decesso, Revoca) e la relativa percentuale sul totale deleghe del periodo.
+- Statistiche SPI: nuova sezione "Tipologie Delega" con tabella (Regionale e Comprensori) che conta le deleghe per tipologia (Ordinaria, Concomitante, Invalidi Civili, BreviManu, Altro), più un grafico a barre unico con tutti i comprensori raggruppati per colore e la relativa percentuale sul totale deleghe.
+- Statistiche SPI: nuova sezione "Deleghe Multiple" con tabella (Regionale e Comprensori) che conta i pensionati con più di una delega nello stesso periodo (doppia/tripla/quadrupla/quintupla), riconciliati per comprensorio con la stessa tecnica DISTINCT ON usata per gli iscritti.
 - Statistiche Con Integrazioni: nuova dashboard che ricalibra i conteggi di Statistiche con le integrazioni FILLEA/Cassa Edile (differenza sul dato "Ordinaria Cassa Edile") e FLC/Anagrafe (somma pura con un mese di ritardo), applicate a Totale, Comprensori, Categorie, Tipologie Delega, Attivi/Pensionati e Tipologie Iscrizione.
 - Stampa Statistiche: nuovo report PDF (Prawn, A4 orizzontale) con copertina dinamica, pagina Legenda opzionale (da testo ricco), Regionale/Comprensori, Categorie, Attivi/Pensionati, Tipologie, Provvisorie/Revoche, Sesso/Nazionalità, Status Lavorativo/Fasce d'Età, controcopertina e ripetizione automatica del report per ciascun comprensorio quando l'azzonamento scelto è regionale.
 - Stampa Statistiche Con Integrazioni: lo stesso report PDF di Stampa Statistiche, con i numeri ricalibrati dalle integrazioni FILLEA/FLC.
@@ -43,3 +47,7 @@ Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 - Aggiornato Rails a 8.1.3.1 per risolvere la CVE-2026-66066 su Active Storage.
 - Corretta una vulnerabilità moderate in `postcss` (lettura di file `.map` non previsti quando `from` non è impostato) e una nuova vulnerabilità high in `brace-expansion` che aggirava la mitigazione precedente, aggiornando le versioni minime richieste rispettivamente a `^8.5.23` e `^5.0.9`.
 - Statistiche Con Integrazioni: le sezioni "Attivi/Pensionati" e "Tipologie Iscrizione" non venivano ricalibrate con le correzioni FILLEA/FLC, per cui la loro somma non coincideva con il totale corretto (es. somma Categorie 40210 contro Attivi 38781). Ora la correzione viene sommata rispettivamente alla riga "Attivi" e alla riga "Delega".
+
+### Sicurezza
+
+- Aggiunta la gemma `secure_headers` con header di sicurezza HTTP applicativi: HSTS, X-Frame-Options, X-Content-Type-Options, X-Download-Options, X-Permitted-Cross-Domain-Policies, Referrer-Policy, cookie con flag Secure (in produzione)/HttpOnly/SameSite, e una Content-Security-Policy (nessun asset esterno, solo risorse self-hosted).

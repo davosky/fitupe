@@ -54,6 +54,9 @@ gem "devise-i18n"
 # Authorization
 gem "pundit"
 
+# Security headers (HSTS, CSP, X-Frame-Options, etc.) [https://github.com/github/secure_headers]
+gem "secure_headers"
+
 # Admin panel
 gem "administrate"
 
