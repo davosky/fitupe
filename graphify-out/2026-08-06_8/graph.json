@@ -1051,15 +1051,6 @@
       "norm_label": "pages_spec.rb"
     },
     {
-      "label": "legend_spis_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/requests/legend_spis_spec.rb",
-      "source_location": "L1",
-      "id": "spec_requests_legend_spis_spec_rb",
-      "community": 262,
-      "norm_label": "legend_spis_spec.rb"
-    },
-    {
       "label": "statistics_spec.rb",
       "file_type": "code",
       "source_file": "spec/requests/statistics_spec.rb",
@@ -1085,15 +1076,6 @@
       "id": "spec_requests_integration_flcs_spec_rb",
       "community": 149,
       "norm_label": "integration_flcs_spec.rb"
-    },
-    {
-      "label": "legend_spi_policy_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/policies/legend_spi_policy_spec.rb",
-      "source_location": "L1",
-      "id": "spec_policies_legend_spi_policy_spec_rb",
-      "community": 261,
-      "norm_label": "legend_spi_policy_spec.rb"
     },
     {
       "label": "legend_policy_spec.rb",
@@ -1672,15 +1654,6 @@
       "norm_label": "import_spi_spec.rb"
     },
     {
-      "label": "legend_spi_spec.rb",
-      "file_type": "code",
-      "source_file": "spec/models/legend_spi_spec.rb",
-      "source_location": "L1",
-      "id": "spec_models_legend_spi_spec_rb",
-      "community": 260,
-      "norm_label": "legend_spi_spec.rb"
-    },
-    {
       "label": "integration_flc_upload_form_spec.rb",
       "file_type": "code",
       "source_file": "spec/models/integration_flc_upload_form_spec.rb",
@@ -1724,15 +1697,6 @@
       "id": "spec_factories_integration_filleas_rb",
       "community": 192,
       "norm_label": "integration_filleas.rb"
-    },
-    {
-      "label": "legend_spis.rb",
-      "file_type": "code",
-      "source_file": "spec/factories/legend_spis.rb",
-      "source_location": "L1",
-      "id": "spec_factories_legend_spis_rb",
-      "community": 259,
-      "norm_label": "legend_spis.rb"
     },
     {
       "label": "imports.rb",
@@ -1803,7 +1767,7 @@
       "source_file": "app/policies/import_policy.rb",
       "source_location": "L1",
       "id": "app_policies_import_policy_rb",
-      "community": 242,
+      "community": 46,
       "norm_label": "import_policy.rb"
     },
     {
@@ -1812,7 +1776,7 @@
       "source_file": "app/policies/import_policy.rb",
       "source_location": "L1",
       "id": "policies_import_policy_importpolicy",
-      "community": 242,
+      "community": 46,
       "norm_label": "importpolicy"
     },
     {
@@ -1821,7 +1785,7 @@
       "source_file": "app/policies/import_policy.rb",
       "source_location": "L2",
       "id": "policies_import_policy_importpolicy_manage",
-      "community": 242,
+      "community": 46,
       "norm_label": ".manage?()"
     },
     {
@@ -1830,7 +1794,7 @@
       "source_file": "app/policies/import_spi_policy.rb",
       "source_location": "L1",
       "id": "app_policies_import_spi_policy_rb",
-      "community": 242,
+      "community": 46,
       "norm_label": "import_spi_policy.rb"
     },
     {
@@ -1839,7 +1803,7 @@
       "source_file": "app/policies/import_spi_policy.rb",
       "source_location": "L1",
       "id": "policies_import_spi_policy_importspipolicy",
-      "community": 242,
+      "community": 46,
       "norm_label": "importspipolicy"
     },
     {
@@ -1848,107 +1812,8 @@
       "source_file": "app/policies/import_spi_policy.rb",
       "source_location": "L2",
       "id": "policies_import_spi_policy_importspipolicy_manage",
-      "community": 242,
+      "community": 46,
       "norm_label": ".manage?()"
-    },
-    {
-      "label": "legend_spi_policy.rb",
-      "file_type": "code",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L1",
-      "id": "app_policies_legend_spi_policy_rb",
-      "community": 36,
-      "norm_label": "legend_spi_policy.rb"
-    },
-    {
-      "label": "LegendSpiPolicy",
-      "file_type": "code",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L1",
-      "id": "policies_legend_spi_policy_legendspipolicy",
-      "community": 36,
-      "norm_label": "legendspipolicy"
-    },
-    {
-      "label": ".index?()",
-      "file_type": "code",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L2",
-      "id": "policies_legend_spi_policy_legendspipolicy_index",
-      "community": 36,
-      "norm_label": ".index?()"
-    },
-    {
-      "label": ".show?()",
-      "file_type": "code",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L3",
-      "id": "policies_legend_spi_policy_legendspipolicy_show",
-      "community": 36,
-      "norm_label": ".show?()"
-    },
-    {
-      "label": ".create?()",
-      "file_type": "code",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L4",
-      "id": "policies_legend_spi_policy_legendspipolicy_create",
-      "community": 36,
-      "norm_label": ".create?()"
-    },
-    {
-      "label": ".update?()",
-      "file_type": "code",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L5",
-      "id": "policies_legend_spi_policy_legendspipolicy_update",
-      "community": 36,
-      "norm_label": ".update?()"
-    },
-    {
-      "label": ".confirm_destroy?()",
-      "file_type": "code",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L6",
-      "id": "policies_legend_spi_policy_legendspipolicy_confirm_destroy",
-      "community": 36,
-      "norm_label": ".confirm_destroy?()"
-    },
-    {
-      "label": ".destroy?()",
-      "file_type": "code",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L7",
-      "id": "policies_legend_spi_policy_legendspipolicy_destroy",
-      "community": 36,
-      "norm_label": ".destroy?()"
-    },
-    {
-      "label": "Scope",
-      "file_type": "code",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L9",
-      "id": "policies_legend_spi_policy_scope",
-      "community": 36,
-      "norm_label": "scope"
-    },
-    {
-      "label": ".resolve()",
-      "file_type": "code",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L10",
-      "id": "policies_legend_spi_policy_scope_resolve",
-      "community": 36,
-      "norm_label": ".resolve()"
-    },
-    {
-      "label": ".admin_or_manager?()",
-      "file_type": "code",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L17",
-      "id": "policies_legend_spi_policy_legendspipolicy_admin_or_manager",
-      "community": 36,
-      "norm_label": ".admin_or_manager?()"
     },
     {
       "label": "legend_policy.rb",
@@ -1956,7 +1821,7 @@
       "source_file": "app/policies/legend_policy.rb",
       "source_location": "L1",
       "id": "app_policies_legend_policy_rb",
-      "community": 36,
+      "community": 53,
       "norm_label": "legend_policy.rb"
     },
     {
@@ -1965,7 +1830,7 @@
       "source_file": "app/policies/legend_policy.rb",
       "source_location": "L1",
       "id": "policies_legend_policy_legendpolicy",
-      "community": 36,
+      "community": 53,
       "norm_label": "legendpolicy"
     },
     {
@@ -1974,7 +1839,7 @@
       "source_file": "app/policies/legend_policy.rb",
       "source_location": "L2",
       "id": "policies_legend_policy_legendpolicy_index",
-      "community": 36,
+      "community": 53,
       "norm_label": ".index?()"
     },
     {
@@ -1983,7 +1848,7 @@
       "source_file": "app/policies/legend_policy.rb",
       "source_location": "L3",
       "id": "policies_legend_policy_legendpolicy_show",
-      "community": 36,
+      "community": 53,
       "norm_label": ".show?()"
     },
     {
@@ -1992,7 +1857,7 @@
       "source_file": "app/policies/legend_policy.rb",
       "source_location": "L4",
       "id": "policies_legend_policy_legendpolicy_create",
-      "community": 36,
+      "community": 53,
       "norm_label": ".create?()"
     },
     {
@@ -2001,7 +1866,7 @@
       "source_file": "app/policies/legend_policy.rb",
       "source_location": "L5",
       "id": "policies_legend_policy_legendpolicy_update",
-      "community": 36,
+      "community": 53,
       "norm_label": ".update?()"
     },
     {
@@ -2010,7 +1875,7 @@
       "source_file": "app/policies/legend_policy.rb",
       "source_location": "L6",
       "id": "policies_legend_policy_legendpolicy_confirm_destroy",
-      "community": 36,
+      "community": 53,
       "norm_label": ".confirm_destroy?()"
     },
     {
@@ -2019,7 +1884,7 @@
       "source_file": "app/policies/legend_policy.rb",
       "source_location": "L7",
       "id": "policies_legend_policy_legendpolicy_destroy",
-      "community": 36,
+      "community": 53,
       "norm_label": ".destroy?()"
     },
     {
@@ -2028,7 +1893,7 @@
       "source_file": "app/policies/legend_policy.rb",
       "source_location": "L9",
       "id": "policies_legend_policy_scope",
-      "community": 36,
+      "community": 53,
       "norm_label": "scope"
     },
     {
@@ -2037,7 +1902,7 @@
       "source_file": "app/policies/legend_policy.rb",
       "source_location": "L10",
       "id": "policies_legend_policy_scope_resolve",
-      "community": 36,
+      "community": 53,
       "norm_label": ".resolve()"
     },
     {
@@ -2046,7 +1911,7 @@
       "source_file": "app/policies/legend_policy.rb",
       "source_location": "L17",
       "id": "policies_legend_policy_legendpolicy_admin_or_manager",
-      "community": 36,
+      "community": 53,
       "norm_label": ".admin_or_manager?()"
     },
     {
@@ -2181,7 +2046,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L1",
       "id": "app_policies_zoning_policy_rb",
-      "community": 36,
+      "community": 56,
       "norm_label": "zoning_policy.rb"
     },
     {
@@ -2190,7 +2055,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L1",
       "id": "policies_zoning_policy_zoningpolicy",
-      "community": 36,
+      "community": 56,
       "norm_label": "zoningpolicy"
     },
     {
@@ -2199,7 +2064,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L2",
       "id": "policies_zoning_policy_zoningpolicy_index",
-      "community": 36,
+      "community": 56,
       "norm_label": ".index?()"
     },
     {
@@ -2208,7 +2073,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L3",
       "id": "policies_zoning_policy_zoningpolicy_show",
-      "community": 36,
+      "community": 56,
       "norm_label": ".show?()"
     },
     {
@@ -2217,7 +2082,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L4",
       "id": "policies_zoning_policy_zoningpolicy_create",
-      "community": 36,
+      "community": 56,
       "norm_label": ".create?()"
     },
     {
@@ -2226,7 +2091,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L5",
       "id": "policies_zoning_policy_zoningpolicy_update",
-      "community": 36,
+      "community": 56,
       "norm_label": ".update?()"
     },
     {
@@ -2235,7 +2100,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L6",
       "id": "policies_zoning_policy_zoningpolicy_confirm_destroy",
-      "community": 36,
+      "community": 56,
       "norm_label": ".confirm_destroy?()"
     },
     {
@@ -2244,7 +2109,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L7",
       "id": "policies_zoning_policy_zoningpolicy_destroy",
-      "community": 36,
+      "community": 56,
       "norm_label": ".destroy?()"
     },
     {
@@ -2253,7 +2118,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L9",
       "id": "policies_zoning_policy_scope",
-      "community": 36,
+      "community": 56,
       "norm_label": "scope"
     },
     {
@@ -2262,7 +2127,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L10",
       "id": "policies_zoning_policy_scope_resolve",
-      "community": 36,
+      "community": 56,
       "norm_label": ".resolve()"
     },
     {
@@ -2271,7 +2136,7 @@
       "source_file": "app/policies/zoning_policy.rb",
       "source_location": "L17",
       "id": "policies_zoning_policy_zoningpolicy_admin_or_manager",
-      "community": 36,
+      "community": 56,
       "norm_label": ".admin_or_manager?()"
     },
     {
@@ -2280,7 +2145,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L1",
       "id": "app_policies_integration_flc_policy_rb",
-      "community": 56,
+      "community": 51,
       "norm_label": "integration_flc_policy.rb"
     },
     {
@@ -2352,7 +2217,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L9",
       "id": "policies_integration_flc_policy_scope",
-      "community": 56,
+      "community": 51,
       "norm_label": "scope"
     },
     {
@@ -2361,7 +2226,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L10",
       "id": "policies_integration_flc_policy_scope_resolve",
-      "community": 56,
+      "community": 51,
       "norm_label": ".resolve()"
     },
     {
@@ -2379,7 +2244,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L1",
       "id": "app_policies_integration_fillea_policy_rb",
-      "community": 36,
+      "community": 50,
       "norm_label": "integration_fillea_policy.rb"
     },
     {
@@ -2388,7 +2253,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L1",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy",
-      "community": 36,
+      "community": 50,
       "norm_label": "integrationfilleapolicy"
     },
     {
@@ -2397,7 +2262,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L2",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_index",
-      "community": 36,
+      "community": 50,
       "norm_label": ".index?()"
     },
     {
@@ -2406,7 +2271,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L3",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_show",
-      "community": 36,
+      "community": 50,
       "norm_label": ".show?()"
     },
     {
@@ -2415,7 +2280,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L4",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_create",
-      "community": 36,
+      "community": 50,
       "norm_label": ".create?()"
     },
     {
@@ -2424,7 +2289,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L5",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_update",
-      "community": 36,
+      "community": 50,
       "norm_label": ".update?()"
     },
     {
@@ -2433,7 +2298,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L6",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_confirm_destroy",
-      "community": 36,
+      "community": 50,
       "norm_label": ".confirm_destroy?()"
     },
     {
@@ -2442,7 +2307,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L7",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_destroy",
-      "community": 36,
+      "community": 50,
       "norm_label": ".destroy?()"
     },
     {
@@ -2451,7 +2316,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L9",
       "id": "policies_integration_fillea_policy_scope",
-      "community": 36,
+      "community": 50,
       "norm_label": "scope"
     },
     {
@@ -2460,7 +2325,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L10",
       "id": "policies_integration_fillea_policy_scope_resolve",
-      "community": 36,
+      "community": 50,
       "norm_label": ".resolve()"
     },
     {
@@ -2469,7 +2334,7 @@
       "source_file": "app/policies/integration_fillea_policy.rb",
       "source_location": "L17",
       "id": "policies_integration_fillea_policy_integrationfilleapolicy_admin_or_manager",
-      "community": 36,
+      "community": 50,
       "norm_label": ".admin_or_manager?()"
     },
     {
@@ -2559,7 +2424,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L1",
       "id": "app_services_statistic_prints_bar_chart_rb",
-      "community": 1,
+      "community": 35,
       "norm_label": "bar_chart.rb"
     },
     {
@@ -2568,7 +2433,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L2",
       "id": "statistic_prints_bar_chart_barchart",
-      "community": 1,
+      "community": 35,
       "norm_label": "barchart"
     },
     {
@@ -2577,7 +2442,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L18",
       "id": "statistic_prints_bar_chart_barchart_draw",
-      "community": 1,
+      "community": 35,
       "norm_label": ".draw()"
     },
     {
@@ -2586,7 +2451,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L20",
       "id": "statistic_prints_bar_chart_barchart_initialize",
-      "community": 1,
+      "community": 35,
       "norm_label": ".initialize()"
     },
     {
@@ -2595,7 +2460,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L42",
       "id": "statistic_prints_bar_chart_barchart_plot_top",
-      "community": 1,
+      "community": 35,
       "norm_label": ".plot_top()"
     },
     {
@@ -2604,7 +2469,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L43",
       "id": "statistic_prints_bar_chart_barchart_plot_bottom",
-      "community": 1,
+      "community": 35,
       "norm_label": ".plot_bottom()"
     },
     {
@@ -2613,7 +2478,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L44",
       "id": "statistic_prints_bar_chart_barchart_plot_height",
-      "community": 1,
+      "community": 35,
       "norm_label": ".plot_height()"
     },
     {
@@ -2622,7 +2487,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L45",
       "id": "statistic_prints_bar_chart_barchart_content_width",
-      "community": 1,
+      "community": 35,
       "norm_label": ".content_width()"
     },
     {
@@ -2631,7 +2496,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L46",
       "id": "statistic_prints_bar_chart_barchart_content_x",
-      "community": 1,
+      "community": 35,
       "norm_label": ".content_x()"
     },
     {
@@ -2640,7 +2505,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L47",
       "id": "statistic_prints_bar_chart_barchart_group_width",
-      "community": 1,
+      "community": 35,
       "norm_label": ".group_width()"
     },
     {
@@ -2649,7 +2514,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L48",
       "id": "statistic_prints_bar_chart_barchart_max_value",
-      "community": 1,
+      "community": 35,
       "norm_label": ".max_value()"
     },
     {
@@ -2658,7 +2523,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L50",
       "id": "statistic_prints_bar_chart_barchart_draw_legend",
-      "community": 1,
+      "community": 35,
       "norm_label": ".draw_legend()"
     },
     {
@@ -2667,7 +2532,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L55",
       "id": "statistic_prints_bar_chart_barchart_draw_legend_item",
-      "community": 1,
+      "community": 35,
       "norm_label": ".draw_legend_item()"
     },
     {
@@ -2676,7 +2541,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L67",
       "id": "statistic_prints_bar_chart_barchart_draw_axis_line",
-      "community": 1,
+      "community": 35,
       "norm_label": ".draw_axis_line()"
     },
     {
@@ -2685,7 +2550,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L72",
       "id": "statistic_prints_bar_chart_barchart_draw_group",
-      "community": 1,
+      "community": 35,
       "norm_label": ".draw_group()"
     },
     {
@@ -2694,7 +2559,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L80",
       "id": "statistic_prints_bar_chart_barchart_draw_bar",
-      "community": 1,
+      "community": 35,
       "norm_label": ".draw_bar()"
     },
     {
@@ -2703,7 +2568,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L88",
       "id": "statistic_prints_bar_chart_barchart_draw_percentage",
-      "community": 1,
+      "community": 35,
       "norm_label": ".draw_percentage()"
     },
     {
@@ -2712,7 +2577,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L98",
       "id": "statistic_prints_bar_chart_barchart_draw_label",
-      "community": 1,
+      "community": 35,
       "norm_label": ".draw_label()"
     },
     {
@@ -3243,7 +3108,7 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L1",
       "id": "app_services_statistic_prints_pie_chart_rb",
-      "community": 4,
+      "community": 57,
       "norm_label": "pie_chart.rb"
     },
     {
@@ -3252,7 +3117,7 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L2",
       "id": "statistic_prints_pie_chart_piechart",
-      "community": 4,
+      "community": 57,
       "norm_label": "piechart"
     },
     {
@@ -3261,7 +3126,7 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L8",
       "id": "statistic_prints_pie_chart_piechart_draw",
-      "community": 4,
+      "community": 57,
       "norm_label": ".draw()"
     },
     {
@@ -3270,7 +3135,7 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L10",
       "id": "statistic_prints_pie_chart_piechart_initialize",
-      "community": 4,
+      "community": 57,
       "norm_label": ".initialize()"
     },
     {
@@ -3279,7 +3144,7 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L26",
       "id": "statistic_prints_pie_chart_piechart_total",
-      "community": 4,
+      "community": 57,
       "norm_label": ".total()"
     },
     {
@@ -3288,7 +3153,7 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L27",
       "id": "statistic_prints_pie_chart_piechart_circle_area_height",
-      "community": 4,
+      "community": 57,
       "norm_label": ".circle_area_height()"
     },
     {
@@ -3297,7 +3162,7 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L28",
       "id": "statistic_prints_pie_chart_piechart_diameter",
-      "community": 4,
+      "community": 57,
       "norm_label": ".diameter()"
     },
     {
@@ -3306,7 +3171,7 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L29",
       "id": "statistic_prints_pie_chart_piechart_radius",
-      "community": 4,
+      "community": 57,
       "norm_label": ".radius()"
     },
     {
@@ -3315,7 +3180,7 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L30",
       "id": "statistic_prints_pie_chart_piechart_center",
-      "community": 4,
+      "community": 57,
       "norm_label": ".center()"
     },
     {
@@ -3324,7 +3189,7 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L32",
       "id": "statistic_prints_pie_chart_piechart_draw_slices",
-      "community": 4,
+      "community": 57,
       "norm_label": ".draw_slices()"
     },
     {
@@ -3333,7 +3198,7 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L45",
       "id": "statistic_prints_pie_chart_piechart_draw_slice",
-      "community": 4,
+      "community": 57,
       "norm_label": ".draw_slice()"
     },
     {
@@ -3342,7 +3207,7 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L52",
       "id": "statistic_prints_pie_chart_piechart_arc_points",
-      "community": 4,
+      "community": 57,
       "norm_label": ".arc_points()"
     },
     {
@@ -3351,7 +3216,7 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L57",
       "id": "statistic_prints_pie_chart_piechart_point_at",
-      "community": 4,
+      "community": 57,
       "norm_label": ".point_at()"
     },
     {
@@ -3360,7 +3225,7 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L62",
       "id": "statistic_prints_pie_chart_piechart_draw_label",
-      "community": 4,
+      "community": 57,
       "norm_label": ".draw_label()"
     },
     {
@@ -3369,7 +3234,7 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L75",
       "id": "statistic_prints_pie_chart_piechart_draw_legend",
-      "community": 4,
+      "community": 57,
       "norm_label": ".draw_legend()"
     },
     {
@@ -3378,7 +3243,7 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L84",
       "id": "statistic_prints_pie_chart_piechart_draw_legend_item",
-      "community": 4,
+      "community": 57,
       "norm_label": ".draw_legend_item()"
     },
     {
@@ -3387,7 +3252,7 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L91",
       "id": "statistic_prints_pie_chart_piechart_legend_item_width",
-      "community": 4,
+      "community": 57,
       "norm_label": ".legend_item_width()"
     },
     {
@@ -3396,7 +3261,7 @@
       "source_file": "app/services/statistic_prints/pie_chart.rb",
       "source_location": "L97",
       "id": "statistic_prints_pie_chart_piechart_legend_width",
-      "community": 4,
+      "community": 57,
       "norm_label": ".legend_width()"
     },
     {
@@ -3621,7 +3486,7 @@
       "source_file": "app/services/statistic_prints/categories_page.rb",
       "source_location": "L1",
       "id": "app_services_statistic_prints_categories_page_rb",
-      "community": 24,
+      "community": 35,
       "norm_label": "categories_page.rb"
     },
     {
@@ -3630,7 +3495,7 @@
       "source_file": "app/services/statistic_prints/categories_page.rb",
       "source_location": "L2",
       "id": "statistic_prints_categories_page_categoriespage",
-      "community": 24,
+      "community": 35,
       "norm_label": "categoriespage"
     },
     {
@@ -3639,7 +3504,7 @@
       "source_file": "app/services/statistic_prints/categories_page.rb",
       "source_location": "L6",
       "id": "statistic_prints_categories_page_categoriespage_draw",
-      "community": 24,
+      "community": 35,
       "norm_label": ".draw()"
     },
     {
@@ -3648,7 +3513,7 @@
       "source_file": "app/services/statistic_prints/categories_page.rb",
       "source_location": "L8",
       "id": "statistic_prints_categories_page_categoriespage_initialize",
-      "community": 24,
+      "community": 35,
       "norm_label": ".initialize()"
     },
     {
@@ -3657,7 +3522,7 @@
       "source_file": "app/services/statistic_prints/categories_page.rb",
       "source_location": "L26",
       "id": "statistic_prints_categories_page_categoriespage_draw_heading",
-      "community": 24,
+      "community": 35,
       "norm_label": ".draw_heading()"
     },
     {
@@ -3666,7 +3531,7 @@
       "source_file": "app/services/statistic_prints/categories_page.rb",
       "source_location": "L34",
       "id": "statistic_prints_categories_page_categoriespage_draw_empty",
-      "community": 24,
+      "community": 35,
       "norm_label": ".draw_empty()"
     },
     {
@@ -3675,7 +3540,7 @@
       "source_file": "app/services/statistic_prints/categories_page.rb",
       "source_location": "L39",
       "id": "statistic_prints_categories_page_categoriespage_draw_table",
-      "community": 24,
+      "community": 35,
       "norm_label": ".draw_table()"
     },
     {
@@ -3684,7 +3549,7 @@
       "source_file": "app/services/statistic_prints/categories_page.rb",
       "source_location": "L46",
       "id": "statistic_prints_categories_page_categoriespage_row_for",
-      "community": 24,
+      "community": 35,
       "norm_label": ".row_for()"
     },
     {
@@ -3693,7 +3558,7 @@
       "source_file": "app/services/statistic_prints/categories_page.rb",
       "source_location": "L51",
       "id": "statistic_prints_categories_page_categoriespage_draw_chart",
-      "community": 24,
+      "community": 35,
       "norm_label": ".draw_chart()"
     },
     {
@@ -3702,7 +3567,7 @@
       "source_file": "app/services/statistic_prints/categories_page.rb",
       "source_location": "L61",
       "id": "statistic_prints_categories_page_categoriespage_chart_height",
-      "community": 24,
+      "community": 35,
       "norm_label": ".chart_height()"
     },
     {
@@ -3711,7 +3576,7 @@
       "source_file": "app/services/statistic_prints/categories_page.rb",
       "source_location": "L65",
       "id": "statistic_prints_categories_page_categoriespage_section_gap",
-      "community": 24,
+      "community": 35,
       "norm_label": ".section_gap()"
     },
     {
@@ -5097,7 +4962,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L1",
       "id": "app_services_statistic_spi_reconciled_iscritti_by_comprensorio_rb",
-      "community": 246,
+      "community": 67,
       "norm_label": "reconciled_iscritti_by_comprensorio.rb"
     },
     {
@@ -5106,7 +4971,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L10",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_reconcilediscrittibycomprensorio",
-      "community": 246,
+      "community": 67,
       "norm_label": "reconcilediscrittibycomprensorio"
     },
     {
@@ -5115,7 +4980,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L11",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_reconcilediscrittibycomprensorio_call",
-      "community": 246,
+      "community": 67,
       "norm_label": ".call()"
     },
     {
@@ -5124,7 +4989,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L13",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_reconcilediscrittibycomprensorio_initialize",
-      "community": 246,
+      "community": 67,
       "norm_label": ".initialize()"
     },
     {
@@ -5133,7 +4998,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L25",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_reconcilediscrittibycomprensorio_sql",
-      "community": 29,
+      "community": 67,
       "norm_label": ".sql()"
     },
     {
@@ -5142,7 +5007,7 @@
       "source_file": "app/services/statistic_spi/total_members_comparison.rb",
       "source_location": "L1",
       "id": "app_services_statistic_spi_total_members_comparison_rb",
-      "community": 246,
+      "community": 9,
       "norm_label": "total_members_comparison.rb"
     },
     {
@@ -5151,7 +5016,7 @@
       "source_file": "app/services/statistic_spi/total_members_comparison.rb",
       "source_location": "L5",
       "id": "statistic_spi_total_members_comparison_totalmemberscomparison",
-      "community": 246,
+      "community": 9,
       "norm_label": "totalmemberscomparison"
     },
     {
@@ -5160,7 +5025,7 @@
       "source_file": "app/services/statistic_spi/total_members_comparison.rb",
       "source_location": "L11",
       "id": "statistic_spi_total_members_comparison_success",
-      "community": 246,
+      "community": 9,
       "norm_label": "success?()"
     },
     {
@@ -5169,7 +5034,7 @@
       "source_file": "app/services/statistic_spi/total_members_comparison.rb",
       "source_location": "L18",
       "id": "statistic_spi_total_members_comparison_totalmemberscomparison_call",
-      "community": 246,
+      "community": 9,
       "norm_label": ".call()"
     },
     {
@@ -5178,7 +5043,7 @@
       "source_file": "app/services/statistic_spi/total_members_comparison.rb",
       "source_location": "L20",
       "id": "statistic_spi_total_members_comparison_totalmemberscomparison_initialize",
-      "community": 246,
+      "community": 9,
       "norm_label": ".initialize()"
     },
     {
@@ -5187,7 +5052,7 @@
       "source_file": "app/services/statistic_spi/total_members_comparison.rb",
       "source_location": "L36",
       "id": "statistic_spi_total_members_comparison_totalmemberscomparison_scope_for",
-      "community": 246,
+      "community": 9,
       "norm_label": ".scope_for()"
     },
     {
@@ -5196,7 +5061,7 @@
       "source_file": "app/services/statistic_spi/total_members_comparison.rb",
       "source_location": "L40",
       "id": "statistic_spi_total_members_comparison_totalmemberscomparison_build_result",
-      "community": 246,
+      "community": 9,
       "norm_label": ".build_result()"
     },
     {
@@ -5205,7 +5070,7 @@
       "source_file": "app/services/statistic_spi/total_members_comparison.rb",
       "source_location": "L57",
       "id": "statistic_spi_total_members_comparison_totalmemberscomparison_totale_row",
-      "community": 246,
+      "community": 9,
       "norm_label": ".totale_row()"
     },
     {
@@ -5214,7 +5079,7 @@
       "source_file": "app/services/statistic_spi/total_members_comparison.rb",
       "source_location": "L61",
       "id": "statistic_spi_total_members_comparison_totalmemberscomparison_comprensori_rows",
-      "community": 246,
+      "community": 9,
       "norm_label": ".comprensori_rows()"
     },
     {
@@ -5223,7 +5088,7 @@
       "source_file": "app/services/statistic_spi/total_members_comparison.rb",
       "source_location": "L72",
       "id": "statistic_spi_total_members_comparison_totalmemberscomparison_count_totale",
-      "community": 246,
+      "community": 9,
       "norm_label": ".count_totale()"
     },
     {
@@ -5232,7 +5097,7 @@
       "source_file": "app/services/statistic_spi/total_members_comparison.rb",
       "source_location": "L77",
       "id": "statistic_spi_total_members_comparison_totalmemberscomparison_count_by_comprensorio",
-      "community": 246,
+      "community": 9,
       "norm_label": ".count_by_comprensorio()"
     },
     {
@@ -5241,7 +5106,7 @@
       "source_file": "app/services/statistic_spi/total_members_comparison.rb",
       "source_location": "L84",
       "id": "statistic_spi_total_members_comparison_totalmemberscomparison_build_row",
-      "community": 246,
+      "community": 9,
       "norm_label": ".build_row()"
     },
     {
@@ -5250,7 +5115,7 @@
       "source_file": "app/services/statistic_spi/total_members_comparison.rb",
       "source_location": "L91",
       "id": "statistic_spi_total_members_comparison_totalmemberscomparison_missing_data_result",
-      "community": 246,
+      "community": 9,
       "norm_label": ".missing_data_result()"
     },
     {
@@ -5259,7 +5124,7 @@
       "source_file": "app/services/statistic_spi/zoning_period_scope.rb",
       "source_location": "L1",
       "id": "app_services_statistic_spi_zoning_period_scope_rb",
-      "community": 246,
+      "community": 37,
       "norm_label": "zoning_period_scope.rb"
     },
     {
@@ -5268,7 +5133,7 @@
       "source_file": "app/services/statistic_spi/zoning_period_scope.rb",
       "source_location": "L6",
       "id": "statistic_spi_zoning_period_scope_zoningperiodscope",
-      "community": 246,
+      "community": 37,
       "norm_label": "zoningperiodscope"
     },
     {
@@ -5277,7 +5142,7 @@
       "source_file": "app/services/statistic_spi/zoning_period_scope.rb",
       "source_location": "L7",
       "id": "statistic_spi_zoning_period_scope_zoningperiodscope_call",
-      "community": 246,
+      "community": 37,
       "norm_label": ".call()"
     },
     {
@@ -5286,7 +5151,7 @@
       "source_file": "app/services/statistic_spi/zoning_period_scope.rb",
       "source_location": "L9",
       "id": "statistic_spi_zoning_period_scope_zoningperiodscope_initialize",
-      "community": 246,
+      "community": 37,
       "norm_label": ".initialize()"
     },
     {
@@ -5295,7 +5160,7 @@
       "source_file": "app/services/statistic_spi/zoning_period_scope.rb",
       "source_location": "L25",
       "id": "statistic_spi_zoning_period_scope_zoningperiodscope_regional_scope",
-      "community": 246,
+      "community": 37,
       "norm_label": ".regional_scope()"
     },
     {
@@ -5304,7 +5169,7 @@
       "source_file": "app/services/statistic_spi/zoning_period_scope.rb",
       "source_location": "L32",
       "id": "statistic_spi_zoning_period_scope_zoningperiodscope_regional_zoning_id",
-      "community": 246,
+      "community": 37,
       "norm_label": ".regional_zoning_id()"
     },
     {
@@ -5853,7 +5718,7 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L1",
       "id": "app_services_integration_flcs_comparison_service_rb",
-      "community": 46,
+      "community": 11,
       "norm_label": "comparison_service.rb"
     },
     {
@@ -5871,7 +5736,7 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L10",
       "id": "integration_flcs_comparison_service_success",
-      "community": 46,
+      "community": 11,
       "norm_label": "success?()"
     },
     {
@@ -6294,7 +6159,7 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L45",
       "id": "statistics_age_breakdown_agebreakdown_counts",
-      "community": 29,
+      "community": 67,
       "norm_label": ".counts()"
     },
     {
@@ -6663,7 +6528,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L35",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_totale",
-      "community": 29,
+      "community": 70,
       "norm_label": ".totale()"
     },
     {
@@ -6798,7 +6663,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L79",
       "id": "statistics_total_members_comparison_totalmemberscomparison_categorie",
-      "community": 24,
+      "community": 35,
       "norm_label": ".categorie()"
     },
     {
@@ -6834,7 +6699,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L95",
       "id": "statistics_total_members_comparison_totalmemberscomparison_nazionalita",
-      "community": 72,
+      "community": 4,
       "norm_label": ".nazionalita()"
     },
     {
@@ -6843,7 +6708,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L99",
       "id": "statistics_total_members_comparison_totalmemberscomparison_sesso",
-      "community": 72,
+      "community": 4,
       "norm_label": ".sesso()"
     },
     {
@@ -6861,7 +6726,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L107",
       "id": "statistics_total_members_comparison_totalmemberscomparison_status_lavorativo",
-      "community": 72,
+      "community": 65,
       "norm_label": ".status_lavorativo()"
     },
     {
@@ -6870,7 +6735,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L111",
       "id": "statistics_total_members_comparison_totalmemberscomparison_fasce_eta",
-      "community": 72,
+      "community": 65,
       "norm_label": ".fasce_eta()"
     },
     {
@@ -6933,7 +6798,7 @@
       "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
       "source_location": "L32",
       "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_totale_iscritti",
-      "community": 68,
+      "community": 29,
       "norm_label": ".totale_iscritti()"
     },
     {
@@ -7005,7 +6870,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_membership_type_breakdown_rb",
-      "community": 53,
+      "community": 73,
       "norm_label": "membership_type_breakdown.rb"
     },
     {
@@ -7014,7 +6879,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L5",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown",
-      "community": 53,
+      "community": 73,
       "norm_label": "membershiptypebreakdown"
     },
     {
@@ -7023,7 +6888,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L10",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_call",
-      "community": 53,
+      "community": 73,
       "norm_label": ".call()"
     },
     {
@@ -7032,7 +6897,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L12",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_initialize",
-      "community": 53,
+      "community": 73,
       "norm_label": ".initialize()"
     },
     {
@@ -7041,7 +6906,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L25",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_build_row",
-      "community": 53,
+      "community": 73,
       "norm_label": ".build_row()"
     },
     {
@@ -7050,7 +6915,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L34",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_count_for",
-      "community": 53,
+      "community": 73,
       "norm_label": ".count_for()"
     },
     {
@@ -7059,7 +6924,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_nationality_breakdown_rb",
-      "community": 50,
+      "community": 0,
       "norm_label": "nationality_breakdown.rb"
     },
     {
@@ -7068,7 +6933,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L5",
       "id": "statistics_nationality_breakdown_nationalitybreakdown",
-      "community": 50,
+      "community": 0,
       "norm_label": "nationalitybreakdown"
     },
     {
@@ -7077,7 +6942,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L14",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_call",
-      "community": 50,
+      "community": 0,
       "norm_label": ".call()"
     },
     {
@@ -7086,7 +6951,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L16",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_initialize",
-      "community": 50,
+      "community": 0,
       "norm_label": ".initialize()"
     },
     {
@@ -7095,7 +6960,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L29",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_build_row",
-      "community": 50,
+      "community": 0,
       "norm_label": ".build_row()"
     },
     {
@@ -7113,7 +6978,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L42",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_scope",
-      "community": 50,
+      "community": 0,
       "norm_label": ".scope()"
     },
     {
@@ -7169,24 +7034,6 @@
       "id": "helpers_zoning_helper_form_submit_label_zoning",
       "community": 88,
       "norm_label": "form_submit_label_zoning()"
-    },
-    {
-      "label": "legend_spi_helper.rb",
-      "file_type": "code",
-      "source_file": "app/helpers/legend_spi_helper.rb",
-      "source_location": "L1",
-      "id": "app_helpers_legend_spi_helper_rb",
-      "community": 257,
-      "norm_label": "legend_spi_helper.rb"
-    },
-    {
-      "label": "form_submit_label_legend_spi()",
-      "file_type": "code",
-      "source_file": "app/helpers/legend_spi_helper.rb",
-      "source_location": "L2",
-      "id": "helpers_legend_spi_helper_form_submit_label_legend_spi",
-      "community": 257,
-      "norm_label": "form_submit_label_legend_spi()"
     },
     {
       "label": "integration_fillea_helper.rb",
@@ -7720,24 +7567,6 @@
       "norm_label": "applicationrecord"
     },
     {
-      "label": "legend_spi.rb",
-      "file_type": "code",
-      "source_file": "app/models/legend_spi.rb",
-      "source_location": "L1",
-      "id": "app_models_legend_spi_rb",
-      "community": 258,
-      "norm_label": "legend_spi.rb"
-    },
-    {
-      "label": "LegendSpi",
-      "file_type": "code",
-      "source_file": "app/models/legend_spi.rb",
-      "source_location": "L1",
-      "id": "models_legend_spi_legendspi",
-      "community": 258,
-      "norm_label": "legendspi"
-    },
-    {
       "label": "import_form.rb",
       "file_type": "code",
       "source_file": "app/models/import_form.rb",
@@ -7887,7 +7716,7 @@
       "source_file": "app/models/integration_flc.rb",
       "source_location": "L1",
       "id": "app_models_integration_flc_rb",
-      "community": 8,
+      "community": 240,
       "norm_label": "integration_flc.rb"
     },
     {
@@ -7896,7 +7725,7 @@
       "source_file": "app/models/integration_flc.rb",
       "source_location": "L1",
       "id": "models_integration_flc_integrationflc",
-      "community": 8,
+      "community": 240,
       "norm_label": "integrationflc"
     },
     {
@@ -7957,7 +7786,7 @@
       "label": ".regionale?()",
       "file_type": "code",
       "source_file": "app/models/zoning.rb",
-      "source_location": "L18",
+      "source_location": "L17",
       "id": "models_zoning_zoning_regionale",
       "community": 8,
       "norm_label": ".regionale?()"
@@ -7968,7 +7797,7 @@
       "source_file": "app/models/import.rb",
       "source_location": "L1",
       "id": "app_models_import_rb",
-      "community": 8,
+      "community": 39,
       "norm_label": "import.rb"
     },
     {
@@ -7977,7 +7806,7 @@
       "source_file": "app/models/import.rb",
       "source_location": "L1",
       "id": "models_import_import",
-      "community": 8,
+      "community": 39,
       "norm_label": "import"
     },
     {
@@ -7986,7 +7815,7 @@
       "source_file": "app/models/legend.rb",
       "source_location": "L1",
       "id": "app_models_legend_rb",
-      "community": 245,
+      "community": 8,
       "norm_label": "legend.rb"
     },
     {
@@ -7995,7 +7824,7 @@
       "source_file": "app/models/legend.rb",
       "source_location": "L1",
       "id": "models_legend_legend",
-      "community": 245,
+      "community": 8,
       "norm_label": "legend"
     },
     {
@@ -8175,7 +8004,7 @@
       "source_file": "app/controllers/legends_controller.rb",
       "source_location": "L1",
       "id": "app_controllers_legends_controller_rb",
-      "community": 22,
+      "community": 24,
       "norm_label": "legends_controller.rb"
     },
     {
@@ -8184,7 +8013,7 @@
       "source_file": "app/controllers/legends_controller.rb",
       "source_location": "L1",
       "id": "controllers_legends_controller_legendscontroller",
-      "community": 22,
+      "community": 24,
       "norm_label": "legendscontroller"
     },
     {
@@ -8193,7 +8022,7 @@
       "source_file": "app/controllers/legends_controller.rb",
       "source_location": "L6",
       "id": "controllers_legends_controller_legendscontroller_index",
-      "community": 22,
+      "community": 24,
       "norm_label": ".index()"
     },
     {
@@ -8202,7 +8031,7 @@
       "source_file": "app/controllers/legends_controller.rb",
       "source_location": "L11",
       "id": "controllers_legends_controller_legendscontroller_show",
-      "community": 22,
+      "community": 24,
       "norm_label": ".show()"
     },
     {
@@ -8211,7 +8040,7 @@
       "source_file": "app/controllers/legends_controller.rb",
       "source_location": "L14",
       "id": "controllers_legends_controller_legendscontroller_new",
-      "community": 22,
+      "community": 24,
       "norm_label": ".new()"
     },
     {
@@ -8220,7 +8049,7 @@
       "source_file": "app/controllers/legends_controller.rb",
       "source_location": "L19",
       "id": "controllers_legends_controller_legendscontroller_create",
-      "community": 22,
+      "community": 24,
       "norm_label": ".create()"
     },
     {
@@ -8229,7 +8058,7 @@
       "source_file": "app/controllers/legends_controller.rb",
       "source_location": "L30",
       "id": "controllers_legends_controller_legendscontroller_edit",
-      "community": 22,
+      "community": 24,
       "norm_label": ".edit()"
     },
     {
@@ -8238,7 +8067,7 @@
       "source_file": "app/controllers/legends_controller.rb",
       "source_location": "L33",
       "id": "controllers_legends_controller_legendscontroller_update",
-      "community": 22,
+      "community": 24,
       "norm_label": ".update()"
     },
     {
@@ -8247,7 +8076,7 @@
       "source_file": "app/controllers/legends_controller.rb",
       "source_location": "L41",
       "id": "controllers_legends_controller_legendscontroller_destroy",
-      "community": 22,
+      "community": 24,
       "norm_label": ".destroy()"
     },
     {
@@ -8256,7 +8085,7 @@
       "source_file": "app/controllers/legends_controller.rb",
       "source_location": "L46",
       "id": "controllers_legends_controller_legendscontroller_confirm_destroy",
-      "community": 22,
+      "community": 24,
       "norm_label": ".confirm_destroy()"
     },
     {
@@ -8265,7 +8094,7 @@
       "source_file": "app/controllers/legends_controller.rb",
       "source_location": "L51",
       "id": "controllers_legends_controller_legendscontroller_set_legend",
-      "community": 22,
+      "community": 24,
       "norm_label": ".set_legend()"
     },
     {
@@ -8274,7 +8103,7 @@
       "source_file": "app/controllers/legends_controller.rb",
       "source_location": "L56",
       "id": "controllers_legends_controller_legendscontroller_set_zonings",
-      "community": 22,
+      "community": 24,
       "norm_label": ".set_zonings()"
     },
     {
@@ -8283,7 +8112,7 @@
       "source_file": "app/controllers/legends_controller.rb",
       "source_location": "L60",
       "id": "controllers_legends_controller_legendscontroller_legend_params",
-      "community": 22,
+      "community": 24,
       "norm_label": ".legend_params()"
     },
     {
@@ -8346,7 +8175,7 @@
       "source_file": "app/controllers/application_controller.rb",
       "source_location": "L1",
       "id": "app_controllers_application_controller_rb",
-      "community": 36,
+      "community": 74,
       "norm_label": "application_controller.rb"
     },
     {
@@ -8355,7 +8184,7 @@
       "source_file": "app/controllers/application_controller.rb",
       "source_location": "L1",
       "id": "controllers_application_controller_applicationcontroller",
-      "community": 36,
+      "community": 74,
       "norm_label": "applicationcontroller"
     },
     {
@@ -8364,125 +8193,8 @@
       "source_file": "app/controllers/application_controller.rb",
       "source_location": "L10",
       "id": "controllers_application_controller_applicationcontroller_user_not_authorized",
-      "community": 36,
+      "community": 74,
       "norm_label": ".user_not_authorized()"
-    },
-    {
-      "label": "legend_spis_controller.rb",
-      "file_type": "code",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L1",
-      "id": "app_controllers_legend_spis_controller_rb",
-      "community": 9,
-      "norm_label": "legend_spis_controller.rb"
-    },
-    {
-      "label": "LegendSpisController",
-      "file_type": "code",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L1",
-      "id": "controllers_legend_spis_controller_legendspiscontroller",
-      "community": 9,
-      "norm_label": "legendspiscontroller"
-    },
-    {
-      "label": ".index()",
-      "file_type": "code",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L6",
-      "id": "controllers_legend_spis_controller_legendspiscontroller_index",
-      "community": 9,
-      "norm_label": ".index()"
-    },
-    {
-      "label": ".show()",
-      "file_type": "code",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L11",
-      "id": "controllers_legend_spis_controller_legendspiscontroller_show",
-      "community": 9,
-      "norm_label": ".show()"
-    },
-    {
-      "label": ".new()",
-      "file_type": "code",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L14",
-      "id": "controllers_legend_spis_controller_legendspiscontroller_new",
-      "community": 9,
-      "norm_label": ".new()"
-    },
-    {
-      "label": ".create()",
-      "file_type": "code",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L19",
-      "id": "controllers_legend_spis_controller_legendspiscontroller_create",
-      "community": 9,
-      "norm_label": ".create()"
-    },
-    {
-      "label": ".edit()",
-      "file_type": "code",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L30",
-      "id": "controllers_legend_spis_controller_legendspiscontroller_edit",
-      "community": 9,
-      "norm_label": ".edit()"
-    },
-    {
-      "label": ".update()",
-      "file_type": "code",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L33",
-      "id": "controllers_legend_spis_controller_legendspiscontroller_update",
-      "community": 9,
-      "norm_label": ".update()"
-    },
-    {
-      "label": ".destroy()",
-      "file_type": "code",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L41",
-      "id": "controllers_legend_spis_controller_legendspiscontroller_destroy",
-      "community": 9,
-      "norm_label": ".destroy()"
-    },
-    {
-      "label": ".confirm_destroy()",
-      "file_type": "code",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L46",
-      "id": "controllers_legend_spis_controller_legendspiscontroller_confirm_destroy",
-      "community": 9,
-      "norm_label": ".confirm_destroy()"
-    },
-    {
-      "label": ".set_legend_spi()",
-      "file_type": "code",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L51",
-      "id": "controllers_legend_spis_controller_legendspiscontroller_set_legend_spi",
-      "community": 9,
-      "norm_label": ".set_legend_spi()"
-    },
-    {
-      "label": ".set_zonings()",
-      "file_type": "code",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L56",
-      "id": "controllers_legend_spis_controller_legendspiscontroller_set_zonings",
-      "community": 9,
-      "norm_label": ".set_zonings()"
-    },
-    {
-      "label": ".legend_spi_params()",
-      "file_type": "code",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L60",
-      "id": "controllers_legend_spis_controller_legendspiscontroller_legend_spi_params",
-      "community": 9,
-      "norm_label": ".legend_spi_params()"
     },
     {
       "label": "integration_flc_uploads_controller.rb",
@@ -8490,7 +8202,7 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L1",
       "id": "app_controllers_integration_flc_uploads_controller_rb",
-      "community": 46,
+      "community": 11,
       "norm_label": "integration_flc_uploads_controller.rb"
     },
     {
@@ -8499,7 +8211,7 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L1",
       "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller",
-      "community": 46,
+      "community": 11,
       "norm_label": "integrationflcuploadscontroller"
     },
     {
@@ -8508,7 +8220,7 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L6",
       "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_new",
-      "community": 46,
+      "community": 11,
       "norm_label": ".new()"
     },
     {
@@ -8517,7 +8229,7 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L10",
       "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_create",
-      "community": 46,
+      "community": 11,
       "norm_label": ".create()"
     },
     {
@@ -8526,7 +8238,7 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L32",
       "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_set_zonings",
-      "community": 46,
+      "community": 11,
       "norm_label": ".set_zonings()"
     },
     {
@@ -8535,7 +8247,7 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L36",
       "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_authorize_upload",
-      "community": 46,
+      "community": 11,
       "norm_label": ".authorize_upload()"
     },
     {
@@ -8544,7 +8256,7 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L40",
       "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_upload_params",
-      "community": 46,
+      "community": 11,
       "norm_label": ".upload_params()"
     },
     {
@@ -8553,7 +8265,7 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L44",
       "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_render_form_errors",
-      "community": 46,
+      "community": 11,
       "norm_label": ".render_form_errors()"
     },
     {
@@ -8868,7 +8580,7 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L1",
       "id": "app_controllers_integration_filleas_controller_rb",
-      "community": 22,
+      "community": 1,
       "norm_label": "integration_filleas_controller.rb"
     },
     {
@@ -8877,7 +8589,7 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L1",
       "id": "controllers_integration_filleas_controller_integrationfilleascontroller",
-      "community": 22,
+      "community": 1,
       "norm_label": "integrationfilleascontroller"
     },
     {
@@ -8886,7 +8598,7 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L6",
       "id": "controllers_integration_filleas_controller_integrationfilleascontroller_index",
-      "community": 22,
+      "community": 1,
       "norm_label": ".index()"
     },
     {
@@ -8895,7 +8607,7 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L11",
       "id": "controllers_integration_filleas_controller_integrationfilleascontroller_show",
-      "community": 22,
+      "community": 1,
       "norm_label": ".show()"
     },
     {
@@ -8904,7 +8616,7 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L14",
       "id": "controllers_integration_filleas_controller_integrationfilleascontroller_new",
-      "community": 22,
+      "community": 1,
       "norm_label": ".new()"
     },
     {
@@ -8913,7 +8625,7 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L19",
       "id": "controllers_integration_filleas_controller_integrationfilleascontroller_create",
-      "community": 22,
+      "community": 1,
       "norm_label": ".create()"
     },
     {
@@ -8922,7 +8634,7 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L30",
       "id": "controllers_integration_filleas_controller_integrationfilleascontroller_edit",
-      "community": 22,
+      "community": 1,
       "norm_label": ".edit()"
     },
     {
@@ -8931,7 +8643,7 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L33",
       "id": "controllers_integration_filleas_controller_integrationfilleascontroller_update",
-      "community": 22,
+      "community": 1,
       "norm_label": ".update()"
     },
     {
@@ -8940,7 +8652,7 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L41",
       "id": "controllers_integration_filleas_controller_integrationfilleascontroller_destroy",
-      "community": 22,
+      "community": 1,
       "norm_label": ".destroy()"
     },
     {
@@ -8949,7 +8661,7 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L46",
       "id": "controllers_integration_filleas_controller_integrationfilleascontroller_confirm_destroy",
-      "community": 22,
+      "community": 1,
       "norm_label": ".confirm_destroy()"
     },
     {
@@ -8958,7 +8670,7 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L51",
       "id": "controllers_integration_filleas_controller_integrationfilleascontroller_set_integration_fillea",
-      "community": 22,
+      "community": 1,
       "norm_label": ".set_integration_fillea()"
     },
     {
@@ -8967,7 +8679,7 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L56",
       "id": "controllers_integration_filleas_controller_integrationfilleascontroller_set_zonings",
-      "community": 22,
+      "community": 1,
       "norm_label": ".set_zonings()"
     },
     {
@@ -8976,7 +8688,7 @@
       "source_file": "app/controllers/integration_filleas_controller.rb",
       "source_location": "L60",
       "id": "controllers_integration_filleas_controller_integrationfilleascontroller_integration_fillea_params",
-      "community": 22,
+      "community": 1,
       "norm_label": ".integration_fillea_params()"
     },
     {
@@ -9345,7 +9057,7 @@
       "source_file": "app/controllers/admin/application_controller.rb",
       "source_location": "L1",
       "id": "app_controllers_admin_application_controller_rb",
-      "community": 36,
+      "community": 74,
       "norm_label": "application_controller.rb"
     },
     {
@@ -9354,7 +9066,7 @@
       "source_file": "app/controllers/admin/application_controller.rb",
       "source_location": "L8",
       "id": "admin_application_controller_applicationcontroller",
-      "community": 36,
+      "community": 74,
       "norm_label": "applicationcontroller"
     },
     {
@@ -9363,26 +9075,8 @@
       "source_file": "app/controllers/admin/application_controller.rb",
       "source_location": "L12",
       "id": "admin_application_controller_applicationcontroller_authenticate_admin",
-      "community": 36,
+      "community": 74,
       "norm_label": ".authenticate_admin()"
-    },
-    {
-      "label": "legend_spis_controller.rb",
-      "file_type": "code",
-      "source_file": "app/controllers/admin/legend_spis_controller.rb",
-      "source_location": "L1",
-      "id": "app_controllers_admin_legend_spis_controller_rb",
-      "community": 240,
-      "norm_label": "legend_spis_controller.rb"
-    },
-    {
-      "label": "LegendSpisController",
-      "file_type": "code",
-      "source_file": "app/controllers/admin/legend_spis_controller.rb",
-      "source_location": "L2",
-      "id": "admin_legend_spis_controller_legendspiscontroller",
-      "community": 240,
-      "norm_label": "legendspiscontroller"
     },
     {
       "label": "import_spis_controller.rb",
@@ -9664,24 +9358,6 @@
       "norm_label": "userdashboard"
     },
     {
-      "label": "legend_spi_dashboard.rb",
-      "file_type": "code",
-      "source_file": "app/dashboards/legend_spi_dashboard.rb",
-      "source_location": "L1",
-      "id": "app_dashboards_legend_spi_dashboard_rb",
-      "community": 256,
-      "norm_label": "legend_spi_dashboard.rb"
-    },
-    {
-      "label": "LegendSpiDashboard",
-      "file_type": "code",
-      "source_file": "app/dashboards/legend_spi_dashboard.rb",
-      "source_location": "L3",
-      "id": "dashboards_legend_spi_dashboard_legendspidashboard",
-      "community": 256,
-      "norm_label": "legendspidashboard"
-    },
-    {
       "label": "legend_dashboard.rb",
       "file_type": "code",
       "source_file": "app/dashboards/legend_dashboard.rb",
@@ -9835,33 +9511,6 @@
       "norm_label": ".change()"
     },
     {
-      "label": "20260806184441_create_legend_spis.rb",
-      "file_type": "code",
-      "source_file": "db/migrate/20260806184441_create_legend_spis.rb",
-      "source_location": "L1",
-      "id": "db_migrate_20260806184441_create_legend_spis_rb",
-      "community": 74,
-      "norm_label": "20260806184441_create_legend_spis.rb"
-    },
-    {
-      "label": "CreateLegendSpis",
-      "file_type": "code",
-      "source_file": "db/migrate/20260806184441_create_legend_spis.rb",
-      "source_location": "L1",
-      "id": "migrate_20260806184441_create_legend_spis_createlegendspis",
-      "community": 74,
-      "norm_label": "createlegendspis"
-    },
-    {
-      "label": ".change()",
-      "file_type": "code",
-      "source_file": "db/migrate/20260806184441_create_legend_spis.rb",
-      "source_location": "L2",
-      "id": "migrate_20260806184441_create_legend_spis_createlegendspis_change",
-      "community": 74,
-      "norm_label": ".change()"
-    },
-    {
       "label": "20260719095148_create_integration_filleas.rb",
       "file_type": "code",
       "source_file": "db/migrate/20260719095148_create_integration_filleas.rb",
@@ -9894,7 +9543,7 @@
       "source_file": "db/migrate/20260720084820_create_integration_flcs.rb",
       "source_location": "L1",
       "id": "db_migrate_20260720084820_create_integration_flcs_rb",
-      "community": 8,
+      "community": 240,
       "norm_label": "20260720084820_create_integration_flcs.rb"
     },
     {
@@ -9903,7 +9552,7 @@
       "source_file": "db/migrate/20260720084820_create_integration_flcs.rb",
       "source_location": "L1",
       "id": "migrate_20260720084820_create_integration_flcs_createintegrationflcs",
-      "community": 8,
+      "community": 240,
       "norm_label": "createintegrationflcs"
     },
     {
@@ -9912,7 +9561,7 @@
       "source_file": "db/migrate/20260720084820_create_integration_flcs.rb",
       "source_location": "L2",
       "id": "migrate_20260720084820_create_integration_flcs_createintegrationflcs_change",
-      "community": 8,
+      "community": 240,
       "norm_label": ".change()"
     },
     {
@@ -9984,7 +9633,7 @@
       "source_file": "db/migrate/20260729073615_create_legends.rb",
       "source_location": "L1",
       "id": "db_migrate_20260729073615_create_legends_rb",
-      "community": 245,
+      "community": 8,
       "norm_label": "20260729073615_create_legends.rb"
     },
     {
@@ -9993,7 +9642,7 @@
       "source_file": "db/migrate/20260729073615_create_legends.rb",
       "source_location": "L1",
       "id": "migrate_20260729073615_create_legends_createlegends",
-      "community": 245,
+      "community": 8,
       "norm_label": "createlegends"
     },
     {
@@ -10002,7 +9651,7 @@
       "source_file": "db/migrate/20260729073615_create_legends.rb",
       "source_location": "L2",
       "id": "migrate_20260729073615_create_legends_createlegends_change",
-      "community": 245,
+      "community": 8,
       "norm_label": ".change()"
     },
     {
@@ -10128,7 +9777,7 @@
       "source_file": "db/migrate/20260716104253_create_imports.rb",
       "source_location": "L1",
       "id": "db_migrate_20260716104253_create_imports_rb",
-      "community": 8,
+      "community": 39,
       "norm_label": "20260716104253_create_imports.rb"
     },
     {
@@ -10137,7 +9786,7 @@
       "source_file": "db/migrate/20260716104253_create_imports.rb",
       "source_location": "L1",
       "id": "migrate_20260716104253_create_imports_createimports",
-      "community": 8,
+      "community": 39,
       "norm_label": "createimports"
     },
     {
@@ -10146,7 +9795,7 @@
       "source_file": "db/migrate/20260716104253_create_imports.rb",
       "source_location": "L2",
       "id": "migrate_20260716104253_create_imports_createimports_change",
-      "community": 8,
+      "community": 39,
       "norm_label": ".change()"
     },
     {
@@ -14118,7 +13767,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 74,
       "norm_label": "admin::applicationcontroller",
       "id": "admin_application_controller_application_controller"
     },
@@ -14131,7 +13780,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 74,
       "norm_label": "authenticate_admin",
       "id": "admin_application_controller_authenticate_admin"
     },
@@ -14157,7 +13806,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 74,
       "norm_label": "user_not_authorized",
       "id": "controllers_application_controller_user_not_authorized"
     },
@@ -15379,7 +15028,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 68,
       "norm_label": "changelog.md",
       "id": "changelog"
     },
@@ -15472,7 +15121,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 50,
+      "community": 0,
       "norm_label": "codeguide guide: statistics::nationalitybreakdown",
       "id": "statistics_nationality_breakdown"
     },
@@ -15498,7 +15147,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 73,
       "norm_label": "codeguide guide: statistics::membershiptypebreakdown",
       "id": "statistics_membership_type_breakdown"
     },
@@ -16304,7 +15953,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 46,
+      "community": 11,
       "norm_label": "integrationflcuploadform",
       "id": "forms_integration_flc_upload_form_integrationflcuploadform"
     },
@@ -16343,7 +15992,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 22,
+      "community": 71,
       "norm_label": "statistic_with_integrations-logo.svg",
       "id": "statistic_with_integrations_statistic_with_integrations_logo"
     },
@@ -16408,7 +16057,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 22,
+      "community": 71,
       "norm_label": "zoning-logo.svg (index/default, blue)",
       "id": "zoning_zoning_logo"
     },
@@ -16616,7 +16265,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 246,
+      "community": 9,
       "norm_label": "route: resources :statistic_spi",
       "id": "config_routes_statistic_spi"
     },
@@ -16824,7 +16473,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 242,
+      "community": 46,
       "norm_label": "user factory",
       "id": "factories_users"
     },
@@ -16850,7 +16499,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 93,
+      "community": 240,
       "norm_label": "integrationflc factory",
       "id": "factories_integration_flcs"
     },
@@ -16915,7 +16564,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 93,
+      "community": 8,
       "norm_label": "integrationfillea spec",
       "id": "models_integration_fillea_spec"
     },
@@ -16928,7 +16577,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 245,
+      "community": 8,
       "norm_label": "legend spec",
       "id": "models_legend_spec"
     },
@@ -16941,7 +16590,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 93,
+      "community": 240,
       "norm_label": "integrationflc spec",
       "id": "models_integration_flc_spec"
     },
@@ -16980,7 +16629,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 39,
       "norm_label": "import spec",
       "id": "models_import_spec"
     },
@@ -17019,7 +16668,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 242,
+      "community": 46,
       "norm_label": "legendpolicy spec",
       "id": "policies_legend_policy_spec"
     },
@@ -17032,7 +16681,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 242,
+      "community": 46,
       "norm_label": "importspipolicy spec",
       "id": "policies_import_spi_policy_spec"
     },
@@ -17045,7 +16694,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 93,
+      "community": 46,
       "norm_label": "integrationflcpolicy spec",
       "id": "policies_integration_flc_policy_spec"
     },
@@ -17058,7 +16707,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 242,
+      "community": 46,
       "norm_label": "integrationfilleapolicy spec",
       "id": "policies_integration_fillea_policy_spec"
     },
@@ -17071,7 +16720,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 242,
+      "community": 46,
       "norm_label": "importpolicy spec",
       "id": "policies_import_policy_spec"
     },
@@ -17084,7 +16733,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 242,
+      "community": 46,
       "norm_label": "zoningpolicy spec",
       "id": "policies_zoning_policy_spec"
     },
@@ -17123,7 +16772,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 22,
+      "community": 1,
       "norm_label": "integrationfilleas request spec",
       "id": "requests_integration_filleas_spec_integrationfilleas"
     },
@@ -17136,7 +16785,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 22,
+      "community": 24,
       "norm_label": "legends request spec",
       "id": "requests_legends_spec_legends"
     },
@@ -17149,7 +16798,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 46,
+      "community": 11,
       "norm_label": "integrationflcuploads request spec",
       "id": "requests_integration_flc_uploads_spec_integrationflcuploads"
     },
@@ -17383,7 +17032,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 24,
+      "community": 35,
       "norm_label": "statisticprints::categoriespage spec",
       "id": "statistic_prints_categories_page_spec_categoriespage"
     },
@@ -17435,7 +17084,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 246,
+      "community": 67,
       "norm_label": "statisticspi::reconcilediscrittibycomprensorio spec",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_spec_reconcilediscrittibycomprensorio"
     },
@@ -17448,7 +17097,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 246,
+      "community": 37,
       "norm_label": "statisticspi::zoningperiodscope spec",
       "id": "statistic_spi_zoning_period_scope_spec_zoningperiodscope"
     },
@@ -17461,7 +17110,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 246,
+      "community": 9,
       "norm_label": "statisticspi::totalmemberscomparison spec",
       "id": "statistic_spi_total_members_comparison_spec_totalmemberscomparison"
     },
@@ -17500,7 +17149,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 50,
+      "community": 0,
       "norm_label": "statisticwithintegrations::totalmemberscomparison spec",
       "id": "statistic_with_integrations_total_members_comparison_spec_totalmemberscomparison"
     },
@@ -17513,7 +17162,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 73,
       "norm_label": "statistics::membershiptypebreakdown spec",
       "id": "statistics_membership_type_breakdown_spec_membershiptypebreakdown"
     },
@@ -17539,7 +17188,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 50,
+      "community": 0,
       "norm_label": "statistics::nationalitybreakdown spec",
       "id": "statistics_nationality_breakdown_spec_nationalitybreakdown"
     },
@@ -18251,194 +17900,6 @@
       "source_location": "L3",
       "weight": 1.0,
       "source": "policies_import_spi_policy_importspipolicy_manage",
-      "target": "policies_application_policy_applicationpolicy_admin"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_policies_legend_spi_policy_rb",
-      "target": "policies_legend_spi_policy_legendspipolicy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "app_policies_legend_spi_policy_rb",
-      "target": "policies_legend_spi_policy_scope",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "policies_legend_spi_policy_legendspipolicy",
-      "target": "policies_legend_spi_policy_legendspipolicy_index",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "policies_legend_spi_policy_legendspipolicy",
-      "target": "policies_legend_spi_policy_legendspipolicy_show",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "policies_legend_spi_policy_legendspipolicy",
-      "target": "policies_legend_spi_policy_legendspipolicy_create",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "policies_legend_spi_policy_legendspipolicy",
-      "target": "policies_legend_spi_policy_legendspipolicy_update",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "policies_legend_spi_policy_legendspipolicy",
-      "target": "policies_legend_spi_policy_legendspipolicy_confirm_destroy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "policies_legend_spi_policy_legendspipolicy",
-      "target": "policies_legend_spi_policy_legendspipolicy_destroy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "policies_legend_spi_policy_legendspipolicy",
-      "target": "policies_legend_spi_policy_legendspipolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "policies_legend_spi_policy_legendspipolicy_index",
-      "target": "policies_legend_spi_policy_legendspipolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "policies_legend_spi_policy_legendspipolicy_show",
-      "target": "policies_legend_spi_policy_legendspipolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "policies_legend_spi_policy_legendspipolicy_create",
-      "target": "policies_legend_spi_policy_legendspipolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "policies_legend_spi_policy_legendspipolicy_update",
-      "target": "policies_legend_spi_policy_legendspipolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "policies_legend_spi_policy_legendspipolicy_confirm_destroy",
-      "target": "policies_legend_spi_policy_legendspipolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "policies_legend_spi_policy_legendspipolicy_destroy",
-      "target": "policies_legend_spi_policy_legendspipolicy_admin_or_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "policies_legend_spi_policy_scope",
-      "target": "policies_legend_spi_policy_scope_resolve",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "policies_legend_spi_policy_scope_resolve",
-      "target": "policies_application_policy_applicationpolicy_admin"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "app/policies/legend_spi_policy.rb",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "policies_legend_spi_policy_legendspipolicy_admin_or_manager",
       "target": "policies_application_policy_applicationpolicy_admin"
     },
     {
@@ -30062,16 +29523,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/helpers/legend_spi_helper.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "app_helpers_legend_spi_helper_rb",
-      "target": "helpers_legend_spi_helper_form_submit_label_legend_spi",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/helpers/integration_fillea_helper.rb",
       "source_location": "L2",
       "weight": 1.0,
@@ -30858,16 +30309,6 @@
       "confidence_score": 1.0,
       "source": "app_models_application_record_rb",
       "target": "models_application_record_applicationrecord"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/models/legend_spi.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_models_legend_spi_rb",
-      "target": "models_legend_spi_legendspi",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -32577,137 +32018,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "app_controllers_legend_spis_controller_rb",
-      "target": "controllers_legend_spis_controller_legendspiscontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "controllers_legend_spis_controller_legendspiscontroller",
-      "target": "controllers_legend_spis_controller_legendspiscontroller_index",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "controllers_legend_spis_controller_legendspiscontroller",
-      "target": "controllers_legend_spis_controller_legendspiscontroller_show",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "controllers_legend_spis_controller_legendspiscontroller",
-      "target": "controllers_legend_spis_controller_legendspiscontroller_new",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "controllers_legend_spis_controller_legendspiscontroller",
-      "target": "controllers_legend_spis_controller_legendspiscontroller_create",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L30",
-      "weight": 1.0,
-      "source": "controllers_legend_spis_controller_legendspiscontroller",
-      "target": "controllers_legend_spis_controller_legendspiscontroller_edit",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L33",
-      "weight": 1.0,
-      "source": "controllers_legend_spis_controller_legendspiscontroller",
-      "target": "controllers_legend_spis_controller_legendspiscontroller_update",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L41",
-      "weight": 1.0,
-      "source": "controllers_legend_spis_controller_legendspiscontroller",
-      "target": "controllers_legend_spis_controller_legendspiscontroller_destroy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "controllers_legend_spis_controller_legendspiscontroller",
-      "target": "controllers_legend_spis_controller_legendspiscontroller_confirm_destroy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L51",
-      "weight": 1.0,
-      "source": "controllers_legend_spis_controller_legendspiscontroller",
-      "target": "controllers_legend_spis_controller_legendspiscontroller_set_legend_spi",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L56",
-      "weight": 1.0,
-      "source": "controllers_legend_spis_controller_legendspiscontroller",
-      "target": "controllers_legend_spis_controller_legendspiscontroller_set_zonings",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L60",
-      "weight": 1.0,
-      "source": "controllers_legend_spis_controller_legendspiscontroller",
-      "target": "controllers_legend_spis_controller_legendspiscontroller_legend_spi_params",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/controllers/legend_spis_controller.rb",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "controllers_legend_spis_controller_legendspiscontroller_create",
-      "target": "controllers_legend_spis_controller_legendspiscontroller_new",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L1",
       "weight": 1.0,
@@ -33916,16 +33226,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/controllers/admin/legend_spis_controller.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "app_controllers_admin_legend_spis_controller_rb",
-      "target": "admin_legend_spis_controller_legendspiscontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/controllers/admin/import_spis_controller.rb",
       "source_location": "L2",
       "weight": 1.0,
@@ -34338,16 +33638,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/dashboards/legend_spi_dashboard.rb",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "app_dashboards_legend_spi_dashboard_rb",
-      "target": "dashboards_legend_spi_dashboard_legendspidashboard",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/dashboards/legend_dashboard.rb",
       "source_location": "L3",
       "weight": 1.0,
@@ -34444,26 +33734,6 @@
       "confidence_score": 1.0,
       "source": "migrate_20260720121416_add_categoria_to_imports_addcategoriatoimports",
       "target": "migrate_20260720121416_add_categoria_to_imports_addcategoriatoimports_change"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "db/migrate/20260806184441_create_legend_spis.rb",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "db_migrate_20260806184441_create_legend_spis_rb",
-      "target": "migrate_20260806184441_create_legend_spis_createlegendspis",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "db/migrate/20260806184441_create_legend_spis.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "migrate_20260806184441_create_legend_spis_createlegendspis",
-      "target": "migrate_20260806184441_create_legend_spis_createlegendspis_change",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -34821,9 +34091,9 @@
       "source_file": "CHANGELOG.md",
       "source_location": "L51",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "fitupe_changelog_non_rilasciato",
-      "target": "fitupe_changelog_sicurezza"
+      "target": "fitupe_changelog_sicurezza",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -41340,5 +40610,5 @@
       "source_file": "spec/services/statistic_prints/membership_types_page_spec.rb"
     }
   ],
-  "built_at_commit": "0dc2a05092ed08b7338bc7efaca63e0549061efd"
+  "built_at_commit": "d7105dc784468fd0a2385494a4037e939625984d"
 }

@@ -1,0 +1,64 @@
+<% content_for :title, "Legenda SPI" %>
+<div class="d-flex justify-content-between align-items-center mt-5 mb-3">
+  <h3 class="text-primary">
+    <i class="fw-bold">
+      <%= image_tag("legend/legendaspi-logo.svg", class: "img-fluid me-3", size: "58x58", alt: "Legenda SPI") %>
+      Legenda SPI
+    </i>
+  </h3>
+  <%= link_to new_legend_spi_path, class: "btn btn-primary shadow" do %>
+    <i class="bi bi-plus-lg"></i>
+    <i class="bi bi-journal-text me-2"></i>
+    Nuova Legenda SPI
+  <% end %>
+</div>
+<hr class="text-primary m-3"/>
+<div class="card p-3 mt-5 border border-primary shadow">
+  <div class="card-body">
+    <% if @legend_spis.any? %>
+      <div class="table-responsive">
+        <table class="table table-hover align-middle">
+          <thead>
+            <tr>
+              <th class="text-primary fs-5">
+                <i class="bi bi-geo-alt me-1"></i>
+                Azzonamento
+              </th>
+              <th class="text-primary fs-5">
+                <i class="bi bi-calendar3 me-1"></i>
+                Anno
+              </th>
+              <th class="text-primary fs-5">
+                <i class="bi bi-calendar-event me-1"></i>
+                Mese
+              </th>
+              <th class="text-end"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <% @legend_spis.each do |legend_spi| %>
+              <tr>
+                <td class="fs-5"><%= legend_spi.zoning.descrizione_azzonamento %></td>
+                <td class="fs-5"><%= legend_spi.year %></td>
+                <td class="fs-5"><%= legend_spi.month %></td>
+                <td class="text-end fs-5">
+                  <%= link_to legend_spi_path(legend_spi), class: "text-primary me-5", data: { bs_toggle: "tooltip", bs_placement: "bottom", bs_title: "Visualizza il Record Corrente" } do %>
+                    <i class="bi bi-eye-fill"></i>
+                  <% end %>
+                  <%= link_to edit_legend_spi_path(legend_spi), class: "text-warning me-5", data: { bs_toggle: "tooltip", bs_placement: "bottom", bs_title: "Modifica il Record Corrente" } do %>
+                    <i class="bi bi-pen-fill"></i>
+                  <% end %>
+                  <%= link_to confirm_destroy_legend_spi_path(legend_spi), class: "text-danger", data: { bs_toggle: "tooltip", bs_placement: "bottom", bs_title: "Elimina il Record Corrente" } do %>
+                    <i class="bi bi-trash-fill"></i>
+                  <% end %>
+                </td>
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+    <% else %>
+      <p class="text-muted">Nessuna legenda SPI inserita.</p>
+    <% end %>
+  </div>
+</div>

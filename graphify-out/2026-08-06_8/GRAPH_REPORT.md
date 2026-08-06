@@ -1,16 +1,16 @@
 # Graph Report - fitupe  (2026-08-06)
 
 ## Corpus Check
-- 267 files · ~136,558 words
+- 256 files · ~130,126 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1760 nodes · 2272 edges · 263 communities (182 shown, 81 thin omitted)
-- Extraction: 85% EXTRACTED · 15% INFERRED · 0% AMBIGUOUS · INFERRED: 336 edges (avg confidence: 0.84)
+- 1721 nodes · 2235 edges · 256 communities (180 shown, 76 thin omitted)
+- Extraction: 85% EXTRACTED · 15% INFERRED · 0% AMBIGUOUS · INFERRED: 334 edges (avg confidence: 0.84)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `0dc2a050`
+- Built from commit: `d7105dc7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -168,8 +168,6 @@
 - [[_COMMUNITY_Community 251|Community 251]]
 - [[_COMMUNITY_Community 252|Community 252]]
 - [[_COMMUNITY_Community 253|Community 253]]
-- [[_COMMUNITY_Community 256|Community 256]]
-- [[_COMMUNITY_Community 258|Community 258]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `TotalMembersComparison` - 48 edges
@@ -233,11 +231,11 @@
 - **StatisticWithIntegrations::TotalMembersComparison composes FlcCorrection and FilleaCorrection** — statistic_with_integrations_total_members_comparison_spec_totalmemberscomparison, statistic_with_integrations_flc_correction_flccorrection, statistic_with_integrations_fillea_correction_filleacorrection [EXTRACTED 1.00]
 - **StatisticPrints pages accepting an alternate comparison_service** — statistic_prints_membership_types_page_spec_membershiptypespage, statistic_prints_employment_status_page_spec_employmentstatuspage, statistic_with_integrations_total_members_comparison_totalmemberscomparison [EXTRACTED 1.00]
 
-## Communities (263 total, 81 thin omitted)
+## Communities (256 total, 76 thin omitted)
 
 ### Community 0 - "Statistic Prints Table Helpers"
-Cohesion: 0.13
-Nodes (12): CLAUDE.md — Guida per Claude Code, CodeGuide/README.md, Claude Code Logo, Fitupe Statistic Icons Color Palette Reference, Fitupe Main Application Logo, package.json (Fitupe JS manifest), CodeGuide guide: Statistics::GenderBreakdown, GenderBreakdown (+4 more)
+Cohesion: 0.09
+Nodes (16): CLAUDE.md — Guida per Claude Code, CodeGuide/README.md, Claude Code Logo, Fitupe Statistic Icons Color Palette Reference, Fitupe Main Application Logo, package.json (Fitupe JS manifest), StatisticWithIntegrations::TotalMembersComparison spec, CodeGuide guide: Statistics::GenderBreakdown (+8 more)
 
 ### Community 2 - "Project Docs & Tech Stack"
 Cohesion: 0.06
@@ -246,10 +244,6 @@ Nodes (38): bin/jobs script, Administrate Admin Panel, Anti-Patterns to Avoid, B
 ### Community 3 - "Zoning/Integration Controllers"
 Cohesion: 0.08
 Nodes (24): IntegrationFilleasController, IntegrationFlcsController, ZoningsController, BarChartController (Stimulus), ComparisonChartController (Stimulus), FlashController (Stimulus), Stimulus controllers manifest (index.js), PieChartController (Stimulus) (+16 more)
-
-### Community 4 - "Nationality/Gender PDF Page"
-Cohesion: 0.09
-Nodes (3): NationalityGenderPage, StatisticPrints::NationalityGenderPage spec, PieChart
 
 ### Community 5 - "CLAUDE.md Guide"
 Cohesion: 0.12
@@ -264,12 +258,20 @@ Cohesion: 0.07
 Nodes (28): browserslist, dependencies, autoprefixer, bootstrap, bootstrap-icons, bootswatch, chart.js, @hotwired/stimulus (+20 more)
 
 ### Community 8 - "SPI/Fillea/Legend/Zoning Migrations"
-Cohesion: 0.10
-Nodes (18): Database Schema, ImportSpi Factory, Import Factory, IntegrationFillea Factory, Legend Factory, Italian Locale File, CreateImports, CreateIntegrationFilleas (+10 more)
+Cohesion: 0.11
+Nodes (17): Database Schema, ImportSpi Factory, Import Factory, IntegrationFillea Factory, Legend Factory, Italian Locale File, CreateIntegrationFilleas, CreateLegends (+9 more)
+
+### Community 9 - "Community 9"
+Cohesion: 0.25
+Nodes (3): route: resources :statistic_spi, StatisticSpi::TotalMembersComparison spec, TotalMembersComparison
 
 ### Community 10 - "FILLEA/FLC Correction Services"
 Cohesion: 0.11
 Nodes (4): FilleaCorrection, StatisticWithIntegrations::FilleaCorrection spec, FlcCorrection, StatisticWithIntegrations::FlcCorrection spec
+
+### Community 11 - "FLC Upload & Comparison"
+Cohesion: 0.09
+Nodes (6): IntegrationFlcUploadsController, IntegrationFlcUploadForm, ComparisonService, IntegrationFlcs::ComparisonService spec, success?(), IntegrationFlcUploads request spec
 
 ### Community 12 - "Statistics::TotalMembersComparison Guide"
 Cohesion: 0.08
@@ -304,8 +306,8 @@ Cohesion: 0.11
 Nodes (20): Fitupe::Application configuration, Boot: Bundler & Bootsnap setup, Action Cable adapter configuration, Rails cache store configuration, PostgreSQL database connections configuration, Kamal deploy configuration, Rails application boot/initialize, Puma server configuration (+12 more)
 
 ### Community 22 - "ZoningsController CRUD"
-Cohesion: 0.05
-Nodes (11): IntegrationFilleasController, LegendsController, ZoningsController, IntegrationFilleas request spec, Legends request spec, Zonings request spec, zoning-logo.svg (index/default, blue), zoning-logo-destroy.svg (destroy action, red) (+3 more)
+Cohesion: 0.13
+Nodes (6): ZoningsController, Zonings request spec, zoning-logo-destroy.svg (destroy action, red), zoning-logo-edit.svg (edit action, orange), zoning-logo-new.svg (new action, orange/green), zoning-logo-show.svg (show action, light blue)
 
 ### Community 23 - "Gender Breakdown Guide"
 Cohesion: 0.11
@@ -331,17 +333,25 @@ Nodes (16): `call`, code:ruby (module Statistics), code:ruby (# Risolve lo scope
 Cohesion: 0.14
 Nodes (3): ImportSpisController, ImportSpiForm, ImportSpis request spec
 
+### Community 35 - "Imports CSV Importer Service"
+Cohesion: 0.06
+Nodes (5): BarChart, CategoriesPage, StatisticPrints::CategoriesPage spec, EmploymentStatusPage, StatisticPrints::EmploymentStatusPage spec
+
 ### Community 36 - "ApplicationPolicy Base"
-Cohesion: 0.05
-Nodes (16): Admin::ApplicationController, ApplicationController, authenticate_admin, ApplicationController, user_not_authorized, ApplicationPolicy#admin?, ApplicationPolicy, Scope (+8 more)
+Cohesion: 0.29
+Nodes (3): ApplicationPolicy#admin?, ApplicationPolicy, Scope
 
 ### Community 37 - "ZoningPeriodScope Service"
-Cohesion: 0.25
-Nodes (3): CodeGuide guide: Statistics::ZoningPeriodScope, Statistics::ZoningPeriodScope spec, ZoningPeriodScope
+Cohesion: 0.14
+Nodes (5): StatisticSpi::ZoningPeriodScope spec, ZoningPeriodScope, CodeGuide guide: Statistics::ZoningPeriodScope, Statistics::ZoningPeriodScope spec, ZoningPeriodScope
 
 ### Community 38 - "Provisional/Revocation Breakdown Guide"
 Cohesion: 0.13
 Nodes (14): `build_row` *(privato)*, `call`, code:ruby (module Statistics), code:ruby (# Conta le pratiche Provvisorie (provvisoria = "SI") e le Re), code:ruby (Row = Struct.new(:tipologia, :count, :percentuale, keyword_i), code:ruby (def call), code:ruby (def build_row(tipologia, count)), code:ruby (def totale_iscritti) (+6 more)
+
+### Community 39 - "Import CSV Background Jobs"
+Cohesion: 0.20
+Nodes (4): CreateImports, CreateActiveStorageTables, Import, Import Spec
 
 ### Community 40 - "Statistic Breakdown Icons & PDF Art"
 Cohesion: 0.23
@@ -368,8 +378,8 @@ Cohesion: 0.29
 Nodes (7): Approfondimento: bundler-audit, code:block38 (gem install bundler-audit), code:block39 (bundler-audit check --update), code:block40 (# .github/workflows/dependency_audit.yml), code:block41 (# Gemfile:), code:block42 (# config/initializers/secure_headers.rb:), Installazione e Utilizzo
 
 ### Community 46 - "Import Policy & Factory"
-Cohesion: 0.18
-Nodes (4): IntegrationFlcUploadsController, IntegrationFlcUploadForm, success?(), IntegrationFlcUploads request spec
+Cohesion: 0.17
+Nodes (9): User Factory, ImportPolicy, ImportPolicy Spec, ImportSpiPolicy, ImportSpiPolicy Spec, IntegrationFilleaPolicy Spec, IntegrationFlcPolicy Spec, LegendPolicy Spec (+1 more)
 
 ### Community 47 - "Community 47"
 Cohesion: 0.33
@@ -379,21 +389,13 @@ Nodes (6): code:block7 ("Aggiungi la possibilità per gli utenti di commentare i
 Cohesion: 0.17
 Nodes (12): Analysis of Variance (ANOVA), Box Plot, Chi-Square Test, Pearson Correlation Coefficient, Exploratory Data Analysis (EDA), Fitupe Logo Design, Fitupe Application Name Origin, John Tukey (+4 more)
 
-### Community 50 - "Community 50"
-Cohesion: 0.28
-Nodes (4): StatisticWithIntegrations::TotalMembersComparison spec, CodeGuide guide: Statistics::NationalityBreakdown, NationalityBreakdown, Statistics::NationalityBreakdown spec
-
 ### Community 52 - "Category Breakdown Service"
 Cohesion: 0.24
 Nodes (3): CodeGuide guide: Statistics::CategoryBreakdown, CategoryBreakdown, Statistics::CategoryBreakdown spec
 
-### Community 53 - "Community 53"
-Cohesion: 0.36
-Nodes (3): CodeGuide guide: Statistics::MembershipTypeBreakdown, MembershipTypeBreakdown, Statistics::MembershipTypeBreakdown spec
-
 ### Community 57 - "Community 57"
-Cohesion: 0.12
-Nodes (14): attachment_blocks(), blocks(), blocks_for(), inline(), inline_node(), StatisticPrints::LegendContent, link_node(), list_blocks() (+6 more)
+Cohesion: 0.07
+Nodes (15): attachment_blocks(), blocks(), blocks_for(), inline(), inline_node(), StatisticPrints::LegendContent, link_node(), list_blocks() (+7 more)
 
 ### Community 58 - "JS Application Entry Points"
 Cohesion: 0.22
@@ -420,24 +422,32 @@ Cohesion: 0.25
 Nodes (9): Main Logo PNG (Asset Pipeline), Main Logo SVG (Asset Pipeline Copy), Navbar Logo (Horizontal Wordmark), Navbar Brand Link, Fitupe Main Logo (PNG), Fitupe Main Logo (SVG), Sigma (Standard Deviation) Symbolism, Fitupe Favicon (public/icon.svg) (+1 more)
 
 ### Community 67 - "Age Breakdown Service"
-Cohesion: 0.28
-Nodes (3): CodeGuide guide: Statistics::AgeBreakdown, AgeBreakdown, Statistics::AgeBreakdown spec
+Cohesion: 0.14
+Nodes (5): ReconciledIscrittiByComprensorio, StatisticSpi::ReconciledIscrittiByComprensorio spec, CodeGuide guide: Statistics::AgeBreakdown, AgeBreakdown, Statistics::AgeBreakdown spec
 
 ### Community 68 - "Provisional Revocation Breakdown Service"
 Cohesion: 0.28
 Nodes (3): CodeGuide guide: Statistics::ProvisionalRevocationBreakdown, ProvisionalRevocationBreakdown, Statistics::ProvisionalRevocationBreakdown spec
 
 ### Community 70 - "Work Status Breakdown Service"
-Cohesion: 0.28
+Cohesion: 0.24
 Nodes (3): CodeGuide guide: Statistics::WorkStatusBreakdown, Statistics::WorkStatusBreakdown spec, WorkStatusBreakdown
 
+### Community 71 - "StatisticWithIntegrationsPrints Controller"
+Cohesion: 0.20
+Nodes (3): StatisticWithIntegrationsPrintsController, StatisticWithIntegrationsPrints request spec, zoning-logo.svg (index/default, blue)
+
 ### Community 72 - "Number Formatting Helper"
-Cohesion: 0.16
+Cohesion: 0.19
 Nodes (4): route: resources :statistics, CodeGuide guide: Statistics::TotalMembersComparison, Statistics::TotalMembersComparison spec, TotalMembersComparison
 
 ### Community 73 - "Delegation Type Breakdown Service"
-Cohesion: 0.31
-Nodes (3): CodeGuide guide: Statistics::DelegationTypeBreakdown, DelegationTypeBreakdown, Statistics::DelegationTypeBreakdown spec
+Cohesion: 0.18
+Nodes (6): CodeGuide guide: Statistics::DelegationTypeBreakdown, DelegationTypeBreakdown, Statistics::DelegationTypeBreakdown spec, CodeGuide guide: Statistics::MembershipTypeBreakdown, MembershipTypeBreakdown, Statistics::MembershipTypeBreakdown spec
+
+### Community 74 - "Membership Type Breakdown Service"
+Cohesion: 0.25
+Nodes (5): Admin::ApplicationController, ApplicationController, authenticate_admin, ApplicationController, user_not_authorized
 
 ### Community 76 - "Comparison Chart Controller"
 Cohesion: 0.43
@@ -484,8 +494,8 @@ Cohesion: 0.60
 Nodes (4): Davo Signature Logo (monogram), The Davosky Connection Wordmark Logo, CESI CGIL Friuli Venezia Giulia, Davo Davosky / The Davosky Connection
 
 ### Community 93 - "Community 93"
-Cohesion: 0.14
-Nodes (12): IntegrationFlc Factory, Zoning Factory, ImportCsvJob, ImportCsvJob Spec, ImportSpiCsvJob, ImportSpiCsvJob Spec, ImportForm Spec, IntegrationFillea Spec (+4 more)
+Cohesion: 0.19
+Nodes (8): Zoning Factory, ImportCsvJob, ImportCsvJob Spec, ImportSpiCsvJob, ImportSpiCsvJob Spec, ImportForm Spec, Zoning Spec, Imports Request Spec
 
 ### Community 94 - "Bin Scripts (dev/docker/rails/setup)"
 Cohesion: 0.50
@@ -511,21 +521,21 @@ Nodes (5): Approfondimento: Brakeman, code:block35 (gem install brakeman), code:
 Cohesion: 0.40
 Nodes (5): Controller, 🤝 Convenzioni di Codice, Generale, Modelli, Naming
 
+### Community 240 - "Community 240"
+Cohesion: 0.33
+Nodes (4): IntegrationFlc Factory, CreateIntegrationFlcs, IntegrationFlc, IntegrationFlc Spec
+
 ### Community 241 - "Community 241"
 Cohesion: 0.50
 Nodes (4): code:block3 (spec/), code:ruby (# Esempio factory minima), Regole per i Test, 🧪 Testing
 
 ### Community 242 - "Community 242"
-Cohesion: 0.10
-Nodes (14): Admin::UsersController, PagesController, UserDashboard, Database Seeds, User Factory, User::GENDERS, User, ImportPolicy (+6 more)
-
-### Community 245 - "Community 245"
-Cohesion: 0.18
-Nodes (5): CreateLegends, Legend, Legend Spec, TotalMembersForm Spec, TotalMembersForm
+Cohesion: 0.19
+Nodes (6): Admin::UsersController, PagesController, UserDashboard, Database Seeds, User::GENDERS, User
 
 ### Community 246 - "Community 246"
-Cohesion: 0.07
-Nodes (10): route: resources :statistic_prints, route: resources :statistic_spi, RegionalPage, StatisticPrints::RegionalPage spec, ReconciledIscrittiByComprensorio, StatisticSpi::ReconciledIscrittiByComprensorio spec, StatisticSpi::TotalMembersComparison spec, TotalMembersComparison (+2 more)
+Cohesion: 0.20
+Nodes (3): route: resources :statistic_prints, RegionalPage, StatisticPrints::RegionalPage spec
 
 ### Community 247 - "Community 247"
 Cohesion: 0.60
@@ -548,9 +558,9 @@ Nodes (3): colors(), connect(), valueLabelsPlugin()
   config/routes.rb · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **346 isolated node(s):** `name`, `private`, `esbuild`, `brace-expansion`, `build` (+341 more)
+- **343 isolated node(s):** `name`, `private`, `esbuild`, `brace-expansion`, `build` (+338 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **81 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **76 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_

@@ -1,0 +1,34 @@
+<% content_for :title, "Legenda SPI #{@legend_spi.zoning.descrizione_azzonamento}" %>
+<div class="d-flex justify-content-between align-items-center mt-5 mb-3">
+  <h3 class="text-primary">
+    <i class="fw-bold">
+      <%= image_tag("legend/legendaspi-logo-show.svg", class: "img-fluid me-3", size: "58x58", alt: "Legenda SPI") %>
+      <%= @legend_spi.zoning.descrizione_azzonamento %> - <%= @legend_spi.month %>/<%= @legend_spi.year %>
+    </i>
+  </h3>
+  <%= link_to legend_spis_path, class: "btn btn-outline-secondary shadow" do %>
+    <i class="bi bi-arrow-counterclockwise me-2"></i>
+    Torna all'elenco
+  <% end %>
+</div>
+<hr class="text-primary m-3"/>
+<div class="row">
+  <div class="col-10 offset-1">
+    <div class="card shadow">
+      <div class="card-body p-4">
+        <dl class="row mb-3">
+          <dt class="col-sm-3">Azzonamento</dt>
+          <dd class="col-sm-9"><%= @legend_spi.zoning.descrizione_azzonamento %></dd>
+          <dt class="col-sm-3">Anno</dt>
+          <dd class="col-sm-9"><%= @legend_spi.year %></dd>
+          <dt class="col-sm-3">Mese</dt>
+          <dd class="col-sm-9"><%= @legend_spi.month %></dd>
+        </dl>
+        <hr class="text-dark"/>
+        <div class="trix-content">
+          <%= @legend_spi.description %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

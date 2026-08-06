@@ -29,6 +29,10 @@ it:
         one: Legenda
         many: Legende
         other: Legende
+      legend_spi:
+        one: Legenda SPI
+        many: Legende SPI
+        other: Legende SPI
     attributes:
       user:
         username: Nome utente
@@ -81,6 +85,14 @@ it:
         created_at: Creato il
         updated_at: Aggiornato il
       legend:
+        zoning: Azzonamento
+        zoning_id: Azzonamento
+        year: Anno
+        month: Mese
+        description: Descrizione
+        created_at: Creato il
+        updated_at: Aggiornato il
+      legend_spi:
         zoning: Azzonamento
         zoning_id: Azzonamento
         year: Anno

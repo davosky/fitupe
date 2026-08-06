@@ -48,6 +48,28 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="bi bi-upload text-primary"></i>
+            <i class="bi bi-person text-primary me-2"></i>Importazioni SPI
+          </a>
+          <div class="dropdown-menu dropdown-menu-centered">
+            <% if current_user.admin? || current_user.manager? %>
+              <%= link_to import_spis_path, class: "dropdown-item" do %>
+                <i class="bi bi-list-ul text-primary"></i>
+                <i class="bi bi-upload text-primary"></i>
+                <i class="bi bi-person text-primary me-2"></i>
+                Elenco Importazioni SPI
+              <% end %>
+              <%= link_to new_import_spi_path, class: "dropdown-item" do %>
+                <i class="bi bi-plus-lg text-primary"></i>
+                <i class="bi bi-upload text-primary"></i>
+                <i class="bi bi-person text-primary me-2"></i>
+                Effetua una Nuova Importazione SPI
+              <% end %>
+            <% end %>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
             <i class="bi bi-arrow-left-right text-primary me-2"></i>Integrazioni
           </a>
           <div class="dropdown-menu dropdown-menu-centered">
@@ -97,6 +119,19 @@
                 <i class="bi bi-journal-text text-primary me-2"></i>
                 Aggiungi Legenda
               <% end %>
+              <div class="dropdown-divider"></div>
+              <%= link_to legend_spis_path, class: "dropdown-item" do %>
+                <i class="bi bi-list-ul text-primary"></i>
+                <i class="bi bi-journal-text text-primary"></i>
+                <i class="bi bi-person text-primary me-2"></i>
+                Elenco Legende SPI
+              <% end %>
+              <%= link_to new_legend_spi_path, class: "dropdown-item" do %>
+                <i class="bi bi-plus-lg text-primary"></i>
+                <i class="bi bi-journal-text text-primary"></i>
+                <i class="bi bi-person text-primary me-2"></i>
+                Aggiungi Legenda SPI
+              <% end %>
             <% end %>
           </div>
         </li>
@@ -136,28 +171,6 @@
               <i class="bi bi-bar-chart text-primary me-1"></i>
               <i class="bi bi-arrow-left-right text-primary me-2"></i>
               Stampa Statistiche Con Integrazioni
-            <% end %>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-            <i class="bi bi-upload text-primary"></i>
-            <i class="bi bi-person text-primary me-2"></i>Importazioni SPI
-          </a>
-          <div class="dropdown-menu dropdown-menu-centered">
-            <% if current_user.admin? || current_user.manager? %>
-              <%= link_to import_spis_path, class: "dropdown-item" do %>
-                <i class="bi bi-list-ul text-primary"></i>
-                <i class="bi bi-upload text-primary"></i>
-                <i class="bi bi-person text-primary me-2"></i>
-                Elenco Importazioni SPI
-              <% end %>
-              <%= link_to new_import_spi_path, class: "dropdown-item" do %>
-                <i class="bi bi-plus-lg text-primary"></i>
-                <i class="bi bi-upload text-primary"></i>
-                <i class="bi bi-person text-primary me-2"></i>
-                Effetua una Nuova Importazione SPI
-              <% end %>
             <% end %>
           </div>
         </li>

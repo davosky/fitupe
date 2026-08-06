@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_08_03_071317) do
+ActiveRecord::Schema[8.1].define(version: 2026_08_06_184441) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -264,6 +264,16 @@ ActiveRecord::Schema[8.1].define(version: 2026_08_03_071317) do
     t.index ["zoning_id"], name: "index_integration_flcs_on_zoning_id"
   end
 
+  create_table "legend_spis", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.string "month", null: false
+    t.datetime "updated_at", null: false
+    t.string "year", null: false
+    t.bigint "zoning_id", null: false
+    t.index ["zoning_id", "year", "month"], name: "index_legend_spis_on_zoning_year_month", unique: true
+    t.index ["zoning_id"], name: "index_legend_spis_on_zoning_id"
+  end
+
   create_table "legends", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.string "month", null: false
@@ -315,5 +325,6 @@ ActiveRecord::Schema[8.1].define(version: 2026_08_03_071317) do
   add_foreign_key "imports_spi", "zonings", column: "azzonamento_di_riferimento_id"
   add_foreign_key "integration_filleas", "zonings"
   add_foreign_key "integration_flcs", "zonings"
+  add_foreign_key "legend_spis", "zonings"
   add_foreign_key "legends", "zonings"
 end

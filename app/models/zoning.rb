@@ -5,6 +5,7 @@ class Zoning < ApplicationRecord
     inverse_of: :azzonamento_di_riferimento, dependent: :restrict_with_error
   has_many :integration_filleas, dependent: :restrict_with_error
   has_many :legends, dependent: :restrict_with_error
+  has_many :legend_spis, dependent: :restrict_with_error
 
   scope :comprensori_di, lambda { |zoning|
     where("codice_azzonamento LIKE ? AND codice_azzonamento != ?", "#{zoning.codice_azzonamento}%",

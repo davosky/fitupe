@@ -10,9 +10,9 @@
     "semantic_hash": "590009f4b8daf822d34925fc6490b45c"
   },
   "/home/davo/Programmazione/fitupe/config/routes.rb": {
-    "mtime": 1786034723.8440475,
-    "ast_hash": "96d4b0068c14da72b3cf37292263339f",
-    "semantic_hash": ""
+    "mtime": 1785744531.8475678,
+    "ast_hash": "911aa5206f0fd01306a252fd7433447b",
+    "semantic_hash": "911aa5206f0fd01306a252fd7433447b"
   },
   "/home/davo/Programmazione/fitupe/config/ci.rb": {
     "mtime": 1784113603.9352865,
@@ -250,9 +250,9 @@
     "semantic_hash": "52416b64a9aa018495ddf47e2f766778"
   },
   "/home/davo/Programmazione/fitupe/db/schema.rb": {
-    "mtime": 1786034851.7369,
-    "ast_hash": "bf4961e715af44ce745e1cb0e0091c35",
-    "semantic_hash": ""
+    "mtime": 1785753461.7730749,
+    "ast_hash": "31ec9871528efbedca21daaced7e6d99",
+    "semantic_hash": "31ec9871528efbedca21daaced7e6d99"
   },
   "/home/davo/Programmazione/fitupe/db/cache_schema.rb": {
     "mtime": 1784113626.551215,
@@ -335,9 +335,9 @@
     "semantic_hash": "8131df2d0832d1888ac483528e35e9e2"
   },
   "/home/davo/Programmazione/fitupe/config/locales/it.yml": {
-    "mtime": 1786034816.7807438,
-    "ast_hash": "285254eaafc256291361be6722837bf3",
-    "semantic_hash": ""
+    "mtime": 1785741367.469919,
+    "ast_hash": "d31e6cec0006737635dd40d9b93a5cd9",
+    "semantic_hash": "d31e6cec0006737635dd40d9b93a5cd9"
   },
   "/home/davo/Programmazione/fitupe/public/400.html": {
     "mtime": 1784113604.0819113,
@@ -520,9 +520,9 @@
     "semantic_hash": "5413e9cb9258627de3cedbcb6ea68fb0"
   },
   "/home/davo/Programmazione/fitupe/app/models/zoning.rb": {
-    "mtime": 1786034727.4462552,
-    "ast_hash": "ac4a63c2ed6810b3a34c764ebcdb52df",
-    "semantic_hash": ""
+    "mtime": 1785741217.4211555,
+    "ast_hash": "8647bd2a39829a3056c72d67af7d34ec",
+    "semantic_hash": "8647bd2a39829a3056c72d67af7d34ec"
   },
   "/home/davo/Programmazione/fitupe/app/models/import.rb": {
     "mtime": 1784198627.548487,
@@ -1682,96 +1682,6 @@
   "/home/davo/Programmazione/fitupe/config/initializers/secure_headers.rb": {
     "mtime": 1786009407.445663,
     "ast_hash": "2ddfe5a08eb3b09d22d6fda15dbb0c07",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/requests/legend_spis_spec.rb": {
-    "mtime": 1786034846.3627496,
-    "ast_hash": "d25da59631d06ad6a9882ffd4d3f5c27",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/policies/legend_spi_policy_spec.rb": {
-    "mtime": 1786034839.2685506,
-    "ast_hash": "6b5d0b9d3d02133e0b4dd9af2993991a",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/models/legend_spi_spec.rb": {
-    "mtime": 1786034832.890372,
-    "ast_hash": "23c75118c1b15ffd4e98bab8a81e4c3b",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/spec/factories/legend_spis.rb": {
-    "mtime": 1786034827.0490503,
-    "ast_hash": "9b6ab0f77406e4db8c64c6a40f867f1e",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/policies/legend_spi_policy.rb": {
-    "mtime": 1786034706.0718303,
-    "ast_hash": "3e9e862b327e98966f4fe1c9e928c245",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/helpers/legend_spi_helper.rb": {
-    "mtime": 1786034731.6612315,
-    "ast_hash": "21431e2b837e3881cbaee06a1592a414",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/models/legend_spi.rb": {
-    "mtime": 1786034690.923409,
-    "ast_hash": "a710c55ee886c6518b4b68c47d928197",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/controllers/legend_spis_controller.rb": {
-    "mtime": 1786034698.003341,
-    "ast_hash": "7f56ff6dfc0ad45684906c7ae4ad4039",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/controllers/admin/legend_spis_controller.rb": {
-    "mtime": 1786034710.0409408,
-    "ast_hash": "0469b7c02665c38ecce83d485a6d98c6",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/dashboards/legend_spi_dashboard.rb": {
-    "mtime": 1786034715.509093,
-    "ast_hash": "6e3a2152524f536a7938d4056f40c135",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/db/migrate/20260806184441_create_legend_spis.rb": {
-    "mtime": 1786034686.10218,
-    "ast_hash": "63bf680ef87b471d741918ad5b0ebeb5",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/legend/legendaspi-logo.svg": {
-    "mtime": 1786034377.6018834,
-    "ast_hash": "45b98a826583cbf454c680a312a72885",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/legend/legendaspi-logo-show.svg": {
-    "mtime": 1786034498.1184077,
-    "ast_hash": "3e1af9128a97a60772275300cc00eb49",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/legend/legendaspi-logo-destroy.svg": {
-    "mtime": 1786034442.855961,
-    "ast_hash": "96b0b4ba0709ec4c9be71636a322d593",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/legend/legendaspi-logo-edit.svg": {
-    "mtime": 1786034463.3727326,
-    "ast_hash": "f470a9d85d6d56bfa5b7914f5c97e47a",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/legend/legendaspi-logo-new.svg": {
-    "mtime": 1786034481.270952,
-    "ast_hash": "f141471be599eba7ae2456b174201cc7",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/import/importspi-logo-new.svg": {
-    "mtime": 1786033552.1554232,
-    "ast_hash": "0d4f227b5c5eb3f9cb933964c9c690ba",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/app/assets/images/import/importspi-logo.svg": {
-    "mtime": 1786033516.3256028,
-    "ast_hash": "08aa6b351cc07453f123cbc30d0dda05",
     "semantic_hash": ""
   }
 }

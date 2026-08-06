@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     resources :integration_filleas
     resources :integration_flcs
     resources :legends
+    resources :legend_spis
 
     root to: "users#index"
   end
@@ -32,6 +33,11 @@ Rails.application.routes.draw do
   end
   resources :integration_flc_uploads, only: %i[new create]
   resources :legends do
+    member do
+      get :confirm_destroy
+    end
+  end
+  resources :legend_spis do
     member do
       get :confirm_destroy
     end
