@@ -18,6 +18,7 @@ module StatisticSpiPrints
         register_fonts(pdf)
         pdf.canvas { CoverPage.draw(pdf, form: @form) }
         draw_legend(pdf)
+        draw_back_cover(pdf)
       end
     end
 
@@ -28,6 +29,15 @@ module StatisticSpiPrints
 
       pdf.start_new_page
       LegendPage.draw(pdf, form: @form)
+    end
+
+    # Come nella versione non-SPI: se l'interno del fascicolo (tutto tranne la
+    # controcopertina) ha un numero di pagine dispari, inserisce prima una
+    # pagina bianca, cosi' e' pronto per la stampa fisica fronte/retro.
+    def draw_back_cover(pdf)
+      pdf.start_new_page if pdf.page_count.odd?
+      pdf.start_new_page
+      pdf.canvas { BackCoverPage.draw(pdf) }
     end
 
     def mm_to_pt(mm) = mm * 72 / 25.4

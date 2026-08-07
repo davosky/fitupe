@@ -5115,7 +5115,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L1",
       "id": "app_services_statistic_spi_reconciled_iscritti_by_comprensorio_rb",
-      "community": 269,
+      "community": 67,
       "norm_label": "reconciled_iscritti_by_comprensorio.rb"
     },
     {
@@ -5124,7 +5124,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L10",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_reconcilediscrittibycomprensorio",
-      "community": 269,
+      "community": 67,
       "norm_label": "reconcilediscrittibycomprensorio"
     },
     {
@@ -5133,7 +5133,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L11",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_reconcilediscrittibycomprensorio_call",
-      "community": 269,
+      "community": 67,
       "norm_label": ".call()"
     },
     {
@@ -5142,7 +5142,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L13",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_reconcilediscrittibycomprensorio_initialize",
-      "community": 269,
+      "community": 67,
       "norm_label": ".initialize()"
     },
     {
@@ -5151,7 +5151,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L25",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_reconcilediscrittibycomprensorio_sql",
-      "community": 269,
+      "community": 67,
       "norm_label": ".sql()"
     },
     {
@@ -6013,25 +6013,16 @@
       "label": ".draw_legend()",
       "file_type": "code",
       "source_file": "app/services/statistic_spi_prints/report_pdf.rb",
-      "source_location": "L27",
+      "source_location": "L26",
       "id": "statistic_spi_prints_report_pdf_reportpdf_draw_legend",
       "community": 34,
       "norm_label": ".draw_legend()"
     },
     {
-      "label": ".draw_back_cover()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_spi_prints/report_pdf.rb",
-      "source_location": "L37",
-      "id": "statistic_spi_prints_report_pdf_reportpdf_draw_back_cover",
-      "community": 34,
-      "norm_label": ".draw_back_cover()"
-    },
-    {
       "label": ".mm_to_pt()",
       "file_type": "code",
       "source_file": "app/services/statistic_spi_prints/report_pdf.rb",
-      "source_location": "L43",
+      "source_location": "L33",
       "id": "statistic_spi_prints_report_pdf_reportpdf_mm_to_pt",
       "community": 34,
       "norm_label": ".mm_to_pt()"
@@ -6040,37 +6031,10 @@
       "label": ".register_fonts()",
       "file_type": "code",
       "source_file": "app/services/statistic_spi_prints/report_pdf.rb",
-      "source_location": "L45",
+      "source_location": "L35",
       "id": "statistic_spi_prints_report_pdf_reportpdf_register_fonts",
       "community": 34,
       "norm_label": ".register_fonts()"
-    },
-    {
-      "label": "back_cover_page.rb",
-      "file_type": "code",
-      "source_file": "app/services/statistic_spi_prints/back_cover_page.rb",
-      "source_location": "L1",
-      "id": "app_services_statistic_spi_prints_back_cover_page_rb",
-      "community": 270,
-      "norm_label": "back_cover_page.rb"
-    },
-    {
-      "label": "BackCoverPage",
-      "file_type": "code",
-      "source_file": "app/services/statistic_spi_prints/back_cover_page.rb",
-      "source_location": "L2",
-      "id": "statistic_spi_prints_back_cover_page_backcoverpage",
-      "community": 270,
-      "norm_label": "backcoverpage"
-    },
-    {
-      "label": ".draw()",
-      "file_type": "code",
-      "source_file": "app/services/statistic_spi_prints/back_cover_page.rb",
-      "source_location": "L5",
-      "id": "statistic_spi_prints_back_cover_page_backcoverpage_draw",
-      "community": 270,
-      "norm_label": ".draw()"
     },
     {
       "label": "cover_page.rb",
@@ -6600,7 +6564,7 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L45",
       "id": "statistics_age_breakdown_agebreakdown_counts",
-      "community": 269,
+      "community": 67,
       "norm_label": ".counts()"
     },
     {
@@ -6609,7 +6573,7 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L49",
       "id": "statistics_age_breakdown_agebreakdown_totale",
-      "community": 67,
+      "community": 29,
       "norm_label": ".totale()"
     },
     {
@@ -6807,7 +6771,7 @@
       "source_file": "app/services/statistics/gender_breakdown.rb",
       "source_location": "L35",
       "id": "statistics_gender_breakdown_genderbreakdown_counts",
-      "community": 29,
+      "community": 0,
       "norm_label": ".counts()"
     },
     {
@@ -6915,7 +6879,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_work_status_breakdown_rb",
-      "community": 67,
+      "community": 70,
       "norm_label": "work_status_breakdown.rb"
     },
     {
@@ -6924,7 +6888,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L8",
       "id": "statistics_work_status_breakdown_workstatusbreakdown",
-      "community": 67,
+      "community": 70,
       "norm_label": "workstatusbreakdown"
     },
     {
@@ -6933,7 +6897,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L11",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_call",
-      "community": 67,
+      "community": 70,
       "norm_label": ".call()"
     },
     {
@@ -6942,7 +6906,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L13",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_initialize",
-      "community": 67,
+      "community": 70,
       "norm_label": ".initialize()"
     },
     {
@@ -6951,7 +6915,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L25",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_build_row",
-      "community": 67,
+      "community": 70,
       "norm_label": ".build_row()"
     },
     {
@@ -6960,7 +6924,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L31",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_counts",
-      "community": 29,
+      "community": 70,
       "norm_label": ".counts()"
     },
     {
@@ -6969,7 +6933,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L35",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_totale",
-      "community": 29,
+      "community": 70,
       "norm_label": ".totale()"
     },
     {
@@ -6978,7 +6942,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L39",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_scope",
-      "community": 67,
+      "community": 70,
       "norm_label": ".scope()"
     },
     {
@@ -7122,7 +7086,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L87",
       "id": "statistics_total_members_comparison_totalmemberscomparison_tipologie_iscrizione",
-      "community": 72,
+      "community": 243,
       "norm_label": ".tipologie_iscrizione()"
     },
     {
@@ -7167,7 +7131,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L107",
       "id": "statistics_total_members_comparison_totalmemberscomparison_status_lavorativo",
-      "community": 65,
+      "community": 72,
       "norm_label": ".status_lavorativo()"
     },
     {
@@ -7176,7 +7140,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L111",
       "id": "statistics_total_members_comparison_totalmemberscomparison_fasce_eta",
-      "community": 65,
+      "community": 72,
       "norm_label": ".fasce_eta()"
     },
     {
@@ -7239,7 +7203,7 @@
       "source_file": "app/services/statistics/provisional_revocation_breakdown.rb",
       "source_location": "L32",
       "id": "statistics_provisional_revocation_breakdown_provisionalrevocationbreakdown_totale_iscritti",
-      "community": 68,
+      "community": 29,
       "norm_label": ".totale_iscritti()"
     },
     {
@@ -7311,7 +7275,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_membership_type_breakdown_rb",
-      "community": 268,
+      "community": 53,
       "norm_label": "membership_type_breakdown.rb"
     },
     {
@@ -7320,7 +7284,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L5",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown",
-      "community": 268,
+      "community": 53,
       "norm_label": "membershiptypebreakdown"
     },
     {
@@ -7329,7 +7293,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L10",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_call",
-      "community": 268,
+      "community": 53,
       "norm_label": ".call()"
     },
     {
@@ -7338,7 +7302,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L12",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_initialize",
-      "community": 268,
+      "community": 53,
       "norm_label": ".initialize()"
     },
     {
@@ -7347,7 +7311,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L25",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_build_row",
-      "community": 268,
+      "community": 53,
       "norm_label": ".build_row()"
     },
     {
@@ -7356,7 +7320,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L34",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_count_for",
-      "community": 268,
+      "community": 53,
       "norm_label": ".count_for()"
     },
     {
@@ -7365,7 +7329,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_nationality_breakdown_rb",
-      "community": 245,
+      "community": 0,
       "norm_label": "nationality_breakdown.rb"
     },
     {
@@ -7374,7 +7338,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L5",
       "id": "statistics_nationality_breakdown_nationalitybreakdown",
-      "community": 245,
+      "community": 0,
       "norm_label": "nationalitybreakdown"
     },
     {
@@ -7383,7 +7347,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L14",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_call",
-      "community": 245,
+      "community": 0,
       "norm_label": ".call()"
     },
     {
@@ -7392,7 +7356,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L16",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_initialize",
-      "community": 245,
+      "community": 0,
       "norm_label": ".initialize()"
     },
     {
@@ -7401,7 +7365,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L29",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_build_row",
-      "community": 245,
+      "community": 0,
       "norm_label": ".build_row()"
     },
     {
@@ -7410,7 +7374,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L36",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_counts",
-      "community": 245,
+      "community": 29,
       "norm_label": ".counts()"
     },
     {
@@ -7419,7 +7383,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L42",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_scope",
-      "community": 245,
+      "community": 0,
       "norm_label": ".scope()"
     },
     {
@@ -8076,7 +8040,7 @@
       "source_file": "app/models/import_form.rb",
       "source_location": "L34",
       "id": "models_import_form_importform_resolved_path",
-      "community": 54,
+      "community": 44,
       "norm_label": ".resolved_path()"
     },
     {
@@ -8094,7 +8058,7 @@
       "source_file": "app/models/import_form.rb",
       "source_location": "L50",
       "id": "models_import_form_importform_persist_upload",
-      "community": 54,
+      "community": 44,
       "norm_label": ".persist_upload!()"
     },
     {
@@ -8103,7 +8067,7 @@
       "source_file": "app/models/total_members_form.rb",
       "source_location": "L1",
       "id": "app_models_total_members_form_rb",
-      "community": 44,
+      "community": 245,
       "norm_label": "total_members_form.rb"
     },
     {
@@ -8112,7 +8076,7 @@
       "source_file": "app/models/total_members_form.rb",
       "source_location": "L1",
       "id": "models_total_members_form_totalmembersform",
-      "community": 44,
+      "community": 245,
       "norm_label": "totalmembersform"
     },
     {
@@ -8121,7 +8085,7 @@
       "source_file": "app/models/total_members_form.rb",
       "source_location": "L13",
       "id": "models_total_members_form_totalmembersform_zoning",
-      "community": 44,
+      "community": 245,
       "norm_label": ".zoning()"
     },
     {
@@ -8130,7 +8094,7 @@
       "source_file": "app/models/total_members_form.rb",
       "source_location": "L17",
       "id": "models_total_members_form_totalmembersform_legend",
-      "community": 44,
+      "community": 245,
       "norm_label": ".legend()"
     },
     {
@@ -8301,7 +8265,7 @@
       "source_file": "app/models/legend.rb",
       "source_location": "L1",
       "id": "app_models_legend_rb",
-      "community": 8,
+      "community": 245,
       "norm_label": "legend.rb"
     },
     {
@@ -8310,7 +8274,7 @@
       "source_file": "app/models/legend.rb",
       "source_location": "L1",
       "id": "models_legend_legend",
-      "community": 8,
+      "community": 245,
       "norm_label": "legend"
     },
     {
@@ -8319,7 +8283,7 @@
       "source_file": "app/models/import_spi.rb",
       "source_location": "L1",
       "id": "app_models_import_spi_rb",
-      "community": 70,
+      "community": 8,
       "norm_label": "import_spi.rb"
     },
     {
@@ -8328,7 +8292,7 @@
       "source_file": "app/models/import_spi.rb",
       "source_location": "L1",
       "id": "models_import_spi_importspi",
-      "community": 70,
+      "community": 8,
       "norm_label": "importspi"
     },
     {
@@ -9219,7 +9183,7 @@
       "source_file": "app/controllers/imports_controller.rb",
       "source_location": "L54",
       "id": "controllers_imports_controller_importscontroller_render_conflict",
-      "community": 54,
+      "community": 44,
       "norm_label": ".render_conflict()"
     },
     {
@@ -9237,7 +9201,7 @@
       "source_file": "app/controllers/imports_controller.rb",
       "source_location": "L66",
       "id": "controllers_imports_controller_importscontroller_enqueue_import",
-      "community": 54,
+      "community": 44,
       "norm_label": ".enqueue_import()"
     },
     {
@@ -9876,7 +9840,7 @@
       "source_file": "app/jobs/import_spi_csv_job.rb",
       "source_location": "L1",
       "id": "app_jobs_import_spi_csv_job_rb",
-      "community": 70,
+      "community": 93,
       "norm_label": "import_spi_csv_job.rb"
     },
     {
@@ -9885,7 +9849,7 @@
       "source_file": "app/jobs/import_spi_csv_job.rb",
       "source_location": "L1",
       "id": "jobs_import_spi_csv_job_importspicsvjob",
-      "community": 70,
+      "community": 93,
       "norm_label": "importspicsvjob"
     },
     {
@@ -9894,7 +9858,7 @@
       "source_file": "app/jobs/import_spi_csv_job.rb",
       "source_location": "L4",
       "id": "jobs_import_spi_csv_job_importspicsvjob_perform",
-      "community": 70,
+      "community": 93,
       "norm_label": ".perform()"
     },
     {
@@ -9903,7 +9867,7 @@
       "source_file": "app/jobs/import_spi_csv_job.rb",
       "source_location": "L22",
       "id": "jobs_import_spi_csv_job_importspicsvjob_broadcast",
-      "community": 70,
+      "community": 93,
       "norm_label": ".broadcast()"
     },
     {
@@ -10335,7 +10299,7 @@
       "source_file": "db/migrate/20260803071317_create_imports_spi.rb",
       "source_location": "L1",
       "id": "db_migrate_20260803071317_create_imports_spi_rb",
-      "community": 70,
+      "community": 8,
       "norm_label": "20260803071317_create_imports_spi.rb"
     },
     {
@@ -10344,7 +10308,7 @@
       "source_file": "db/migrate/20260803071317_create_imports_spi.rb",
       "source_location": "L1",
       "id": "migrate_20260803071317_create_imports_spi_createimportsspi",
-      "community": 70,
+      "community": 8,
       "norm_label": "createimportsspi"
     },
     {
@@ -10353,7 +10317,7 @@
       "source_file": "db/migrate/20260803071317_create_imports_spi.rb",
       "source_location": "L2",
       "id": "migrate_20260803071317_create_imports_spi_createimportsspi_change",
-      "community": 70,
+      "community": 8,
       "norm_label": ".change()"
     },
     {
@@ -10362,7 +10326,7 @@
       "source_file": "db/migrate/20260729073615_create_legends.rb",
       "source_location": "L1",
       "id": "db_migrate_20260729073615_create_legends_rb",
-      "community": 8,
+      "community": 245,
       "norm_label": "20260729073615_create_legends.rb"
     },
     {
@@ -10371,7 +10335,7 @@
       "source_file": "db/migrate/20260729073615_create_legends.rb",
       "source_location": "L1",
       "id": "migrate_20260729073615_create_legends_createlegends",
-      "community": 8,
+      "community": 245,
       "norm_label": "createlegends"
     },
     {
@@ -10380,7 +10344,7 @@
       "source_file": "db/migrate/20260729073615_create_legends.rb",
       "source_location": "L2",
       "id": "migrate_20260729073615_create_legends_createlegends_change",
-      "community": 8,
+      "community": 245,
       "norm_label": ".change()"
     },
     {
@@ -10416,7 +10380,7 @@
       "source_file": "db/migrate/20260716104233_create_zonings.rb",
       "source_location": "L1",
       "id": "db_migrate_20260716104233_create_zonings_rb",
-      "community": 271,
+      "community": 8,
       "norm_label": "20260716104233_create_zonings.rb"
     },
     {
@@ -10425,7 +10389,7 @@
       "source_file": "db/migrate/20260716104233_create_zonings.rb",
       "source_location": "L1",
       "id": "migrate_20260716104233_create_zonings_createzonings",
-      "community": 271,
+      "community": 8,
       "norm_label": "createzonings"
     },
     {
@@ -10434,7 +10398,7 @@
       "source_file": "db/migrate/20260716104233_create_zonings.rb",
       "source_location": "L2",
       "id": "migrate_20260716104233_create_zonings_createzonings_change",
-      "community": 271,
+      "community": 8,
       "norm_label": ".change()"
     },
     {
@@ -15757,7 +15721,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 68,
       "norm_label": "changelog.md",
       "id": "changelog"
     },
@@ -15850,7 +15814,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 245,
+      "community": 0,
       "norm_label": "codeguide guide: statistics::nationalitybreakdown",
       "id": "statistics_nationality_breakdown"
     },
@@ -15876,7 +15840,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 268,
+      "community": 53,
       "norm_label": "codeguide guide: statistics::membershiptypebreakdown",
       "id": "statistics_membership_type_breakdown"
     },
@@ -15902,7 +15866,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 67,
+      "community": 70,
       "norm_label": "codeguide guide: statistics::workstatusbreakdown",
       "id": "statistics_work_status_breakdown"
     },
@@ -16955,7 +16919,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 272,
+      "community": 57,
       "norm_label": "statisticprints::legendcontent",
       "id": "statistic_prints_legend_content_legendcontent"
     },
@@ -17241,7 +17205,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 70,
+      "community": 93,
       "norm_label": "importspicsvjob spec",
       "id": "jobs_import_spi_csv_job_spec"
     },
@@ -17267,7 +17231,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 44,
+      "community": 245,
       "norm_label": "totalmembersform spec",
       "id": "models_total_members_form_spec"
     },
@@ -17306,7 +17270,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 245,
       "norm_label": "legend spec",
       "id": "models_legend_spec"
     },
@@ -17371,7 +17335,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 70,
+      "community": 8,
       "norm_label": "importspi spec",
       "id": "models_import_spi_spec"
     },
@@ -17709,7 +17673,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 272,
+      "community": 57,
       "norm_label": "statisticprints::reportpdf spec",
       "id": "statistic_prints_report_pdf_spec_reportpdf"
     },
@@ -17748,7 +17712,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 272,
+      "community": 57,
       "norm_label": "statisticprints::legendcontent spec",
       "id": "statistic_prints_legend_content_spec_legendcontent"
     },
@@ -17813,7 +17777,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 269,
+      "community": 67,
       "norm_label": "statisticspi::reconcilediscrittibycomprensorio spec",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_spec_reconcilediscrittibycomprensorio"
     },
@@ -17878,7 +17842,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 0,
       "norm_label": "statisticwithintegrations::totalmemberscomparison spec",
       "id": "statistic_with_integrations_total_members_comparison_spec_totalmemberscomparison"
     },
@@ -17891,7 +17855,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 268,
+      "community": 53,
       "norm_label": "statistics::membershiptypebreakdown spec",
       "id": "statistics_membership_type_breakdown_spec_membershiptypebreakdown"
     },
@@ -17904,7 +17868,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 67,
+      "community": 70,
       "norm_label": "statistics::workstatusbreakdown spec",
       "id": "statistics_work_status_breakdown_spec_workstatusbreakdown"
     },
@@ -17917,7 +17881,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 245,
+      "community": 0,
       "norm_label": "statistics::nationalitybreakdown spec",
       "id": "statistics_nationality_breakdown_spec_nationalitybreakdown"
     },
@@ -23390,9 +23354,9 @@
       "source_file": "app/services/statistic_prints/legend_content.rb",
       "source_location": "L46",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistic_prints_legend_content_rb",
-      "target": "statistic_prints_legend_content_escape"
+      "target": "statistic_prints_legend_content_escape",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -23519,9 +23483,9 @@
       "source_file": "app/services/statistic_prints/legend_content.rb",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_legend_content_text_block",
-      "target": "statistic_prints_legend_content_escape"
+      "target": "statistic_prints_legend_content_escape",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -23530,9 +23494,9 @@
       "source_file": "app/services/statistic_prints/legend_content.rb",
       "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_prints_legend_content_inline_node",
-      "target": "statistic_prints_legend_content_escape"
+      "target": "statistic_prints_legend_content_escape",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -27635,9 +27599,9 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistic_spi_prints_legend_page_rb",
-      "target": "statistic_spi_prints_legend_page_legendpage"
+      "target": "statistic_spi_prints_legend_page_legendpage",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -27645,9 +27609,9 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_legend_page_legendpage",
-      "target": "statistic_spi_prints_legend_page_legendpage_draw"
+      "target": "statistic_spi_prints_legend_page_legendpage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -27655,9 +27619,9 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_legend_page_legendpage",
-      "target": "statistic_spi_prints_legend_page_legendpage_initialize"
+      "target": "statistic_spi_prints_legend_page_legendpage_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -27665,9 +27629,9 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_legend_page_legendpage",
-      "target": "statistic_spi_prints_legend_page_legendpage_draw_heading"
+      "target": "statistic_spi_prints_legend_page_legendpage_draw_heading",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -27675,9 +27639,9 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_legend_page_legendpage",
-      "target": "statistic_spi_prints_legend_page_legendpage_draw_body"
+      "target": "statistic_spi_prints_legend_page_legendpage_draw_body",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -27685,9 +27649,9 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_legend_page_legendpage",
-      "target": "statistic_spi_prints_legend_page_legendpage_draw_block"
+      "target": "statistic_spi_prints_legend_page_legendpage_draw_block",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -27695,9 +27659,9 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_legend_page_legendpage",
-      "target": "statistic_spi_prints_legend_page_legendpage_draw_list_item"
+      "target": "statistic_spi_prints_legend_page_legendpage_draw_list_item",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -27705,9 +27669,9 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L51",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_legend_page_legendpage",
-      "target": "statistic_spi_prints_legend_page_legendpage_draw_quote"
+      "target": "statistic_spi_prints_legend_page_legendpage_draw_quote",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -27715,9 +27679,9 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L55",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_legend_page_legendpage",
-      "target": "statistic_spi_prints_legend_page_legendpage_draw_rule"
+      "target": "statistic_spi_prints_legend_page_legendpage_draw_rule",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -27725,9 +27689,9 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L60",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_legend_page_legendpage",
-      "target": "statistic_spi_prints_legend_page_legendpage_draw_text"
+      "target": "statistic_spi_prints_legend_page_legendpage_draw_text",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -27735,9 +27699,9 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L66",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_legend_page_legendpage",
-      "target": "statistic_spi_prints_legend_page_legendpage_list_indent"
+      "target": "statistic_spi_prints_legend_page_legendpage_list_indent",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -27746,9 +27710,9 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L32",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_legend_page_legendpage_draw_body",
-      "target": "statistic_spi_prints_legend_page_legendpage_draw_block"
+      "target": "statistic_spi_prints_legend_page_legendpage_draw_block",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -27768,9 +27732,9 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L38",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_legend_page_legendpage_draw_block",
-      "target": "statistic_spi_prints_legend_page_legendpage_draw_text"
+      "target": "statistic_spi_prints_legend_page_legendpage_draw_text",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -27779,9 +27743,9 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L39",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_legend_page_legendpage_draw_block",
-      "target": "statistic_spi_prints_legend_page_legendpage_draw_list_item"
+      "target": "statistic_spi_prints_legend_page_legendpage_draw_list_item",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -27790,9 +27754,9 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_legend_page_legendpage_draw_block",
-      "target": "statistic_spi_prints_legend_page_legendpage_draw_quote"
+      "target": "statistic_spi_prints_legend_page_legendpage_draw_quote",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -27801,9 +27765,9 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L48",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_legend_page_legendpage_draw_list_item",
-      "target": "statistic_spi_prints_legend_page_legendpage_draw_text"
+      "target": "statistic_spi_prints_legend_page_legendpage_draw_text",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -27812,9 +27776,9 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_legend_page_legendpage_draw_quote",
-      "target": "statistic_spi_prints_legend_page_legendpage_draw_text"
+      "target": "statistic_spi_prints_legend_page_legendpage_draw_text",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -27822,9 +27786,9 @@
       "source_file": "app/services/statistic_spi_prints/report_pdf.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistic_spi_prints_report_pdf_rb",
-      "target": "statistic_spi_prints_report_pdf_reportpdf"
+      "target": "statistic_spi_prints_report_pdf_reportpdf",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -27832,9 +27796,9 @@
       "source_file": "app/services/statistic_spi_prints/report_pdf.rb",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_report_pdf_reportpdf",
-      "target": "statistic_spi_prints_report_pdf_reportpdf_call"
+      "target": "statistic_spi_prints_report_pdf_reportpdf_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -27842,9 +27806,9 @@
       "source_file": "app/services/statistic_spi_prints/report_pdf.rb",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_report_pdf_reportpdf",
-      "target": "statistic_spi_prints_report_pdf_reportpdf_initialize"
+      "target": "statistic_spi_prints_report_pdf_reportpdf_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -27852,18 +27816,8 @@
       "source_file": "app/services/statistic_spi_prints/report_pdf.rb",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_report_pdf_reportpdf",
-      "target": "statistic_spi_prints_report_pdf_reportpdf_draw_legend"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_spi_prints/report_pdf.rb",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "statistic_spi_prints_report_pdf_reportpdf",
-      "target": "statistic_spi_prints_report_pdf_reportpdf_draw_back_cover",
+      "target": "statistic_spi_prints_report_pdf_reportpdf_draw_legend",
       "confidence_score": 1.0
     },
     {
@@ -27872,9 +27826,9 @@
       "source_file": "app/services/statistic_spi_prints/report_pdf.rb",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_report_pdf_reportpdf",
-      "target": "statistic_spi_prints_report_pdf_reportpdf_mm_to_pt"
+      "target": "statistic_spi_prints_report_pdf_reportpdf_mm_to_pt",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -27882,9 +27836,9 @@
       "source_file": "app/services/statistic_spi_prints/report_pdf.rb",
       "source_location": "L35",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_report_pdf_reportpdf",
-      "target": "statistic_spi_prints_report_pdf_reportpdf_register_fonts"
+      "target": "statistic_spi_prints_report_pdf_reportpdf_register_fonts",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -27893,9 +27847,9 @@
       "source_file": "app/services/statistic_spi_prints/report_pdf.rb",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_report_pdf_reportpdf_call",
-      "target": "statistic_spi_prints_report_pdf_reportpdf_mm_to_pt"
+      "target": "statistic_spi_prints_report_pdf_reportpdf_mm_to_pt",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -27904,9 +27858,9 @@
       "source_file": "app/services/statistic_spi_prints/report_pdf.rb",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_report_pdf_reportpdf_call",
-      "target": "statistic_spi_prints_report_pdf_reportpdf_register_fonts"
+      "target": "statistic_spi_prints_report_pdf_reportpdf_register_fonts",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -27915,19 +27869,8 @@
       "source_file": "app/services/statistic_spi_prints/report_pdf.rb",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_report_pdf_reportpdf_call",
-      "target": "statistic_spi_prints_report_pdf_reportpdf_draw_legend"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_spi_prints/report_pdf.rb",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "statistic_spi_prints_report_pdf_reportpdf_call",
-      "target": "statistic_spi_prints_report_pdf_reportpdf_draw_back_cover",
+      "target": "statistic_spi_prints_report_pdf_reportpdf_draw_legend",
       "confidence_score": 1.0
     },
     {
@@ -27944,32 +27887,12 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_spi_prints/back_cover_page.rb",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "app_services_statistic_spi_prints_back_cover_page_rb",
-      "target": "statistic_spi_prints_back_cover_page_backcoverpage",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/statistic_spi_prints/back_cover_page.rb",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "statistic_spi_prints_back_cover_page_backcoverpage",
-      "target": "statistic_spi_prints_back_cover_page_backcoverpage_draw",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "app/services/statistic_spi_prints/cover_page.rb",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_services_statistic_spi_prints_cover_page_rb",
-      "target": "statistic_spi_prints_cover_page_coverpage"
+      "target": "statistic_spi_prints_cover_page_coverpage",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -27977,9 +27900,9 @@
       "source_file": "app/services/statistic_spi_prints/cover_page.rb",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_cover_page_coverpage",
-      "target": "statistic_spi_prints_cover_page_coverpage_draw"
+      "target": "statistic_spi_prints_cover_page_coverpage_draw",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -27987,9 +27910,9 @@
       "source_file": "app/services/statistic_spi_prints/cover_page.rb",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_cover_page_coverpage",
-      "target": "statistic_spi_prints_cover_page_coverpage_initialize"
+      "target": "statistic_spi_prints_cover_page_coverpage_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -27997,9 +27920,9 @@
       "source_file": "app/services/statistic_spi_prints/cover_page.rb",
       "source_location": "L27",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_cover_page_coverpage",
-      "target": "statistic_spi_prints_cover_page_coverpage_draw_background"
+      "target": "statistic_spi_prints_cover_page_coverpage_draw_background",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -28007,9 +27930,9 @@
       "source_file": "app/services/statistic_spi_prints/cover_page.rb",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_cover_page_coverpage",
-      "target": "statistic_spi_prints_cover_page_coverpage_draw_zoning"
+      "target": "statistic_spi_prints_cover_page_coverpage_draw_zoning",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -28017,9 +27940,9 @@
       "source_file": "app/services/statistic_spi_prints/cover_page.rb",
       "source_location": "L38",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_cover_page_coverpage",
-      "target": "statistic_spi_prints_cover_page_coverpage_draw_month"
+      "target": "statistic_spi_prints_cover_page_coverpage_draw_month",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -28027,9 +27950,9 @@
       "source_file": "app/services/statistic_spi_prints/cover_page.rb",
       "source_location": "L45",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_cover_page_coverpage",
-      "target": "statistic_spi_prints_cover_page_coverpage_draw_year"
+      "target": "statistic_spi_prints_cover_page_coverpage_draw_year",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -28037,9 +27960,9 @@
       "source_file": "app/services/statistic_spi_prints/cover_page.rb",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_cover_page_coverpage",
-      "target": "statistic_spi_prints_cover_page_coverpage_fractional_box"
+      "target": "statistic_spi_prints_cover_page_coverpage_fractional_box",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -28048,9 +27971,9 @@
       "source_file": "app/services/statistic_spi_prints/cover_page.rb",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_cover_page_coverpage_draw_zoning",
-      "target": "statistic_spi_prints_cover_page_coverpage_fractional_box"
+      "target": "statistic_spi_prints_cover_page_coverpage_fractional_box",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -28059,9 +27982,9 @@
       "source_file": "app/services/statistic_spi_prints/cover_page.rb",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_cover_page_coverpage_draw_month",
-      "target": "statistic_spi_prints_cover_page_coverpage_fractional_box"
+      "target": "statistic_spi_prints_cover_page_coverpage_fractional_box",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -28070,9 +27993,9 @@
       "source_file": "app/services/statistic_spi_prints/cover_page.rb",
       "source_location": "L48",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statistic_spi_prints_cover_page_coverpage_draw_year",
-      "target": "statistic_spi_prints_cover_page_coverpage_fractional_box"
+      "target": "statistic_spi_prints_cover_page_coverpage_fractional_box",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -31944,9 +31867,9 @@
       "source_file": "app/models/total_members_form.rb",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "models_total_members_form_totalmembersform",
-      "target": "models_total_members_form_totalmembersform_legend_spi"
+      "target": "models_total_members_form_totalmembersform_legend_spi",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -33135,9 +33058,9 @@
       "source_file": "app/controllers/statistic_spi_prints_controller.rb",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "app_controllers_statistic_spi_prints_controller_rb",
-      "target": "controllers_statistic_spi_prints_controller_statisticspiprintscontroller"
+      "target": "controllers_statistic_spi_prints_controller_statisticspiprintscontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -33145,9 +33068,9 @@
       "source_file": "app/controllers/statistic_spi_prints_controller.rb",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_statistic_spi_prints_controller_statisticspiprintscontroller",
-      "target": "controllers_statistic_spi_prints_controller_statisticspiprintscontroller_index"
+      "target": "controllers_statistic_spi_prints_controller_statisticspiprintscontroller_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -33155,9 +33078,9 @@
       "source_file": "app/controllers/statistic_spi_prints_controller.rb",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_statistic_spi_prints_controller_statisticspiprintscontroller",
-      "target": "controllers_statistic_spi_prints_controller_statisticspiprintscontroller_set_zonings"
+      "target": "controllers_statistic_spi_prints_controller_statisticspiprintscontroller_set_zonings",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -33165,9 +33088,9 @@
       "source_file": "app/controllers/statistic_spi_prints_controller.rb",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_statistic_spi_prints_controller_statisticspiprintscontroller",
-      "target": "controllers_statistic_spi_prints_controller_statisticspiprintscontroller_total_members_params"
+      "target": "controllers_statistic_spi_prints_controller_statisticspiprintscontroller_total_members_params",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -33175,9 +33098,9 @@
       "source_file": "app/controllers/statistic_spi_prints_controller.rb",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_statistic_spi_prints_controller_statisticspiprintscontroller",
-      "target": "controllers_statistic_spi_prints_controller_statisticspiprintscontroller_render_pdf"
+      "target": "controllers_statistic_spi_prints_controller_statisticspiprintscontroller_render_pdf",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -33185,9 +33108,9 @@
       "source_file": "app/controllers/statistic_spi_prints_controller.rb",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "controllers_statistic_spi_prints_controller_statisticspiprintscontroller",
-      "target": "controllers_statistic_spi_prints_controller_statisticspiprintscontroller_pdf_filename"
+      "target": "controllers_statistic_spi_prints_controller_statisticspiprintscontroller_pdf_filename",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -42276,5 +42199,5 @@
       "source_file": "spec/services/statistic_prints/membership_types_page_spec.rb"
     }
   ],
-  "built_at_commit": "5d86d3860712516b20319014eeb6800d40d5c9c8"
+  "built_at_commit": "94ade33bbfb19682dac16f3a415f3024f136d132"
 }

@@ -7,7 +7,8 @@ RSpec.describe StatisticSpiPrints::ReportPdf do
   it "non inserisce la pagina Legenda SPI quando non esiste un record corrispondente" do
     pdf = described_class.call(form: form)
 
-    expect(pdf.page_count).to eq(1)
+    # copertina + bianca (interno dispari: 1) + controcopertina
+    expect(pdf.page_count).to eq(3)
   end
 
   it "inserisce la pagina Legenda SPI subito dopo la copertina quando esiste un record corrispondente" do
@@ -15,7 +16,8 @@ RSpec.describe StatisticSpiPrints::ReportPdf do
 
     pdf = described_class.call(form: form)
 
-    expect(pdf.page_count).to eq(2)
+    # copertina + legenda (interno pari: 2, nessuna bianca) + controcopertina
+    expect(pdf.page_count).to eq(3)
   end
 
   it "ignora una legenda SPI di un altro mese" do
@@ -23,7 +25,7 @@ RSpec.describe StatisticSpiPrints::ReportPdf do
 
     pdf = described_class.call(form: form)
 
-    expect(pdf.page_count).to eq(1)
+    expect(pdf.page_count).to eq(3)
   end
 
   it "genera il PDF anche con una legenda SPI che contiene grassetto, elenchi e una linea orizzontale" do
@@ -37,6 +39,6 @@ RSpec.describe StatisticSpiPrints::ReportPdf do
 
     pdf = described_class.call(form: form)
 
-    expect(pdf.page_count).to eq(2)
+    expect(pdf.page_count).to eq(3)
   end
 end
