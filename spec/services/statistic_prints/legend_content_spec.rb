@@ -34,6 +34,11 @@ RSpec.describe StatisticPrints::LegendContent do
     expect(blocks.first[:text]).to eq("A &lt; B &amp; C")
   end
 
+  it "non trasforma l'apostrofo in entità numerica (Prawn non la decodifica)" do
+    blocks = blocks_for("<div>L'archivio dell'utente</div>")
+    expect(blocks.first[:text]).to eq("L'archivio dell'utente")
+  end
+
   it "converte un link mantenendo il testo e l'href" do
     blocks = blocks_for('<div>Vedi <a href="https://example.com">qui</a></div>')
     expect(blocks.first[:text]).to include('<link href="https://example.com">qui</link>')

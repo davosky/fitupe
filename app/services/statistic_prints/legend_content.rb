@@ -37,7 +37,14 @@ module StatisticPrints
 
     def text_block(node)
       text = node.text.strip
-      text.present? ? [ { type: :paragraph, text: CGI.escapeHTML(text) } ] : []
+      text.present? ? [ { type: :paragraph, text: escape(text) } ] : []
+    end
+
+    # Only the characters Prawn's inline_format tag parser treats as syntax
+    # need escaping; CGI.escapeHTML also encodes quotes/apostrophes as
+    # numeric entities (e.g. &#39;) that Prawn prints back out literally.
+    def escape(text)
+      text.gsub("&", "&amp;").gsub("<", "&lt;").gsub(">", "&gt;")
     end
 
     def inline(node)
@@ -46,7 +53,7 @@ module StatisticPrints
 
     def inline_node(node)
       case node.name
-      when "text" then CGI.escapeHTML(node.text)
+      when "text" then escape(node.text)
       when "strong", "b" then "<b>#{inline(node)}</b>"
       when "em", "i" then "<i>#{inline(node)}</i>"
       when "u" then "<u>#{inline(node)}</u>"

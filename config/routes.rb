@@ -47,6 +47,7 @@ Rails.application.routes.draw do
   resources :statistic_with_integrations, only: %i[index]
   resources :statistic_prints, only: %i[index]
   resources :statistic_with_integrations_prints, only: %i[index]
+  resources :statistic_spi_prints, only: %i[index]
 
   mount ActionCable.server => "/cable"
 

@@ -27,4 +27,20 @@ RSpec.describe TotalMembersForm, type: :model do
       expect(form.zoning).to eq(zoning)
     end
   end
+
+  describe "#legend_spi" do
+    it "carica la legenda SPI corrispondente ad azzonamento, anno e mese" do
+      legend_spi = create(:legend_spi, zoning: zoning, year: "2026", month: "Giugno")
+      expect(form.legend_spi).to eq(legend_spi)
+    end
+
+    it "restituisce nil quando non esiste una legenda SPI corrispondente" do
+      expect(form.legend_spi).to be_nil
+    end
+
+    it "ignora una legenda SPI di un altro mese" do
+      create(:legend_spi, zoning: zoning, year: "2026", month: "Luglio")
+      expect(form.legend_spi).to be_nil
+    end
+  end
 end

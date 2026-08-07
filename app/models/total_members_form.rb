@@ -17,4 +17,8 @@ class TotalMembersForm
   def legend
     @legend ||= Legend.find_by(zoning_id: zoning_id, year: anno, month: mese)
   end
+
+  def legend_spi
+    @legend_spi ||= LegendSpi.find_by(zoning_id: zoning_id, year: anno, month: mese)
+  end
 end
