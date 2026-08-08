@@ -7,8 +7,9 @@ RSpec.describe StatisticSpiPrints::ReportPdf do
   it "non inserisce la pagina Legenda SPI quando non esiste un record corrispondente" do
     pdf = described_class.call(form: form)
 
-    # copertina + bianca (interno dispari: 1) + controcopertina
-    expect(pdf.page_count).to eq(3)
+    # copertina + [divisoria + totali + deleghe multiple + tipologie delega + cessazioni + provvisorie
+    # + classi di età] (interno pari: 8, nessuna bianca) + controcopertina
+    expect(pdf.page_count).to eq(9)
   end
 
   it "inserisce la pagina Legenda SPI subito dopo la copertina quando esiste un record corrispondente" do
@@ -16,8 +17,9 @@ RSpec.describe StatisticSpiPrints::ReportPdf do
 
     pdf = described_class.call(form: form)
 
-    # copertina + legenda (interno pari: 2, nessuna bianca) + controcopertina
-    expect(pdf.page_count).to eq(3)
+    # copertina + legenda + [divisoria + totali + deleghe multiple + tipologie delega + cessazioni
+    # + provvisorie + classi di età] (interno dispari: 9) + bianca + controcopertina
+    expect(pdf.page_count).to eq(11)
   end
 
   it "ignora una legenda SPI di un altro mese" do
@@ -25,7 +27,7 @@ RSpec.describe StatisticSpiPrints::ReportPdf do
 
     pdf = described_class.call(form: form)
 
-    expect(pdf.page_count).to eq(3)
+    expect(pdf.page_count).to eq(9)
   end
 
   it "genera il PDF anche con una legenda SPI che contiene grassetto, elenchi e una linea orizzontale" do
@@ -39,6 +41,23 @@ RSpec.describe StatisticSpiPrints::ReportPdf do
 
     pdf = described_class.call(form: form)
 
-    expect(pdf.page_count).to eq(3)
+    expect(pdf.page_count).to eq(11)
+  end
+
+  context "quando l'azzonamento scelto è regionale" do
+    let(:zoning) { create(:zoning, codice_azzonamento: "G", descrizione_azzonamento: "FVG") }
+
+    before do
+      create(:zoning, codice_azzonamento: "GA", descrizione_azzonamento: "Trieste")
+      create(:zoning, codice_azzonamento: "GB", descrizione_azzonamento: "Gorizia")
+    end
+
+    it "ripete la pagina divisoria e il set di pagine di contenuto per ciascun comprensorio" do
+      pdf = described_class.call(form: form)
+
+      # copertina + 3 sezioni (regionale + Trieste + Gorizia) da 7 pagine ciascuna (divisoria + 6 di
+      # contenuto) = 22 (interno pari, nessuna bianca) + controcopertina
+      expect(pdf.page_count).to eq(23)
+    end
   end
 end

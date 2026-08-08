@@ -5,6 +5,10 @@ module StatisticSpiPrints
     CONTENT_MARGIN_BOTTOM_MM = 15
     CONTENT_MARGIN_LR_MM = 15
 
+    CONTENT_PAGES = [
+      TotalsPage, MultipleDelegationsPage, TipologieDelegaPage, CessazioniPage, ProvvisoriePage, AgeClassesPage
+    ].freeze
+
     def self.call(...) = new(...).call
 
     def initialize(form:)
@@ -18,6 +22,8 @@ module StatisticSpiPrints
         register_fonts(pdf)
         pdf.canvas { CoverPage.draw(pdf, form: @form) }
         draw_legend(pdf)
+        draw_zoning_section(pdf, @form.zoning, @form)
+        draw_province_sections(pdf)
         draw_back_cover(pdf)
       end
     end
@@ -31,6 +37,32 @@ module StatisticSpiPrints
       LegendPage.draw(pdf, form: @form)
     end
 
+    # Una pagina divisoria con il nome dell'azzonamento, seguita dal set
+    # completo di pagine di contenuto per quell'azzonamento (come nella
+    # versione non-SPI).
+    def draw_zoning_section(pdf, zoning, form)
+      pdf.start_new_page
+      ZoningDividerPage.draw(pdf, zoning: zoning, mese: @form.mese, anno: @form.anno)
+      draw_content_pages(pdf, form)
+    end
+
+    def draw_content_pages(pdf, form)
+      CONTENT_PAGES.each do |page_class|
+        pdf.start_new_page
+        page_class.draw(pdf, form: form)
+      end
+    end
+
+    # Quando l'azzonamento scelto è regionale, ripete l'intera sezione
+    # (pagina divisoria + set di pagine di contenuto) per ciascun comprensorio.
+    def draw_province_sections(pdf)
+      return unless @form.zoning.regionale?
+
+      Zoning.comprensori_di(@form.zoning).each do |zoning|
+        draw_zoning_section(pdf, zoning, province_form(zoning))
+      end
+    end
+
     # Come nella versione non-SPI: se l'interno del fascicolo (tutto tranne la
     # controcopertina) ha un numero di pagine dispari, inserisce prima una
     # pagina bianca, cosi' e' pronto per la stampa fisica fronte/retro.
@@ -38,6 +70,10 @@ module StatisticSpiPrints
       pdf.start_new_page if pdf.page_count.odd?
       pdf.start_new_page
       pdf.canvas { BackCoverPage.draw(pdf) }
+    end
+
+    def province_form(zoning)
+      TotalMembersForm.new(zoning_id: zoning.id, anno: @form.anno, mese: @form.mese)
     end
 
     def mm_to_pt(mm) = mm * 72 / 25.4

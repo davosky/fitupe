@@ -67,7 +67,7 @@ module StatisticPrints
     end
 
     def value_label(index)
-      return NumberFormatting.percent(@percentages[index]) if @percentages
+      return NumberFormatting.percent(@percentages[index]) || "" if @percentages
 
       NumberFormatting.count(@data[index])
     end

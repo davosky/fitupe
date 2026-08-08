@@ -1,16 +1,16 @@
-# Graph Report - fitupe  (2026-08-07)
+# Graph Report - fitupe  (2026-08-08)
 
 ## Corpus Check
-- 273 files · ~253,280 words
+- 297 files · ~262,339 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1802 nodes · 2326 edges · 273 communities (186 shown, 87 thin omitted)
-- Extraction: 85% EXTRACTED · 15% INFERRED · 0% AMBIGUOUS · INFERRED: 339 edges (avg confidence: 0.84)
+- 2050 nodes · 2669 edges · 298 communities (197 shown, 101 thin omitted)
+- Extraction: 87% EXTRACTED · 13% INFERRED · 0% AMBIGUOUS · INFERRED: 353 edges (avg confidence: 0.84)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5d86d386`
+- Built from commit: `734cc7e2`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -159,7 +159,6 @@
 - [[_COMMUNITY_Community 241|Community 241]]
 - [[_COMMUNITY_Community 242|Community 242]]
 - [[_COMMUNITY_Community 243|Community 243]]
-- [[_COMMUNITY_Community 245|Community 245]]
 - [[_COMMUNITY_Community 246|Community 246]]
 - [[_COMMUNITY_Community 247|Community 247]]
 - [[_COMMUNITY_Community 248|Community 248]]
@@ -179,18 +178,36 @@
 - [[_COMMUNITY_Community 270|Community 270]]
 - [[_COMMUNITY_Community 271|Community 271]]
 - [[_COMMUNITY_Community 272|Community 272]]
+- [[_COMMUNITY_Community 273|Community 273]]
+- [[_COMMUNITY_Community 274|Community 274]]
+- [[_COMMUNITY_Community 275|Community 275]]
+- [[_COMMUNITY_Community 276|Community 276]]
+- [[_COMMUNITY_Community 277|Community 277]]
+- [[_COMMUNITY_Community 279|Community 279]]
+- [[_COMMUNITY_Community 281|Community 281]]
+- [[_COMMUNITY_Community 282|Community 282]]
+- [[_COMMUNITY_Community 283|Community 283]]
+- [[_COMMUNITY_Community 284|Community 284]]
+- [[_COMMUNITY_Community 285|Community 285]]
+- [[_COMMUNITY_Community 286|Community 286]]
+- [[_COMMUNITY_Community 290|Community 290]]
+- [[_COMMUNITY_Community 292|Community 292]]
+- [[_COMMUNITY_Community 293|Community 293]]
+- [[_COMMUNITY_Community 294|Community 294]]
+- [[_COMMUNITY_Community 295|Community 295]]
+- [[_COMMUNITY_Community 296|Community 296]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `TotalMembersComparison` - 48 edges
-2. `count()` - 33 edges
+2. `count()` - 37 edges
 3. `Zoning` - 33 edges
 4. `ReportPdf` - 27 edges
-5. `EmploymentStatusPage` - 24 edges
-6. `NationalityGenderPage` - 24 edges
-7. `BarChart` - 23 edges
-8. `ProvisionalRevocationsPage` - 23 edges
-9. `TotalMembersComparison` - 23 edges
-10. `WorkStatusAgePage` - 21 edges
+5. `PieChart` - 24 edges
+6. `EmploymentStatusPage` - 24 edges
+7. `NationalityGenderPage` - 24 edges
+8. `BarChart` - 23 edges
+9. `ProvisionalRevocationsPage` - 23 edges
+10. `TotalMembersComparison` - 23 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Italian Devise Translations` --semantically_similar_to--> `Devise Authentication`  [INFERRED] [semantically similar]
@@ -242,11 +259,11 @@
 - **StatisticWithIntegrations::TotalMembersComparison composes FlcCorrection and FilleaCorrection** — statistic_with_integrations_total_members_comparison_spec_totalmemberscomparison, statistic_with_integrations_flc_correction_flccorrection, statistic_with_integrations_fillea_correction_filleacorrection [EXTRACTED 1.00]
 - **StatisticPrints pages accepting an alternate comparison_service** — statistic_prints_membership_types_page_spec_membershiptypespage, statistic_prints_employment_status_page_spec_employmentstatuspage, statistic_with_integrations_total_members_comparison_totalmemberscomparison [EXTRACTED 1.00]
 
-## Communities (273 total, 87 thin omitted)
+## Communities (298 total, 101 thin omitted)
 
 ### Community 0 - "Statistic Prints Table Helpers"
-Cohesion: 0.14
-Nodes (12): CLAUDE.md — Guida per Claude Code, CodeGuide/README.md, Claude Code Logo, Fitupe Statistic Icons Color Palette Reference, Fitupe Main Application Logo, package.json (Fitupe JS manifest), CodeGuide guide: Statistics::GenderBreakdown, GenderBreakdown (+4 more)
+Cohesion: 0.28
+Nodes (3): CodeGuide guide: Statistics::NationalityBreakdown, NationalityBreakdown, Statistics::NationalityBreakdown spec
 
 ### Community 2 - "Project Docs & Tech Stack"
 Cohesion: 0.06
@@ -266,11 +283,11 @@ Nodes (33): 1. Protezione dall'SQL Injection, 2. Mitigazione del Cross-Site Scri
 
 ### Community 7 - "NPM Frontend Dependencies"
 Cohesion: 0.07
-Nodes (28): browserslist, dependencies, autoprefixer, bootstrap, bootstrap-icons, bootswatch, chart.js, @hotwired/stimulus (+20 more)
+Nodes (29): browserslist, dependencies, autoprefixer, bootstrap, bootstrap-icons, bootswatch, chart.js, @hotwired/stimulus (+21 more)
 
 ### Community 8 - "SPI/Fillea/Legend/Zoning Migrations"
-Cohesion: 0.12
-Nodes (16): Database Schema, ImportSpi Factory, Import Factory, IntegrationFillea Factory, Legend Factory, Italian Locale File, CreateIntegrationFilleas, CreateIntegrationFlcs (+8 more)
+Cohesion: 0.10
+Nodes (18): Database Schema, ImportSpi Factory, Import Factory, IntegrationFillea Factory, Legend Factory, Italian Locale File, CreateImports, CreateIntegrationFilleas (+10 more)
 
 ### Community 10 - "FILLEA/FLC Correction Services"
 Cohesion: 0.11
@@ -352,10 +369,6 @@ Nodes (5): StatisticSpi::ZoningPeriodScope spec, ZoningPeriodScope, CodeGuide gu
 Cohesion: 0.13
 Nodes (14): `build_row` *(privato)*, `call`, code:ruby (module Statistics), code:ruby (# Conta le pratiche Provvisorie (provvisoria = "SI") e le Re), code:ruby (Row = Struct.new(:tipologia, :count, :percentuale, keyword_i), code:ruby (def call), code:ruby (def build_row(tipologia, count)), code:ruby (def totale_iscritti) (+6 more)
 
-### Community 39 - "Import CSV Background Jobs"
-Cohesion: 0.20
-Nodes (4): CreateImports, CreateActiveStorageTables, Import, Import Spec
-
 ### Community 40 - "Statistic Breakdown Icons & PDF Art"
 Cohesion: 0.23
 Nodes (14): Legend Destroy Icon (trash bin, red), Comprensori (Territorial Districts) breakdown icon, Nazionalità (Nationality) breakdown icon, Stampa Statistiche PDF back cover background art, Stampa Statistiche PDF cover background art (CGIL FVG triangle motif), Friuli Venezia Giulia regional coat of arms (eagle + castle crest), CGIL wordmark logo (red square + CGIL text), Print Report Logo (bar chart + settings gear, blue) (+6 more)
@@ -373,8 +386,8 @@ Cohesion: 0.25
 Nodes (7): 🔑 Best Practice Essenziali di Sicurezza per Ruby on Rails, Checklist delle Best Practice di Sicurezza, Conclusione, 🖥️ Costruzione dell'applicazione, Gem, Librerie e Strumenti Aggiuntivi, 📈 Graphify, Introduzione e Contesto
 
 ### Community 44 - "Import/IntegrationFlc Upload Forms"
-Cohesion: 0.14
-Nodes (5): ImportForm, IntegrationFlcUploadForm, IntegrationFlcUploadForm Spec, TotalMembersForm Spec, TotalMembersForm
+Cohesion: 0.15
+Nodes (4): ImportForm, ImportForm Spec, IntegrationFlcUploadForm, IntegrationFlcUploadForm Spec
 
 ### Community 45 - "Admin Users & Pages Controller"
 Cohesion: 0.29
@@ -400,21 +413,17 @@ Nodes (3): CodeGuide guide: Statistics::CategoryBreakdown, CategoryBreakdown, St
 Cohesion: 0.31
 Nodes (3): CodeGuide guide: Statistics::DelegationTypeBreakdown, DelegationTypeBreakdown, Statistics::DelegationTypeBreakdown spec
 
-### Community 57 - "Community 57"
-Cohesion: 0.14
-Nodes (12): attachment_blocks(), blocks(), blocks_for(), escape(), inline(), inline_node(), link_node(), list_blocks() (+4 more)
-
 ### Community 58 - "JS Application Entry Points"
 Cohesion: 0.22
 Nodes (4): Application, application, HelloController (Stimulus), Stimulus controllers manifest (index.js)
 
 ### Community 60 - "Devise Users Table & Seed"
-Cohesion: 0.15
-Nodes (13): Admin::UsersController, UserDashboard, users table (schema.rb), davo admin User seed, Database Seeds, user FactoryBot factory, DeviseCreateUsers, User::GENDERS (+5 more)
+Cohesion: 0.29
+Nodes (8): users table (schema.rb), davo admin User seed, user FactoryBot factory, DeviseCreateUsers, User model spec, Pages request spec, rails_helper RSpec configuration, spec_helper RSpec configuration
 
 ### Community 62 - "Employment Status Breakdown Service"
-Cohesion: 0.31
-Nodes (3): CodeGuide guide: Statistics::EmploymentStatusBreakdown, EmploymentStatusBreakdown, Statistics::EmploymentStatusBreakdown spec
+Cohesion: 0.23
+Nodes (4): count(), CodeGuide guide: Statistics::EmploymentStatusBreakdown, EmploymentStatusBreakdown, Statistics::EmploymentStatusBreakdown spec
 
 ### Community 63 - "SPI Comparison Chart Controller"
 Cohesion: 0.33
@@ -429,16 +438,20 @@ Cohesion: 0.25
 Nodes (9): Main Logo PNG (Asset Pipeline), Main Logo SVG (Asset Pipeline Copy), Navbar Logo (Horizontal Wordmark), Navbar Brand Link, Fitupe Main Logo (PNG), Fitupe Main Logo (SVG), Sigma (Standard Deviation) Symbolism, Fitupe Favicon (public/icon.svg) (+1 more)
 
 ### Community 67 - "Age Breakdown Service"
-Cohesion: 0.14
-Nodes (6): CodeGuide guide: Statistics::AgeBreakdown, AgeBreakdown, Statistics::AgeBreakdown spec, CodeGuide guide: Statistics::WorkStatusBreakdown, Statistics::WorkStatusBreakdown spec, WorkStatusBreakdown
+Cohesion: 0.13
+Nodes (5): ReconciledIscrittiByComprensorio, StatisticSpi::ReconciledIscrittiByComprensorio spec, CodeGuide guide: Statistics::AgeBreakdown, AgeBreakdown, Statistics::AgeBreakdown spec
 
 ### Community 68 - "Provisional Revocation Breakdown Service"
 Cohesion: 0.28
 Nodes (3): CodeGuide guide: Statistics::ProvisionalRevocationBreakdown, ProvisionalRevocationBreakdown, Statistics::ProvisionalRevocationBreakdown spec
 
+### Community 69 - "Community 69"
+Cohesion: 0.07
+Nodes (3): CategoryTable, MultipleDelegationsTable, ProvvisorieTable
+
 ### Community 70 - "Work Status Breakdown Service"
-Cohesion: 0.20
-Nodes (5): ImportSpiCsvJob, ImportSpiCsvJob Spec, CreateImportsSpi, ImportSpi, ImportSpi Spec
+Cohesion: 0.24
+Nodes (4): ImportCsvJob, ImportCsvJob Spec, ImportSpiCsvJob, ImportSpiCsvJob Spec
 
 ### Community 71 - "StatisticWithIntegrationsPrints Controller"
 Cohesion: 0.20
@@ -493,8 +506,8 @@ Cohesion: 0.60
 Nodes (4): Davo Signature Logo (monogram), The Davosky Connection Wordmark Logo, CESI CGIL Friuli Venezia Giulia, Davo Davosky / The Davosky Connection
 
 ### Community 93 - "Community 93"
-Cohesion: 0.17
-Nodes (13): IntegrationFlc Factory, User Factory, Zoning Factory, ImportCsvJob, ImportCsvJob Spec, ImportForm Spec, IntegrationFlc Spec, Zoning Spec (+5 more)
+Cohesion: 0.24
+Nodes (11): IntegrationFlc Factory, User Factory, Zoning Factory, IntegrationFillea Spec, IntegrationFlc Spec, Zoning Spec, IntegrationFilleaPolicy Spec, IntegrationFlcPolicy Spec (+3 more)
 
 ### Community 94 - "Bin Scripts (dev/docker/rails/setup)"
 Cohesion: 0.50
@@ -528,13 +541,9 @@ Nodes (4): code:block3 (spec/), code:ruby (# Esempio factory minima), Regole per
 Cohesion: 0.25
 Nodes (4): ImportPolicy, ImportPolicy Spec, ImportSpiPolicy, ImportSpiPolicy Spec
 
-### Community 245 - "Community 245"
-Cohesion: 0.28
-Nodes (3): CodeGuide guide: Statistics::NationalityBreakdown, NationalityBreakdown, Statistics::NationalityBreakdown spec
-
 ### Community 246 - "Community 246"
-Cohesion: 0.06
-Nodes (7): route: resources :statistic_prints, ComparisonTable, StatisticPrints::NumberFormatting, PercentageTable, RegionalPage, StatisticPrints::RegionalPage spec, SingleYearTable
+Cohesion: 0.20
+Nodes (3): route: resources :statistic_prints, RegionalPage, StatisticPrints::RegionalPage spec
 
 ### Community 247 - "Community 247"
 Cohesion: 0.60
@@ -544,13 +553,33 @@ Nodes (3): colors(), connect(), valueLabelsPlugin()
 Cohesion: 0.25
 Nodes (5): Admin::ApplicationController, ApplicationController, authenticate_admin, ApplicationController, user_not_authorized
 
-### Community 268 - "Community 268"
+### Community 266 - "Community 266"
+Cohesion: 0.19
+Nodes (6): Admin::UsersController, PagesController, UserDashboard, Database Seeds, User::GENDERS, User
+
+### Community 269 - "Community 269"
+Cohesion: 0.08
+Nodes (3): NationalityGenderPage, StatisticPrints::NationalityGenderPage spec, PieChart
+
+### Community 275 - "Community 275"
+Cohesion: 0.13
+Nodes (12): CLAUDE.md — Guida per Claude Code, CodeGuide/README.md, Claude Code Logo, Fitupe Statistic Icons Color Palette Reference, Fitupe Main Application Logo, package.json (Fitupe JS manifest), CodeGuide guide: Statistics::GenderBreakdown, GenderBreakdown (+4 more)
+
+### Community 276 - "Community 276"
+Cohesion: 0.17
+Nodes (5): CreateLegends, Legend, Legend Spec, TotalMembersForm Spec, TotalMembersForm
+
+### Community 277 - "Community 277"
+Cohesion: 0.24
+Nodes (3): CodeGuide guide: Statistics::WorkStatusBreakdown, Statistics::WorkStatusBreakdown spec, WorkStatusBreakdown
+
+### Community 285 - "Community 285"
 Cohesion: 0.36
 Nodes (3): CodeGuide guide: Statistics::MembershipTypeBreakdown, MembershipTypeBreakdown, Statistics::MembershipTypeBreakdown spec
 
-### Community 272 - "Community 272"
-Cohesion: 0.67
-Nodes (3): StatisticPrints::LegendContent, StatisticPrints::LegendContent spec, StatisticPrints::ReportPdf spec
+### Community 292 - "Community 292"
+Cohesion: 0.08
+Nodes (16): attachment_blocks(), blocks(), blocks_for(), escape(), inline(), inline_node(), StatisticPrints::LegendContent, link_node() (+8 more)
 
 ## Ambiguous Edges - Review These
 - `Import` → `CreateActiveStorageTables`  [AMBIGUOUS]
@@ -569,9 +598,9 @@ Nodes (3): StatisticPrints::LegendContent, StatisticPrints::LegendContent spec, 
   config/routes.rb · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **346 isolated node(s):** `name`, `private`, `esbuild`, `brace-expansion`, `build` (+341 more)
+- **347 isolated node(s):** `name`, `private`, `esbuild`, `brace-expansion`, `dompurify` (+342 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **87 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **101 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_

@@ -5,7 +5,8 @@ module StatisticPrints
 
     def self.draw(...) = new(...).draw
 
-    def initialize(pdf, rows:, mese:, anno:, anno_precedente:, title: nil, label_header: "Azzonamento")
+    def initialize(pdf, rows:, mese:, anno:, anno_precedente:, title: nil, label_header: "Azzonamento",
+      metric_label: "iscritti")
       @pdf = pdf
       @title = title
       @rows = rows
@@ -13,6 +14,7 @@ module StatisticPrints
       @anno = anno
       @anno_precedente = anno_precedente
       @label_header = label_header
+      @metric_label = metric_label
     end
 
     def draw
@@ -34,7 +36,7 @@ module StatisticPrints
     end
 
     def header_row
-      [ @label_header, "#{@mese} #{@anno_precedente}", "#{@mese} #{@anno}", "iscritti", "%" ]
+      [ @label_header, "#{@mese} #{@anno_precedente}", "#{@mese} #{@anno}", @metric_label, "%" ]
     end
 
     def table_data

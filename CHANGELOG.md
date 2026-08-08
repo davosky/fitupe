@@ -8,6 +8,7 @@ Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 
 ### Aggiunto
 
+- Stampa Statistiche SPI: nuovo report PDF (Prawn, A4 orizzontale) a specchio di Stampa Statistiche, con copertina dinamica, pagina Legenda SPI opzionale (da testo ricco), pagine Totali Iscritti-Deleghe (con grafico a barre raggruppate), Deleghe Multiple, Tipologie Delega (con grafico a barre per categoria e uno raggruppato per comprensorio), Cessazioni (con grafici a torta), Provvisorie (con grafici a torta) e Classi di Età per decine (grafico regionale prominente più uno per comprensorio, etichette abbreviate nei grafici comprensoriali), controcopertina, e ripetizione automatica del report (preceduto da una pagina di intestazione con logo CGIL+SPI) per ciascun comprensorio quando l'azzonamento scelto è regionale.
 - Statistiche SPI: nuova sezione "Provvisorie" con tabella (Regionale e Comprensori, percentuale sul totale deleghe del periodo) e grafici a torta — a livello Regionale, Provvisorie contro Deleghe Confermate; a livello Comprensori, un'unica torta con una fetta colorata per ciascun comprensorio (percentuale reale, non ri-normalizzata) più la quota aggregata di Deleghe Confermate.
 - Statistiche SPI: nuova sezione "Cessazioni" con tabella (Regionale e Comprensori) che conta le cessazioni per motivo (Altra Motivazione Ente, Cambio Situazione Pensionistica, Cessazione Posizione Pensionistica, Chiusura Iscrizione Provvisoria, Decesso, Revoca) e la relativa percentuale sul totale deleghe del periodo.
 - Statistiche SPI: nuova sezione "Tipologie Delega" con tabella (Regionale e Comprensori) che conta le deleghe per tipologia (Ordinaria, Concomitante, Invalidi Civili, BreviManu, Altro), più un grafico a barre unico con tutti i comprensori raggruppati per colore e la relativa percentuale sul totale deleghe.
@@ -29,6 +30,7 @@ Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 
 ### Modificato
 
+- Grafici a torta (Stampa Statistiche e Stampa Statistiche SPI): le fette molto piccole mostrano ora l'etichetta all'esterno del cerchio, in colore scuro e collegata da una linea, invece che sovrapposta e illeggibile all'interno; più fette piccole consecutive si distanziano progressivamente per non sovrapporsi tra loro.
 - Statistiche: le etichette percentuali nei grafici a barre (Comprensori, Categorie, Attivi/Pensionati) sono ora verdi per i valori positivi e rosse per i negativi.
 - Statistiche: le colonne "iscritti" e "%" di tutte le tabelle sono in grassetto, verde se positive e rosso se negative.
 - Statistiche: la card principale mostra il nome dell'azzonamento selezionato al posto dell'etichetta statica "Regionale", con icona `regionale.svg` per gli azzonamenti regionali e `comprensori.svg` per quelli provinciali.
@@ -43,6 +45,8 @@ Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 
 ### Corretto
 
+- Corretta una vulnerabilità moderate in `dompurify` (dipendenza transitiva di `trix`, usata per gli editor ActionText) forzando la versione patchata (`>=3.4.13`) via `resolutions` in `package.json`.
+- Corretto un crash nei grafici a barre a singola serie (es. Classi di Età SPI) quando tutti i conteggi di un periodo sono zero e le percentuali risultano nulle.
 - Corretta una vulnerabilità high (DoS) in `brace-expansion` (dipendenza transitiva di `nodemon`) forzando la versione patchata via `resolutions` in `package.json`.
 - Aggiornato Rails a 8.1.3.1 per risolvere la CVE-2026-66066 su Active Storage.
 - Corretta una vulnerabilità moderate in `postcss` (lettura di file `.map` non previsti quando `from` non è impostato) e una nuova vulnerabilità high in `brace-expansion` che aggirava la mitigazione precedente, aggiornando le versioni minime richieste rispettivamente a `^8.5.23` e `^5.0.9`.
