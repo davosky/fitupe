@@ -9,6 +9,9 @@ CI.run do
   step "Security: Yarn vulnerability audit", "yarn audit"
   step "Security: Brakeman code analysis", "bin/brakeman --quiet --no-pager --exit-on-warn --exit-on-error"
 
+  step "Assets: Build JavaScript", "yarn build"
+  step "Assets: Build CSS", "yarn build:css"
+
   step "Database: Prepare test database", "bin/rails", "db:test:prepare"
   step "Tests: RSpec", "bundle exec rspec"
 
