@@ -8,6 +8,7 @@ Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 
 ### Aggiunto
 
+- Workflow CI su GitHub Actions: ad ogni push su `main` e ad ogni pull request prepara Ruby, Node e un servizio Postgres 18, poi esegue `bin/ci` (setup, rubocop, bundler-audit, yarn audit, brakeman, build asset, test del database, RSpec).
 - Stampa Statistiche SPI: nuovo report PDF (Prawn, A4 orizzontale) a specchio di Stampa Statistiche, con copertina dinamica, pagina Legenda SPI opzionale (da testo ricco), pagine Totali Iscritti-Deleghe (con grafico a barre raggruppate), Deleghe Multiple, Tipologie Delega (con grafico a barre per categoria e uno raggruppato per comprensorio), Cessazioni (con grafici a torta), Provvisorie (con grafici a torta) e Classi di Età per decine (grafico regionale prominente più uno per comprensorio, etichette abbreviate nei grafici comprensoriali), controcopertina, e ripetizione automatica del report (preceduto da una pagina di intestazione con logo CGIL+SPI) per ciascun comprensorio quando l'azzonamento scelto è regionale.
 - Statistiche SPI: nuova sezione "Provvisorie" con tabella (Regionale e Comprensori, percentuale sul totale deleghe del periodo) e grafici a torta — a livello Regionale, Provvisorie contro Deleghe Confermate; a livello Comprensori, un'unica torta con una fetta colorata per ciascun comprensorio (percentuale reale, non ri-normalizzata) più la quota aggregata di Deleghe Confermate.
 - Statistiche SPI: nuova sezione "Cessazioni" con tabella (Regionale e Comprensori) che conta le cessazioni per motivo (Altra Motivazione Ente, Cambio Situazione Pensionistica, Cessazione Posizione Pensionistica, Chiusura Iscrizione Provvisoria, Decesso, Revoca) e la relativa percentuale sul totale deleghe del periodo.
@@ -45,6 +46,7 @@ Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 
 ### Corretto
 
+- Corretto il workflow CI: mancava la build degli asset JavaScript/CSS (`yarn build`/`yarn build:css`) prima dei test, per cui su un checkout pulito 42 request spec fallivano con `Propshaft::MissingAssetError` (l'asset `application.js` non esisteva) — in locale il problema restava invisibile perché `bin/dev` aveva già generato quei file in precedenza.
 - Corretta una vulnerabilità moderate in `dompurify` (dipendenza transitiva di `trix`, usata per gli editor ActionText) forzando la versione patchata (`>=3.4.13`) via `resolutions` in `package.json`.
 - Corretto un crash nei grafici a barre a singola serie (es. Classi di Età SPI) quando tutti i conteggi di un periodo sono zero e le percentuali risultano nulle.
 - Corretta una vulnerabilità high (DoS) in `brace-expansion` (dipendenza transitiva di `nodemon`) forzando la versione patchata via `resolutions` in `package.json`.
