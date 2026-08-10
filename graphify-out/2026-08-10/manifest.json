@@ -15,9 +15,9 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/config/ci.rb": {
-    "mtime": 1786260854.9141831,
-    "ast_hash": "6dbfd9c8882578ff90aa04707d8967fe",
-    "semantic_hash": ""
+    "mtime": 1784113603.9352865,
+    "ast_hash": "3322b147622e68cc6ab0a1d55ac90ce0",
+    "semantic_hash": "3322b147622e68cc6ab0a1d55ac90ce0"
   },
   "/home/davo/Programmazione/fitupe/config/environment.rb": {
     "mtime": 1784113603.9346764,
@@ -975,8 +975,8 @@
     "semantic_hash": "9ec774e2bc1abaade5461a181b8134d8"
   },
   "/home/davo/Programmazione/fitupe/CHANGELOG.md": {
-    "mtime": 1786261117.9868445,
-    "ast_hash": "bb043279057cf6fab2c3944329e67baf",
+    "mtime": 1786213810.696036,
+    "ast_hash": "13507d245bad3602ca14e2c7923748f5",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistics/delegation_type_breakdown_spec.rb": {
@@ -1942,56 +1942,6 @@
   "/home/davo/Programmazione/fitupe/app/assets/images/statistic/logospipdf.svg": {
     "mtime": 1786212531.7273085,
     "ast_hash": "bebb5be4cd2ec143ded2fc8928f978f5",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/.github/workflows/ci.yml": {
-    "mtime": 1786214442.095849,
-    "ast_hash": "83b7f63a18eb4895d38e1d0a6b7c6716",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticSpi/tipologie_delega_breakdown.md": {
-    "mtime": 1786378464.9206042,
-    "ast_hash": "27146fc3044bad9c6d7252f732764bb4",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticSpi/README.md": {
-    "mtime": 1786378649.1042907,
-    "ast_hash": "17fd313bb75903a72a4934f5da4095b9",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticSpi/cessazioni_breakdown.md": {
-    "mtime": 1786378530.2086303,
-    "ast_hash": "24b1e4a7028dffe39073a06aefb97404",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticSpi/multiple_delegations_breakdown.md": {
-    "mtime": 1786378413.7930086,
-    "ast_hash": "793d11c2d3d01a773b350c6c3c9db900",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticSpi/provvisorie_breakdown.md": {
-    "mtime": 1786378575.736036,
-    "ast_hash": "e7aa3581665b150a741f8b0a74d7046e",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticSpi/zoning_period_scope.md": {
-    "mtime": 1786378152.486596,
-    "ast_hash": "464328ab7bee4b272604e5e3d2d70a46",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md": {
-    "mtime": 1786378198.7191842,
-    "ast_hash": "1cb4f28a430c82e637d70a3525d9666c",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticSpi/age_breakdown.md": {
-    "mtime": 1786378343.9328399,
-    "ast_hash": "9de542f416d728f51c767f566e53d5f0",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticSpi/total_members_comparison.md": {
-    "mtime": 1786378265.6492474,
-    "ast_hash": "2c0e375800362c95b4a4baf291df05d5",
     "semantic_hash": ""
   }
 }

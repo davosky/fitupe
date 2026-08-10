@@ -2712,7 +2712,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L1",
       "id": "app_services_statistic_prints_bar_chart_rb",
-      "community": 292,
+      "community": 59,
       "norm_label": "bar_chart.rb"
     },
     {
@@ -2721,7 +2721,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L2",
       "id": "statistic_prints_bar_chart_barchart",
-      "community": 292,
+      "community": 59,
       "norm_label": "barchart"
     },
     {
@@ -2730,7 +2730,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L18",
       "id": "statistic_prints_bar_chart_barchart_draw",
-      "community": 292,
+      "community": 59,
       "norm_label": ".draw()"
     },
     {
@@ -2739,7 +2739,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L20",
       "id": "statistic_prints_bar_chart_barchart_initialize",
-      "community": 292,
+      "community": 59,
       "norm_label": ".initialize()"
     },
     {
@@ -2748,7 +2748,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L42",
       "id": "statistic_prints_bar_chart_barchart_plot_top",
-      "community": 292,
+      "community": 59,
       "norm_label": ".plot_top()"
     },
     {
@@ -2757,7 +2757,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L43",
       "id": "statistic_prints_bar_chart_barchart_plot_bottom",
-      "community": 292,
+      "community": 59,
       "norm_label": ".plot_bottom()"
     },
     {
@@ -2766,7 +2766,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L44",
       "id": "statistic_prints_bar_chart_barchart_plot_height",
-      "community": 292,
+      "community": 59,
       "norm_label": ".plot_height()"
     },
     {
@@ -2775,7 +2775,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L45",
       "id": "statistic_prints_bar_chart_barchart_content_width",
-      "community": 292,
+      "community": 59,
       "norm_label": ".content_width()"
     },
     {
@@ -2784,7 +2784,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L46",
       "id": "statistic_prints_bar_chart_barchart_content_x",
-      "community": 292,
+      "community": 59,
       "norm_label": ".content_x()"
     },
     {
@@ -2793,7 +2793,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L47",
       "id": "statistic_prints_bar_chart_barchart_group_width",
-      "community": 292,
+      "community": 59,
       "norm_label": ".group_width()"
     },
     {
@@ -2802,7 +2802,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L48",
       "id": "statistic_prints_bar_chart_barchart_max_value",
-      "community": 292,
+      "community": 59,
       "norm_label": ".max_value()"
     },
     {
@@ -2811,7 +2811,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L50",
       "id": "statistic_prints_bar_chart_barchart_draw_legend",
-      "community": 292,
+      "community": 59,
       "norm_label": ".draw_legend()"
     },
     {
@@ -2820,7 +2820,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L55",
       "id": "statistic_prints_bar_chart_barchart_draw_legend_item",
-      "community": 292,
+      "community": 59,
       "norm_label": ".draw_legend_item()"
     },
     {
@@ -2829,7 +2829,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L67",
       "id": "statistic_prints_bar_chart_barchart_draw_axis_line",
-      "community": 292,
+      "community": 59,
       "norm_label": ".draw_axis_line()"
     },
     {
@@ -2838,7 +2838,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L72",
       "id": "statistic_prints_bar_chart_barchart_draw_group",
-      "community": 292,
+      "community": 59,
       "norm_label": ".draw_group()"
     },
     {
@@ -2847,7 +2847,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L80",
       "id": "statistic_prints_bar_chart_barchart_draw_bar",
-      "community": 292,
+      "community": 59,
       "norm_label": ".draw_bar()"
     },
     {
@@ -2856,7 +2856,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L88",
       "id": "statistic_prints_bar_chart_barchart_draw_percentage",
-      "community": 292,
+      "community": 59,
       "norm_label": ".draw_percentage()"
     },
     {
@@ -2865,7 +2865,7 @@
       "source_file": "app/services/statistic_prints/bar_chart.rb",
       "source_location": "L98",
       "id": "statistic_prints_bar_chart_barchart_draw_label",
-      "community": 292,
+      "community": 59,
       "norm_label": ".draw_label()"
     },
     {
@@ -4611,7 +4611,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L1",
       "id": "app_services_statistic_prints_nationality_gender_page_rb",
-      "community": 59,
+      "community": 269,
       "norm_label": "nationality_gender_page.rb"
     },
     {
@@ -4620,7 +4620,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L2",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage",
-      "community": 59,
+      "community": 269,
       "norm_label": "nationalitygenderpage"
     },
     {
@@ -4629,7 +4629,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L8",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw",
-      "community": 59,
+      "community": 269,
       "norm_label": ".draw()"
     },
     {
@@ -4638,7 +4638,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L10",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_initialize",
-      "community": 59,
+      "community": 269,
       "norm_label": ".initialize()"
     },
     {
@@ -4647,7 +4647,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L27",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_heading",
-      "community": 59,
+      "community": 269,
       "norm_label": ".draw_heading()"
     },
     {
@@ -4656,7 +4656,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L35",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_message",
-      "community": 59,
+      "community": 269,
       "norm_label": ".draw_message()"
     },
     {
@@ -4665,7 +4665,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L42",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_columns",
-      "community": 59,
+      "community": 269,
       "norm_label": ".draw_columns()"
     },
     {
@@ -4674,7 +4674,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L52",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_sesso_table",
-      "community": 59,
+      "community": 269,
       "norm_label": ".draw_sesso_table()"
     },
     {
@@ -4683,7 +4683,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L68",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_nazionalita_table",
-      "community": 59,
+      "community": 269,
       "norm_label": ".draw_nazionalita_table()"
     },
     {
@@ -4692,7 +4692,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L84",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_row_for",
-      "community": 59,
+      "community": 269,
       "norm_label": ".row_for()"
     },
     {
@@ -4701,7 +4701,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L88",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_charts",
-      "community": 59,
+      "community": 269,
       "norm_label": ".draw_charts()"
     },
     {
@@ -4710,7 +4710,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L98",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_sesso_chart",
-      "community": 59,
+      "community": 269,
       "norm_label": ".draw_sesso_chart()"
     },
     {
@@ -4719,7 +4719,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L105",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_draw_nazionalita_chart",
-      "community": 59,
+      "community": 269,
       "norm_label": ".draw_nazionalita_chart()"
     },
     {
@@ -4728,7 +4728,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L112",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_sesso_width",
-      "community": 59,
+      "community": 269,
       "norm_label": ".sesso_width()"
     },
     {
@@ -4737,7 +4737,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L113",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_nazionalita_width",
-      "community": 59,
+      "community": 269,
       "norm_label": ".nazionalita_width()"
     },
     {
@@ -4746,7 +4746,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L114",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_column_gap",
-      "community": 59,
+      "community": 269,
       "norm_label": ".column_gap()"
     },
     {
@@ -4755,7 +4755,7 @@
       "source_file": "app/services/statistic_prints/nationality_gender_page.rb",
       "source_location": "L116",
       "id": "statistic_prints_nationality_gender_page_nationalitygenderpage_section_gap",
-      "community": 59,
+      "community": 269,
       "norm_label": ".section_gap()"
     },
     {
@@ -4890,7 +4890,7 @@
       "source_file": "app/services/statistic_prints/number_formatting.rb",
       "source_location": "L1",
       "id": "app_services_statistic_prints_number_formatting_rb",
-      "community": 29,
+      "community": 277,
       "norm_label": "number_formatting.rb"
     },
     {
@@ -4899,7 +4899,7 @@
       "source_file": "app/services/statistic_prints/number_formatting.rb",
       "source_location": "L5",
       "id": "statistic_prints_number_formatting_count",
-      "community": 29,
+      "community": 277,
       "norm_label": "count()"
     },
     {
@@ -4908,7 +4908,7 @@
       "source_file": "app/services/statistic_prints/number_formatting.rb",
       "source_location": "L7",
       "id": "statistic_prints_number_formatting_percent",
-      "community": 29,
+      "community": 277,
       "norm_label": "percent()"
     },
     {
@@ -5403,7 +5403,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L1",
       "id": "app_services_statistic_spi_reconciled_iscritti_by_comprensorio_rb",
-      "community": 305,
+      "community": 67,
       "norm_label": "reconciled_iscritti_by_comprensorio.rb"
     },
     {
@@ -5412,7 +5412,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L10",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_reconcilediscrittibycomprensorio",
-      "community": 305,
+      "community": 67,
       "norm_label": "reconcilediscrittibycomprensorio"
     },
     {
@@ -5421,7 +5421,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L11",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_reconcilediscrittibycomprensorio_call",
-      "community": 305,
+      "community": 67,
       "norm_label": ".call()"
     },
     {
@@ -5430,7 +5430,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L13",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_reconcilediscrittibycomprensorio_initialize",
-      "community": 305,
+      "community": 67,
       "norm_label": ".initialize()"
     },
     {
@@ -5439,7 +5439,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L25",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_reconcilediscrittibycomprensorio_sql",
-      "community": 305,
+      "community": 67,
       "norm_label": ".sql()"
     },
     {
@@ -6645,7 +6645,7 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L1",
       "id": "app_services_statistic_spi_prints_legend_page_rb",
-      "community": 57,
+      "community": 292,
       "norm_label": "legend_page.rb"
     },
     {
@@ -6654,7 +6654,7 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L2",
       "id": "statistic_spi_prints_legend_page_legendpage",
-      "community": 57,
+      "community": 292,
       "norm_label": "legendpage"
     },
     {
@@ -6663,7 +6663,7 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L5",
       "id": "statistic_spi_prints_legend_page_legendpage_draw",
-      "community": 57,
+      "community": 292,
       "norm_label": ".draw()"
     },
     {
@@ -6672,7 +6672,7 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L7",
       "id": "statistic_spi_prints_legend_page_legendpage_initialize",
-      "community": 57,
+      "community": 292,
       "norm_label": ".initialize()"
     },
     {
@@ -6681,7 +6681,7 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L20",
       "id": "statistic_spi_prints_legend_page_legendpage_draw_heading",
-      "community": 57,
+      "community": 292,
       "norm_label": ".draw_heading()"
     },
     {
@@ -6690,7 +6690,7 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L30",
       "id": "statistic_spi_prints_legend_page_legendpage_draw_body",
-      "community": 57,
+      "community": 292,
       "norm_label": ".draw_body()"
     },
     {
@@ -6699,7 +6699,7 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L36",
       "id": "statistic_spi_prints_legend_page_legendpage_draw_block",
-      "community": 57,
+      "community": 292,
       "norm_label": ".draw_block()"
     },
     {
@@ -6708,7 +6708,7 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L47",
       "id": "statistic_spi_prints_legend_page_legendpage_draw_list_item",
-      "community": 57,
+      "community": 292,
       "norm_label": ".draw_list_item()"
     },
     {
@@ -6717,7 +6717,7 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L51",
       "id": "statistic_spi_prints_legend_page_legendpage_draw_quote",
-      "community": 57,
+      "community": 292,
       "norm_label": ".draw_quote()"
     },
     {
@@ -6726,7 +6726,7 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L55",
       "id": "statistic_spi_prints_legend_page_legendpage_draw_rule",
-      "community": 57,
+      "community": 292,
       "norm_label": ".draw_rule()"
     },
     {
@@ -6735,7 +6735,7 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L60",
       "id": "statistic_spi_prints_legend_page_legendpage_draw_text",
-      "community": 57,
+      "community": 292,
       "norm_label": ".draw_text()"
     },
     {
@@ -6744,7 +6744,7 @@
       "source_file": "app/services/statistic_spi_prints/legend_page.rb",
       "source_location": "L66",
       "id": "statistic_spi_prints_legend_page_legendpage_list_indent",
-      "community": 57,
+      "community": 292,
       "norm_label": ".list_indent()"
     },
     {
@@ -8778,7 +8778,7 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L45",
       "id": "statistics_age_breakdown_agebreakdown_counts",
-      "community": 305,
+      "community": 67,
       "norm_label": ".counts()"
     },
     {
@@ -8985,7 +8985,7 @@
       "source_file": "app/services/statistics/gender_breakdown.rb",
       "source_location": "L35",
       "id": "statistics_gender_breakdown_genderbreakdown_counts",
-      "community": 29,
+      "community": 277,
       "norm_label": ".counts()"
     },
     {
@@ -9138,7 +9138,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L31",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_counts",
-      "community": 29,
+      "community": 277,
       "norm_label": ".counts()"
     },
     {
@@ -9318,7 +9318,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L95",
       "id": "statistics_total_members_comparison_totalmemberscomparison_nazionalita",
-      "community": 59,
+      "community": 72,
       "norm_label": ".nazionalita()"
     },
     {
@@ -9327,7 +9327,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L99",
       "id": "statistics_total_members_comparison_totalmemberscomparison_sesso",
-      "community": 59,
+      "community": 72,
       "norm_label": ".sesso()"
     },
     {
@@ -9345,7 +9345,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L107",
       "id": "statistics_total_members_comparison_totalmemberscomparison_status_lavorativo",
-      "community": 72,
+      "community": 65,
       "norm_label": ".status_lavorativo()"
     },
     {
@@ -9354,7 +9354,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L111",
       "id": "statistics_total_members_comparison_totalmemberscomparison_fasce_eta",
-      "community": 72,
+      "community": 65,
       "norm_label": ".fasce_eta()"
     },
     {
@@ -9489,7 +9489,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_membership_type_breakdown_rb",
-      "community": 53,
+      "community": 285,
       "norm_label": "membership_type_breakdown.rb"
     },
     {
@@ -9498,7 +9498,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L5",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown",
-      "community": 53,
+      "community": 285,
       "norm_label": "membershiptypebreakdown"
     },
     {
@@ -9507,7 +9507,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L10",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_call",
-      "community": 53,
+      "community": 285,
       "norm_label": ".call()"
     },
     {
@@ -9516,7 +9516,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L12",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_initialize",
-      "community": 53,
+      "community": 285,
       "norm_label": ".initialize()"
     },
     {
@@ -9525,7 +9525,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L25",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_build_row",
-      "community": 53,
+      "community": 285,
       "norm_label": ".build_row()"
     },
     {
@@ -9534,7 +9534,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L34",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_count_for",
-      "community": 53,
+      "community": 285,
       "norm_label": ".count_for()"
     },
     {
@@ -9543,7 +9543,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_nationality_breakdown_rb",
-      "community": 275,
+      "community": 0,
       "norm_label": "nationality_breakdown.rb"
     },
     {
@@ -9552,7 +9552,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L5",
       "id": "statistics_nationality_breakdown_nationalitybreakdown",
-      "community": 275,
+      "community": 0,
       "norm_label": "nationalitybreakdown"
     },
     {
@@ -9561,7 +9561,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L14",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_call",
-      "community": 275,
+      "community": 0,
       "norm_label": ".call()"
     },
     {
@@ -9570,7 +9570,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L16",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_initialize",
-      "community": 275,
+      "community": 0,
       "norm_label": ".initialize()"
     },
     {
@@ -9579,7 +9579,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L29",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_build_row",
-      "community": 275,
+      "community": 0,
       "norm_label": ".build_row()"
     },
     {
@@ -9588,7 +9588,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L36",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_counts",
-      "community": 275,
+      "community": 0,
       "norm_label": ".counts()"
     },
     {
@@ -9597,7 +9597,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L42",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_scope",
-      "community": 275,
+      "community": 0,
       "norm_label": ".scope()"
     },
     {
@@ -10317,7 +10317,7 @@
       "source_file": "app/models/total_members_form.rb",
       "source_location": "L21",
       "id": "models_total_members_form_totalmembersform_legend_spi",
-      "community": 57,
+      "community": 276,
       "norm_label": ".legend_spi()"
     },
     {
@@ -10461,7 +10461,7 @@
       "source_file": "app/models/import.rb",
       "source_location": "L1",
       "id": "app_models_import_rb",
-      "community": 39,
+      "community": 8,
       "norm_label": "import.rb"
     },
     {
@@ -10470,7 +10470,7 @@
       "source_file": "app/models/import.rb",
       "source_location": "L1",
       "id": "models_import_import",
-      "community": 39,
+      "community": 8,
       "norm_label": "import"
     },
     {
@@ -12684,7 +12684,7 @@
       "source_file": "db/migrate/20260716104253_create_imports.rb",
       "source_location": "L1",
       "id": "db_migrate_20260716104253_create_imports_rb",
-      "community": 39,
+      "community": 8,
       "norm_label": "20260716104253_create_imports.rb"
     },
     {
@@ -12693,7 +12693,7 @@
       "source_file": "db/migrate/20260716104253_create_imports.rb",
       "source_location": "L1",
       "id": "migrate_20260716104253_create_imports_createimports",
-      "community": 39,
+      "community": 8,
       "norm_label": "createimports"
     },
     {
@@ -12702,7 +12702,7 @@
       "source_file": "db/migrate/20260716104253_create_imports.rb",
       "source_location": "L2",
       "id": "migrate_20260716104253_create_imports_createimports_change",
-      "community": 39,
+      "community": 8,
       "norm_label": ".change()"
     },
     {
@@ -15793,1410 +15793,6 @@
       "norm_label": "code:ruby (def missing_data_result(missing_years))"
     },
     {
-      "label": "tipologie_delega_breakdown.md",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L1",
-      "id": "codeguide_statisticspi_tipologie_delega_breakdown_md",
-      "community": 304,
-      "norm_label": "tipologie_delega_breakdown.md"
-    },
-    {
-      "label": "`StatisticSpi::TipologieDelegaBreakdown`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L1",
-      "id": "statisticspi_tipologie_delega_breakdown_statisticspi_tipologiedelegabreakdown",
-      "community": 304,
-      "norm_label": "`statisticspi::tipologiedelegabreakdown`"
-    },
-    {
-      "label": "Codice completo",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L5",
-      "id": "statisticspi_tipologie_delega_breakdown_codice_completo",
-      "community": 304,
-      "norm_label": "codice completo"
-    },
-    {
-      "label": "code:ruby (module StatisticSpi)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L7",
-      "id": "statisticspi_tipologie_delega_breakdown_codeblock_1",
-      "community": 304,
-      "norm_label": "code:ruby (module statisticspi)"
-    },
-    {
-      "label": "Sezioni commentate",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L95",
-      "id": "statisticspi_tipologie_delega_breakdown_sezioni_commentate",
-      "community": 304,
-      "norm_label": "sezioni commentate"
-    },
-    {
-      "label": "Commento di classe",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L97",
-      "id": "statisticspi_tipologie_delega_breakdown_commento_di_classe",
-      "community": 304,
-      "norm_label": "commento di classe"
-    },
-    {
-      "label": "code:ruby (# Conta le deleghe (record, non codici fiscali distinti) per)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L99",
-      "id": "statisticspi_tipologie_delega_breakdown_codeblock_2",
-      "community": 304,
-      "norm_label": "code:ruby (# conta le deleghe (record, non codici fiscali distinti) per)"
-    },
-    {
-      "label": "`ETICHETTE` (costante)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L112",
-      "id": "statisticspi_tipologie_delega_breakdown_etichette_costante",
-      "community": 304,
-      "norm_label": "`etichette` (costante)"
-    },
-    {
-      "label": "code:ruby (ETICHETTE = [ \"Ordinaria\", \"Concomitante\", \"Invalidi Civili\")",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L114",
-      "id": "statisticspi_tipologie_delega_breakdown_codeblock_3",
-      "community": 304,
-      "norm_label": "code:ruby (etichette = [ \"ordinaria\", \"concomitante\", \"invalidi civili\")"
-    },
-    {
-      "label": "`Row`, `Result`, `call`, `build_row`, `merge_counts`, `province_zonings`, `regional_zoning`, `regional_scope`, `counts_by_comprensorio`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L122",
-      "id": "statisticspi_tipologie_delega_breakdown_row_result_call_build_row_merge_counts_province_zonings_regional_zoning_regional_scope_counts_by_comprensorio",
-      "community": 304,
-      "norm_label": "`row`, `result`, `call`, `build_row`, `merge_counts`, `province_zonings`, `regional_zoning`, `regional_scope`, `counts_by_comprensorio`"
-    },
-    {
-      "label": "`sql` *(privato)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L128",
-      "id": "statisticspi_tipologie_delega_breakdown_sql_privato",
-      "community": 304,
-      "norm_label": "`sql` *(privato)*"
-    },
-    {
-      "label": "code:ruby (def sql)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L130",
-      "id": "statisticspi_tipologie_delega_breakdown_codeblock_4",
-      "community": 304,
-      "norm_label": "code:ruby (def sql)"
-    },
-    {
-      "label": "Perch\u00e9 le percentuali qui sono sul totale delle 5 etichette, non sul totale deleghe",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L158",
-      "id": "statisticspi_tipologie_delega_breakdown_perch\u00e9_le_percentuali_qui_sono_sul_totale_delle_5_etichette_non_sul_totale_deleghe",
-      "community": 304,
-      "norm_label": "perche le percentuali qui sono sul totale delle 5 etichette, non sul totale deleghe"
-    },
-    {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L1",
-      "id": "codeguide_statisticspi_readme_md",
-      "community": 285,
-      "norm_label": "readme.md"
-    },
-    {
-      "label": "Statistiche SPI \u2014 come funzionano e come sono state pensate",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L1",
-      "id": "statisticspi_readme_statistiche_spi_come_funzionano_e_come_sono_state_pensate",
-      "community": 285,
-      "norm_label": "statistiche spi \u2014 come funzionano e come sono state pensate"
-    },
-    {
-      "label": "Parte 1 \u2014 Italiano",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L7",
-      "id": "statisticspi_readme_parte_1_italiano",
-      "community": 285,
-      "norm_label": "parte 1 \u2014 italiano"
-    },
-    {
-      "label": "Scopo",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L9",
-      "id": "statisticspi_readme_scopo",
-      "community": 285,
-      "norm_label": "scopo"
-    },
-    {
-      "label": "La differenza di fondo: `Import` conta iscritti, `ImportSpi` conta deleghe",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L15",
-      "id": "statisticspi_readme_la_differenza_di_fondo_import_conta_iscritti_importspi_conta_deleghe",
-      "community": 285,
-      "norm_label": "la differenza di fondo: `import` conta iscritti, `importspi` conta deleghe"
-    },
-    {
-      "label": "Il meccanismo di riconciliazione: comprensorio \"primario\" via `DISTINCT ON`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L24",
-      "id": "statisticspi_readme_il_meccanismo_di_riconciliazione_comprensorio_primario_via_distinct_on",
-      "community": 285,
-      "norm_label": "il meccanismo di riconciliazione: comprensorio \"primario\" via `distinct on`"
-    },
-    {
-      "label": "code:sql (SELECT DISTINCT ON (codice_fiscale))",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L28",
-      "id": "statisticspi_readme_codeblock_1",
-      "community": 285,
-      "norm_label": "code:sql (select distinct on (codice_fiscale))"
-    },
-    {
-      "label": "La \"recipe\" delle sezioni SPI",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L44",
-      "id": "statisticspi_readme_la_recipe_delle_sezioni_spi",
-      "community": 285,
-      "norm_label": "la \"recipe\" delle sezioni spi"
-    },
-    {
-      "label": "Un esempio di contrasto: perch\u00e9 `CessazioniBreakdown`/`ProvvisorieBreakdown` calcolano le percentuali diversamente da `TipologieDelegaBreakdown`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L53",
-      "id": "statisticspi_readme_un_esempio_di_contrasto_perch\u00e9_cessazionibreakdown_provvisoriebreakdown_calcolano_le_percentuali_diversamente_da_tipologiedelegabreakdown",
-      "community": 285,
-      "norm_label": "un esempio di contrasto: perche `cessazionibreakdown`/`provvisoriebreakdown` calcolano le percentuali diversamente da `tipologiedelegabreakdown`"
-    },
-    {
-      "label": "Decisioni che *non* sono ovvie dal codice",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L60",
-      "id": "statisticspi_readme_decisioni_che_non_sono_ovvie_dal_codice",
-      "community": 285,
-      "norm_label": "decisioni che *non* sono ovvie dal codice"
-    },
-    {
-      "label": "Dove continuare",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L68",
-      "id": "statisticspi_readme_dove_continuare",
-      "community": 285,
-      "norm_label": "dove continuare"
-    },
-    {
-      "label": "Part 2 \u2014 English",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L74",
-      "id": "statisticspi_readme_part_2_english",
-      "community": 285,
-      "norm_label": "part 2 \u2014 english"
-    },
-    {
-      "label": "Purpose",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L76",
-      "id": "statisticspi_readme_purpose",
-      "community": 285,
-      "norm_label": "purpose"
-    },
-    {
-      "label": "The core difference: `Import` counts members, `ImportSpi` counts delegations",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L82",
-      "id": "statisticspi_readme_the_core_difference_import_counts_members_importspi_counts_delegations",
-      "community": 285,
-      "norm_label": "the core difference: `import` counts members, `importspi` counts delegations"
-    },
-    {
-      "label": "The reconciliation mechanism: a \"primary\" comprensorio via `DISTINCT ON`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L91",
-      "id": "statisticspi_readme_the_reconciliation_mechanism_a_primary_comprensorio_via_distinct_on",
-      "community": 285,
-      "norm_label": "the reconciliation mechanism: a \"primary\" comprensorio via `distinct on`"
-    },
-    {
-      "label": "code:sql (SELECT DISTINCT ON (codice_fiscale))",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L95",
-      "id": "statisticspi_readme_codeblock_2",
-      "community": 285,
-      "norm_label": "code:sql (select distinct on (codice_fiscale))"
-    },
-    {
-      "label": "The SPI section \"recipe\"",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L111",
-      "id": "statisticspi_readme_the_spi_section_recipe",
-      "community": 285,
-      "norm_label": "the spi section \"recipe\""
-    },
-    {
-      "label": "A contrasting example: why `CessazioniBreakdown`/`ProvvisorieBreakdown` compute percentages differently from `TipologieDelegaBreakdown`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L120",
-      "id": "statisticspi_readme_a_contrasting_example_why_cessazionibreakdown_provvisoriebreakdown_compute_percentages_differently_from_tipologiedelegabreakdown",
-      "community": 285,
-      "norm_label": "a contrasting example: why `cessazionibreakdown`/`provvisoriebreakdown` compute percentages differently from `tipologiedelegabreakdown`"
-    },
-    {
-      "label": "Decisions that are *not* obvious from the code",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L127",
-      "id": "statisticspi_readme_decisions_that_are_not_obvious_from_the_code",
-      "community": 285,
-      "norm_label": "decisions that are *not* obvious from the code"
-    },
-    {
-      "label": "Where to continue",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L135",
-      "id": "statisticspi_readme_where_to_continue",
-      "community": 285,
-      "norm_label": "where to continue"
-    },
-    {
-      "label": "cessazioni_breakdown.md",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L1",
-      "id": "codeguide_statisticspi_cessazioni_breakdown_md",
-      "community": 299,
-      "norm_label": "cessazioni_breakdown.md"
-    },
-    {
-      "label": "`StatisticSpi::CessazioniBreakdown`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L1",
-      "id": "statisticspi_cessazioni_breakdown_statisticspi_cessazionibreakdown",
-      "community": 299,
-      "norm_label": "`statisticspi::cessazionibreakdown`"
-    },
-    {
-      "label": "Codice completo",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L5",
-      "id": "statisticspi_cessazioni_breakdown_codice_completo",
-      "community": 299,
-      "norm_label": "codice completo"
-    },
-    {
-      "label": "code:ruby (module StatisticSpi)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L7",
-      "id": "statisticspi_cessazioni_breakdown_codeblock_1",
-      "community": 299,
-      "norm_label": "code:ruby (module statisticspi)"
-    },
-    {
-      "label": "Sezioni commentate",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L112",
-      "id": "statisticspi_cessazioni_breakdown_sezioni_commentate",
-      "community": 299,
-      "norm_label": "sezioni commentate"
-    },
-    {
-      "label": "Commento di classe",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L114",
-      "id": "statisticspi_cessazioni_breakdown_commento_di_classe",
-      "community": 299,
-      "norm_label": "commento di classe"
-    },
-    {
-      "label": "code:ruby (# Conta le cessazioni (motivo_cessazione_iscrizione tra un e)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L116",
-      "id": "statisticspi_cessazioni_breakdown_codeblock_2",
-      "community": 299,
-      "norm_label": "code:ruby (# conta le cessazioni (motivo_cessazione_iscrizione tra un e)"
-    },
-    {
-      "label": "`ETICHETTE` (costante)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L132",
-      "id": "statisticspi_cessazioni_breakdown_etichette_costante",
-      "community": 299,
-      "norm_label": "`etichette` (costante)"
-    },
-    {
-      "label": "code:ruby (ETICHETTE = [)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L134",
-      "id": "statisticspi_cessazioni_breakdown_codeblock_3",
-      "community": 299,
-      "norm_label": "code:ruby (etichette = [)"
-    },
-    {
-      "label": "`Row`, `Result` (Struct)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L145",
-      "id": "statisticspi_cessazioni_breakdown_row_result_struct",
-      "community": 299,
-      "norm_label": "`row`, `result` (struct)"
-    },
-    {
-      "label": "code:ruby (Row = Struct.new(:zoning, :totali, :totale, :deleghe_totale,)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L147",
-      "id": "statisticspi_cessazioni_breakdown_codeblock_4",
-      "community": 299,
-      "norm_label": "code:ruby (row = struct.new(:zoning, :totali, :totale, :deleghe_totale,)"
-    },
-    {
-      "label": "`call`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L156",
-      "id": "statisticspi_cessazioni_breakdown_call",
-      "community": 299,
-      "norm_label": "`call`"
-    },
-    {
-      "label": "code:ruby (def call)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L158",
-      "id": "statisticspi_cessazioni_breakdown_codeblock_5",
-      "community": 299,
-      "norm_label": "code:ruby (def call)"
-    },
-    {
-      "label": "`build_row` *(privato)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L175",
-      "id": "statisticspi_cessazioni_breakdown_build_row_privato",
-      "community": 299,
-      "norm_label": "`build_row` *(privato)*"
-    },
-    {
-      "label": "code:ruby (def build_row(zoning, counts, deleghe_totale))",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L177",
-      "id": "statisticspi_cessazioni_breakdown_codeblock_6",
-      "community": 299,
-      "norm_label": "code:ruby (def build_row(zoning, counts, deleghe_totale))"
-    },
-    {
-      "label": "`deleghe_by_comprensorio` *(privato)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L192",
-      "id": "statisticspi_cessazioni_breakdown_deleghe_by_comprensorio_privato",
-      "community": 299,
-      "norm_label": "`deleghe_by_comprensorio` *(privato)*"
-    },
-    {
-      "label": "code:ruby (def deleghe_by_comprensorio)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L194",
-      "id": "statisticspi_cessazioni_breakdown_codeblock_7",
-      "community": 299,
-      "norm_label": "code:ruby (def deleghe_by_comprensorio)"
-    },
-    {
-      "label": "`sql` *(privato)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L204",
-      "id": "statisticspi_cessazioni_breakdown_sql_privato",
-      "community": 299,
-      "norm_label": "`sql` *(privato)*"
-    },
-    {
-      "label": "code:ruby (def sql)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L206",
-      "id": "statisticspi_cessazioni_breakdown_codeblock_8",
-      "community": 299,
-      "norm_label": "code:ruby (def sql)"
-    },
-    {
-      "label": "multiple_delegations_breakdown.md",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L1",
-      "id": "codeguide_statisticspi_multiple_delegations_breakdown_md",
-      "community": 300,
-      "norm_label": "multiple_delegations_breakdown.md"
-    },
-    {
-      "label": "`StatisticSpi::MultipleDelegationsBreakdown`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L1",
-      "id": "statisticspi_multiple_delegations_breakdown_statisticspi_multipledelegationsbreakdown",
-      "community": 300,
-      "norm_label": "`statisticspi::multipledelegationsbreakdown`"
-    },
-    {
-      "label": "Codice completo",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L5",
-      "id": "statisticspi_multiple_delegations_breakdown_codice_completo",
-      "community": 300,
-      "norm_label": "codice completo"
-    },
-    {
-      "label": "code:ruby (module StatisticSpi)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L7",
-      "id": "statisticspi_multiple_delegations_breakdown_codeblock_1",
-      "community": 300,
-      "norm_label": "code:ruby (module statisticspi)"
-    },
-    {
-      "label": "Sezioni commentate",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L104",
-      "id": "statisticspi_multiple_delegations_breakdown_sezioni_commentate",
-      "community": 300,
-      "norm_label": "sezioni commentate"
-    },
-    {
-      "label": "Commento di classe",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L106",
-      "id": "statisticspi_multiple_delegations_breakdown_commento_di_classe",
-      "community": 300,
-      "norm_label": "commento di classe"
-    },
-    {
-      "label": "code:ruby (# Raggruppa i codice_fiscale con piu' di una delega (2-5, re)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L108",
-      "id": "statisticspi_multiple_delegations_breakdown_codeblock_2",
-      "community": 300,
-      "norm_label": "code:ruby (# raggruppa i codice_fiscale con piu' di una delega (2-5, re)"
-    },
-    {
-      "label": "`OCCORRENZE` (costante)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L124",
-      "id": "statisticspi_multiple_delegations_breakdown_occorrenze_costante",
-      "community": 300,
-      "norm_label": "`occorrenze` (costante)"
-    },
-    {
-      "label": "code:ruby (OCCORRENZE = (2..5))",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L126",
-      "id": "statisticspi_multiple_delegations_breakdown_codeblock_3",
-      "community": 300,
-      "norm_label": "code:ruby (occorrenze = (2..5))"
-    },
-    {
-      "label": "`Row`, `Result` (Struct)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L134",
-      "id": "statisticspi_multiple_delegations_breakdown_row_result_struct",
-      "community": 300,
-      "norm_label": "`row`, `result` (struct)"
-    },
-    {
-      "label": "code:ruby (Row = Struct.new(:zoning, :doppia, :tripla, :quadrupla, :qui)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L136",
-      "id": "statisticspi_multiple_delegations_breakdown_codeblock_4",
-      "community": 300,
-      "norm_label": "code:ruby (row = struct.new(:zoning, :doppia, :tripla, :quadrupla, :qui)"
-    },
-    {
-      "label": "`call`, `build_row`, `merge_counts`, `province_zonings`, `regional_zoning`, `regional_scope`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L145",
-      "id": "statisticspi_multiple_delegations_breakdown_call_build_row_merge_counts_province_zonings_regional_zoning_regional_scope",
-      "community": 300,
-      "norm_label": "`call`, `build_row`, `merge_counts`, `province_zonings`, `regional_zoning`, `regional_scope`"
-    },
-    {
-      "label": "code:ruby (def build_row(zoning, counts))",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L151",
-      "id": "statisticspi_multiple_delegations_breakdown_codeblock_5",
-      "community": 300,
-      "norm_label": "code:ruby (def build_row(zoning, counts))"
-    },
-    {
-      "label": "`counts_by_comprensorio` *(privato)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L164",
-      "id": "statisticspi_multiple_delegations_breakdown_counts_by_comprensorio_privato",
-      "community": 300,
-      "norm_label": "`counts_by_comprensorio` *(privato)*"
-    },
-    {
-      "label": "code:ruby (def counts_by_comprensorio)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L166",
-      "id": "statisticspi_multiple_delegations_breakdown_codeblock_6",
-      "community": 300,
-      "norm_label": "code:ruby (def counts_by_comprensorio)"
-    },
-    {
-      "label": "`sql` *(privato)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L178",
-      "id": "statisticspi_multiple_delegations_breakdown_sql_privato",
-      "community": 300,
-      "norm_label": "`sql` *(privato)*"
-    },
-    {
-      "label": "code:ruby (def sql)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L180",
-      "id": "statisticspi_multiple_delegations_breakdown_codeblock_7",
-      "community": 300,
-      "norm_label": "code:ruby (def sql)"
-    },
-    {
-      "label": "provvisorie_breakdown.md",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L1",
-      "id": "codeguide_statisticspi_provvisorie_breakdown_md",
-      "community": 301,
-      "norm_label": "provvisorie_breakdown.md"
-    },
-    {
-      "label": "`StatisticSpi::ProvvisorieBreakdown`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L1",
-      "id": "statisticspi_provvisorie_breakdown_statisticspi_provvisoriebreakdown",
-      "community": 301,
-      "norm_label": "`statisticspi::provvisoriebreakdown`"
-    },
-    {
-      "label": "Codice completo",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L5",
-      "id": "statisticspi_provvisorie_breakdown_codice_completo",
-      "community": 301,
-      "norm_label": "codice completo"
-    },
-    {
-      "label": "code:ruby (module StatisticSpi)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L7",
-      "id": "statisticspi_provvisorie_breakdown_codeblock_1",
-      "community": 301,
-      "norm_label": "code:ruby (module statisticspi)"
-    },
-    {
-      "label": "Sezioni commentate",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L73",
-      "id": "statisticspi_provvisorie_breakdown_sezioni_commentate",
-      "community": 301,
-      "norm_label": "sezioni commentate"
-    },
-    {
-      "label": "Commento di classe",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L75",
-      "id": "statisticspi_provvisorie_breakdown_commento_di_classe",
-      "community": 301,
-      "norm_label": "commento di classe"
-    },
-    {
-      "label": "code:ruby (# Conta le pratiche provvisorie (colonna provvisoria = 'SI'))",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L77",
-      "id": "statisticspi_provvisorie_breakdown_codeblock_2",
-      "community": 301,
-      "norm_label": "code:ruby (# conta le pratiche provvisorie (colonna provvisoria = 'si'))"
-    },
-    {
-      "label": "`Row`, `Result` (Struct)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L91",
-      "id": "statisticspi_provvisorie_breakdown_row_result_struct",
-      "community": 301,
-      "norm_label": "`row`, `result` (struct)"
-    },
-    {
-      "label": "code:ruby (Row = Struct.new(:zoning, :totale, :deleghe_totale, :percent)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L93",
-      "id": "statisticspi_provvisorie_breakdown_codeblock_3",
-      "community": 301,
-      "norm_label": "code:ruby (row = struct.new(:zoning, :totale, :deleghe_totale, :percent)"
-    },
-    {
-      "label": "`call`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L102",
-      "id": "statisticspi_provvisorie_breakdown_call",
-      "community": 301,
-      "norm_label": "`call`"
-    },
-    {
-      "label": "code:ruby (def call)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L104",
-      "id": "statisticspi_provvisorie_breakdown_codeblock_4",
-      "community": 301,
-      "norm_label": "code:ruby (def call)"
-    },
-    {
-      "label": "`build_row` *(privato)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L121",
-      "id": "statisticspi_provvisorie_breakdown_build_row_privato",
-      "community": 301,
-      "norm_label": "`build_row` *(privato)*"
-    },
-    {
-      "label": "code:ruby (def build_row(zoning, totale, deleghe_totale))",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L123",
-      "id": "statisticspi_provvisorie_breakdown_codeblock_5",
-      "community": 301,
-      "norm_label": "code:ruby (def build_row(zoning, totale, deleghe_totale))"
-    },
-    {
-      "label": "`province_zonings`, `regional_zoning`, `regional_scope`, `deleghe_by_comprensorio` *(privati)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L136",
-      "id": "statisticspi_provvisorie_breakdown_province_zonings_regional_zoning_regional_scope_deleghe_by_comprensorio_privati",
-      "community": 301,
-      "norm_label": "`province_zonings`, `regional_zoning`, `regional_scope`, `deleghe_by_comprensorio` *(privati)*"
-    },
-    {
-      "label": "`counts_by_comprensorio` *(privato)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L142",
-      "id": "statisticspi_provvisorie_breakdown_counts_by_comprensorio_privato",
-      "community": 301,
-      "norm_label": "`counts_by_comprensorio` *(privato)*"
-    },
-    {
-      "label": "code:ruby (def counts_by_comprensorio)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L144",
-      "id": "statisticspi_provvisorie_breakdown_codeblock_6",
-      "community": 301,
-      "norm_label": "code:ruby (def counts_by_comprensorio)"
-    },
-    {
-      "label": "zoning_period_scope.md",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L1",
-      "id": "codeguide_statisticspi_zoning_period_scope_md",
-      "community": 303,
-      "norm_label": "zoning_period_scope.md"
-    },
-    {
-      "label": "`StatisticSpi::ZoningPeriodScope`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L1",
-      "id": "statisticspi_zoning_period_scope_statisticspi_zoningperiodscope",
-      "community": 303,
-      "norm_label": "`statisticspi::zoningperiodscope`"
-    },
-    {
-      "label": "Codice completo",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L5",
-      "id": "statisticspi_zoning_period_scope_codice_completo",
-      "community": 303,
-      "norm_label": "codice completo"
-    },
-    {
-      "label": "code:ruby (module StatisticSpi)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L7",
-      "id": "statisticspi_zoning_period_scope_codeblock_1",
-      "community": 303,
-      "norm_label": "code:ruby (module statisticspi)"
-    },
-    {
-      "label": "Sezioni commentate",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L49",
-      "id": "statisticspi_zoning_period_scope_sezioni_commentate",
-      "community": 303,
-      "norm_label": "sezioni commentate"
-    },
-    {
-      "label": "Commento di classe",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L51",
-      "id": "statisticspi_zoning_period_scope_commento_di_classe",
-      "community": 303,
-      "norm_label": "commento di classe"
-    },
-    {
-      "label": "code:ruby (# Risolve lo scope di ImportSpi per un azzonamento/anno/mese)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L53",
-      "id": "statisticspi_zoning_period_scope_codeblock_2",
-      "community": 303,
-      "norm_label": "code:ruby (# risolve lo scope di importspi per un azzonamento/anno/mese)"
-    },
-    {
-      "label": "`def self.call(...)` / `initialize`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L65",
-      "id": "statisticspi_zoning_period_scope_def_self_call_initialize",
-      "community": 303,
-      "norm_label": "`def self.call(...)` / `initialize`"
-    },
-    {
-      "label": "code:ruby (def self.call(...) = new(...).call)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L67",
-      "id": "statisticspi_zoning_period_scope_codeblock_3",
-      "community": 303,
-      "norm_label": "code:ruby (def self.call(...) = new(...).call)"
-    },
-    {
-      "label": "`call`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L81",
-      "id": "statisticspi_zoning_period_scope_call",
-      "community": 303,
-      "norm_label": "`call`"
-    },
-    {
-      "label": "code:ruby (def call)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L83",
-      "id": "statisticspi_zoning_period_scope_codeblock_4",
-      "community": 303,
-      "norm_label": "code:ruby (def call)"
-    },
-    {
-      "label": "`regional_scope`, `regional_zoning_id` *(privati)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L97",
-      "id": "statisticspi_zoning_period_scope_regional_scope_regional_zoning_id_privati",
-      "community": 303,
-      "norm_label": "`regional_scope`, `regional_zoning_id` *(privati)*"
-    },
-    {
-      "label": "code:ruby (def regional_scope)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L99",
-      "id": "statisticspi_zoning_period_scope_codeblock_5",
-      "community": 303,
-      "norm_label": "code:ruby (def regional_scope)"
-    },
-    {
-      "label": "Perch\u00e9 tutti i `*Breakdown` SPI ricalcolano `regional_scope` invece di usare direttamente questa classe",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L119",
-      "id": "statisticspi_zoning_period_scope_perch\u00e9_tutti_i_breakdown_spi_ricalcolano_regional_scope_invece_di_usare_direttamente_questa_classe",
-      "community": 303,
-      "norm_label": "perche tutti i `*breakdown` spi ricalcolano `regional_scope` invece di usare direttamente questa classe"
-    },
-    {
-      "label": "reconciled_iscritti_by_comprensorio.md",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L1",
-      "id": "codeguide_statisticspi_reconciled_iscritti_by_comprensorio_md",
-      "community": 302,
-      "norm_label": "reconciled_iscritti_by_comprensorio.md"
-    },
-    {
-      "label": "`StatisticSpi::ReconciledIscrittiByComprensorio`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L1",
-      "id": "statisticspi_reconciled_iscritti_by_comprensorio_statisticspi_reconcilediscrittibycomprensorio",
-      "community": 302,
-      "norm_label": "`statisticspi::reconcilediscrittibycomprensorio`"
-    },
-    {
-      "label": "Codice completo",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L5",
-      "id": "statisticspi_reconciled_iscritti_by_comprensorio_codice_completo",
-      "community": 302,
-      "norm_label": "codice completo"
-    },
-    {
-      "label": "code:ruby (module StatisticSpi)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L7",
-      "id": "statisticspi_reconciled_iscritti_by_comprensorio_codeblock_1",
-      "community": 302,
-      "norm_label": "code:ruby (module statisticspi)"
-    },
-    {
-      "label": "Sezioni commentate",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L51",
-      "id": "statisticspi_reconciled_iscritti_by_comprensorio_sezioni_commentate",
-      "community": 302,
-      "norm_label": "sezioni commentate"
-    },
-    {
-      "label": "Commento di classe",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L53",
-      "id": "statisticspi_reconciled_iscritti_by_comprensorio_commento_di_classe",
-      "community": 302,
-      "norm_label": "commento di classe"
-    },
-    {
-      "label": "code:ruby (# Assegna ogni codice_fiscale a UN SOLO comprensorio \"primar)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L55",
-      "id": "statisticspi_reconciled_iscritti_by_comprensorio_codeblock_2",
-      "community": 302,
-      "norm_label": "code:ruby (# assegna ogni codice_fiscale a un solo comprensorio \"primar)"
-    },
-    {
-      "label": "`def self.call(scope)` / `initialize`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L71",
-      "id": "statisticspi_reconciled_iscritti_by_comprensorio_def_self_call_scope_initialize",
-      "community": 302,
-      "norm_label": "`def self.call(scope)` / `initialize`"
-    },
-    {
-      "label": "code:ruby (def self.call(scope) = new(scope).call)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L73",
-      "id": "statisticspi_reconciled_iscritti_by_comprensorio_codeblock_3",
-      "community": 302,
-      "norm_label": "code:ruby (def self.call(scope) = new(scope).call)"
-    },
-    {
-      "label": "`call`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L85",
-      "id": "statisticspi_reconciled_iscritti_by_comprensorio_call",
-      "community": 302,
-      "norm_label": "`call`"
-    },
-    {
-      "label": "code:ruby (def call)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L87",
-      "id": "statisticspi_reconciled_iscritti_by_comprensorio_codeblock_4",
-      "community": 302,
-      "norm_label": "code:ruby (def call)"
-    },
-    {
-      "label": "`sql` *(privato)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L99",
-      "id": "statisticspi_reconciled_iscritti_by_comprensorio_sql_privato",
-      "community": 302,
-      "norm_label": "`sql` *(privato)*"
-    },
-    {
-      "label": "code:ruby (def sql)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L101",
-      "id": "statisticspi_reconciled_iscritti_by_comprensorio_codeblock_5",
-      "community": 302,
-      "norm_label": "code:ruby (def sql)"
-    },
-    {
-      "label": "Perch\u00e9 non \u00e8 stata riusata per `MultipleDelegationsBreakdown` e `AgeBreakdown`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L135",
-      "id": "statisticspi_reconciled_iscritti_by_comprensorio_perch\u00e9_non_\u00e8_stata_riusata_per_multipledelegationsbreakdown_e_agebreakdown",
-      "community": 302,
-      "norm_label": "perche non e stata riusata per `multipledelegationsbreakdown` e `agebreakdown`"
-    },
-    {
-      "label": "age_breakdown.md",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L1",
-      "id": "codeguide_statisticspi_age_breakdown_md",
-      "community": 0,
-      "norm_label": "age_breakdown.md"
-    },
-    {
-      "label": "`StatisticSpi::AgeBreakdown`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L1",
-      "id": "statisticspi_age_breakdown_statisticspi_agebreakdown",
-      "community": 0,
-      "norm_label": "`statisticspi::agebreakdown`"
-    },
-    {
-      "label": "Codice completo",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L5",
-      "id": "statisticspi_age_breakdown_codice_completo",
-      "community": 0,
-      "norm_label": "codice completo"
-    },
-    {
-      "label": "code:ruby (module StatisticSpi)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L7",
-      "id": "statisticspi_age_breakdown_codeblock_1",
-      "community": 0,
-      "norm_label": "code:ruby (module statisticspi)"
-    },
-    {
-      "label": "Sezioni commentate",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L101",
-      "id": "statisticspi_age_breakdown_sezioni_commentate",
-      "community": 0,
-      "norm_label": "sezioni commentate"
-    },
-    {
-      "label": "Commento di classe",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L103",
-      "id": "statisticspi_age_breakdown_commento_di_classe",
-      "community": 0,
-      "norm_label": "commento di classe"
-    },
-    {
-      "label": "code:ruby (# Distribuzione degli iscritti per fascia d'eta (classi per )",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L105",
-      "id": "statisticspi_age_breakdown_codeblock_2",
-      "community": 0,
-      "norm_label": "code:ruby (# distribuzione degli iscritti per fascia d'eta (classi per )"
-    },
-    {
-      "label": "`BANDS`, `AGE_EXPR` (costanti)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L119",
-      "id": "statisticspi_age_breakdown_bands_age_expr_costanti",
-      "community": 0,
-      "norm_label": "`bands`, `age_expr` (costanti)"
-    },
-    {
-      "label": "code:ruby (BANDS = Statistics::AgeBreakdown::BANDS)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L121",
-      "id": "statisticspi_age_breakdown_codeblock_3",
-      "community": 0,
-      "norm_label": "code:ruby (bands = statistics::agebreakdown::bands)"
-    },
-    {
-      "label": "`Row`, `Result` (Struct)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L130",
-      "id": "statisticspi_age_breakdown_row_result_struct",
-      "community": 0,
-      "norm_label": "`row`, `result` (struct)"
-    },
-    {
-      "label": "code:ruby (Row = Struct.new(:zoning, :totali, :totale, :percentuali, ke)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L132",
-      "id": "statisticspi_age_breakdown_codeblock_4",
-      "community": 0,
-      "norm_label": "code:ruby (row = struct.new(:zoning, :totali, :totale, :percentuali, ke)"
-    },
-    {
-      "label": "`call`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L141",
-      "id": "statisticspi_age_breakdown_call",
-      "community": 0,
-      "norm_label": "`call`"
-    },
-    {
-      "label": "code:ruby (def call)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L143",
-      "id": "statisticspi_age_breakdown_codeblock_5",
-      "community": 0,
-      "norm_label": "code:ruby (def call)"
-    },
-    {
-      "label": "`build_row`, `merge_counts` *(privati)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L158",
-      "id": "statisticspi_age_breakdown_build_row_merge_counts_privati",
-      "community": 0,
-      "norm_label": "`build_row`, `merge_counts` *(privati)*"
-    },
-    {
-      "label": "code:ruby (def build_row(zoning, counts))",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L160",
-      "id": "statisticspi_age_breakdown_codeblock_6",
-      "community": 0,
-      "norm_label": "code:ruby (def build_row(zoning, counts))"
-    },
-    {
-      "label": "`province_zonings`, `regional_zoning`, `regional_scope` *(privati)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L181",
-      "id": "statisticspi_age_breakdown_province_zonings_regional_zoning_regional_scope_privati",
-      "community": 0,
-      "norm_label": "`province_zonings`, `regional_zoning`, `regional_scope` *(privati)*"
-    },
-    {
-      "label": "code:ruby (def province_zonings)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L183",
-      "id": "statisticspi_age_breakdown_codeblock_7",
-      "community": 0,
-      "norm_label": "code:ruby (def province_zonings)"
-    },
-    {
-      "label": "`counts_by_comprensorio` *(privato)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L203",
-      "id": "statisticspi_age_breakdown_counts_by_comprensorio_privato",
-      "community": 0,
-      "norm_label": "`counts_by_comprensorio` *(privato)*"
-    },
-    {
-      "label": "code:ruby (def counts_by_comprensorio)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L205",
-      "id": "statisticspi_age_breakdown_codeblock_8",
-      "community": 0,
-      "norm_label": "code:ruby (def counts_by_comprensorio)"
-    },
-    {
-      "label": "`sql` *(privato)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L217",
-      "id": "statisticspi_age_breakdown_sql_privato",
-      "community": 0,
-      "norm_label": "`sql` *(privato)*"
-    },
-    {
-      "label": "code:ruby (def sql)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L219",
-      "id": "statisticspi_age_breakdown_codeblock_9",
-      "community": 0,
-      "norm_label": "code:ruby (def sql)"
-    },
-    {
-      "label": "`band_case_sql` *(privato)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L242",
-      "id": "statisticspi_age_breakdown_band_case_sql_privato",
-      "community": 0,
-      "norm_label": "`band_case_sql` *(privato)*"
-    },
-    {
-      "label": "code:ruby (def band_case_sql)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L244",
-      "id": "statisticspi_age_breakdown_codeblock_10",
-      "community": 0,
-      "norm_label": "code:ruby (def band_case_sql)"
-    },
-    {
-      "label": "total_members_comparison.md",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L1",
-      "id": "codeguide_statisticspi_total_members_comparison_md",
-      "community": 298,
-      "norm_label": "total_members_comparison.md"
-    },
-    {
-      "label": "`StatisticSpi::TotalMembersComparison`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L1",
-      "id": "statisticspi_total_members_comparison_statisticspi_totalmemberscomparison",
-      "community": 298,
-      "norm_label": "`statisticspi::totalmemberscomparison`"
-    },
-    {
-      "label": "Codice completo",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L5",
-      "id": "statisticspi_total_members_comparison_codice_completo",
-      "community": 298,
-      "norm_label": "codice completo"
-    },
-    {
-      "label": "code:ruby (module StatisticSpi)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L7",
-      "id": "statisticspi_total_members_comparison_codeblock_1",
-      "community": 298,
-      "norm_label": "code:ruby (module statisticspi)"
-    },
-    {
-      "label": "Sezioni commentate",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L109",
-      "id": "statisticspi_total_members_comparison_sezioni_commentate",
-      "community": 298,
-      "norm_label": "sezioni commentate"
-    },
-    {
-      "label": "Panoramica della classe",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L111",
-      "id": "statisticspi_total_members_comparison_panoramica_della_classe",
-      "community": 298,
-      "norm_label": "panoramica della classe"
-    },
-    {
-      "label": "`Result` (Struct)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L117",
-      "id": "statisticspi_total_members_comparison_result_struct",
-      "community": 298,
-      "norm_label": "`result` (struct)"
-    },
-    {
-      "label": "code:ruby (Result = Struct.new(:zoning, :mese, :anno, :anno_precedente,)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L119",
-      "id": "statisticspi_total_members_comparison_codeblock_2",
-      "community": 298,
-      "norm_label": "code:ruby (result = struct.new(:zoning, :mese, :anno, :anno_precedente,)"
-    },
-    {
-      "label": "`Row` (Struct) / `initialize`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L135",
-      "id": "statisticspi_total_members_comparison_row_struct_initialize",
-      "community": 298,
-      "norm_label": "`row` (struct) / `initialize`"
-    },
-    {
-      "label": "code:ruby (Row = Struct.new(:zoning, :count_anno, :count_precedente, :d)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L137",
-      "id": "statisticspi_total_members_comparison_codeblock_3",
-      "community": 298,
-      "norm_label": "code:ruby (row = struct.new(:zoning, :count_anno, :count_precedente, :d)"
-    },
-    {
-      "label": "`call`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L145",
-      "id": "statisticspi_total_members_comparison_call",
-      "community": 298,
-      "norm_label": "`call`"
-    },
-    {
-      "label": "code:ruby (def call)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L147",
-      "id": "statisticspi_total_members_comparison_codeblock_4",
-      "community": 298,
-      "norm_label": "code:ruby (def call)"
-    },
-    {
-      "label": "`build_result` *(privato)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L160",
-      "id": "statisticspi_total_members_comparison_build_result_privato",
-      "community": 298,
-      "norm_label": "`build_result` *(privato)*"
-    },
-    {
-      "label": "code:ruby (def build_result)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L162",
-      "id": "statisticspi_total_members_comparison_codeblock_5",
-      "community": 298,
-      "norm_label": "code:ruby (def build_result)"
-    },
-    {
-      "label": "`totale_row`, `comprensori_rows` *(privati)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L185",
-      "id": "statisticspi_total_members_comparison_totale_row_comprensori_rows_privati",
-      "community": 298,
-      "norm_label": "`totale_row`, `comprensori_rows` *(privati)*"
-    },
-    {
-      "label": "code:ruby (def totale_row(metric))",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L187",
-      "id": "statisticspi_total_members_comparison_codeblock_6",
-      "community": 298,
-      "norm_label": "code:ruby (def totale_row(metric))"
-    },
-    {
-      "label": "`count_totale`, `count_by_comprensorio` *(privati)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L208",
-      "id": "statisticspi_total_members_comparison_count_totale_count_by_comprensorio_privati",
-      "community": 298,
-      "norm_label": "`count_totale`, `count_by_comprensorio` *(privati)*"
-    },
-    {
-      "label": "code:ruby (def count_totale(anno, metric))",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L210",
-      "id": "statisticspi_total_members_comparison_codeblock_7",
-      "community": 298,
-      "norm_label": "code:ruby (def count_totale(anno, metric))"
-    },
-    {
-      "label": "`build_row`, `missing_data_result` *(privati)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L238",
-      "id": "statisticspi_total_members_comparison_build_row_missing_data_result_privati",
-      "community": 298,
-      "norm_label": "`build_row`, `missing_data_result` *(privati)*"
-    },
-    {
-      "label": "code:ruby (def build_row(zoning, count_anno, count_precedente))",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L240",
-      "id": "statisticspi_total_members_comparison_codeblock_8",
-      "community": 298,
-      "norm_label": "code:ruby (def build_row(zoning, count_anno, count_precedente))"
-    },
-    {
       "label": ".draw_totals()",
       "file_type": "code",
       "source_file": "app/services/statistic_spi_prints/report_pdf.rb",
@@ -19393,7 +17989,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 275,
+      "community": 53,
       "norm_label": "changelog.md",
       "id": "changelog"
     },
@@ -19486,7 +18082,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 275,
+      "community": 0,
       "norm_label": "codeguide guide: statistics::nationalitybreakdown",
       "id": "statistics_nationality_breakdown"
     },
@@ -19512,7 +18108,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 285,
       "norm_label": "codeguide guide: statistics::membershiptypebreakdown",
       "id": "statistics_membership_type_breakdown"
     },
@@ -20994,7 +19590,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 39,
+      "community": 8,
       "norm_label": "import spec",
       "id": "models_import_spec"
     },
@@ -21319,7 +19915,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 59,
+      "community": 269,
       "norm_label": "statisticprints::nationalitygenderpage spec",
       "id": "statistic_prints_nationality_gender_page_spec_nationalitygenderpage"
     },
@@ -21449,7 +20045,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 305,
+      "community": 67,
       "norm_label": "statisticspi::reconcilediscrittibycomprensorio spec",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_spec_reconcilediscrittibycomprensorio"
     },
@@ -21527,7 +20123,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 285,
       "norm_label": "statistics::membershiptypebreakdown spec",
       "id": "statistics_membership_type_breakdown_spec_membershiptypebreakdown"
     },
@@ -21553,7 +20149,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 275,
+      "community": 0,
       "norm_label": "statistics::nationalitybreakdown spec",
       "id": "statistics_nationality_breakdown_spec_nationalitybreakdown"
     },
@@ -46105,1476 +44701,6 @@
       "confidence_score": 1.0,
       "source": "statistics_total_members_comparison_missing_data_result_privato",
       "target": "statistics_total_members_comparison_codeblock_11"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "codeguide_statisticspi_tipologie_delega_breakdown_md",
-      "target": "statisticspi_tipologie_delega_breakdown_statisticspi_tipologiedelegabreakdown",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "statisticspi_tipologie_delega_breakdown_statisticspi_tipologiedelegabreakdown",
-      "target": "statisticspi_tipologie_delega_breakdown_codice_completo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L95",
-      "weight": 1.0,
-      "source": "statisticspi_tipologie_delega_breakdown_statisticspi_tipologiedelegabreakdown",
-      "target": "statisticspi_tipologie_delega_breakdown_sezioni_commentate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "statisticspi_tipologie_delega_breakdown_codice_completo",
-      "target": "statisticspi_tipologie_delega_breakdown_codeblock_1",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L97",
-      "weight": 1.0,
-      "source": "statisticspi_tipologie_delega_breakdown_sezioni_commentate",
-      "target": "statisticspi_tipologie_delega_breakdown_commento_di_classe",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L112",
-      "weight": 1.0,
-      "source": "statisticspi_tipologie_delega_breakdown_sezioni_commentate",
-      "target": "statisticspi_tipologie_delega_breakdown_etichette_costante",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L122",
-      "weight": 1.0,
-      "source": "statisticspi_tipologie_delega_breakdown_sezioni_commentate",
-      "target": "statisticspi_tipologie_delega_breakdown_row_result_call_build_row_merge_counts_province_zonings_regional_zoning_regional_scope_counts_by_comprensorio",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L128",
-      "weight": 1.0,
-      "source": "statisticspi_tipologie_delega_breakdown_sezioni_commentate",
-      "target": "statisticspi_tipologie_delega_breakdown_sql_privato",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L158",
-      "weight": 1.0,
-      "source": "statisticspi_tipologie_delega_breakdown_sezioni_commentate",
-      "target": "statisticspi_tipologie_delega_breakdown_perch\u00e9_le_percentuali_qui_sono_sul_totale_delle_5_etichette_non_sul_totale_deleghe",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L99",
-      "weight": 1.0,
-      "source": "statisticspi_tipologie_delega_breakdown_commento_di_classe",
-      "target": "statisticspi_tipologie_delega_breakdown_codeblock_2",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L114",
-      "weight": 1.0,
-      "source": "statisticspi_tipologie_delega_breakdown_etichette_costante",
-      "target": "statisticspi_tipologie_delega_breakdown_codeblock_3",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/tipologie_delega_breakdown.md",
-      "source_location": "L130",
-      "weight": 1.0,
-      "source": "statisticspi_tipologie_delega_breakdown_sql_privato",
-      "target": "statisticspi_tipologie_delega_breakdown_codeblock_4",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "codeguide_statisticspi_readme_md",
-      "target": "statisticspi_readme_statistiche_spi_come_funzionano_e_come_sono_state_pensate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "statisticspi_readme_statistiche_spi_come_funzionano_e_come_sono_state_pensate",
-      "target": "statisticspi_readme_parte_1_italiano",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L74",
-      "weight": 1.0,
-      "source": "statisticspi_readme_statistiche_spi_come_funzionano_e_come_sono_state_pensate",
-      "target": "statisticspi_readme_part_2_english",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "statisticspi_readme_parte_1_italiano",
-      "target": "statisticspi_readme_scopo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "statisticspi_readme_parte_1_italiano",
-      "target": "statisticspi_readme_la_differenza_di_fondo_import_conta_iscritti_importspi_conta_deleghe",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "statisticspi_readme_parte_1_italiano",
-      "target": "statisticspi_readme_il_meccanismo_di_riconciliazione_comprensorio_primario_via_distinct_on",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L44",
-      "weight": 1.0,
-      "source": "statisticspi_readme_parte_1_italiano",
-      "target": "statisticspi_readme_la_recipe_delle_sezioni_spi",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L53",
-      "weight": 1.0,
-      "source": "statisticspi_readme_parte_1_italiano",
-      "target": "statisticspi_readme_un_esempio_di_contrasto_perch\u00e9_cessazionibreakdown_provvisoriebreakdown_calcolano_le_percentuali_diversamente_da_tipologiedelegabreakdown",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L60",
-      "weight": 1.0,
-      "source": "statisticspi_readme_parte_1_italiano",
-      "target": "statisticspi_readme_decisioni_che_non_sono_ovvie_dal_codice",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L68",
-      "weight": 1.0,
-      "source": "statisticspi_readme_parte_1_italiano",
-      "target": "statisticspi_readme_dove_continuare",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L28",
-      "weight": 1.0,
-      "source": "statisticspi_readme_il_meccanismo_di_riconciliazione_comprensorio_primario_via_distinct_on",
-      "target": "statisticspi_readme_codeblock_1",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L76",
-      "weight": 1.0,
-      "source": "statisticspi_readme_part_2_english",
-      "target": "statisticspi_readme_purpose",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L82",
-      "weight": 1.0,
-      "source": "statisticspi_readme_part_2_english",
-      "target": "statisticspi_readme_the_core_difference_import_counts_members_importspi_counts_delegations",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L91",
-      "weight": 1.0,
-      "source": "statisticspi_readme_part_2_english",
-      "target": "statisticspi_readme_the_reconciliation_mechanism_a_primary_comprensorio_via_distinct_on",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L111",
-      "weight": 1.0,
-      "source": "statisticspi_readme_part_2_english",
-      "target": "statisticspi_readme_the_spi_section_recipe",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L120",
-      "weight": 1.0,
-      "source": "statisticspi_readme_part_2_english",
-      "target": "statisticspi_readme_a_contrasting_example_why_cessazionibreakdown_provvisoriebreakdown_compute_percentages_differently_from_tipologiedelegabreakdown",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L127",
-      "weight": 1.0,
-      "source": "statisticspi_readme_part_2_english",
-      "target": "statisticspi_readme_decisions_that_are_not_obvious_from_the_code",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L135",
-      "weight": 1.0,
-      "source": "statisticspi_readme_part_2_english",
-      "target": "statisticspi_readme_where_to_continue",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/README.md",
-      "source_location": "L95",
-      "weight": 1.0,
-      "source": "statisticspi_readme_the_reconciliation_mechanism_a_primary_comprensorio_via_distinct_on",
-      "target": "statisticspi_readme_codeblock_2",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "codeguide_statisticspi_cessazioni_breakdown_md",
-      "target": "statisticspi_cessazioni_breakdown_statisticspi_cessazionibreakdown",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "statisticspi_cessazioni_breakdown_statisticspi_cessazionibreakdown",
-      "target": "statisticspi_cessazioni_breakdown_codice_completo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L112",
-      "weight": 1.0,
-      "source": "statisticspi_cessazioni_breakdown_statisticspi_cessazionibreakdown",
-      "target": "statisticspi_cessazioni_breakdown_sezioni_commentate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "statisticspi_cessazioni_breakdown_codice_completo",
-      "target": "statisticspi_cessazioni_breakdown_codeblock_1",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L114",
-      "weight": 1.0,
-      "source": "statisticspi_cessazioni_breakdown_sezioni_commentate",
-      "target": "statisticspi_cessazioni_breakdown_commento_di_classe",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L132",
-      "weight": 1.0,
-      "source": "statisticspi_cessazioni_breakdown_sezioni_commentate",
-      "target": "statisticspi_cessazioni_breakdown_etichette_costante",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L145",
-      "weight": 1.0,
-      "source": "statisticspi_cessazioni_breakdown_sezioni_commentate",
-      "target": "statisticspi_cessazioni_breakdown_row_result_struct",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L156",
-      "weight": 1.0,
-      "source": "statisticspi_cessazioni_breakdown_sezioni_commentate",
-      "target": "statisticspi_cessazioni_breakdown_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L175",
-      "weight": 1.0,
-      "source": "statisticspi_cessazioni_breakdown_sezioni_commentate",
-      "target": "statisticspi_cessazioni_breakdown_build_row_privato",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L192",
-      "weight": 1.0,
-      "source": "statisticspi_cessazioni_breakdown_sezioni_commentate",
-      "target": "statisticspi_cessazioni_breakdown_deleghe_by_comprensorio_privato",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L204",
-      "weight": 1.0,
-      "source": "statisticspi_cessazioni_breakdown_sezioni_commentate",
-      "target": "statisticspi_cessazioni_breakdown_sql_privato",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L116",
-      "weight": 1.0,
-      "source": "statisticspi_cessazioni_breakdown_commento_di_classe",
-      "target": "statisticspi_cessazioni_breakdown_codeblock_2",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L134",
-      "weight": 1.0,
-      "source": "statisticspi_cessazioni_breakdown_etichette_costante",
-      "target": "statisticspi_cessazioni_breakdown_codeblock_3",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L147",
-      "weight": 1.0,
-      "source": "statisticspi_cessazioni_breakdown_row_result_struct",
-      "target": "statisticspi_cessazioni_breakdown_codeblock_4",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L158",
-      "weight": 1.0,
-      "source": "statisticspi_cessazioni_breakdown_call",
-      "target": "statisticspi_cessazioni_breakdown_codeblock_5",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L177",
-      "weight": 1.0,
-      "source": "statisticspi_cessazioni_breakdown_build_row_privato",
-      "target": "statisticspi_cessazioni_breakdown_codeblock_6",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L194",
-      "weight": 1.0,
-      "source": "statisticspi_cessazioni_breakdown_deleghe_by_comprensorio_privato",
-      "target": "statisticspi_cessazioni_breakdown_codeblock_7",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/cessazioni_breakdown.md",
-      "source_location": "L206",
-      "weight": 1.0,
-      "source": "statisticspi_cessazioni_breakdown_sql_privato",
-      "target": "statisticspi_cessazioni_breakdown_codeblock_8",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "codeguide_statisticspi_multiple_delegations_breakdown_md",
-      "target": "statisticspi_multiple_delegations_breakdown_statisticspi_multipledelegationsbreakdown",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "statisticspi_multiple_delegations_breakdown_statisticspi_multipledelegationsbreakdown",
-      "target": "statisticspi_multiple_delegations_breakdown_codice_completo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L104",
-      "weight": 1.0,
-      "source": "statisticspi_multiple_delegations_breakdown_statisticspi_multipledelegationsbreakdown",
-      "target": "statisticspi_multiple_delegations_breakdown_sezioni_commentate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "statisticspi_multiple_delegations_breakdown_codice_completo",
-      "target": "statisticspi_multiple_delegations_breakdown_codeblock_1",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L106",
-      "weight": 1.0,
-      "source": "statisticspi_multiple_delegations_breakdown_sezioni_commentate",
-      "target": "statisticspi_multiple_delegations_breakdown_commento_di_classe",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L124",
-      "weight": 1.0,
-      "source": "statisticspi_multiple_delegations_breakdown_sezioni_commentate",
-      "target": "statisticspi_multiple_delegations_breakdown_occorrenze_costante",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L134",
-      "weight": 1.0,
-      "source": "statisticspi_multiple_delegations_breakdown_sezioni_commentate",
-      "target": "statisticspi_multiple_delegations_breakdown_row_result_struct",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L145",
-      "weight": 1.0,
-      "source": "statisticspi_multiple_delegations_breakdown_sezioni_commentate",
-      "target": "statisticspi_multiple_delegations_breakdown_call_build_row_merge_counts_province_zonings_regional_zoning_regional_scope",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L164",
-      "weight": 1.0,
-      "source": "statisticspi_multiple_delegations_breakdown_sezioni_commentate",
-      "target": "statisticspi_multiple_delegations_breakdown_counts_by_comprensorio_privato",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L178",
-      "weight": 1.0,
-      "source": "statisticspi_multiple_delegations_breakdown_sezioni_commentate",
-      "target": "statisticspi_multiple_delegations_breakdown_sql_privato",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L108",
-      "weight": 1.0,
-      "source": "statisticspi_multiple_delegations_breakdown_commento_di_classe",
-      "target": "statisticspi_multiple_delegations_breakdown_codeblock_2",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L126",
-      "weight": 1.0,
-      "source": "statisticspi_multiple_delegations_breakdown_occorrenze_costante",
-      "target": "statisticspi_multiple_delegations_breakdown_codeblock_3",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L136",
-      "weight": 1.0,
-      "source": "statisticspi_multiple_delegations_breakdown_row_result_struct",
-      "target": "statisticspi_multiple_delegations_breakdown_codeblock_4",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L151",
-      "weight": 1.0,
-      "source": "statisticspi_multiple_delegations_breakdown_call_build_row_merge_counts_province_zonings_regional_zoning_regional_scope",
-      "target": "statisticspi_multiple_delegations_breakdown_codeblock_5",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L166",
-      "weight": 1.0,
-      "source": "statisticspi_multiple_delegations_breakdown_counts_by_comprensorio_privato",
-      "target": "statisticspi_multiple_delegations_breakdown_codeblock_6",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/multiple_delegations_breakdown.md",
-      "source_location": "L180",
-      "weight": 1.0,
-      "source": "statisticspi_multiple_delegations_breakdown_sql_privato",
-      "target": "statisticspi_multiple_delegations_breakdown_codeblock_7",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "codeguide_statisticspi_provvisorie_breakdown_md",
-      "target": "statisticspi_provvisorie_breakdown_statisticspi_provvisoriebreakdown",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "statisticspi_provvisorie_breakdown_statisticspi_provvisoriebreakdown",
-      "target": "statisticspi_provvisorie_breakdown_codice_completo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L73",
-      "weight": 1.0,
-      "source": "statisticspi_provvisorie_breakdown_statisticspi_provvisoriebreakdown",
-      "target": "statisticspi_provvisorie_breakdown_sezioni_commentate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "statisticspi_provvisorie_breakdown_codice_completo",
-      "target": "statisticspi_provvisorie_breakdown_codeblock_1",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L75",
-      "weight": 1.0,
-      "source": "statisticspi_provvisorie_breakdown_sezioni_commentate",
-      "target": "statisticspi_provvisorie_breakdown_commento_di_classe",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L91",
-      "weight": 1.0,
-      "source": "statisticspi_provvisorie_breakdown_sezioni_commentate",
-      "target": "statisticspi_provvisorie_breakdown_row_result_struct",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L102",
-      "weight": 1.0,
-      "source": "statisticspi_provvisorie_breakdown_sezioni_commentate",
-      "target": "statisticspi_provvisorie_breakdown_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L121",
-      "weight": 1.0,
-      "source": "statisticspi_provvisorie_breakdown_sezioni_commentate",
-      "target": "statisticspi_provvisorie_breakdown_build_row_privato",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L136",
-      "weight": 1.0,
-      "source": "statisticspi_provvisorie_breakdown_sezioni_commentate",
-      "target": "statisticspi_provvisorie_breakdown_province_zonings_regional_zoning_regional_scope_deleghe_by_comprensorio_privati",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L142",
-      "weight": 1.0,
-      "source": "statisticspi_provvisorie_breakdown_sezioni_commentate",
-      "target": "statisticspi_provvisorie_breakdown_counts_by_comprensorio_privato",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L77",
-      "weight": 1.0,
-      "source": "statisticspi_provvisorie_breakdown_commento_di_classe",
-      "target": "statisticspi_provvisorie_breakdown_codeblock_2",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L93",
-      "weight": 1.0,
-      "source": "statisticspi_provvisorie_breakdown_row_result_struct",
-      "target": "statisticspi_provvisorie_breakdown_codeblock_3",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L104",
-      "weight": 1.0,
-      "source": "statisticspi_provvisorie_breakdown_call",
-      "target": "statisticspi_provvisorie_breakdown_codeblock_4",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L123",
-      "weight": 1.0,
-      "source": "statisticspi_provvisorie_breakdown_build_row_privato",
-      "target": "statisticspi_provvisorie_breakdown_codeblock_5",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/provvisorie_breakdown.md",
-      "source_location": "L144",
-      "weight": 1.0,
-      "source": "statisticspi_provvisorie_breakdown_counts_by_comprensorio_privato",
-      "target": "statisticspi_provvisorie_breakdown_codeblock_6",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "codeguide_statisticspi_zoning_period_scope_md",
-      "target": "statisticspi_zoning_period_scope_statisticspi_zoningperiodscope",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "statisticspi_zoning_period_scope_statisticspi_zoningperiodscope",
-      "target": "statisticspi_zoning_period_scope_codice_completo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L49",
-      "weight": 1.0,
-      "source": "statisticspi_zoning_period_scope_statisticspi_zoningperiodscope",
-      "target": "statisticspi_zoning_period_scope_sezioni_commentate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "statisticspi_zoning_period_scope_codice_completo",
-      "target": "statisticspi_zoning_period_scope_codeblock_1",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L51",
-      "weight": 1.0,
-      "source": "statisticspi_zoning_period_scope_sezioni_commentate",
-      "target": "statisticspi_zoning_period_scope_commento_di_classe",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L65",
-      "weight": 1.0,
-      "source": "statisticspi_zoning_period_scope_sezioni_commentate",
-      "target": "statisticspi_zoning_period_scope_def_self_call_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L81",
-      "weight": 1.0,
-      "source": "statisticspi_zoning_period_scope_sezioni_commentate",
-      "target": "statisticspi_zoning_period_scope_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L97",
-      "weight": 1.0,
-      "source": "statisticspi_zoning_period_scope_sezioni_commentate",
-      "target": "statisticspi_zoning_period_scope_regional_scope_regional_zoning_id_privati",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L119",
-      "weight": 1.0,
-      "source": "statisticspi_zoning_period_scope_sezioni_commentate",
-      "target": "statisticspi_zoning_period_scope_perch\u00e9_tutti_i_breakdown_spi_ricalcolano_regional_scope_invece_di_usare_direttamente_questa_classe",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L53",
-      "weight": 1.0,
-      "source": "statisticspi_zoning_period_scope_commento_di_classe",
-      "target": "statisticspi_zoning_period_scope_codeblock_2",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L67",
-      "weight": 1.0,
-      "source": "statisticspi_zoning_period_scope_def_self_call_initialize",
-      "target": "statisticspi_zoning_period_scope_codeblock_3",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L83",
-      "weight": 1.0,
-      "source": "statisticspi_zoning_period_scope_call",
-      "target": "statisticspi_zoning_period_scope_codeblock_4",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/zoning_period_scope.md",
-      "source_location": "L99",
-      "weight": 1.0,
-      "source": "statisticspi_zoning_period_scope_regional_scope_regional_zoning_id_privati",
-      "target": "statisticspi_zoning_period_scope_codeblock_5",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "codeguide_statisticspi_reconciled_iscritti_by_comprensorio_md",
-      "target": "statisticspi_reconciled_iscritti_by_comprensorio_statisticspi_reconcilediscrittibycomprensorio",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "statisticspi_reconciled_iscritti_by_comprensorio_statisticspi_reconcilediscrittibycomprensorio",
-      "target": "statisticspi_reconciled_iscritti_by_comprensorio_codice_completo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L51",
-      "weight": 1.0,
-      "source": "statisticspi_reconciled_iscritti_by_comprensorio_statisticspi_reconcilediscrittibycomprensorio",
-      "target": "statisticspi_reconciled_iscritti_by_comprensorio_sezioni_commentate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "statisticspi_reconciled_iscritti_by_comprensorio_codice_completo",
-      "target": "statisticspi_reconciled_iscritti_by_comprensorio_codeblock_1",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L53",
-      "weight": 1.0,
-      "source": "statisticspi_reconciled_iscritti_by_comprensorio_sezioni_commentate",
-      "target": "statisticspi_reconciled_iscritti_by_comprensorio_commento_di_classe",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L71",
-      "weight": 1.0,
-      "source": "statisticspi_reconciled_iscritti_by_comprensorio_sezioni_commentate",
-      "target": "statisticspi_reconciled_iscritti_by_comprensorio_def_self_call_scope_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L85",
-      "weight": 1.0,
-      "source": "statisticspi_reconciled_iscritti_by_comprensorio_sezioni_commentate",
-      "target": "statisticspi_reconciled_iscritti_by_comprensorio_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L99",
-      "weight": 1.0,
-      "source": "statisticspi_reconciled_iscritti_by_comprensorio_sezioni_commentate",
-      "target": "statisticspi_reconciled_iscritti_by_comprensorio_sql_privato",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L135",
-      "weight": 1.0,
-      "source": "statisticspi_reconciled_iscritti_by_comprensorio_sezioni_commentate",
-      "target": "statisticspi_reconciled_iscritti_by_comprensorio_perch\u00e9_non_\u00e8_stata_riusata_per_multipledelegationsbreakdown_e_agebreakdown",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L55",
-      "weight": 1.0,
-      "source": "statisticspi_reconciled_iscritti_by_comprensorio_commento_di_classe",
-      "target": "statisticspi_reconciled_iscritti_by_comprensorio_codeblock_2",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L73",
-      "weight": 1.0,
-      "source": "statisticspi_reconciled_iscritti_by_comprensorio_def_self_call_scope_initialize",
-      "target": "statisticspi_reconciled_iscritti_by_comprensorio_codeblock_3",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L87",
-      "weight": 1.0,
-      "source": "statisticspi_reconciled_iscritti_by_comprensorio_call",
-      "target": "statisticspi_reconciled_iscritti_by_comprensorio_codeblock_4",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md",
-      "source_location": "L101",
-      "weight": 1.0,
-      "source": "statisticspi_reconciled_iscritti_by_comprensorio_sql_privato",
-      "target": "statisticspi_reconciled_iscritti_by_comprensorio_codeblock_5",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "codeguide_statisticspi_age_breakdown_md",
-      "target": "statisticspi_age_breakdown_statisticspi_agebreakdown",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_statisticspi_agebreakdown",
-      "target": "statisticspi_age_breakdown_codice_completo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L101",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_statisticspi_agebreakdown",
-      "target": "statisticspi_age_breakdown_sezioni_commentate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_codice_completo",
-      "target": "statisticspi_age_breakdown_codeblock_1",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L103",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_sezioni_commentate",
-      "target": "statisticspi_age_breakdown_commento_di_classe",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L119",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_sezioni_commentate",
-      "target": "statisticspi_age_breakdown_bands_age_expr_costanti",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L130",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_sezioni_commentate",
-      "target": "statisticspi_age_breakdown_row_result_struct",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L141",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_sezioni_commentate",
-      "target": "statisticspi_age_breakdown_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L158",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_sezioni_commentate",
-      "target": "statisticspi_age_breakdown_build_row_merge_counts_privati",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L181",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_sezioni_commentate",
-      "target": "statisticspi_age_breakdown_province_zonings_regional_zoning_regional_scope_privati",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L203",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_sezioni_commentate",
-      "target": "statisticspi_age_breakdown_counts_by_comprensorio_privato",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L217",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_sezioni_commentate",
-      "target": "statisticspi_age_breakdown_sql_privato",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L242",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_sezioni_commentate",
-      "target": "statisticspi_age_breakdown_band_case_sql_privato",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L105",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_commento_di_classe",
-      "target": "statisticspi_age_breakdown_codeblock_2",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L121",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_bands_age_expr_costanti",
-      "target": "statisticspi_age_breakdown_codeblock_3",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L132",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_row_result_struct",
-      "target": "statisticspi_age_breakdown_codeblock_4",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L143",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_call",
-      "target": "statisticspi_age_breakdown_codeblock_5",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L160",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_build_row_merge_counts_privati",
-      "target": "statisticspi_age_breakdown_codeblock_6",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L183",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_province_zonings_regional_zoning_regional_scope_privati",
-      "target": "statisticspi_age_breakdown_codeblock_7",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L205",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_counts_by_comprensorio_privato",
-      "target": "statisticspi_age_breakdown_codeblock_8",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L219",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_sql_privato",
-      "target": "statisticspi_age_breakdown_codeblock_9",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/age_breakdown.md",
-      "source_location": "L244",
-      "weight": 1.0,
-      "source": "statisticspi_age_breakdown_band_case_sql_privato",
-      "target": "statisticspi_age_breakdown_codeblock_10",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "codeguide_statisticspi_total_members_comparison_md",
-      "target": "statisticspi_total_members_comparison_statisticspi_totalmemberscomparison",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "statisticspi_total_members_comparison_statisticspi_totalmemberscomparison",
-      "target": "statisticspi_total_members_comparison_codice_completo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L109",
-      "weight": 1.0,
-      "source": "statisticspi_total_members_comparison_statisticspi_totalmemberscomparison",
-      "target": "statisticspi_total_members_comparison_sezioni_commentate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "statisticspi_total_members_comparison_codice_completo",
-      "target": "statisticspi_total_members_comparison_codeblock_1",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L111",
-      "weight": 1.0,
-      "source": "statisticspi_total_members_comparison_sezioni_commentate",
-      "target": "statisticspi_total_members_comparison_panoramica_della_classe",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L117",
-      "weight": 1.0,
-      "source": "statisticspi_total_members_comparison_sezioni_commentate",
-      "target": "statisticspi_total_members_comparison_result_struct",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L135",
-      "weight": 1.0,
-      "source": "statisticspi_total_members_comparison_sezioni_commentate",
-      "target": "statisticspi_total_members_comparison_row_struct_initialize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L145",
-      "weight": 1.0,
-      "source": "statisticspi_total_members_comparison_sezioni_commentate",
-      "target": "statisticspi_total_members_comparison_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L160",
-      "weight": 1.0,
-      "source": "statisticspi_total_members_comparison_sezioni_commentate",
-      "target": "statisticspi_total_members_comparison_build_result_privato",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L185",
-      "weight": 1.0,
-      "source": "statisticspi_total_members_comparison_sezioni_commentate",
-      "target": "statisticspi_total_members_comparison_totale_row_comprensori_rows_privati",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L208",
-      "weight": 1.0,
-      "source": "statisticspi_total_members_comparison_sezioni_commentate",
-      "target": "statisticspi_total_members_comparison_count_totale_count_by_comprensorio_privati",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L238",
-      "weight": 1.0,
-      "source": "statisticspi_total_members_comparison_sezioni_commentate",
-      "target": "statisticspi_total_members_comparison_build_row_missing_data_result_privati",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L119",
-      "weight": 1.0,
-      "source": "statisticspi_total_members_comparison_result_struct",
-      "target": "statisticspi_total_members_comparison_codeblock_2",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L137",
-      "weight": 1.0,
-      "source": "statisticspi_total_members_comparison_row_struct_initialize",
-      "target": "statisticspi_total_members_comparison_codeblock_3",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L147",
-      "weight": 1.0,
-      "source": "statisticspi_total_members_comparison_call",
-      "target": "statisticspi_total_members_comparison_codeblock_4",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L162",
-      "weight": 1.0,
-      "source": "statisticspi_total_members_comparison_build_result_privato",
-      "target": "statisticspi_total_members_comparison_codeblock_5",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L187",
-      "weight": 1.0,
-      "source": "statisticspi_total_members_comparison_totale_row_comprensori_rows_privati",
-      "target": "statisticspi_total_members_comparison_codeblock_6",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L210",
-      "weight": 1.0,
-      "source": "statisticspi_total_members_comparison_count_totale_count_by_comprensorio_privati",
-      "target": "statisticspi_total_members_comparison_codeblock_7",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticSpi/total_members_comparison.md",
-      "source_location": "L240",
-      "weight": 1.0,
-      "source": "statisticspi_total_members_comparison_build_row_missing_data_result_privati",
-      "target": "statisticspi_total_members_comparison_codeblock_8",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",

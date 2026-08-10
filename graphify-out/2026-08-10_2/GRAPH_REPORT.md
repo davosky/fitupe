@@ -1,11 +1,11 @@
 # Graph Report - fitupe  (2026-08-10)
 
 ## Corpus Check
-- 306 files · ~277,739 words
+- 297 files · ~262,538 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2206 nodes · 2816 edges · 306 communities (204 shown, 102 thin omitted)
+- 2050 nodes · 2669 edges · 298 communities (197 shown, 101 thin omitted)
 - Extraction: 87% EXTRACTED · 13% INFERRED · 0% AMBIGUOUS · INFERRED: 353 edges (avg confidence: 0.84)
 - Token cost: 0 input · 0 output
 
@@ -196,14 +196,6 @@
 - [[_COMMUNITY_Community 294|Community 294]]
 - [[_COMMUNITY_Community 295|Community 295]]
 - [[_COMMUNITY_Community 296|Community 296]]
-- [[_COMMUNITY_Community 298|Community 298]]
-- [[_COMMUNITY_Community 299|Community 299]]
-- [[_COMMUNITY_Community 300|Community 300]]
-- [[_COMMUNITY_Community 301|Community 301]]
-- [[_COMMUNITY_Community 302|Community 302]]
-- [[_COMMUNITY_Community 303|Community 303]]
-- [[_COMMUNITY_Community 304|Community 304]]
-- [[_COMMUNITY_Community 305|Community 305]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `TotalMembersComparison` - 48 edges
@@ -267,11 +259,11 @@
 - **StatisticWithIntegrations::TotalMembersComparison composes FlcCorrection and FilleaCorrection** — statistic_with_integrations_total_members_comparison_spec_totalmemberscomparison, statistic_with_integrations_flc_correction_flccorrection, statistic_with_integrations_fillea_correction_filleacorrection [EXTRACTED 1.00]
 - **StatisticPrints pages accepting an alternate comparison_service** — statistic_prints_membership_types_page_spec_membershiptypespage, statistic_prints_employment_status_page_spec_employmentstatuspage, statistic_with_integrations_total_members_comparison_totalmemberscomparison [EXTRACTED 1.00]
 
-## Communities (306 total, 102 thin omitted)
+## Communities (298 total, 101 thin omitted)
 
 ### Community 0 - "Statistic Prints Table Helpers"
-Cohesion: 0.09
-Nodes (22): `band_case_sql` *(privato)*, `BANDS`, `AGE_EXPR` (costanti), `build_row`, `merge_counts` *(privati)*, `call`, code:ruby (module StatisticSpi), code:ruby (def band_case_sql), code:ruby (# Distribuzione degli iscritti per fascia d'eta (classi per ), code:ruby (BANDS = Statistics::AgeBreakdown::BANDS) (+14 more)
+Cohesion: 0.28
+Nodes (3): CodeGuide guide: Statistics::NationalityBreakdown, NationalityBreakdown, Statistics::NationalityBreakdown spec
 
 ### Community 2 - "Project Docs & Tech Stack"
 Cohesion: 0.06
@@ -294,8 +286,8 @@ Cohesion: 0.07
 Nodes (29): browserslist, dependencies, autoprefixer, bootstrap, bootstrap-icons, bootswatch, chart.js, @hotwired/stimulus (+21 more)
 
 ### Community 8 - "SPI/Fillea/Legend/Zoning Migrations"
-Cohesion: 0.12
-Nodes (15): Database Schema, ImportSpi Factory, Import Factory, IntegrationFillea Factory, Legend Factory, Italian Locale File, CreateIntegrationFilleas, CreateIntegrationFlcs (+7 more)
+Cohesion: 0.10
+Nodes (18): Database Schema, ImportSpi Factory, Import Factory, IntegrationFillea Factory, Legend Factory, Italian Locale File, CreateImports, CreateIntegrationFilleas (+10 more)
 
 ### Community 10 - "FILLEA/FLC Correction Services"
 Cohesion: 0.11
@@ -377,10 +369,6 @@ Nodes (5): StatisticSpi::ZoningPeriodScope spec, ZoningPeriodScope, CodeGuide gu
 Cohesion: 0.13
 Nodes (14): `build_row` *(privato)*, `call`, code:ruby (module Statistics), code:ruby (# Conta le pratiche Provvisorie (provvisoria = "SI") e le Re), code:ruby (Row = Struct.new(:tipologia, :count, :percentuale, keyword_i), code:ruby (def call), code:ruby (def build_row(tipologia, count)), code:ruby (def totale_iscritti) (+6 more)
 
-### Community 39 - "Import CSV Background Jobs"
-Cohesion: 0.20
-Nodes (4): CreateImports, CreateActiveStorageTables, Import, Import Spec
-
 ### Community 40 - "Statistic Breakdown Icons & PDF Art"
 Cohesion: 0.23
 Nodes (14): Legend Destroy Icon (trash bin, red), Comprensori (Territorial Districts) breakdown icon, Nazionalità (Nationality) breakdown icon, Stampa Statistiche PDF back cover background art, Stampa Statistiche PDF cover background art (CGIL FVG triangle motif), Friuli Venezia Giulia regional coat of arms (eagle + castle crest), CGIL wordmark logo (red square + CGIL text), Print Report Logo (bar chart + settings gear, blue) (+6 more)
@@ -422,8 +410,8 @@ Cohesion: 0.24
 Nodes (3): CodeGuide guide: Statistics::CategoryBreakdown, CategoryBreakdown, Statistics::CategoryBreakdown spec
 
 ### Community 53 - "Community 53"
-Cohesion: 0.18
-Nodes (6): CodeGuide guide: Statistics::DelegationTypeBreakdown, DelegationTypeBreakdown, Statistics::DelegationTypeBreakdown spec, CodeGuide guide: Statistics::MembershipTypeBreakdown, MembershipTypeBreakdown, Statistics::MembershipTypeBreakdown spec
+Cohesion: 0.31
+Nodes (3): CodeGuide guide: Statistics::DelegationTypeBreakdown, DelegationTypeBreakdown, Statistics::DelegationTypeBreakdown spec
 
 ### Community 58 - "JS Application Entry Points"
 Cohesion: 0.22
@@ -450,8 +438,8 @@ Cohesion: 0.25
 Nodes (9): Main Logo PNG (Asset Pipeline), Main Logo SVG (Asset Pipeline Copy), Navbar Logo (Horizontal Wordmark), Navbar Brand Link, Fitupe Main Logo (PNG), Fitupe Main Logo (SVG), Sigma (Standard Deviation) Symbolism, Fitupe Favicon (public/icon.svg) (+1 more)
 
 ### Community 67 - "Age Breakdown Service"
-Cohesion: 0.24
-Nodes (3): CodeGuide guide: Statistics::AgeBreakdown, AgeBreakdown, Statistics::AgeBreakdown spec
+Cohesion: 0.13
+Nodes (5): ReconciledIscrittiByComprensorio, StatisticSpi::ReconciledIscrittiByComprensorio spec, CodeGuide guide: Statistics::AgeBreakdown, AgeBreakdown, Statistics::AgeBreakdown spec
 
 ### Community 68 - "Provisional Revocation Breakdown Service"
 Cohesion: 0.28
@@ -569,53 +557,29 @@ Nodes (5): Admin::ApplicationController, ApplicationController, authenticate_adm
 Cohesion: 0.19
 Nodes (6): Admin::UsersController, PagesController, UserDashboard, Database Seeds, User::GENDERS, User
 
+### Community 269 - "Community 269"
+Cohesion: 0.08
+Nodes (3): NationalityGenderPage, StatisticPrints::NationalityGenderPage spec, PieChart
+
 ### Community 275 - "Community 275"
-Cohesion: 0.10
-Nodes (15): CLAUDE.md — Guida per Claude Code, CodeGuide/README.md, Claude Code Logo, Fitupe Statistic Icons Color Palette Reference, Fitupe Main Application Logo, package.json (Fitupe JS manifest), CodeGuide guide: Statistics::GenderBreakdown, GenderBreakdown (+7 more)
+Cohesion: 0.14
+Nodes (12): CLAUDE.md — Guida per Claude Code, CodeGuide/README.md, Claude Code Logo, Fitupe Statistic Icons Color Palette Reference, Fitupe Main Application Logo, package.json (Fitupe JS manifest), CodeGuide guide: Statistics::GenderBreakdown, GenderBreakdown (+4 more)
 
 ### Community 276 - "Community 276"
-Cohesion: 0.18
+Cohesion: 0.17
 Nodes (5): CreateLegends, Legend, Legend Spec, TotalMembersForm Spec, TotalMembersForm
 
 ### Community 277 - "Community 277"
-Cohesion: 0.28
-Nodes (3): CodeGuide guide: Statistics::WorkStatusBreakdown, Statistics::WorkStatusBreakdown spec, WorkStatusBreakdown
+Cohesion: 0.18
+Nodes (4): count(), CodeGuide guide: Statistics::WorkStatusBreakdown, Statistics::WorkStatusBreakdown spec, WorkStatusBreakdown
 
 ### Community 285 - "Community 285"
-Cohesion: 0.10
-Nodes (19): A contrasting example: why `CessazioniBreakdown`/`ProvvisorieBreakdown` compute percentages differently from `TipologieDelegaBreakdown`, code:sql (SELECT DISTINCT ON (codice_fiscale)), code:sql (SELECT DISTINCT ON (codice_fiscale)), Decisioni che *non* sono ovvie dal codice, Decisions that are *not* obvious from the code, Dove continuare, Il meccanismo di riconciliazione: comprensorio "primario" via `DISTINCT ON`, La differenza di fondo: `Import` conta iscritti, `ImportSpi` conta deleghe (+11 more)
+Cohesion: 0.36
+Nodes (3): CodeGuide guide: Statistics::MembershipTypeBreakdown, MembershipTypeBreakdown, Statistics::MembershipTypeBreakdown spec
 
 ### Community 292 - "Community 292"
-Cohesion: 0.07
-Nodes (16): BarChart, attachment_blocks(), blocks(), blocks_for(), escape(), inline(), inline_node(), StatisticPrints::LegendContent (+8 more)
-
-### Community 298 - "Community 298"
-Cohesion: 0.10
-Nodes (19): `build_result` *(privato)*, `build_row`, `missing_data_result` *(privati)*, `call`, code:ruby (module StatisticSpi), code:ruby (Result = Struct.new(:zoning, :mese, :anno, :anno_precedente,), code:ruby (Row = Struct.new(:zoning, :count_anno, :count_precedente, :d), code:ruby (def call), code:ruby (def build_result) (+11 more)
-
-### Community 299 - "Community 299"
-Cohesion: 0.11
-Nodes (18): `build_row` *(privato)*, `call`, code:ruby (module StatisticSpi), code:ruby (# Conta le cessazioni (motivo_cessazione_iscrizione tra un e), code:ruby (ETICHETTE = [), code:ruby (Row = Struct.new(:zoning, :totali, :totale, :deleghe_totale,), code:ruby (def call), code:ruby (def build_row(zoning, counts, deleghe_totale)) (+10 more)
-
-### Community 300 - "Community 300"
-Cohesion: 0.12
-Nodes (16): `call`, `build_row`, `merge_counts`, `province_zonings`, `regional_zoning`, `regional_scope`, code:ruby (module StatisticSpi), code:ruby (# Raggruppa i codice_fiscale con piu' di una delega (2-5, re), code:ruby (OCCORRENZE = (2..5)), code:ruby (Row = Struct.new(:zoning, :doppia, :tripla, :quadrupla, :qui), code:ruby (def build_row(zoning, counts)), code:ruby (def counts_by_comprensorio), code:ruby (def sql) (+8 more)
-
-### Community 301 - "Community 301"
-Cohesion: 0.12
-Nodes (15): `build_row` *(privato)*, `call`, code:ruby (module StatisticSpi), code:ruby (# Conta le pratiche provvisorie (colonna provvisoria = 'SI')), code:ruby (Row = Struct.new(:zoning, :totale, :deleghe_totale, :percent), code:ruby (def call), code:ruby (def build_row(zoning, totale, deleghe_totale)), code:ruby (def counts_by_comprensorio) (+7 more)
-
-### Community 302 - "Community 302"
-Cohesion: 0.14
-Nodes (13): `call`, code:ruby (module StatisticSpi), code:ruby (# Assegna ogni codice_fiscale a UN SOLO comprensorio "primar), code:ruby (def self.call(scope) = new(scope).call), code:ruby (def call), code:ruby (def sql), Codice completo, Commento di classe (+5 more)
-
-### Community 303 - "Community 303"
-Cohesion: 0.14
-Nodes (13): `call`, code:ruby (module StatisticSpi), code:ruby (# Risolve lo scope di ImportSpi per un azzonamento/anno/mese), code:ruby (def self.call(...) = new(...).call), code:ruby (def call), code:ruby (def regional_scope), Codice completo, Commento di classe (+5 more)
-
-### Community 304 - "Community 304"
-Cohesion: 0.15
-Nodes (12): code:ruby (module StatisticSpi), code:ruby (# Conta le deleghe (record, non codici fiscali distinti) per), code:ruby (ETICHETTE = [ "Ordinaria", "Concomitante", "Invalidi Civili"), code:ruby (def sql), Codice completo, Commento di classe, `ETICHETTE` (costante), Perché le percentuali qui sono sul totale delle 5 etichette, non sul totale deleghe (+4 more)
+Cohesion: 0.08
+Nodes (16): attachment_blocks(), blocks(), blocks_for(), escape(), inline(), inline_node(), StatisticPrints::LegendContent, link_node() (+8 more)
 
 ## Ambiguous Edges - Review These
 - `Import` → `CreateActiveStorageTables`  [AMBIGUOUS]
@@ -634,9 +598,9 @@ Nodes (12): code:ruby (module StatisticSpi), code:ruby (# Conta le deleghe (reco
   config/routes.rb · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **420 isolated node(s):** `name`, `private`, `esbuild`, `brace-expansion`, `dompurify` (+415 more)
+- **347 isolated node(s):** `name`, `private`, `esbuild`, `brace-expansion`, `dompurify` (+342 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **102 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **101 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_

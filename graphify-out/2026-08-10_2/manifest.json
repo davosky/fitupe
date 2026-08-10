@@ -1948,50 +1948,5 @@
     "mtime": 1786214442.095849,
     "ast_hash": "83b7f63a18eb4895d38e1d0a6b7c6716",
     "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticSpi/tipologie_delega_breakdown.md": {
-    "mtime": 1786378464.9206042,
-    "ast_hash": "27146fc3044bad9c6d7252f732764bb4",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticSpi/README.md": {
-    "mtime": 1786378649.1042907,
-    "ast_hash": "17fd313bb75903a72a4934f5da4095b9",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticSpi/cessazioni_breakdown.md": {
-    "mtime": 1786378530.2086303,
-    "ast_hash": "24b1e4a7028dffe39073a06aefb97404",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticSpi/multiple_delegations_breakdown.md": {
-    "mtime": 1786378413.7930086,
-    "ast_hash": "793d11c2d3d01a773b350c6c3c9db900",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticSpi/provvisorie_breakdown.md": {
-    "mtime": 1786378575.736036,
-    "ast_hash": "e7aa3581665b150a741f8b0a74d7046e",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticSpi/zoning_period_scope.md": {
-    "mtime": 1786378152.486596,
-    "ast_hash": "464328ab7bee4b272604e5e3d2d70a46",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticSpi/reconciled_iscritti_by_comprensorio.md": {
-    "mtime": 1786378198.7191842,
-    "ast_hash": "1cb4f28a430c82e637d70a3525d9666c",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticSpi/age_breakdown.md": {
-    "mtime": 1786378343.9328399,
-    "ast_hash": "9de542f416d728f51c767f566e53d5f0",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticSpi/total_members_comparison.md": {
-    "mtime": 1786378265.6492474,
-    "ast_hash": "2c0e375800362c95b4a4baf291df05d5",
-    "semantic_hash": ""
   }
 }
