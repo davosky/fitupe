@@ -2268,30 +2268,5 @@
     "mtime": 1786379913.5240602,
     "ast_hash": "890a73b680eed0afb9588e9abc6e27ec",
     "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticWithIntegrationsPrints/statistic_with_integrations_prints_controller.md": {
-    "mtime": 1786380826.594282,
-    "ast_hash": "f0f934b74da38dea99b461ae15448e52",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/StatisticWithIntegrationsPrints/README.md": {
-    "mtime": 1786380841.9656324,
-    "ast_hash": "9f2714806c41e6dfd73f62414ff4db55",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/IntegrationFilleas/integration_filleas_controller.md": {
-    "mtime": 1786380881.0516636,
-    "ast_hash": "dc002b7f21f4e1f9fb8b5480e23b1868",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/IntegrationFilleas/README.md": {
-    "mtime": 1786380943.3783176,
-    "ast_hash": "28c93c1ef09e7af2b6b83caa3b7b4c9f",
-    "semantic_hash": ""
-  },
-  "/home/davo/Programmazione/fitupe/CodeGuide/IntegrationFilleas/integration_fillea.md": {
-    "mtime": 1786380915.0305638,
-    "ast_hash": "b8fb647755db87434d52a6ff68553ebc",
-    "semantic_hash": ""
   }
 }

@@ -1245,7 +1245,7 @@
       "source_file": "spec/services/statistic_prints/legend_content_spec.rb",
       "source_location": "L1",
       "id": "spec_services_statistic_prints_legend_content_spec_rb",
-      "community": 57,
+      "community": 292,
       "norm_label": "legend_content_spec.rb"
     },
     {
@@ -1254,7 +1254,7 @@
       "source_file": "spec/services/statistic_prints/legend_content_spec.rb",
       "source_location": "L4",
       "id": "statistic_prints_legend_content_spec_blocks_for",
-      "community": 57,
+      "community": 292,
       "norm_label": "blocks_for()"
     },
     {
@@ -2109,7 +2109,7 @@
       "source_file": "app/policies/legend_policy.rb",
       "source_location": "L1",
       "id": "app_policies_legend_policy_rb",
-      "community": 250,
+      "community": 362,
       "norm_label": "legend_policy.rb"
     },
     {
@@ -2181,7 +2181,7 @@
       "source_file": "app/policies/legend_policy.rb",
       "source_location": "L9",
       "id": "policies_legend_policy_scope",
-      "community": 250,
+      "community": 362,
       "norm_label": "scope"
     },
     {
@@ -2190,7 +2190,7 @@
       "source_file": "app/policies/legend_policy.rb",
       "source_location": "L10",
       "id": "policies_legend_policy_scope_resolve",
-      "community": 250,
+      "community": 362,
       "norm_label": ".resolve()"
     },
     {
@@ -2433,7 +2433,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L1",
       "id": "app_policies_integration_flc_policy_rb",
-      "community": 51,
+      "community": 361,
       "norm_label": "integration_flc_policy.rb"
     },
     {
@@ -2505,7 +2505,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L9",
       "id": "policies_integration_flc_policy_scope",
-      "community": 51,
+      "community": 361,
       "norm_label": "scope"
     },
     {
@@ -2514,7 +2514,7 @@
       "source_file": "app/policies/integration_flc_policy.rb",
       "source_location": "L10",
       "id": "policies_integration_flc_policy_scope_resolve",
-      "community": 51,
+      "community": 361,
       "norm_label": ".resolve()"
     },
     {
@@ -4161,7 +4161,7 @@
       "source_file": "app/services/statistic_prints/legend_content.rb",
       "source_location": "L1",
       "id": "app_services_statistic_prints_legend_content_rb",
-      "community": 57,
+      "community": 292,
       "norm_label": "legend_content.rb"
     },
     {
@@ -4170,7 +4170,7 @@
       "source_file": "app/services/statistic_prints/legend_content.rb",
       "source_location": "L5",
       "id": "statistic_prints_legend_content_blocks",
-      "community": 57,
+      "community": 292,
       "norm_label": "blocks()"
     },
     {
@@ -4179,7 +4179,7 @@
       "source_file": "app/services/statistic_prints/legend_content.rb",
       "source_location": "L10",
       "id": "statistic_prints_legend_content_blocks_for",
-      "community": 57,
+      "community": 292,
       "norm_label": "blocks_for()"
     },
     {
@@ -4188,7 +4188,7 @@
       "source_file": "app/services/statistic_prints/legend_content.rb",
       "source_location": "L23",
       "id": "statistic_prints_legend_content_attachment_blocks",
-      "community": 57,
+      "community": 292,
       "norm_label": "attachment_blocks()"
     },
     {
@@ -4197,7 +4197,7 @@
       "source_file": "app/services/statistic_prints/legend_content.rb",
       "source_location": "L27",
       "id": "statistic_prints_legend_content_list_blocks",
-      "community": 57,
+      "community": 292,
       "norm_label": "list_blocks()"
     },
     {
@@ -4206,7 +4206,7 @@
       "source_file": "app/services/statistic_prints/legend_content.rb",
       "source_location": "L32",
       "id": "statistic_prints_legend_content_list_item_block",
-      "community": 57,
+      "community": 292,
       "norm_label": "list_item_block()"
     },
     {
@@ -4215,7 +4215,7 @@
       "source_file": "app/services/statistic_prints/legend_content.rb",
       "source_location": "L38",
       "id": "statistic_prints_legend_content_text_block",
-      "community": 57,
+      "community": 292,
       "norm_label": "text_block()"
     },
     {
@@ -4224,7 +4224,7 @@
       "source_file": "app/services/statistic_prints/legend_content.rb",
       "source_location": "L46",
       "id": "statistic_prints_legend_content_escape",
-      "community": 57,
+      "community": 292,
       "norm_label": "escape()"
     },
     {
@@ -4233,7 +4233,7 @@
       "source_file": "app/services/statistic_prints/legend_content.rb",
       "source_location": "L50",
       "id": "statistic_prints_legend_content_inline",
-      "community": 57,
+      "community": 292,
       "norm_label": "inline()"
     },
     {
@@ -4242,7 +4242,7 @@
       "source_file": "app/services/statistic_prints/legend_content.rb",
       "source_location": "L54",
       "id": "statistic_prints_legend_content_inline_node",
-      "community": 57,
+      "community": 292,
       "norm_label": "inline_node()"
     },
     {
@@ -4251,7 +4251,7 @@
       "source_file": "app/services/statistic_prints/legend_content.rb",
       "source_location": "L66",
       "id": "statistic_prints_legend_content_link_node",
-      "community": 57,
+      "community": 292,
       "norm_label": "link_node()"
     },
     {
@@ -4890,7 +4890,7 @@
       "source_file": "app/services/statistic_prints/number_formatting.rb",
       "source_location": "L1",
       "id": "app_services_statistic_prints_number_formatting_rb",
-      "community": 29,
+      "community": 277,
       "norm_label": "number_formatting.rb"
     },
     {
@@ -4899,7 +4899,7 @@
       "source_file": "app/services/statistic_prints/number_formatting.rb",
       "source_location": "L5",
       "id": "statistic_prints_number_formatting_count",
-      "community": 29,
+      "community": 277,
       "norm_label": "count()"
     },
     {
@@ -4908,7 +4908,7 @@
       "source_file": "app/services/statistic_prints/number_formatting.rb",
       "source_location": "L7",
       "id": "statistic_prints_number_formatting_percent",
-      "community": 29,
+      "community": 277,
       "norm_label": "percent()"
     },
     {
@@ -5403,7 +5403,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L1",
       "id": "app_services_statistic_spi_reconciled_iscritti_by_comprensorio_rb",
-      "community": 366,
+      "community": 67,
       "norm_label": "reconciled_iscritti_by_comprensorio.rb"
     },
     {
@@ -5412,7 +5412,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L10",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_reconcilediscrittibycomprensorio",
-      "community": 366,
+      "community": 67,
       "norm_label": "reconcilediscrittibycomprensorio"
     },
     {
@@ -5421,7 +5421,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L11",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_reconcilediscrittibycomprensorio_call",
-      "community": 366,
+      "community": 67,
       "norm_label": ".call()"
     },
     {
@@ -5430,7 +5430,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L13",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_reconcilediscrittibycomprensorio_initialize",
-      "community": 366,
+      "community": 67,
       "norm_label": ".initialize()"
     },
     {
@@ -5439,7 +5439,7 @@
       "source_file": "app/services/statistic_spi/reconciled_iscritti_by_comprensorio.rb",
       "source_location": "L25",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_reconcilediscrittibycomprensorio_sql",
-      "community": 366,
+      "community": 67,
       "norm_label": ".sql()"
     },
     {
@@ -6060,7 +6060,7 @@
       "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
       "source_location": "L1",
       "id": "app_services_statistic_with_integrations_fillea_correction_rb",
-      "community": 277,
+      "community": 10,
       "norm_label": "fillea_correction.rb"
     },
     {
@@ -6069,7 +6069,7 @@
       "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
       "source_location": "L8",
       "id": "statistic_with_integrations_fillea_correction_filleacorrection",
-      "community": 277,
+      "community": 10,
       "norm_label": "filleacorrection"
     },
     {
@@ -6078,7 +6078,7 @@
       "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
       "source_location": "L11",
       "id": "statistic_with_integrations_fillea_correction_success",
-      "community": 277,
+      "community": 10,
       "norm_label": "success?()"
     },
     {
@@ -6087,7 +6087,7 @@
       "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
       "source_location": "L14",
       "id": "statistic_with_integrations_fillea_correction_filleacorrection_call",
-      "community": 277,
+      "community": 10,
       "norm_label": ".call()"
     },
     {
@@ -6096,7 +6096,7 @@
       "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
       "source_location": "L16",
       "id": "statistic_with_integrations_fillea_correction_filleacorrection_initialize",
-      "community": 277,
+      "community": 10,
       "norm_label": ".initialize()"
     },
     {
@@ -6105,7 +6105,7 @@
       "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
       "source_location": "L36",
       "id": "statistic_with_integrations_fillea_correction_filleacorrection_regional_result",
-      "community": 277,
+      "community": 10,
       "norm_label": ".regional_result()"
     },
     {
@@ -6114,7 +6114,7 @@
       "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
       "source_location": "L41",
       "id": "statistic_with_integrations_fillea_correction_filleacorrection_dato_presente",
-      "community": 277,
+      "community": 10,
       "norm_label": ".dato_presente?()"
     },
     {
@@ -6123,7 +6123,7 @@
       "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
       "source_location": "L43",
       "id": "statistic_with_integrations_fillea_correction_filleacorrection_regionale",
-      "community": 277,
+      "community": 10,
       "norm_label": ".regionale?()"
     },
     {
@@ -6132,7 +6132,7 @@
       "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
       "source_location": "L45",
       "id": "statistic_with_integrations_fillea_correction_filleacorrection_province_zonings",
-      "community": 277,
+      "community": 10,
       "norm_label": ".province_zonings()"
     },
     {
@@ -6141,7 +6141,7 @@
       "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
       "source_location": "L50",
       "id": "statistic_with_integrations_fillea_correction_filleacorrection_build_row",
-      "community": 277,
+      "community": 10,
       "norm_label": ".build_row()"
     },
     {
@@ -6150,7 +6150,7 @@
       "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
       "source_location": "L58",
       "id": "statistic_with_integrations_fillea_correction_filleacorrection_missing_result",
-      "community": 277,
+      "community": 10,
       "norm_label": ".missing_result()"
     },
     {
@@ -7032,7 +7032,7 @@
       "source_file": "app/services/statistic_spi_prints/provvisorie_table.rb",
       "source_location": "L1",
       "id": "app_services_statistic_spi_prints_provvisorie_table_rb",
-      "community": 363,
+      "community": 69,
       "norm_label": "provvisorie_table.rb"
     },
     {
@@ -7041,7 +7041,7 @@
       "source_file": "app/services/statistic_spi_prints/provvisorie_table.rb",
       "source_location": "L5",
       "id": "statistic_spi_prints_provvisorie_table_provvisorietable",
-      "community": 363,
+      "community": 69,
       "norm_label": "provvisorietable"
     },
     {
@@ -7050,7 +7050,7 @@
       "source_file": "app/services/statistic_spi_prints/provvisorie_table.rb",
       "source_location": "L6",
       "id": "statistic_spi_prints_provvisorie_table_provvisorietable_draw",
-      "community": 363,
+      "community": 69,
       "norm_label": ".draw()"
     },
     {
@@ -7059,7 +7059,7 @@
       "source_file": "app/services/statistic_spi_prints/provvisorie_table.rb",
       "source_location": "L8",
       "id": "statistic_spi_prints_provvisorie_table_provvisorietable_initialize",
-      "community": 363,
+      "community": 69,
       "norm_label": ".initialize()"
     },
     {
@@ -7068,7 +7068,7 @@
       "source_file": "app/services/statistic_spi_prints/provvisorie_table.rb",
       "source_location": "L24",
       "id": "statistic_spi_prints_provvisorie_table_provvisorietable_draw_title",
-      "community": 363,
+      "community": 69,
       "norm_label": ".draw_title()"
     },
     {
@@ -7077,7 +7077,7 @@
       "source_file": "app/services/statistic_spi_prints/provvisorie_table.rb",
       "source_location": "L31",
       "id": "statistic_spi_prints_provvisorie_table_provvisorietable_header_row",
-      "community": 363,
+      "community": 69,
       "norm_label": ".header_row()"
     },
     {
@@ -7086,7 +7086,7 @@
       "source_file": "app/services/statistic_spi_prints/provvisorie_table.rb",
       "source_location": "L33",
       "id": "statistic_spi_prints_provvisorie_table_provvisorietable_table_data",
-      "community": 363,
+      "community": 69,
       "norm_label": ".table_data()"
     },
     {
@@ -7095,7 +7095,7 @@
       "source_file": "app/services/statistic_spi_prints/provvisorie_table.rb",
       "source_location": "L37",
       "id": "statistic_spi_prints_provvisorie_table_provvisorietable_data_row",
-      "community": 363,
+      "community": 69,
       "norm_label": ".data_row()"
     },
     {
@@ -7104,7 +7104,7 @@
       "source_file": "app/services/statistic_spi_prints/provvisorie_table.rb",
       "source_location": "L44",
       "id": "statistic_spi_prints_provvisorie_table_provvisorietable_column_widths",
-      "community": 363,
+      "community": 69,
       "norm_label": ".column_widths()"
     },
     {
@@ -7113,7 +7113,7 @@
       "source_file": "app/services/statistic_spi_prints/provvisorie_table.rb",
       "source_location": "L49",
       "id": "statistic_spi_prints_provvisorie_table_provvisorietable_cell_style",
-      "community": 363,
+      "community": 69,
       "norm_label": ".cell_style()"
     },
     {
@@ -7122,7 +7122,7 @@
       "source_file": "app/services/statistic_spi_prints/provvisorie_table.rb",
       "source_location": "L56",
       "id": "statistic_spi_prints_provvisorie_table_provvisorietable_style_header",
-      "community": 363,
+      "community": 69,
       "norm_label": ".style_header()"
     },
     {
@@ -8040,7 +8040,7 @@
       "source_file": "app/services/statistic_spi_prints/multiple_delegations_table.rb",
       "source_location": "L1",
       "id": "app_services_statistic_spi_prints_multiple_delegations_table_rb",
-      "community": 362,
+      "community": 69,
       "norm_label": "multiple_delegations_table.rb"
     },
     {
@@ -8049,7 +8049,7 @@
       "source_file": "app/services/statistic_spi_prints/multiple_delegations_table.rb",
       "source_location": "L6",
       "id": "statistic_spi_prints_multiple_delegations_table_multipledelegationstable",
-      "community": 362,
+      "community": 69,
       "norm_label": "multipledelegationstable"
     },
     {
@@ -8058,7 +8058,7 @@
       "source_file": "app/services/statistic_spi_prints/multiple_delegations_table.rb",
       "source_location": "L7",
       "id": "statistic_spi_prints_multiple_delegations_table_multipledelegationstable_draw",
-      "community": 362,
+      "community": 69,
       "norm_label": ".draw()"
     },
     {
@@ -8067,7 +8067,7 @@
       "source_file": "app/services/statistic_spi_prints/multiple_delegations_table.rb",
       "source_location": "L9",
       "id": "statistic_spi_prints_multiple_delegations_table_multipledelegationstable_initialize",
-      "community": 362,
+      "community": 69,
       "norm_label": ".initialize()"
     },
     {
@@ -8076,7 +8076,7 @@
       "source_file": "app/services/statistic_spi_prints/multiple_delegations_table.rb",
       "source_location": "L25",
       "id": "statistic_spi_prints_multiple_delegations_table_multipledelegationstable_draw_title",
-      "community": 362,
+      "community": 69,
       "norm_label": ".draw_title()"
     },
     {
@@ -8085,7 +8085,7 @@
       "source_file": "app/services/statistic_spi_prints/multiple_delegations_table.rb",
       "source_location": "L32",
       "id": "statistic_spi_prints_multiple_delegations_table_multipledelegationstable_header_row",
-      "community": 362,
+      "community": 69,
       "norm_label": ".header_row()"
     },
     {
@@ -8094,7 +8094,7 @@
       "source_file": "app/services/statistic_spi_prints/multiple_delegations_table.rb",
       "source_location": "L34",
       "id": "statistic_spi_prints_multiple_delegations_table_multipledelegationstable_table_data",
-      "community": 362,
+      "community": 69,
       "norm_label": ".table_data()"
     },
     {
@@ -8103,7 +8103,7 @@
       "source_file": "app/services/statistic_spi_prints/multiple_delegations_table.rb",
       "source_location": "L38",
       "id": "statistic_spi_prints_multiple_delegations_table_multipledelegationstable_data_row",
-      "community": 362,
+      "community": 69,
       "norm_label": ".data_row()"
     },
     {
@@ -8112,7 +8112,7 @@
       "source_file": "app/services/statistic_spi_prints/multiple_delegations_table.rb",
       "source_location": "L46",
       "id": "statistic_spi_prints_multiple_delegations_table_multipledelegationstable_column_widths",
-      "community": 362,
+      "community": 69,
       "norm_label": ".column_widths()"
     },
     {
@@ -8121,7 +8121,7 @@
       "source_file": "app/services/statistic_spi_prints/multiple_delegations_table.rb",
       "source_location": "L51",
       "id": "statistic_spi_prints_multiple_delegations_table_multipledelegationstable_cell_style",
-      "community": 362,
+      "community": 69,
       "norm_label": ".cell_style()"
     },
     {
@@ -8130,7 +8130,7 @@
       "source_file": "app/services/statistic_spi_prints/multiple_delegations_table.rb",
       "source_location": "L58",
       "id": "statistic_spi_prints_multiple_delegations_table_multipledelegationstable_style_header",
-      "community": 362,
+      "community": 69,
       "norm_label": ".style_header()"
     },
     {
@@ -8139,7 +8139,7 @@
       "source_file": "app/services/statistic_spi_prints/category_table.rb",
       "source_location": "L1",
       "id": "app_services_statistic_spi_prints_category_table_rb",
-      "community": 361,
+      "community": 69,
       "norm_label": "category_table.rb"
     },
     {
@@ -8148,7 +8148,7 @@
       "source_file": "app/services/statistic_spi_prints/category_table.rb",
       "source_location": "L7",
       "id": "statistic_spi_prints_category_table_categorytable",
-      "community": 361,
+      "community": 69,
       "norm_label": "categorytable"
     },
     {
@@ -8157,7 +8157,7 @@
       "source_file": "app/services/statistic_spi_prints/category_table.rb",
       "source_location": "L8",
       "id": "statistic_spi_prints_category_table_categorytable_draw",
-      "community": 361,
+      "community": 69,
       "norm_label": ".draw()"
     },
     {
@@ -8166,7 +8166,7 @@
       "source_file": "app/services/statistic_spi_prints/category_table.rb",
       "source_location": "L10",
       "id": "statistic_spi_prints_category_table_categorytable_initialize",
-      "community": 361,
+      "community": 69,
       "norm_label": ".initialize()"
     },
     {
@@ -8175,7 +8175,7 @@
       "source_file": "app/services/statistic_spi_prints/category_table.rb",
       "source_location": "L28",
       "id": "statistic_spi_prints_category_table_categorytable_draw_title",
-      "community": 361,
+      "community": 69,
       "norm_label": ".draw_title()"
     },
     {
@@ -8184,7 +8184,7 @@
       "source_file": "app/services/statistic_spi_prints/category_table.rb",
       "source_location": "L35",
       "id": "statistic_spi_prints_category_table_categorytable_header_row",
-      "community": 361,
+      "community": 69,
       "norm_label": ".header_row()"
     },
     {
@@ -8193,7 +8193,7 @@
       "source_file": "app/services/statistic_spi_prints/category_table.rb",
       "source_location": "L37",
       "id": "statistic_spi_prints_category_table_categorytable_table_data",
-      "community": 361,
+      "community": 69,
       "norm_label": ".table_data()"
     },
     {
@@ -8202,7 +8202,7 @@
       "source_file": "app/services/statistic_spi_prints/category_table.rb",
       "source_location": "L41",
       "id": "statistic_spi_prints_category_table_categorytable_data_row",
-      "community": 361,
+      "community": 69,
       "norm_label": ".data_row()"
     },
     {
@@ -8211,7 +8211,7 @@
       "source_file": "app/services/statistic_spi_prints/category_table.rb",
       "source_location": "L46",
       "id": "statistic_spi_prints_category_table_categorytable_column_widths",
-      "community": 361,
+      "community": 69,
       "norm_label": ".column_widths()"
     },
     {
@@ -8220,7 +8220,7 @@
       "source_file": "app/services/statistic_spi_prints/category_table.rb",
       "source_location": "L56",
       "id": "statistic_spi_prints_category_table_categorytable_cell_style",
-      "community": 361,
+      "community": 69,
       "norm_label": ".cell_style()"
     },
     {
@@ -8229,7 +8229,7 @@
       "source_file": "app/services/statistic_spi_prints/category_table.rb",
       "source_location": "L63",
       "id": "statistic_spi_prints_category_table_categorytable_style_header",
-      "community": 361,
+      "community": 69,
       "norm_label": ".style_header()"
     },
     {
@@ -8337,7 +8337,7 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L1",
       "id": "app_services_integration_flcs_comparison_service_rb",
-      "community": 292,
+      "community": 11,
       "norm_label": "comparison_service.rb"
     },
     {
@@ -8355,7 +8355,7 @@
       "source_file": "app/services/integration_flcs/comparison_service.rb",
       "source_location": "L10",
       "id": "integration_flcs_comparison_service_success",
-      "community": 292,
+      "community": 11,
       "norm_label": "success?()"
     },
     {
@@ -8778,7 +8778,7 @@
       "source_file": "app/services/statistics/age_breakdown.rb",
       "source_location": "L45",
       "id": "statistics_age_breakdown_agebreakdown_counts",
-      "community": 366,
+      "community": 67,
       "norm_label": ".counts()"
     },
     {
@@ -8985,7 +8985,7 @@
       "source_file": "app/services/statistics/gender_breakdown.rb",
       "source_location": "L35",
       "id": "statistics_gender_breakdown_genderbreakdown_counts",
-      "community": 275,
+      "community": 277,
       "norm_label": ".counts()"
     },
     {
@@ -9093,7 +9093,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_work_status_breakdown_rb",
-      "community": 67,
+      "community": 277,
       "norm_label": "work_status_breakdown.rb"
     },
     {
@@ -9102,7 +9102,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L8",
       "id": "statistics_work_status_breakdown_workstatusbreakdown",
-      "community": 67,
+      "community": 277,
       "norm_label": "workstatusbreakdown"
     },
     {
@@ -9111,7 +9111,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L11",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_call",
-      "community": 67,
+      "community": 277,
       "norm_label": ".call()"
     },
     {
@@ -9120,7 +9120,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L13",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_initialize",
-      "community": 67,
+      "community": 277,
       "norm_label": ".initialize()"
     },
     {
@@ -9129,7 +9129,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L25",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_build_row",
-      "community": 67,
+      "community": 277,
       "norm_label": ".build_row()"
     },
     {
@@ -9138,7 +9138,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L31",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_counts",
-      "community": 67,
+      "community": 277,
       "norm_label": ".counts()"
     },
     {
@@ -9147,7 +9147,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L35",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_totale",
-      "community": 67,
+      "community": 277,
       "norm_label": ".totale()"
     },
     {
@@ -9156,7 +9156,7 @@
       "source_file": "app/services/statistics/work_status_breakdown.rb",
       "source_location": "L39",
       "id": "statistics_work_status_breakdown_workstatusbreakdown_scope",
-      "community": 67,
+      "community": 277,
       "norm_label": ".scope()"
     },
     {
@@ -9264,7 +9264,7 @@
       "source_file": "app/services/statistics/total_members_comparison.rb",
       "source_location": "L71",
       "id": "statistics_total_members_comparison_totalmemberscomparison_regionale",
-      "community": 72,
+      "community": 246,
       "norm_label": ".regionale?()"
     },
     {
@@ -9489,7 +9489,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_membership_type_breakdown_rb",
-      "community": 62,
+      "community": 337,
       "norm_label": "membership_type_breakdown.rb"
     },
     {
@@ -9498,7 +9498,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L5",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown",
-      "community": 62,
+      "community": 337,
       "norm_label": "membershiptypebreakdown"
     },
     {
@@ -9507,7 +9507,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L10",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_call",
-      "community": 62,
+      "community": 337,
       "norm_label": ".call()"
     },
     {
@@ -9516,7 +9516,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L12",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_initialize",
-      "community": 62,
+      "community": 337,
       "norm_label": ".initialize()"
     },
     {
@@ -9525,7 +9525,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L25",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_build_row",
-      "community": 62,
+      "community": 337,
       "norm_label": ".build_row()"
     },
     {
@@ -9534,7 +9534,7 @@
       "source_file": "app/services/statistics/membership_type_breakdown.rb",
       "source_location": "L34",
       "id": "statistics_membership_type_breakdown_membershiptypebreakdown_count_for",
-      "community": 62,
+      "community": 337,
       "norm_label": ".count_for()"
     },
     {
@@ -9543,7 +9543,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L1",
       "id": "app_services_statistics_nationality_breakdown_rb",
-      "community": 275,
+      "community": 335,
       "norm_label": "nationality_breakdown.rb"
     },
     {
@@ -9552,7 +9552,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L5",
       "id": "statistics_nationality_breakdown_nationalitybreakdown",
-      "community": 275,
+      "community": 335,
       "norm_label": "nationalitybreakdown"
     },
     {
@@ -9561,7 +9561,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L14",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_call",
-      "community": 275,
+      "community": 335,
       "norm_label": ".call()"
     },
     {
@@ -9570,7 +9570,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L16",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_initialize",
-      "community": 275,
+      "community": 335,
       "norm_label": ".initialize()"
     },
     {
@@ -9579,7 +9579,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L29",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_build_row",
-      "community": 275,
+      "community": 335,
       "norm_label": ".build_row()"
     },
     {
@@ -9588,7 +9588,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L36",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_counts",
-      "community": 275,
+      "community": 335,
       "norm_label": ".counts()"
     },
     {
@@ -9597,7 +9597,7 @@
       "source_file": "app/services/statistics/nationality_breakdown.rb",
       "source_location": "L42",
       "id": "statistics_nationality_breakdown_nationalitybreakdown_scope",
-      "community": 275,
+      "community": 335,
       "norm_label": ".scope()"
     },
     {
@@ -10380,7 +10380,7 @@
       "source_file": "app/models/integration_flc.rb",
       "source_location": "L1",
       "id": "app_models_integration_flc_rb",
-      "community": 365,
+      "community": 44,
       "norm_label": "integration_flc.rb"
     },
     {
@@ -10389,7 +10389,7 @@
       "source_file": "app/models/integration_flc.rb",
       "source_location": "L1",
       "id": "models_integration_flc_integrationflc",
-      "community": 365,
+      "community": 44,
       "norm_label": "integrationflc"
     },
     {
@@ -11046,7 +11046,7 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L1",
       "id": "app_controllers_integration_flc_uploads_controller_rb",
-      "community": 292,
+      "community": 11,
       "norm_label": "integration_flc_uploads_controller.rb"
     },
     {
@@ -11055,7 +11055,7 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L1",
       "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller",
-      "community": 292,
+      "community": 11,
       "norm_label": "integrationflcuploadscontroller"
     },
     {
@@ -11064,7 +11064,7 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L6",
       "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_new",
-      "community": 292,
+      "community": 11,
       "norm_label": ".new()"
     },
     {
@@ -11073,7 +11073,7 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L10",
       "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_create",
-      "community": 292,
+      "community": 11,
       "norm_label": ".create()"
     },
     {
@@ -11082,7 +11082,7 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L32",
       "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_set_zonings",
-      "community": 292,
+      "community": 11,
       "norm_label": ".set_zonings()"
     },
     {
@@ -11091,7 +11091,7 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L36",
       "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_authorize_upload",
-      "community": 292,
+      "community": 11,
       "norm_label": ".authorize_upload()"
     },
     {
@@ -11100,7 +11100,7 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L40",
       "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_upload_params",
-      "community": 292,
+      "community": 11,
       "norm_label": ".upload_params()"
     },
     {
@@ -11109,7 +11109,7 @@
       "source_file": "app/controllers/integration_flc_uploads_controller.rb",
       "source_location": "L44",
       "id": "controllers_integration_flc_uploads_controller_integrationflcuploadscontroller_render_form_errors",
-      "community": 292,
+      "community": 11,
       "norm_label": ".render_form_errors()"
     },
     {
@@ -12054,7 +12054,7 @@
       "source_file": "app/jobs/import_spi_csv_job.rb",
       "source_location": "L1",
       "id": "app_jobs_import_spi_csv_job_rb",
-      "community": 368,
+      "community": 33,
       "norm_label": "import_spi_csv_job.rb"
     },
     {
@@ -12063,7 +12063,7 @@
       "source_file": "app/jobs/import_spi_csv_job.rb",
       "source_location": "L1",
       "id": "jobs_import_spi_csv_job_importspicsvjob",
-      "community": 368,
+      "community": 33,
       "norm_label": "importspicsvjob"
     },
     {
@@ -12072,7 +12072,7 @@
       "source_file": "app/jobs/import_spi_csv_job.rb",
       "source_location": "L4",
       "id": "jobs_import_spi_csv_job_importspicsvjob_perform",
-      "community": 368,
+      "community": 33,
       "norm_label": ".perform()"
     },
     {
@@ -12081,7 +12081,7 @@
       "source_file": "app/jobs/import_spi_csv_job.rb",
       "source_location": "L22",
       "id": "jobs_import_spi_csv_job_importspicsvjob_broadcast",
-      "community": 368,
+      "community": 33,
       "norm_label": ".broadcast()"
     },
     {
@@ -12450,7 +12450,7 @@
       "source_file": "db/migrate/20260720084820_create_integration_flcs.rb",
       "source_location": "L1",
       "id": "db_migrate_20260720084820_create_integration_flcs_rb",
-      "community": 365,
+      "community": 44,
       "norm_label": "20260720084820_create_integration_flcs.rb"
     },
     {
@@ -12459,7 +12459,7 @@
       "source_file": "db/migrate/20260720084820_create_integration_flcs.rb",
       "source_location": "L1",
       "id": "migrate_20260720084820_create_integration_flcs_createintegrationflcs",
-      "community": 365,
+      "community": 44,
       "norm_label": "createintegrationflcs"
     },
     {
@@ -12468,7 +12468,7 @@
       "source_file": "db/migrate/20260720084820_create_integration_flcs.rb",
       "source_location": "L2",
       "id": "migrate_20260720084820_create_integration_flcs_createintegrationflcs_change",
-      "community": 365,
+      "community": 44,
       "norm_label": ".change()"
     },
     {
@@ -12594,7 +12594,7 @@
       "source_file": "db/migrate/20260716104233_create_zonings.rb",
       "source_location": "L1",
       "id": "db_migrate_20260716104233_create_zonings_rb",
-      "community": 371,
+      "community": 8,
       "norm_label": "20260716104233_create_zonings.rb"
     },
     {
@@ -12603,7 +12603,7 @@
       "source_file": "db/migrate/20260716104233_create_zonings.rb",
       "source_location": "L1",
       "id": "migrate_20260716104233_create_zonings_createzonings",
-      "community": 371,
+      "community": 8,
       "norm_label": "createzonings"
     },
     {
@@ -12612,7 +12612,7 @@
       "source_file": "db/migrate/20260716104233_create_zonings.rb",
       "source_location": "L2",
       "id": "migrate_20260716104233_create_zonings_createzonings_change",
-      "community": 371,
+      "community": 8,
       "norm_label": ".change()"
     },
     {
@@ -12621,7 +12621,7 @@
       "source_file": "db/migrate/20260716062544_add_lockable_to_users.rb",
       "source_location": "L1",
       "id": "db_migrate_20260716062544_add_lockable_to_users_rb",
-      "community": 42,
+      "community": 266,
       "norm_label": "20260716062544_add_lockable_to_users.rb"
     },
     {
@@ -12630,7 +12630,7 @@
       "source_file": "db/migrate/20260716062544_add_lockable_to_users.rb",
       "source_location": "L1",
       "id": "migrate_20260716062544_add_lockable_to_users_addlockabletousers",
-      "community": 42,
+      "community": 266,
       "norm_label": "addlockabletousers"
     },
     {
@@ -12639,7 +12639,7 @@
       "source_file": "db/migrate/20260716062544_add_lockable_to_users.rb",
       "source_location": "L2",
       "id": "migrate_20260716062544_add_lockable_to_users_addlockabletousers_change",
-      "community": 42,
+      "community": 266,
       "norm_label": ".change()"
     },
     {
@@ -12873,7 +12873,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "id": "claude_md",
-      "community": 5,
+      "community": 43,
       "norm_label": "claude.md"
     },
     {
@@ -13224,7 +13224,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L339",
       "id": "fitupe_claude_2_mitigazione_del_cross_site_scripting_xss",
-      "community": 370,
+      "community": 6,
       "norm_label": "2. mitigazione del cross-site scripting (xss)"
     },
     {
@@ -13233,7 +13233,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L349",
       "id": "fitupe_claude_codeblock_13",
-      "community": 370,
+      "community": 6,
       "norm_label": "code:block13 (<!-- esempio di template erb vulnerabile: -->)"
     },
     {
@@ -13242,7 +13242,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L360",
       "id": "fitupe_claude_codeblock_14",
-      "community": 370,
+      "community": 6,
       "norm_label": "code:block14 (<!-- esempio di template erb sicuro: -->)"
     },
     {
@@ -13251,7 +13251,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L369",
       "id": "fitupe_claude_codeblock_15",
-      "community": 370,
+      "community": 6,
       "norm_label": "code:block15 (# utilizzo dell'helper sanitize per consentire tag specifici)"
     },
     {
@@ -13305,7 +13305,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L442",
       "id": "fitupe_claude_4_corretta_gestione_delle_sessioni_e_cookie_sicuri",
-      "community": 6,
+      "community": 360,
       "norm_label": "4. corretta gestione delle sessioni e cookie sicuri"
     },
     {
@@ -13314,7 +13314,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L452",
       "id": "fitupe_claude_codeblock_20",
-      "community": 6,
+      "community": 360,
       "norm_label": "code:block20 (# session store predefinito (rischio potenziale):)"
     },
     {
@@ -13323,7 +13323,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L465",
       "id": "fitupe_claude_codeblock_21",
-      "community": 6,
+      "community": 360,
       "norm_label": "code:block21 (# nel gemfile:)"
     },
     {
@@ -13332,7 +13332,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L481",
       "id": "fitupe_claude_codeblock_22",
-      "community": 6,
+      "community": 360,
       "norm_label": "code:block22 (# config/environments/production.rb:)"
     },
     {
@@ -13368,7 +13368,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L540",
       "id": "fitupe_claude_6_upload_di_file_sicuri_e_gestione_degli_allegati",
-      "community": 369,
+      "community": 6,
       "norm_label": "6. upload di file sicuri e gestione degli allegati"
     },
     {
@@ -13377,7 +13377,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L550",
       "id": "fitupe_claude_codeblock_25",
-      "community": 369,
+      "community": 6,
       "norm_label": "code:block25 (# approccio vulnerabile: salvataggio \"alla cieca\" dei file c)"
     },
     {
@@ -13386,7 +13386,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L569",
       "id": "fitupe_claude_codeblock_26",
-      "community": 369,
+      "community": 6,
       "norm_label": "code:block26 (rails active_storage:install)"
     },
     {
@@ -13395,7 +13395,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L578",
       "id": "fitupe_claude_codeblock_27",
-      "community": 369,
+      "community": 6,
       "norm_label": "code:block27 (class user < applicationrecord)"
     },
     {
@@ -13404,7 +13404,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L588",
       "id": "fitupe_claude_codeblock_28",
-      "community": 369,
+      "community": 6,
       "norm_label": "code:block28 (class userscontroller < applicationcontroller)"
     },
     {
@@ -13620,7 +13620,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L962",
       "id": "fitupe_claude_graphify",
-      "community": 43,
+      "community": 5,
       "norm_label": "\ud83d\udcc8 graphify"
     },
     {
@@ -21823,159 +21823,6 @@
       "norm_label": "code:ruby (def missing_data_result(missing_years))"
     },
     {
-      "label": "statistic_with_integrations_prints_controller.md",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/statistic_with_integrations_prints_controller.md",
-      "source_location": "L1",
-      "id": "codeguide_statisticwithintegrationsprints_statistic_with_integrations_prints_controller_md",
-      "community": 367,
-      "norm_label": "statistic_with_integrations_prints_controller.md"
-    },
-    {
-      "label": "`StatisticWithIntegrationsPrintsController`",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/statistic_with_integrations_prints_controller.md",
-      "source_location": "L1",
-      "id": "statisticwithintegrationsprints_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller",
-      "community": 367,
-      "norm_label": "`statisticwithintegrationsprintscontroller`"
-    },
-    {
-      "label": "Codice completo",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/statistic_with_integrations_prints_controller.md",
-      "source_location": "L5",
-      "id": "statisticwithintegrationsprints_statistic_with_integrations_prints_controller_codice_completo",
-      "community": 367,
-      "norm_label": "codice completo"
-    },
-    {
-      "label": "code:ruby (class StatisticWithIntegrationsPrintsController < Applicatio)",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/statistic_with_integrations_prints_controller.md",
-      "source_location": "L7",
-      "id": "statisticwithintegrationsprints_statistic_with_integrations_prints_controller_codeblock_1",
-      "community": 367,
-      "norm_label": "code:ruby (class statisticwithintegrationsprintscontroller < applicatio)"
-    },
-    {
-      "label": "Sezioni commentate",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/statistic_with_integrations_prints_controller.md",
-      "source_location": "L49",
-      "id": "statisticwithintegrationsprints_statistic_with_integrations_prints_controller_sezioni_commentate",
-      "community": 367,
-      "norm_label": "sezioni commentate"
-    },
-    {
-      "label": "L'intero controller \u2014 nessuna riga di logica propria di PDF",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/statistic_with_integrations_prints_controller.md",
-      "source_location": "L51",
-      "id": "statisticwithintegrationsprints_statistic_with_integrations_prints_controller_l_intero_controller_nessuna_riga_di_logica_propria_di_pdf",
-      "community": 367,
-      "norm_label": "l'intero controller \u2014 nessuna riga di logica propria di pdf"
-    },
-    {
-      "label": "Cosa manca deliberatamente: nessun `StatisticSpiPrints` equivalente",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/statistic_with_integrations_prints_controller.md",
-      "source_location": "L61",
-      "id": "statisticwithintegrationsprints_statistic_with_integrations_prints_controller_cosa_manca_deliberatamente_nessun_statisticspiprints_equivalente",
-      "community": 367,
-      "norm_label": "cosa manca deliberatamente: nessun `statisticspiprints` equivalente"
-    },
-    {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L1",
-      "id": "codeguide_statisticwithintegrationsprints_readme_md",
-      "community": 364,
-      "norm_label": "readme.md"
-    },
-    {
-      "label": "Stampa Statistiche Con Integrazioni \u2014 come funziona e come \u00e8 stata pensata",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L1",
-      "id": "statisticwithintegrationsprints_readme_stampa_statistiche_con_integrazioni_come_funziona_e_come_\u00e8_stata_pensata",
-      "community": 364,
-      "norm_label": "stampa statistiche con integrazioni \u2014 come funziona e come e stata pensata"
-    },
-    {
-      "label": "Parte 1 \u2014 Italiano",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L7",
-      "id": "statisticwithintegrationsprints_readme_parte_1_italiano",
-      "community": 364,
-      "norm_label": "parte 1 \u2014 italiano"
-    },
-    {
-      "label": "Scopo",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L9",
-      "id": "statisticwithintegrationsprints_readme_scopo",
-      "community": 364,
-      "norm_label": "scopo"
-    },
-    {
-      "label": "Non esiste un generatore PDF dedicato",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L13",
-      "id": "statisticwithintegrationsprints_readme_non_esiste_un_generatore_pdf_dedicato",
-      "community": 364,
-      "norm_label": "non esiste un generatore pdf dedicato"
-    },
-    {
-      "label": "Decisioni che *non* sono ovvie dal codice",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L17",
-      "id": "statisticwithintegrationsprints_readme_decisioni_che_non_sono_ovvie_dal_codice",
-      "community": 364,
-      "norm_label": "decisioni che *non* sono ovvie dal codice"
-    },
-    {
-      "label": "Part 2 \u2014 English",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L24",
-      "id": "statisticwithintegrationsprints_readme_part_2_english",
-      "community": 364,
-      "norm_label": "part 2 \u2014 english"
-    },
-    {
-      "label": "Purpose",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L26",
-      "id": "statisticwithintegrationsprints_readme_purpose",
-      "community": 364,
-      "norm_label": "purpose"
-    },
-    {
-      "label": "There is no dedicated PDF generator",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L30",
-      "id": "statisticwithintegrationsprints_readme_there_is_no_dedicated_pdf_generator",
-      "community": 364,
-      "norm_label": "there is no dedicated pdf generator"
-    },
-    {
-      "label": "Decisions that are *not* obvious from the code",
-      "file_type": "document",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L34",
-      "id": "statisticwithintegrationsprints_readme_decisions_that_are_not_obvious_from_the_code",
-      "community": 364,
-      "norm_label": "decisions that are *not* obvious from the code"
-    },
-    {
       "label": "README.md",
       "file_type": "document",
       "source_file": "CodeGuide/IntegrationFlcs/README.md",
@@ -24073,330 +23920,6 @@
       "norm_label": "tutto il resto (identico riga per riga alla versione attivi)"
     },
     {
-      "label": "integration_filleas_controller.md",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L1",
-      "id": "codeguide_integrationfilleas_integration_filleas_controller_md",
-      "community": 337,
-      "norm_label": "integration_filleas_controller.md"
-    },
-    {
-      "label": "`IntegrationFilleasController`",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L1",
-      "id": "integrationfilleas_integration_filleas_controller_integrationfilleascontroller",
-      "community": 337,
-      "norm_label": "`integrationfilleascontroller`"
-    },
-    {
-      "label": "Codice completo",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L5",
-      "id": "integrationfilleas_integration_filleas_controller_codice_completo",
-      "community": 337,
-      "norm_label": "codice completo"
-    },
-    {
-      "label": "code:ruby (class IntegrationFilleasController < ApplicationController)",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L7",
-      "id": "integrationfilleas_integration_filleas_controller_codeblock_1",
-      "community": 337,
-      "norm_label": "code:ruby (class integrationfilleascontroller < applicationcontroller)"
-    },
-    {
-      "label": "Sezioni commentate",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L73",
-      "id": "integrationfilleas_integration_filleas_controller_sezioni_commentate",
-      "community": 337,
-      "norm_label": "sezioni commentate"
-    },
-    {
-      "label": "L'intero controller \u2014 un CRUD standard, e questo \u00c8 la decisione di design",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L75",
-      "id": "integrationfilleas_integration_filleas_controller_l_intero_controller_un_crud_standard_e_questo_\u00e8_la_decisione_di_design",
-      "community": 337,
-      "norm_label": "l'intero controller \u2014 un crud standard, e questo e la decisione di design"
-    },
-    {
-      "label": "`index`",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L81",
-      "id": "integrationfilleas_integration_filleas_controller_index",
-      "community": 337,
-      "norm_label": "`index`"
-    },
-    {
-      "label": "code:ruby (def index)",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L83",
-      "id": "integrationfilleas_integration_filleas_controller_codeblock_2",
-      "community": 337,
-      "norm_label": "code:ruby (def index)"
-    },
-    {
-      "label": "`create`, `update`, `destroy` \u2014 nessuna sorpresa, ed \u00e8 voluto",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L94",
-      "id": "integrationfilleas_integration_filleas_controller_create_update_destroy_nessuna_sorpresa_ed_\u00e8_voluto",
-      "community": 337,
-      "norm_label": "`create`, `update`, `destroy` \u2014 nessuna sorpresa, ed e voluto"
-    },
-    {
-      "label": "code:ruby (def create)",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L96",
-      "id": "integrationfilleas_integration_filleas_controller_codeblock_3",
-      "community": 337,
-      "norm_label": "code:ruby (def create)"
-    },
-    {
-      "label": "`integration_fillea_params` *(privato)*",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L113",
-      "id": "integrationfilleas_integration_filleas_controller_integration_fillea_params_privato",
-      "community": 337,
-      "norm_label": "`integration_fillea_params` *(privato)*"
-    },
-    {
-      "label": "code:ruby (def integration_fillea_params)",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L115",
-      "id": "integrationfilleas_integration_filleas_controller_codeblock_4",
-      "community": 337,
-      "norm_label": "code:ruby (def integration_fillea_params)"
-    },
-    {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L1",
-      "id": "codeguide_integrationfilleas_readme_md",
-      "community": 360,
-      "norm_label": "readme.md"
-    },
-    {
-      "label": "Integrazione Cassa Edile (FILLEA) \u2014 come funziona e come \u00e8 stata pensata",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L1",
-      "id": "integrationfilleas_readme_integrazione_cassa_edile_fillea_come_funziona_e_come_\u00e8_stata_pensata",
-      "community": 360,
-      "norm_label": "integrazione cassa edile (fillea) \u2014 come funziona e come e stata pensata"
-    },
-    {
-      "label": "Parte 1 \u2014 Italiano",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L7",
-      "id": "integrationfilleas_readme_parte_1_italiano",
-      "community": 360,
-      "norm_label": "parte 1 \u2014 italiano"
-    },
-    {
-      "label": "Scopo",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L9",
-      "id": "integrationfilleas_readme_scopo",
-      "community": 360,
-      "norm_label": "scopo"
-    },
-    {
-      "label": "Perch\u00e9 non c'\u00e8 un controller di upload, a differenza di FLC",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L15",
-      "id": "integrationfilleas_readme_perch\u00e9_non_c_\u00e8_un_controller_di_upload_a_differenza_di_flc",
-      "community": 360,
-      "norm_label": "perche non c'e un controller di upload, a differenza di flc"
-    },
-    {
-      "label": "Il modello: sette righe, tutta la logica di dominio",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L19",
-      "id": "integrationfilleas_readme_il_modello_sette_righe_tutta_la_logica_di_dominio",
-      "community": 360,
-      "norm_label": "il modello: sette righe, tutta la logica di dominio"
-    },
-    {
-      "label": "Decisioni che *non* sono ovvie dal codice",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L23",
-      "id": "integrationfilleas_readme_decisioni_che_non_sono_ovvie_dal_codice",
-      "community": 360,
-      "norm_label": "decisioni che *non* sono ovvie dal codice"
-    },
-    {
-      "label": "Part 2 \u2014 English",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L31",
-      "id": "integrationfilleas_readme_part_2_english",
-      "community": 360,
-      "norm_label": "part 2 \u2014 english"
-    },
-    {
-      "label": "Purpose",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L33",
-      "id": "integrationfilleas_readme_purpose",
-      "community": 360,
-      "norm_label": "purpose"
-    },
-    {
-      "label": "Why there's no upload controller, unlike FLC",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L39",
-      "id": "integrationfilleas_readme_why_there_s_no_upload_controller_unlike_flc",
-      "community": 360,
-      "norm_label": "why there's no upload controller, unlike flc"
-    },
-    {
-      "label": "The model: seven lines, all the domain logic",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L43",
-      "id": "integrationfilleas_readme_the_model_seven_lines_all_the_domain_logic",
-      "community": 360,
-      "norm_label": "the model: seven lines, all the domain logic"
-    },
-    {
-      "label": "Decisions that are *not* obvious from the code",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L47",
-      "id": "integrationfilleas_readme_decisions_that_are_not_obvious_from_the_code",
-      "community": 360,
-      "norm_label": "decisions that are *not* obvious from the code"
-    },
-    {
-      "label": "integration_fillea.md",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L1",
-      "id": "codeguide_integrationfilleas_integration_fillea_md",
-      "community": 335,
-      "norm_label": "integration_fillea.md"
-    },
-    {
-      "label": "`IntegrationFillea`",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L1",
-      "id": "integrationfilleas_integration_fillea_integrationfillea",
-      "community": 335,
-      "norm_label": "`integrationfillea`"
-    },
-    {
-      "label": "Codice completo",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L5",
-      "id": "integrationfilleas_integration_fillea_codice_completo",
-      "community": 335,
-      "norm_label": "codice completo"
-    },
-    {
-      "label": "code:ruby (class IntegrationFillea < ApplicationRecord)",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L7",
-      "id": "integrationfilleas_integration_fillea_codeblock_1",
-      "community": 335,
-      "norm_label": "code:ruby (class integrationfillea < applicationrecord)"
-    },
-    {
-      "label": "Sezioni commentate",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L17",
-      "id": "integrationfilleas_integration_fillea_sezioni_commentate",
-      "community": 335,
-      "norm_label": "sezioni commentate"
-    },
-    {
-      "label": "La classe intera \u2014 le validazioni sono l'unica logica del modello",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L19",
-      "id": "integrationfilleas_integration_fillea_la_classe_intera_le_validazioni_sono_l_unica_logica_del_modello",
-      "community": 335,
-      "norm_label": "la classe intera \u2014 le validazioni sono l'unica logica del modello"
-    },
-    {
-      "label": "`validates :year` \u2014 formato, non tipo di colonna",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L25",
-      "id": "integrationfilleas_integration_fillea_validates_year_formato_non_tipo_di_colonna",
-      "community": 335,
-      "norm_label": "`validates :year` \u2014 formato, non tipo di colonna"
-    },
-    {
-      "label": "code:ruby (validates :year, presence: true, format: { with: /\\A\\d{4}\\z/)",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L27",
-      "id": "integrationfilleas_integration_fillea_codeblock_2",
-      "community": 335,
-      "norm_label": "code:ruby (validates :year, presence: true, format: { with: /\\a\\d{4}\\z/)"
-    },
-    {
-      "label": "`validates :subscribers_ce`",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L35",
-      "id": "integrationfilleas_integration_fillea_validates_subscribers_ce",
-      "community": 335,
-      "norm_label": "`validates :subscribers_ce`"
-    },
-    {
-      "label": "code:ruby (validates :subscribers_ce, presence: true, numericality: { o)",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L37",
-      "id": "integrationfilleas_integration_fillea_codeblock_3",
-      "community": 335,
-      "norm_label": "code:ruby (validates :subscribers_ce, presence: true, numericality: { o)"
-    },
-    {
-      "label": "`validates :year, uniqueness: { scope: :zoning_id }`",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L45",
-      "id": "integrationfilleas_integration_fillea_validates_year_uniqueness_scope_zoning_id",
-      "community": 335,
-      "norm_label": "`validates :year, uniqueness: { scope: :zoning_id }`"
-    },
-    {
-      "label": "code:ruby (validates :year, uniqueness: { scope: :zoning_id, message: \")",
-      "file_type": "document",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L47",
-      "id": "integrationfilleas_integration_fillea_codeblock_4",
-      "community": 335,
-      "norm_label": "code:ruby (validates :year, uniqueness: { scope: :zoning_id, message: \")"
-    },
-    {
       "label": "README.md",
       "file_type": "document",
       "source_file": "CodeGuide/Imports/README.md",
@@ -25112,7 +24635,7 @@
       "file_type": "code",
       "source_file": "app/services/statistic_with_integrations/fillea_correction.rb",
       "source_location": "L32",
-      "community": 277,
+      "community": 10,
       "norm_label": ".target_zonings()",
       "id": "statistic_with_integrations_fillea_correction_filleacorrection_target_zonings"
     },
@@ -27208,7 +26731,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 275,
+      "community": 335,
       "norm_label": "codeguide guide: statistics::nationalitybreakdown",
       "id": "statistics_nationality_breakdown"
     },
@@ -27234,7 +26757,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 62,
+      "community": 337,
       "norm_label": "codeguide guide: statistics::membershiptypebreakdown",
       "id": "statistics_membership_type_breakdown"
     },
@@ -27260,7 +26783,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 67,
+      "community": 277,
       "norm_label": "codeguide guide: statistics::workstatusbreakdown",
       "id": "statistics_work_status_breakdown"
     },
@@ -28040,7 +27563,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 292,
+      "community": 11,
       "norm_label": "integrationflcuploadform",
       "id": "forms_integration_flc_upload_form_integrationflcuploadform"
     },
@@ -28313,7 +27836,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 350,
+      "community": 59,
       "norm_label": "statisticprints::legendcontent",
       "id": "statistic_prints_legend_content_legendcontent"
     },
@@ -28586,7 +28109,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 365,
+      "community": 44,
       "norm_label": "integrationflc factory",
       "id": "factories_integration_flcs"
     },
@@ -28599,7 +28122,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 368,
+      "community": 33,
       "norm_label": "importspicsvjob spec",
       "id": "jobs_import_spi_csv_job_spec"
     },
@@ -28664,7 +28187,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 44,
       "norm_label": "legend spec",
       "id": "models_legend_spec"
     },
@@ -28677,7 +28200,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 365,
+      "community": 44,
       "norm_label": "integrationflc spec",
       "id": "models_integration_flc_spec"
     },
@@ -28885,7 +28408,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 292,
+      "community": 11,
       "norm_label": "integrationflcuploads request spec",
       "id": "requests_integration_flc_uploads_spec_integrationflcuploads"
     },
@@ -29067,7 +28590,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 350,
+      "community": 59,
       "norm_label": "statisticprints::reportpdf spec",
       "id": "statistic_prints_report_pdf_spec_reportpdf"
     },
@@ -29106,7 +28629,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 350,
+      "community": 59,
       "norm_label": "statisticprints::legendcontent spec",
       "id": "statistic_prints_legend_content_spec_legendcontent"
     },
@@ -29171,7 +28694,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 366,
+      "community": 67,
       "norm_label": "statisticspi::reconcilediscrittibycomprensorio spec",
       "id": "statistic_spi_reconciled_iscritti_by_comprensorio_spec_reconcilediscrittibycomprensorio"
     },
@@ -29223,7 +28746,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 277,
+      "community": 10,
       "norm_label": "statisticwithintegrations::filleacorrection spec",
       "id": "statistic_with_integrations_fillea_correction_spec_filleacorrection"
     },
@@ -29236,7 +28759,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 275,
+      "community": 10,
       "norm_label": "statisticwithintegrations::totalmemberscomparison spec",
       "id": "statistic_with_integrations_total_members_comparison_spec_totalmemberscomparison"
     },
@@ -29249,7 +28772,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 62,
+      "community": 337,
       "norm_label": "statistics::membershiptypebreakdown spec",
       "id": "statistics_membership_type_breakdown_spec_membershiptypebreakdown"
     },
@@ -29262,7 +28785,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 67,
+      "community": 277,
       "norm_label": "statistics::workstatusbreakdown spec",
       "id": "statistics_work_status_breakdown_spec_workstatusbreakdown"
     },
@@ -29275,7 +28798,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 275,
+      "community": 335,
       "norm_label": "statistics::nationalitybreakdown spec",
       "id": "statistics_nationality_breakdown_spec_nationalitybreakdown"
     },
@@ -51634,9 +51157,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/README.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_statisticwithintegrations_readme_md",
-      "target": "statisticwithintegrations_readme_statistiche_con_integrazioni_come_funziona_e_come_\u00e8_stata_pensata"
+      "target": "statisticwithintegrations_readme_statistiche_con_integrazioni_come_funziona_e_come_\u00e8_stata_pensata",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51644,9 +51167,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/README.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_readme_statistiche_con_integrazioni_come_funziona_e_come_\u00e8_stata_pensata",
-      "target": "statisticwithintegrations_readme_parte_1_italiano"
+      "target": "statisticwithintegrations_readme_parte_1_italiano",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51654,9 +51177,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/README.md",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_readme_statistiche_con_integrazioni_come_funziona_e_come_\u00e8_stata_pensata",
-      "target": "statisticwithintegrations_readme_part_2_english"
+      "target": "statisticwithintegrations_readme_part_2_english",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51664,9 +51187,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/README.md",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_readme_parte_1_italiano",
-      "target": "statisticwithintegrations_readme_scopo"
+      "target": "statisticwithintegrations_readme_scopo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51674,9 +51197,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/README.md",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_readme_parte_1_italiano",
-      "target": "statisticwithintegrations_readme_due_meccanismi_di_correzione_strutturalmente_simili_ma_concettualmente_diversi"
+      "target": "statisticwithintegrations_readme_due_meccanismi_di_correzione_strutturalmente_simili_ma_concettualmente_diversi",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51684,9 +51207,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/README.md",
       "source_location": "L22",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_readme_parte_1_italiano",
-      "target": "statisticwithintegrations_readme_l_orchestratore_quale_diff_va_dove"
+      "target": "statisticwithintegrations_readme_l_orchestratore_quale_diff_va_dove",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51694,9 +51217,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/README.md",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_readme_parte_1_italiano",
-      "target": "statisticwithintegrations_readme_il_bug_del_2026_08_04_perch\u00e9_nessun_equivalente_esterno_non_basta_come_criterio"
+      "target": "statisticwithintegrations_readme_il_bug_del_2026_08_04_perch\u00e9_nessun_equivalente_esterno_non_basta_come_criterio",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51704,9 +51227,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/README.md",
       "source_location": "L38",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_readme_parte_1_italiano",
-      "target": "statisticwithintegrations_readme_decisioni_che_non_sono_ovvie_dal_codice"
+      "target": "statisticwithintegrations_readme_decisioni_che_non_sono_ovvie_dal_codice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51714,9 +51237,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/README.md",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_readme_part_2_english",
-      "target": "statisticwithintegrations_readme_purpose"
+      "target": "statisticwithintegrations_readme_purpose",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51724,9 +51247,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/README.md",
       "source_location": "L55",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_readme_part_2_english",
-      "target": "statisticwithintegrations_readme_two_correction_mechanisms_structurally_similar_but_conceptually_different"
+      "target": "statisticwithintegrations_readme_two_correction_mechanisms_structurally_similar_but_conceptually_different",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51734,9 +51257,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/README.md",
       "source_location": "L62",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_readme_part_2_english",
-      "target": "statisticwithintegrations_readme_the_orchestrator_which_diff_goes_where"
+      "target": "statisticwithintegrations_readme_the_orchestrator_which_diff_goes_where",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51744,9 +51267,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/README.md",
       "source_location": "L74",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_readme_part_2_english",
-      "target": "statisticwithintegrations_readme_the_2026_08_04_bug_why_no_external_equivalent_isn_t_a_sufficient_criterion"
+      "target": "statisticwithintegrations_readme_the_2026_08_04_bug_why_no_external_equivalent_isn_t_a_sufficient_criterion",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51754,9 +51277,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/README.md",
       "source_location": "L78",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_readme_part_2_english",
-      "target": "statisticwithintegrations_readme_decisions_that_are_not_obvious_from_the_code"
+      "target": "statisticwithintegrations_readme_decisions_that_are_not_obvious_from_the_code",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51764,9 +51287,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/fillea_correction.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_statisticwithintegrations_fillea_correction_md",
-      "target": "statisticwithintegrations_fillea_correction_statisticwithintegrations_filleacorrection"
+      "target": "statisticwithintegrations_fillea_correction_statisticwithintegrations_filleacorrection",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51774,9 +51297,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/fillea_correction.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_fillea_correction_statisticwithintegrations_filleacorrection",
-      "target": "statisticwithintegrations_fillea_correction_codice_completo"
+      "target": "statisticwithintegrations_fillea_correction_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51784,9 +51307,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/fillea_correction.md",
       "source_location": "L73",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_fillea_correction_statisticwithintegrations_filleacorrection",
-      "target": "statisticwithintegrations_fillea_correction_sezioni_commentate"
+      "target": "statisticwithintegrations_fillea_correction_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51794,9 +51317,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/fillea_correction.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_fillea_correction_codice_completo",
-      "target": "statisticwithintegrations_fillea_correction_codeblock_1"
+      "target": "statisticwithintegrations_fillea_correction_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51804,9 +51327,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/fillea_correction.md",
       "source_location": "L75",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_fillea_correction_sezioni_commentate",
-      "target": "statisticwithintegrations_fillea_correction_commento_di_classe"
+      "target": "statisticwithintegrations_fillea_correction_commento_di_classe",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51814,9 +51337,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/fillea_correction.md",
       "source_location": "L91",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_fillea_correction_sezioni_commentate",
-      "target": "statisticwithintegrations_fillea_correction_row_result_struct"
+      "target": "statisticwithintegrations_fillea_correction_row_result_struct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51824,9 +51347,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/fillea_correction.md",
       "source_location": "L104",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_fillea_correction_sezioni_commentate",
-      "target": "statisticwithintegrations_fillea_correction_call_regional_result_due_politiche_diverse_per_i_dati_mancanti"
+      "target": "statisticwithintegrations_fillea_correction_call_regional_result_due_politiche_diverse_per_i_dati_mancanti",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51834,9 +51357,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/fillea_correction.md",
       "source_location": "L131",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_fillea_correction_sezioni_commentate",
-      "target": "statisticwithintegrations_fillea_correction_dato_presente_regionale_province_zonings_privati"
+      "target": "statisticwithintegrations_fillea_correction_dato_presente_regionale_province_zonings_privati",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51844,9 +51367,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/fillea_correction.md",
       "source_location": "L148",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_fillea_correction_sezioni_commentate",
-      "target": "statisticwithintegrations_fillea_correction_build_row_privato"
+      "target": "statisticwithintegrations_fillea_correction_build_row_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51854,9 +51377,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/fillea_correction.md",
       "source_location": "L164",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_fillea_correction_sezioni_commentate",
-      "target": "statisticwithintegrations_fillea_correction_missing_result_privato"
+      "target": "statisticwithintegrations_fillea_correction_missing_result_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51864,9 +51387,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/fillea_correction.md",
       "source_location": "L77",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_fillea_correction_commento_di_classe",
-      "target": "statisticwithintegrations_fillea_correction_codeblock_2"
+      "target": "statisticwithintegrations_fillea_correction_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51874,9 +51397,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/fillea_correction.md",
       "source_location": "L93",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_fillea_correction_row_result_struct",
-      "target": "statisticwithintegrations_fillea_correction_codeblock_3"
+      "target": "statisticwithintegrations_fillea_correction_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51884,9 +51407,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/fillea_correction.md",
       "source_location": "L106",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_fillea_correction_call_regional_result_due_politiche_diverse_per_i_dati_mancanti",
-      "target": "statisticwithintegrations_fillea_correction_codeblock_4"
+      "target": "statisticwithintegrations_fillea_correction_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51894,9 +51417,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/fillea_correction.md",
       "source_location": "L133",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_fillea_correction_dato_presente_regionale_province_zonings_privati",
-      "target": "statisticwithintegrations_fillea_correction_codeblock_5"
+      "target": "statisticwithintegrations_fillea_correction_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51904,9 +51427,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/fillea_correction.md",
       "source_location": "L150",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_fillea_correction_build_row_privato",
-      "target": "statisticwithintegrations_fillea_correction_codeblock_6"
+      "target": "statisticwithintegrations_fillea_correction_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51914,9 +51437,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/fillea_correction.md",
       "source_location": "L166",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_fillea_correction_missing_result_privato",
-      "target": "statisticwithintegrations_fillea_correction_codeblock_7"
+      "target": "statisticwithintegrations_fillea_correction_codeblock_7",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51924,9 +51447,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/flc_correction.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_statisticwithintegrations_flc_correction_md",
-      "target": "statisticwithintegrations_flc_correction_statisticwithintegrations_flccorrection"
+      "target": "statisticwithintegrations_flc_correction_statisticwithintegrations_flccorrection",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51934,9 +51457,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/flc_correction.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_flc_correction_statisticwithintegrations_flccorrection",
-      "target": "statisticwithintegrations_flc_correction_codice_completo"
+      "target": "statisticwithintegrations_flc_correction_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51944,9 +51467,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/flc_correction.md",
       "source_location": "L84",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_flc_correction_statisticwithintegrations_flccorrection",
-      "target": "statisticwithintegrations_flc_correction_sezioni_commentate"
+      "target": "statisticwithintegrations_flc_correction_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51954,9 +51477,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/flc_correction.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_flc_correction_codice_completo",
-      "target": "statisticwithintegrations_flc_correction_codeblock_1"
+      "target": "statisticwithintegrations_flc_correction_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51964,9 +51487,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/flc_correction.md",
       "source_location": "L86",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_flc_correction_sezioni_commentate",
-      "target": "statisticwithintegrations_flc_correction_commento_di_classe_la_storia_dietro_il_ritardo_di_un_mese"
+      "target": "statisticwithintegrations_flc_correction_commento_di_classe_la_storia_dietro_il_ritardo_di_un_mese",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51974,9 +51497,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/flc_correction.md",
       "source_location": "L106",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_flc_correction_sezioni_commentate",
-      "target": "statisticwithintegrations_flc_correction_row_un_campo_in_meno_rispetto_a_filleacorrection_row"
+      "target": "statisticwithintegrations_flc_correction_row_un_campo_in_meno_rispetto_a_filleacorrection_row",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51984,9 +51507,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/flc_correction.md",
       "source_location": "L116",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_flc_correction_sezioni_commentate",
-      "target": "statisticwithintegrations_flc_correction_call_regional_result_dato_presente_regionale_province_zonings_identici_a_filleacorrection"
+      "target": "statisticwithintegrations_flc_correction_call_regional_result_dato_presente_regionale_province_zonings_identici_a_filleacorrection",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -51994,9 +51517,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/flc_correction.md",
       "source_location": "L122",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_flc_correction_sezioni_commentate",
-      "target": "statisticwithintegrations_flc_correction_lookup_month_lookup_year_privati_il_ritardo_di_un_mese_in_codice"
+      "target": "statisticwithintegrations_flc_correction_lookup_month_lookup_year_privati_il_ritardo_di_un_mese_in_codice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52004,9 +51527,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/flc_correction.md",
       "source_location": "L140",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_flc_correction_sezioni_commentate",
-      "target": "statisticwithintegrations_flc_correction_build_row_privato_addizione_pura_non_differenza"
+      "target": "statisticwithintegrations_flc_correction_build_row_privato_addizione_pura_non_differenza",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52014,9 +51537,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/flc_correction.md",
       "source_location": "L153",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_flc_correction_sezioni_commentate",
-      "target": "statisticwithintegrations_flc_correction_missing_result_privato"
+      "target": "statisticwithintegrations_flc_correction_missing_result_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52024,9 +51547,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/flc_correction.md",
       "source_location": "L88",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_flc_correction_commento_di_classe_la_storia_dietro_il_ritardo_di_un_mese",
-      "target": "statisticwithintegrations_flc_correction_codeblock_2"
+      "target": "statisticwithintegrations_flc_correction_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52034,9 +51557,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/flc_correction.md",
       "source_location": "L108",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_flc_correction_row_un_campo_in_meno_rispetto_a_filleacorrection_row",
-      "target": "statisticwithintegrations_flc_correction_codeblock_3"
+      "target": "statisticwithintegrations_flc_correction_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52044,9 +51567,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/flc_correction.md",
       "source_location": "L124",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_flc_correction_lookup_month_lookup_year_privati_il_ritardo_di_un_mese_in_codice",
-      "target": "statisticwithintegrations_flc_correction_codeblock_4"
+      "target": "statisticwithintegrations_flc_correction_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52054,9 +51577,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/flc_correction.md",
       "source_location": "L142",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_flc_correction_build_row_privato_addizione_pura_non_differenza",
-      "target": "statisticwithintegrations_flc_correction_codeblock_5"
+      "target": "statisticwithintegrations_flc_correction_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52064,9 +51587,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/flc_correction.md",
       "source_location": "L155",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_flc_correction_missing_result_privato",
-      "target": "statisticwithintegrations_flc_correction_codeblock_6"
+      "target": "statisticwithintegrations_flc_correction_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52074,9 +51597,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_statisticwithintegrations_total_members_comparison_md",
-      "target": "statisticwithintegrations_total_members_comparison_statisticwithintegrations_totalmemberscomparison"
+      "target": "statisticwithintegrations_total_members_comparison_statisticwithintegrations_totalmemberscomparison",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52084,9 +51607,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_statisticwithintegrations_totalmemberscomparison",
-      "target": "statisticwithintegrations_total_members_comparison_codice_completo"
+      "target": "statisticwithintegrations_total_members_comparison_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52094,9 +51617,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L168",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_statisticwithintegrations_totalmemberscomparison",
-      "target": "statisticwithintegrations_total_members_comparison_sezioni_commentate"
+      "target": "statisticwithintegrations_total_members_comparison_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52104,9 +51627,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_codice_completo",
-      "target": "statisticwithintegrations_total_members_comparison_codeblock_1"
+      "target": "statisticwithintegrations_total_members_comparison_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52114,9 +51637,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L170",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_sezioni_commentate",
-      "target": "statisticwithintegrations_total_members_comparison_commento_di_classe_la_mappa_completa_di_cosa_viene_ricalibrato_e_perch\u00e9"
+      "target": "statisticwithintegrations_total_members_comparison_commento_di_classe_la_mappa_completa_di_cosa_viene_ricalibrato_e_perch\u00e9",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52124,9 +51647,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L191",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_sezioni_commentate",
-      "target": "statisticwithintegrations_total_members_comparison_result_struct_e_le_tre_costanti"
+      "target": "statisticwithintegrations_total_members_comparison_result_struct_e_le_tre_costanti",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52134,9 +51657,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L210",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_sezioni_commentate",
-      "target": "statisticwithintegrations_total_members_comparison_call_quattro_chiamate_tre_livelli_di_severit\u00e0_sui_dati_mancanti"
+      "target": "statisticwithintegrations_total_members_comparison_call_quattro_chiamate_tre_livelli_di_severit\u00e0_sui_dati_mancanti",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52144,9 +51667,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L234",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_sezioni_commentate",
-      "target": "statisticwithintegrations_total_members_comparison_build_result_il_punto_di_assemblaggio"
+      "target": "statisticwithintegrations_total_members_comparison_build_result_il_punto_di_assemblaggio",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52154,9 +51677,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L279",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_sezioni_commentate",
-      "target": "statisticwithintegrations_total_members_comparison_recalibrate_comprensori_privato"
+      "target": "statisticwithintegrations_total_members_comparison_recalibrate_comprensori_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52164,9 +51687,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L300",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_sezioni_commentate",
-      "target": "statisticwithintegrations_total_members_comparison_recalibrate_named_privato"
+      "target": "statisticwithintegrations_total_members_comparison_recalibrate_named_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52174,9 +51697,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L322",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_sezioni_commentate",
-      "target": "statisticwithintegrations_total_members_comparison_recalibrate_attivi_pensionati_privato_il_metodo_aggiunto_dal_fix_del_2026_08_04"
+      "target": "statisticwithintegrations_total_members_comparison_recalibrate_attivi_pensionati_privato_il_metodo_aggiunto_dal_fix_del_2026_08_04",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52184,9 +51707,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L349",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_sezioni_commentate",
-      "target": "statisticwithintegrations_total_members_comparison_diff_for_diff_precedente_for_total_diff_precedente_privati_la_rete_di_sicurezza_per_l_anno_precedente"
+      "target": "statisticwithintegrations_total_members_comparison_diff_for_diff_precedente_for_total_diff_precedente_privati_la_rete_di_sicurezza_per_l_anno_precedente",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52194,9 +51717,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L371",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_sezioni_commentate",
-      "target": "statisticwithintegrations_total_members_comparison_recalibrate_missing_result_privati"
+      "target": "statisticwithintegrations_total_members_comparison_recalibrate_missing_result_privati",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52204,9 +51727,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L172",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_commento_di_classe_la_mappa_completa_di_cosa_viene_ricalibrato_e_perch\u00e9",
-      "target": "statisticwithintegrations_total_members_comparison_codeblock_2"
+      "target": "statisticwithintegrations_total_members_comparison_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52214,9 +51737,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L193",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_result_struct_e_le_tre_costanti",
-      "target": "statisticwithintegrations_total_members_comparison_codeblock_3"
+      "target": "statisticwithintegrations_total_members_comparison_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52224,9 +51747,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L212",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_call_quattro_chiamate_tre_livelli_di_severit\u00e0_sui_dati_mancanti",
-      "target": "statisticwithintegrations_total_members_comparison_codeblock_4"
+      "target": "statisticwithintegrations_total_members_comparison_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52234,9 +51757,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L236",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_build_result_il_punto_di_assemblaggio",
-      "target": "statisticwithintegrations_total_members_comparison_codeblock_5"
+      "target": "statisticwithintegrations_total_members_comparison_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52244,9 +51767,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L281",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_recalibrate_comprensori_privato",
-      "target": "statisticwithintegrations_total_members_comparison_codeblock_6"
+      "target": "statisticwithintegrations_total_members_comparison_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52254,9 +51777,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L302",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_recalibrate_named_privato",
-      "target": "statisticwithintegrations_total_members_comparison_codeblock_7"
+      "target": "statisticwithintegrations_total_members_comparison_codeblock_7",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52264,9 +51787,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L324",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_recalibrate_attivi_pensionati_privato_il_metodo_aggiunto_dal_fix_del_2026_08_04",
-      "target": "statisticwithintegrations_total_members_comparison_codeblock_8"
+      "target": "statisticwithintegrations_total_members_comparison_codeblock_8",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52274,9 +51797,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L351",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_diff_for_diff_precedente_for_total_diff_precedente_privati_la_rete_di_sicurezza_per_l_anno_precedente",
-      "target": "statisticwithintegrations_total_members_comparison_codeblock_9"
+      "target": "statisticwithintegrations_total_members_comparison_codeblock_9",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -52284,9 +51807,9 @@
       "source_file": "CodeGuide/StatisticWithIntegrations/total_members_comparison.md",
       "source_location": "L373",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "statisticwithintegrations_total_members_comparison_recalibrate_missing_result_privati",
-      "target": "statisticwithintegrations_total_members_comparison_codeblock_10"
+      "target": "statisticwithintegrations_total_members_comparison_codeblock_10",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60081,162 +59604,12 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/statistic_with_integrations_prints_controller.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "codeguide_statisticwithintegrationsprints_statistic_with_integrations_prints_controller_md",
-      "target": "statisticwithintegrationsprints_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/statistic_with_integrations_prints_controller.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "statisticwithintegrationsprints_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller",
-      "target": "statisticwithintegrationsprints_statistic_with_integrations_prints_controller_codice_completo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/statistic_with_integrations_prints_controller.md",
-      "source_location": "L49",
-      "weight": 1.0,
-      "source": "statisticwithintegrationsprints_statistic_with_integrations_prints_controller_statisticwithintegrationsprintscontroller",
-      "target": "statisticwithintegrationsprints_statistic_with_integrations_prints_controller_sezioni_commentate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/statistic_with_integrations_prints_controller.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "statisticwithintegrationsprints_statistic_with_integrations_prints_controller_codice_completo",
-      "target": "statisticwithintegrationsprints_statistic_with_integrations_prints_controller_codeblock_1",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/statistic_with_integrations_prints_controller.md",
-      "source_location": "L51",
-      "weight": 1.0,
-      "source": "statisticwithintegrationsprints_statistic_with_integrations_prints_controller_sezioni_commentate",
-      "target": "statisticwithintegrationsprints_statistic_with_integrations_prints_controller_l_intero_controller_nessuna_riga_di_logica_propria_di_pdf",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/statistic_with_integrations_prints_controller.md",
-      "source_location": "L61",
-      "weight": 1.0,
-      "source": "statisticwithintegrationsprints_statistic_with_integrations_prints_controller_sezioni_commentate",
-      "target": "statisticwithintegrationsprints_statistic_with_integrations_prints_controller_cosa_manca_deliberatamente_nessun_statisticspiprints_equivalente",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "codeguide_statisticwithintegrationsprints_readme_md",
-      "target": "statisticwithintegrationsprints_readme_stampa_statistiche_con_integrazioni_come_funziona_e_come_\u00e8_stata_pensata",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "statisticwithintegrationsprints_readme_stampa_statistiche_con_integrazioni_come_funziona_e_come_\u00e8_stata_pensata",
-      "target": "statisticwithintegrationsprints_readme_parte_1_italiano",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "statisticwithintegrationsprints_readme_stampa_statistiche_con_integrazioni_come_funziona_e_come_\u00e8_stata_pensata",
-      "target": "statisticwithintegrationsprints_readme_part_2_english",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "statisticwithintegrationsprints_readme_parte_1_italiano",
-      "target": "statisticwithintegrationsprints_readme_scopo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "statisticwithintegrationsprints_readme_parte_1_italiano",
-      "target": "statisticwithintegrationsprints_readme_non_esiste_un_generatore_pdf_dedicato",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "statisticwithintegrationsprints_readme_parte_1_italiano",
-      "target": "statisticwithintegrationsprints_readme_decisioni_che_non_sono_ovvie_dal_codice",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "statisticwithintegrationsprints_readme_part_2_english",
-      "target": "statisticwithintegrationsprints_readme_purpose",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L30",
-      "weight": 1.0,
-      "source": "statisticwithintegrationsprints_readme_part_2_english",
-      "target": "statisticwithintegrationsprints_readme_there_is_no_dedicated_pdf_generator",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/StatisticWithIntegrationsPrints/README.md",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "statisticwithintegrationsprints_readme_part_2_english",
-      "target": "statisticwithintegrationsprints_readme_decisions_that_are_not_obvious_from_the_code",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "CodeGuide/IntegrationFlcs/README.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_integrationflcs_readme_md",
-      "target": "integrationflcs_readme_integrazione_anagrafe_flc_come_funziona_e_come_\u00e8_stata_pensata"
+      "target": "integrationflcs_readme_integrazione_anagrafe_flc_come_funziona_e_come_\u00e8_stata_pensata",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60244,9 +59617,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/README.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_readme_integrazione_anagrafe_flc_come_funziona_e_come_\u00e8_stata_pensata",
-      "target": "integrationflcs_readme_parte_1_italiano"
+      "target": "integrationflcs_readme_parte_1_italiano",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60254,9 +59627,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/README.md",
       "source_location": "L29",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_readme_integrazione_anagrafe_flc_come_funziona_e_come_\u00e8_stata_pensata",
-      "target": "integrationflcs_readme_part_2_english"
+      "target": "integrationflcs_readme_part_2_english",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60264,9 +59637,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/README.md",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_readme_parte_1_italiano",
-      "target": "integrationflcs_readme_scopo"
+      "target": "integrationflcs_readme_scopo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60274,9 +59647,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/README.md",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_readme_parte_1_italiano",
-      "target": "integrationflcs_readme_le_due_classi"
+      "target": "integrationflcs_readme_le_due_classi",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60284,9 +59657,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/README.md",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_readme_parte_1_italiano",
-      "target": "integrationflcs_readme_decisioni_che_non_sono_ovvie_dal_codice"
+      "target": "integrationflcs_readme_decisioni_che_non_sono_ovvie_dal_codice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60294,9 +59667,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/README.md",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_readme_part_2_english",
-      "target": "integrationflcs_readme_purpose"
+      "target": "integrationflcs_readme_purpose",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60304,9 +59677,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/README.md",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_readme_part_2_english",
-      "target": "integrationflcs_readme_the_two_classes"
+      "target": "integrationflcs_readme_the_two_classes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60314,9 +59687,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/README.md",
       "source_location": "L42",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_readme_part_2_english",
-      "target": "integrationflcs_readme_decisions_that_are_not_obvious_from_the_code"
+      "target": "integrationflcs_readme_decisions_that_are_not_obvious_from_the_code",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60324,9 +59697,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/anagrafe_csv_parser.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_integrationflcs_anagrafe_csv_parser_md",
-      "target": "integrationflcs_anagrafe_csv_parser_integrationflcs_anagrafecsvparser"
+      "target": "integrationflcs_anagrafe_csv_parser_integrationflcs_anagrafecsvparser",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60334,9 +59707,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/anagrafe_csv_parser.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_anagrafe_csv_parser_integrationflcs_anagrafecsvparser",
-      "target": "integrationflcs_anagrafe_csv_parser_codice_completo"
+      "target": "integrationflcs_anagrafe_csv_parser_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60344,9 +59717,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/anagrafe_csv_parser.md",
       "source_location": "L51",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_anagrafe_csv_parser_integrationflcs_anagrafecsvparser",
-      "target": "integrationflcs_anagrafe_csv_parser_sezioni_commentate"
+      "target": "integrationflcs_anagrafe_csv_parser_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60354,9 +59727,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/anagrafe_csv_parser.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_anagrafe_csv_parser_codice_completo",
-      "target": "integrationflcs_anagrafe_csv_parser_codeblock_1"
+      "target": "integrationflcs_anagrafe_csv_parser_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60364,9 +59737,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/anagrafe_csv_parser.md",
       "source_location": "L53",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_anagrafe_csv_parser_sezioni_commentate",
-      "target": "integrationflcs_anagrafe_csv_parser_commento_di_classe"
+      "target": "integrationflcs_anagrafe_csv_parser_commento_di_classe",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60374,9 +59747,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/anagrafe_csv_parser.md",
       "source_location": "L66",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_anagrafe_csv_parser_sezioni_commentate",
-      "target": "integrationflcs_anagrafe_csv_parser_invalidfile_eccezione"
+      "target": "integrationflcs_anagrafe_csv_parser_invalidfile_eccezione",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60384,9 +59757,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/anagrafe_csv_parser.md",
       "source_location": "L76",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_anagrafe_csv_parser_sezioni_commentate",
-      "target": "integrationflcs_anagrafe_csv_parser_call"
+      "target": "integrationflcs_anagrafe_csv_parser_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60394,9 +59767,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/anagrafe_csv_parser.md",
       "source_location": "L91",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_anagrafe_csv_parser_sezioni_commentate",
-      "target": "integrationflcs_anagrafe_csv_parser_content_privato_il_bom_utf_8"
+      "target": "integrationflcs_anagrafe_csv_parser_content_privato_il_bom_utf_8",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60404,9 +59777,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/anagrafe_csv_parser.md",
       "source_location": "L103",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_anagrafe_csv_parser_sezioni_commentate",
-      "target": "integrationflcs_anagrafe_csv_parser_delimiter_privato"
+      "target": "integrationflcs_anagrafe_csv_parser_delimiter_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60414,9 +59787,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/anagrafe_csv_parser.md",
       "source_location": "L116",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_anagrafe_csv_parser_sezioni_commentate",
-      "target": "integrationflcs_anagrafe_csv_parser_codice_fiscale_header_privato"
+      "target": "integrationflcs_anagrafe_csv_parser_codice_fiscale_header_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60424,9 +59797,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/anagrafe_csv_parser.md",
       "source_location": "L55",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_anagrafe_csv_parser_commento_di_classe",
-      "target": "integrationflcs_anagrafe_csv_parser_codeblock_2"
+      "target": "integrationflcs_anagrafe_csv_parser_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60434,9 +59807,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/anagrafe_csv_parser.md",
       "source_location": "L68",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_anagrafe_csv_parser_invalidfile_eccezione",
-      "target": "integrationflcs_anagrafe_csv_parser_codeblock_3"
+      "target": "integrationflcs_anagrafe_csv_parser_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60444,9 +59817,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/anagrafe_csv_parser.md",
       "source_location": "L78",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_anagrafe_csv_parser_call",
-      "target": "integrationflcs_anagrafe_csv_parser_codeblock_4"
+      "target": "integrationflcs_anagrafe_csv_parser_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60454,9 +59827,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/anagrafe_csv_parser.md",
       "source_location": "L93",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_anagrafe_csv_parser_content_privato_il_bom_utf_8",
-      "target": "integrationflcs_anagrafe_csv_parser_codeblock_5"
+      "target": "integrationflcs_anagrafe_csv_parser_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60464,9 +59837,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/anagrafe_csv_parser.md",
       "source_location": "L105",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_anagrafe_csv_parser_delimiter_privato",
-      "target": "integrationflcs_anagrafe_csv_parser_codeblock_6"
+      "target": "integrationflcs_anagrafe_csv_parser_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60474,9 +59847,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/anagrafe_csv_parser.md",
       "source_location": "L118",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_anagrafe_csv_parser_codice_fiscale_header_privato",
-      "target": "integrationflcs_anagrafe_csv_parser_codeblock_7"
+      "target": "integrationflcs_anagrafe_csv_parser_codeblock_7",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60484,9 +59857,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/comparison_service.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_integrationflcs_comparison_service_md",
-      "target": "integrationflcs_comparison_service_integrationflcs_comparisonservice"
+      "target": "integrationflcs_comparison_service_integrationflcs_comparisonservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60494,9 +59867,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/comparison_service.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_comparison_service_integrationflcs_comparisonservice",
-      "target": "integrationflcs_comparison_service_codice_completo"
+      "target": "integrationflcs_comparison_service_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60504,9 +59877,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/comparison_service.md",
       "source_location": "L118",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_comparison_service_integrationflcs_comparisonservice",
-      "target": "integrationflcs_comparison_service_sezioni_commentate"
+      "target": "integrationflcs_comparison_service_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60514,9 +59887,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/comparison_service.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_comparison_service_codice_completo",
-      "target": "integrationflcs_comparison_service_codeblock_1"
+      "target": "integrationflcs_comparison_service_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60524,9 +59897,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/comparison_service.md",
       "source_location": "L120",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_comparison_service_sezioni_commentate",
-      "target": "integrationflcs_comparison_service_commento_di_classe"
+      "target": "integrationflcs_comparison_service_commento_di_classe",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60534,9 +59907,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/comparison_service.md",
       "source_location": "L134",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_comparison_service_sezioni_commentate",
-      "target": "integrationflcs_comparison_service_categoria_sindacale_result_costante_e_struct"
+      "target": "integrationflcs_comparison_service_categoria_sindacale_result_costante_e_struct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60544,9 +59917,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/comparison_service.md",
       "source_location": "L148",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_comparison_service_sezioni_commentate",
-      "target": "integrationflcs_comparison_service_call"
+      "target": "integrationflcs_comparison_service_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60554,9 +59927,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/comparison_service.md",
       "source_location": "L168",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_comparison_service_sezioni_commentate",
-      "target": "integrationflcs_comparison_service_sincgil_import_exists_missing_sincgil_message_missing_codici_fiscali_anagrafe_codici_fiscali_privati"
+      "target": "integrationflcs_comparison_service_sincgil_import_exists_missing_sincgil_message_missing_codici_fiscali_anagrafe_codici_fiscali_privati",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60564,9 +59937,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/comparison_service.md",
       "source_location": "L193",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_comparison_service_sezioni_commentate",
-      "target": "integrationflcs_comparison_service_sincgil_codici_fiscali_period_scope_privati"
+      "target": "integrationflcs_comparison_service_sincgil_codici_fiscali_period_scope_privati",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60574,9 +59947,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/comparison_service.md",
       "source_location": "L215",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_comparison_service_sezioni_commentate",
-      "target": "integrationflcs_comparison_service_categoria_column_privato"
+      "target": "integrationflcs_comparison_service_categoria_column_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60584,9 +59957,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/comparison_service.md",
       "source_location": "L232",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_comparison_service_sezioni_commentate",
-      "target": "integrationflcs_comparison_service_candidate_zoning_ids_regional_zoning_id_zoning_privati"
+      "target": "integrationflcs_comparison_service_candidate_zoning_ids_regional_zoning_id_zoning_privati",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60594,9 +59967,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/comparison_service.md",
       "source_location": "L122",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_comparison_service_commento_di_classe",
-      "target": "integrationflcs_comparison_service_codeblock_2"
+      "target": "integrationflcs_comparison_service_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60604,9 +59977,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/comparison_service.md",
       "source_location": "L136",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_comparison_service_categoria_sindacale_result_costante_e_struct",
-      "target": "integrationflcs_comparison_service_codeblock_3"
+      "target": "integrationflcs_comparison_service_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60614,9 +59987,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/comparison_service.md",
       "source_location": "L150",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_comparison_service_call",
-      "target": "integrationflcs_comparison_service_codeblock_4"
+      "target": "integrationflcs_comparison_service_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60624,9 +59997,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/comparison_service.md",
       "source_location": "L170",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_comparison_service_sincgil_import_exists_missing_sincgil_message_missing_codici_fiscali_anagrafe_codici_fiscali_privati",
-      "target": "integrationflcs_comparison_service_codeblock_5"
+      "target": "integrationflcs_comparison_service_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60634,9 +60007,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/comparison_service.md",
       "source_location": "L195",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_comparison_service_sincgil_codici_fiscali_period_scope_privati",
-      "target": "integrationflcs_comparison_service_codeblock_6"
+      "target": "integrationflcs_comparison_service_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60644,9 +60017,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/comparison_service.md",
       "source_location": "L217",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_comparison_service_categoria_column_privato",
-      "target": "integrationflcs_comparison_service_codeblock_7"
+      "target": "integrationflcs_comparison_service_codeblock_7",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60654,9 +60027,9 @@
       "source_file": "CodeGuide/IntegrationFlcs/comparison_service.md",
       "source_location": "L234",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "integrationflcs_comparison_service_candidate_zoning_ids_regional_zoning_id_zoning_privati",
-      "target": "integrationflcs_comparison_service_codeblock_8"
+      "target": "integrationflcs_comparison_service_codeblock_8",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62134,9 +61507,9 @@
       "source_file": "CodeGuide/ImportSpis/README.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_importspis_readme_md",
-      "target": "importspis_readme_import_sincgil_spi_come_funziona_e_come_\u00e8_stato_pensato"
+      "target": "importspis_readme_import_sincgil_spi_come_funziona_e_come_\u00e8_stato_pensato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62144,9 +61517,9 @@
       "source_file": "CodeGuide/ImportSpis/README.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_readme_import_sincgil_spi_come_funziona_e_come_\u00e8_stato_pensato",
-      "target": "importspis_readme_parte_1_italiano"
+      "target": "importspis_readme_parte_1_italiano",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62154,9 +61527,9 @@
       "source_file": "CodeGuide/ImportSpis/README.md",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_readme_import_sincgil_spi_come_funziona_e_come_\u00e8_stato_pensato",
-      "target": "importspis_readme_part_2_english"
+      "target": "importspis_readme_part_2_english",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62164,9 +61537,9 @@
       "source_file": "CodeGuide/ImportSpis/README.md",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_readme_parte_1_italiano",
-      "target": "importspis_readme_scopo"
+      "target": "importspis_readme_scopo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62174,9 +61547,9 @@
       "source_file": "CodeGuide/ImportSpis/README.md",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_readme_parte_1_italiano",
-      "target": "importspis_readme_l_unica_differenza_reale_gli_importi_in_euro"
+      "target": "importspis_readme_l_unica_differenza_reale_gli_importi_in_euro",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62184,9 +61557,9 @@
       "source_file": "CodeGuide/ImportSpis/README.md",
       "source_location": "L22",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_readme_parte_1_italiano",
-      "target": "importspis_readme_cosa_resta_condiviso_non_duplicato"
+      "target": "importspis_readme_cosa_resta_condiviso_non_duplicato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62194,9 +61567,9 @@
       "source_file": "CodeGuide/ImportSpis/README.md",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_readme_parte_1_italiano",
-      "target": "importspis_readme_decisioni_che_non_sono_ovvie_dal_codice"
+      "target": "importspis_readme_decisioni_che_non_sono_ovvie_dal_codice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62204,9 +61577,9 @@
       "source_file": "CodeGuide/ImportSpis/README.md",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_readme_part_2_english",
-      "target": "importspis_readme_purpose"
+      "target": "importspis_readme_purpose",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62214,9 +61587,9 @@
       "source_file": "CodeGuide/ImportSpis/README.md",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_readme_part_2_english",
-      "target": "importspis_readme_the_one_real_difference_euro_amounts"
+      "target": "importspis_readme_the_one_real_difference_euro_amounts",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62224,9 +61597,9 @@
       "source_file": "CodeGuide/ImportSpis/README.md",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_readme_part_2_english",
-      "target": "importspis_readme_what_stays_shared_not_duplicated"
+      "target": "importspis_readme_what_stays_shared_not_duplicated",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62234,9 +61607,9 @@
       "source_file": "CodeGuide/ImportSpis/README.md",
       "source_location": "L53",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_readme_part_2_english",
-      "target": "importspis_readme_decisions_that_are_not_obvious_from_the_code"
+      "target": "importspis_readme_decisions_that_are_not_obvious_from_the_code",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62244,9 +61617,9 @@
       "source_file": "CodeGuide/ImportSpis/schema_sync_service.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_importspis_schema_sync_service_md",
-      "target": "importspis_schema_sync_service_importspis_schemasyncservice"
+      "target": "importspis_schema_sync_service_importspis_schemasyncservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62254,9 +61627,9 @@
       "source_file": "CodeGuide/ImportSpis/schema_sync_service.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_schema_sync_service_importspis_schemasyncservice",
-      "target": "importspis_schema_sync_service_codice_completo"
+      "target": "importspis_schema_sync_service_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62264,9 +61637,9 @@
       "source_file": "CodeGuide/ImportSpis/schema_sync_service.md",
       "source_location": "L45",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_schema_sync_service_importspis_schemasyncservice",
-      "target": "importspis_schema_sync_service_sezioni_commentate"
+      "target": "importspis_schema_sync_service_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62274,9 +61647,9 @@
       "source_file": "CodeGuide/ImportSpis/schema_sync_service.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_schema_sync_service_codice_completo",
-      "target": "importspis_schema_sync_service_codeblock_1"
+      "target": "importspis_schema_sync_service_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62284,9 +61657,9 @@
       "source_file": "CodeGuide/ImportSpis/schema_sync_service.md",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_schema_sync_service_sezioni_commentate",
-      "target": "importspis_schema_sync_service_la_classe_intera_a_confronto_con_imports_schemasyncservice"
+      "target": "importspis_schema_sync_service_la_classe_intera_a_confronto_con_imports_schemasyncservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62294,9 +61667,9 @@
       "source_file": "CodeGuide/ImportSpis/schema_sync_service.md",
       "source_location": "L57",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_schema_sync_service_sezioni_commentate",
-      "target": "importspis_schema_sync_service_column_type_privato_la_vera_differenza_rispetto_alla_versione_attivi"
+      "target": "importspis_schema_sync_service_column_type_privato_la_vera_differenza_rispetto_alla_versione_attivi",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62304,9 +61677,9 @@
       "source_file": "CodeGuide/ImportSpis/schema_sync_service.md",
       "source_location": "L59",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_schema_sync_service_column_type_privato_la_vera_differenza_rispetto_alla_versione_attivi",
-      "target": "importspis_schema_sync_service_codeblock_2"
+      "target": "importspis_schema_sync_service_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62314,9 +61687,9 @@
       "source_file": "CodeGuide/ImportSpis/csv_importer_service.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_importspis_csv_importer_service_md",
-      "target": "importspis_csv_importer_service_importspis_csvimporterservice"
+      "target": "importspis_csv_importer_service_importspis_csvimporterservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62324,9 +61697,9 @@
       "source_file": "CodeGuide/ImportSpis/csv_importer_service.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_csv_importer_service_importspis_csvimporterservice",
-      "target": "importspis_csv_importer_service_codice_completo"
+      "target": "importspis_csv_importer_service_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62334,9 +61707,9 @@
       "source_file": "CodeGuide/ImportSpis/csv_importer_service.md",
       "source_location": "L135",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_csv_importer_service_importspis_csvimporterservice",
-      "target": "importspis_csv_importer_service_sezioni_commentate"
+      "target": "importspis_csv_importer_service_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62344,9 +61717,9 @@
       "source_file": "CodeGuide/ImportSpis/csv_importer_service.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_csv_importer_service_codice_completo",
-      "target": "importspis_csv_importer_service_codeblock_1"
+      "target": "importspis_csv_importer_service_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62354,9 +61727,9 @@
       "source_file": "CodeGuide/ImportSpis/csv_importer_service.md",
       "source_location": "L137",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_csv_importer_service_sezioni_commentate",
-      "target": "importspis_csv_importer_service_commento_di_classe_e_struttura_generale_a_confronto_con_imports_csvimporterservice"
+      "target": "importspis_csv_importer_service_commento_di_classe_e_struttura_generale_a_confronto_con_imports_csvimporterservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62364,9 +61737,9 @@
       "source_file": "CodeGuide/ImportSpis/csv_importer_service.md",
       "source_location": "L143",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_csv_importer_service_sezioni_commentate",
-      "target": "importspis_csv_importer_service_build_field_specs_column_kind_privati_da_booleano_a_simbolo_a_tre_valori"
+      "target": "importspis_csv_importer_service_build_field_specs_column_kind_privati_da_booleano_a_simbolo_a_tre_valori",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62374,9 +61747,9 @@
       "source_file": "CodeGuide/ImportSpis/csv_importer_service.md",
       "source_location": "L169",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_csv_importer_service_sezioni_commentate",
-      "target": "importspis_csv_importer_service_format_value_parse_decimal_privati_la_virgola_decimale_italiana"
+      "target": "importspis_csv_importer_service_format_value_parse_decimal_privati_la_virgola_decimale_italiana",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62384,9 +61757,9 @@
       "source_file": "CodeGuide/ImportSpis/csv_importer_service.md",
       "source_location": "L190",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_csv_importer_service_sezioni_commentate",
-      "target": "importspis_csv_importer_service_tutto_il_resto_identico_riga_per_riga_alla_versione_attivi"
+      "target": "importspis_csv_importer_service_tutto_il_resto_identico_riga_per_riga_alla_versione_attivi",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62394,9 +61767,9 @@
       "source_file": "CodeGuide/ImportSpis/csv_importer_service.md",
       "source_location": "L145",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_csv_importer_service_build_field_specs_column_kind_privati_da_booleano_a_simbolo_a_tre_valori",
-      "target": "importspis_csv_importer_service_codeblock_2"
+      "target": "importspis_csv_importer_service_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62404,338 +61777,8 @@
       "source_file": "CodeGuide/ImportSpis/csv_importer_service.md",
       "source_location": "L171",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "importspis_csv_importer_service_format_value_parse_decimal_privati_la_virgola_decimale_italiana",
-      "target": "importspis_csv_importer_service_codeblock_3"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "codeguide_integrationfilleas_integration_filleas_controller_md",
-      "target": "integrationfilleas_integration_filleas_controller_integrationfilleascontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_filleas_controller_integrationfilleascontroller",
-      "target": "integrationfilleas_integration_filleas_controller_codice_completo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L73",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_filleas_controller_integrationfilleascontroller",
-      "target": "integrationfilleas_integration_filleas_controller_sezioni_commentate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_filleas_controller_codice_completo",
-      "target": "integrationfilleas_integration_filleas_controller_codeblock_1",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L75",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_filleas_controller_sezioni_commentate",
-      "target": "integrationfilleas_integration_filleas_controller_l_intero_controller_un_crud_standard_e_questo_\u00e8_la_decisione_di_design",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L81",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_filleas_controller_sezioni_commentate",
-      "target": "integrationfilleas_integration_filleas_controller_index",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L94",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_filleas_controller_sezioni_commentate",
-      "target": "integrationfilleas_integration_filleas_controller_create_update_destroy_nessuna_sorpresa_ed_\u00e8_voluto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L113",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_filleas_controller_sezioni_commentate",
-      "target": "integrationfilleas_integration_filleas_controller_integration_fillea_params_privato",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L83",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_filleas_controller_index",
-      "target": "integrationfilleas_integration_filleas_controller_codeblock_2",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L96",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_filleas_controller_create_update_destroy_nessuna_sorpresa_ed_\u00e8_voluto",
-      "target": "integrationfilleas_integration_filleas_controller_codeblock_3",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_filleas_controller.md",
-      "source_location": "L115",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_filleas_controller_integration_fillea_params_privato",
-      "target": "integrationfilleas_integration_filleas_controller_codeblock_4",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "codeguide_integrationfilleas_readme_md",
-      "target": "integrationfilleas_readme_integrazione_cassa_edile_fillea_come_funziona_e_come_\u00e8_stata_pensata",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "integrationfilleas_readme_integrazione_cassa_edile_fillea_come_funziona_e_come_\u00e8_stata_pensata",
-      "target": "integrationfilleas_readme_parte_1_italiano",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L31",
-      "weight": 1.0,
-      "source": "integrationfilleas_readme_integrazione_cassa_edile_fillea_come_funziona_e_come_\u00e8_stata_pensata",
-      "target": "integrationfilleas_readme_part_2_english",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "integrationfilleas_readme_parte_1_italiano",
-      "target": "integrationfilleas_readme_scopo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "integrationfilleas_readme_parte_1_italiano",
-      "target": "integrationfilleas_readme_perch\u00e9_non_c_\u00e8_un_controller_di_upload_a_differenza_di_flc",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "integrationfilleas_readme_parte_1_italiano",
-      "target": "integrationfilleas_readme_il_modello_sette_righe_tutta_la_logica_di_dominio",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "integrationfilleas_readme_parte_1_italiano",
-      "target": "integrationfilleas_readme_decisioni_che_non_sono_ovvie_dal_codice",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L33",
-      "weight": 1.0,
-      "source": "integrationfilleas_readme_part_2_english",
-      "target": "integrationfilleas_readme_purpose",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "integrationfilleas_readme_part_2_english",
-      "target": "integrationfilleas_readme_why_there_s_no_upload_controller_unlike_flc",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L43",
-      "weight": 1.0,
-      "source": "integrationfilleas_readme_part_2_english",
-      "target": "integrationfilleas_readme_the_model_seven_lines_all_the_domain_logic",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/README.md",
-      "source_location": "L47",
-      "weight": 1.0,
-      "source": "integrationfilleas_readme_part_2_english",
-      "target": "integrationfilleas_readme_decisions_that_are_not_obvious_from_the_code",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "codeguide_integrationfilleas_integration_fillea_md",
-      "target": "integrationfilleas_integration_fillea_integrationfillea",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_fillea_integrationfillea",
-      "target": "integrationfilleas_integration_fillea_codice_completo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_fillea_integrationfillea",
-      "target": "integrationfilleas_integration_fillea_sezioni_commentate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_fillea_codice_completo",
-      "target": "integrationfilleas_integration_fillea_codeblock_1",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_fillea_sezioni_commentate",
-      "target": "integrationfilleas_integration_fillea_la_classe_intera_le_validazioni_sono_l_unica_logica_del_modello",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L25",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_fillea_sezioni_commentate",
-      "target": "integrationfilleas_integration_fillea_validates_year_formato_non_tipo_di_colonna",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L35",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_fillea_sezioni_commentate",
-      "target": "integrationfilleas_integration_fillea_validates_subscribers_ce",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L45",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_fillea_sezioni_commentate",
-      "target": "integrationfilleas_integration_fillea_validates_year_uniqueness_scope_zoning_id",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_fillea_validates_year_formato_non_tipo_di_colonna",
-      "target": "integrationfilleas_integration_fillea_codeblock_2",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_fillea_validates_subscribers_ce",
-      "target": "integrationfilleas_integration_fillea_codeblock_3",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CodeGuide/IntegrationFilleas/integration_fillea.md",
-      "source_location": "L47",
-      "weight": 1.0,
-      "source": "integrationfilleas_integration_fillea_validates_year_uniqueness_scope_zoning_id",
-      "target": "integrationfilleas_integration_fillea_codeblock_4",
+      "target": "importspis_csv_importer_service_codeblock_3",
       "confidence_score": 1.0
     },
     {
@@ -62744,9 +61787,9 @@
       "source_file": "CodeGuide/Imports/README.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_imports_readme_md",
-      "target": "imports_readme_import_sincgil_come_funziona_e_come_\u00e8_stato_pensato"
+      "target": "imports_readme_import_sincgil_come_funziona_e_come_\u00e8_stato_pensato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62754,9 +61797,9 @@
       "source_file": "CodeGuide/Imports/README.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_readme_import_sincgil_come_funziona_e_come_\u00e8_stato_pensato",
-      "target": "imports_readme_parte_1_italiano"
+      "target": "imports_readme_parte_1_italiano",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62764,9 +61807,9 @@
       "source_file": "CodeGuide/Imports/README.md",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_readme_import_sincgil_come_funziona_e_come_\u00e8_stato_pensato",
-      "target": "imports_readme_part_2_english"
+      "target": "imports_readme_part_2_english",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62774,9 +61817,9 @@
       "source_file": "CodeGuide/Imports/README.md",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_readme_parte_1_italiano",
-      "target": "imports_readme_scopo"
+      "target": "imports_readme_scopo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62784,9 +61827,9 @@
       "source_file": "CodeGuide/Imports/README.md",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_readme_parte_1_italiano",
-      "target": "imports_readme_la_decisione_di_fondo_schema_dinamico_non_migration"
+      "target": "imports_readme_la_decisione_di_fondo_schema_dinamico_non_migration",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62794,9 +61837,9 @@
       "source_file": "CodeGuide/Imports/README.md",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_readme_parte_1_italiano",
-      "target": "imports_readme_la_pipeline_in_tre_passi"
+      "target": "imports_readme_la_pipeline_in_tre_passi",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62804,9 +61847,9 @@
       "source_file": "CodeGuide/Imports/README.md",
       "source_location": "L23",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_readme_parte_1_italiano",
-      "target": "imports_readme_decisioni_che_non_sono_ovvie_dal_codice"
+      "target": "imports_readme_decisioni_che_non_sono_ovvie_dal_codice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62814,9 +61857,9 @@
       "source_file": "CodeGuide/Imports/README.md",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_readme_parte_1_italiano",
-      "target": "imports_readme_dove_continuare"
+      "target": "imports_readme_dove_continuare",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62824,9 +61867,9 @@
       "source_file": "CodeGuide/Imports/README.md",
       "source_location": "L39",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_readme_part_2_english",
-      "target": "imports_readme_purpose"
+      "target": "imports_readme_purpose",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62834,9 +61877,9 @@
       "source_file": "CodeGuide/Imports/README.md",
       "source_location": "L43",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_readme_part_2_english",
-      "target": "imports_readme_the_core_decision_dynamic_schema_not_migrations"
+      "target": "imports_readme_the_core_decision_dynamic_schema_not_migrations",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62844,9 +61887,9 @@
       "source_file": "CodeGuide/Imports/README.md",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_readme_part_2_english",
-      "target": "imports_readme_the_three_step_pipeline"
+      "target": "imports_readme_the_three_step_pipeline",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62854,9 +61897,9 @@
       "source_file": "CodeGuide/Imports/README.md",
       "source_location": "L53",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_readme_part_2_english",
-      "target": "imports_readme_decisions_that_are_not_obvious_from_the_code"
+      "target": "imports_readme_decisions_that_are_not_obvious_from_the_code",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62864,9 +61907,9 @@
       "source_file": "CodeGuide/Imports/README.md",
       "source_location": "L61",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_readme_part_2_english",
-      "target": "imports_readme_where_to_continue"
+      "target": "imports_readme_where_to_continue",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62874,9 +61917,9 @@
       "source_file": "CodeGuide/Imports/schema_sync_service.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_imports_schema_sync_service_md",
-      "target": "imports_schema_sync_service_imports_schemasyncservice"
+      "target": "imports_schema_sync_service_imports_schemasyncservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62884,9 +61927,9 @@
       "source_file": "CodeGuide/Imports/schema_sync_service.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_schema_sync_service_imports_schemasyncservice",
-      "target": "imports_schema_sync_service_codice_completo"
+      "target": "imports_schema_sync_service_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62894,9 +61937,9 @@
       "source_file": "CodeGuide/Imports/schema_sync_service.md",
       "source_location": "L39",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_schema_sync_service_imports_schemasyncservice",
-      "target": "imports_schema_sync_service_sezioni_commentate"
+      "target": "imports_schema_sync_service_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62904,9 +61947,9 @@
       "source_file": "CodeGuide/Imports/schema_sync_service.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_schema_sync_service_codice_completo",
-      "target": "imports_schema_sync_service_codeblock_1"
+      "target": "imports_schema_sync_service_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62914,9 +61957,9 @@
       "source_file": "CodeGuide/Imports/schema_sync_service.md",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_schema_sync_service_sezioni_commentate",
-      "target": "imports_schema_sync_service_commento_di_classe_assente_e_la_decisione_architetturale_che_rappresenta"
+      "target": "imports_schema_sync_service_commento_di_classe_assente_e_la_decisione_architetturale_che_rappresenta",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62924,9 +61967,9 @@
       "source_file": "CodeGuide/Imports/schema_sync_service.md",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_schema_sync_service_sezioni_commentate",
-      "target": "imports_schema_sync_service_initialize"
+      "target": "imports_schema_sync_service_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62934,9 +61977,9 @@
       "source_file": "CodeGuide/Imports/schema_sync_service.md",
       "source_location": "L59",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_schema_sync_service_sezioni_commentate",
-      "target": "imports_schema_sync_service_call"
+      "target": "imports_schema_sync_service_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62944,9 +61987,9 @@
       "source_file": "CodeGuide/Imports/schema_sync_service.md",
       "source_location": "L72",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_schema_sync_service_sezioni_commentate",
-      "target": "imports_schema_sync_service_missing_columns_add_column_privati"
+      "target": "imports_schema_sync_service_missing_columns_add_column_privati",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62954,9 +61997,9 @@
       "source_file": "CodeGuide/Imports/schema_sync_service.md",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_schema_sync_service_initialize",
-      "target": "imports_schema_sync_service_codeblock_2"
+      "target": "imports_schema_sync_service_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62964,9 +62007,9 @@
       "source_file": "CodeGuide/Imports/schema_sync_service.md",
       "source_location": "L61",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_schema_sync_service_call",
-      "target": "imports_schema_sync_service_codeblock_3"
+      "target": "imports_schema_sync_service_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62974,9 +62017,9 @@
       "source_file": "CodeGuide/Imports/schema_sync_service.md",
       "source_location": "L74",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_schema_sync_service_missing_columns_add_column_privati",
-      "target": "imports_schema_sync_service_codeblock_4"
+      "target": "imports_schema_sync_service_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62984,9 +62027,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_imports_csv_importer_service_md",
-      "target": "imports_csv_importer_service_imports_csvimporterservice"
+      "target": "imports_csv_importer_service_imports_csvimporterservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -62994,9 +62037,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_imports_csvimporterservice",
-      "target": "imports_csv_importer_service_codice_completo"
+      "target": "imports_csv_importer_service_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63004,9 +62047,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L114",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_imports_csvimporterservice",
-      "target": "imports_csv_importer_service_sezioni_commentate"
+      "target": "imports_csv_importer_service_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63014,9 +62057,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_codice_completo",
-      "target": "imports_csv_importer_service_codeblock_1"
+      "target": "imports_csv_importer_service_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63024,9 +62067,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L116",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_sezioni_commentate",
-      "target": "imports_csv_importer_service_commento_di_classe"
+      "target": "imports_csv_importer_service_commento_di_classe",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63034,9 +62077,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L128",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_sezioni_commentate",
-      "target": "imports_csv_importer_service_fixed_columns_costante"
+      "target": "imports_csv_importer_service_fixed_columns_costante",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63044,9 +62087,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L138",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_sezioni_commentate",
-      "target": "imports_csv_importer_service_initialize"
+      "target": "imports_csv_importer_service_initialize",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63054,9 +62097,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L155",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_sezioni_commentate",
-      "target": "imports_csv_importer_service_call"
+      "target": "imports_csv_importer_service_call",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63064,9 +62107,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L176",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_sezioni_commentate",
-      "target": "imports_csv_importer_service_build_field_specs_privato"
+      "target": "imports_csv_importer_service_build_field_specs_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63074,9 +62117,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L195",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_sezioni_commentate",
-      "target": "imports_csv_importer_service_delete_existing_scope_privato"
+      "target": "imports_csv_importer_service_delete_existing_scope_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63084,9 +62127,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L208",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_sezioni_commentate",
-      "target": "imports_csv_importer_service_copy_rows_privato"
+      "target": "imports_csv_importer_service_copy_rows_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63094,9 +62137,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L233",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_sezioni_commentate",
-      "target": "imports_csv_importer_service_copy_line_privato"
+      "target": "imports_csv_importer_service_copy_line_privato",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63104,9 +62147,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L256",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_sezioni_commentate",
-      "target": "imports_csv_importer_service_parse_date_percent_count_data_rows_privati"
+      "target": "imports_csv_importer_service_parse_date_percent_count_data_rows_privati",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63114,9 +62157,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L118",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_commento_di_classe",
-      "target": "imports_csv_importer_service_codeblock_2"
+      "target": "imports_csv_importer_service_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63124,9 +62167,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L130",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_fixed_columns_costante",
-      "target": "imports_csv_importer_service_codeblock_3"
+      "target": "imports_csv_importer_service_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63134,9 +62177,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L140",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_initialize",
-      "target": "imports_csv_importer_service_codeblock_4"
+      "target": "imports_csv_importer_service_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63144,9 +62187,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L157",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_call",
-      "target": "imports_csv_importer_service_codeblock_5"
+      "target": "imports_csv_importer_service_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63154,9 +62197,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L178",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_build_field_specs_privato",
-      "target": "imports_csv_importer_service_codeblock_6"
+      "target": "imports_csv_importer_service_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63164,9 +62207,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L197",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_delete_existing_scope_privato",
-      "target": "imports_csv_importer_service_codeblock_7"
+      "target": "imports_csv_importer_service_codeblock_7",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63174,9 +62217,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L210",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_copy_rows_privato",
-      "target": "imports_csv_importer_service_codeblock_8"
+      "target": "imports_csv_importer_service_codeblock_8",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63184,9 +62227,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L235",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_copy_line_privato",
-      "target": "imports_csv_importer_service_codeblock_9"
+      "target": "imports_csv_importer_service_codeblock_9",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63194,9 +62237,9 @@
       "source_file": "CodeGuide/Imports/csv_importer_service.md",
       "source_location": "L258",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_csv_importer_service_parse_date_percent_count_data_rows_privati",
-      "target": "imports_csv_importer_service_codeblock_10"
+      "target": "imports_csv_importer_service_codeblock_10",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63204,9 +62247,9 @@
       "source_file": "CodeGuide/Imports/header_normalizer.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "codeguide_imports_header_normalizer_md",
-      "target": "imports_header_normalizer_imports_headernormalizer"
+      "target": "imports_header_normalizer_imports_headernormalizer",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63214,9 +62257,9 @@
       "source_file": "CodeGuide/Imports/header_normalizer.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_header_normalizer_imports_headernormalizer",
-      "target": "imports_header_normalizer_codice_completo"
+      "target": "imports_header_normalizer_codice_completo",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63224,9 +62267,9 @@
       "source_file": "CodeGuide/Imports/header_normalizer.md",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_header_normalizer_imports_headernormalizer",
-      "target": "imports_header_normalizer_sezioni_commentate"
+      "target": "imports_header_normalizer_sezioni_commentate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63234,9 +62277,9 @@
       "source_file": "CodeGuide/Imports/header_normalizer.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_header_normalizer_codice_completo",
-      "target": "imports_header_normalizer_codeblock_1"
+      "target": "imports_header_normalizer_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63244,9 +62287,9 @@
       "source_file": "CodeGuide/Imports/header_normalizer.md",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_header_normalizer_sezioni_commentate",
-      "target": "imports_header_normalizer_la_classe_intera"
+      "target": "imports_header_normalizer_la_classe_intera",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63254,9 +62297,9 @@
       "source_file": "CodeGuide/Imports/header_normalizer.md",
       "source_location": "L39",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_header_normalizer_sezioni_commentate",
-      "target": "imports_header_normalizer_perch\u00e9_due_gsub_invece_di_uno"
+      "target": "imports_header_normalizer_perch\u00e9_due_gsub_invece_di_uno",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63264,9 +62307,9 @@
       "source_file": "CodeGuide/Imports/header_normalizer.md",
       "source_location": "L23",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_header_normalizer_la_classe_intera",
-      "target": "imports_header_normalizer_codeblock_2"
+      "target": "imports_header_normalizer_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -63274,9 +62317,9 @@
       "source_file": "CodeGuide/Imports/header_normalizer.md",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "imports_header_normalizer_perch\u00e9_due_gsub_invece_di_uno",
-      "target": "imports_header_normalizer_codeblock_3"
+      "target": "imports_header_normalizer_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
