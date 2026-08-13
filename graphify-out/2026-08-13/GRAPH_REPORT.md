@@ -1,18 +1,13 @@
-# Graph Report - fitupe  (2026-08-13)
+# Graph Report - .  (2026-08-13)
 
 ## Corpus Check
-- 377 files · ~378,378 words
+- 170 files · ~378,477 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 3380 nodes · 4269 edges · 384 communities (287 shown, 97 thin omitted)
+- 3273 nodes · 4171 edges · 387 communities (279 shown, 108 thin omitted)
 - Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 467 edges (avg confidence: 0.83)
 - Token cost: 0 input · 0 output
-
-## Graph Freshness
-- Built from commit: `efd00bc8`
-- Run `git rev-parse HEAD` and compare to check if the graph is stale.
-- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Statistic Prints|Statistic Prints]]
@@ -230,7 +225,10 @@
 - [[_COMMUNITY_Controllers|Controllers]]
 - [[_COMMUNITY_Claude|Claude]]
 - [[_COMMUNITY_Claude|Claude]]
+- [[_COMMUNITY_Admin|Admin]]
+- [[_COMMUNITY_Migrate|Migrate]]
 - [[_COMMUNITY_Package|Package]]
+- [[_COMMUNITY_Migrate|Migrate]]
 - [[_COMMUNITY_Migrate|Migrate]]
 - [[_COMMUNITY_.rubocop|.rubocop]]
 - [[_COMMUNITY_Statistic Prints|Statistic Prints]]
@@ -303,16 +301,16 @@
 10. `NationalityGenderPage` - 24 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `ZoningsController` --semantically_similar_to--> `LegendsController`  [INFERRED] [semantically similar]
+  CodeGuide/Zonings/zonings_controller.md → app/controllers/legends_controller.rb
 - `StatisticSpi::ZoningPeriodScope` --semantically_similar_to--> `ZoningPeriodScope`  [EXTRACTED] [semantically similar]
   CodeGuide/StatisticSpi/zoning_period_scope.md → app/services/statistics/zoning_period_scope.rb
+- `StatisticWithIntegrationsPrintsController` --semantically_similar_to--> `StatisticPrintsController`  [EXTRACTED] [semantically similar]
+  CodeGuide/StatisticWithIntegrationsPrints/statistic_with_integrations_prints_controller.md → app/controllers/statistic_prints_controller.rb
+- `zoning-logo.svg (index/default, blue)` --references--> `ZoningsController`  [INFERRED]
+  app/assets/images/zoning/zoning-logo.svg → CodeGuide/Zonings/zonings_controller.md
 - `Bootstrap Alert Component API` --conceptually_related_to--> `Bootstrap CSS Framework`  [INFERRED]
   app/javascript/controllers/flash_controller.js → CLAUDE.md
-- `StatisticWithIntegrationsPrints README` --references--> `ReportPdf`  [EXTRACTED]
-  CodeGuide/StatisticWithIntegrationsPrints/README.md → app/services/statistic_prints/report_pdf.rb
-- `Injectable comparison_service dependency-injection pattern (no dedicated PDF generator)` --conceptually_related_to--> `ReportPdf`  [EXTRACTED]
-  CodeGuide/StatisticWithIntegrationsPrints/README.md → app/services/statistic_prints/report_pdf.rb
-- `2026-08-04 Attivi/Pensionati & Tipologie Iscrizione partition recalibration bug` --rationale_for--> `TotalMembersComparison`  [EXTRACTED]
-  CodeGuide/StatisticWithIntegrations/total_members_comparison.md → app/services/statistic_with_integrations/total_members_comparison.rb
 
 ## Hyperedges (group relationships)
 - **StatisticSpi breakdown services share regional/non-regional comprensorio test pattern** — statistic_spi_age_breakdown_spec_agebreakdown, statistic_spi_cessazioni_breakdown_spec_cessazionibreakdown, statistic_spi_multiple_delegations_breakdown_spec_multipledelegationsbreakdown, statistic_spi_provvisorie_breakdown_spec_provvisoriebreakdown, statistic_spi_tipologie_delega_breakdown_spec_tipologiedelegabreakdown [INFERRED 0.85]
@@ -340,7 +338,7 @@
 - **Stampa Statistiche SPI PDF branding assets and controller** — statistic_prints_cover_background_spi_image, statistic_prints_backcover_background_spi_image, statistic_prints_logo_cgil_spi_image, controllers_statistic_spi_prints_controller_statisticspiprintscontroller [INFERRED 0.75]
 - **Statistiche SPI feature icon palette (regionale/cessazioni/deleghe multiple/provvisorie/logo)** — statistic_statistic_spi_logo_icon, statistic_cessazioni_icon, statistic_multiplespi_icon, statistic_provvisorie_icon, statistic_logospi_icon [INFERRED 0.75]
 
-## Communities (384 total, 97 thin omitted)
+## Communities (387 total, 108 thin omitted)
 
 ### Community 0 - "Statistic Prints"
 Cohesion: 0.12
@@ -348,27 +346,27 @@ Nodes (49): StatisticPrints::BackCoverPage, StatisticPrints::BarChart, Statistic
 
 ### Community 1 - "Statistic Spi Prints"
 Cohesion: 0.08
-Nodes (45): Italian locale (legend_spi keys), Rails routes (legend_spis, statistic_spi, statistic_spi_prints), legend_spis table schema, legend_spi FactoryBot factory, CreateLegendSpis migration, LegendSpi model, LegendSpi model spec, TotalMembersForm (+37 more)
+Nodes (46): Italian locale (legend_spi keys), Rails routes (legend_spis, statistic_spi, statistic_spi_prints), legend_spis table schema, legend_spi FactoryBot factory, CreateLegendSpis migration, LegendSpi model, LegendSpi model spec, TotalMembersForm (+38 more)
 
 ### Community 2 - "Models"
-Cohesion: 0.06
-Nodes (32): LegendSpisController, LegendSpiDashboard, Database Schema, ImportSpi Factory, Import Factory, IntegrationFillea Factory, Legend Factory, Import SPI logo icon, blue gradient (original version) (+24 more)
+Cohesion: 0.09
+Nodes (24): Database Schema, ImportSpi Factory, Import Factory, IntegrationFillea Factory, IntegrationFlc Factory, Legend Factory, Import SPI logo icon, blue gradient (original version), Import SPI logo icon, green gradient (updated version) (+16 more)
 
 ### Community 3 - "Statistic Spi Prints"
 Cohesion: 0.10
 Nodes (13): BarChartController (Stimulus), ComparisonChartController (Stimulus), FlashController (Stimulus), GroupedBarChartController (Stimulus), Stimulus controllers manifest (index.js), Stimulus Controllers Manifest (index.js), PieChartController (Stimulus), SpiComparisonChartController (Stimulus) (+5 more)
 
 ### Community 4 - "Package"
-Cohesion: 0.06
-Nodes (30): browserslist, dependencies, autoprefixer, bootstrap, bootstrap-icons, bootswatch, chart.js, @hotwired/stimulus (+22 more)
+Cohesion: 0.07
+Nodes (29): browserslist, dependencies, autoprefixer, bootstrap, bootstrap-icons, bootswatch, chart.js, @hotwired/stimulus (+21 more)
 
 ### Community 5 - "Statistic With Integrations"
-Cohesion: 0.10
-Nodes (9): FilleaCorrection, StatisticWithIntegrations::FilleaCorrection spec, FlcCorrection, StatisticWithIntegrations::FlcCorrection spec, 2026-08-04 Attivi/Pensionati & Tipologie Iscrizione partition recalibration bug, FLC vs FILLEA correction formula divergence (difference vs. pure addition + one-month lag), StatisticWithIntegrations README, Zonings README (+1 more)
+Cohesion: 0.11
+Nodes (7): StatisticWithIntegrations::FilleaCorrection, StatisticWithIntegrations::FilleaCorrection spec, StatisticWithIntegrations::FlcCorrection, StatisticWithIntegrations::FlcCorrection spec, FLC vs FILLEA correction formula divergence (difference vs. pure addition + one-month lag), Zonings README, regionale?/comprensori_di reuse pattern across statistics services
 
 ### Community 6 - "Statistic Spi Prints"
-Cohesion: 0.15
-Nodes (7): build_pdf(), build_pdf(), build_pdf(), build_pdf(), build_pdf(), build_pdf(), build_pdf()
+Cohesion: 0.10
+Nodes (9): MultipleDelegationsBreakdown, StatisticSpi::MultipleDelegationsBreakdown spec, build_pdf(), build_pdf(), build_pdf(), build_pdf(), build_pdf(), build_pdf() (+1 more)
 
 ### Community 7 - "Statistics"
 Cohesion: 0.08
@@ -379,8 +377,8 @@ Cohesion: 0.12
 Nodes (14): IntegrationFilleasController, IntegrationFlcsController, ZoningsController, ImportDashboard, ImportSpiDashboard, IntegrationFilleaDashboard, IntegrationFlcDashboard, LegendDashboard (+6 more)
 
 ### Community 9 - "Models"
-Cohesion: 0.12
-Nodes (6): StatisticSpiPrintsController, TotalMembersForm, StatisticSpiPrints::AgeClassesPage spec, StatisticSpiPrints::CessazioniPage spec, StatisticSpiPrints::ProvvisoriePage spec, StatisticSpiPrints::ReportPdf spec
+Cohesion: 0.10
+Nodes (17): Legenda SPI destroy-action icon, red gradient, Legenda SPI edit-action icon, orange gradient, Legend Linked to Report by Key Coincidence, Not Foreign Key, Legend Model Guide, No Polymorphic Discriminator Between Attivi and SPI Domains, LegendSpi Model Guide, CreateLegends, Legend (+9 more)
 
 ### Community 10 - "Statistics"
 Cohesion: 0.08
@@ -447,8 +445,8 @@ Cohesion: 0.11
 Nodes (20): Fitupe::Application configuration, Boot: Bundler & Bootsnap setup, Action Cable adapter configuration, Rails cache store configuration, PostgreSQL database connections configuration, Kamal deploy configuration, Rails application boot/initialize, Puma server configuration (+12 more)
 
 ### Community 29 - "Jobs"
-Cohesion: 0.14
-Nodes (7): ImportCsvJob, ImportCsvJob Spec, CreateImports, CreateActiveStorageTables, Import, Import Spec, Imports Request Spec
+Cohesion: 0.13
+Nodes (14): User Factory, Zoning Factory, ImportCsvJob, ImportCsvJob Spec, ImportSpiCsvJob, ImportSpiCsvJob Spec, IntegrationFillea Spec, Legend Spec (+6 more)
 
 ### Community 30 - "Statistic Prints"
 Cohesion: 0.10
@@ -463,16 +461,12 @@ Cohesion: 0.10
 Nodes (19): `build_result` *(privato)*, `build_row`, `missing_data_result` *(privati)*, `call`, code:ruby (module StatisticSpi), code:ruby (Result = Struct.new(:zoning, :mese, :anno, :anno_precedente,), code:ruby (Row = Struct.new(:zoning, :count_anno, :count_precedente, :d), code:ruby (def call), code:ruby (def build_result) (+11 more)
 
 ### Community 34 - "Statistic With Integrations"
-Cohesion: 0.27
-Nodes (4): route: resources :statistic_with_integrations, route: resources :statistic_with_integrations_prints, success?(), TotalMembersComparison
+Cohesion: 0.20
+Nodes (8): route: resources :statistic_with_integrations, route: resources :statistic_with_integrations_prints, StatisticPrints::EmploymentStatusPage spec, StatisticPrints::MembershipTypesPage spec, success?(), TotalMembersComparison, 2026-08-04 Attivi/Pensionati & Tipologie Iscrizione partition recalibration bug, StatisticWithIntegrations README
 
 ### Community 35 - "Integration Flcs"
 Cohesion: 0.11
 Nodes (18): `call`, `candidate_zoning_ids`, `regional_zoning_id`, `zoning` *(privati)*, `categoria_column` *(privato)*, `CATEGORIA_SINDACALE`, `Result` (costante e Struct), code:ruby (module IntegrationFlcs), code:ruby (# Compares an Anagrafe FLC extract against the SinCGIL data ), code:ruby (CATEGORIA_SINDACALE = "FLC"), code:ruby (def call) (+10 more)
-
-### Community 36 - "Statistic Spi Prints"
-Cohesion: 0.08
-Nodes (3): BarChart, StatisticSpiPrints::TotalsPage spec, TotalsPage
 
 ### Community 37 - "Statistic Prints"
 Cohesion: 0.11
@@ -555,15 +549,15 @@ Cohesion: 0.12
 Nodes (16): `build_row` *(privato)*, `call`, `regional_result` — due politiche diverse per i dati mancanti, code:ruby (module StatisticWithIntegrations), code:ruby (# Confronta il totale iscritti Cassa Edile (IntegrationFille), code:ruby (Row = Struct.new(:zoning, :cassa_edile, :sincgil, :diff, key), code:ruby (def call), code:ruby (def dato_presente?(zoning) = IntegrationFillea.exists?(zonin), code:ruby (def build_row(zoning)) (+8 more)
 
 ### Community 65 - "Controllers"
-Cohesion: 0.11
-Nodes (5): ImportSpisController, ImportSpiForm, ImportSpiCsvJob, ImportSpiCsvJob Spec, ImportSpis request spec
+Cohesion: 0.14
+Nodes (3): ImportSpisController, ImportSpiForm, ImportSpis request spec
 
 ### Community 66 - "Controllers"
 Cohesion: 0.12
 Nodes (6): LegendSpisController, LegendSpiHelper, LegendSpi Index/Default Icon, LegendSpi New/Create Icon, LegendSpi Show Icon, LegendSpisController Guide
 
 ### Community 67 - "Statistic Prints"
-Cohesion: 0.20
+Cohesion: 0.22
 Nodes (3): route: resources :statistic_prints, RegionalPage, StatisticPrints::RegionalPage spec
 
 ### Community 69 - "Statistic Spi"
@@ -603,19 +597,19 @@ Cohesion: 0.14
 Nodes (3): IntegrationFilleasController, IntegrationFilleasController Guide, IntegrationFilleas request spec
 
 ### Community 78 - "Integration Flcs"
-Cohesion: 0.09
-Nodes (7): IntegrationFlcUploadsController, IntegrationFlcUploadForm, ComparisonService, IntegrationFlcs::ComparisonService spec, success?(), IntegrationFlcs::ComparisonService Guide, IntegrationFlcUploads request spec
+Cohesion: 0.15
+Nodes (3): ComparisonService, IntegrationFlcs::ComparisonService spec, IntegrationFlcs::ComparisonService Guide
 
 ### Community 79 - "Policies"
-Cohesion: 0.05
-Nodes (16): Admin::ApplicationController, ApplicationController, authenticate_admin, ApplicationController, user_not_authorized, ApplicationPolicy#admin?, ApplicationPolicy, Scope (+8 more)
+Cohesion: 0.29
+Nodes (3): ApplicationPolicy#admin?, ApplicationPolicy, Scope
 
 ### Community 80 - "Imports"
 Cohesion: 0.15
 Nodes (6): Dynamic Schema Built at Runtime, Not Migrations, Imports::SchemaSyncService Guide, SchemaSyncService, Imports::SchemaSyncService spec, AddLockableToUsers, AddCategoriaToImports
 
 ### Community 81 - "Statistic Prints"
-Cohesion: 0.31
+Cohesion: 0.25
 Nodes (11): attachment_blocks(), blocks(), blocks_for(), escape(), inline(), inline_node(), link_node(), list_blocks() (+3 more)
 
 ### Community 82 - "Statistic Spi"
@@ -623,7 +617,7 @@ Cohesion: 0.25
 Nodes (3): route: resources :statistic_spi, StatisticSpi::TotalMembersComparison spec, TotalMembersComparison
 
 ### Community 84 - "Statistic Spi"
-Cohesion: 0.19
+Cohesion: 0.16
 Nodes (3): count(), ProvvisorieBreakdown, StatisticSpi::ProvvisorieBreakdown spec
 
 ### Community 85 - "Statistics"
@@ -631,8 +625,8 @@ Cohesion: 0.20
 Nodes (5): CodeGuide guide: Statistics::DelegationTypeBreakdown, DelegationTypeBreakdown, Statistics::DelegationTypeBreakdown spec, MembershipTypeBreakdown, Statistics::MembershipTypeBreakdown spec
 
 ### Community 86 - "Statistics"
-Cohesion: 0.10
-Nodes (13): CodeGuide/README.md, Fitupe Statistic Icons Color Palette Reference, Fitupe Main Application Logo, StatisticWithIntegrations::TotalMembersComparison spec, CodeGuide guide: Statistics::GenderBreakdown, GenderBreakdown, Statistics::GenderBreakdown spec, CodeGuide guide: Statistics::NationalityBreakdown (+5 more)
+Cohesion: 0.16
+Nodes (9): CodeGuide/README.md, Fitupe Statistic Icons Color Palette Reference, Fitupe Main Application Logo, CodeGuide guide: Statistics::GenderBreakdown, GenderBreakdown, Statistics::GenderBreakdown spec, CodeGuide/Statistics/README.md — Statistiche: come funzionano, Statistics Section 4-Layer Recipe Pattern (+1 more)
 
 ### Community 87 - "Statistic Prints"
 Cohesion: 0.13
@@ -655,8 +649,8 @@ Cohesion: 0.14
 Nodes (13): Decisioni che *non* sono ovvie dal codice, Decisions that are *not* obvious from the code, Dove continuare, Import SinCGIL — come funziona e come è stato pensato, La decisione di fondo: schema dinamico, non migration, La pipeline in tre passi, Part 2 — English, Parte 1 — Italiano (+5 more)
 
 ### Community 94 - "Models"
-Cohesion: 0.10
-Nodes (12): IntegrationFlc Factory, Zoning Factory, CreateIntegrationFlcs, ImportForm, ImportForm Spec, IntegrationFillea Spec, IntegrationFlc, IntegrationFlc Spec (+4 more)
+Cohesion: 0.15
+Nodes (4): ImportForm, ImportForm Spec, IntegrationFlcUploadForm, IntegrationFlcUploadForm Spec
 
 ### Community 95 - "Imports"
 Cohesion: 0.20
@@ -691,12 +685,12 @@ Cohesion: 0.15
 Nodes (12): `chart_width`, `percentages_width`, `column_gap`, `chart_height`, `section_gap` *(privati)*, code:ruby (module StatisticPrints), code:ruby (def draw), code:ruby (def draw_chart_and_percentages(result)), code:ruby (def draw_chart(result, top)), code:ruby (def chart_width = (@pdf.bounds.width - column_gap) * CHART_C), Codice completo, `draw` (+4 more)
 
 ### Community 106 - "Integration Filleas"
-Cohesion: 0.09
-Nodes (20): code:ruby (class IntegrationFilleasController < ApplicationController), code:ruby (def index), code:ruby (def create), code:ruby (def integration_fillea_params), Codice completo, `create`, `update`, `destroy` — nessuna sorpresa, ed è voluto, `index`, `integration_fillea_params` *(privato)* (+12 more)
+Cohesion: 0.15
+Nodes (12): code:ruby (class IntegrationFilleasController < ApplicationController), code:ruby (def index), code:ruby (def create), code:ruby (def integration_fillea_params), Codice completo, `create`, `update`, `destroy` — nessuna sorpresa, ed è voluto, `index`, `integration_fillea_params` *(privato)* (+4 more)
 
 ### Community 108 - "Models"
-Cohesion: 0.12
-Nodes (14): Admin::UsersController, PagesController, UserDashboard, users table (schema.rb), davo admin User seed, Database Seeds, user FactoryBot factory, DeviseCreateUsers (+6 more)
+Cohesion: 0.19
+Nodes (6): Admin::UsersController, PagesController, UserDashboard, Database Seeds, User::GENDERS, User
 
 ### Community 113 - "Statistic Prints"
 Cohesion: 0.15
@@ -731,8 +725,8 @@ Cohesion: 0.17
 Nodes (11): code:ruby (class IntegrationFillea < ApplicationRecord), code:ruby (validates :year, presence: true, format: { with: /\A\d{4}\z/), code:ruby (validates :subscribers_ce, presence: true, numericality: { o), code:ruby (validates :year, uniqueness: { scope: :zoning_id, message: "), Codice completo, `IntegrationFillea`, La classe intera — le validazioni sono l'unica logica del modello, Sezioni commentate (+3 more)
 
 ### Community 122 - "Controllers"
-Cohesion: 0.17
-Nodes (11): Come si collega al report PDF, Decisioni che *non* sono ovvie dal codice, Decisions that are *not* obvious from the code, How it connects to the PDF report, Il gemello per la parte SPI, Legenda (Legend) — il testo libero allegato a un report Attivi, Part 2 — English, Parte 1 — Italiano (+3 more)
+Cohesion: 0.18
+Nodes (4): IntegrationFlcUploadsController, IntegrationFlcUploadForm, success?(), IntegrationFlcUploads request spec
 
 ### Community 123 - "Controllers"
 Cohesion: 0.17
@@ -790,18 +784,6 @@ Nodes (11): Assenza di `ETICHETTE`, `ProvvisorieTable`, `CHART_HEIGHT_MM = 85` �
 Cohesion: 0.18
 Nodes (10): `build_field_specs`, `column_kind` *(privati)* — da booleano a simbolo a tre valori, code:ruby (require "csv"), code:ruby (def build_field_specs(raw_headers)), code:ruby (def format_value(value, kind)), Codice completo, Commento di classe e struttura generale, a confronto con `Imports::CsvImporterService`, `format_value`, `parse_decimal` *(privati)* — la virgola decimale italiana, `ImportSpis::CsvImporterService` (+2 more)
 
-### Community 141 - "Policies"
-Cohesion: 0.17
-Nodes (11): Azzonamenti (Zoning) — la radice geografica di tutta l'applicazione, Decisioni che *non* sono ovvie dal codice, Decisions that are *not* obvious from the code, La struttura senza tabella di raccordo, Part 2 — English, Parte 1 — Italiano, Perché questa cartella è la più "letta" di tutto il progetto, Purpose (+3 more)
-
-### Community 143 - "Policies"
-Cohesion: 0.17
-Nodes (11): code:ruby (class ZoningsController < ApplicationController), code:ruby (def index), code:ruby (def destroy), code:ruby (def zoning_params), Codice completo, `create`, `update`, `destroy` — e perché `destroy` può fallire silenziosamente qui più che altrove, `index`, L'intero controller — CRUD standard sulla radice di tutta la gerarchia geografica (+3 more)
-
-### Community 144 - "Policies"
-Cohesion: 0.18
-Nodes (10): code:ruby (class Legend < ApplicationRecord), code:ruby (validates :month, presence: true, inclusion: { in: ImportFor), code:ruby (validates :year, uniqueness: { scope: %i[zoning_id month], m), Codice completo, `has_rich_text :description` — perché ActionText e non una colonna `text`, La classe intera — il testo libero di un report PDF, modellato come record ActiveRecord, `Legend`, Sezioni commentate (+2 more)
-
 ### Community 145 - "Integration Flcs"
 Cohesion: 0.20
 Nodes (5): AnagrafeCsvParser, InvalidFile, IntegrationFlcs::AnagrafeCsvParser spec, IntegrationFlcs::AnagrafeCsvParser Guide, Defensive CSV Parsing for Unstandardized Anagrafe FLC Format
@@ -839,24 +821,20 @@ Cohesion: 0.20
 Nodes (9): Decisioni che *non* sono ovvie dal codice, Decisions that are *not* obvious from the code, Integrazione Anagrafe FLC — come funziona e come è stata pensata, Le due classi, Part 2 — English, Parte 1 — Italiano, Purpose, Scopo (+1 more)
 
 ### Community 160 - "Migrate"
-Cohesion: 0.20
-Nodes (9): Le uniche differenze reali rispetto a `Legend`/`LegendsController`, Legenda SPI (LegendSpi) — il gemello di Legend per il report pensionati, Part 2 — English, Parte 1 — Italiano, Perché non un'unica implementazione condivisa, Purpose, Scopo, The only real differences from `Legend`/`LegendsController` (+1 more)
+Cohesion: 0.29
+Nodes (8): users table (schema.rb), davo admin User seed, user FactoryBot factory, DeviseCreateUsers, User model spec, Pages request spec, rails_helper RSpec configuration, spec_helper RSpec configuration
 
 ### Community 161 - "Integration Flcs"
 Cohesion: 0.29
 Nodes (10): Anagrafe FLC CSV Export, Cassa Edile, CodeGuide Documentation Addition, Import SinCGIL — README, Import SinCGIL SPI — README, Integrazione Cassa Edile (FILLEA) — README, Integrazione Anagrafe FLC — README, Legenda — README (+2 more)
-
-### Community 164 - "Statistics"
-Cohesion: 0.13
-Nodes (5): ReconciledIscrittiByComprensorio, StatisticSpi::ReconciledIscrittiByComprensorio spec, CodeGuide guide: Statistics::AgeBreakdown, AgeBreakdown, Statistics::AgeBreakdown spec
 
 ### Community 165 - "Statistics"
 Cohesion: 0.31
 Nodes (3): CodeGuide guide: Statistics::EmploymentStatusBreakdown, EmploymentStatusBreakdown, Statistics::EmploymentStatusBreakdown spec
 
 ### Community 166 - "Statistics"
-Cohesion: 0.20
-Nodes (9): Decisioni che *non* sono ovvie dal codice, Decisions that are *not* obvious from the code, Pagine statiche (Pages) — home e crediti, l'unico controller senza modello, Part 2 — English, Parte 1 — Italiano, Perché non ha una policy, Purpose, Scopo (+1 more)
+Cohesion: 0.24
+Nodes (4): StatisticWithIntegrations::TotalMembersComparison spec, CodeGuide guide: Statistics::NationalityBreakdown, NationalityBreakdown, Statistics::NationalityBreakdown spec
 
 ### Community 167 - "Statistic Prints"
 Cohesion: 0.20
@@ -887,8 +865,8 @@ Cohesion: 0.25
 Nodes (9): Main Logo PNG (Asset Pipeline), Main Logo SVG (Asset Pipeline Copy), Navbar Logo (Horizontal Wordmark), Navbar Brand Link, Fitupe Main Logo (PNG), Fitupe Main Logo (SVG), Sigma (Standard Deviation) Symbolism, Fitupe Favicon (public/icon.svg) (+1 more)
 
 ### Community 174 - "Admin"
-Cohesion: 0.22
-Nodes (8): code:ruby (class Zoning < ApplicationRecord), Codice completo, Il doppio `belongs_to`-equivalente su `Import`/`ImportSpi`: `foreign_key` + `inverse_of` esplicito, La gerarchia geografica implicita nel formato di `codice_azzonamento`, Le cinque `has_many :dependent, restrict_with_error` — perché niente `dependent: :destroy`, `regionale?` e `comprensori_di` — le due primitive che tutto il resto del progetto costruisce sopra, Sezioni commentate, `Zoning`
+Cohesion: 0.25
+Nodes (5): Admin::ApplicationController, ApplicationController, authenticate_admin, ApplicationController, user_not_authorized
 
 ### Community 175 - "Import Spis"
 Cohesion: 0.31
@@ -899,7 +877,7 @@ Cohesion: 0.28
 Nodes (3): CodeGuide guide: Statistics::ProvisionalRevocationBreakdown, ProvisionalRevocationBreakdown, Statistics::ProvisionalRevocationBreakdown spec
 
 ### Community 177 - "Statistics"
-Cohesion: 0.24
+Cohesion: 0.28
 Nodes (3): CodeGuide guide: Statistics::WorkStatusBreakdown, Statistics::WorkStatusBreakdown spec, WorkStatusBreakdown
 
 ### Community 178 - "Claude"
@@ -915,8 +893,8 @@ Cohesion: 0.25
 Nodes (7): code:ruby (module ImportSpis), code:ruby (def column_type(column)), Codice completo, `column_type` *(privato)* — la vera differenza rispetto alla versione Attivi, `ImportSpis::SchemaSyncService`, La classe intera, a confronto con `Imports::SchemaSyncService`, Sezioni commentate
 
 ### Community 181 - "Policies"
-Cohesion: 0.17
-Nodes (9): User Factory, ImportPolicy, ImportPolicy Spec, ImportSpiPolicy, ImportSpiPolicy Spec, IntegrationFilleaPolicy Spec, IntegrationFlcPolicy Spec, LegendPolicy Spec (+1 more)
+Cohesion: 0.25
+Nodes (4): ImportPolicy, ImportPolicy Spec, ImportSpiPolicy, ImportSpiPolicy Spec
 
 ### Community 182 - "Statistic Prints"
 Cohesion: 0.25
@@ -953,10 +931,6 @@ Nodes (7): 7. Autenticazione e Autorizzazione Robuste, code:block29 (# Nel Gemfi
 ### Community 192 - "Claude"
 Cohesion: 0.29
 Nodes (7): Approfondimento: bundler-audit, code:block38 (gem install bundler-audit), code:block39 (bundler-audit check --update), code:block40 (# .github/workflows/dependency_audit.yml), code:block41 (# Gemfile:), code:block42 (# config/initializers/secure_headers.rb:), Installazione e Utilizzo
-
-### Community 194 - "Controllers"
-Cohesion: 0.29
-Nodes (6): code:ruby (class LegendSpi < ApplicationRecord), Codice completo, La classe intera — clone riga per riga di `Legend`, per il report SPI, `LegendSpi`, Perché non un'unica tabella `legends` con un `type` polimorfico, Sezioni commentate
 
 ### Community 195 - "Statistic Prints"
 Cohesion: 0.29
@@ -1014,10 +988,6 @@ Nodes (4): Davo Signature Logo (monogram), The Davosky Connection Wordmark Logo,
 Cohesion: 0.40
 Nodes (4): Copyright (c) 2026, Davo Davosky - The Davosky Connection, English, Italiano
 
-### Community 211 - "Statistic Spi"
-Cohesion: 0.29
-Nodes (6): code:ruby (class LegendSpisController < ApplicationController), Codice completo, L'intero controller — clone riga per riga di `LegendsController`, `LegendSpisController`, Perché esiste come file separato invece di un `type` su `LegendsController`, Sezioni commentate
-
 ### Community 213 - "Bin"
 Cohesion: 0.50
 Nodes (4): bin/dev script, bin/docker-entrypoint script, bin/rails script, bin/setup script
@@ -1046,10 +1016,6 @@ Nodes (3): SPI PDF Report Back Cover Background, SPI PDF Report Front Cover Back
 Cohesion: 0.67
 Nodes (3): Provvisorie/Revoche (Provisional/Revocations) breakdown icon, Tipologie Delega (Delegation Type) breakdown icon, Tipologie Iscrizione (Membership Type) breakdown icon
 
-### Community 242 - "Pages"
-Cohesion: 0.22
-Nodes (8): `before_action :authenticate_user!` — l'unica riga di logica dell'intero file, code:ruby (class PagesController < ApplicationController), code:ruby (before_action :authenticate_user!), Codice completo, La classe intera — il controller più piccolo del progetto, e perché non ha bisogno di più di questo, `PagesController`, Sezioni commentate, Pages README — no-Pundit-policy design rationale
-
 ## Ambiguous Edges - Review These
 - `Import` → `CreateActiveStorageTables`  [AMBIGUOUS]
   db/migrate/20260729073539_create_active_storage_tables.active_storage.rb · relation: conceptually_related_to
@@ -1067,9 +1033,9 @@ Nodes (8): `before_action :authenticate_user!` — l'unica riga di logica dell'i
   config/routes.rb · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **920 isolated node(s):** `name`, `private`, `esbuild`, `brace-expansion`, `dompurify` (+915 more)
+- **865 isolated node(s):** `name`, `private`, `esbuild`, `brace-expansion`, `dompurify` (+860 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **97 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **108 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
