@@ -28,7 +28,7 @@ RSpec.describe StatisticWithIntegrations::TotalMembersComparison do
     end
   end
 
-  context "quando esiste il dato Cassa Edile ma manca l'Anagrafe FLC del mese precedente" do
+  context "quando esiste il dato Cassa Edile ma manca l'Anagrafe FLC dello stesso mese" do
     before do
       create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025", mese_di_riferimento: "Giugno")
       create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026", mese_di_riferimento: "Giugno")
@@ -59,9 +59,8 @@ RSpec.describe StatisticWithIntegrations::TotalMembersComparison do
       before do
         create(:integration_fillea, zoning: zoning, year: "2026", subscribers_ce: 400)
         create(:integration_fillea, zoning: zoning, year: "2025", subscribers_ce: 300)
-        # l'Anagrafe FLC di Giugno si legge dal record di Maggio (mese precedente)
-        create(:integration_flc, zoning: zoning, year: "2026", month: "Maggio", subscribers_af: 50)
-        create(:integration_flc, zoning: zoning, year: "2025", month: "Maggio", subscribers_af: 30)
+        create(:integration_flc, zoning: zoning, year: "2026", month: "Giugno", subscribers_af: 50)
+        create(:integration_flc, zoning: zoning, year: "2025", month: "Giugno", subscribers_af: 30)
       end
 
       it "ricalibra il totale sommando entrambe le correzioni di entrambi gli anni" do
@@ -147,8 +146,8 @@ RSpec.describe StatisticWithIntegrations::TotalMembersComparison do
     context "quando manca il dato Cassa Edile per l'anno precedente ma l'Anagrafe FLC è completa" do
       before do
         create(:integration_fillea, zoning: zoning, year: "2026", subscribers_ce: 400)
-        create(:integration_flc, zoning: zoning, year: "2026", month: "Maggio", subscribers_af: 50)
-        create(:integration_flc, zoning: zoning, year: "2025", month: "Maggio", subscribers_af: 30)
+        create(:integration_flc, zoning: zoning, year: "2026", month: "Giugno", subscribers_af: 50)
+        create(:integration_flc, zoning: zoning, year: "2025", month: "Giugno", subscribers_af: 30)
       end
 
       it "non si blocca e applica solo la correzione Anagrafe FLC all'anno precedente" do
@@ -163,7 +162,7 @@ RSpec.describe StatisticWithIntegrations::TotalMembersComparison do
       before do
         create(:integration_fillea, zoning: zoning, year: "2026", subscribers_ce: 400)
         create(:integration_fillea, zoning: zoning, year: "2025", subscribers_ce: 300)
-        create(:integration_flc, zoning: zoning, year: "2026", month: "Maggio", subscribers_af: 50)
+        create(:integration_flc, zoning: zoning, year: "2026", month: "Giugno", subscribers_af: 50)
       end
 
       it "non si blocca e applica solo la correzione Cassa Edile all'anno precedente" do
