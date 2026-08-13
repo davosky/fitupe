@@ -67,6 +67,10 @@ gem "pagy"
 gem "view_component"
 
 # PDF generation
+# matrix: bundled gem as of Ruby 3.4, richiesto internamente da prawn ma non
+# dichiarato nella sua gemspec - va esplicitato o bundler non lo installa
+# (vedi lo stesso motivo per "csv" sopra).
+gem "matrix"
 gem "prawn"
 gem "prawn-table"
 
