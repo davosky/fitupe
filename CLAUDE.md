@@ -108,6 +108,7 @@ end
 - Evita `default_scope` — preferisci scopes espliciti
 - Per dati sensibili: usa `attr_encrypted` o Rails credentials
 - Bulk operations: usa `insert_all` / `update_all` invece di loop
+- Non cancellare mai gli utenti presenti nei database production e development se non esplicitamente richiesto.
 
 ```ruby
 # ✅ Migrazione con indice
