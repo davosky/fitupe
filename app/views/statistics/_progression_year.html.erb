@@ -1,0 +1,53 @@
+<div class="row g-0">
+  <div class="col-lg-9">
+    <div class="card border-dark p-3 m-2 shadow-sm">
+      <h4>
+        <span class="p-2 fw-bold fst-italic">
+          <i class="bi bi-calendar3 text-primary me-1"></i>
+          <%= anno %>
+        </span>
+      </h4>
+      <hr class="mt-2 mb-2"/>
+      <div class="table-responsive">
+        <table class="table table-hover align-middle">
+          <thead>
+            <tr>
+              <th>Azzonamento</th>
+              <% ImportForm::MESI.each do |mese| %>
+                <th><%= mese %></th>
+              <% end %>
+            </tr>
+          </thead>
+          <tbody>
+            <% rows.each do |row| %>
+              <tr>
+                <td class="fw-bold"><%= row.zoning.descrizione_azzonamento %></td>
+                <% ImportForm::MESI.each_index do |index| %>
+                  <td><%= number_with_delimiter(row.counts[index], locale: :it) if row.counts[index] %></td>
+                <% end %>
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card border-dark p-3 m-2 shadow-sm">
+      <h4>
+        <span class="p-2 fw-bold fst-italic">
+          <i class="bi bi-graph-up-arrow text-primary me-1"></i>
+          Crescita % <%= anno %>
+        </span>
+      </h4>
+      <hr class="mt-2 mb-2"/>
+      <div class="mx-auto" style="position: relative; height: 260px; width: 100%;"
+          data-controller="bar-chart"
+          data-bar-chart-labels-value="<%= gaps.map { |g| g.zoning.descrizione_azzonamento }.to_json %>"
+          data-bar-chart-data-value="<%= gaps.map { |g| g.public_send(crescita) || 0 }.to_json %>"
+          data-bar-chart-percentages-value="<%= gaps.map { |g| g.public_send(crescita) || 0 }.to_json %>">
+        <canvas data-bar-chart-target="canvas"></canvas>
+      </div>
+    </div>
+  </div>
+</div>

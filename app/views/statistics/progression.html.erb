@@ -1,0 +1,90 @@
+<% content_for :title, "Progressione Annuale" %>
+<div class="mt-5 mb-3">
+  <h3 class="text-primary">
+    <i class="fw-bold">
+      <%= image_tag("statistic/statistic-logo.svg", class: "img-fluid me-3", size: "58x58", alt: "Statistiche") %>
+      Progressione Annuale
+    </i>
+  </h3>
+</div>
+<hr class="text-primary mb-1"/>
+<div id="progressione-annuale" class="p-3 mt-2">
+  <%= form_with model: @progression_form, scope: :annual_progression_form, url: progression_statistics_path,
+    method: :get, local: true do |f| %>
+    <div class="row g-3 align-items-end mb-5">
+      <div class="col-md-5">
+        <%= f.label :zoning_id, "Scegli l'Azzonamento", class: "form-label fst-italic text-secondary" %>
+        <%= f.collection_select :zoning_id, @zonings, :id, :descrizione_azzonamento,
+          { prompt: "Seleziona un azzonamento" }, class: "form-select", required: true %>
+      </div>
+      <div class="col-md-5">
+        <%= f.label :anno, "Scegli l'Anno", class: "form-label fst-italic text-secondary" %>
+        <%= f.text_field :anno, class: "form-control", placeholder: "es. 2026", required: true %>
+      </div>
+      <div class="col-md-2 d-grid">
+        <%= f.submit "Calcola", class: "btn btn-primary shadow" %>
+      </div>
+    </div>
+  <% end %>
+  <% if @progression_result %>
+    <% if @progression_result.success? %>
+      <%= render "progression_year", anno: @progression_result.anno, rows: @progression_result.rows_anno,
+        gaps: @progression_result.gaps, crescita: :crescita_anno %>
+      <%= render "progression_year", anno: @progression_result.anno_precedente,
+        rows: @progression_result.rows_precedente, gaps: @progression_result.gaps, crescita: :crescita_precedente %>
+      <% gaps = @progression_result.gaps %>
+      <div class="row g-0">
+        <div class="col-lg-5">
+          <div class="card border-dark p-3 m-2 shadow-sm">
+            <h4>
+              <span class="p-2 fw-bold fst-italic">
+                <i class="bi bi-arrow-left-right text-primary me-1"></i>
+                Differenza di Crescita <%= @progression_result.anno_precedente %>-<%= @progression_result.anno %>
+              </span>
+            </h4>
+            <hr class="mt-2 mb-2"/>
+            <div class="table-responsive">
+              <table class="table table-hover align-middle">
+                <thead>
+                  <tr>
+                    <th>Azzonamento</th>
+                    <th>Territorio</th>
+                    <th>Crescita % <%= @progression_result.anno_precedente %></th>
+                    <th>Crescita % <%= @progression_result.anno %></th>
+                    <th>Differenza %</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <% gaps.each do |gap| %>
+                    <tr>
+                      <td><%= gap.zoning.codice_azzonamento %></td>
+                      <td><%= gap.zoning.descrizione_azzonamento %></td>
+                      <td><%= number_to_percentage(gap.crescita_precedente, precision: 2, locale: :it) if gap.crescita_precedente %></td>
+                      <td><%= number_to_percentage(gap.crescita_anno, precision: 2, locale: :it) if gap.crescita_anno %></td>
+                      <td class="fw-bold <%= gap.differenza.to_f.negative? ? "text-danger" : "text-success" %>">
+                        <%= number_to_percentage(gap.differenza, precision: 2, locale: :it) if gap.differenza %>
+                      </td>
+                    </tr>
+                  <% end %>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card border-dark p-3 m-2 shadow-sm">
+            <div class="mx-auto" style="position: relative; height: 320px; width: 100%;"
+                data-controller="bar-chart"
+                data-bar-chart-labels-value="<%= gaps.map { |g| "#{g.zoning.codice_azzonamento} #{g.zoning.descrizione_azzonamento}" }.to_json %>"
+                data-bar-chart-data-value="<%= gaps.map { |g| g.differenza || 0 }.to_json %>"
+                data-bar-chart-percentages-value="<%= gaps.map { |g| g.differenza || 0 }.to_json %>">
+              <canvas data-bar-chart-target="canvas"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    <% else %>
+      <div class="alert alert-warning m-2"><%= @progression_result.error %></div>
+    <% end %>
+  <% end %>
+</div>

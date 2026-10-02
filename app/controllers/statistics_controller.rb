@@ -7,6 +7,11 @@ class StatisticsController < ApplicationController
     @total_members_result = compute_total_members_result
   end
 
+  def progression
+    @progression_form = AnnualProgressionForm.new(progression_params)
+    @progression_result = compute_progression_result
+  end
+
   private
 
   def set_zonings
@@ -15,6 +20,16 @@ class StatisticsController < ApplicationController
 
   def total_members_params
     params.fetch(:total_members_form, {}).permit(:zoning_id, :anno, :mese)
+  end
+
+  def progression_params
+    params.fetch(:annual_progression_form, {}).permit(:zoning_id, :anno)
+  end
+
+  def compute_progression_result
+    return nil unless @progression_form.valid?
+
+    Statistics::AnnualProgression.call(zoning: @progression_form.zoning, anno: @progression_form.anno)
   end
 
   def compute_total_members_result

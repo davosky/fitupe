@@ -42,7 +42,9 @@ Rails.application.routes.draw do
       get :confirm_destroy
     end
   end
-  resources :statistics, only: %i[index]
+  resources :statistics, only: %i[index] do
+    get :progression, on: :collection
+  end
   resources :statistic_spi, only: %i[index]
   resources :statistic_with_integrations, only: %i[index]
   resources :statistic_prints, only: %i[index]
