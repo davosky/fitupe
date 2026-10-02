@@ -20,7 +20,7 @@ module StatisticWithIntegrations
     end
 
     def call
-      return regional_result if regionale?
+      return regional_result if @zoning.regionale?
 
       return missing_result([ @zoning ]) unless dato_presente?(@zoning)
 
@@ -40,12 +40,7 @@ module StatisticWithIntegrations
 
     def dato_presente?(zoning) = IntegrationFillea.exists?(zoning:, year: @anno)
 
-    def regionale? = @zoning.codice_azzonamento.to_s.length == 1
-
-    def province_zonings
-      Zoning.where("codice_azzonamento LIKE ? AND codice_azzonamento != ?",
-        "#{@zoning.codice_azzonamento}%", @zoning.codice_azzonamento).order(:codice_azzonamento)
-    end
+    def province_zonings = Zoning.comprensori_di(@zoning)
 
     def build_row(zoning)
       cassa_edile = IntegrationFillea.find_by(zoning:, year: @anno).subscribers_ce

@@ -9,23 +9,7 @@
 </div>
 <hr class="text-primary mb-1"/>
 <div id="progressione-annuale" class="p-3 mt-2">
-  <%= form_with model: @progression_form, scope: :annual_progression_form, url: progression_statistics_path,
-    method: :get, local: true do |f| %>
-    <div class="row g-3 align-items-end mb-5">
-      <div class="col-md-5">
-        <%= f.label :zoning_id, "Scegli l'Azzonamento", class: "form-label fst-italic text-secondary" %>
-        <%= f.collection_select :zoning_id, @zonings, :id, :descrizione_azzonamento,
-          { prompt: "Seleziona un azzonamento" }, class: "form-select", required: true %>
-      </div>
-      <div class="col-md-5">
-        <%= f.label :anno, "Scegli l'Anno", class: "form-label fst-italic text-secondary" %>
-        <%= f.text_field :anno, class: "form-control", placeholder: "es. 2026", required: true %>
-      </div>
-      <div class="col-md-2 d-grid">
-        <%= f.submit "Calcola", class: "btn btn-primary shadow" %>
-      </div>
-    </div>
-  <% end %>
+  <%= render "progression_form", url: progression_statistics_path %>
   <% if @progression_result %>
     <% if @progression_result.success? %>
       <%= render "progression_year", anno: @progression_result.anno, rows: @progression_result.rows_anno,

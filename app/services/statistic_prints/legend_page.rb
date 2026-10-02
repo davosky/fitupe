@@ -29,7 +29,7 @@ module StatisticPrints
 
     def draw_body
       @pdf.font("AsapCondensed", size: 11) do
-        LegendContent.blocks(@form.legend.description).each { |block| draw_block(block) }
+        LegendContent.blocks(description).each { |block| draw_block(block) }
       end
     end
 
@@ -64,5 +64,7 @@ module StatisticPrints
     end
 
     def list_indent = LIST_INDENT_MM * 72 / 25.4
+
+    def description = @form.legend.description
   end
 end

@@ -8,7 +8,8 @@
 module StatisticPrints
   class ZoningDividerPage
     IMAGES_DIR = Rails.root.join("app/assets/images/statistic_prints")
-    CGIL_LOGO = IMAGES_DIR.join("logo-cgil.png")
+    LOGO = IMAGES_DIR.join("logo-cgil.png")
+    FOOTER_LABEL = "Confederazione Generale Italiana del Lavoro".freeze
 
     BLOCK_WIDTH_RATIO = 0.45
     ICON_HEIGHT = 56
@@ -46,7 +47,7 @@ module StatisticPrints
     def rule_top = block_top - ICON_HEIGHT - RULE_GAP
 
     def draw_icon_and_title
-      info = @pdf.image CGIL_LOGO.to_s, at: [ block_left, block_top ], height: ICON_HEIGHT
+      info = @pdf.image self.class::LOGO.to_s, at: [ block_left, block_top ], height: ICON_HEIGHT
       title_left = block_left + info.scaled_width + ICON_TITLE_GAP
       @pdf.fill_color "000000"
       @pdf.font("AsapCondensed", style: :bold, size: TITLE_SIZE) do
@@ -62,7 +63,7 @@ module StatisticPrints
 
     def draw_footer
       footer_top = rule_top - FOOTER_GAP
-      info = @pdf.image CGIL_LOGO.to_s, at: [ block_left, footer_top ], height: FOOTER_LOGO_HEIGHT
+      info = @pdf.image self.class::LOGO.to_s, at: [ block_left, footer_top ], height: FOOTER_LOGO_HEIGHT
       draw_footer_label(block_left + info.scaled_width + 6, footer_top)
       draw_footer_period(footer_top)
     end
@@ -70,7 +71,7 @@ module StatisticPrints
     def draw_footer_label(left, top)
       @pdf.fill_color "000000"
       @pdf.font("AsapCondensed", size: FOOTER_LABEL_SIZE) do
-        @pdf.text_box "Confederazione Generale Italiana del Lavoro", at: [ left, top ],
+        @pdf.text_box self.class::FOOTER_LABEL, at: [ left, top ],
           width: block_left + block_width - left, height: FOOTER_ROW_HEIGHT, valign: :center
       end
     end
@@ -87,6 +88,18 @@ end
 ```
 
 ## Sezioni commentate
+
+### `LOGO`, `FOOTER_LABEL` e `self.class::`
+
+```ruby
+LOGO = IMAGES_DIR.join("logo-cgil.png")
+FOOTER_LABEL = "Confederazione Generale Italiana del Lavoro".freeze
+```
+
+> **IT:** Logo e dicitura del piè di pagina sono le uniche due cose che cambiano nella versione SPI (`StatisticSpiPrints::ZoningDividerPage`). Dal 2026-10-02 quella versione è una sottoclasse che ridefinisce solo queste due costanti; per questo i metodi qui le leggono con `self.class::LOGO` / `self.class::FOOTER_LABEL` e non per nome semplice: in Ruby le costanti si risolvono nel punto in cui il metodo è scritto, quindi un `LOGO` semplice userebbe sempre quello della classe base anche quando si disegna la pagina SPI.
+>
+> *EN: Logo and footer label are the only two things that change in the SPI version (`StatisticSpiPrints::ZoningDividerPage`). Since 2026-10-02 that version is a subclass redefining just these two constants; that's why the methods here read them as `self.class::LOGO` / `self.class::FOOTER_LABEL` rather than by bare name: Ruby resolves constants where the method is written, so a bare `LOGO` would always pick the base class's one even when drawing the SPI page.*
+
 
 ### Costanti di geometria
 
@@ -140,7 +153,7 @@ def rule_top = block_top - ICON_HEIGHT - RULE_GAP
 
 ```ruby
 def draw_icon_and_title
-  info = @pdf.image CGIL_LOGO.to_s, at: [ block_left, block_top ], height: ICON_HEIGHT
+  info = @pdf.image self.class::LOGO.to_s, at: [ block_left, block_top ], height: ICON_HEIGHT
   title_left = block_left + info.scaled_width + ICON_TITLE_GAP
   @pdf.fill_color "000000"
   @pdf.font("AsapCondensed", style: :bold, size: TITLE_SIZE) do
@@ -172,7 +185,7 @@ end
 ```ruby
 def draw_footer
   footer_top = rule_top - FOOTER_GAP
-  info = @pdf.image CGIL_LOGO.to_s, at: [ block_left, footer_top ], height: FOOTER_LOGO_HEIGHT
+  info = @pdf.image self.class::LOGO.to_s, at: [ block_left, footer_top ], height: FOOTER_LOGO_HEIGHT
   draw_footer_label(block_left + info.scaled_width + 6, footer_top)
   draw_footer_period(footer_top)
 end
@@ -180,7 +193,7 @@ end
 def draw_footer_label(left, top)
   @pdf.fill_color "000000"
   @pdf.font("AsapCondensed", size: FOOTER_LABEL_SIZE) do
-    @pdf.text_box "Confederazione Generale Italiana del Lavoro", at: [ left, top ],
+    @pdf.text_box self.class::FOOTER_LABEL, at: [ left, top ],
       width: block_left + block_width - left, height: FOOTER_ROW_HEIGHT, valign: :center
   end
 end

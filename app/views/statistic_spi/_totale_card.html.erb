@@ -1,4 +1,4 @@
-<% regionale = iscritti_row.zoning.codice_azzonamento.to_s.length == 1 %>
+<% regionale = iscritti_row.zoning.regionale? %>
 <% zoning_image = regionale ? "statistic/regionale.svg" : "statistic/comprensori.svg" %>
 <% zoning_image_alt = regionale ? "regionale" : "comprensori" %>
 <div class="card border-dark p-3 m-2 shadow-sm">

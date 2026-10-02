@@ -1,6 +1,6 @@
 <div id="totale-iscritti" class="p-3 mt-2">
-  <%= form_with model: @total_members_form, scope: :total_members_form, url: statistics_path, method: :get,
-    local: true do |f| %>
+  <%= form_with model: @total_members_form, scope: :total_members_form, url: local_assigns.fetch(:url, statistics_path),
+    method: :get, local: true do |f| %>
     <div class="row g-3 align-items-end mb-5">
       <div class="col-md-4">
         <%= f.label :zoning_id, "Scegli l'Azzonamento", class: "form-label fst-italic text-secondary" %>
@@ -23,7 +23,7 @@
   <% end %>
   <% if @total_members_result %>
     <% if @total_members_result.success? %>
-      <% regionale = @total_members_result.zoning.codice_azzonamento.to_s.length == 1 %>
+      <% regionale = @total_members_result.zoning.regionale? %>
       <% zoning_image = regionale ? "statistic/regionale.svg" : "statistic/comprensori.svg" %>
       <% zoning_image_alt = regionale ? "regionale" : "comprensori" %>
       <div class="card border-dark p-3 m-2 shadow-sm">

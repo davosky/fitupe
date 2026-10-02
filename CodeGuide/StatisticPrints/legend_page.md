@@ -36,7 +36,7 @@ module StatisticPrints
 
     def draw_body
       @pdf.font("AsapCondensed", size: 11) do
-        LegendContent.blocks(@form.legend.description).each { |block| draw_block(block) }
+        LegendContent.blocks(description).each { |block| draw_block(block) }
       end
     end
 
@@ -71,6 +71,8 @@ module StatisticPrints
     end
 
     def list_indent = LIST_INDENT_MM * 72 / 25.4
+
+    def description = @form.legend.description
   end
 end
 ```
@@ -90,9 +92,9 @@ def initialize(pdf, form:)
 end
 ```
 
-> **IT:** `LegendPage` non riceve mai un oggetto legenda direttamente, ma `@form` — è `@form.legend.description` (dentro `draw_body`) a recuperare l'`ActionText::RichText`. Il chiamante, `ReportPdf#draw_legend`, ha già verificato `@form.legend.present?` prima di invocare questa classe (vedi `report_pdf.md`), quindi qui non c'è nessun guard su `nil`: è un contratto implicito, non imposto dal type system di Ruby, che vale la pena tenere a mente leggendo questo file da solo.
+> **IT:** `LegendPage` non riceve mai un oggetto legenda direttamente, ma `@form` — è `description` (`@form.legend.description`, usato da `draw_body`) a recuperare l'`ActionText::RichText`. Il chiamante, `ReportPdf#draw_legend`, ha già verificato `@form.legend.present?` prima di invocare questa classe (vedi `report_pdf.md`), quindi qui non c'è nessun guard su `nil`: è un contratto implicito, non imposto dal type system di Ruby, che vale la pena tenere a mente leggendo questo file da solo. `description` è un metodo a parte perché `StatisticSpiPrints::LegendPage` possa essere una sottoclasse di questa pagina che ridefinisce solo quello (dal 2026-10-02).
 >
-> *EN: `LegendPage` never receives a legend object directly, but `@form` — it's `@form.legend.description` (inside `draw_body`) that fetches the `ActionText::RichText`. The caller, `ReportPdf#draw_legend`, has already verified `@form.legend.present?` before invoking this class (see `report_pdf.md`), so there's no `nil` guard here: it's an implicit contract, not enforced by Ruby's type system, worth keeping in mind when reading this file in isolation.*
+> *EN: `LegendPage` never receives a legend object directly, but `@form` — it's `description` (`@form.legend.description`, used by `draw_body`) that fetches the `ActionText::RichText`. The caller, `ReportPdf#draw_legend`, has already verified `@form.legend.present?` before invoking this class (see `report_pdf.md`), so there's no `nil` guard here: it's an implicit contract, not enforced by Ruby's type system, worth keeping in mind when reading this file in isolation. `description` is a separate method so that `StatisticSpiPrints::LegendPage` can subclass this page and override only that (since 2026-10-02).*
 
 ### `draw`, `draw_heading`
 
@@ -123,7 +125,7 @@ end
 ```ruby
 def draw_body
   @pdf.font("AsapCondensed", size: 11) do
-    LegendContent.blocks(@form.legend.description).each { |block| draw_block(block) }
+    LegendContent.blocks(description).each { |block| draw_block(block) }
   end
 end
 

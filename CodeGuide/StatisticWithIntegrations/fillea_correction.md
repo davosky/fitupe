@@ -27,7 +27,7 @@ module StatisticWithIntegrations
     end
 
     def call
-      return regional_result if regionale?
+      return regional_result if @zoning.regionale?
 
       return missing_result([ @zoning ]) unless dato_presente?(@zoning)
 
@@ -47,12 +47,7 @@ module StatisticWithIntegrations
 
     def dato_presente?(zoning) = IntegrationFillea.exists?(zoning:, year: @anno)
 
-    def regionale? = @zoning.codice_azzonamento.to_s.length == 1
-
-    def province_zonings
-      Zoning.where("codice_azzonamento LIKE ? AND codice_azzonamento != ?",
-        "#{@zoning.codice_azzonamento}%", @zoning.codice_azzonamento).order(:codice_azzonamento)
-    end
+    def province_zonings = Zoning.comprensori_di(@zoning)
 
     def build_row(zoning)
       cassa_edile = IntegrationFillea.find_by(zoning:, year: @anno).subscribers_ce
@@ -105,7 +100,7 @@ end
 
 ```ruby
 def call
-  return regional_result if regionale?
+  return regional_result if @zoning.regionale?
 
   return missing_result([ @zoning ]) unless dato_presente?(@zoning)
 
@@ -133,17 +128,12 @@ end
 ```ruby
 def dato_presente?(zoning) = IntegrationFillea.exists?(zoning:, year: @anno)
 
-def regionale? = @zoning.codice_azzonamento.to_s.length == 1
-
-def province_zonings
-  Zoning.where("codice_azzonamento LIKE ? AND codice_azzonamento != ?",
-    "#{@zoning.codice_azzonamento}%", @zoning.codice_azzonamento).order(:codice_azzonamento)
-end
+def province_zonings = Zoning.comprensori_di(@zoning)
 ```
 
-> **IT:** `regionale?`/`province_zonings` sono la stessa identica logica (codice a un solo carattere = regionale, `LIKE` sul prefisso escludendo l'azzonamento stesso) già vista in `Statistics::TotalMembersComparison#regionale?`/`#province_zonings` — non riusata da lì (nessuna dipendenza tra le due classi su questo punto), ma reimplementata identica, lo stesso tipo di duplicazione già notato tra `Statistics::TotalMembersComparison` e `StatisticSpi::TotalMembersComparison`. `dato_presente?` interroga solo per esistenza (`exists?`, non `find_by` seguito da un controllo su `nil`), evitando di caricare il record quando serve solo sapere se c'è.
+> **IT:** Il test regionale (`@zoning.regionale?`, codice a un solo carattere) e l'elenco dei comprensori (`Zoning.comprensori_di`, `LIKE` sul prefisso escludendo l'azzonamento stesso) vengono dal modello `Zoning`. Fino al 2026-10-02 erano reimplementati identici qui e in `FlcCorrection`; sono stati sostituiti dal codice del modello nell'audit di fine sessione, senza cambiare il comportamento. `dato_presente?` interroga solo per esistenza (`exists?`, non `find_by` seguito da un controllo su `nil`), evitando di caricare il record quando serve solo sapere se c'è.
 >
-> *EN: `regionale?`/`province_zonings` are the exact same logic (single-character code = regional, `LIKE` on the prefix excluding the zoning itself) already seen in `Statistics::TotalMembersComparison#regionale?`/`#province_zonings` — not reused from there (no dependency between the two classes on this point), but reimplemented identically, the same kind of duplication already noted between `Statistics::TotalMembersComparison` and `StatisticSpi::TotalMembersComparison`. `dato_presente?` only queries for existence (`exists?`, not `find_by` followed by a `nil` check), avoiding loading the record when all that's needed is whether it's there.*
+> *EN: The regional test (`@zoning.regionale?`, single-character code) and the comprensori list (`Zoning.comprensori_di`, `LIKE` on the prefix excluding the zoning itself) come from the `Zoning` model. Until 2026-10-02 they were reimplemented identically here and in `FlcCorrection`; the end-of-session audit replaced them with the model's code, with no behavior change. `dato_presente?` only queries for existence (`exists?`, not `find_by` followed by a `nil` check), avoiding loading the record when all that's needed is whether it's there.*
 
 ### `build_row` *(privato)*
 

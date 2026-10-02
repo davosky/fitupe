@@ -16,8 +16,6 @@ application.register("flash", FlashController)
 import GroupedBarChartController from "./grouped_bar_chart_controller"
 application.register("grouped-bar-chart", GroupedBarChartController)
 
-import HelloController from "./hello_controller"
-application.register("hello", HelloController)
 
 import PieChartController from "./pie_chart_controller"
 application.register("pie-chart", PieChartController)

@@ -13,9 +13,8 @@ module StatisticWithIntegrations
   # stesso importo va riportato anche sulla riga "Delega Tesoro" di
   # Tipologie Delega (dall'orchestratore, non da questa classe).
   #
-  # Il dato di un mese si applica alle statistiche del mese SUCCESSIVO (es.
-  # il record di Maggio integra le statistiche di Giugno), per via del ritardo
-  # con cui l'Anagrafe FLC rende disponibili i dati.
+  # Il dato di un mese si applica alle statistiche dello STESSO mese (es. il
+  # record di Luglio integra le statistiche di Luglio): nessuno sfasamento.
   class FlcCorrection
     Row = Struct.new(:zoning, :anagrafe, :diff, keyword_init: true)
     Result = Struct.new(:rows, :total_diff, :error, keyword_init: true) do
@@ -31,7 +30,7 @@ module StatisticWithIntegrations
     end
 
     def call
-      return regional_result if regionale?
+      return regional_result if @zoning.regionale?
 
       return missing_result([ @zoning ]) unless dato_presente?(@zoning)
 
@@ -49,32 +48,17 @@ module StatisticWithIntegrations
       Result.new(rows:, total_diff: rows.sum(&:diff))
     end
 
-    def dato_presente?(zoning) = IntegrationFlc.exists?(zoning:, year: lookup_year, month: lookup_month)
+    def dato_presente?(zoning) = IntegrationFlc.exists?(zoning:, year: @anno, month: @mese)
 
-    def regionale? = @zoning.codice_azzonamento.to_s.length == 1
-
-    def province_zonings
-      Zoning.where("codice_azzonamento LIKE ? AND codice_azzonamento != ?",
-        "#{@zoning.codice_azzonamento}%", @zoning.codice_azzonamento).order(:codice_azzonamento)
-    end
-
-    def lookup_month
-      # indice -1 (Gennaio) restituisce naturalmente "Dicembre" per via
-      # dell'indicizzazione negativa di Ruby sugli array
-      ImportForm::MESI[ImportForm::MESI.index(@mese) - 1]
-    end
-
-    def lookup_year
-      ImportForm::MESI.index(@mese).zero? ? (@anno.to_i - 1).to_s : @anno
-    end
+    def province_zonings = Zoning.comprensori_di(@zoning)
 
     def build_row(zoning)
-      anagrafe = IntegrationFlc.find_by(zoning:, year: lookup_year, month: lookup_month).subscribers_af
+      anagrafe = IntegrationFlc.find_by(zoning:, year: @anno, month: @mese).subscribers_af
       Row.new(zoning:, anagrafe:, diff: anagrafe)
     end
 
     def missing_result(missing)
-      Result.new(error: "Non ci sono dati Anagrafe FLC per #{lookup_month} #{lookup_year} in " \
+      Result.new(error: "Non ci sono dati Anagrafe FLC per #{@mese} #{@anno} in " \
         "#{missing.map(&:descrizione_azzonamento).join(', ')}.")
     end
   end
@@ -115,9 +99,9 @@ Row = Struct.new(:zoning, :anagrafe, :diff, keyword_init: true)
 
 ### `call`, `regional_result`, `dato_presente?`, `regionale?`, `province_zonings` — identici a `FilleaCorrection`
 
-> **IT:** Struttura per struttura identici ai metodi omonimi di `FilleaCorrection` (vedi `CodeGuide/StatisticWithIntegrations/fillea_correction.md` per il dettaglio completo): stessa politica "blocca a livello provinciale, integra selettivamente a livello regionale" per i dati mancanti, stesso calcolo di `regionale?`/`province_zonings`. L'unica differenza reale in `dato_presente?` è che interroga `IntegrationFlc` con `year: lookup_year, month: lookup_month` invece di `IntegrationFillea` con `year: @anno` — la granularità mensile e il ritardo di un mese (vedi sotto) si propagano fin qui.
+> **IT:** Struttura per struttura identici ai metodi omonimi di `FilleaCorrection` (vedi `CodeGuide/StatisticWithIntegrations/fillea_correction.md` per il dettaglio completo): stessa politica "blocca a livello provinciale, integra selettivamente a livello regionale" per i dati mancanti, stesso uso di `Zoning#regionale?`/`Zoning.comprensori_di`. L'unica differenza reale in `dato_presente?` è che interroga `IntegrationFlc` con `year: lookup_year, month: lookup_month` invece di `IntegrationFillea` con `year: @anno` — la granularità mensile e il ritardo di un mese (vedi sotto) si propagano fin qui.
 >
-> *EN: Structurally identical to `FilleaCorrection`'s same-named methods (see `CodeGuide/StatisticWithIntegrations/fillea_correction.md` for the full detail): the same "block at the provincial level, selectively integrate at the regional level" policy for missing data, the same `regionale?`/`province_zonings` computation. The one real difference in `dato_presente?` is that it queries `IntegrationFlc` with `year: lookup_year, month: lookup_month` instead of `IntegrationFillea` with `year: @anno` — the monthly granularity and one-month lag (see below) propagate all the way here.*
+> *EN: Structurally identical to `FilleaCorrection`'s same-named methods (see `CodeGuide/StatisticWithIntegrations/fillea_correction.md` for the full detail): the same "block at the provincial level, selectively integrate at the regional level" policy for missing data, the same use of `Zoning#regionale?`/`Zoning.comprensori_di`. The one real difference in `dato_presente?` is that it queries `IntegrationFlc` with `year: lookup_year, month: lookup_month` instead of `IntegrationFillea` with `year: @anno` — the monthly granularity and one-month lag (see below) propagate all the way here.*
 
 ### `lookup_month`, `lookup_year` *(privati)* — il ritardo di un mese, in codice
 
