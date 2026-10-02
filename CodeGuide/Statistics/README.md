@@ -81,6 +81,12 @@ Alcune scelte, se non documentate, verrebbero probabilmente "corrette" per error
 - **`--bs-secondary` è quasi invisibile** su sfondo bianco nel tema Bootswatch Lumen (`#f0f0f0`): dove serve un colore neutro ma distinguibile nei grafici a barre si usa `--bs-dark` (`#555`).
 - Un contenitore di grafico con `width`/`height` custom dentro una card flessibile (`.card`) va sempre abbinato a `width: 100%` prima di `max-width`, altrimenti gli auto-margin di `mx-auto` in un contesto flex lo restringono alle dimensioni di default del canvas (300×150).
 
+### Una pagina a parte: Progressione Annuale
+
+`Statistics::AnnualProgression` **non** segue la recipe delle sezioni: non è chiamato da `TotalMembersComparison` e ha una pagina propria (`StatisticsController#progression`, `/statistics/progression`, ultima voce del menu Statistiche) con un form diverso (`AnnualProgressionForm`: solo azzonamento + anno). Mostra i conteggi mese per mese da Gennaio all'ultimo mese importato, per l'anno scelto e per il precedente tagliato allo stesso mese, la crescita % di ciascun anno e la differenza tra le due crescite. Due cose da sapere: i conteggi sono **ricalibrati con le integrazioni FILLEA/FLC** (riusando le classi di `StatisticWithIntegrations`, senza mai bloccare se un mese non ha il dato), e la formula della crescita è stata ricavata dai numeri del mockup. Dettagli in `annual_progression.md`.
+
+La variante per categoria sindacale (`Statistics::AnnualCategoryProgression`, `/statistics/progression_categories`) è una sottoclasse che cambia solo la costruzione delle righe; attenzione alla colonna categoria, che cambia nome tra mesi dello stesso anno (`COALESCE`). Dettagli in `annual_category_progression.md`.
+
 ### Dove continuare
 
 Le prossime sezioni (quando richieste) seguono lo stesso identico schema a 4 livelli descritto sopra. L'unica vera decisione da prendere ogni volta è: confronto anno su anno o distribuzione a un solo anno? barra, barra-comparativa o torta? serve una tabella aggiuntiva con la "% sul totale iscritti"?
@@ -163,6 +169,12 @@ Some choices, if left undocumented, would likely get "corrected" by mistake by a
 - **Age is computed relative to today's date** (`AGE(data_nascita)` with no second argument in Postgres means "today"), not relative to the selected period's month/year. The age band answers "how old is this member today," not "how old were they during period X."
 - **`--bs-secondary` is nearly invisible** on a white background in the Bootswatch Lumen theme (`#f0f0f0`): wherever a neutral-but-distinguishable bar color is needed, `--bs-dark` (`#555`) is used instead.
 - A chart container with a custom `width`/`height` inside a flex card (`.card`) must always pair `width: 100%` with `max-width`, otherwise `mx-auto`'s flex auto-margins shrink it down to Chart.js's default canvas size (300×150).
+
+### A separate page: Annual Progression
+
+`Statistics::AnnualProgression` does **not** follow the section recipe: it isn't called by `TotalMembersComparison` and has its own page (`StatisticsController#progression`, `/statistics/progression`, last entry of the Statistics menu) with a different form (`AnnualProgressionForm`: zoning + year only). It shows month-by-month counts from January to the last imported month, for the chosen year and for the previous one cut at the same month, each year's growth % and the difference between the two. Two things to know: counts are **recalibrated with the FILLEA/FLC integrations** (reusing the `StatisticWithIntegrations` classes, never blocking when a month lacks data), and the growth formula was derived from the mockup's numbers. Details in `annual_progression.md`.
+
+The per-union-category variant (`Statistics::AnnualCategoryProgression`, `/statistics/progression_categories`) is a subclass that only changes how rows are built; watch out for the category column, which changes name between months of the same year (`COALESCE`). Details in `annual_category_progression.md`.
 
 ### Where to continue
 

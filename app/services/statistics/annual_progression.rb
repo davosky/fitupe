@@ -12,8 +12,8 @@ module Statistics
 
     CORRECTIONS = [ StatisticWithIntegrations::FilleaCorrection, StatisticWithIntegrations::FlcCorrection ].freeze
 
-    Row = Struct.new(:zoning, :counts, :crescita, keyword_init: true)
-    Gap = Struct.new(:zoning, :crescita_precedente, :crescita_anno, :differenza, keyword_init: true)
+    Row = Struct.new(:zoning, :counts, :crescita) { def label = zoning.descrizione_azzonamento }
+    Gap = Struct.new(:zoning, :crescita_precedente, :crescita_anno, :differenza) { def label = zoning.descrizione_azzonamento }
 
     def self.call(...) = new(...).call
 

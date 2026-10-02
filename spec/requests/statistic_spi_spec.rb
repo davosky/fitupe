@@ -29,7 +29,7 @@ RSpec.describe "StatisticSpi", type: :request do
       end
 
       it "non mostra le sezioni successive a Regionale/Comprensori presenti nella Statistiche base" do
-        expect(response.body).not_to include("Categorie")
+        expect(response.body).not_to include("statistic/categorie")
         expect(response.body).not_to include("Tipologie Iscrizione")
       end
     end

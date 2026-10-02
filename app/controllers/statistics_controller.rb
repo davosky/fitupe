@@ -9,7 +9,12 @@ class StatisticsController < ApplicationController
 
   def progression
     @progression_form = AnnualProgressionForm.new(progression_params)
-    @progression_result = compute_progression_result
+    @progression_result = compute_progression_result(Statistics::AnnualProgression)
+  end
+
+  def progression_categories
+    @progression_form = AnnualProgressionForm.new(progression_params)
+    @progression_result = compute_progression_result(Statistics::AnnualCategoryProgression)
   end
 
   private
@@ -26,10 +31,10 @@ class StatisticsController < ApplicationController
     params.fetch(:annual_progression_form, {}).permit(:zoning_id, :anno)
   end
 
-  def compute_progression_result
+  def compute_progression_result(service)
     return nil unless @progression_form.valid?
 
-    Statistics::AnnualProgression.call(zoning: @progression_form.zoning, anno: @progression_form.anno)
+    service.call(zoning: @progression_form.zoning, anno: @progression_form.anno)
   end
 
   def compute_total_members_result
