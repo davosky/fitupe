@@ -1,0 +1,12 @@
+<% if change %>
+  <td class="fw-bold <%= change.diff.negative? ? "text-danger" : "text-success" %>"><%= change.mese %></td>
+  <td class="<%= change.diff.negative? ? "text-danger" : "text-success" %>">
+    <%= "+" if change.diff.positive? %><%= number_with_delimiter(change.diff, locale: :it) %>
+    <% if change.diff_percent %>
+      <small class="fst-italic">(<%= number_to_percentage(change.diff_percent, precision: 2, locale: :it) %>)</small>
+    <% end %>
+  </td>
+<% else %>
+  <td class="text-muted">—</td>
+  <td></td>
+<% end %>

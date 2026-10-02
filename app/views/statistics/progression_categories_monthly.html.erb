@@ -1,0 +1,97 @@
+<% content_for :title, "Progressione Mensile Categorie" %>
+<div class="mt-5 mb-3">
+  <h3 class="text-primary">
+    <i class="fw-bold">
+      <%= image_tag("statistic/statistic-logo.svg", class: "img-fluid me-3", size: "58x58", alt: "Statistiche") %>
+      Progressione Mensile Categorie
+    </i>
+  </h3>
+</div>
+<hr class="text-primary mb-1"/>
+<div id="progressione-mensile-categorie" class="p-3 mt-2">
+  <%= form_with model: @progression_form, scope: :annual_progression_form,
+    url: progression_categories_monthly_statistics_path, method: :get, local: true do |f| %>
+    <div class="row g-3 align-items-end mb-5">
+      <div class="col-md-5">
+        <%= f.label :zoning_id, "Scegli l'Azzonamento", class: "form-label fst-italic text-secondary" %>
+        <%= f.collection_select :zoning_id, @zonings, :id, :descrizione_azzonamento,
+          { prompt: "Seleziona un azzonamento" }, class: "form-select", required: true %>
+      </div>
+      <div class="col-md-5">
+        <%= f.label :anno, "Scegli l'Anno", class: "form-label fst-italic text-secondary" %>
+        <%= f.text_field :anno, class: "form-control", placeholder: "es. 2026", required: true %>
+      </div>
+      <div class="col-md-2 d-grid">
+        <%= f.submit "Calcola", class: "btn btn-primary shadow" %>
+      </div>
+    </div>
+  <% end %>
+  <% if @progression_result %>
+    <% if @progression_result.success? %>
+      <div class="card border-dark p-3 m-2 shadow-sm">
+        <h4>
+          <span class="p-2 fw-bold fst-italic">
+            <i class="bi bi-arrow-down-up text-primary me-1"></i>
+            Mesi di maggior progressione e regressione
+          </span>
+        </h4>
+        <p class="text-secondary fst-italic ms-2 mb-1">Variazione di iscritti rispetto al mese precedente.</p>
+        <hr class="mt-2 mb-2"/>
+        <div class="table-responsive">
+          <table class="table table-hover align-middle">
+            <thead>
+              <tr>
+                <th rowspan="2" class="align-bottom">Categoria</th>
+                <th colspan="4" class="text-center border-start"><%= @progression_result.anno %></th>
+                <th colspan="4" class="text-center border-start"><%= @progression_result.anno_precedente %></th>
+              </tr>
+              <tr>
+                <% 2.times do %>
+                  <th colspan="2" class="border-start">Maggior progressione</th>
+                  <th colspan="2">Maggior regressione</th>
+                <% end %>
+              </tr>
+            </thead>
+            <tbody>
+              <% @progression_result.rows.each do |row| %>
+                <tr>
+                  <td class="fw-bold"><%= row.categoria %></td>
+                  <% [ row.anno, row.precedente ].each do |extremes| %>
+                    <%= render "monthly_change", change: extremes.progressione %>
+                    <%= render "monthly_change", change: extremes.regressione %>
+                  <% end %>
+                </tr>
+              <% end %>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row g-0">
+        <% { @progression_result.anno => :anno, @progression_result.anno_precedente => :precedente }.each do |anno, campo| %>
+          <% extremes = @progression_result.rows.map { |row| row.public_send(campo) } %>
+          <div class="col-lg-6">
+            <div class="card border-dark p-3 m-2 shadow-sm">
+              <h4>
+                <span class="p-2 fw-bold fst-italic">
+                  <i class="bi bi-bar-chart text-primary me-1"></i>
+                  Progressione e regressione % <%= anno %>
+                </span>
+              </h4>
+              <hr class="mt-2 mb-2"/>
+              <div class="mx-auto" style="position: relative; height: 420px; width: 100%;"
+                  data-controller="grouped-bar-chart"
+                  data-grouped-bar-chart-labels-value="<%= @progression_result.rows.map(&:categoria).to_json %>"
+                  data-grouped-bar-chart-dataset-labels-value="<%= [ "Maggior progressione", "Maggior regressione" ].to_json %>"
+                  data-grouped-bar-chart-colors-value="<%= %w[--bs-success --bs-danger].to_json %>"
+                  data-grouped-bar-chart-data-value="<%= %i[progressione regressione].map { |tipo| extremes.map { |e| e.public_send(tipo)&.diff_percent || 0 } }.to_json %>">
+                <canvas data-grouped-bar-chart-target="canvas"></canvas>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    <% else %>
+      <div class="alert alert-warning m-2"><%= @progression_result.error %></div>
+    <% end %>
+  <% end %>
+</div>

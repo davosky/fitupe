@@ -45,6 +45,7 @@ Rails.application.routes.draw do
   resources :statistics, only: %i[index] do
     get :progression, on: :collection
     get :progression_categories, on: :collection
+    get :progression_categories_monthly, on: :collection
   end
   resources :statistic_spi, only: %i[index]
   resources :statistic_with_integrations, only: %i[index]

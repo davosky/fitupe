@@ -17,6 +17,11 @@ class StatisticsController < ApplicationController
     @progression_result = compute_progression_result(Statistics::AnnualCategoryProgression)
   end
 
+  def progression_categories_monthly
+    @progression_form = AnnualProgressionForm.new(progression_params)
+    @progression_result = compute_progression_result(Statistics::MonthlyCategoryProgression)
+  end
+
   private
 
   def set_zonings

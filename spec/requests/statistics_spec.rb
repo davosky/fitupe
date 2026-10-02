@@ -142,4 +142,35 @@ RSpec.describe "Statistics", type: :request do
       end
     end
   end
+
+  describe "GET /statistics/progression_categories_monthly" do
+    it "reindirizza al login se non autenticato" do
+      get progression_categories_monthly_statistics_path
+      expect(response).to redirect_to(new_user_session_path)
+    end
+
+    context "con dati per entrambi gli anni" do
+      let(:zoning) { create(:zoning, codice_azzonamento: "GA", descrizione_azzonamento: "Trieste") }
+
+      before do
+        { "2025" => [ 4, 5 ], "2026" => [ 3, 2 ] }.each do |anno, (gennaio, febbraio)|
+          create_list(:import, gennaio, azzonamento_di_riferimento: zoning, anno_di_riferimento: anno,
+            mese_di_riferimento: "Gennaio", categoria: "FIOM")
+          create_list(:import, febbraio, azzonamento_di_riferimento: zoning, anno_di_riferimento: anno,
+            mese_di_riferimento: "Febbraio", categoria: "FIOM")
+        end
+        sign_in create(:user)
+        get progression_categories_monthly_statistics_path(
+          annual_progression_form: { zoning_id: zoning.id, anno: "2026" }
+        )
+      end
+
+      it "mostra progressione e regressione per categoria" do
+        expect(response).to have_http_status(:ok)
+        expect(response.body).to include("Progressione Mensile Categorie", "FIOM")
+        expect(response.body).to match(/text-danger">\s*-1/)
+        expect(response.body).to match(/text-success">\s*\+1/)
+      end
+    end
+  end
 end

@@ -10,7 +10,8 @@ export default class extends Controller {
   static values = {
     labels: Array,
     datasetLabels: Array,
-    data: Array
+    data: Array,
+    colors: { type: Array, default: [] }
   }
 
   connect() {
@@ -41,8 +42,11 @@ export default class extends Controller {
     this.chart?.destroy()
   }
 
+  // Palette ciclica, oppure le variabili CSS passate in
+  // data-grouped-bar-chart-colors-value quando i colori hanno un significato.
   colors() {
-    const palette = [ "--bs-warning", "--bs-danger", "--bs-success", "--bs-primary", "--bs-info", "--bs-dark" ]
+    const defaults = [ "--bs-warning", "--bs-danger", "--bs-success", "--bs-primary", "--bs-info", "--bs-dark" ]
+    const palette = this.colorsValue.length > 0 ? this.colorsValue : defaults
     const style = getComputedStyle(document.documentElement)
 
     return palette.map((name) => style.getPropertyValue(name).trim())
