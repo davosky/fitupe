@@ -1,5 +1,7 @@
 module StatisticPrints
   class MembershipTypesPage
+    include PageLayout
+
     MAX_CHART_HEIGHT_MM = 60
     SECTION_GAP_MM = 6
 
@@ -23,17 +25,7 @@ module StatisticPrints
 
     private
 
-    def draw_heading(zoning)
-      @pdf.font("AsapCondensed", style: :bold, size: 16) { @pdf.text "Tipologie - #{zoning.descrizione_azzonamento}" }
-      @pdf.move_down 8
-      @pdf.stroke_color "CCCCCC"
-      @pdf.stroke_horizontal_rule
-      @pdf.move_down section_gap
-    end
-
-    def draw_message(message, color)
-      @pdf.font("AsapCondensed", size: 12) { @pdf.text message, color: color }
-    end
+    def draw_heading(zoning) = draw_page_heading("Tipologie - #{zoning.descrizione_azzonamento}")
 
     def draw_iscrizione(result)
       return if result.tipologie_iscrizione.blank?
@@ -72,9 +64,7 @@ module StatisticPrints
     end
 
     def chart_height
-      [ @pdf.cursor - 6, MAX_CHART_HEIGHT_MM * 72 / 25.4 ].min
+      [ @pdf.cursor - 6, mm(MAX_CHART_HEIGHT_MM) ].min
     end
-
-    def section_gap = SECTION_GAP_MM * 72 / 25.4
   end
 end

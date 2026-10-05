@@ -1,5 +1,7 @@
 module StatisticPrints
   class ReportPdf
+    include PageLayout
+
     ASAP_DIR = Rails.root.join("app/assets/fonts")
     CONTENT_MARGIN_TOP_MM = 15
     CONTENT_MARGIN_BOTTOM_MM = 15
@@ -18,8 +20,8 @@ module StatisticPrints
     end
 
     def call
-      margin = [ mm_to_pt(CONTENT_MARGIN_TOP_MM), mm_to_pt(CONTENT_MARGIN_LR_MM),
-                mm_to_pt(CONTENT_MARGIN_BOTTOM_MM), mm_to_pt(CONTENT_MARGIN_LR_MM) ]
+      margin = [ mm(CONTENT_MARGIN_TOP_MM), mm(CONTENT_MARGIN_LR_MM),
+                mm(CONTENT_MARGIN_BOTTOM_MM), mm(CONTENT_MARGIN_LR_MM) ]
       Prawn::Document.new(page_size: "A4", page_layout: :landscape, margin: margin) do |pdf|
         register_fonts(pdf)
         pdf.canvas { CoverPage.draw(pdf, form: @form) }
@@ -77,8 +79,6 @@ module StatisticPrints
     def province_form(zoning)
       TotalMembersForm.new(zoning_id: zoning.id, anno: @form.anno, mese: @form.mese)
     end
-
-    def mm_to_pt(mm) = mm * 72 / 25.4
 
     def register_fonts(pdf)
       pdf.font_families.update(

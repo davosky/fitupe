@@ -7,6 +7,8 @@
 ```ruby
 module StatisticSpiPrints
   class ReportPdf
+    include StatisticPrints::PageLayout
+
     ASAP_DIR = Rails.root.join("app/assets/fonts")
     CONTENT_MARGIN_TOP_MM = 15
     CONTENT_MARGIN_BOTTOM_MM = 15
@@ -23,8 +25,8 @@ module StatisticSpiPrints
     end
 
     def call
-      margin = [ mm_to_pt(CONTENT_MARGIN_TOP_MM), mm_to_pt(CONTENT_MARGIN_LR_MM),
-                mm_to_pt(CONTENT_MARGIN_BOTTOM_MM), mm_to_pt(CONTENT_MARGIN_LR_MM) ]
+      margin = [ mm(CONTENT_MARGIN_TOP_MM), mm(CONTENT_MARGIN_LR_MM),
+                mm(CONTENT_MARGIN_BOTTOM_MM), mm(CONTENT_MARGIN_LR_MM) ]
       Prawn::Document.new(page_size: "A4", page_layout: :landscape, margin: margin) do |pdf|
         register_fonts(pdf)
         pdf.canvas { CoverPage.draw(pdf, form: @form) }
@@ -83,8 +85,6 @@ module StatisticSpiPrints
       TotalMembersForm.new(zoning_id: zoning.id, anno: @form.anno, mese: @form.mese)
     end
 
-    def mm_to_pt(mm) = mm * 72 / 25.4
-
     def register_fonts(pdf)
       pdf.font_families.update(
         "AsapCondensed" => {
@@ -125,8 +125,8 @@ def initialize(form:)
 end
 
 def call
-  margin = [ mm_to_pt(CONTENT_MARGIN_TOP_MM), mm_to_pt(CONTENT_MARGIN_LR_MM),
-            mm_to_pt(CONTENT_MARGIN_BOTTOM_MM), mm_to_pt(CONTENT_MARGIN_LR_MM) ]
+  margin = [ mm(CONTENT_MARGIN_TOP_MM), mm(CONTENT_MARGIN_LR_MM),
+            mm(CONTENT_MARGIN_BOTTOM_MM), mm(CONTENT_MARGIN_LR_MM) ]
   Prawn::Document.new(page_size: "A4", page_layout: :landscape, margin: margin) do |pdf|
     register_fonts(pdf)
     pdf.canvas { CoverPage.draw(pdf, form: @form) }
@@ -199,7 +199,6 @@ def province_form(zoning)
   TotalMembersForm.new(zoning_id: zoning.id, anno: @form.anno, mese: @form.mese)
 end
 
-def mm_to_pt(mm) = mm * 72 / 25.4
 
 def register_fonts(pdf)
   pdf.font_families.update(
@@ -214,3 +213,5 @@ end
 > **IT:** Cinque metodi identici, riga per riga, alla versione Attivi (a parte i commenti, leggermente riformulati). Da notare in particolare: `province_form` costruisce sempre un `TotalMembersForm` — **la stessa classe form usata dalla stampa Attivi**, non un `TotalMembersSpiForm` dedicato — perché il form serve solo a portare `zoning_id`/`anno`/`mese` fino alle pagine di contenuto, e questi tre campi sono identici tra le due aree statistiche; è ogni singola `*Page`/`*Breakdown` SPI a interpretare quel form nel modo giusto (chiamando `StatisticSpi::*Breakdown` invece di `Statistics::*Breakdown`). `mm_to_pt` è duplicato invece di condiviso, coerente con la convenzione, già documentata per l'area Attivi, di inlineare la conversione mm→pt per-file piuttosto che estrarla in un helper condiviso. `register_fonts` è byte-per-byte identico: stesso font AsapCondensed, stessa cartella `ASAP_DIR`, nessuna variante SPI per la tipografia.
 >
 > *EN: Five methods identical, line for line, to the Attivi version (aside from slightly reworded comments). Worth noting in particular: `province_form` always builds a `TotalMembersForm` — **the same form class used by the Attivi print**, not a dedicated `TotalMembersSpiForm` — because the form only needs to carry `zoning_id`/`anno`/`mese` down to the content pages, and those three fields are identical across both statistics areas; it's each individual SPI `*Page`/`*Breakdown` that interprets that form the right way (calling `StatisticSpi::*Breakdown` instead of `Statistics::*Breakdown`). `mm_to_pt` is duplicated rather than shared, consistent with the convention — already documented for the Attivi area — of inlining the mm→pt conversion per-file instead of extracting it into a shared helper. `register_fonts` is byte-for-byte identical: same AsapCondensed font, same `ASAP_DIR` folder, no SPI-specific typography variant.*
+
+> **Nota 2026-10-05 / Note:** dove il testo cita `mm_to_pt` o la conversione `* 72 / 25.4` ripetuta nelle pagine, dal refactor si tratta dell'helper condiviso `mm` di `StatisticPrints::PageLayout` (vedi `CodeGuide/StatisticPrints/page_layout.md`). / Where the text mentions `mm_to_pt` or the `* 72 / 25.4` conversion repeated in pages, since the refactor that is the shared `mm` helper of `StatisticPrints::PageLayout`.

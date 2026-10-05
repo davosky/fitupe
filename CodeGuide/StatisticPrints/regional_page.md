@@ -7,6 +7,8 @@
 ```ruby
 module StatisticPrints
   class RegionalPage
+    include PageLayout
+
     MAX_CHART_HEIGHT_MM = 90
     SECTION_GAP_MM = 10
 
@@ -38,15 +40,7 @@ module StatisticPrints
       @pdf.font("AsapCondensed", size: 14) { @pdf.text message, color: "DC3545" }
     end
 
-    def draw_heading(result)
-      @pdf.font("AsapCondensed", style: :bold, size: 16) { @pdf.text heading_title(result.zoning) }
-      @pdf.move_down 2
-      @pdf.font("AsapCondensed", size: 10) { @pdf.text "Tesseramento #{result.mese} #{result.anno}", color: "666666" }
-      @pdf.move_down 8
-      @pdf.stroke_color "CCCCCC"
-      @pdf.stroke_horizontal_rule
-      @pdf.move_down section_gap
-    end
+    def draw_heading(result) = draw_page_heading(heading_title(result.zoning), subtitle: period_subtitle)
 
     def heading_title(zoning)
       return "CGIL Totale Iscritti – Regionale e Comprensori" if zoning.regionale?
@@ -92,10 +86,8 @@ module StatisticPrints
     end
 
     def chart_height
-      [ @pdf.cursor - 6, MAX_CHART_HEIGHT_MM * 72 / 25.4 ].min
+      [ @pdf.cursor - 6, mm(MAX_CHART_HEIGHT_MM) ].min
     end
-
-    def section_gap = SECTION_GAP_MM * 72 / 25.4
   end
 end
 ```
@@ -187,6 +179,8 @@ end
 >
 > *EN: Title (bold 16pt) + period subtitle (10pt grey `666666`) + light-grey divider rule (`CCCCCC`) + spacing: this exact 4-element block repeats, with only the title differing, across all six other pages (`draw_heading` in `CategoriesPage`, `EmploymentStatusPage`, etc. — though none of them repeat the "Tesseramento" subtitle, which is specific to this page). `heading_title` is the only place in the whole batch where a page changes its own title based on `zoning.regionale?` — the other six pages always use the same title (with only `descrizione_azzonamento` interpolated), because their inner content (table(s) + chart(s)) already represents both the regional and the comprensorio case without needing a different heading.*
 
+> **Nota 2026-10-05 / Note:** lo snippet qui sopra mostra il codice precedente al refactor: intestazione, messaggi, spaziature e conversione mm → punti arrivano ora da `StatisticPrints::PageLayout` (vedi `CodeGuide/StatisticPrints/page_layout.md`); il "Codice completo" in cima è quello attuale. / The snippet above shows the pre-refactor code: heading, messages, gaps and mm → points conversion now come from `StatisticPrints::PageLayout`; the "Codice completo" at the top is current.
+
 ### `draw_regional_table` / `row_for` *(privati)*
 
 ```ruby
@@ -252,12 +246,13 @@ end
 
 ```ruby
 def chart_height
-  [ @pdf.cursor - 6, MAX_CHART_HEIGHT_MM * 72 / 25.4 ].min
+  [ @pdf.cursor - 6, mm(MAX_CHART_HEIGHT_MM) ].min
 end
 
-def section_gap = SECTION_GAP_MM * 72 / 25.4
 ```
 
 > **IT:** `chart_height` è la "stretchy height" del grafico: `@pdf.cursor` restituisce lo spazio verticale rimasto fino al fondo del bounding box corrente (la pagina), quindi `@pdf.cursor - 6` è "tutto lo spazio restante meno un piccolo margine di sicurezza". Il `.min` con `MAX_CHART_HEIGHT_MM` impedisce al grafico di diventare eccessivamente alto quando la tabella sopra è corta (es. un solo azzonamento provinciale senza comprensori, dove il grafico occuperebbe altrimenti quasi tutta la pagina). Poiché questa lettura di `@pdf.cursor` avviene **subito prima** di disegnare il grafico — senza altre chiamate Prawn nel mezzo che potrebbero spostarlo — è sicura: non è lo stesso schema fragile della "stretchy `bounding_box` senza `height:`" descritto nelle note di progetto, perché qui non viene aperto nessun `bounding_box`, solo letto il cursore.
 >
 > *EN: `chart_height` is the chart's "stretchy height": `@pdf.cursor` returns the vertical space remaining down to the bottom of the current bounding box (the page), so `@pdf.cursor - 6` is "all remaining space minus a small safety margin". The `.min` against `MAX_CHART_HEIGHT_MM` stops the chart from growing excessively tall when the table above it is short (e.g. a single provincial zoning with no comprensori, where the chart would otherwise take up nearly the whole page). Because this read of `@pdf.cursor` happens **immediately before** drawing the chart — with no other Prawn calls in between that could move it — it's safe: it isn't the same fragile pattern as a "stretchy `bounding_box` with no `height:`" from the project notes, because no `bounding_box` is opened here at all, only the cursor is read.*
+
+> **Nota 2026-10-05 / Note:** dove il testo cita `mm_to_pt` o la conversione `* 72 / 25.4` ripetuta nelle pagine, dal refactor si tratta dell'helper condiviso `mm` di `StatisticPrints::PageLayout` (vedi `CodeGuide/StatisticPrints/page_layout.md`). / Where the text mentions `mm_to_pt` or the `* 72 / 25.4` conversion repeated in pages, since the refactor that is the shared `mm` helper of `StatisticPrints::PageLayout`.

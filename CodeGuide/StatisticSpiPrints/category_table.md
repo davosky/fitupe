@@ -12,6 +12,8 @@ module StatisticSpiPrints
   # StatisticSpi::TipologieDelegaBreakdown::ETICHETTE), cosi' restano in sync
   # se un domani cambiano le categorie.
   class CategoryTable
+    include StatisticPrints::TableStyle
+
     def self.draw(...) = new(...).draw
 
     def initialize(pdf, rows:, etichette:, title: nil, total_label: "totale")
@@ -60,18 +62,7 @@ module StatisticSpiPrints
       widths
     end
 
-    def cell_style
-      {
-        font: "AsapCondensed", size: 8, text_color: "000000", borders: [ :bottom ], border_color: "DDDDDD",
-        padding: [ 4, 4 ]
-      }
-    end
-
-    def style_header(table)
-      table.row(0).font_style = :bold
-      table.row(0).borders = [ :bottom ]
-      table.row(0).border_color = "666666"
-    end
+    def cell_style = super(size: 8, padding: [ 4, 4 ])
   end
 end
 ```
@@ -161,3 +152,5 @@ end
 > **IT:** `column_widths` calcola le larghezze in percentuale di `@pdf.bounds.width` (17%/12% fissi per etichetta-riga e totale, il resto diviso equamente tra `@etichette.size` colonne) invece di larghezze fisse in punti: la tabella si adatta sia alla larghezza piena pagina (`draw_totale_column`/`draw_comprensori_column` la chiamano dentro una `bounding_box` di metà pagina in landscape) sia a un numero variabile di etichette (5 per `TipologieDelegaBreakdown`, 6 per `CessazioniBreakdown`) senza dover essere parametrizzata esplicitamente sulla larghezza. `cell_style` imposta esplicitamente `text_color: "000000"`: senza questo, `prawn-table` erediterebbe il colore di riempimento correntemente attivo su `@pdf` (`fill_color` è stato persino impostato a un altro colore da un chiamante poco prima nello stesso documento — vedi la nota di sicurezza in `CodeGuide/StatisticPrints`) — omettere `text_color` avrebbe reso il testo della tabella dipendente dall'ultimo `fill_color` lasciato attivo da qualunque cosa sia stata disegnata prima, un bug silente e difficile da notare in anteprima ma non in stampa a colori.
 >
 > *EN: `column_widths` computes widths as percentages of `@pdf.bounds.width` (fixed 17%/12% for the label and total columns, the rest split evenly across `@etichette.size` columns) instead of fixed point widths: the table adapts both to full-page vs. half-page width (`draw_totale_column`/`draw_comprensori_column` call it inside a half-page-wide `bounding_box` in landscape) and to a variable number of labels (5 for `TipologieDelegaBreakdown`, 6 for `CessazioniBreakdown`) without needing to be explicitly parameterized on width. `cell_style` explicitly sets `text_color: "000000"`: without this, `prawn-table` would inherit whatever fill color is currently active on `@pdf` (`fill_color` is document-wide state, possibly left set to something else by a caller just before, elsewhere in the same document) — omitting `text_color` would make the table's text depend on the last `fill_color` left active by whatever was drawn previously, a silent bug easy to miss on screen but not in a color print.*
+
+> **Nota 2026-10-05 / Note:** lo snippet qui sopra mostra il codice precedente al refactor: `cell_style` e `style_header` arrivano ora da `StatisticPrints::TableStyle` (vedi `CodeGuide/StatisticPrints/table_style.md`); il "Codice completo" in cima è quello attuale. / The snippet above shows the pre-refactor code: `cell_style` and `style_header` now come from `StatisticPrints::TableStyle`; the "Codice completo" at the top is current.

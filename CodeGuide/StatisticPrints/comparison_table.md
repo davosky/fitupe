@@ -7,6 +7,8 @@
 ```ruby
 module StatisticPrints
   class ComparisonTable
+    include TableStyle
+
     DANGER = "FF4136"
     SUCCESS = "28B62C"
 
@@ -60,19 +62,6 @@ module StatisticPrints
     def column_widths
       width = @pdf.bounds.width
       { 0 => width * 0.33, 1 => width * 0.19, 2 => width * 0.19, 3 => width * 0.145, 4 => width * 0.145 }
-    end
-
-    def cell_style
-      {
-        font: "AsapCondensed", size: 10, text_color: "000000", borders: [ :bottom ], border_color: "DDDDDD",
-        padding: [ 5, 6 ]
-      }
-    end
-
-    def style_header(table)
-      table.row(0).font_style = :bold
-      table.row(0).borders = [ :bottom ]
-      table.row(0).border_color = "666666"
     end
 
     def style_rows(table)
@@ -155,6 +144,8 @@ end
 > **IT:** `text_color: "000000"` è impostato esplicitamente qui, non lasciato all'ambiente `fill_color` correntemente attivo sul documento — una precauzione necessaria perché `fill_color` in Prawn è uno stato globale del documento, non scoperto per blocco o per pagina: se la pagina precedente avesse lasciato un `fill_color` chiaro (es. un banner scuro con testo bianco), `Prawn::Table` senza `text_color` esplicito erediterebbe quello stato e renderebbe il testo della tabella illeggibile su sfondo bianco. Impostare `text_color` dentro `cell_style` rende la tabella immune allo stato di `fill_color` lasciato da qualunque cosa sia stata disegnata prima — coerente con la stessa precauzione (`@pdf.fill_color "000000"` a inizio `draw`) presa esplicitamente da ogni pagina di contenuto (`RegionalPage`, `EmploymentStatusPage`, ecc.) prima di chiamare questa classe.
 >
 > *EN: `text_color: "000000"` is set explicitly here, not left to whatever `fill_color` is currently active on the document — a necessary precaution because `fill_color` in Prawn is document-wide state, not scoped per block or per page: if the previous page had left a light `fill_color` set (e.g. a dark banner with white text), `Prawn::Table` without an explicit `text_color` would inherit that state and render the table's text unreadable on a white background. Setting `text_color` inside `cell_style` makes the table immune to whatever `fill_color` state was left behind by anything drawn earlier — consistent with the same precaution (`@pdf.fill_color "000000"` at the start of `draw`) taken explicitly by every content page (`RegionalPage`, `EmploymentStatusPage`, etc.) before calling this class.*
+
+> **Nota 2026-10-05 / Note:** lo snippet qui sopra mostra il codice precedente al refactor: `cell_style` e `style_header` arrivano ora da `StatisticPrints::TableStyle` (vedi `CodeGuide/StatisticPrints/table_style.md`); il "Codice completo" in cima è quello attuale. / The snippet above shows the pre-refactor code: `cell_style` and `style_header` now come from `StatisticPrints::TableStyle`; the "Codice completo" at the top is current.
 
 ### `style_header`, `style_rows`, `style_cell`
 

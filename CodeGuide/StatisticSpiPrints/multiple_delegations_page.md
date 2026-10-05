@@ -12,6 +12,8 @@ module StatisticSpiPrints
   # grafico, solo le due tabelle una sotto l'altra: ci stanno comode in una
   # pagina sola senza bisogno di colonne affiancate.
   class MultipleDelegationsPage
+    include StatisticPrints::PageLayout
+
     SECTION_GAP_MM = 10
 
     def self.draw(...) = new(...).draw
@@ -32,15 +34,7 @@ module StatisticSpiPrints
 
     private
 
-    def draw_heading
-      @pdf.font("AsapCondensed", style: :bold, size: 16) { @pdf.text heading_title }
-      @pdf.move_down 2
-      @pdf.font("AsapCondensed", size: 10) { @pdf.text "Tesseramento #{@form.mese} #{@form.anno}", color: "666666" }
-      @pdf.move_down 8
-      @pdf.stroke_color "CCCCCC"
-      @pdf.stroke_horizontal_rule
-      @pdf.move_down section_gap
-    end
+    def draw_heading = draw_page_heading(heading_title, subtitle: period_subtitle)
 
     def heading_title
       return "CGIL Deleghe Multiple SPI – Regionale e Comprensori" if @form.zoning.regionale?
@@ -56,8 +50,6 @@ module StatisticSpiPrints
       @pdf.move_down section_gap
       MultipleDelegationsTable.draw(@pdf, title: "Comprensori", rows: result.comprensori)
     end
-
-    def section_gap = SECTION_GAP_MM * 72 / 25.4
   end
 end
 ```

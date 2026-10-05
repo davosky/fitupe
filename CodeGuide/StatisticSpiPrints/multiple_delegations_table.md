@@ -11,6 +11,8 @@ module StatisticSpiPrints
   # periodo), quindi le colonne sono le occorrenze (Doppia/Tripla/Quadrupla/
   # Quintupla) piu' il totale.
   class MultipleDelegationsTable
+    include StatisticPrints::TableStyle
+
     def self.draw(...) = new(...).draw
 
     def initialize(pdf, rows:, title: nil)
@@ -55,18 +57,7 @@ module StatisticSpiPrints
       { 0 => width * 0.28, 1 => width * 0.13, 2 => width * 0.13, 3 => width * 0.13, 4 => width * 0.13, 5 => width * 0.2 }
     end
 
-    def cell_style
-      {
-        font: "AsapCondensed", size: 11, text_color: "000000", borders: [ :bottom ], border_color: "DDDDDD",
-        padding: [ 6, 8 ]
-      }
-    end
-
-    def style_header(table)
-      table.row(0).font_style = :bold
-      table.row(0).borders = [ :bottom ]
-      table.row(0).border_color = "666666"
-    end
+    def cell_style = super(size: 11, padding: [ 6, 8 ])
   end
 end
 ```

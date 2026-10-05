@@ -32,6 +32,7 @@ Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 
 ### Modificato
 
+- Refactor dei service di stampa PDF (Attivi e SPI): intestazione di pagina, messaggi, spaziature e conversione mm → punti in `StatisticPrints::PageLayout`, stile delle tabelle in `StatisticPrints::TableStyle`, al posto delle copie ripetute in ogni pagina e tabella. Nessuna differenza nei PDF prodotti (verificato pagina per pagina su 7 fascicoli reali).
 - Semplificazioni dopo l'audit di fine sessione: le card "Nazionalità" e "Sesso" di Statistiche usano un unico partial (`statistics/_single_year_pie`), l'espressione SQL che unisce "Categoria" e "Categoria Sindacale" vive solo in `Import.categoria_sql`, l'helper `build_pdf` dei test PDF è in `spec/support/pdf_helpers.rb` invece che copiato in 16 file.
 - `yarn watch:css` (usato da `bin/dev`) usa ora `sass --watch` al posto di `nodemon`: in sviluppo il CSS non passa più da autoprefixer, che resta applicato da `yarn build:css` (CI, precompilazione, produzione).
 - Grafici a torta (Stampa Statistiche e Stampa Statistiche SPI): le fette molto piccole mostrano ora l'etichetta all'esterno del cerchio, in colore scuro e collegata da una linea, invece che sovrapposta e illeggibile all'interno; più fette piccole consecutive si distanziano progressivamente per non sovrapporsi tra loro.

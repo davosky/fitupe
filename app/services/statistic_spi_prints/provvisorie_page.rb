@@ -5,6 +5,8 @@ module StatisticSpiPrints
   # per comprensorio piu' Deleghe Confermate) affiancati in colonne, come le
   # altre pagine SPI, per stare in una pagina sola.
   class ProvvisoriePage
+    include StatisticPrints::PageLayout
+
     SECTION_GAP_MM = 8
     COLUMN_GAP_MM = 12
     CHART_HEIGHT_MM = 85
@@ -31,15 +33,7 @@ module StatisticSpiPrints
 
     private
 
-    def draw_heading
-      @pdf.font("AsapCondensed", style: :bold, size: 16) { @pdf.text heading_title }
-      @pdf.move_down 2
-      @pdf.font("AsapCondensed", size: 10) { @pdf.text "Tesseramento #{@form.mese} #{@form.anno}", color: "666666" }
-      @pdf.move_down 8
-      @pdf.stroke_color "CCCCCC"
-      @pdf.stroke_horizontal_rule
-      @pdf.move_down section_gap
-    end
+    def draw_heading = draw_page_heading(heading_title, subtitle: period_subtitle)
 
     def heading_title
       return "CGIL Provvisorie SPI – Regionale e Comprensori" if @form.zoning.regionale?
@@ -91,8 +85,7 @@ module StatisticSpiPrints
     end
 
     def column_width = (@pdf.bounds.width - column_gap) / 2
-    def column_gap = COLUMN_GAP_MM * 72 / 25.4
-    def section_gap = SECTION_GAP_MM * 72 / 25.4
-    def chart_height = [ @pdf.cursor - 6, CHART_HEIGHT_MM * 72 / 25.4 ].min
+
+    def chart_height = [ @pdf.cursor - 6, mm(CHART_HEIGHT_MM) ].min
   end
 end

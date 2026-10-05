@@ -7,6 +7,8 @@
 ```ruby
 module StatisticPrints
   class EmploymentStatusPage
+    include PageLayout
+
     MAX_CHART_HEIGHT_MM = 90
     SECTION_GAP_MM = 10
     COLUMN_GAP_MM = 10
@@ -33,17 +35,7 @@ module StatisticPrints
 
     private
 
-    def draw_heading(zoning)
-      @pdf.font("AsapCondensed", style: :bold, size: 16) { @pdf.text "Attivi / Pensionati - #{zoning.descrizione_azzonamento}" }
-      @pdf.move_down 8
-      @pdf.stroke_color "CCCCCC"
-      @pdf.stroke_horizontal_rule
-      @pdf.move_down section_gap
-    end
-
-    def draw_message(message, color)
-      @pdf.font("AsapCondensed", size: 12) { @pdf.text message, color: color }
-    end
+    def draw_heading(zoning) = draw_page_heading("Attivi / Pensionati - #{zoning.descrizione_azzonamento}")
 
     def draw_table(result)
       ComparisonTable.draw(
@@ -83,11 +75,8 @@ module StatisticPrints
 
     def chart_width = (@pdf.bounds.width - column_gap) * CHART_COLUMN_RATIO
     def percentages_width = @pdf.bounds.width - column_gap - chart_width
-    def column_gap = COLUMN_GAP_MM * 72 / 25.4
 
-    def chart_height(top) = [ top - @pdf.bounds.bottom - 6, MAX_CHART_HEIGHT_MM * 72 / 25.4 ].min
-
-    def section_gap = SECTION_GAP_MM * 72 / 25.4
+    def chart_height(top) = [ top - @pdf.bounds.bottom - 6, mm(MAX_CHART_HEIGHT_MM) ].min
   end
 end
 ```
@@ -158,11 +147,9 @@ end
 ```ruby
 def chart_width = (@pdf.bounds.width - column_gap) * CHART_COLUMN_RATIO
 def percentages_width = @pdf.bounds.width - column_gap - chart_width
-def column_gap = COLUMN_GAP_MM * 72 / 25.4
 
-def chart_height(top) = [ top - @pdf.bounds.bottom - 6, MAX_CHART_HEIGHT_MM * 72 / 25.4 ].min
+def chart_height(top) = [ top - @pdf.bounds.bottom - 6, mm(MAX_CHART_HEIGHT_MM) ].min
 
-def section_gap = SECTION_GAP_MM * 72 / 25.4
 ```
 
 > **IT:** `CHART_COLUMN_RATIO = 2.0 / 3` fissa la spartizione orizzontale: `chart_width` prende i due terzi della larghezza disponibile (meno il gap tra colonne), `percentages_width` prende il resto — lo stesso schema "una costante ratio + due metodi complementari" ricorre in `NationalityGenderPage` (`SESSO_RATIO`) e `ProvisionalRevocationsPage` (stessa `CHART_COLUMN_RATIO`). `chart_height(top)` è scritto come `top - @pdf.bounds.bottom - 6` invece del più diretto `@pdf.cursor - 6` visto in `RegionalPage`/`CategoriesPage`: la differenza non è cosmetica. Qui `chart_height` viene invocato **dopo** che `draw_chart`/`draw_percentages` hanno già disegnato (dentro `draw_chart_and_percentages`, per calcolare di quanto avanzare il cursore), quindi `@pdf.cursor` a quel punto potrebbe non riflettere più in modo affidabile la posizione da cui si era partiti — usare il parametro `top`, catturato una sola volta a inizio metodo, garantisce che l'altezza calcolata sia sempre relativa al punto di partenza reale, indipendentemente da eventuali effetti collaterali dei componenti disegnati nel frattempo.

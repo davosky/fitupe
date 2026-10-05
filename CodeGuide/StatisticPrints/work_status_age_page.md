@@ -7,6 +7,8 @@
 ```ruby
 module StatisticPrints
   class WorkStatusAgePage
+    include PageLayout
+
     MAX_CHART_HEIGHT_MM = 70
     SECTION_GAP_MM = 5
     COLUMN_GAP_MM = 10
@@ -30,19 +32,7 @@ module StatisticPrints
 
     private
 
-    def draw_heading(zoning)
-      @pdf.font("AsapCondensed", style: :bold, size: 16) do
-        @pdf.text "Status Lavorativo e Fasce d'Età - #{zoning.descrizione_azzonamento}"
-      end
-      @pdf.move_down 8
-      @pdf.stroke_color "CCCCCC"
-      @pdf.stroke_horizontal_rule
-      @pdf.move_down section_gap
-    end
-
-    def draw_message(message, color)
-      @pdf.font("AsapCondensed", size: 12) { @pdf.text message, color: color }
-    end
+    def draw_heading(zoning) = draw_page_heading("Status Lavorativo e Fasce d'Età - #{zoning.descrizione_azzonamento}")
 
     # Disegna prima le due tabelle (colonne di larghezza diversa a seconda del numero
     # di righe) e solo dopo i grafici, così i due grafici possono condividere lo
@@ -97,7 +87,7 @@ module StatisticPrints
       return if status_bottom.nil? && eta_bottom.nil?
 
       chart_top = [ status_bottom, eta_bottom ].compact.min - section_gap
-      height = [ chart_top - 6, MAX_CHART_HEIGHT_MM * 72 / 25.4 ].min
+      height = [ chart_top - 6, mm(MAX_CHART_HEIGHT_MM) ].min
 
       draw_status_chart(result, left, chart_top, height) if status_bottom
       draw_eta_chart(result, left, chart_top, height) if eta_bottom
@@ -119,8 +109,6 @@ module StatisticPrints
     end
 
     def column_width = (@pdf.bounds.width - column_gap) / 2.0
-    def column_gap = COLUMN_GAP_MM * 72 / 25.4
-    def section_gap = SECTION_GAP_MM * 72 / 25.4
   end
 end
 ```

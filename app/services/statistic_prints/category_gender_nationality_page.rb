@@ -2,6 +2,8 @@ module StatisticPrints
   # Ultima pagina di contenuto: "Genere Per Categoria" e "Nazionalità Per
   # Categoria" affiancate, solo tabelle (anno corrente), senza grafici.
   class CategoryGenderNationalityPage
+    include PageLayout
+
     SECTION_GAP_MM = 6
     IMAGES_DIR = Rails.root.join("app/assets/images/statistic_prints")
     COLUMN_GAP_MM = 10
@@ -29,18 +31,8 @@ module StatisticPrints
     private
 
     def draw_heading(result)
-      @pdf.font("AsapCondensed", style: :bold, size: 16) do
-        @pdf.text "Genere e Nazionalità Per Categoria - #{result.zoning.descrizione_azzonamento} - " \
-                  "#{result.mese} #{result.anno}"
-      end
-      @pdf.move_down 8
-      @pdf.stroke_color "CCCCCC"
-      @pdf.stroke_horizontal_rule
-      @pdf.move_down SECTION_GAP_MM * 72 / 25.4
-    end
-
-    def draw_message(message, color)
-      @pdf.font("AsapCondensed", size: 12) { @pdf.text message, color: color }
+      draw_page_heading("Genere e Nazionalità Per Categoria - #{result.zoning.descrizione_azzonamento} - " \
+                        "#{result.mese} #{result.anno}")
     end
 
     def draw_table(title, icon, rows, x, top)
@@ -54,6 +46,5 @@ module StatisticPrints
     end
 
     def column_width = (@pdf.bounds.width - column_gap) / 2.0
-    def column_gap = COLUMN_GAP_MM * 72 / 25.4
   end
 end

@@ -7,6 +7,8 @@
 ```ruby
 module StatisticPrints
   class LegendPage
+    include PageLayout
+
     LIST_INDENT_MM = 5
 
     def self.draw(...) = new(...).draw
@@ -24,15 +26,7 @@ module StatisticPrints
 
     private
 
-    def draw_heading
-      @pdf.font("AsapCondensed", style: :bold, size: 16) { @pdf.text "Legenda" }
-      @pdf.move_down 2
-      @pdf.font("AsapCondensed", size: 10) { @pdf.text "Tesseramento #{@form.mese} #{@form.anno}", color: "666666" }
-      @pdf.move_down 8
-      @pdf.stroke_color "CCCCCC"
-      @pdf.stroke_horizontal_rule
-      @pdf.move_down 10
-    end
+    def draw_heading = draw_page_heading("Legenda", subtitle: period_subtitle, gap: 10)
 
     def draw_body
       @pdf.font("AsapCondensed", size: 11) do
@@ -70,7 +64,7 @@ module StatisticPrints
       @pdf.font("AsapCondensed", size: size, style: style) { @pdf.text text, inline_format: true, color: color, align: align }
     end
 
-    def list_indent = LIST_INDENT_MM * 72 / 25.4
+    def list_indent = mm(LIST_INDENT_MM)
 
     def description = @form.legend.description
   end
@@ -119,6 +113,8 @@ end
 > **IT:** `LegendPage` è quasi sempre la seconda pagina disegnata (dopo `CoverPage`, quando la legenda esiste), quindi il reset `@pdf.fill_color "000000"` all'inizio di `draw` difende esattamente dallo stesso problema documentato in `cover_page.md`/`zoning_divider_page.md`. `draw_heading` è quasi identico, struttura per struttura, a `RegionalPage#draw_heading` (titolo bold 16, sottotitolo grigio "Tesseramento mese anno", riga separatrice CCCCCC) — la differenza è nell'ultimo `move_down`: `RegionalPage` usa `section_gap` (10mm convertiti in punti), qui invece è un letterale `10` in punti puri, senza passare per `LIST_INDENT_MM` né alcuna conversione mm. È un'incoerenza minore rispetto alla convenzione "mm in costante, conversione al punto d'uso" seguita nel resto del file (vedi `list_indent`) — probabilmente un valore tarato a occhio in questo punto specifico invece di essere derivato da una misura in mm.
 >
 > *EN: `LegendPage` is almost always the second page drawn (after `CoverPage`, when a legend exists), so the `@pdf.fill_color "000000"` reset at the start of `draw` defends against exactly the same problem documented in `cover_page.md`/`zoning_divider_page.md`. `draw_heading` is nearly identical, structure for structure, to `RegionalPage#draw_heading` (bold 16 title, gray "Tesseramento month year" subtitle, CCCCCC divider rule) — the difference is in the final `move_down`: `RegionalPage` uses `section_gap` (10mm converted to points), whereas here it's a bare `10` in raw points, not routed through `LIST_INDENT_MM` or any mm conversion. It's a minor inconsistency against the "mm in a constant, converted at point of use" convention followed by the rest of the file (see `list_indent`) — likely a value tuned by eye at this specific spot rather than derived from an mm measurement.*
+
+> **Nota 2026-10-05 / Note:** lo snippet qui sopra mostra il codice precedente al refactor: intestazione, messaggi, spaziature e conversione mm → punti arrivano ora da `StatisticPrints::PageLayout` (vedi `CodeGuide/StatisticPrints/page_layout.md`); il "Codice completo" in cima è quello attuale. / The snippet above shows the pre-refactor code: heading, messages, gaps and mm → points conversion now come from `StatisticPrints::PageLayout`; the "Codice completo" at the top is current.
 
 ### `draw_body`, `draw_block`
 
@@ -175,7 +171,7 @@ def draw_text(text, size: 11, style: :normal, color: "000000", align: :left)
   @pdf.font("AsapCondensed", size: size, style: style) { @pdf.text text, inline_format: true, color: color, align: align }
 end
 
-def list_indent = LIST_INDENT_MM * 72 / 25.4
+def list_indent = mm(LIST_INDENT_MM)
 ```
 
 > **IT:** `draw_text` è il punto d'appoggio comune di tutti i tipi di blocco (titoli, paragrafi, elementi di lista, citazioni) — centralizza sia il guard `return if text.blank?` (un blocco con testo vuoto, es. un `<div>` vuoto lasciato dall'editor, non produce comunque una riga vuota indesiderata) sia, soprattutto, `inline_format: true`. Quest'ultimo è ciò che permette al testo di contenere i tag `<b>`, `<i>`, `<u>`, `<color>`, `<link>` prodotti da `LegendContent#inline_node` (vedi `legend_content.md`) e di farli interpretare da Prawn come formattazione anziché stamparli come testo letterale — è il punto di accoppiamento diretto tra le due classi: se `LegendContent` producesse tag diversi da quelli che il parser `inline_format` di Prawn riconosce, comparirebbero come testo grezzo (es. `<b>` letterale) invece che come grassetto.

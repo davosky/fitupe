@@ -1,5 +1,7 @@
 module StatisticPrints
   class ComparisonTable
+    include TableStyle
+
     DANGER = "FF4136"
     SUCCESS = "28B62C"
 
@@ -53,19 +55,6 @@ module StatisticPrints
     def column_widths
       width = @pdf.bounds.width
       { 0 => width * 0.33, 1 => width * 0.19, 2 => width * 0.19, 3 => width * 0.145, 4 => width * 0.145 }
-    end
-
-    def cell_style
-      {
-        font: "AsapCondensed", size: 10, text_color: "000000", borders: [ :bottom ], border_color: "DDDDDD",
-        padding: [ 5, 6 ]
-      }
-    end
-
-    def style_header(table)
-      table.row(0).font_style = :bold
-      table.row(0).borders = [ :bottom ]
-      table.row(0).border_color = "666666"
     end
 
     def style_rows(table)

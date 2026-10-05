@@ -7,6 +7,8 @@
 ```ruby
 module StatisticPrints
   class ReportPdf
+    include PageLayout
+
     ASAP_DIR = Rails.root.join("app/assets/fonts")
     CONTENT_MARGIN_TOP_MM = 15
     CONTENT_MARGIN_BOTTOM_MM = 15
@@ -25,8 +27,8 @@ module StatisticPrints
     end
 
     def call
-      margin = [ mm_to_pt(CONTENT_MARGIN_TOP_MM), mm_to_pt(CONTENT_MARGIN_LR_MM),
-                mm_to_pt(CONTENT_MARGIN_BOTTOM_MM), mm_to_pt(CONTENT_MARGIN_LR_MM) ]
+      margin = [ mm(CONTENT_MARGIN_TOP_MM), mm(CONTENT_MARGIN_LR_MM),
+                mm(CONTENT_MARGIN_BOTTOM_MM), mm(CONTENT_MARGIN_LR_MM) ]
       Prawn::Document.new(page_size: "A4", page_layout: :landscape, margin: margin) do |pdf|
         register_fonts(pdf)
         pdf.canvas { CoverPage.draw(pdf, form: @form) }
@@ -85,8 +87,6 @@ module StatisticPrints
       TotalMembersForm.new(zoning_id: zoning.id, anno: @form.anno, mese: @form.mese)
     end
 
-    def mm_to_pt(mm) = mm * 72 / 25.4
-
     def register_fonts(pdf)
       pdf.font_families.update(
         "AsapCondensed" => {
@@ -114,9 +114,9 @@ CONTENT_PAGES = [
 ].freeze
 ```
 
-> **IT:** Le costanti di margine sono espresse in millimetri e convertite in punti solo al punto d'uso (`mm_to_pt`), la stessa convenzione ripetuta in ogni file Prawn di questa cartella — non esiste un helper condiviso `mm_to_pt`, ogni classe che ne ha bisogno lo ridefinisce privatamente. `CONTENT_PAGES` è l'unico punto della codebase in cui l'ordine delle otto pagine di contenuto del fascicolo è deciso: è un `Array` di classi, non stringhe o simboli, così `page_class.draw(...)` può essere chiamato direttamente senza `constantize`. Aggiungere una nuova pagina di contenuto significa aggiungere una riga qui, nel punto esatto della sequenza in cui deve comparire nel PDF stampato — l'ordine di questo array **è** l'ordine fisico delle pagine.
+> **IT:** Le costanti di margine sono espresse in millimetri e convertite in punti solo al punto d'uso (`mm`), la stessa convenzione ripetuta in ogni file Prawn di questa cartella — dal refactor del 2026-10-05 tramite l'helper condiviso `mm` di `StatisticPrints::PageLayout` (vedi `page_layout.md`), prima ridefinito privatamente in ogni classe. `CONTENT_PAGES` è l'unico punto della codebase in cui l'ordine delle otto pagine di contenuto del fascicolo è deciso: è un `Array` di classi, non stringhe o simboli, così `page_class.draw(...)` può essere chiamato direttamente senza `constantize`. Aggiungere una nuova pagina di contenuto significa aggiungere una riga qui, nel punto esatto della sequenza in cui deve comparire nel PDF stampato — l'ordine di questo array **è** l'ordine fisico delle pagine.
 >
-> *EN: The margin constants are expressed in millimeters and converted to points only at the point of use (`mm_to_pt`), the same convention repeated in every Prawn file in this folder — there is no shared `mm_to_pt` helper, every class that needs it redefines it privately. `CONTENT_PAGES` is the single place in the codebase where the order of the booklet's eight content pages is decided: it's an `Array` of classes, not strings or symbols, so `page_class.draw(...)` can be called directly with no `constantize`. Adding a new content page means adding one line here, at the exact point in the sequence where it must appear in the printed PDF — this array's order **is** the physical page order.*
+> *EN: The margin constants are expressed in millimeters and converted to points only at the point of use (`mm`), the same convention repeated in every Prawn file in this folder — since the 2026-10-05 refactor through the shared `mm` helper of `StatisticPrints::PageLayout` (see `page_layout.md`), previously redefined privately in every class. `CONTENT_PAGES` is the single place in the codebase where the order of the booklet's eight content pages is decided: it's an `Array` of classes, not strings or symbols, so `page_class.draw(...)` can be called directly with no `constantize`. Adding a new content page means adding one line here, at the exact point in the sequence where it must appear in the printed PDF — this array's order **is** the physical page order.*
 
 ### `initialize`
 
@@ -135,8 +135,8 @@ end
 
 ```ruby
 def call
-  margin = [ mm_to_pt(CONTENT_MARGIN_TOP_MM), mm_to_pt(CONTENT_MARGIN_LR_MM),
-            mm_to_pt(CONTENT_MARGIN_BOTTOM_MM), mm_to_pt(CONTENT_MARGIN_LR_MM) ]
+  margin = [ mm(CONTENT_MARGIN_TOP_MM), mm(CONTENT_MARGIN_LR_MM),
+            mm(CONTENT_MARGIN_BOTTOM_MM), mm(CONTENT_MARGIN_LR_MM) ]
   Prawn::Document.new(page_size: "A4", page_layout: :landscape, margin: margin) do |pdf|
     register_fonts(pdf)
     pdf.canvas { CoverPage.draw(pdf, form: @form) }
@@ -225,7 +225,6 @@ end
 ### `mm_to_pt`, `register_fonts`
 
 ```ruby
-def mm_to_pt(mm) = mm * 72 / 25.4
 
 def register_fonts(pdf)
   pdf.font_families.update(
@@ -240,3 +239,5 @@ end
 > **IT:** `register_fonts` è chiamato una sola volta, subito dopo la creazione del `Prawn::Document`, prima di disegnare qualunque pagina: registra la famiglia `"AsapCondensed"` con i suoi quattro stili (`normal`/`bold`/`italic`/`bold_italic`) nel documento, e ogni pagina successiva la richiama per nome (`@pdf.font("AsapCondensed", ...)`) senza doverla ri-registrare. Se questa chiamata mancasse, o venisse fatta dopo `CoverPage.draw`, il primo `@pdf.font("AsapCondensed", ...)` fallirebbe con un font non trovato — è un prerequisito silenzioso da cui dipendono tutte le pagine di questa cartella.
 >
 > *EN: `register_fonts` is called exactly once, right after creating the `Prawn::Document`, before drawing any page: it registers the `"AsapCondensed"` family with its four styles (`normal`/`bold`/`italic`/`bold_italic`) on the document, and every later page references it by name (`@pdf.font("AsapCondensed", ...)`) without re-registering it. If this call were missing, or made after `CoverPage.draw`, the first `@pdf.font("AsapCondensed", ...)` would fail with a missing-font error — it's a silent prerequisite that every page in this folder depends on.*
+
+> **Nota 2026-10-05 / Note:** dove il testo cita `mm_to_pt` o la conversione `* 72 / 25.4` ripetuta nelle pagine, dal refactor si tratta dell'helper condiviso `mm` di `StatisticPrints::PageLayout` (vedi `CodeGuide/StatisticPrints/page_layout.md`). / Where the text mentions `mm_to_pt` or the `* 72 / 25.4` conversion repeated in pages, since the refactor that is the shared `mm` helper of `StatisticPrints::PageLayout`.

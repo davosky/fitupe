@@ -1,5 +1,7 @@
 module StatisticPrints
   class LegendPage
+    include PageLayout
+
     LIST_INDENT_MM = 5
 
     def self.draw(...) = new(...).draw
@@ -17,15 +19,7 @@ module StatisticPrints
 
     private
 
-    def draw_heading
-      @pdf.font("AsapCondensed", style: :bold, size: 16) { @pdf.text "Legenda" }
-      @pdf.move_down 2
-      @pdf.font("AsapCondensed", size: 10) { @pdf.text "Tesseramento #{@form.mese} #{@form.anno}", color: "666666" }
-      @pdf.move_down 8
-      @pdf.stroke_color "CCCCCC"
-      @pdf.stroke_horizontal_rule
-      @pdf.move_down 10
-    end
+    def draw_heading = draw_page_heading("Legenda", subtitle: period_subtitle, gap: 10)
 
     def draw_body
       @pdf.font("AsapCondensed", size: 11) do
@@ -63,7 +57,7 @@ module StatisticPrints
       @pdf.font("AsapCondensed", size: size, style: style) { @pdf.text text, inline_format: true, color: color, align: align }
     end
 
-    def list_indent = LIST_INDENT_MM * 72 / 25.4
+    def list_indent = mm(LIST_INDENT_MM)
 
     def description = @form.legend.description
   end

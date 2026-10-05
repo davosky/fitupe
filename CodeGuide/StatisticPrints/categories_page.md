@@ -7,6 +7,8 @@
 ```ruby
 module StatisticPrints
   class CategoriesPage
+    include PageLayout
+
     MAX_CHART_HEIGHT_MM = 90
     SECTION_GAP_MM = 10
 
@@ -30,17 +32,11 @@ module StatisticPrints
 
     private
 
-    def draw_heading(zoning)
-      @pdf.font("AsapCondensed", style: :bold, size: 16) { @pdf.text "Categorie - #{zoning.descrizione_azzonamento}" }
-      @pdf.move_down 8
-      @pdf.stroke_color "CCCCCC"
-      @pdf.stroke_horizontal_rule
-      @pdf.move_down 10
-    end
+    def draw_heading(zoning) = draw_page_heading("Categorie - #{zoning.descrizione_azzonamento}", gap: 10)
 
     def draw_empty(result)
       message = result.success? ? "Nessuna categoria presente per il periodo selezionato." : result.error
-      @pdf.font("AsapCondensed", size: 12) { @pdf.text message, color: "666666" }
+      draw_message(message)
     end
 
     def draw_table(result)
@@ -66,10 +62,8 @@ module StatisticPrints
     end
 
     def chart_height
-      [ @pdf.cursor - 6, MAX_CHART_HEIGHT_MM * 72 / 25.4 ].min
+      [ @pdf.cursor - 6, mm(MAX_CHART_HEIGHT_MM) ].min
     end
-
-    def section_gap = SECTION_GAP_MM * 72 / 25.4
   end
 end
 ```
@@ -107,6 +101,8 @@ end
 >
 > *EN: Unlike `draw_error` in `RegionalPage` (which handles **only** the `!result.success?` case, always in red `DC3545`), `draw_empty` handles **two** distinct cases with a single grey (`666666`, not red) message: missing data for the period (`!result.success?`, the same error message from `TotalMembersComparison`) *or* a valid period with no categories recorded at all (`result.categorie.blank?` while `result.success?` is true). Distinguishing these two cases is necessary because `CategoryBreakdown` can legitimately return an empty array (no `Import` row has a category set) even when the period itself exists — a different case from `TotalMembersComparison`'s "no data for this period". The grey color instead of red visually communicates that this isn't a blocking error, just "nothing to show here".*
 
+> **Nota 2026-10-05 / Note:** lo snippet qui sopra mostra il codice precedente al refactor: intestazione, messaggi, spaziature e conversione mm → punti arrivano ora da `StatisticPrints::PageLayout` (vedi `CodeGuide/StatisticPrints/page_layout.md`); il "Codice completo" in cima è quello attuale. / The snippet above shows the pre-refactor code: heading, messages, gaps and mm → points conversion now come from `StatisticPrints::PageLayout`; the "Codice completo" at the top is current.
+
 ### `draw_table`, `row_for` *(privati)*
 
 ```ruby
@@ -141,10 +137,9 @@ def draw_chart(result)
 end
 
 def chart_height
-  [ @pdf.cursor - 6, MAX_CHART_HEIGHT_MM * 72 / 25.4 ].min
+  [ @pdf.cursor - 6, mm(MAX_CHART_HEIGHT_MM) ].min
 end
 
-def section_gap = SECTION_GAP_MM * 72 / 25.4
 ```
 
 > **IT:** Identico, riga per riga (stessi valori mm, stessa formula di `chart_height`), a `RegionalPage#draw_chart`/`#chart_height`/`#section_gap` — vedi `CodeGuide/StatisticPrints/regional_page.md` per la spiegazione della "stretchy height" a larghezza intera pagina. L'unica differenza è la fonte dei dati (`result.categorie` invece di `entries` costruito ad-hoc): qui il numero di barre nel grafico dipende dal numero di categorie effettivamente presenti nei dati, che può variare da azzonamento ad azzonamento.

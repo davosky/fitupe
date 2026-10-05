@@ -3,6 +3,8 @@ module StatisticSpiPrints
   # e _comprensori_section, ma con le due metriche affiancate in colonne (anziche'
   # impilate come a schermo) per stare in una singola pagina landscape.
   class TotalsPage
+    include StatisticPrints::PageLayout
+
     MAX_CHART_HEIGHT_MM = 75
     SECTION_GAP_MM = 8
     COLUMN_GAP_MM = 10
@@ -27,24 +29,12 @@ module StatisticSpiPrints
 
     private
 
-    def draw_heading(result)
-      @pdf.font("AsapCondensed", style: :bold, size: 16) { @pdf.text heading_title(result.zoning) }
-      @pdf.move_down 2
-      @pdf.font("AsapCondensed", size: 10) { @pdf.text "Tesseramento #{@form.mese} #{@form.anno}", color: "666666" }
-      @pdf.move_down 8
-      @pdf.stroke_color "CCCCCC"
-      @pdf.stroke_horizontal_rule
-      @pdf.move_down section_gap
-    end
+    def draw_heading(result) = draw_page_heading(heading_title(result.zoning), subtitle: period_subtitle)
 
     def heading_title(zoning)
       return "CGIL Totale Iscritti e Deleghe SPI – Regionale e Comprensori" if zoning.regionale?
 
       "CGIL Totale Iscritti e Deleghe SPI – Comprensorio di #{zoning.descrizione_azzonamento}"
-    end
-
-    def draw_message(message, color)
-      @pdf.font("AsapCondensed", size: 12) { @pdf.text message, color: color }
     end
 
     def draw_columns(result)
@@ -94,7 +84,7 @@ module StatisticSpiPrints
 
     def draw_chart(result, columns_bottom)
       chart_top = columns_bottom - section_gap
-      height = [ chart_top - 6, MAX_CHART_HEIGHT_MM * 72 / 25.4 ].min
+      height = [ chart_top - 6, mm(MAX_CHART_HEIGHT_MM) ].min
       entries = chart_entries(result)
 
       BarChart.draw(
@@ -117,7 +107,5 @@ module StatisticSpiPrints
     end
 
     def column_width = (@pdf.bounds.width - column_gap) / 2
-    def column_gap = COLUMN_GAP_MM * 72 / 25.4
-    def section_gap = SECTION_GAP_MM * 72 / 25.4
   end
 end

@@ -10,6 +10,8 @@ module StatisticSpiPrints
   # e _comprensori_section, ma con le due metriche affiancate in colonne (anziche'
   # impilate come a schermo) per stare in una singola pagina landscape.
   class TotalsPage
+    include StatisticPrints::PageLayout
+
     MAX_CHART_HEIGHT_MM = 75
     SECTION_GAP_MM = 8
     COLUMN_GAP_MM = 10
@@ -34,24 +36,12 @@ module StatisticSpiPrints
 
     private
 
-    def draw_heading(result)
-      @pdf.font("AsapCondensed", style: :bold, size: 16) { @pdf.text heading_title(result.zoning) }
-      @pdf.move_down 2
-      @pdf.font("AsapCondensed", size: 10) { @pdf.text "Tesseramento #{@form.mese} #{@form.anno}", color: "666666" }
-      @pdf.move_down 8
-      @pdf.stroke_color "CCCCCC"
-      @pdf.stroke_horizontal_rule
-      @pdf.move_down section_gap
-    end
+    def draw_heading(result) = draw_page_heading(heading_title(result.zoning), subtitle: period_subtitle)
 
     def heading_title(zoning)
       return "CGIL Totale Iscritti e Deleghe SPI – Regionale e Comprensori" if zoning.regionale?
 
       "CGIL Totale Iscritti e Deleghe SPI – Comprensorio di #{zoning.descrizione_azzonamento}"
-    end
-
-    def draw_message(message, color)
-      @pdf.font("AsapCondensed", size: 12) { @pdf.text message, color: color }
     end
 
     def draw_columns(result)
@@ -101,7 +91,7 @@ module StatisticSpiPrints
 
     def draw_chart(result, columns_bottom)
       chart_top = columns_bottom - section_gap
-      height = [ chart_top - 6, MAX_CHART_HEIGHT_MM * 72 / 25.4 ].min
+      height = [ chart_top - 6, mm(MAX_CHART_HEIGHT_MM) ].min
       entries = chart_entries(result)
 
       BarChart.draw(
@@ -124,8 +114,6 @@ module StatisticSpiPrints
     end
 
     def column_width = (@pdf.bounds.width - column_gap) / 2
-    def column_gap = COLUMN_GAP_MM * 72 / 25.4
-    def section_gap = SECTION_GAP_MM * 72 / 25.4
   end
 end
 ```
@@ -255,7 +243,7 @@ end
 ```ruby
 def draw_chart(result, columns_bottom)
   chart_top = columns_bottom - section_gap
-  height = [ chart_top - 6, MAX_CHART_HEIGHT_MM * 72 / 25.4 ].min
+  height = [ chart_top - 6, mm(MAX_CHART_HEIGHT_MM) ].min
   entries = chart_entries(result)
 
   BarChart.draw(
@@ -286,10 +274,10 @@ end
 
 ```ruby
 def column_width = (@pdf.bounds.width - column_gap) / 2
-def column_gap = COLUMN_GAP_MM * 72 / 25.4
-def section_gap = SECTION_GAP_MM * 72 / 25.4
 ```
 
 > **IT:** Tre metodi a una riga (endless method definition, Ruby 3.0+) che ricompaiono, identici nella forma, in ogni pagina della cartella — solo `chart_height`/`MAX_CHART_HEIGHT_MM` cambiano nome/valore da pagina a pagina. Nessuna memoizzazione (`@pdf.bounds.width` è economico da leggere ogni volta, non una query): a differenza di `counts_by_comprensorio` nei servizi `StatisticSpi::*`, qui non c'è nessun costo da ammortizzare.
 >
 > *EN: Three one-line methods (endless method definition, Ruby 3.0+) that reappear, identical in shape, in every page in this folder — only `chart_height`/`MAX_CHART_HEIGHT_MM` change name/value from page to page. No memoization (`@pdf.bounds.width` is cheap to read every time, not a query): unlike `counts_by_comprensorio` in the `StatisticSpi::*` services, there's no cost to amortize here.*
+
+> **Nota 2026-10-05 / Note:** dove il testo cita `mm_to_pt` o la conversione `* 72 / 25.4` ripetuta nelle pagine, dal refactor si tratta dell'helper condiviso `mm` di `StatisticPrints::PageLayout` (vedi `CodeGuide/StatisticPrints/page_layout.md`). / Where the text mentions `mm_to_pt` or the `* 72 / 25.4` conversion repeated in pages, since the refactor that is the shared `mm` helper of `StatisticPrints::PageLayout`.

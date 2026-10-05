@@ -7,6 +7,8 @@
 ```ruby
 module StatisticPrints
   class NationalityGenderPage
+    include PageLayout
+
     MAX_CHART_HEIGHT_MM = 90
     SECTION_GAP_MM = 6
     COLUMN_GAP_MM = 10
@@ -31,17 +33,7 @@ module StatisticPrints
 
     private
 
-    def draw_heading(zoning)
-      @pdf.font("AsapCondensed", style: :bold, size: 16) { @pdf.text "Sesso e Nazionalità - #{zoning.descrizione_azzonamento}" }
-      @pdf.move_down 8
-      @pdf.stroke_color "CCCCCC"
-      @pdf.stroke_horizontal_rule
-      @pdf.move_down section_gap
-    end
-
-    def draw_message(message, color)
-      @pdf.font("AsapCondensed", size: 12) { @pdf.text message, color: color }
-    end
+    def draw_heading(zoning) = draw_page_heading("Sesso e Nazionalità - #{zoning.descrizione_azzonamento}")
 
     # Disegna prima le due tabelle (colonne con un numero di righe diverso) e
     # solo dopo i grafici, così i due grafici a torta possono condividere lo
@@ -96,7 +88,7 @@ module StatisticPrints
       return if sesso_bottom.nil? && nazionalita_bottom.nil?
 
       chart_top = [ sesso_bottom, nazionalita_bottom ].compact.min - section_gap
-      height = [ chart_top - 6, MAX_CHART_HEIGHT_MM * 72 / 25.4 ].min
+      height = [ chart_top - 6, mm(MAX_CHART_HEIGHT_MM) ].min
 
       draw_sesso_chart(result, left, chart_top, height) if sesso_bottom
       draw_nazionalita_chart(result, left, chart_top, height) if nazionalita_bottom
@@ -118,9 +110,6 @@ module StatisticPrints
 
     def sesso_width = (@pdf.bounds.width - column_gap) * SESSO_RATIO
     def nazionalita_width = @pdf.bounds.width - column_gap - sesso_width
-    def column_gap = COLUMN_GAP_MM * 72 / 25.4
-
-    def section_gap = SECTION_GAP_MM * 72 / 25.4
   end
 end
 ```
@@ -202,7 +191,7 @@ def draw_charts(result, left, sesso_bottom, nazionalita_bottom)
   return if sesso_bottom.nil? && nazionalita_bottom.nil?
 
   chart_top = [ sesso_bottom, nazionalita_bottom ].compact.min - section_gap
-  height = [ chart_top - 6, MAX_CHART_HEIGHT_MM * 72 / 25.4 ].min
+  height = [ chart_top - 6, mm(MAX_CHART_HEIGHT_MM) ].min
 
   draw_sesso_chart(result, left, chart_top, height) if sesso_bottom
   draw_nazionalita_chart(result, left, chart_top, height) if nazionalita_bottom
@@ -232,7 +221,6 @@ end
 
 def sesso_width = (@pdf.bounds.width - column_gap) * SESSO_RATIO
 def nazionalita_width = @pdf.bounds.width - column_gap - sesso_width
-def column_gap = COLUMN_GAP_MM * 72 / 25.4
 ```
 
 > **IT:** `PieChart.draw` (`CodeGuide/StatisticPrints/pie_chart.md`) è chiamato con coordinate assolute (`at:`), non dentro un `bounding_box`: a differenza delle tabelle, i grafici non hanno bisogno di far avanzare il cursore del documento (sono l'ultimo elemento di pagina), quindi possono usare lo stesso pattern "coordinate assolute" già visto in `EmploymentStatusPage`. `SESSO_RATIO = 1.0 / 3` riflette il fatto che "Sesso" ha sempre solo 2 categorie (una torta piccola basta) mentre "Nazionalità" può averne diverse di più — è l'analogo, con proporzioni invertite (1/3 invece di 2/3), di `CHART_COLUMN_RATIO` in `EmploymentStatusPage`/`ProvisionalRevocationsPage`, dove però la colonna più larga era il grafico stesso, non la tabella complementare.

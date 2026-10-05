@@ -12,6 +12,8 @@ module StatisticSpiPrints
   # totale; i comprensori restano larghi come CategoryPercentageTable, una
   # colonna per motivo, perche' li' le righe sono gia' gli azzonamenti).
   class MotivoCessazionePercentageTable
+    include StatisticPrints::TableStyle
+
     def self.draw(...) = new(...).draw
 
     def initialize(pdf, row:, etichette:, title: nil)
@@ -53,18 +55,7 @@ module StatisticSpiPrints
       { 0 => width * 0.65, 1 => width * 0.35 }
     end
 
-    def cell_style
-      {
-        font: "AsapCondensed", size: 9, text_color: "000000", borders: [ :bottom ], border_color: "DDDDDD",
-        padding: [ 4, 6 ]
-      }
-    end
-
-    def style_header(table)
-      table.row(0).font_style = :bold
-      table.row(0).borders = [ :bottom ]
-      table.row(0).border_color = "666666"
-    end
+    def cell_style = super(size: 9, padding: [ 4, 6 ])
   end
 end
 ```
@@ -136,3 +127,5 @@ end
 > **IT:** Due sole colonne con proporzioni fisse (`65%`/`35%`) invece del calcolo dinamico `(width - label_width) / @etichette.size` visto in `CategoryTable`/`CategoryPercentageTable`: qui il numero di colonne è sempre 2 per costruzione (l'orientamento trasposto lo garantisce), quindi non serve dividere per `@etichette.size` — è `@etichette.size` a determinare il numero di **righe**, non di colonne. `cell_style` usa `size: 9` (contro `size: 8` di `CategoryTable`/`CategoryPercentageTable`): con solo due colonne larghe c'è più spazio per un font leggermente più leggibile, mentre le tabelle a N colonne strette devono restare più piccole per non far traboccare il testo delle etichette lunghe (es. "Cessazione Posizione Pensionistica").
 >
 > *EN: Just two columns with fixed proportions (`65%`/`35%`) instead of the dynamic `(width - label_width) / @etichette.size` calculation seen in `CategoryTable`/`CategoryPercentageTable`: here the column count is always 2 by construction (the transposed orientation guarantees it), so there's no need to divide by `@etichette.size` — `@etichette.size` instead determines the number of **rows**, not columns. `cell_style` uses `size: 9` (vs. `CategoryTable`/`CategoryPercentageTable`'s `size: 8`): with only two wide columns there's more room for a slightly more readable font, while the N-narrow-columns tables need to stay smaller so long label text (e.g. "Cessazione Posizione Pensionistica") doesn't overflow.*
+
+> **Nota 2026-10-05 / Note:** lo snippet qui sopra mostra il codice precedente al refactor: `cell_style` e `style_header` arrivano ora da `StatisticPrints::TableStyle` (vedi `CodeGuide/StatisticPrints/table_style.md`); il "Codice completo" in cima è quello attuale. / The snippet above shows the pre-refactor code: `cell_style` and `style_header` now come from `StatisticPrints::TableStyle`; the "Codice completo" at the top is current.

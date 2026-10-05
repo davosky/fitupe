@@ -9,6 +9,8 @@ module StatisticPrints
   # Tabella "per categoria": una riga per categoria e, per ciascun valore
   # (es. FEMMINE, MASCHI, ALTRO), una coppia di colonne conteggio / %.
   class CategoryCrossTable
+    include TableStyle
+
     LABEL_RATIO = 0.19
     PRIMARY = "158CBA"
     ICON_HEIGHT = 20
@@ -63,17 +65,11 @@ module StatisticPrints
       [ width * LABEL_RATIO ] + Array.new(labels.size * 2, value_width)
     end
 
-    def cell_style
-      {
-        font: "AsapCondensed", size: 10, text_color: "000000", borders: [ :bottom ], border_color: "DDDDDD",
-        padding: [ 7, 5 ]
-      }
-    end
+    def cell_style = super(padding: [ 7, 5 ])
 
     def style(table)
-      table.row(0).font_style = :bold
+      style_header(table)
       table.row(0).text_color = PRIMARY
-      table.row(0).border_color = "666666"
       table.columns(1..-1).rows(1..-1).align = :right
       separate_groups(table)
     end

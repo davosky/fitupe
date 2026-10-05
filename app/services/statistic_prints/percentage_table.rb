@@ -1,5 +1,7 @@
 module StatisticPrints
   class PercentageTable
+    include TableStyle
+
     def self.draw(...) = new(...).draw
 
     def initialize(pdf, at:, width:, rows:, label_header: "Gruppo")
@@ -29,19 +31,6 @@ module StatisticPrints
 
     def column_widths
       { 0 => @width * 0.5, 1 => @width * 0.5 }
-    end
-
-    def cell_style
-      {
-        font: "AsapCondensed", size: 10, text_color: "000000", borders: [ :bottom ], border_color: "DDDDDD",
-        padding: [ 5, 6 ]
-      }
-    end
-
-    def style_header(table)
-      table.row(0).font_style = :bold
-      table.row(0).borders = [ :bottom ]
-      table.row(0).border_color = "666666"
     end
   end
 end

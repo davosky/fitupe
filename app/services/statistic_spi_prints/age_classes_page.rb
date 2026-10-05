@@ -5,6 +5,8 @@ module StatisticSpiPrints
   # grafico regionale, prominente, seguito da una riga di grafici piu' piccoli
   # uno per comprensorio; a livello di comprensorio mostra solo il proprio.
   class AgeClassesPage
+    include StatisticPrints::PageLayout
+
     SECTION_GAP_MM = 8
     COLUMN_GAP_MM = 10
     TITLE_GAP_PT = 6
@@ -36,22 +38,14 @@ module StatisticSpiPrints
       if result.comprensori.present?
         draw_regional_and_comprensori(result)
       else
-        draw_chart_section(result.totale, @pdf.bounds.left, @pdf.bounds.width, mm_to_pt(SINGLE_CHART_HEIGHT_MM),
+        draw_chart_section(result.totale, @pdf.bounds.left, @pdf.bounds.width, mm(SINGLE_CHART_HEIGHT_MM),
           title_size: 14, top: @pdf.cursor)
       end
     end
 
     private
 
-    def draw_heading
-      @pdf.font("AsapCondensed", style: :bold, size: 16) { @pdf.text heading_title }
-      @pdf.move_down 2
-      @pdf.font("AsapCondensed", size: 10) { @pdf.text "Tesseramento #{@form.mese} #{@form.anno}", color: "666666" }
-      @pdf.move_down 8
-      @pdf.stroke_color "CCCCCC"
-      @pdf.stroke_horizontal_rule
-      @pdf.move_down section_gap
-    end
+    def draw_heading = draw_page_heading(heading_title, subtitle: period_subtitle)
 
     def heading_title
       return "CGIL Classi di Età SPI – Regionale e Comprensori" if @form.zoning.regionale?
@@ -69,7 +63,7 @@ module StatisticSpiPrints
     # con coordinate assolute, calcolate a partire da altezze note in anticipo.
     def draw_regional_and_comprensori(result)
       top = @pdf.cursor
-      regional_height = mm_to_pt(REGIONAL_CHART_HEIGHT_MM)
+      regional_height = mm(REGIONAL_CHART_HEIGHT_MM)
       draw_chart_section(result.totale, @pdf.bounds.left, @pdf.bounds.width, regional_height, title_size: 14, top: top)
 
       comprensori_top = top - title_block_height(14) - regional_height - section_gap
@@ -80,7 +74,7 @@ module StatisticSpiPrints
       width = comprensorio_width(comprensori.size)
       comprensori.each_with_index do |row, index|
         x = @pdf.bounds.left + (index * (width + column_gap))
-        draw_chart_section(row, x, width, mm_to_pt(COMPRENSORIO_CHART_HEIGHT_MM), title_size: 11, top: top)
+        draw_chart_section(row, x, width, mm(COMPRENSORIO_CHART_HEIGHT_MM), title_size: 11, top: top)
       end
     end
 
@@ -106,9 +100,5 @@ module StatisticSpiPrints
     def title_block_height(title_size) = title_size + TITLE_GAP_PT
 
     def comprensorio_width(count) = ((@pdf.bounds.width - (column_gap * (count - 1))) / count)
-
-    def column_gap = mm_to_pt(COLUMN_GAP_MM)
-    def section_gap = mm_to_pt(SECTION_GAP_MM)
-    def mm_to_pt(mm) = mm * 72 / 25.4
   end
 end

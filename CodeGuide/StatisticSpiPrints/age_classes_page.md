@@ -12,6 +12,8 @@ module StatisticSpiPrints
   # grafico regionale, prominente, seguito da una riga di grafici piu' piccoli
   # uno per comprensorio; a livello di comprensorio mostra solo il proprio.
   class AgeClassesPage
+    include StatisticPrints::PageLayout
+
     SECTION_GAP_MM = 8
     COLUMN_GAP_MM = 10
     TITLE_GAP_PT = 6
@@ -43,22 +45,14 @@ module StatisticSpiPrints
       if result.comprensori.present?
         draw_regional_and_comprensori(result)
       else
-        draw_chart_section(result.totale, @pdf.bounds.left, @pdf.bounds.width, mm_to_pt(SINGLE_CHART_HEIGHT_MM),
+        draw_chart_section(result.totale, @pdf.bounds.left, @pdf.bounds.width, mm(SINGLE_CHART_HEIGHT_MM),
           title_size: 14, top: @pdf.cursor)
       end
     end
 
     private
 
-    def draw_heading
-      @pdf.font("AsapCondensed", style: :bold, size: 16) { @pdf.text heading_title }
-      @pdf.move_down 2
-      @pdf.font("AsapCondensed", size: 10) { @pdf.text "Tesseramento #{@form.mese} #{@form.anno}", color: "666666" }
-      @pdf.move_down 8
-      @pdf.stroke_color "CCCCCC"
-      @pdf.stroke_horizontal_rule
-      @pdf.move_down section_gap
-    end
+    def draw_heading = draw_page_heading(heading_title, subtitle: period_subtitle)
 
     def heading_title
       return "CGIL Classi di Età SPI – Regionale e Comprensori" if @form.zoning.regionale?
@@ -76,7 +70,7 @@ module StatisticSpiPrints
     # con coordinate assolute, calcolate a partire da altezze note in anticipo.
     def draw_regional_and_comprensori(result)
       top = @pdf.cursor
-      regional_height = mm_to_pt(REGIONAL_CHART_HEIGHT_MM)
+      regional_height = mm(REGIONAL_CHART_HEIGHT_MM)
       draw_chart_section(result.totale, @pdf.bounds.left, @pdf.bounds.width, regional_height, title_size: 14, top: top)
 
       comprensori_top = top - title_block_height(14) - regional_height - section_gap
@@ -87,7 +81,7 @@ module StatisticSpiPrints
       width = comprensorio_width(comprensori.size)
       comprensori.each_with_index do |row, index|
         x = @pdf.bounds.left + (index * (width + column_gap))
-        draw_chart_section(row, x, width, mm_to_pt(COMPRENSORIO_CHART_HEIGHT_MM), title_size: 11, top: top)
+        draw_chart_section(row, x, width, mm(COMPRENSORIO_CHART_HEIGHT_MM), title_size: 11, top: top)
       end
     end
 
@@ -113,10 +107,6 @@ module StatisticSpiPrints
     def title_block_height(title_size) = title_size + TITLE_GAP_PT
 
     def comprensorio_width(count) = ((@pdf.bounds.width - (column_gap * (count - 1))) / count)
-
-    def column_gap = mm_to_pt(COLUMN_GAP_MM)
-    def section_gap = mm_to_pt(SECTION_GAP_MM)
-    def mm_to_pt(mm) = mm * 72 / 25.4
   end
 end
 ```
@@ -166,7 +156,7 @@ def draw
   if result.comprensori.present?
     draw_regional_and_comprensori(result)
   else
-    draw_chart_section(result.totale, @pdf.bounds.left, @pdf.bounds.width, mm_to_pt(SINGLE_CHART_HEIGHT_MM),
+    draw_chart_section(result.totale, @pdf.bounds.left, @pdf.bounds.width, mm(SINGLE_CHART_HEIGHT_MM),
       title_size: 14, top: @pdf.cursor)
   end
 end
@@ -181,7 +171,7 @@ end
 ```ruby
 def draw_regional_and_comprensori(result)
   top = @pdf.cursor
-  regional_height = mm_to_pt(REGIONAL_CHART_HEIGHT_MM)
+  regional_height = mm(REGIONAL_CHART_HEIGHT_MM)
   draw_chart_section(result.totale, @pdf.bounds.left, @pdf.bounds.width, regional_height, title_size: 14, top: top)
 
   comprensori_top = top - title_block_height(14) - regional_height - section_gap
@@ -192,7 +182,7 @@ def draw_comprensori_row(comprensori, top)
   width = comprensorio_width(comprensori.size)
   comprensori.each_with_index do |row, index|
     x = @pdf.bounds.left + (index * (width + column_gap))
-    draw_chart_section(row, x, width, mm_to_pt(COMPRENSORIO_CHART_HEIGHT_MM), title_size: 11, top: top)
+    draw_chart_section(row, x, width, mm(COMPRENSORIO_CHART_HEIGHT_MM), title_size: 11, top: top)
   end
 end
 ```
@@ -250,11 +240,10 @@ def title_block_height(title_size) = title_size + TITLE_GAP_PT
 
 def comprensorio_width(count) = ((@pdf.bounds.width - (column_gap * (count - 1))) / count)
 
-def column_gap = mm_to_pt(COLUMN_GAP_MM)
-def section_gap = mm_to_pt(SECTION_GAP_MM)
-def mm_to_pt(mm) = mm * 72 / 25.4
 ```
 
 > **IT:** `title_block_height` è la funzione che rende possibile l'intera correzione: incapsula "quanto spazio verticale occupa un titolo di questa dimensione" (la dimensione del font in punti, più `TITLE_GAP_PT` fisso) in modo che sia riusabile sia per calcolare `chart_top` dentro `draw_chart_section` sia per calcolare `comprensori_top` dentro `draw_regional_and_comprensori` — le due sottrazioni manuali di `top` descritte sopra dipendono entrambe da questo singolo metodo, quindi un cambiamento a `TITLE_GAP_PT` si propaga coerentemente a entrambi i calcoli. `comprensorio_width` divide lo spazio orizzontale disponibile in `count` colonne uguali separate da `count - 1` gap (non `count` gap: nessun gap dopo l'ultima colonna) — la stessa aritmetica "N colonne, N-1 spazi" che in altre pagine è implicita nel fatto che ci sono sempre e solo due colonne (`column_width = (width - column_gap) / 2`), qui resa esplicitamente generica perché il numero di comprensori non è fisso a due. Le altre tre conversioni mm→pt sono identiche, nella forma, a ogni altra pagina della cartella.
 >
 > *EN: `title_block_height` is the function that makes the whole fix possible: it encapsulates "how much vertical space a title of this size takes up" (the font size in points, plus the fixed `TITLE_GAP_PT`) so it can be reused both to compute `chart_top` inside `draw_chart_section` and to compute `comprensori_top` inside `draw_regional_and_comprensori` — the two manual `top` subtractions described above both depend on this single method, so a change to `TITLE_GAP_PT` propagates consistently to both computations. `comprensorio_width` divides the available horizontal space into `count` equal columns separated by `count - 1` gaps (not `count` gaps: no gap after the last column) — the same "N columns, N-1 gaps" arithmetic that in other pages is implicit in there always being exactly two columns (`column_width = (width - column_gap) / 2`), made explicitly generic here because the number of comprensori isn't fixed at two. The other three mm→pt conversions are identical, in shape, to every other page in this folder.*
+
+> **Nota 2026-10-05 / Note:** dove il testo cita `mm_to_pt` o la conversione `* 72 / 25.4` ripetuta nelle pagine, dal refactor si tratta dell'helper condiviso `mm` di `StatisticPrints::PageLayout` (vedi `CodeGuide/StatisticPrints/page_layout.md`). / Where the text mentions `mm_to_pt` or the `* 72 / 25.4` conversion repeated in pages, since the refactor that is the shared `mm` helper of `StatisticPrints::PageLayout`.

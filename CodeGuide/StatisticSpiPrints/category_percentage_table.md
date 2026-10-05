@@ -9,6 +9,8 @@ module StatisticSpiPrints
   # Come CategoryTable ma con le percentuali invece dei conteggi, niente
   # colonna "totale".
   class CategoryPercentageTable
+    include StatisticPrints::TableStyle
+
     def self.draw(...) = new(...).draw
 
     def initialize(pdf, rows:, etichette:, title: nil)
@@ -55,18 +57,7 @@ module StatisticSpiPrints
       widths
     end
 
-    def cell_style
-      {
-        font: "AsapCondensed", size: 8, text_color: "000000", borders: [ :bottom ], border_color: "DDDDDD",
-        padding: [ 4, 4 ]
-      }
-    end
-
-    def style_header(table)
-      table.row(0).font_style = :bold
-      table.row(0).borders = [ :bottom ]
-      table.row(0).border_color = "666666"
-    end
+    def cell_style = super(size: 8, padding: [ 4, 4 ])
   end
 end
 ```

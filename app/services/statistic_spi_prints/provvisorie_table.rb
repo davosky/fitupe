@@ -3,6 +3,8 @@ module StatisticSpiPrints
   # un solo numero (non un'etichetta per colonna) piu' la sua percentuale sul
   # totale deleghe, a specchio di app/views/statistic_spi/_provvisorie_table.
   class ProvvisorieTable
+    include StatisticPrints::TableStyle
+
     def self.draw(...) = new(...).draw
 
     def initialize(pdf, rows:, title: nil)
@@ -46,17 +48,6 @@ module StatisticSpiPrints
       { 0 => width * 0.4, 1 => width * 0.3, 2 => width * 0.3 }
     end
 
-    def cell_style
-      {
-        font: "AsapCondensed", size: 9, text_color: "000000", borders: [ :bottom ], border_color: "DDDDDD",
-        padding: [ 5, 6 ]
-      }
-    end
-
-    def style_header(table)
-      table.row(0).font_style = :bold
-      table.row(0).borders = [ :bottom ]
-      table.row(0).border_color = "666666"
-    end
+    def cell_style = super(size: 9)
   end
 end

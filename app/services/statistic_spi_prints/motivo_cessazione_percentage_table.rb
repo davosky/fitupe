@@ -5,6 +5,8 @@ module StatisticSpiPrints
   # totale; i comprensori restano larghi come CategoryPercentageTable, una
   # colonna per motivo, perche' li' le righe sono gia' gli azzonamenti).
   class MotivoCessazionePercentageTable
+    include StatisticPrints::TableStyle
+
     def self.draw(...) = new(...).draw
 
     def initialize(pdf, row:, etichette:, title: nil)
@@ -46,17 +48,6 @@ module StatisticSpiPrints
       { 0 => width * 0.65, 1 => width * 0.35 }
     end
 
-    def cell_style
-      {
-        font: "AsapCondensed", size: 9, text_color: "000000", borders: [ :bottom ], border_color: "DDDDDD",
-        padding: [ 4, 6 ]
-      }
-    end
-
-    def style_header(table)
-      table.row(0).font_style = :bold
-      table.row(0).borders = [ :bottom ]
-      table.row(0).border_color = "666666"
-    end
+    def cell_style = super(size: 9, padding: [ 4, 6 ])
   end
 end
