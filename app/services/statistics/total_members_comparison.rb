@@ -2,7 +2,8 @@ module Statistics
   class TotalMembersComparison
     Result = Struct.new(:zoning, :mese, :anno, :anno_precedente, :count_anno, :count_precedente, :diff,
       :diff_percent, :comprensori, :categorie, :attivi_pensionati, :tipologie_iscrizione, :tipologie_delega,
-      :nazionalita, :sesso, :provvisorie_revoche, :status_lavorativo, :fasce_eta, :error, keyword_init: true) do
+      :nazionalita, :sesso, :provvisorie_revoche, :status_lavorativo, :fasce_eta, :sesso_per_categoria,
+      :nazionalita_per_categoria, :error, keyword_init: true) do
       def success?
         error.blank?
       end
@@ -48,7 +49,8 @@ module Statistics
         diff_percent: row.diff_percent, comprensori: comprensori, categorie: categorie,
         attivi_pensionati: attivi_pensionati, tipologie_iscrizione: tipologie_iscrizione,
         tipologie_delega: tipologie_delega, nazionalita: nazionalita, sesso: sesso,
-        provvisorie_revoche: provvisorie_revoche, status_lavorativo: status_lavorativo, fasce_eta: fasce_eta)
+        provvisorie_revoche: provvisorie_revoche, status_lavorativo: status_lavorativo, fasce_eta: fasce_eta,
+        sesso_per_categoria: sesso_per_categoria, nazionalita_per_categoria: nazionalita_per_categoria)
     end
 
     def build_row(zoning)
@@ -110,6 +112,16 @@ module Statistics
 
     def fasce_eta
       AgeBreakdown.call(zoning: @zoning, anno: @anno, mese: @mese)
+    end
+
+    def sesso_per_categoria
+      CategoryCrossBreakdown.call(zoning: @zoning, anno: @anno, mese: @mese, column: :sesso,
+        values: GenderBreakdown::SESSI, altro: true)
+    end
+
+    def nazionalita_per_categoria
+      CategoryCrossBreakdown.call(zoning: @zoning, anno: @anno, mese: @mese, column: :nazionalita,
+        values: NationalityBreakdown::NAZIONALITA)
     end
 
     def missing_data_result(missing_years)

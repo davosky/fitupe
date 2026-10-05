@@ -45,6 +45,7 @@ Ogni sezione della pagina (Comprensori, Categorie, Attivi/Pensionati, Tipologie 
 1. **Servizio** in `app/services/statistics/<nome>_breakdown.rb` — una classe con `Row = Struct.new(..., keyword_init: true)` e `def self.call(...) = new(...).call`. Esistono due forme ricorrenti:
    - **Confronto anno su anno** (`anno:` + `anno_precedente:`, righe con `diff`/`diff_percent`) — es. `CategoryBreakdown`, `DelegationTypeBreakdown`.
    - **Distribuzione sul solo anno corrente** (solo `anno:`, righe con `percentuale` = quota sul totale iscritti *dello stesso azzonamento/anno/mese*, non un totale globale) — es. `NationalityBreakdown`, `GenderBreakdown`, `WorkStatusBreakdown`, `AgeBreakdown`.
+   - **Incrocio per categoria sul solo anno corrente** (`CategoryCrossBreakdown`: una riga per categoria, celle con `percentuale` = quota sul totale *della singola categoria*) — sezioni "Genere Per Categoria" e "Nazionalità Per Categoria", vedi `category_cross_breakdown.md`.
 
 2. **Wiring** in `Statistics::TotalMembersComparison` — il servizio "orchestratore": aggiunge un campo al `Result` (uno `Struct` unico che la vista legge), lo valorizza in `build_result`, e chiama il nuovo servizio da un metodo privato di una riga.
 
@@ -136,6 +137,7 @@ Every section of the page (Comprensori, Categorie, Attivi/Pensionati, Tipologie 
 1. **Service** in `app/services/statistics/<name>_breakdown.rb` — a class with `Row = Struct.new(..., keyword_init: true)` and `def self.call(...) = new(...).call`. Two recurring shapes exist:
    - **Year-over-year comparison** (`anno:` + `anno_precedente:`, rows with `diff`/`diff_percent`) — e.g. `CategoryBreakdown`, `DelegationTypeBreakdown`.
    - **Current-year-only distribution** (`anno:` only, rows with `percentuale` = share of the total members *for that same zoning/year/month*, not a global total) — e.g. `NationalityBreakdown`, `GenderBreakdown`, `WorkStatusBreakdown`, `AgeBreakdown`.
+   - **Per-category cross, current year only** (`CategoryCrossBreakdown`: one row per category, cells with `percentuale` = share of *that single category's* total) — the "Genere Per Categoria" and "Nazionalità Per Categoria" sections, see `category_cross_breakdown.md`.
 
 2. **Wiring** in `Statistics::TotalMembersComparison` — the orchestrator service: it adds a field to `Result` (one shared `Struct` the view reads), populates it in `build_result`, and calls the new service from a one-line private method.
 

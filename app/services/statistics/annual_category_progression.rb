@@ -35,14 +35,11 @@ module Statistics
 
     # { [categoria, mese] => conteggio } con una sola query per anno. Lo stesso
     # anno può avere mesi importati con "Categoria" e altri con "Categoria
-    # Sindacale" (mai entrambe sulla stessa riga): COALESCE le unisce.
+    # Sindacale": Import.categoria_sql le unisce.
     def counts_by(anno)
-      (@counts_by ||= {})[anno] ||= scope(@zoning, anno, mesi).where.not(Arel.sql("#{categoria_sql} IS NULL"))
-        .group(Arel.sql(categoria_sql), :mese_di_riferimento).count
-    end
-
-    def categoria_sql
-      Import.column_names.include?("categoria_sindacale") ? "COALESCE(categoria_sindacale, categoria)" : "categoria"
+      categoria = Import.categoria_sql
+      (@counts_by ||= {})[anno] ||= scope(@zoning, anno, mesi).where.not(Arel.sql("#{categoria} IS NULL"))
+        .group(Arel.sql(categoria), :mese_di_riferimento).count
     end
 
     def integrazione(categoria, anno, mese)

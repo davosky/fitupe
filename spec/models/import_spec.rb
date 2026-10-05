@@ -34,4 +34,13 @@ RSpec.describe Import, type: :model do
       expect(Import::IGNORED_COLUMNS).to contain_exactly("utente_modifica", "data_modifica")
     end
   end
+
+  describe ".categoria_sql" do
+    it "unisce categoria_sindacale e categoria in un'unica espressione raggruppabile" do
+      create(:import, categoria: "FIOM")
+      create(:import, categoria_sindacale: "FLC")
+
+      expect(described_class.group(Arel.sql(described_class.categoria_sql)).count).to eq("FIOM" => 1, "FLC" => 1)
+    end
+  end
 end

@@ -1,0 +1,38 @@
+<% if rows.present? %>
+  <div class="card border-dark p-3 m-2 shadow-sm">
+    <h4>
+      <span class="p-2 fw-bold fst-italic">
+        <%= image_tag(icon, class: "img-fluid me-1", size: "48x48", alt: title.downcase) %>
+        <%= title %>
+      </span>
+    </h4>
+    <hr class="mt-2 mb-2"/>
+    <div class="table-responsive">
+      <table class="table table-hover align-middle">
+        <thead>
+          <tr>
+            <th class="fs-5">Categoria</th>
+            <% rows.first.cells.each do |cell| %>
+              <th class="fs-5 text-center border-start" colspan="2"><%= cell.label %></th>
+            <% end %>
+          </tr>
+        </thead>
+        <tbody>
+          <% rows.each do |riga| %>
+            <tr>
+              <td class="fs-5"><%= riga.categoria %></td>
+              <% riga.cells.each do |cell| %>
+                <td class="fs-5 text-end border-start"><%= number_with_delimiter(cell.count, locale: :it) %></td>
+                <td class="fs-5 text-end">
+                  <% if cell.percentuale %>
+                    <i><%= number_to_percentage(cell.percentuale, precision: 2, locale: :it) %></i>
+                  <% end %>
+                </td>
+              <% end %>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+<% end %>

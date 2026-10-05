@@ -7,7 +7,7 @@ module StatisticPrints
 
     CONTENT_PAGES = [
       RegionalPage, CategoriesPage, EmploymentStatusPage, MembershipTypesPage, ProvisionalRevocationsPage,
-      NationalityGenderPage, WorkStatusAgePage
+      NationalityGenderPage, WorkStatusAgePage, CategoryGenderNationalityPage
     ].freeze
 
     def self.call(...) = new(...).call

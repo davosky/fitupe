@@ -1,18 +1,6 @@
 require "rails_helper"
 
 RSpec.describe StatisticSpiPrints::AgeClassesPage do
-  def build_pdf
-    pdf = Prawn::Document.new(page_size: "A4", page_layout: :landscape)
-    asap_dir = Rails.root.join("app/assets/fonts")
-    pdf.font_families.update(
-      "AsapCondensed" => {
-        normal: asap_dir.join("AsapCondensed-Regular.ttf"), bold: asap_dir.join("AsapCondensed-Bold.ttf"),
-        italic: asap_dir.join("AsapCondensed-Italic.ttf"), bold_italic: asap_dir.join("AsapCondensed-BoldItalic.ttf")
-      }
-    )
-    pdf
-  end
-
   context "quando l'azzonamento scelto non è regionale" do
     let(:zoning) { create(:zoning, codice_azzonamento: "GA", descrizione_azzonamento: "Trieste") }
     let(:form) { TotalMembersForm.new(zoning_id: zoning.id, anno: "2026", mese: "Giugno") }

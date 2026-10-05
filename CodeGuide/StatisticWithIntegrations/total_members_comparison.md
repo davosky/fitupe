@@ -15,13 +15,14 @@ module StatisticWithIntegrations
   # riga "Delega" di tipologie_iscrizione (i lavoratori aggiunti da Cassa
   # Edile/Anagrafe sono per definizione a delega, mai BreviManu) — senza
   # ricalibrare anche queste due sezioni, la loro somma non torna più con il
-  # totale corretto. Le altre sezioni (nazionalità, sesso, fasce età, ecc.)
-  # non hanno un equivalente esterno e passano invariate da Statistics.
+  # totale corretto. Le altre sezioni (nazionalità, sesso, fasce età, sesso e
+  # nazionalità per categoria, ecc.) non hanno un equivalente esterno (Cassa
+  # Edile/Anagrafe non dicono sesso né nazionalità) e passano invariate.
   class TotalMembersComparison
     Result = Struct.new(:zoning, :mese, :anno, :anno_precedente, :count_anno, :count_precedente, :diff,
       :diff_percent, :comprensori, :categorie, :attivi_pensionati, :tipologie_iscrizione, :tipologie_delega,
-      :nazionalita, :sesso, :provvisorie_revoche, :status_lavorativo, :fasce_eta, :fillea_correzione,
-      :flc_correzione, :error, keyword_init: true) do
+      :nazionalita, :sesso, :provvisorie_revoche, :status_lavorativo, :fasce_eta, :sesso_per_categoria,
+      :nazionalita_per_categoria, :fillea_correzione, :flc_correzione, :error, keyword_init: true) do
       def success? = error.blank?
     end
 
@@ -87,6 +88,7 @@ module StatisticWithIntegrations
           count_anno),
         nazionalita: base.nazionalita, sesso: base.sesso, provvisorie_revoche: base.provvisorie_revoche,
         status_lavorativo: base.status_lavorativo, fasce_eta: base.fasce_eta,
+        sesso_per_categoria: base.sesso_per_categoria, nazionalita_per_categoria: base.nazionalita_per_categoria,
         fillea_correzione: fillea_anno, flc_correzione: flc_anno)
     end
 
@@ -193,8 +195,8 @@ class TotalMembersComparison
 ```ruby
 Result = Struct.new(:zoning, :mese, :anno, :anno_precedente, :count_anno, :count_precedente, :diff,
   :diff_percent, :comprensori, :categorie, :attivi_pensionati, :tipologie_iscrizione, :tipologie_delega,
-  :nazionalita, :sesso, :provvisorie_revoche, :status_lavorativo, :fasce_eta, :fillea_correzione,
-  :flc_correzione, :error, keyword_init: true) do
+  :nazionalita, :sesso, :provvisorie_revoche, :status_lavorativo, :fasce_eta, :sesso_per_categoria,
+  :nazionalita_per_categoria, :fillea_correzione, :flc_correzione, :error, keyword_init: true) do
   def success? = error.blank?
 end
 

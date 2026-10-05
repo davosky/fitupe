@@ -9,7 +9,8 @@ module Statistics
   class TotalMembersComparison
     Result = Struct.new(:zoning, :mese, :anno, :anno_precedente, :count_anno, :count_precedente, :diff,
       :diff_percent, :comprensori, :categorie, :attivi_pensionati, :tipologie_iscrizione, :tipologie_delega,
-      :nazionalita, :sesso, :provvisorie_revoche, :status_lavorativo, :fasce_eta, :error, keyword_init: true) do
+      :nazionalita, :sesso, :provvisorie_revoche, :status_lavorativo, :fasce_eta, :sesso_per_categoria,
+      :nazionalita_per_categoria, :error, keyword_init: true) do
       def success?
         error.blank?
       end
@@ -55,7 +56,8 @@ module Statistics
         diff_percent: row.diff_percent, comprensori: comprensori, categorie: categorie,
         attivi_pensionati: attivi_pensionati, tipologie_iscrizione: tipologie_iscrizione,
         tipologie_delega: tipologie_delega, nazionalita: nazionalita, sesso: sesso,
-        provvisorie_revoche: provvisorie_revoche, status_lavorativo: status_lavorativo, fasce_eta: fasce_eta)
+        provvisorie_revoche: provvisorie_revoche, status_lavorativo: status_lavorativo, fasce_eta: fasce_eta,
+        sesso_per_categoria: sesso_per_categoria, nazionalita_per_categoria: nazionalita_per_categoria)
     end
 
     def build_row(zoning)
@@ -76,12 +78,11 @@ module Statistics
     end
 
     def regionale?
-      @zoning.codice_azzonamento.to_s.length == 1
+      @zoning.regionale?
     end
 
     def province_zonings
-      Zoning.where("codice_azzonamento LIKE ? AND codice_azzonamento != ?", "#{@zoning.codice_azzonamento}%",
-        @zoning.codice_azzonamento).order(:codice_azzonamento)
+      Zoning.comprensori_di(@zoning)
     end
 
     def categorie
@@ -120,6 +121,16 @@ module Statistics
       AgeBreakdown.call(zoning: @zoning, anno: @anno, mese: @mese)
     end
 
+    def sesso_per_categoria
+      CategoryCrossBreakdown.call(zoning: @zoning, anno: @anno, mese: @mese, column: :sesso,
+        values: GenderBreakdown::SESSI, altro: true)
+    end
+
+    def nazionalita_per_categoria
+      CategoryCrossBreakdown.call(zoning: @zoning, anno: @anno, mese: @mese, column: :nazionalita,
+        values: NationalityBreakdown::NAZIONALITA)
+    end
+
     def missing_data_result(missing_years)
       Result.new(
         zoning: @zoning, mese: @mese, anno: @anno, anno_precedente: @anno_precedente,
@@ -144,16 +155,17 @@ end
 ```ruby
 Result = Struct.new(:zoning, :mese, :anno, :anno_precedente, :count_anno, :count_precedente, :diff,
   :diff_percent, :comprensori, :categorie, :attivi_pensionati, :tipologie_iscrizione, :tipologie_delega,
-  :nazionalita, :sesso, :provvisorie_revoche, :status_lavorativo, :fasce_eta, :error, keyword_init: true) do
+  :nazionalita, :sesso, :provvisorie_revoche, :status_lavorativo, :fasce_eta, :sesso_per_categoria,
+  :nazionalita_per_categoria, :error, keyword_init: true) do
   def success?
     error.blank?
   end
 end
 ```
 
-> **IT:** L'unico oggetto che la vista `_total_iscritti.html.erb` conosce. Ogni volta che si aggiunge una nuova sezione alla pagina Statistiche, il primo passo è aggiungere qui un nuovo campo (come `:fasce_eta`, l'ultimo aggiunto). Il metodo `success?` è la guardia usata dalla vista per decidere se mostrare le card con i dati oppure l'alert di errore: si basa solo sulla presenza di `error`, non su un controllo esplicito di tutti i campi.
+> **IT:** L'unico oggetto che la vista `_total_iscritti.html.erb` conosce. Ogni volta che si aggiunge una nuova sezione alla pagina Statistiche, il primo passo è aggiungere qui un nuovo campo (come `:sesso_per_categoria`/`:nazionalita_per_categoria`, gli ultimi aggiunti — vedi `category_cross_breakdown.md`). Il metodo `success?` è la guardia usata dalla vista per decidere se mostrare le card con i dati oppure l'alert di errore: si basa solo sulla presenza di `error`, non su un controllo esplicito di tutti i campi.
 >
-> *EN: The only object the `_total_iscritti.html.erb` view knows about. Every time a new section is added to the Statistics page, the first step is adding a new field here (like `:fasce_eta`, the most recently added one). The `success?` method is the guard the view uses to decide whether to render the data cards or the error alert: it relies solely on whether `error` is present, not on an explicit check of every field.*
+> *EN: The only object the `_total_iscritti.html.erb` view knows about. Every time a new section is added to the Statistics page, the first step is adding a new field here (like `:sesso_per_categoria`/`:nazionalita_per_categoria`, the most recently added ones — see `category_cross_breakdown.md`). The `success?` method is the guard the view uses to decide whether to render the data cards or the error alert: it relies solely on whether `error` is present, not on an explicit check of every field.*
 
 ### `Row` (Struct)
 
@@ -228,7 +240,8 @@ def build_result
     diff_percent: row.diff_percent, comprensori: comprensori, categorie: categorie,
     attivi_pensionati: attivi_pensionati, tipologie_iscrizione: tipologie_iscrizione,
     tipologie_delega: tipologie_delega, nazionalita: nazionalita, sesso: sesso,
-    provvisorie_revoche: provvisorie_revoche, status_lavorativo: status_lavorativo, fasce_eta: fasce_eta)
+    provvisorie_revoche: provvisorie_revoche, status_lavorativo: status_lavorativo, fasce_eta: fasce_eta,
+    sesso_per_categoria: sesso_per_categoria, nazionalita_per_categoria: nazionalita_per_categoria)
 end
 ```
 

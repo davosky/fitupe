@@ -1,0 +1,43 @@
+<%# Card "distribuzione sul solo anno corrente" con tabella e grafico a torta (Nazionalità, Sesso). %>
+<% if rows.present? %>
+  <% labels = rows.map(&attribute) %>
+  <div class="card border-dark p-3 m-2 shadow-sm">
+    <h4>
+      <span class="p-2 fw-bold fst-italic">
+        <%= image_tag(icon, class: "img-fluid me-1", size: "48x48", alt: title.downcase) %>
+        <%= title %>
+      </span>
+    </h4>
+    <hr class="mt-2 mb-2"/>
+    <div class="table-responsive">
+      <table class="table table-hover align-middle">
+        <thead>
+          <tr>
+            <th class="fs-5"><%= title %></th>
+            <th class="fs-5"><%= @total_members_result.mese %> <%= @total_members_result.anno %></th>
+            <th class="fs-5"><i>%</i></th>
+          </tr>
+        </thead>
+        <tbody>
+          <% rows.each do |riga| %>
+            <tr>
+              <td class="fs-5"><%= riga.public_send(attribute) %></td>
+              <td class="fs-5"><%= number_with_delimiter(riga.count, locale: :it) %></td>
+              <td class="fs-5">
+                <% if riga.percentuale %>
+                  <%= number_to_percentage(riga.percentuale, precision: 2, locale: :it) %>
+                <% end %>
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+    <div class="mt-4 mx-auto" style="position: relative; height: 320px; width: 100%; max-width: 420px;"
+        data-controller="pie-chart"
+        data-pie-chart-labels-value="<%= labels.to_json %>"
+        data-pie-chart-data-value="<%= rows.map(&:count).to_json %>">
+      <canvas data-pie-chart-target="canvas"></canvas>
+    </div>
+  </div>
+<% end %>

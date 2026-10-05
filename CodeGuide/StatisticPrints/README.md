@@ -18,7 +18,7 @@ Vale la pena leggere prima `CodeGuide/Statistics/README.md`: ogni pagina di ques
 
 1. **Copertina** (`CoverPage`, full-bleed, via `pdf.canvas`) — l'unica pagina con `fill_color` bianco.
 2. **Legenda** (`LegendPage`, opzionale — solo se `form.legend` è presente).
-3. Per l'azzonamento scelto: una **pagina divisoria** (`ZoningDividerPage`) seguita dal set completo di **pagine di contenuto** (`CONTENT_PAGES`: `RegionalPage, CategoriesPage, EmploymentStatusPage, MembershipTypesPage, ProvisionalRevocationsPage, NationalityGenderPage, WorkStatusAgePage`).
+3. Per l'azzonamento scelto: una **pagina divisoria** (`ZoningDividerPage`) seguita dal set completo di **pagine di contenuto** (`CONTENT_PAGES`: `RegionalPage, CategoriesPage, EmploymentStatusPage, MembershipTypesPage, ProvisionalRevocationsPage, NationalityGenderPage, WorkStatusAgePage, CategoryGenderNationalityPage`).
 4. Se l'azzonamento scelto è regionale, l'intera sezione del punto 3 si **ripete una volta per ciascun comprensorio** (`Zoning.comprensori_di`).
 5. **Controcopertina** (`BackCoverPage`, full-bleed), con una pagina bianca inserita prima se il numero di pagine fin lì è dispari — così il fascicolo interno ha sempre un numero di pagine pari, pronto per la stampa fronte/retro.
 
@@ -77,7 +77,7 @@ Worth reading `CodeGuide/Statistics/README.md` first: every page in this folder 
 
 1. **Cover** (`CoverPage`, full-bleed, via `pdf.canvas`) — the only page with white `fill_color`.
 2. **Legend** (`LegendPage`, optional — only when `form.legend` is present).
-3. For the chosen zoning: a **divider page** (`ZoningDividerPage`) followed by the full set of **content pages** (`CONTENT_PAGES`: `RegionalPage, CategoriesPage, EmploymentStatusPage, MembershipTypesPage, ProvisionalRevocationsPage, NationalityGenderPage, WorkStatusAgePage`).
+3. For the chosen zoning: a **divider page** (`ZoningDividerPage`) followed by the full set of **content pages** (`CONTENT_PAGES`: `RegionalPage, CategoriesPage, EmploymentStatusPage, MembershipTypesPage, ProvisionalRevocationsPage, NationalityGenderPage, WorkStatusAgePage, CategoryGenderNationalityPage`).
 4. When the chosen zoning is regional, the entire section from step 3 **repeats once per comprensorio** (`Zoning.comprensori_di`).
 5. **Back cover** (`BackCoverPage`, full-bleed), with a blank page inserted first if the page count so far is odd — so the inner booklet always has an even page count, ready for duplex printing.
 

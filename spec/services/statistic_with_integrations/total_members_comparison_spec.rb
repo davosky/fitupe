@@ -140,6 +140,9 @@ RSpec.describe StatisticWithIntegrations::TotalMembersComparison do
         expect(result.nazionalita.map(&:count)).to eq(
           Statistics::NationalityBreakdown.call(zoning: zoning, anno: "2026", mese: "Giugno").map(&:count)
         )
+        base = Statistics::TotalMembersComparison.call(zoning: zoning, anno: "2026", mese: "Giugno")
+        expect(result.sesso_per_categoria).to eq(base.sesso_per_categoria)
+        expect(result.nazionalita_per_categoria).to eq(base.nazionalita_per_categoria)
       end
     end
 

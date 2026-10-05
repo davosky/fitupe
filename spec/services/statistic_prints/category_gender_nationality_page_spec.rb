@@ -1,0 +1,35 @@
+require "rails_helper"
+
+RSpec.describe StatisticPrints::CategoryGenderNationalityPage do
+  let(:zoning) { create(:zoning) }
+  let(:form) { TotalMembersForm.new(zoning_id: zoning.id, anno: "2026", mese: "Giugno") }
+
+  it "disegna le due tabelle per categoria su un'unica pagina quando esistono dati" do
+    create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+      mese_di_riferimento: "Giugno", sesso: "F", nazionalita: "ITALIA", categoria: "FIOM")
+    create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+      mese_di_riferimento: "Giugno", sesso: "M", nazionalita: "EXTRAUE", categoria: "FIOM")
+
+    pdf = build_pdf
+    expect { described_class.draw(pdf, form: form) }.not_to raise_error
+    expect(pdf.page_count).to eq(1)
+  end
+
+  it "disegna un messaggio quando manca l'anno precedente" do
+    create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+      mese_di_riferimento: "Giugno", sesso: "F", nazionalita: "ITALIA", categoria: "FIOM")
+
+    expect { described_class.draw(build_pdf, form: form) }.not_to raise_error
+  end
+
+  it "usa il comparison_service passato invece di quello di default" do
+    create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
+      mese_di_riferimento: "Giugno", sesso: "F", nazionalita: "ITALIA", categoria: "FIOM")
+    create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+      mese_di_riferimento: "Giugno", sesso: "M", nazionalita: "EXTRAUE", categoria: "FIOM")
+
+    expect {
+      described_class.draw(build_pdf, form: form, comparison_service: StatisticWithIntegrations::TotalMembersComparison)
+    }.not_to raise_error
+  end
+end

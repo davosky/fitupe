@@ -42,14 +42,11 @@ module Statistics
 
     # { [categoria, mese] => conteggio } con una sola query per anno. Lo stesso
     # anno può avere mesi importati con "Categoria" e altri con "Categoria
-    # Sindacale" (mai entrambe sulla stessa riga): COALESCE le unisce.
+    # Sindacale": Import.categoria_sql le unisce.
     def counts_by(anno)
-      (@counts_by ||= {})[anno] ||= scope(@zoning, anno, mesi).where.not(Arel.sql("#{categoria_sql} IS NULL"))
-        .group(Arel.sql(categoria_sql), :mese_di_riferimento).count
-    end
-
-    def categoria_sql
-      Import.column_names.include?("categoria_sindacale") ? "COALESCE(categoria_sindacale, categoria)" : "categoria"
+      categoria = Import.categoria_sql
+      (@counts_by ||= {})[anno] ||= scope(@zoning, anno, mesi).where.not(Arel.sql("#{categoria} IS NULL"))
+        .group(Arel.sql(categoria), :mese_di_riferimento).count
     end
 
     def integrazione(categoria, anno, mese)
@@ -77,18 +74,22 @@ class AnnualCategoryProgression < AnnualProgression
 >
 > *EN: The Annual Category Progression page (`/statistics/progression_categories`) is "the same thing" as Annual Progression but per union category: same months (January through the last imported one), same missing-data checks, same growth formula, same messages. So it is a subclass inheriting `call`, `mesi`, `previous_complete?`, `crescita` and `error_result` from `AnnualProgression` (see `annual_progression.md`) and overriding only `rows` and `gaps`. `Row`/`Gap` carry `categoria` instead of `zoning` here; both versions expose `label`, the only thing the shared `_progression_year.html.erb` partial reads, so one view serves both pages.*
 
-### `counts_by` e `categoria_sql`
+### `counts_by` e `Import.categoria_sql`
 
 ```ruby
 def counts_by(anno)
-  (@counts_by ||= {})[anno] ||= scope(@zoning, anno, mesi).where.not(Arel.sql("#{categoria_sql} IS NULL"))
-    .group(Arel.sql(categoria_sql), :mese_di_riferimento).count
+  categoria = Import.categoria_sql
+  (@counts_by ||= {})[anno] ||= scope(@zoning, anno, mesi).where.not(Arel.sql("#{categoria} IS NULL"))
+    .group(Arel.sql(categoria), :mese_di_riferimento).count
 end
 
-def categoria_sql
-  Import.column_names.include?("categoria_sindacale") ? "COALESCE(categoria_sindacale, categoria)" : "categoria"
+# app/models/import.rb
+def self.categoria_sql
+  column_names.include?("categoria_sindacale") ? "COALESCE(categoria_sindacale, categoria)" : "categoria"
 end
 ```
+
+> **Nota 2026-10-05 / Note:** `categoria_sql` è stato spostato su `Import` perché ora lo usa anche `CategoryCrossBreakdown`. / `categoria_sql` moved onto `Import` because `CategoryCrossBreakdown` now uses it too.
 
 > **IT:** La trappola principale. `CategoryBreakdown` sceglie **una** colonna per scope (`categoria_sindacale` se ha dati, altrimenti `categoria`), il che va bene per un singolo mese; qui però lo scope copre più mesi, e nei dati reali i mesi fino a Giugno 2026 sono stati importati con l'intestazione "Categoria" e quelli da Luglio con "Categoria Sindacale". Con la scelta per-scope tutte le categorie risultavano a zero da Gennaio a Giugno. Verificato sui dati che le due colonne non sono mai valorizzate entrambe sulla stessa riga, `COALESCE` per riga è la generalizzazione esatta. Il frammento SQL è costante (nessun input utente), quindi `Arel.sql` è sicuro. Una sola query raggruppata per (categoria, mese) per anno.
 >

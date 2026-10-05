@@ -330,88 +330,10 @@
           </div>
         </div>
       <% end %>
-      <% if @total_members_result.nazionalita.present? %>
-        <div class="card border-dark p-3 m-2 shadow-sm">
-          <h4>
-            <span class="p-2 fw-bold fst-italic">
-              <%= image_tag("statistic/nazionalita.svg", class: "img-fluid me-1", size: "48x48", alt: "nazionalità") %>
-              Nazionalità
-            </span>
-          </h4>
-          <hr class="mt-2 mb-2"/>
-          <div class="table-responsive">
-            <table class="table table-hover align-middle">
-              <thead>
-                <tr>
-                  <th class="fs-5">Nazionalità</th>
-                  <th class="fs-5"><%= @total_members_result.mese %> <%= @total_members_result.anno %></th>
-                  <th class="fs-5"><i>%</i></th>
-                </tr>
-              </thead>
-              <tbody>
-                <% @total_members_result.nazionalita.each do |riga| %>
-                  <tr>
-                    <td class="fs-5"><%= riga.nazionalita %></td>
-                    <td class="fs-5"><%= number_with_delimiter(riga.count, locale: :it) %></td>
-                    <td class="fs-5">
-                      <% if riga.percentuale %>
-                        <%= number_to_percentage(riga.percentuale, precision: 2, locale: :it) %>
-                      <% end %>
-                    </td>
-                  </tr>
-                <% end %>
-              </tbody>
-            </table>
-          </div>
-          <div class="mt-4 mx-auto" style="position: relative; height: 320px; width: 100%; max-width: 420px;"
-              data-controller="pie-chart"
-              data-pie-chart-labels-value="<%= @total_members_result.nazionalita.map(&:nazionalita).to_json %>"
-              data-pie-chart-data-value="<%= @total_members_result.nazionalita.map(&:count).to_json %>">
-            <canvas data-pie-chart-target="canvas"></canvas>
-          </div>
-        </div>
-      <% end %>
-      <% if @total_members_result.sesso.present? %>
-        <div class="card border-dark p-3 m-2 shadow-sm">
-          <h4>
-            <span class="p-2 fw-bold fst-italic">
-              <%= image_tag("statistic/sesso.svg", class: "img-fluid me-1", size: "48x48", alt: "sesso") %>
-              Sesso
-            </span>
-          </h4>
-          <hr class="mt-2 mb-2"/>
-          <div class="table-responsive">
-            <table class="table table-hover align-middle">
-              <thead>
-                <tr>
-                  <th class="fs-5">Sesso</th>
-                  <th class="fs-5"><%= @total_members_result.mese %> <%= @total_members_result.anno %></th>
-                  <th class="fs-5"><i>%</i></th>
-                </tr>
-              </thead>
-              <tbody>
-                <% @total_members_result.sesso.each do |riga| %>
-                  <tr>
-                    <td class="fs-5"><%= riga.sesso %></td>
-                    <td class="fs-5"><%= number_with_delimiter(riga.count, locale: :it) %></td>
-                    <td class="fs-5">
-                      <% if riga.percentuale %>
-                        <%= number_to_percentage(riga.percentuale, precision: 2, locale: :it) %>
-                      <% end %>
-                    </td>
-                  </tr>
-                <% end %>
-              </tbody>
-            </table>
-          </div>
-          <div class="mt-4 mx-auto" style="position: relative; height: 320px; width: 100%; max-width: 420px;"
-              data-controller="pie-chart"
-              data-pie-chart-labels-value="<%= @total_members_result.sesso.map(&:sesso).to_json %>"
-              data-pie-chart-data-value="<%= @total_members_result.sesso.map(&:count).to_json %>">
-            <canvas data-pie-chart-target="canvas"></canvas>
-          </div>
-        </div>
-      <% end %>
+      <%= render "statistics/single_year_pie", title: "Nazionalità", icon: "statistic/nazionalita.svg",
+            attribute: :nazionalita, rows: @total_members_result.nazionalita %>
+      <%= render "statistics/single_year_pie", title: "Sesso", icon: "statistic/sesso.svg",
+            attribute: :sesso, rows: @total_members_result.sesso %>
       <% if @total_members_result.provvisorie_revoche.present? %>
         <div class="card border-dark p-3 m-2 shadow-sm">
           <h4>
@@ -558,6 +480,10 @@
           </div>
         </div>
       <% end %>
+      <%= render "statistics/category_cross", title: "Genere Per Categoria", icon: "statistic/sesso.svg",
+            rows: @total_members_result.sesso_per_categoria %>
+      <%= render "statistics/category_cross", title: "Nazionalità Per Categoria", icon: "statistic/nazionalita.svg",
+            rows: @total_members_result.nazionalita_per_categoria %>
     <% else %>
       <div class="alert alert-warning mb-0">
         <i class="bi bi-exclamation-triangle-fill me-2"></i>

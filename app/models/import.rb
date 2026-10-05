@@ -10,4 +10,11 @@ class Import < ApplicationRecord
   belongs_to :azzonamento_di_riferimento, class_name: "Zoning", inverse_of: :imports
 
   validates :anno_di_riferimento, :mese_di_riferimento, presence: true
+
+  # La categoria sindacale è in "Categoria" o in "Categoria Sindacale" a
+  # seconda dell'intestazione dell'export SinCGIL del mese (mai entrambe sulla
+  # stessa riga): COALESCE le unisce nelle query che raggruppano per categoria.
+  def self.categoria_sql
+    column_names.include?("categoria_sindacale") ? "COALESCE(categoria_sindacale, categoria)" : "categoria"
+  end
 end

@@ -8,6 +8,7 @@ Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 
 ### Aggiunto
 
+- Statistiche e Statistiche Con Integrazioni: nuove sezioni in fondo "Genere Per Categoria" (FEMMINE, MASCHI, ALTRO) e "Nazionalità Per Categoria" (ITALIANA, UE, EXTRAUE), con numero e percentuale sul totale della singola categoria, sul solo anno corrente. Le stesse sezioni chiudono Stampa Statistiche e Stampa Statistiche Con Integrazioni con una nuova pagina a due tabelle affiancate, ciascuna con icona, intestazioni blu e separatori verticali tra i gruppi di colonne.
 - Workflow CI su GitHub Actions: ad ogni push su `main` e ad ogni pull request prepara Ruby, Node e un servizio Postgres 18, poi esegue `bin/ci` (setup, rubocop, bundler-audit, yarn audit, brakeman, build asset, test del database, RSpec).
 - Stampa Statistiche SPI: nuovo report PDF (Prawn, A4 orizzontale) a specchio di Stampa Statistiche, con copertina dinamica, pagina Legenda SPI opzionale (da testo ricco), pagine Totali Iscritti-Deleghe (con grafico a barre raggruppate), Deleghe Multiple, Tipologie Delega (con grafico a barre per categoria e uno raggruppato per comprensorio), Cessazioni (con grafici a torta), Provvisorie (con grafici a torta) e Classi di Età per decine (grafico regionale prominente più uno per comprensorio, etichette abbreviate nei grafici comprensoriali), controcopertina, e ripetizione automatica del report (preceduto da una pagina di intestazione con logo CGIL+SPI) per ciascun comprensorio quando l'azzonamento scelto è regionale.
 - Statistiche SPI: nuova sezione "Provvisorie" con tabella (Regionale e Comprensori, percentuale sul totale deleghe del periodo) e grafici a torta — a livello Regionale, Provvisorie contro Deleghe Confermate; a livello Comprensori, un'unica torta con una fetta colorata per ciascun comprensorio (percentuale reale, non ri-normalizzata) più la quota aggregata di Deleghe Confermate.
@@ -31,6 +32,8 @@ Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 
 ### Modificato
 
+- Semplificazioni dopo l'audit di fine sessione: le card "Nazionalità" e "Sesso" di Statistiche usano un unico partial (`statistics/_single_year_pie`), l'espressione SQL che unisce "Categoria" e "Categoria Sindacale" vive solo in `Import.categoria_sql`, l'helper `build_pdf` dei test PDF è in `spec/support/pdf_helpers.rb` invece che copiato in 16 file.
+- `yarn watch:css` (usato da `bin/dev`) usa ora `sass --watch` al posto di `nodemon`: in sviluppo il CSS non passa più da autoprefixer, che resta applicato da `yarn build:css` (CI, precompilazione, produzione).
 - Grafici a torta (Stampa Statistiche e Stampa Statistiche SPI): le fette molto piccole mostrano ora l'etichetta all'esterno del cerchio, in colore scuro e collegata da una linea, invece che sovrapposta e illeggibile all'interno; più fette piccole consecutive si distanziano progressivamente per non sovrapporsi tra loro.
 - Statistiche: le etichette percentuali nei grafici a barre (Comprensori, Categorie, Attivi/Pensionati) sono ora verdi per i valori positivi e rosse per i negativi.
 - Statistiche: le colonne "iscritti" e "%" di tutte le tabelle sono in grassetto, verde se positive e rosso se negative.
@@ -56,4 +59,5 @@ Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 
 ### Sicurezza
 
+- Eliminata una vulnerabilità high (DoS, CVE-2026-93687) in `braces`, per la quale non esiste una versione corretta: rimosso `nodemon` e aggiornato `postcss-cli` alla 12, così `chokidar` 3 (che la richiedeva) non è più installato.
 - Aggiunta la gemma `secure_headers` con header di sicurezza HTTP applicativi: HSTS, X-Frame-Options, X-Content-Type-Options, X-Download-Options, X-Permitted-Cross-Domain-Policies, Referrer-Policy, cookie con flag Secure (in produzione)/HttpOnly/SameSite, e una Content-Security-Policy (nessun asset esterno, solo risorse self-hosted).

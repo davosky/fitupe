@@ -4,18 +4,6 @@ RSpec.describe StatisticPrints::WorkStatusAgePage do
   let(:zoning) { create(:zoning) }
   let(:form) { TotalMembersForm.new(zoning_id: zoning.id, anno: "2026", mese: "Giugno") }
 
-  def build_pdf
-    pdf = Prawn::Document.new(page_size: "A4", page_layout: :landscape)
-    asap_dir = Rails.root.join("app/assets/fonts")
-    pdf.font_families.update(
-      "AsapCondensed" => {
-        normal: asap_dir.join("AsapCondensed-Regular.ttf"), bold: asap_dir.join("AsapCondensed-Bold.ttf"),
-        italic: asap_dir.join("AsapCondensed-Italic.ttf"), bold_italic: asap_dir.join("AsapCondensed-BoldItalic.ttf")
-      }
-    )
-    pdf
-  end
-
   it "disegna le due colonne e i grafici su un'unica pagina quando esistono dati" do
     create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
       mese_di_riferimento: "Giugno", tipologia_status: "Dipendente", data_nascita: 35.years.ago)

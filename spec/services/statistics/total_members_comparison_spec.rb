@@ -285,6 +285,26 @@ RSpec.describe Statistics::TotalMembersComparison do
     end
   end
 
+  context "quando esistono iscritti di più categorie, sessi e nazionalità" do
+    before do
+      create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025", mese_di_riferimento: "Giugno")
+      create_list(:import, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", categoria: "FIOM", sesso: "F", nazionalita: "ITALIA")
+      create(:import, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2026",
+        mese_di_riferimento: "Giugno", categoria: "FIOM", sesso: "M", nazionalita: "UE")
+    end
+
+    it "espone sesso e nazionalità per categoria, con la percentuale sul totale della categoria" do
+      fiom_sesso = result.sesso_per_categoria.find { |row| row.categoria == "FIOM" }
+      expect(fiom_sesso.cells.map(&:label)).to eq(%w[FEMMINE MASCHI ALTRO])
+      expect(fiom_sesso.cells.map(&:count)).to eq([ 3, 1, 0 ])
+
+      fiom_nazionalita = result.nazionalita_per_categoria.find { |row| row.categoria == "FIOM" }
+      expect(fiom_nazionalita.cells.map(&:label)).to eq(%w[ITALIANA UE EXTRAUE])
+      expect(fiom_nazionalita.cells.first.percentuale).to be_within(0.01).of(75.0)
+    end
+  end
+
   context "quando esistono pratiche provvisorie e revoche" do
     before do
       create_list(:import, 3, azzonamento_di_riferimento: zoning, anno_di_riferimento: "2025",
