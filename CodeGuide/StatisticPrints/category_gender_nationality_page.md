@@ -30,15 +30,15 @@ module StatisticPrints
       return draw_message(result.error, "DC3545") unless result.success?
 
       top = @pdf.cursor
-      draw_table("Genere Per Categoria", "sesso.png", result.sesso_per_categoria, @pdf.bounds.left, top)
-      draw_table("Nazionalità Per Categoria", "nazionalita.png", result.nazionalita_per_categoria,
+      draw_table("Genere per Categoria", "sesso.png", result.sesso_per_categoria, @pdf.bounds.left, top)
+      draw_table("Nazionalità per Categoria", "nazionalita.png", result.nazionalita_per_categoria,
         @pdf.bounds.left + column_width + column_gap, top)
     end
 
     private
 
     def draw_heading(result)
-      draw_page_heading("Genere e Nazionalità Per Categoria - #{result.zoning.descrizione_azzonamento} - " \
+      draw_page_heading("Per Categoria: Genere e Nazionalità - #{result.zoning.descrizione_azzonamento} - " \
                         "#{result.mese} #{result.anno}")
     end
 
@@ -73,8 +73,8 @@ class CategoryGenderNationalityPage
 
 ```ruby
 top = @pdf.cursor
-draw_table("Genere Per Categoria", "sesso.png", result.sesso_per_categoria, @pdf.bounds.left, top)
-draw_table("Nazionalità Per Categoria", "nazionalita.png", result.nazionalita_per_categoria,
+draw_table("Genere per Categoria", "sesso.png", result.sesso_per_categoria, @pdf.bounds.left, top)
+draw_table("Nazionalità per Categoria", "nazionalita.png", result.nazionalita_per_categoria,
   @pdf.bounds.left + column_width + column_gap, top)
 ```
 
