@@ -22,20 +22,10 @@ module StatisticSpiPrints
 
     def draw
       draw_title
-      table = @pdf.make_table(table_data, header: true, width: @pdf.bounds.width, cell_style: cell_style,
-        column_widths: column_widths)
-      style_header(table)
-      table.draw
+      draw_styled_table
     end
 
     private
-
-    def draw_title
-      return if @title.blank?
-
-      @pdf.font("AsapCondensed", style: :bold, size: 12) { @pdf.text @title }
-      @pdf.move_down 4
-    end
 
     def header_row = [ "Azzonamento" ] + @etichette
 
@@ -103,3 +93,5 @@ end
 > **IT:** `NumberFormatting.percent` restituisce `nil` se il valore è `nil` (vedi `StatisticPrints::NumberFormatting.percent`), e `nil` passato a `prawn-table` come contenuto di cella viene reso come cella vuota — questo è il modo in cui una `percentuali[etichetta] => nil` (comprensorio senza deleghe del periodo, `totale.zero?` nei breakdown SPI) diventa una cella vuota invece di un `"0.00%"` fuorviante o di un errore. `column_widths` usa `20%` fisso per la colonna etichetta (contro il `17%` di `CategoryTable`): non c'è colonna "totale" da cui sottrarre, quindi la percentuale libera rimanente è leggermente diversa e ridistribuita tra le sole colonne etichetta.
 >
 > *EN: `NumberFormatting.percent` returns `nil` when the value is `nil` (see `StatisticPrints::NumberFormatting.percent`), and `nil` passed to `prawn-table` as cell content renders as an empty cell — this is how a `percentuali[etichetta] => nil` (a comprensorio with no delegations for the period, `totale.zero?` in the SPI breakdowns) becomes an empty cell instead of a misleading `"0.00%"` or an error. `column_widths` uses a fixed `20%` for the label column (vs. `CategoryTable`'s `17%`): there's no "totale" column to subtract from, so the remaining free percentage is slightly different and redistributed only across the label columns.*
+
+> **Nota 2026-10-06 / Note:** gli snippet delle sezioni commentate possono mostrare il codice precedente: `draw_title` e la costruzione della tabella (`make_table` + `style_header` + `table.draw`) arrivano ora da `StatisticPrints::TableStyle` (`draw_title(size:)`, `draw_styled_table`, vedi `CodeGuide/StatisticPrints/table_style.md`); il "Codice completo" in cima è quello attuale. / Snippets in the commented sections may show the earlier code: `draw_title` and the table build now come from `StatisticPrints::TableStyle`; the "Codice completo" at the top is current.

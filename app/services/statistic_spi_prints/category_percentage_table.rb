@@ -15,20 +15,10 @@ module StatisticSpiPrints
 
     def draw
       draw_title
-      table = @pdf.make_table(table_data, header: true, width: @pdf.bounds.width, cell_style: cell_style,
-        column_widths: column_widths)
-      style_header(table)
-      table.draw
+      draw_styled_table
     end
 
     private
-
-    def draw_title
-      return if @title.blank?
-
-      @pdf.font("AsapCondensed", style: :bold, size: 12) { @pdf.text @title }
-      @pdf.move_down 4
-    end
 
     def header_row = [ "Azzonamento" ] + @etichette
 

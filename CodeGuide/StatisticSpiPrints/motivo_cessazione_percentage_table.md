@@ -25,20 +25,10 @@ module StatisticSpiPrints
 
     def draw
       draw_title
-      table = @pdf.make_table(table_data, header: true, width: @pdf.bounds.width, cell_style: cell_style,
-        column_widths: column_widths)
-      style_header(table)
-      table.draw
+      draw_styled_table
     end
 
     private
-
-    def draw_title
-      return if @title.blank?
-
-      @pdf.font("AsapCondensed", style: :bold, size: 12) { @pdf.text @title }
-      @pdf.move_down 4
-    end
 
     def header_row = [ "Motivo Cessazione", "% sul totale deleghe" ]
 
@@ -129,3 +119,5 @@ end
 > *EN: Just two columns with fixed proportions (`65%`/`35%`) instead of the dynamic `(width - label_width) / @etichette.size` calculation seen in `CategoryTable`/`CategoryPercentageTable`: here the column count is always 2 by construction (the transposed orientation guarantees it), so there's no need to divide by `@etichette.size` — `@etichette.size` instead determines the number of **rows**, not columns. `cell_style` uses `size: 9` (vs. `CategoryTable`/`CategoryPercentageTable`'s `size: 8`): with only two wide columns there's more room for a slightly more readable font, while the N-narrow-columns tables need to stay smaller so long label text (e.g. "Cessazione Posizione Pensionistica") doesn't overflow.*
 
 > **Nota 2026-10-05 / Note:** lo snippet qui sopra mostra il codice precedente al refactor: `cell_style` e `style_header` arrivano ora da `StatisticPrints::TableStyle` (vedi `CodeGuide/StatisticPrints/table_style.md`); il "Codice completo" in cima è quello attuale. / The snippet above shows the pre-refactor code: `cell_style` and `style_header` now come from `StatisticPrints::TableStyle`; the "Codice completo" at the top is current.
+
+> **Nota 2026-10-06 / Note:** gli snippet delle sezioni commentate possono mostrare il codice precedente: `draw_title` e la costruzione della tabella (`make_table` + `style_header` + `table.draw`) arrivano ora da `StatisticPrints::TableStyle` (`draw_title(size:)`, `draw_styled_table`, vedi `CodeGuide/StatisticPrints/table_style.md`); il "Codice completo" in cima è quello attuale. / Snippets in the commented sections may show the earlier code: `draw_title` and the table build now come from `StatisticPrints::TableStyle`; the "Codice completo" at the top is current.

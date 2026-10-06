@@ -20,12 +20,7 @@ module StatisticPrints
     end
 
     def draw
-      @pdf.bounding_box(@at, width: @width) do
-        table = @pdf.make_table(table_data, header: true, width: @width, cell_style: cell_style,
-          column_widths: column_widths)
-        style_header(table)
-        table.draw
-      end
+      @pdf.bounding_box(@at, width: @width) { draw_styled_table(width: @width) }
     end
 
     private
@@ -97,3 +92,5 @@ end
 > **IT:** Due colonne di uguale larghezza (50/50): con solo un'etichetta e una percentuale non c'è bisogno di una ripartizione asimmetrica come nelle 5 colonne di `ComparisonTable` (`0.33/0.19/0.19/0.145/0.145`, dove la colonna etichetta è più larga delle colonne numeriche). `cell_style`/`style_header` sono identici, carattere per carattere, alle controparti in `ComparisonTable` e `SingleYearTable` — inclusa la stessa nota sul `text_color: "000000"` esplicito, necessario per lo stesso motivo (`fill_color` è stato globale del documento, non isolato per tabella) descritto in `CodeGuide/StatisticPrints/comparison_table.md`. Nessuna colorazione condizionale riga per riga: questa tabella, a differenza di `ComparisonTable`, non ha un concetto di "buono/cattivo" (una percentuale sul totale non è né positiva né negativa in sé), quindi non ha un equivalente di `style_rows`/`style_cell`.
 >
 > *EN: Two equal-width columns (50/50): with just a label and a percentage there's no need for the asymmetric split seen in `ComparisonTable`'s 5 columns (`0.33/0.19/0.19/0.145/0.145`, where the label column is wider than the numeric ones). `cell_style`/`style_header` are identical, character for character, to their counterparts in `ComparisonTable` and `SingleYearTable` — including the same note about explicit `text_color: "000000"`, needed for the same reason (`fill_color` is document-wide state, not table-scoped) described in `CodeGuide/StatisticPrints/comparison_table.md`. No conditional per-row coloring: unlike `ComparisonTable`, this table has no "good/bad" concept (a percentage of the total isn't inherently positive or negative), so it has no equivalent of `style_rows`/`style_cell`.*
+
+> **Nota 2026-10-06 / Note:** gli snippet delle sezioni commentate possono mostrare il codice precedente: `draw_title` e la costruzione della tabella (`make_table` + `style_header` + `table.draw`) arrivano ora da `StatisticPrints::TableStyle` (`draw_title(size:)`, `draw_styled_table`, vedi `CodeGuide/StatisticPrints/table_style.md`); il "Codice completo" in cima è quello attuale. / Snippets in the commented sections may show the earlier code: `draw_title` and the table build now come from `StatisticPrints::TableStyle`; the "Codice completo" at the top is current.

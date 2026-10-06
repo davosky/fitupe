@@ -23,20 +23,12 @@ module StatisticSpiPrints
 
     def draw
       draw_title
-      table = @pdf.make_table(table_data, header: true, width: @pdf.bounds.width, cell_style: cell_style,
-        column_widths: column_widths)
-      style_header(table)
-      table.draw
+      draw_styled_table
     end
 
     private
 
-    def draw_title
-      return if @title.blank?
-
-      @pdf.font("AsapCondensed", style: :bold, size: 13) { @pdf.text @title }
-      @pdf.move_down 4
-    end
+    def draw_title = super(size: 13)
 
     def header_row = [ "Azzonamento", "Doppia", "Tripla", "Quadrupla", "Quintupla", "totale deleghe multiple" ]
 
@@ -106,3 +98,5 @@ end
 > **IT:** Sei colonne a larghezza fissa in percentuale (`28/13/13/13/13/20`), non calcolate a partire da un array variabile come nelle tabelle generiche — perché qui il numero di colonne è sempre 6, non dipende da nessun parametro passato dal chiamante. `MultipleDelegationsPage` (l'unico chiamante, confermato via `grep -rn "MultipleDelegationsTable\." app/services/statistic_spi_prints/`) usa questa tabella a **piena larghezza pagina** per entrambe le sezioni (totale e comprensori, una sotto l'altra — non affiancate in colonne come nelle altre pagine SPI), perché `MultipleDelegationsBreakdown` non produce un grafico da affiancare (nessun confronto anno su anno, quindi nessun `BarChart`): le due tabelle da sole riempiono comodamente la pagina senza bisogno di un layout a colonne.
 >
 > *EN: Six fixed-percentage-width columns (`28/13/13/13/13/20`), not computed from a variable-length array like the generic tables — because the column count here is always 6, it doesn't depend on any parameter passed by the caller. `MultipleDelegationsPage` (the only caller, confirmed via `grep -rn "MultipleDelegationsTable\." app/services/statistic_spi_prints/`) uses this table at **full page width** for both sections (total and comprensori, stacked rather than side-by-side columns like the other SPI pages), because `MultipleDelegationsBreakdown` produces no chart to place alongside it (no year-over-year comparison, hence no `BarChart`): the two tables alone comfortably fill the page without needing a column layout.*
+
+> **Nota 2026-10-06 / Note:** gli snippet delle sezioni commentate possono mostrare il codice precedente: `draw_title` e la costruzione della tabella (`make_table` + `style_header` + `table.draw`) arrivano ora da `StatisticPrints::TableStyle` (`draw_title(size:)`, `draw_styled_table`, vedi `CodeGuide/StatisticPrints/table_style.md`); il "Codice completo" in cima è quello attuale. / Snippets in the commented sections may show the earlier code: `draw_title` and the table build now come from `StatisticPrints::TableStyle`; the "Codice completo" at the top is current.

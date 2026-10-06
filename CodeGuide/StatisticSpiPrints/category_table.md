@@ -26,20 +26,10 @@ module StatisticSpiPrints
 
     def draw
       draw_title
-      table = @pdf.make_table(table_data, header: true, width: @pdf.bounds.width, cell_style: cell_style,
-        column_widths: column_widths)
-      style_header(table)
-      table.draw
+      draw_styled_table
     end
 
     private
-
-    def draw_title
-      return if @title.blank?
-
-      @pdf.font("AsapCondensed", style: :bold, size: 12) { @pdf.text @title }
-      @pdf.move_down 4
-    end
 
     def header_row = [ "Azzonamento" ] + @etichette + [ @total_label ]
 
@@ -154,3 +144,5 @@ end
 > *EN: `column_widths` computes widths as percentages of `@pdf.bounds.width` (fixed 17%/12% for the label and total columns, the rest split evenly across `@etichette.size` columns) instead of fixed point widths: the table adapts both to full-page vs. half-page width (`draw_totale_column`/`draw_comprensori_column` call it inside a half-page-wide `bounding_box` in landscape) and to a variable number of labels (5 for `TipologieDelegaBreakdown`, 6 for `CessazioniBreakdown`) without needing to be explicitly parameterized on width. `cell_style` explicitly sets `text_color: "000000"`: without this, `prawn-table` would inherit whatever fill color is currently active on `@pdf` (`fill_color` is document-wide state, possibly left set to something else by a caller just before, elsewhere in the same document) — omitting `text_color` would make the table's text depend on the last `fill_color` left active by whatever was drawn previously, a silent bug easy to miss on screen but not in a color print.*
 
 > **Nota 2026-10-05 / Note:** lo snippet qui sopra mostra il codice precedente al refactor: `cell_style` e `style_header` arrivano ora da `StatisticPrints::TableStyle` (vedi `CodeGuide/StatisticPrints/table_style.md`); il "Codice completo" in cima è quello attuale. / The snippet above shows the pre-refactor code: `cell_style` and `style_header` now come from `StatisticPrints::TableStyle`; the "Codice completo" at the top is current.
+
+> **Nota 2026-10-06 / Note:** gli snippet delle sezioni commentate possono mostrare il codice precedente: `draw_title` e la costruzione della tabella (`make_table` + `style_header` + `table.draw`) arrivano ora da `StatisticPrints::TableStyle` (`draw_title(size:)`, `draw_styled_table`, vedi `CodeGuide/StatisticPrints/table_style.md`); il "Codice completo" in cima è quello attuale. / Snippets in the commented sections may show the earlier code: `draw_title` and the table build now come from `StatisticPrints::TableStyle`; the "Codice completo" at the top is current.

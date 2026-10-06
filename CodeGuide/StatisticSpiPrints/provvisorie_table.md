@@ -22,20 +22,10 @@ module StatisticSpiPrints
 
     def draw
       draw_title
-      table = @pdf.make_table(table_data, header: true, width: @pdf.bounds.width, cell_style: cell_style,
-        column_widths: column_widths)
-      style_header(table)
-      table.draw
+      draw_styled_table
     end
 
     private
-
-    def draw_title
-      return if @title.blank?
-
-      @pdf.font("AsapCondensed", style: :bold, size: 12) { @pdf.text @title }
-      @pdf.move_down 4
-    end
 
     def header_row = [ "Azzonamento", "totale provvisorie", "% sul totale deleghe" ]
 
@@ -113,3 +103,5 @@ end
 > *EN: Fixed `40%/30%/30%`: the zoning-label column is slightly wider here (`40%`) than in `CategoryTable` (`17%`) or `MotivoCessazionePercentageTable` (`65%`, but there it's the "reason," not the zoning) because with only three total columns there's room to give it more breathing space without cramping the other two. `ProvvisoriePage` (the only caller, confirmed via `grep -rn "ProvvisorieTable\." app/services/statistic_spi_prints/`) uses this table inside a half-page column (like `TipologieDelegaPage`/`CessazioniPage`, not full-width like `MultipleDelegationsTable`), followed by a `StatisticPrints::PieChart` — another confirmed cross-module reuse: `ProvvisoriePage`/`CessazioniPage` both draw a "Provvisorie/Cessazioni vs. Deleghe Confermate" pie using the existing `StatisticPrints::PieChart` class, not a dedicated SPI version, because a 2-3-slice pie needs none of the data-shape differences that justified `BarChart`/`CategoryBarChart`/`GroupedCategoryBarChart` as separate classes.*
 
 > **Nota 2026-10-05 / Note:** lo snippet qui sopra mostra il codice precedente al refactor: `cell_style` e `style_header` arrivano ora da `StatisticPrints::TableStyle` (vedi `CodeGuide/StatisticPrints/table_style.md`); il "Codice completo" in cima è quello attuale. / The snippet above shows the pre-refactor code: `cell_style` and `style_header` now come from `StatisticPrints::TableStyle`; the "Codice completo" at the top is current.
+
+> **Nota 2026-10-06 / Note:** gli snippet delle sezioni commentate possono mostrare il codice precedente: `draw_title` e la costruzione della tabella (`make_table` + `style_header` + `table.draw`) arrivano ora da `StatisticPrints::TableStyle` (`draw_title(size:)`, `draw_styled_table`, vedi `CodeGuide/StatisticPrints/table_style.md`); il "Codice completo" in cima è quello attuale. / Snippets in the commented sections may show the earlier code: `draw_title` and the table build now come from `StatisticPrints::TableStyle`; the "Codice completo" at the top is current.

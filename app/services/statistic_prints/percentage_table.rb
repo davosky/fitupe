@@ -13,12 +13,7 @@ module StatisticPrints
     end
 
     def draw
-      @pdf.bounding_box(@at, width: @width) do
-        table = @pdf.make_table(table_data, header: true, width: @width, cell_style: cell_style,
-          column_widths: column_widths)
-        style_header(table)
-        table.draw
-      end
+      @pdf.bounding_box(@at, width: @width) { draw_styled_table(width: @width) }
     end
 
     private

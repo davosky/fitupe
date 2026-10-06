@@ -28,21 +28,12 @@ module StatisticPrints
 
     def draw
       draw_title
-      table = @pdf.make_table(table_data, header: true, width: @pdf.bounds.width, cell_style: cell_style,
-        column_widths: column_widths)
-      style_header(table)
-      style_rows(table)
-      table.draw
+      draw_styled_table { |table| style_rows(table) }
     end
 
     private
 
-    def draw_title
-      return if @title.blank?
-
-      @pdf.font("AsapCondensed", style: :bold, size: 13) { @pdf.text @title }
-      @pdf.move_down 4
-    end
+    def draw_title = super(size: 13)
 
     def header_row
       [ @label_header, "#{@mese} #{@anno_precedente}", "#{@mese} #{@anno}", @metric_label, "%" ]
@@ -161,3 +152,5 @@ end
 > **IT:** Lo stile è applicato **dopo** la creazione della tabella (`table = @pdf.make_table(...)`, poi `table.row(...)`), non dentro `cell_style` passato a `make_table`: `cell_style` è uniforme per tutte le celle, mentre il colore di `diff`/`diff_percent` (colonne 3 e 4, indicizzate da 0) dipende dal segno per ogni singola riga, quindi va calcolato e applicato riga per riga dopo che la tabella esiste già come oggetto `Prawn::Table`. `index + 1` compensa la riga di intestazione (indice 0): la riga `i` di `@rows` corrisponde sempre alla riga `i + 1` della tabella disegnata. Stesso identico schema di colorazione condizionale (verde se non negativo, rosso se negativo) usato in `BarChart#draw_percentage` — le due classi non condividono codice, ma condividono la stessa convenzione visiva applicata in due media diversi (barra vs tabella) della stessa pagina.
 >
 > *EN: Styling is applied **after** the table is created (`table = @pdf.make_table(...)`, then `table.row(...)`), not inside the `cell_style` passed to `make_table`: `cell_style` is uniform across all cells, while the `diff`/`diff_percent` color (columns 3 and 4, 0-indexed) depends on the sign per individual row, so it has to be computed and applied row by row after the table already exists as a `Prawn::Table` object. `index + 1` compensates for the header row (index 0): row `i` of `@rows` always corresponds to row `i + 1` of the drawn table. The exact same conditional-coloring scheme (green if non-negative, red if negative) is used in `BarChart#draw_percentage` — the two classes share no code, but they share the same visual convention applied across two different media (bar vs. table) on the same page.*
+
+> **Nota 2026-10-06 / Note:** gli snippet delle sezioni commentate possono mostrare il codice precedente: `draw_title` e la costruzione della tabella (`make_table` + `style_header` + `table.draw`) arrivano ora da `StatisticPrints::TableStyle` (`draw_title(size:)`, `draw_styled_table`, vedi `CodeGuide/StatisticPrints/table_style.md`); il "Codice completo" in cima è quello attuale. / Snippets in the commented sections may show the earlier code: `draw_title` and the table build now come from `StatisticPrints::TableStyle`; the "Codice completo" at the top is current.

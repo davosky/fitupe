@@ -22,20 +22,12 @@ module StatisticPrints
 
     def draw
       draw_title
-      table = @pdf.make_table(table_data, header: true, width: @pdf.bounds.width, cell_style: cell_style,
-        column_widths: column_widths)
-      style_header(table)
-      table.draw
+      draw_styled_table
     end
 
     private
 
-    def draw_title
-      return if @title.blank?
-
-      @pdf.font("AsapCondensed", style: :bold, size: 13) { @pdf.text @title }
-      @pdf.move_down 4
-    end
+    def draw_title = super(size: 13)
 
     def header_row = [ @label_header, "#{@mese} #{@anno}", "%" ]
 
@@ -107,3 +99,5 @@ end
 > **IT:** Header a 3 colonne (etichetta, conteggio dell'unico anno, percentuale) contro le 5 di `ComparisonTable`: manca ogni riferimento all'anno precedente, coerentemente con l'assenza di `anno_precedente:` tra gli argomenti di `initialize` — questa classe non potrebbe calcolare un confronto anche volendo, l'informazione semplicemente non le arriva mai. `column_widths` (0.4/0.3/0.3) è più equilibrato di quello di `ComparisonTable` (0.33/0.19/0.19/0.145/0.145): con solo tre colonne invece di cinque, non serve comprimere le colonne numeriche quanto in una tabella a 5 colonne. `cell_style` e `style_header` sono, ancora una volta, identici carattere per carattere alle altre due tabelle — la stessa nota su `text_color: "000000"` esplicito (immunità dallo stato globale di `fill_color`) vale identica qui, vedi `CodeGuide/StatisticPrints/comparison_table.md`.
 >
 > *EN: A 3-column header (label, single-year count, percentage) versus `ComparisonTable`'s 5: there's no reference to a previous year at all, consistent with the absence of `anno_precedente:` among `initialize`'s arguments — this class couldn't compute a comparison even if it wanted to, the information simply never reaches it. `column_widths` (0.4/0.3/0.3) is more balanced than `ComparisonTable`'s (0.33/0.19/0.19/0.145/0.145): with only three columns instead of five, there's no need to compress the numeric columns as much as in a 5-column table. `cell_style` and `style_header` are, once again, character-for-character identical to the other two tables — the same note about explicit `text_color: "000000"` (immunity from `fill_color`'s document-wide state) applies here unchanged, see `CodeGuide/StatisticPrints/comparison_table.md`.*
+
+> **Nota 2026-10-06 / Note:** gli snippet delle sezioni commentate possono mostrare il codice precedente: `draw_title` e la costruzione della tabella (`make_table` + `style_header` + `table.draw`) arrivano ora da `StatisticPrints::TableStyle` (`draw_title(size:)`, `draw_styled_table`, vedi `CodeGuide/StatisticPrints/table_style.md`); il "Codice completo" in cima è quello attuale. / Snippets in the commented sections may show the earlier code: `draw_title` and the table build now come from `StatisticPrints::TableStyle`; the "Codice completo" at the top is current.

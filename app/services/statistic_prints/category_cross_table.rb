@@ -19,10 +19,7 @@ module StatisticPrints
 
     def draw
       draw_title
-      table = @pdf.make_table(table_data, header: true, width: @pdf.bounds.width, cell_style: cell_style,
-        column_widths: column_widths)
-      style(table)
-      table.draw
+      draw_styled_table { |table| style(table) }
     end
 
     private
@@ -61,7 +58,6 @@ module StatisticPrints
     def cell_style = super(padding: [ 7, 5 ])
 
     def style(table)
-      style_header(table)
       table.row(0).text_color = PRIMARY
       table.columns(1..-1).rows(1..-1).align = :right
       separate_groups(table)

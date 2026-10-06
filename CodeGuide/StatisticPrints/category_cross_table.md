@@ -26,10 +26,7 @@ module StatisticPrints
 
     def draw
       draw_title
-      table = @pdf.make_table(table_data, header: true, width: @pdf.bounds.width, cell_style: cell_style,
-        column_widths: column_widths)
-      style(table)
-      table.draw
+      draw_styled_table { |table| style(table) }
     end
 
     private
@@ -68,7 +65,6 @@ module StatisticPrints
     def cell_style = super(padding: [ 7, 5 ])
 
     def style(table)
-      style_header(table)
       table.row(0).text_color = PRIMARY
       table.columns(1..-1).rows(1..-1).align = :right
       separate_groups(table)
@@ -139,3 +135,5 @@ end
 > **IT:** Modifica 01 di davo (2026-10-05) per la leggibilità: intestazioni nel blu primary di Lumen (`158CBA`, lo stesso di `SingleSeriesBarChart::PRIMARY`) e una riga verticale a sinistra di ogni coppia conteggio/% dopo la prima. Le colonne fisiche dei conteggi sono 1, 3, 5...: si parte da 3 perché il primo gruppo è già staccato dalla colonna Categoria.
 >
 > *EN: davo's "Modifica 01" (2026-10-05) for readability: headers in Lumen's primary blue (`158CBA`, the same as `SingleSeriesBarChart::PRIMARY`) and a vertical rule to the left of every count/% pair after the first. The physical count columns are 1, 3, 5...: it starts at 3 because the first group is already set apart by the Categoria column.*
+
+> **Nota 2026-10-06 / Note:** gli snippet delle sezioni commentate possono mostrare il codice precedente: `draw_title` e la costruzione della tabella (`make_table` + `style_header` + `table.draw`) arrivano ora da `StatisticPrints::TableStyle` (`draw_title(size:)`, `draw_styled_table`, vedi `CodeGuide/StatisticPrints/table_style.md`); il "Codice completo" in cima è quello attuale. / Snippets in the commented sections may show the earlier code: `draw_title` and the table build now come from `StatisticPrints::TableStyle`; the "Codice completo" at the top is current.
