@@ -1000,9 +1000,9 @@
     "semantic_hash": "f42fca2618568f7a38790db55863a4ca"
   },
   "/home/davo/Programmazione/fitupe/app/assets/images/statistic/nazionalita.svg": {
-    "mtime": 1784888364.2591302,
-    "ast_hash": "af83c21aa67ffdbbb39de232e46d669a",
-    "semantic_hash": "af83c21aa67ffdbbb39de232e46d669a"
+    "mtime": 1791278795.5785403,
+    "ast_hash": "bd53c61123ae053f2ffcb9531557e902",
+    "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/spec/services/statistics/gender_breakdown_spec.rb": {
     "mtime": 1784889004.2477946,
@@ -2445,8 +2445,8 @@
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/assets/images/statistic_prints/nazionalita.png": {
-    "mtime": 1791214763.9668262,
-    "ast_hash": "aaa2b1e992b2fb536d8f312ec0d4f393",
+    "mtime": 1791279001.8458555,
+    "ast_hash": "269611078794403d0e2838a1bfd2ccc5",
     "semantic_hash": ""
   },
   "/home/davo/Programmazione/fitupe/app/assets/images/statistic_prints/sesso.png": {
